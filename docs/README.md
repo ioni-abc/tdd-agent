@@ -12,10 +12,11 @@ Notes are for me. Decisions feed the design chapter of the thesis.
 | Note | Covers |
 | --- | --- |
 | [python.md](notes/python.md) | paths, imports, lambda, temp files, subprocess |
-| [tooling.md](notes/tooling.md) | uv, Ruff, venvs, VS Code, macOS, git and GitHub |
+| [tooling.md](notes/tooling.md) | uv (incl. dependency groups and conflicts), Ruff, venvs, VS Code, macOS, git and GitHub |
 | [evaluation.md](notes/evaluation.md) | decoding, pass@k, ClassEval strategies, TGen |
 | [parsing-unittest-logs.md](notes/parsing-unittest-logs.md) | `parse_log` line by line, regex reference |
 | [grader.md](notes/grader.md) | `grade()` and `GradeRecord`, Pydantic basics, review notes |
+| [reference-run.md](notes/reference-run.md) | the reference run: results, reading the output, the script's refactor |
 
 ## Decision records
 
@@ -31,9 +32,10 @@ Notes are for me. Decisions feed the design chapter of the thesis.
 | [004](decisions/004-incremental-development.md) | Build module by module, simplest version first | Accepted |
 | [005](decisions/005-classeval-data-and-test-fixes.md) | Pin ClassEval data; fix faulty tests in a separate, logged copy | Accepted |
 | [006](decisions/006-known-broken-tasks.md) | Exclude known-broken tasks from main results | Accepted |
-| [007](decisions/007-python-environments.md) | Python 3.12 for the project; test interpreter decided by experiment | Proposed |
+| [007](decisions/007-python-environments.md) | One environment, Python 3.12 (verified against the 3.8 results) | Accepted |
 | [008](decisions/008-evaluation-metric.md) | Greedy class-level pass@1 as the main metric | Proposed |
 | [009](decisions/009-pydantic-models-for-records.md) | Pydantic models for results that cross a boundary | Accepted |
+| [010](decisions/010-eval-dependency-group.md) | ClassEval's test packages in an `eval` group, pinned (`numpy<2`, `pandas<3`) | Accepted |
 
 ## Commit messages
 

@@ -78,3 +78,39 @@ Creates the folder when the `with` block starts and deletes it, with everything 
 The list is the exact command. The first item is the program to start; passing a full interpreter path decides which Python runs. `sys.executable` is the Python running the current script.
 
 It returns a `CompletedProcess` with `.returncode`, `.stdout` and `.stderr`. unittest writes its results to **stderr**; `stdout` stays empty.
+
+## Scripts
+
+### `if __name__ == "__main__":`
+
+`__name__` is `"__main__"` when the file is run directly, and the module's name when it is imported. Putting the work in `main()` behind this check means importing the script does nothing.
+
+```python
+def main() -> None:
+    ...
+
+if __name__ == "__main__":
+    main()
+```
+
+### Imports vs file paths
+
+- **Imports** work from any folder: `from tdd_agent.dataset import load_tasks` goes through `sys.path`, where the `.pth` file put `src/`.
+- `from src.tdd_agent...` fails: `src/` is the folder *on* `sys.path`, not a package. Editors may suggest it because they see the folder structure.
+- **File paths** on the command line depend on the current folder: `uv run python scripts/run_reference.py` works from the project root only.
+
+### f-strings
+
+- Same quotes nested (`f"{task["task_id"]}"`) work only on Python 3.12+. `f"{task['task_id']}"` works everywhere.
+- Adjacent string literals inside parentheses are joined automatically, so a long f-string can be split over lines:
+
+  ```python
+  print(
+      f"  {r.task_id}: {c.tests_passed}/{c.tests_total} "
+      f"({c.tests_failed} failed, {c.tests_errored} errored)"
+  )
+  ```
+
+### Floats and exact comparison
+
+Python 3.12 changed `sum()` of floats to a more accurate algorithm, so the last digits can differ from 3.8 (`ClassEval_31`: `0.9819805060619655` vs `0.9819805060619659`). A test that compares floats with `assertEqual` breaks on such changes; `assertAlmostEqual` is the robust form.
