@@ -27,6 +27,23 @@ uv run python -c "import tdd_agent; print(tdd_agent.__file__)"
 
 All importable code lives in `src/tdd_agent/`. Data, results, docs and config stay outside. The extra `src/` level stops Python from importing the code straight from the project folder, so tests run against the installed package.
 
+### Ruff: lint, sort imports, format
+
+```bash
+uv add --dev ruff                         # dev-only dependency
+uv run ruff check --select I --fix .      # I = isort rules: sort and group imports
+uv run ruff format .                      # formatting
+```
+
+In `pyproject.toml`, so every `ruff check --fix` covers it:
+
+```toml
+[tool.ruff.lint]
+select = ["E", "F", "I"]   # style errors, real bugs (unused imports, undefined names), import order
+```
+
+Import groups, in order: standard library, third-party, own package (`tdd_agent`).
+
 ## Virtual environments
 
 ### Which Python am I using?
