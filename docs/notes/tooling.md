@@ -86,4 +86,8 @@ Fix: pass only the file name, since it is relative to `cwd` by definition.
 - **Author vs pusher:** the author is the name and email in the commit (`git config user.name/user.email`); the pusher is the GitHub account that pushes. GitHub links a commit to a profile only if the author email is verified on that account.
 - **Co-author:** a `Co-Authored-By:` line at the end of the message makes GitHub show a second avatar.
 - **"Unverified" label:** the commit is signed with a key not registered on the account. Commits from Claude's workspace are signed automatically with the workspace's own key, hence the label.
+- **Paths in git commands are relative to the current folder.** From `src/tdd_agent/`, `git rm --cached src/tdd_agent/x.txt` fails with "pathspec did not match"; use `x.txt`, or `cd` to the root. `git status` prints paths relative to where you are.
+- **Check before adding:** `git status` before `git add .`, or add specific paths (`git add src/tdd_agent/grading pyproject.toml uv.lock`). A stray log file inside `src/` got committed this way.
+- **Taking a file out of an unpushed commit:** `git rm --cached <file>` (keeps it on disk), then `git commit --amend --no-edit`. Only safe before pushing.
+- **`remote: Internal Server Error` on push:** a problem on GitHub's side; nothing was pushed. Retry after a minute; githubstatus.com shows outages.
 - **Claude GitHub app:** *authorized* (Settings → Applications → Authorized GitHub Apps) is not the same as *installed* (Installed GitHub Apps). Without the install, Claude only sees public repos; new private repos must be added under the app's repository access.

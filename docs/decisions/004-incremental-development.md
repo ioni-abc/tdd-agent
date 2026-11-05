@@ -15,7 +15,7 @@ The prototype is being rewritten for this repo. The goal is a code base I unders
 - Design decisions are settled when they appear in the code, unless they must be made up front (e.g. the results layout, before the first save).
 - Workflow per step: Claude gives the goal, signature and expected result; I write the code; we review; then commit. Hints before code when stuck.
 
-Planned order: `config.py` → `dataset.py` → `grading/runner.py` → `grading/parse.py` → `grading/grade.py` → `scripts/run_reference.py` → `runs.py` → timeouts, failure reasons, `KNOWN_BROKEN` → `llm.py` → agents → `scripts/generate.py`.
+Planned order: `config.py` → `dataset.py` → `grading/runner.py` → `grading/parser.py` → `grading/grader.py` → `scripts/run_reference.py` → `runs.py` → timeouts, failure reasons, `KNOWN_BROKEN` → `llm.py` → agents → `scripts/generate.py`.
 
 ## Consequences
 

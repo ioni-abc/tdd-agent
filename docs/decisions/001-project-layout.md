@@ -19,8 +19,8 @@ src/tdd_agent/
 ├── dataset.py       # load_tasks(), clean_skeleton(), KNOWN_BROKEN
 ├── grading/
 │   ├── runner.py    # run_tests(code, test_code) -> raw log
-│   ├── parse.py     # parse_log(log) -> counts + failure reasons
-│   └── grade.py     # grade(task, code) -> record
+│   ├── parser.py    # parse_log(log) -> TestCounts (+ failure reasons later)
+│   └── grader.py    # grade(task, code) -> GradeRecord
 ├── llm.py           # call(), extract_code()
 ├── agents/          # one file per agent
 └── runs.py          # run names, run folders, saving

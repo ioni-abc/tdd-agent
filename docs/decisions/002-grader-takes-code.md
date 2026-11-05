@@ -13,7 +13,7 @@ In the prototype, `grade_task(task, solution="agent" | "benchmark" | "skeleton",
   - reference runs: `grade(task, task["solution_code"])`, `grade(task, task["skeleton"])`
   - experiments: `grade(task, generated_code)`
 - Underneath, `run_tests(code: str, test_code: str) -> str` takes two **strings**, not a task dict, so a TDD agent can run its *own* tests with it.
-- Running, parsing and saving are separate: `runner.py` runs, `parse.py` parses, `runs.py` saves. The prototype's `run_and_save` did all three.
+- Running, parsing and saving are separate: `runner.py` runs, `parser.py` parses, `runs.py` saves. The prototype's `run_and_save` did all three.
 
 ## Consequences
 
