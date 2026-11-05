@@ -1,6 +1,6 @@
 # 007: Python 3.12 for the project; test interpreter decided by experiment
 
-- **Status:** Proposed (decided at the first reference run)
+- **Status:** Accepted: one environment, Python 3.12 (reference run, 2026-11-05)
 - **Date:** 2026-11-05
 
 ## Context
@@ -18,6 +18,20 @@
   - **same tasks pass:** one environment; state in the thesis that this was verified.
   - **some newly fail:** either add a 3.8 `.venv-eval` used through a fixed `EVAL_PYTHON` path, or treat those tasks under decision 005.
 - Tests always run in a subprocess, whatever the interpreter, for timeouts and isolation.
+
+## Outcome (reference run, 2026-11-05)
+
+With the ClassEval test packages installed at compatible versions (decision 010), Python 3.12 reproduces the prototype's 3.8 results:
+
+| | 3.12 (this repo) | 3.8 (prototype) |
+| --- | --- | --- |
+| Benchmark classes passed | 96/100 | 96/100 |
+| Failing benchmark tasks | 17, 31, 48, 51 | 17, 48, 51, 58 |
+| Skeleton classes passed | 0/100 | 0/100 |
+
+The only difference caused by Python itself is `ClassEval_31`: Python 3.12's `sum()` uses a more accurate float summation, and the test compares floats exactly (`0.9819805060619655 != 0.9819805060619659`). That is a faulty test, handled under decision 005, not a reason for a second environment. (`ClassEval_58` passing here is covered in decision 006.)
+
+**Therefore:** one environment. No `.venv-eval`, no `EVAL_PYTHON`; `runner.py` keeps `sys.executable`. To state in the thesis: tests were run on Python 3.12 and verified against the 3.8 reference results.
 
 ## Consequences
 

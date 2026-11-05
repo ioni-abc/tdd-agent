@@ -27,6 +27,33 @@ uv run python -c "import tdd_agent; print(tdd_agent.__file__)"
 
 All importable code lives in `src/tdd_agent/`. Data, results, docs and config stay outside. The extra `src/` level stops Python from importing the code straight from the project folder, so tests run against the installed package.
 
+### Dependency groups
+
+```bash
+uv add pydantic                    # [project] dependencies: what tdd_agent itself imports
+uv add --dev ruff                  # [dependency-groups] dev: tools for working on the code
+uv add --group eval numpy pandas   # [dependency-groups] eval: only for running ClassEval's tests
+```
+
+Groups keep "what the system needs" apart from "what the benchmark needs" in `pyproject.toml`. Declare what you import directly: don't rely on a package arriving through another one.
+
+Quote version ranges in the shell: `"numpy<2"`. Unquoted, the shell reads `<` as an input redirect.
+
+### When `uv add` says "No solution found"
+
+```
+Because pandas>=3.1.1 depends on numpy{python_full_version >= '3.14'}>=2.3.3
+and tdd-agent:eval depends on numpy<2, ... your project's requirements are unsatisfiable.
+```
+
+Read it bottom-up as a chain: pandas (latest, 3.1.1) needs `numpy>=2.3.3`; the group asks for `numpy<2`; both can't hold. Old NumPy needs a correspondingly old pandas: `"pandas<3"`.
+
+**Why it mentions Python 3.14 and `win32`:** uv's lock file is **universal**. It resolves for every Python version and platform `requires-python` allows, not only the current machine. With `requires-python = ">=3.12"` that includes 3.13, 3.14 and Windows. A conflict on any of them fails the whole lock. Limiting it (`">=3.12,<3.13"`) gives fewer conflicts and states exactly which Python the results come from.
+
+### Old benchmark, new packages
+
+ClassEval was written against 2023 packages (`numpy~=1.22`). Newer major versions remove APIs: NumPy 2.0 removed `np.mat`, which `ClassEval_51`'s reference solution uses. Symptom: all tests of a task error with the same `AttributeError`. Fix: pin the major version (`"numpy<2"`).
+
 ### Ruff: lint, sort imports, format
 
 ```bash
