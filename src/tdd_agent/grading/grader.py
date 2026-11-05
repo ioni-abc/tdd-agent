@@ -8,7 +8,7 @@ class GradeRecord(BaseModel):
     task_id: str
     counts: TestCounts
     class_passed: bool
-    log: str
+    #log: str
 
 
 def grade(task: dict, code: str) -> GradeRecord:
@@ -18,5 +18,5 @@ def grade(task: dict, code: str) -> GradeRecord:
         task_id=task["task_id"],
         counts=test_counts,
         class_passed=test_counts.tests_total > 0 and (test_counts.tests_passed == test_counts.tests_total),
-        log=log
+        #log=log
     )
