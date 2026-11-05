@@ -25,6 +25,7 @@ Notes are for me. Decisions feed the design chapter of the thesis.
 | [006](decisions/006-known-broken-tasks.md) | Exclude known-broken tasks from main results | Accepted |
 | [007](decisions/007-python-environments.md) | Python 3.12 for the project; test interpreter decided by experiment | Proposed |
 | [008](decisions/008-evaluation-metric.md) | Greedy class-level pass@1 as the main metric | Proposed |
+| [009](decisions/009-pydantic-models-for-records.md) | Pydantic models for results that cross a boundary | Accepted |
 
 ## Commit messages
 
