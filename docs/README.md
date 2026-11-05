@@ -9,6 +9,14 @@ Two kinds of documents live here, both in Markdown and versioned with the code.
 
 Notes are for me. Decisions feed the design chapter of the thesis.
 
+| Note | Covers |
+| --- | --- |
+| [python.md](notes/python.md) | paths, imports, lambda, temp files, subprocess |
+| [tooling.md](notes/tooling.md) | uv, Ruff, venvs, VS Code, macOS, git and GitHub |
+| [evaluation.md](notes/evaluation.md) | decoding, pass@k, ClassEval strategies, TGen |
+| [parsing-unittest-logs.md](notes/parsing-unittest-logs.md) | `parse_log` line by line, regex reference |
+| [grader.md](notes/grader.md) | `grade()` and `GradeRecord`, Pydantic basics, review notes |
+
 ## Decision records
 
 - One file per decision: `NNN-short-title.md`, numbered in order and never renumbered.
