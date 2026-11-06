@@ -17,6 +17,8 @@ Notes are for me. Decisions feed the design chapter of the thesis.
 | [parsing-unittest-logs.md](notes/parsing-unittest-logs.md) | `parse_log` line by line, regex reference |
 | [grader.md](notes/grader.md) | `grade()` and `GradeRecord`, Pydantic basics, review notes |
 | [reference-run.md](notes/reference-run.md) | the reference run: results, reading the output, the script's refactor |
+| [timeout.md](notes/timeout.md) | the runner's timeout, `RunOutput`, `TimeoutExpired` |
+| [classeval-tests.md](notes/classeval-tests.md) | how ClassEval's tests are organised; the visible/hidden split, explained |
 
 ## Decision records
 
@@ -30,12 +32,14 @@ Notes are for me. Decisions feed the design chapter of the thesis.
 | [002](decisions/002-grader-takes-code.md) | The grader takes code, not a source label | Accepted |
 | [003](decisions/003-design-patterns.md) | Design patterns used, and those avoided | Accepted |
 | [004](decisions/004-incremental-development.md) | Build module by module, simplest version first | Accepted |
-| [005](decisions/005-classeval-data-and-test-fixes.md) | Pin ClassEval data; fix faulty tests in a separate, logged copy | Accepted |
+| [005](decisions/005-classeval-data-and-test-fixes.md) | Pin ClassEval data; fix faulty tests in a separate, logged copy (4 fixed) | Accepted |
 | [006](decisions/006-known-broken-tasks.md) | Exclude known-broken tasks from main results | Accepted |
 | [007](decisions/007-python-environments.md) | One environment, Python 3.12 (verified against the 3.8 results) | Accepted |
-| [008](decisions/008-evaluation-metric.md) | Greedy class-level pass@1 as the main metric | Proposed |
+| [008](decisions/008-evaluation-metric.md) | Greedy class-level pass@1 as the main metric (pass@3 parked) | Proposed |
 | [009](decisions/009-pydantic-models-for-records.md) | Pydantic models for results that cross a boundary | Accepted |
 | [010](decisions/010-eval-dependency-group.md) | ClassEval's test packages in an `eval` group, pinned (`numpy<2`, `pandas<3`) | Accepted |
+| [011](decisions/011-tdd-agent-v1-sees-all-tests.md) | TDD agent v1 receives all of ClassEval's tests, method by method; split later | Accepted |
+| [012](decisions/012-tdd-agent-loop.md) | The TDD agent's red/green loop | Proposed |
 
 ## Commit messages
 
@@ -46,3 +50,7 @@ Commits that only touch `docs/` use a prefix, so they stand apart from code comm
 - `docs: …` for anything else in `docs/`
 
 Code commits keep the `Add: …` style.
+
+## Plan
+
+The step-by-step to-do list for the 13 Nov meeting: [Thesis to-do: TDD agent for the 13 Nov meeting](https://claude.ai/artifact/Uda2wxkCkqknWKkY1HiN7n).
