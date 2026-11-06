@@ -2,7 +2,6 @@ from tdd_agent.dataset import load_tasks
 from tdd_agent.grading.grader import GradeRecord, grade
 from tdd_agent.runs import reference_dir, save_records
 
-
 REFERENCE_RUNS = {
     "benchmark": "solution_code",
     "skeleton": "skeleton"
