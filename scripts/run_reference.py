@@ -7,7 +7,7 @@ REFERENCE_RUNS = {
 }
 
 def run(tasks: list[dict], code_key: str) -> list[GradeRecord]:
-    return [grade(task, task[code_key]) for task in tasks]
+    return [grade(task, task[code_key], task["test"]) for task in tasks]
 
 def print_summary(label: str, records: list[GradeRecord]) -> None:
     failed = [r for r in records if not r.class_passed]
@@ -20,6 +20,7 @@ def print_summary(label: str, records: list[GradeRecord]) -> None:
         print(
             f"  {r.task_id}: {c.tests_passed}/{c.tests_total} "
             f"({c.tests_failed} failed, {c.tests_errored} errored)"
+            f" (timeout: {r.timed_out})"
         )
     print()
 
