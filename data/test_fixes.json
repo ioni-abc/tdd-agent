@@ -1,0 +1,38 @@
+[
+  {
+    "task_id": "ClassEval_17",
+    "test": "test_get_upcoming_events_5",
+    "reason": "Time bomb: the 'upcoming' event is dated 2 Jan 2024, so it is in the past once that date has passed, and get_upcoming_events() (which compares with datetime.now()) correctly returns nothing.",
+    "fix": "Move the upcoming event to 2124; the past event (2023) is unchanged.",
+    "old": "datetime(2024, 1, 2,",
+    "new": "datetime(2124, 1, 2,",
+    "count": 6
+  },
+  {
+    "task_id": "ClassEval_48",
+    "test": "test_get_hostname_3",
+    "reason": "Machine-dependent: expects the reverse-DNS name of 0.0.0.0 to be 'LAPTOP-2CS86KUM', the test author's own laptop.",
+    "fix": "Mock socket.gethostbyaddr for this test, so it checks that get_hostname() returns the looked-up name, on any machine.",
+    "old": "        result = IpUtil.get_hostname('0.0.0.0')\n",
+    "new": "        from unittest import mock\n        with mock.patch('socket.gethostbyaddr', return_value=('LAPTOP-2CS86KUM', [], ['0.0.0.0'])):\n            result = IpUtil.get_hostname('0.0.0.0')\n",
+    "count": 1
+  },
+  {
+    "task_id": "ClassEval_31",
+    "test": "test_correlation_coefficient_4",
+    "reason": "Exact float comparison; Python 3.12's more accurate sum() gives 0.9819805060619655 instead of ...659.",
+    "fix": "assertEqual -> assertAlmostEqual (7 decimal places).",
+    "old": "self.assertEqual(DataStatistics4.correlation_coefficient([1, 2, 3], [1, 2, 4]), 0.9819805060619659)",
+    "new": "self.assertAlmostEqual(DataStatistics4.correlation_coefficient([1, 2, 3], [1, 2, 4]), 0.9819805060619659)",
+    "count": 1
+  },
+  {
+    "task_id": "ClassEval_51",
+    "test": "test_fleiss_kappa_* and test_kappacalculator",
+    "reason": "Exact float comparison of fleiss_kappa results; the last digits depend on NumPy's floating-point arithmetic.",
+    "fix": "assertEqual -> assertAlmostEqual for every fleiss_kappa assertion.",
+    "old": "self.assertEqual(KappaCalculator.fleiss_kappa(",
+    "new": "self.assertAlmostEqual(KappaCalculator.fleiss_kappa(",
+    "count": 6
+  }
+]
