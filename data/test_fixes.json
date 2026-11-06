@@ -1,7 +1,8 @@
 [
   {
     "task_id": "ClassEval_17",
-    "test": "test_get_upcoming_events_5",
+    "target": "test",
+    "where": "test_get_upcoming_events_5",
     "reason": "Time bomb: the 'upcoming' event is dated 2 Jan 2024, so it is in the past once that date has passed, and get_upcoming_events() (which compares with datetime.now()) correctly returns nothing.",
     "fix": "Move the upcoming event to 2124; the past event (2023) is unchanged.",
     "old": "datetime(2024, 1, 2,",
@@ -10,7 +11,8 @@
   },
   {
     "task_id": "ClassEval_48",
-    "test": "test_get_hostname_3",
+    "target": "test",
+    "where": "test_get_hostname_3",
     "reason": "Machine-dependent: expects the reverse-DNS name of 0.0.0.0 to be 'LAPTOP-2CS86KUM', the test author's own laptop.",
     "fix": "Mock socket.gethostbyaddr for this test, so it checks that get_hostname() returns the looked-up name, on any machine.",
     "old": "        result = IpUtil.get_hostname('0.0.0.0')\n",
@@ -19,7 +21,8 @@
   },
   {
     "task_id": "ClassEval_31",
-    "test": "test_correlation_coefficient_4",
+    "target": "test",
+    "where": "test_correlation_coefficient_4",
     "reason": "Exact float comparison; Python 3.12's more accurate sum() gives 0.9819805060619655 instead of ...659.",
     "fix": "assertEqual -> assertAlmostEqual (7 decimal places).",
     "old": "self.assertEqual(DataStatistics4.correlation_coefficient([1, 2, 3], [1, 2, 4]), 0.9819805060619659)",
@@ -28,11 +31,22 @@
   },
   {
     "task_id": "ClassEval_51",
-    "test": "test_fleiss_kappa_* and test_kappacalculator",
+    "target": "test",
+    "where": "test_fleiss_kappa_* and test_kappacalculator",
     "reason": "Exact float comparison of fleiss_kappa results; the last digits depend on NumPy's floating-point arithmetic.",
     "fix": "assertEqual -> assertAlmostEqual for every fleiss_kappa assertion.",
     "old": "self.assertEqual(KappaCalculator.fleiss_kappa(",
     "new": "self.assertAlmostEqual(KappaCalculator.fleiss_kappa(",
     "count": 6
+  },
+  {
+    "task_id": "ClassEval_58",
+    "target": "solution_code",
+    "where": "generate_mine_sweeper_map",
+    "reason": "Bug in the reference solution, not the tests: each mine is placed at a random cell with nothing preventing two mines on the same cell, so a 3x3 board with 2 mines sometimes gets only 1. test_generate_mine_sweeper_map and test_minesweeper_main_2 then fail with '2 != 1' (47 of 200 runs). The tests are correct: MinesweeperGame(3, 2) promises 2 mines.",
+    "fix": "Choose k distinct cells with random.sample, capped at the number of cells (some tests build e.g. MinesweeperGame(2, 5): 5 mines on 4 cells, which the original allowed by overlapping); the neighbour counting below is unchanged.",
+    "old": "        for num in range(self.k):\n            x = random.randint(0, self.n-1)\n            y = random.randint(0, self.n-1)\n            arr[y][x] = 'X'\n",
+    "new": "        for cell in random.sample(range(self.n * self.n), min(self.k, self.n * self.n)):\n            x, y = cell % self.n, cell // self.n\n            arr[y][x] = 'X'\n",
+    "count": 1
   }
 ]
