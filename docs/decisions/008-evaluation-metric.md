@@ -1,6 +1,6 @@
 # 008: Greedy class-level pass@1 as the main metric
 
-- **Status:** Proposed
+- **Status:** Proposed (n = 3 samples with pass@1 and pass@3 is parked until the experiments; see the to-do list, E2)
 - **Date:** 2026-11-05
 
 ## Context
