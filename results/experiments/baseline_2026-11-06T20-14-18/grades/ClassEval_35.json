@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_35",
+  "counts": {
+    "tests_total": 21,
+    "tests_passed": 20,
+    "tests_failed": 1,
+    "tests_errored": 0
+  },
+  "class_passed": false,
+  "timed_out": false,
+  "log": "test_find_blank_1 (temp_file.EightPuzzleTestFindBlank.test_find_blank_1) ... ok\ntest_find_blank_2 (temp_file.EightPuzzleTestFindBlank.test_find_blank_2) ... ok\ntest_find_blank_3 (temp_file.EightPuzzleTestFindBlank.test_find_blank_3) ... ok\ntest_find_blank_4 (temp_file.EightPuzzleTestFindBlank.test_find_blank_4) ... ok\ntest_find_blank_5 (temp_file.EightPuzzleTestFindBlank.test_find_blank_5) ... ok\ntest_get_possible_moves_1 (temp_file.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_1) ... ok\ntest_get_possible_moves_2 (temp_file.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_2) ... ok\ntest_get_possible_moves_3 (temp_file.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_3) ... ok\ntest_get_possible_moves_4 (temp_file.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_4) ... ok\ntest_get_possible_moves_5 (temp_file.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_5) ... ok\ntest_move_1 (temp_file.EightPuzzleTestMove.test_move_1) ... ok\ntest_move_2 (temp_file.EightPuzzleTestMove.test_move_2) ... ok\ntest_move_3 (temp_file.EightPuzzleTestMove.test_move_3) ... ok\ntest_move_4 (temp_file.EightPuzzleTestMove.test_move_4) ... ok\ntest_move_5 (temp_file.EightPuzzleTestMove.test_move_5) ... ok\ntest_solve_1 (temp_file.EightPuzzleTestSolve.test_solve_1) ... ok\ntest_solve_2 (temp_file.EightPuzzleTestSolve.test_solve_2) ... ok\ntest_solve_3 (temp_file.EightPuzzleTestSolve.test_solve_3) ... ok\ntest_solve_4 (temp_file.EightPuzzleTestSolve.test_solve_4) ... ok\ntest_solve_5 (temp_file.EightPuzzleTestSolve.test_solve_5) ... ok\ntest_solve_6 (temp_file.EightPuzzleTestSolve.test_solve_6) ... FAIL\n\n======================================================================\nFAIL: test_solve_6 (temp_file.EightPuzzleTestSolve.test_solve_6)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/private/var/folders/9x/ldh22fhs6m388ywc7hb7f9qc0000gn/T/tmp3yujjmwd/temp_file.py\", line 257, in test_solve_6\n    self.assertEqual(result, expected)\nAssertionError: [] != None\n\n----------------------------------------------------------------------\nRan 21 tests in 0.020s\n\nFAILED (failures=1)\n"
+}

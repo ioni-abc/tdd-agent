@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_93",
+  "counts": {
+    "tests_total": 22,
+    "tests_passed": 22,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_vectorutil (temp_file.VectorUtilTest.test_vectorutil) ... ok\ntest_compute_idf_weight_dict_1 (temp_file.VectorUtilTestComputeIdfWeightDict.test_compute_idf_weight_dict_1) ... ok\ntest_compute_idf_weight_dict_2 (temp_file.VectorUtilTestComputeIdfWeightDict.test_compute_idf_weight_dict_2) ... ok\ntest_compute_idf_weight_dict_3 (temp_file.VectorUtilTestComputeIdfWeightDict.test_compute_idf_weight_dict_3) ... ok\ntest_compute_idf_weight_dict_4 (temp_file.VectorUtilTestComputeIdfWeightDict.test_compute_idf_weight_dict_4) ... ok\ntest_compute_idf_weight_dict_5 (temp_file.VectorUtilTestComputeIdfWeightDict.test_compute_idf_weight_dict_5) ... ok\ntest_cosine_similarities_1 (temp_file.VectorUtilTestCosineSimilarities.test_cosine_similarities_1) ... ok\ntest_cosine_similarities_2 (temp_file.VectorUtilTestCosineSimilarities.test_cosine_similarities_2) ... ok\ntest_cosine_similarities_3 (temp_file.VectorUtilTestCosineSimilarities.test_cosine_similarities_3) ... ok\ntest_cosine_similarities_4 (temp_file.VectorUtilTestCosineSimilarities.test_cosine_similarities_4) ... ok\ntest_cosine_similarities_5 (temp_file.VectorUtilTestCosineSimilarities.test_cosine_similarities_5) ... ok\ntest_n_similarity_1 (temp_file.VectorUtilTestNSimilarity.test_n_similarity_1) ... ok\ntest_n_similarity_2 (temp_file.VectorUtilTestNSimilarity.test_n_similarity_2) ... ok\ntest_n_similarity_3 (temp_file.VectorUtilTestNSimilarity.test_n_similarity_3) ... ok\ntest_n_similarity_4 (temp_file.VectorUtilTestNSimilarity.test_n_similarity_4) ... ok\ntest_n_similarity_5 (temp_file.VectorUtilTestNSimilarity.test_n_similarity_5) ... ok\ntest_n_similarity_6 (temp_file.VectorUtilTestNSimilarity.test_n_similarity_6) ... ok\ntest_similarity_1 (temp_file.VectorUtilTestSimilarity.test_similarity_1) ... ok\ntest_similarity_2 (temp_file.VectorUtilTestSimilarity.test_similarity_2) ... ok\ntest_similarity_3 (temp_file.VectorUtilTestSimilarity.test_similarity_3) ... ok\ntest_similarity_4 (temp_file.VectorUtilTestSimilarity.test_similarity_4) ... ok\ntest_similarity_5 (temp_file.VectorUtilTestSimilarity.test_similarity_5) ... ok\n\n----------------------------------------------------------------------\nRan 22 tests in 0.002s\n\nOK\n"
+}

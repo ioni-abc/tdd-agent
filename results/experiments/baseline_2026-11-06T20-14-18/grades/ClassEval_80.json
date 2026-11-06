@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_80",
+  "counts": {
+    "tests_total": 25,
+    "tests_passed": 25,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_delete_1 (temp_file.SQLQueryBuilderTestDetele.test_delete_1) ... ok\ntest_delete_2 (temp_file.SQLQueryBuilderTestDetele.test_delete_2) ... ok\ntest_delete_3 (temp_file.SQLQueryBuilderTestDetele.test_delete_3) ... ok\ntest_delete_4 (temp_file.SQLQueryBuilderTestDetele.test_delete_4) ... ok\ntest_delete_5 (temp_file.SQLQueryBuilderTestDetele.test_delete_5) ... ok\ntest_delete_6 (temp_file.SQLQueryBuilderTestDetele.test_delete_6) ... ok\ntest_insert_1 (temp_file.SQLQueryBuilderTestInsert.test_insert_1) ... ok\ntest_insert_2 (temp_file.SQLQueryBuilderTestInsert.test_insert_2) ... ok\ntest_insert_3 (temp_file.SQLQueryBuilderTestInsert.test_insert_3) ... ok\ntest_insert_4 (temp_file.SQLQueryBuilderTestInsert.test_insert_4) ... ok\ntest_insert_5 (temp_file.SQLQueryBuilderTestInsert.test_insert_5) ... ok\ntest_main (temp_file.SQLQueryBuilderTestMain.test_main) ... ok\ntest_select_1 (temp_file.SQLQueryBuilderTestSelect.test_select_1) ... ok\ntest_select_2 (temp_file.SQLQueryBuilderTestSelect.test_select_2) ... ok\ntest_select_3 (temp_file.SQLQueryBuilderTestSelect.test_select_3) ... ok\ntest_select_4 (temp_file.SQLQueryBuilderTestSelect.test_select_4) ... ok\ntest_select_5 (temp_file.SQLQueryBuilderTestSelect.test_select_5) ... ok\ntest_select_6 (temp_file.SQLQueryBuilderTestSelect.test_select_6) ... ok\ntest_select_7 (temp_file.SQLQueryBuilderTestSelect.test_select_7) ... ok\ntest_update_1 (temp_file.SQLQueryBuilderTestUpdate.test_update_1) ... ok\ntest_update_2 (temp_file.SQLQueryBuilderTestUpdate.test_update_2) ... ok\ntest_update_3 (temp_file.SQLQueryBuilderTestUpdate.test_update_3) ... ok\ntest_update_4 (temp_file.SQLQueryBuilderTestUpdate.test_update_4) ... ok\ntest_update_5 (temp_file.SQLQueryBuilderTestUpdate.test_update_5) ... ok\ntest_update_6 (temp_file.SQLQueryBuilderTestUpdate.test_update_6) ... ok\n\n----------------------------------------------------------------------\nRan 25 tests in 0.000s\n\nOK\n"
+}

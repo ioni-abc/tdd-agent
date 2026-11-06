@@ -1,0 +1,10 @@
+[
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 501,
+    "output_tokens": 695,
+    "seconds": 2.9,
+    "reply": "```python\nimport re\nimport string\n\nclass LongestWord:\n    \"\"\"\n    This is a class allows to add words to a list and find the longest word in a given sentence by comparing the words with the ones in the word list.\n    \"\"\"\n\n    def __init__(self):\n        \"\"\"\n        Initialize a list of word.\n        \"\"\"\n        self.word_list = []\n\n    def add_word(self, word):\n        \"\"\"\n        append the input word into self.word_list\n        :param word: str, input word\n        \"\"\"\n        self.word_list.append(word)\n\n    def find_longest_word(self, sentence):\n        \"\"\"\n        Remove punctuation marks and split a sentence into a list of word. Find the longest splited word that is in the self.word_list.\n        Words are strictly case sensitive.\n        :param sentence: a sentence str\n        :return str: longest splited word that is in the self.word_list. return '' if self.word_list is empty.\n        >>> longestWord = LongestWord()\n        >>> longestWord.add_word('A')\n        >>> longestWord.add_word('aM')\n        >>> longestWord.find_longest_word('I am a student.')\n        'a'\n        \"\"\"\n        if not self.word_list:\n            return ''\n        cleaned = re.sub('[' + re.escape(string.punctuation) + ']', '', sentence)\n        words = cleaned.split()\n        longest = ''\n        for w in words:\n            if w in self.word_list and len(w) > len(longest):\n                longest = w\n        return longest\n```"
+  }
+]

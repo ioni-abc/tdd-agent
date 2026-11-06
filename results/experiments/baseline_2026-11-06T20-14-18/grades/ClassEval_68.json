@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_68",
+  "counts": {
+    "tests_total": 16,
+    "tests_passed": 15,
+    "tests_failed": 1,
+    "tests_errored": 0
+  },
+  "class_passed": false,
+  "timed_out": false,
+  "log": "test_pageutil (temp_file.PageUtilTest.test_pageutil) ... ok\ntest_get_page_1 (temp_file.PageUtilTestGetPage.test_get_page_1) ... ok\ntest_get_page_2 (temp_file.PageUtilTestGetPage.test_get_page_2) ... ok\ntest_get_page_3 (temp_file.PageUtilTestGetPage.test_get_page_3) ... ok\ntest_get_page_4 (temp_file.PageUtilTestGetPage.test_get_page_4) ... ok\ntest_get_page_5 (temp_file.PageUtilTestGetPage.test_get_page_5) ... ok\ntest_get_page_info_1 (temp_file.PageUtilTestGetPageInfo.test_get_page_info_1) ... ok\ntest_get_page_info_2 (temp_file.PageUtilTestGetPageInfo.test_get_page_info_2) ... ok\ntest_get_page_info_3 (temp_file.PageUtilTestGetPageInfo.test_get_page_info_3) ... ok\ntest_get_page_info_4 (temp_file.PageUtilTestGetPageInfo.test_get_page_info_4) ... ok\ntest_get_page_info_5 (temp_file.PageUtilTestGetPageInfo.test_get_page_info_5) ... FAIL\ntest_search_1 (temp_file.PageUtilTestSearch.test_search_1) ... ok\ntest_search_2 (temp_file.PageUtilTestSearch.test_search_2) ... ok\ntest_search_3 (temp_file.PageUtilTestSearch.test_search_3) ... ok\ntest_search_4 (temp_file.PageUtilTestSearch.test_search_4) ... ok\ntest_search_5 (temp_file.PageUtilTestSearch.test_search_5) ... ok\n\n======================================================================\nFAIL: test_get_page_info_5 (temp_file.PageUtilTestGetPageInfo.test_get_page_info_5)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/private/var/folders/9x/ldh22fhs6m388ywc7hb7f9qc0000gn/T/tmpnjzhgb0x/temp_file.py\", line 194, in test_get_page_info_5\n    self.assertEqual(actual_info, empty_info)\nAssertionError: {'current_page': 5, 'per_page': 3, 'total_[77 chars]: []} != {}\n+ {}\n- {'current_page': 5,\n-  'data': [],\n-  'has_next': False,\n-  'has_previous': True,\n-  'per_page': 3,\n-  'total_items': 10,\n-  'total_pages': 4}\n\n----------------------------------------------------------------------\nRan 16 tests in 0.000s\n\nFAILED (failures=1)\n"
+}

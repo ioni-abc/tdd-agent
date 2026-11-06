@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_22",
+  "counts": {
+    "tests_total": 16,
+    "tests_passed": 16,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test (temp_file.ClassRegistrationSystemTest.test) ... ok\ntest_get_all_major (temp_file.ClassRegistrationSystemTestGetMajor.test_get_all_major) ... ok\ntest_get_all_major2 (temp_file.ClassRegistrationSystemTestGetMajor.test_get_all_major2) ... ok\ntest_get_all_major3 (temp_file.ClassRegistrationSystemTestGetMajor.test_get_all_major3) ... ok\ntest_get_students_by_major (temp_file.ClassRegistrationSystemTestGetStudent.test_get_students_by_major) ... ok\ntest_get_students_by_major2 (temp_file.ClassRegistrationSystemTestGetStudent.test_get_students_by_major2) ... ok\ntest_get_students_by_major3 (temp_file.ClassRegistrationSystemTestGetStudent.test_get_students_by_major3) ... ok\ntest_get_students_by_major4 (temp_file.ClassRegistrationSystemTestGetStudent.test_get_students_by_major4) ... ok\ntest_get_most_popular_class_in_major (temp_file.ClassRegistrationSystemTestPopularClass.test_get_most_popular_class_in_major) ... ok\ntest_get_most_popular_class_in_major2 (temp_file.ClassRegistrationSystemTestPopularClass.test_get_most_popular_class_in_major2) ... ok\ntest_register_class (temp_file.ClassRegistrationSystemTestRegisterClass.test_register_class) ... ok\ntest_register_class2 (temp_file.ClassRegistrationSystemTestRegisterClass.test_register_class2) ... ok\ntest_register_class3 (temp_file.ClassRegistrationSystemTestRegisterClass.test_register_class3) ... ok\ntest_register_student (temp_file.ClassRegistrationSystemTestRegisterStudent.test_register_student) ... ok\ntest_register_student2 (temp_file.ClassRegistrationSystemTestRegisterStudent.test_register_student2) ... ok\ntest_register_student3 (temp_file.ClassRegistrationSystemTestRegisterStudent.test_register_student3) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.000s\n\nOK\n"
+}

@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_48",
+  "counts": {
+    "tests_total": 1,
+    "tests_passed": 0,
+    "tests_failed": 0,
+    "tests_errored": 1
+  },
+  "class_passed": false,
+  "timed_out": false,
+  "log": "temp_file (unittest.loader._FailedTest.temp_file) ... ERROR\n\n======================================================================\nERROR: temp_file (unittest.loader._FailedTest.temp_file)\n----------------------------------------------------------------------\nImportError: Failed to import test module: temp_file\nTraceback (most recent call last):\n  File \"/Users/inikolaou/.local/share/uv/python/cpython-3.12.15-macos-aarch64-none/lib/python3.12/unittest/loader.py\", line 137, in loadTestsFromName\n    module = __import__(module_name)\n             ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/private/var/folders/9x/ldh22fhs6m388ywc7hb7f9qc0000gn/T/tmpm70nlf5_/temp_file.py\", line 2, in <module>\n    import netifaces\nModuleNotFoundError: No module named 'netifaces'\n\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nFAILED (errors=1)\n"
+}

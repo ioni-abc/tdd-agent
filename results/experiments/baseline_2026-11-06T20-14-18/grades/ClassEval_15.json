@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_15",
+  "counts": {
+    "tests_total": 16,
+    "tests_passed": 16,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_bad_character_heuristic (temp_file.BoyerMooreSearchTestBadCharacterHeuristic.test_bad_character_heuristic) ... ok\ntest_bad_character_heuristic_2 (temp_file.BoyerMooreSearchTestBadCharacterHeuristic.test_bad_character_heuristic_2) ... ok\ntest_bad_character_heuristic_3 (temp_file.BoyerMooreSearchTestBadCharacterHeuristic.test_bad_character_heuristic_3) ... ok\ntest_bad_character_heuristic_4 (temp_file.BoyerMooreSearchTestBadCharacterHeuristic.test_bad_character_heuristic_4) ... ok\ntest_bad_character_heuristic_5 (temp_file.BoyerMooreSearchTestBadCharacterHeuristic.test_bad_character_heuristic_5) ... ok\ntest_main (temp_file.BoyerMooreSearchTestMain.test_main) ... ok\ntest_match_in_pattern (temp_file.BoyerMooreSearchTestMatchInPattern.test_match_in_pattern) ... ok\ntest_match_in_pattern_2 (temp_file.BoyerMooreSearchTestMatchInPattern.test_match_in_pattern_2) ... ok\ntest_match_in_pattern_3 (temp_file.BoyerMooreSearchTestMatchInPattern.test_match_in_pattern_3) ... ok\ntest_match_in_pattern_4 (temp_file.BoyerMooreSearchTestMatchInPattern.test_match_in_pattern_4) ... ok\ntest_match_in_pattern_5 (temp_file.BoyerMooreSearchTestMatchInPattern.test_match_in_pattern_5) ... ok\ntest_mismatch_in_text (temp_file.BoyerMooreSearchTestMismatchInText.test_mismatch_in_text) ... ok\ntest_mismatch_in_text_2 (temp_file.BoyerMooreSearchTestMismatchInText.test_mismatch_in_text_2) ... ok\ntest_mismatch_in_text_3 (temp_file.BoyerMooreSearchTestMismatchInText.test_mismatch_in_text_3) ... ok\ntest_mismatch_in_text_4 (temp_file.BoyerMooreSearchTestMismatchInText.test_mismatch_in_text_4) ... ok\ntest_mismatch_in_text_5 (temp_file.BoyerMooreSearchTestMismatchInText.test_mismatch_in_text_5) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.000s\n\nOK\n"
+}

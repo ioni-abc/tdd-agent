@@ -1,0 +1,10 @@
+[
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 496,
+    "output_tokens": 525,
+    "seconds": 2.1,
+    "reply": "```python\nclass BalancedBrackets:\n    \"\"\"\n    This is a class that checks for bracket matching\n    \"\"\"\n\n    def __init__(self, expr):\n        \"\"\"\n        Initializes the class with an expression.\n        :param expr: The expression to check for balanced brackets,str.\n        \"\"\"\n        self.stack = []\n        self.left_brackets = [\"(\", \"{\", \"[\"]\n        self.right_brackets = [\")\", \"}\", \"]\"]\n        self.expr = expr\n\n    def clear_expr(self):\n        \"\"\"\n        Clears the expression of all characters that are not brackets.\n        >>> b = BalancedBrackets(\"a(b)c\")\n        >>> b.clear_expr()\n        >>> b.expr\n        '()'\n\n        \"\"\"\n        self.expr = \"\".join(\n            ch for ch in self.expr\n            if ch in self.left_brackets or ch in self.right_brackets\n        )\n\n    def check_balanced_brackets(self):\n        \"\"\"\n        Checks if the expression has balanced brackets.\n        :return: True if the expression has balanced brackets, False otherwise.\n        >>> b = BalancedBrackets(\"a(b)c\")\n        >>> b.check_balanced_brackets()\n        True\n\n        \"\"\"\n        pairs = {\")\": \"(\", \"}\": \"{\", \"]\": \"[\"}\n        self.stack = []\n        for ch in self.expr:\n            if ch in self.left_brackets:\n                self.stack.append(ch)\n            elif ch in self.right_brackets:\n                if not self.stack or self.stack[-1] != pairs[ch]:\n                    return False\n                self.stack.pop()\n        return len(self.stack) == 0\n```"
+  }
+]

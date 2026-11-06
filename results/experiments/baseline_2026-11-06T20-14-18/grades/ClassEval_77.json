@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_77",
+  "counts": {
+    "tests_total": 21,
+    "tests_passed": 21,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_snake (temp_file.SnakeTest.test_snake) ... ok\ntest_eat_food_1 (temp_file.SnakeTestEatFood.test_eat_food_1) ... ok\ntest_eat_food_2 (temp_file.SnakeTestEatFood.test_eat_food_2) ... ok\ntest_eat_food_3 (temp_file.SnakeTestEatFood.test_eat_food_3) ... ok\ntest_eat_food_4 (temp_file.SnakeTestEatFood.test_eat_food_4) ... ok\ntest_eat_food_5 (temp_file.SnakeTestEatFood.test_eat_food_5) ... ok\ntest_move_1 (temp_file.SnakeTestMove.test_move_1) ... ok\ntest_move_2 (temp_file.SnakeTestMove.test_move_2) ... ok\ntest_move_3 (temp_file.SnakeTestMove.test_move_3) ... ok\ntest_move_4 (temp_file.SnakeTestMove.test_move_4) ... ok\ntest_move_5 (temp_file.SnakeTestMove.test_move_5) ... ok\ntest_random_food_position_1 (temp_file.SnakeTestRandomFoodPosition.test_random_food_position_1) ... ok\ntest_random_food_position_2 (temp_file.SnakeTestRandomFoodPosition.test_random_food_position_2) ... ok\ntest_random_food_position_3 (temp_file.SnakeTestRandomFoodPosition.test_random_food_position_3) ... ok\ntest_random_food_position_4 (temp_file.SnakeTestRandomFoodPosition.test_random_food_position_4) ... ok\ntest_random_food_position_5 (temp_file.SnakeTestRandomFoodPosition.test_random_food_position_5) ... ok\ntest_reset_1 (temp_file.SnakeTestReset.test_reset_1) ... ok\ntest_reset_2 (temp_file.SnakeTestReset.test_reset_2) ... ok\ntest_reset_3 (temp_file.SnakeTestReset.test_reset_3) ... ok\ntest_reset_4 (temp_file.SnakeTestReset.test_reset_4) ... ok\ntest_reset_5 (temp_file.SnakeTestReset.test_reset_5) ... ok\n\n----------------------------------------------------------------------\nRan 21 tests in 0.019s\n\nOK\n"
+}

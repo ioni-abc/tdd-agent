@@ -1,0 +1,10 @@
+[
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 663,
+    "output_tokens": 784,
+    "seconds": 3.1,
+    "reply": "```python\nimport re\n\n\nclass PersonRequest:\n    \"\"\"\n    This class validates input personal information data and sets invalid fields to None based to specific rules.\n    \"\"\"\n\n    def __init__(self, name: str, sex: str, phoneNumber: str):\n        \"\"\"\n        Initialize PersonRequest object with the provided information.\n        :param name: str, the name of the person\n        :param sex: str, the sex of the person\n        :param phoneNumber: str, the phone number of the person\n        \"\"\"\n        self.name = self._validate_name(name)\n        self.sex = self._validate_sex(sex)\n        self.phoneNumber = self._validate_phoneNumber(phoneNumber)\n\n    def _validate_name(self, name: str) -> str:\n        \"\"\"\n        Validate the name and return it. If name is empty or exceeds 33 characters in length, set to None.\n        :param name: str, the name to validate\n        :return: str, the validated name or None if invalid\n        \"\"\"\n        if not isinstance(name, str) or len(name) == 0 or len(name) > 33:\n            return None\n        return name\n\n    def _validate_sex(self, sex: str) -> str:\n        \"\"\"\n        Validate the sex and return it. If sex is not Man, Woman, or UGM, set to None.\n        :param sex: str, the sex to validate\n        :return: str, the validated sex or None if invalid\n        \"\"\"\n        if sex in (\"Man\", \"Woman\", \"UGM\"):\n            return sex\n        return None\n\n    def _validate_phoneNumber(self, phoneNumber: str) -> str:\n        \"\"\"\n        Validate the phone number and return it. If phoneNumber is empty or not an 11 digit number, set to None.\n        :param phoneNumber: str, the phone number to validate\n        :return: str, the validated phone number or None if invalid\n        \"\"\"\n        if not isinstance(phoneNumber, str) or not re.fullmatch(r\"[0-9]{11}\", phoneNumber):\n            return None\n        return phoneNumber\n```"
+  }
+]

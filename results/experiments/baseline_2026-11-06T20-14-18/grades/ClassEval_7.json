@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_7",
+  "counts": {
+    "tests_total": 15,
+    "tests_passed": 15,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_check_balanced_brackets (temp_file.BalancedBracketsTestCheckBalancedBrackets.test_check_balanced_brackets) ... ok\ntest_check_balanced_brackets_2 (temp_file.BalancedBracketsTestCheckBalancedBrackets.test_check_balanced_brackets_2) ... ok\ntest_check_balanced_brackets_3 (temp_file.BalancedBracketsTestCheckBalancedBrackets.test_check_balanced_brackets_3) ... ok\ntest_check_balanced_brackets_4 (temp_file.BalancedBracketsTestCheckBalancedBrackets.test_check_balanced_brackets_4) ... ok\ntest_check_balanced_brackets_5 (temp_file.BalancedBracketsTestCheckBalancedBrackets.test_check_balanced_brackets_5) ... ok\ntest_check_balanced_brackets_6 (temp_file.BalancedBracketsTestCheckBalancedBrackets.test_check_balanced_brackets_6) ... ok\ntest_check_balanced_brackets_7 (temp_file.BalancedBracketsTestCheckBalancedBrackets.test_check_balanced_brackets_7) ... ok\ntest_clear_expr (temp_file.BalancedBracketsTestClearExpr.test_clear_expr) ... ok\ntest_clear_expr_2 (temp_file.BalancedBracketsTestClearExpr.test_clear_expr_2) ... ok\ntest_clear_expr_3 (temp_file.BalancedBracketsTestClearExpr.test_clear_expr_3) ... ok\ntest_clear_expr_4 (temp_file.BalancedBracketsTestClearExpr.test_clear_expr_4) ... ok\ntest_clear_expr_5 (temp_file.BalancedBracketsTestClearExpr.test_clear_expr_5) ... ok\ntest_main (temp_file.BalancedBracketsTestMain.test_main) ... ok\ntest_main_2 (temp_file.BalancedBracketsTestMain.test_main_2) ... ok\ntest_main_3 (temp_file.BalancedBracketsTestMain.test_main_3) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 0.000s\n\nOK\n"
+}

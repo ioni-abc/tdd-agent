@@ -1,6 +1,7 @@
 from tdd_agent.dataset import load_tasks
 from tdd_agent.grading.grader import GradeRecord, grade
 from tdd_agent.runs import reference_dir, save_records
+from tdd_agent.report import print_summary
 
 REFERENCE_RUNS = {
     "benchmark": "solution_code",
@@ -9,21 +10,6 @@ REFERENCE_RUNS = {
 
 def run(tasks: list[dict], code_key: str) -> list[GradeRecord]:
     return [grade(task, task[code_key], task["test"]) for task in tasks]
-
-def print_summary(label: str, records: list[GradeRecord]) -> None:
-    failed = [r for r in records if not r.class_passed]
-    passed = len(records) - len(failed)
-
-    print(f"======= {label.upper()} =======")
-    print(f"{passed}/{len(records)} classes passed")
-    for r in failed:
-        c = r.counts
-        print(
-            f"  {r.task_id}: {c.tests_passed}/{c.tests_total} "
-            f"({c.tests_failed} failed, {c.tests_errored} errored)"
-            f" (timeout: {r.timed_out})"
-        )
-    print()
 
 def main() -> None:
     tasks = load_tasks()

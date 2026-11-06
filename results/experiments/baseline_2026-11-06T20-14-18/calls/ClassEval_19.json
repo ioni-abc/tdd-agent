@@ -1,0 +1,10 @@
+[
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 537,
+    "output_tokens": 805,
+    "seconds": 3.6,
+    "reply": "```python\nclass ChandrasekharSieve:\n    \"\"\"\n    This is a class that uses the Chandrasekhar's Sieve method to find all prime numbers within the range\n    \"\"\"\n\n    def __init__(self, n):\n        \"\"\"\n        Initialize the ChandrasekharSieve class with the given limit.\n        :param n: int, the upper limit for generating prime numbers\n        \"\"\"\n        self.n = n\n        self.primes = self.generate_primes()\n\n    def generate_primes(self):\n        \"\"\"\n        Generate prime numbers up to the specified limit using the Chandrasekhar sieve algorithm.\n        :return: list, a list of prime numbers\n        >>> cs = ChandrasekharSieve(20)\n        >>> cs.generate_primes()\n        [2, 3, 5, 7, 11, 13, 17, 19]\n\n        \"\"\"\n        if self.n < 2:\n            return []\n        is_prime = [True] * (self.n + 1)\n        is_prime[0] = False\n        is_prime[1] = False\n        i = 2\n        while i * i <= self.n:\n            if is_prime[i]:\n                for j in range(i * i, self.n + 1, i):\n                    is_prime[j] = False\n            i += 1\n        return [k for k in range(2, self.n + 1) if is_prime[k]]\n\n    def get_primes(self):\n        \"\"\"\n        Get the list of generated prime numbers.\n        :return: list, a list of prime numbers\n        >>> cs = ChandrasekharSieve(20)\n        >>> cs.get_primes()\n        [2, 3, 5, 7, 11, 13, 17, 19]\n\n        \"\"\"\n        return self.primes\n```"
+  }
+]
