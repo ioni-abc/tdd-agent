@@ -117,4 +117,17 @@ Fix: pass only the file name, since it is relative to `cwd` by definition.
 - **Check before adding:** `git status` before `git add .`, or add specific paths (`git add src/tdd_agent/grading pyproject.toml uv.lock`). A stray log file inside `src/` got committed this way.
 - **Taking a file out of an unpushed commit:** `git rm --cached <file>` (keeps it on disk), then `git commit --amend --no-edit`. Only safe before pushing.
 - **`remote: Internal Server Error` on push:** a problem on GitHub's side; nothing was pushed. Retry after a minute; githubstatus.com shows outages.
+- **"Your branch and 'origin/...' have diverged":** happens after commits were rewritten on GitHub (e.g. an amended message), while the old version is still local. `git pull` alone refuses and asks how to reconcile. `git pull --rebase` replays local commits on top of the remote; a local commit whose changes are already in the remote is **dropped**, not applied twice. Check afterwards with `git status` ("up to date") and `git log --oneline -3`. If an extra commit is left on top: `git reset --hard origin/<branch>` (discards local changes on that branch).
+- **Merging a branch into main:**
+
+  ```bash
+  git switch main
+  git pull                       # local main = GitHub's main first
+  git merge <branch>
+  git push
+  ```
+
+  If main hasn't moved since the branch was created, git **fast-forwards**: it moves main to the branch's last commit, with no merge commit and no conflicts possible.
+- **Deleting a merged branch:** `git branch -d <branch>` (lowercase `-d` refuses if it isn't merged), and `git push origin --delete <branch>` for GitHub's copy.
+- **Branches used in this repo:** `main` for code; `docs` for notes and ADRs, rebased onto `main`, never merged; short-lived branches (e.g. `fix-benchmark-tests`) for changes to review before merging.
 - **Claude GitHub app:** *authorized* (Settings → Applications → Authorized GitHub Apps) is not the same as *installed* (Installed GitHub Apps). Without the install, Claude only sees public repos; new private repos must be added under the app's repository access.
