@@ -19,6 +19,7 @@ Notes are for me. Decisions feed the design chapter of the thesis.
 | [reference-run.md](notes/reference-run.md) | the reference run: results, reading the output, the script's refactor |
 | [timeout.md](notes/timeout.md) | the runner's timeout, `RunOutput`, `TimeoutExpired` |
 | [classeval-tests.md](notes/classeval-tests.md) | how ClassEval's tests are organised; the visible/hidden split, explained |
+| [benchmark-fixes.md](notes/benchmark-fixes.md) | how the five broken tasks were diagnosed and fixed; flaky tests; fixes as data |
 
 ## Decision records
 
@@ -32,8 +33,8 @@ Notes are for me. Decisions feed the design chapter of the thesis.
 | [002](decisions/002-grader-takes-code.md) | The grader takes code, not a source label | Accepted |
 | [003](decisions/003-design-patterns.md) | Design patterns used, and those avoided | Accepted |
 | [004](decisions/004-incremental-development.md) | Build module by module, simplest version first | Accepted |
-| [005](decisions/005-classeval-data-and-test-fixes.md) | Pin ClassEval data; fix faulty tests in a separate, logged copy (4 fixed) | Accepted |
-| [006](decisions/006-known-broken-tasks.md) | Exclude known-broken tasks from main results | Accepted |
+| [005](decisions/005-classeval-data-and-test-fixes.md) | Pin ClassEval data; fix broken tests (or reference solutions) in a separate, logged copy: 5 fixed, 100/100 | Accepted |
+| [006](decisions/006-known-broken-tasks.md) | Exclude known-broken tasks from main results | Superseded by 005's fixes: nothing excluded |
 | [007](decisions/007-python-environments.md) | One environment, Python 3.12 (verified against the 3.8 results) | Accepted |
 | [008](decisions/008-evaluation-metric.md) | Greedy class-level pass@1 as the main metric (pass@3 parked) | Proposed |
 | [009](decisions/009-pydantic-models-for-records.md) | Pydantic models for results that cross a boundary | Accepted |
