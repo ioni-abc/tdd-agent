@@ -1,6 +1,6 @@
 # 008: Greedy class-level pass@1 as the main metric
 
-- **Status:** Proposed (n = 3 samples with pass@1 and pass@3 is parked until the experiments; see the to-do list, E2)
+- **Status:** Superseded by 014 (2026-11-06): temperature can no longer be set, so greedy decoding is impossible with current Claude models
 - **Date:** 2026-11-05
 
 ## Context
