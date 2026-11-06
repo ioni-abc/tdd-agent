@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_31",
+  "counts": {
+    "tests_total": 21,
+    "tests_passed": 21,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_correlation_coefficient (temp_file.DataStatistics4TestCorrelationCoefficient.test_correlation_coefficient) ... ok\ntest_correlation_coefficient_2 (temp_file.DataStatistics4TestCorrelationCoefficient.test_correlation_coefficient_2) ... ok\ntest_correlation_coefficient_3 (temp_file.DataStatistics4TestCorrelationCoefficient.test_correlation_coefficient_3) ... ok\ntest_correlation_coefficient_4 (temp_file.DataStatistics4TestCorrelationCoefficient.test_correlation_coefficient_4) ... ok\ntest_correlation_coefficient_5 (temp_file.DataStatistics4TestCorrelationCoefficient.test_correlation_coefficient_5) ... ok\ntest_kurtosis (temp_file.DataStatistics4TestKurtosis.test_kurtosis) ... ok\ntest_kurtosis_2 (temp_file.DataStatistics4TestKurtosis.test_kurtosis_2) ... ok\ntest_kurtosis_3 (temp_file.DataStatistics4TestKurtosis.test_kurtosis_3) ... ok\ntest_kurtosis_4 (temp_file.DataStatistics4TestKurtosis.test_kurtosis_4) ... ok\ntest_kurtosis_5 (temp_file.DataStatistics4TestKurtosis.test_kurtosis_5) ... ok\ntest_main (temp_file.DataStatistics4TestMain.test_main) ... ok\ntest_pdf (temp_file.DataStatistics4TestPDF.test_pdf) ... ok\ntest_pdf_2 (temp_file.DataStatistics4TestPDF.test_pdf_2) ... ok\ntest_pdf_3 (temp_file.DataStatistics4TestPDF.test_pdf_3) ... ok\ntest_pdf_4 (temp_file.DataStatistics4TestPDF.test_pdf_4) ... ok\ntest_pdf_5 (temp_file.DataStatistics4TestPDF.test_pdf_5) ... ok\ntest_skewness (temp_file.DataStatistics4TestSkewness.test_skewness) ... ok\ntest_skewness_2 (temp_file.DataStatistics4TestSkewness.test_skewness_2) ... ok\ntest_skewness_3 (temp_file.DataStatistics4TestSkewness.test_skewness_3) ... ok\ntest_skewness_4 (temp_file.DataStatistics4TestSkewness.test_skewness_4) ... ok\ntest_skewness_5 (temp_file.DataStatistics4TestSkewness.test_skewness_5) ... ok\n\n----------------------------------------------------------------------\nRan 21 tests in 0.000s\n\nOK\n"
+}

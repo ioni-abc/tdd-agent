@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_34",
+  "counts": {
+    "tests_total": 21,
+    "tests_passed": 21,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_DocFileHandler (temp_file.DocFileHandlerTest.test_DocFileHandler) ... ok\ntest_add_heading_1 (temp_file.DocFileHandlerTestAddHeading.test_add_heading_1) ... ok\ntest_add_heading_2 (temp_file.DocFileHandlerTestAddHeading.test_add_heading_2) ... ok\ntest_add_heading_3 (temp_file.DocFileHandlerTestAddHeading.test_add_heading_3) ... ok\ntest_add_heading_4 (temp_file.DocFileHandlerTestAddHeading.test_add_heading_4) ... ok\ntest_add_heading_5 (temp_file.DocFileHandlerTestAddHeading.test_add_heading_5) ... ok\ntest_add_table_1 (temp_file.DocFileHandlerTestAddTable.test_add_table_1) ... ok\ntest_add_table_2 (temp_file.DocFileHandlerTestAddTable.test_add_table_2) ... ok\ntest_add_table_3 (temp_file.DocFileHandlerTestAddTable.test_add_table_3) ... ok\ntest_add_table_4 (temp_file.DocFileHandlerTestAddTable.test_add_table_4) ... ok\ntest_add_table_5 (temp_file.DocFileHandlerTestAddTable.test_add_table_5) ... ok\ntest_read_text_1 (temp_file.DocFileHandlerTestReadText.test_read_text_1) ... ok\ntest_read_text_2 (temp_file.DocFileHandlerTestReadText.test_read_text_2) ... ok\ntest_read_text_3 (temp_file.DocFileHandlerTestReadText.test_read_text_3) ... ok\ntest_read_text_4 (temp_file.DocFileHandlerTestReadText.test_read_text_4) ... ok\ntest_read_text_5 (temp_file.DocFileHandlerTestReadText.test_read_text_5) ... ok\ntest_write_text_1 (temp_file.DocFileHandlerTestWriteText.test_write_text_1) ... ok\ntest_write_text_2 (temp_file.DocFileHandlerTestWriteText.test_write_text_2) ... ok\ntest_write_text_3 (temp_file.DocFileHandlerTestWriteText.test_write_text_3) ... ok\ntest_write_text_4 (temp_file.DocFileHandlerTestWriteText.test_write_text_4) ... ok\ntest_write_text_5 (temp_file.DocFileHandlerTestWriteText.test_write_text_5) ... ok\n\n----------------------------------------------------------------------\nRan 21 tests in 0.624s\n\nOK\n"
+}

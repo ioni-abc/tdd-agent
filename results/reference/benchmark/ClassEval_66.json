@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_66",
+  "counts": {
+    "tests_total": 17,
+    "tests_passed": 17,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_is_hex_char_1 (temp_file.NumericEntityUnescaperTestIsHexChar.test_is_hex_char_1) ... ok\ntest_is_hex_char_2 (temp_file.NumericEntityUnescaperTestIsHexChar.test_is_hex_char_2) ... ok\ntest_is_hex_char_3 (temp_file.NumericEntityUnescaperTestIsHexChar.test_is_hex_char_3) ... ok\ntest_is_hex_char_4 (temp_file.NumericEntityUnescaperTestIsHexChar.test_is_hex_char_4) ... ok\ntest_is_hex_char_5 (temp_file.NumericEntityUnescaperTestIsHexChar.test_is_hex_char_5) ... ok\ntest_replace_1 (temp_file.NumericEntityUnescaperTestReplace.test_replace_1) ... ok\ntest_replace_10 (temp_file.NumericEntityUnescaperTestReplace.test_replace_10) ... ok\ntest_replace_11 (temp_file.NumericEntityUnescaperTestReplace.test_replace_11) ... ok\ntest_replace_2 (temp_file.NumericEntityUnescaperTestReplace.test_replace_2) ... ok\ntest_replace_3 (temp_file.NumericEntityUnescaperTestReplace.test_replace_3) ... ok\ntest_replace_4 (temp_file.NumericEntityUnescaperTestReplace.test_replace_4) ... ok\ntest_replace_5 (temp_file.NumericEntityUnescaperTestReplace.test_replace_5) ... ok\ntest_replace_6 (temp_file.NumericEntityUnescaperTestReplace.test_replace_6) ... ok\ntest_replace_7 (temp_file.NumericEntityUnescaperTestReplace.test_replace_7) ... ok\ntest_replace_8 (temp_file.NumericEntityUnescaperTestReplace.test_replace_8) ... ok\ntest_replace_9 (temp_file.NumericEntityUnescaperTestReplace.test_replace_9) ... ok\ntest_numericentityunescaper (temp_file.unescaperTest.test_numericentityunescaper) ... ok\n\n----------------------------------------------------------------------\nRan 17 tests in 0.000s\n\nOK\n"
+}

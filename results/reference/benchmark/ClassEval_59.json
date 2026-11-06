@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_59",
+  "counts": {
+    "tests_total": 16,
+    "tests_passed": 16,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_add_movie_1 (temp_file.MovieBookingSystemTestAddMovie.test_add_movie_1) ... ok\ntest_add_movie_2 (temp_file.MovieBookingSystemTestAddMovie.test_add_movie_2) ... ok\ntest_add_movie_3 (temp_file.MovieBookingSystemTestAddMovie.test_add_movie_3) ... ok\ntest_add_movie_4 (temp_file.MovieBookingSystemTestAddMovie.test_add_movie_4) ... ok\ntest_add_movie_5 (temp_file.MovieBookingSystemTestAddMovie.test_add_movie_5) ... ok\ntest_available_movies_1 (temp_file.MovieBookingSystemTestAvailableMovies.test_available_movies_1) ... ok\ntest_available_movies_2 (temp_file.MovieBookingSystemTestAvailableMovies.test_available_movies_2) ... ok\ntest_available_movies_3 (temp_file.MovieBookingSystemTestAvailableMovies.test_available_movies_3) ... ok\ntest_available_movies_4 (temp_file.MovieBookingSystemTestAvailableMovies.test_available_movies_4) ... ok\ntest_available_movies_5 (temp_file.MovieBookingSystemTestAvailableMovies.test_available_movies_5) ... ok\ntest_book_ticket_1 (temp_file.MovieBookingSystemTestBookTicket.test_book_ticket_1) ... ok\ntest_book_ticket_2 (temp_file.MovieBookingSystemTestBookTicket.test_book_ticket_2) ... ok\ntest_book_ticket_3 (temp_file.MovieBookingSystemTestBookTicket.test_book_ticket_3) ... ok\ntest_book_ticket_4 (temp_file.MovieBookingSystemTestBookTicket.test_book_ticket_4) ... ok\ntest_book_ticket_5 (temp_file.MovieBookingSystemTestBookTicket.test_book_ticket_5) ... ok\ntest_main (temp_file.MovieBookingSystemTestMain.test_main) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.003s\n\nOK\n"
+}

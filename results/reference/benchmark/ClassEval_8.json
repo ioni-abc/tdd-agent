@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_8",
+  "counts": {
+    "tests_total": 22,
+    "tests_passed": 22,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_all (temp_file.BankAccountTest.test_all) ... ok\ntest_all2 (temp_file.BankAccountTest.test_all2) ... ok\ntest_deposit (temp_file.BankAccountTestDeposit.test_deposit) ... ok\ntest_deposit_2 (temp_file.BankAccountTestDeposit.test_deposit_2) ... ok\ntest_deposit_3 (temp_file.BankAccountTestDeposit.test_deposit_3) ... ok\ntest_deposit_4 (temp_file.BankAccountTestDeposit.test_deposit_4) ... ok\ntest_deposit_5 (temp_file.BankAccountTestDeposit.test_deposit_5) ... ok\ntest_transfer (temp_file.BankAccountTestTransfer.test_transfer) ... ok\ntest_transfer_2 (temp_file.BankAccountTestTransfer.test_transfer_2) ... ok\ntest_transfer_3 (temp_file.BankAccountTestTransfer.test_transfer_3) ... ok\ntest_transfer_4 (temp_file.BankAccountTestTransfer.test_transfer_4) ... ok\ntest_transfer_5 (temp_file.BankAccountTestTransfer.test_transfer_5) ... ok\ntest_view_balance (temp_file.BankAccountTestViewBalance.test_view_balance) ... ok\ntest_view_balance_2 (temp_file.BankAccountTestViewBalance.test_view_balance_2) ... ok\ntest_view_balance_3 (temp_file.BankAccountTestViewBalance.test_view_balance_3) ... ok\ntest_view_balance_4 (temp_file.BankAccountTestViewBalance.test_view_balance_4) ... ok\ntest_view_balance_5 (temp_file.BankAccountTestViewBalance.test_view_balance_5) ... ok\ntest_withdraw (temp_file.BankAccountTestWithdraw.test_withdraw) ... ok\ntest_withdraw_2 (temp_file.BankAccountTestWithdraw.test_withdraw_2) ... ok\ntest_withdraw_3 (temp_file.BankAccountTestWithdraw.test_withdraw_3) ... ok\ntest_withdraw_4 (temp_file.BankAccountTestWithdraw.test_withdraw_4) ... ok\ntest_withdraw_5 (temp_file.BankAccountTestWithdraw.test_withdraw_5) ... ok\n\n----------------------------------------------------------------------\nRan 22 tests in 0.001s\n\nOK\n"
+}

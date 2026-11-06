@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_2",
+  "counts": {
+    "tests_total": 21,
+    "tests_passed": 21,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_add_argument (temp_file.ArgumentParserTestAddArgument.test_add_argument) ... ok\ntest_add_argument_2 (temp_file.ArgumentParserTestAddArgument.test_add_argument_2) ... ok\ntest_add_argument_3 (temp_file.ArgumentParserTestAddArgument.test_add_argument_3) ... ok\ntest_add_argument_4 (temp_file.ArgumentParserTestAddArgument.test_add_argument_4) ... ok\ntest_add_argument_5 (temp_file.ArgumentParserTestAddArgument.test_add_argument_5) ... ok\ntest_convert_type_1 (temp_file.ArgumentParserTestConvertType.test_convert_type_1) ... ok\ntest_convert_type_2 (temp_file.ArgumentParserTestConvertType.test_convert_type_2) ... ok\ntest_convert_type_3 (temp_file.ArgumentParserTestConvertType.test_convert_type_3) ... ok\ntest_convert_type_4 (temp_file.ArgumentParserTestConvertType.test_convert_type_4) ... ok\ntest_convert_type_5 (temp_file.ArgumentParserTestConvertType.test_convert_type_5) ... ok\ntest_get_argument_1 (temp_file.ArgumentParserTestGetArgument.test_get_argument_1) ... ok\ntest_get_argument_2 (temp_file.ArgumentParserTestGetArgument.test_get_argument_2) ... ok\ntest_get_argument_3 (temp_file.ArgumentParserTestGetArgument.test_get_argument_3) ... ok\ntest_get_argument_4 (temp_file.ArgumentParserTestGetArgument.test_get_argument_4) ... ok\ntest_get_argument_5 (temp_file.ArgumentParserTestGetArgument.test_get_argument_5) ... ok\ntest_main (temp_file.ArgumentParserTestMain.test_main) ... ok\ntest_parse_arguments_1 (temp_file.ArgumentParserTestParseArguments.test_parse_arguments_1) ... ok\ntest_parse_arguments_2 (temp_file.ArgumentParserTestParseArguments.test_parse_arguments_2) ... ok\ntest_parse_arguments_3 (temp_file.ArgumentParserTestParseArguments.test_parse_arguments_3) ... ok\ntest_parse_arguments_4 (temp_file.ArgumentParserTestParseArguments.test_parse_arguments_4) ... ok\ntest_parse_arguments_5 (temp_file.ArgumentParserTestParseArguments.test_parse_arguments_5) ... ok\n\n----------------------------------------------------------------------\nRan 21 tests in 0.000s\n\nOK\n"
+}

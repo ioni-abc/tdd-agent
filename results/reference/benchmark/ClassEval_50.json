@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_50",
+  "counts": {
+    "tests_total": 16,
+    "tests_passed": 16,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_main (temp_file.JSONProcessorTestMain.test_main) ... ok\ntest_process_json_1 (temp_file.JSONProcessorTestProcessJsonExistingKey.test_process_json_1) ... ok\ntest_process_json_2 (temp_file.JSONProcessorTestProcessJsonExistingKey.test_process_json_2) ... ok\ntest_process_json_3 (temp_file.JSONProcessorTestProcessJsonExistingKey.test_process_json_3) ... ok\ntest_process_json_4 (temp_file.JSONProcessorTestProcessJsonExistingKey.test_process_json_4) ... ok\ntest_process_json_5 (temp_file.JSONProcessorTestProcessJsonExistingKey.test_process_json_5) ... ok\ntest_read_json_1 (temp_file.JSONProcessorTestReadJson.test_read_json_1) ... ok\ntest_read_json_2 (temp_file.JSONProcessorTestReadJson.test_read_json_2) ... ok\ntest_read_json_3 (temp_file.JSONProcessorTestReadJson.test_read_json_3) ... ok\ntest_read_json_4 (temp_file.JSONProcessorTestReadJson.test_read_json_4) ... ok\ntest_read_json_5 (temp_file.JSONProcessorTestReadJson.test_read_json_5) ... ok\ntest_write_json_1 (temp_file.JSONProcessorTestWriteJson.test_write_json_1) ... ok\ntest_write_json_2 (temp_file.JSONProcessorTestWriteJson.test_write_json_2) ... ok\ntest_write_json_3 (temp_file.JSONProcessorTestWriteJson.test_write_json_3) ... ok\ntest_write_json_4 (temp_file.JSONProcessorTestWriteJson.test_write_json_4) ... ok\ntest_write_json_5 (temp_file.JSONProcessorTestWriteJson.test_write_json_5) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.003s\n\nOK\n"
+}

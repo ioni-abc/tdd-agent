@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_38",
+  "counts": {
+    "tests_total": 19,
+    "tests_passed": 19,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_ExcelProcessor (temp_file.ExcelProcessorTest.test_ExcelProcessor) ... ok\ntest_process_excel_data_1 (temp_file.ExcelProcessorTestProcessExcelData.test_process_excel_data_1) ... ok\ntest_process_excel_data_2 (temp_file.ExcelProcessorTestProcessExcelData.test_process_excel_data_2) ... ok\ntest_process_excel_data_3 (temp_file.ExcelProcessorTestProcessExcelData.test_process_excel_data_3) ... ok\ntest_process_excel_data_4 (temp_file.ExcelProcessorTestProcessExcelData.test_process_excel_data_4) ... ok\ntest_process_excel_data_5 (temp_file.ExcelProcessorTestProcessExcelData.test_process_excel_data_5) ... ok\ntest_process_excel_data_6 (temp_file.ExcelProcessorTestProcessExcelData.test_process_excel_data_6) ... ok\ntest_read_excel_1 (temp_file.ExcelProcessorTestReadExcel.test_read_excel_1) ... ok\ntest_read_excel_2 (temp_file.ExcelProcessorTestReadExcel.test_read_excel_2) ... ok\ntest_read_excel_3 (temp_file.ExcelProcessorTestReadExcel.test_read_excel_3) ... ok\ntest_read_excel_4 (temp_file.ExcelProcessorTestReadExcel.test_read_excel_4) ... ok\ntest_read_excel_5 (temp_file.ExcelProcessorTestReadExcel.test_read_excel_5) ... ok\ntest_read_excel_6 (temp_file.ExcelProcessorTestReadExcel.test_read_excel_6) ... ok\ntest_write_excel_1 (temp_file.ExcelProcessorTestWriteExcel.test_write_excel_1) ... ok\ntest_write_excel_2 (temp_file.ExcelProcessorTestWriteExcel.test_write_excel_2) ... ok\ntest_write_excel_3 (temp_file.ExcelProcessorTestWriteExcel.test_write_excel_3) ... ok\ntest_write_excel_4 (temp_file.ExcelProcessorTestWriteExcel.test_write_excel_4) ... ok\ntest_write_excel_5 (temp_file.ExcelProcessorTestWriteExcel.test_write_excel_5) ... ok\ntest_write_excel_6 (temp_file.ExcelProcessorTestWriteExcel.test_write_excel_6) ... ok\n\n----------------------------------------------------------------------\nRan 19 tests in 0.168s\n\nOK\n"
+}

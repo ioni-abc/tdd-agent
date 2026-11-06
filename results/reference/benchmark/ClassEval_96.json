@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_96",
+  "counts": {
+    "tests_total": 22,
+    "tests_passed": 22,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_celsius_to_fahrenheit (temp_file.WeatherSystemTestCelsiusToFahrenheit.test_celsius_to_fahrenheit) ... ok\ntest_celsius_to_fahrenheit_2 (temp_file.WeatherSystemTestCelsiusToFahrenheit.test_celsius_to_fahrenheit_2) ... ok\ntest_celsius_to_fahrenheit_3 (temp_file.WeatherSystemTestCelsiusToFahrenheit.test_celsius_to_fahrenheit_3) ... ok\ntest_celsius_to_fahrenheit_4 (temp_file.WeatherSystemTestCelsiusToFahrenheit.test_celsius_to_fahrenheit_4) ... ok\ntest_celsius_to_fahrenheit_5 (temp_file.WeatherSystemTestCelsiusToFahrenheit.test_celsius_to_fahrenheit_5) ... ok\ntest_fahrenheit_to_celsius (temp_file.WeatherSystemTestFahrenheitToCelsius.test_fahrenheit_to_celsius) ... ok\ntest_fahrenheit_to_celsius_2 (temp_file.WeatherSystemTestFahrenheitToCelsius.test_fahrenheit_to_celsius_2) ... ok\ntest_fahrenheit_to_celsius_3 (temp_file.WeatherSystemTestFahrenheitToCelsius.test_fahrenheit_to_celsius_3) ... ok\ntest_fahrenheit_to_celsius_4 (temp_file.WeatherSystemTestFahrenheitToCelsius.test_fahrenheit_to_celsius_4) ... ok\ntest_fahrenheit_to_celsius_5 (temp_file.WeatherSystemTestFahrenheitToCelsius.test_fahrenheit_to_celsius_5) ... ok\ntest_main (temp_file.WeatherSystemTestMain.test_main) ... ok\ntest_query (temp_file.WeatherSystemTestQuery.test_query) ... ok\ntest_query_2 (temp_file.WeatherSystemTestQuery.test_query_2) ... ok\ntest_query_3 (temp_file.WeatherSystemTestQuery.test_query_3) ... ok\ntest_query_4 (temp_file.WeatherSystemTestQuery.test_query_4) ... ok\ntest_query_5 (temp_file.WeatherSystemTestQuery.test_query_5) ... ok\ntest_query_6 (temp_file.WeatherSystemTestQuery.test_query_6) ... ok\ntest_set_city (temp_file.WeatherSystemTestSetCity.test_set_city) ... ok\ntest_set_city_2 (temp_file.WeatherSystemTestSetCity.test_set_city_2) ... ok\ntest_set_city_3 (temp_file.WeatherSystemTestSetCity.test_set_city_3) ... ok\ntest_set_city_4 (temp_file.WeatherSystemTestSetCity.test_set_city_4) ... ok\ntest_set_city_5 (temp_file.WeatherSystemTestSetCity.test_set_city_5) ... ok\n\n----------------------------------------------------------------------\nRan 22 tests in 0.000s\n\nOK\n"
+}

@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_14",
+  "counts": {
+    "tests_total": 7,
+    "tests_passed": 7,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_add_book (temp_file.BookManagementDBTestAddBook.test_add_book) ... ok\ntest_borrow_book (temp_file.BookManagementDBTestBorrowBook.test_borrow_book) ... ok\ntest_create_table_1 (temp_file.BookManagementDBTestCreateTable.test_create_table_1) ... ok\ntest_create_table_2 (temp_file.BookManagementDBTestCreateTable.test_create_table_2) ... ok\ntest_remove_book (temp_file.BookManagementDBTestRemoveBook.test_remove_book) ... ok\ntest_return_book (temp_file.BookManagementDBTestReturnBook.test_return_book) ... ok\ntest_search_books (temp_file.BookManagementDBTestSearchBooks.test_search_books) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.012s\n\nOK\n"
+}

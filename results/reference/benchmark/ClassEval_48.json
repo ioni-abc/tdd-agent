@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_48",
+  "counts": {
+    "tests_total": 16,
+    "tests_passed": 16,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_IpUtil (temp_file.IpUtilTest.test_IpUtil) ... ok\ntest_get_hostname_1 (temp_file.IpUtilTestGetHostname.test_get_hostname_1) ... ok\ntest_get_hostname_2 (temp_file.IpUtilTestGetHostname.test_get_hostname_2) ... ok\ntest_get_hostname_3 (temp_file.IpUtilTestGetHostname.test_get_hostname_3) ... ok\ntest_get_hostname_4 (temp_file.IpUtilTestGetHostname.test_get_hostname_4) ... ok\ntest_get_hostname_5 (temp_file.IpUtilTestGetHostname.test_get_hostname_5) ... ok\ntest_is_valid_ipv4_1 (temp_file.IpUtilTestIsValidIpv4.test_is_valid_ipv4_1) ... ok\ntest_is_valid_ipv4_2 (temp_file.IpUtilTestIsValidIpv4.test_is_valid_ipv4_2) ... ok\ntest_is_valid_ipv4_3 (temp_file.IpUtilTestIsValidIpv4.test_is_valid_ipv4_3) ... ok\ntest_is_valid_ipv4_4 (temp_file.IpUtilTestIsValidIpv4.test_is_valid_ipv4_4) ... ok\ntest_is_valid_ipv4_5 (temp_file.IpUtilTestIsValidIpv4.test_is_valid_ipv4_5) ... ok\ntest_is_valid_ipv6_1 (temp_file.IpUtilTestIsValidIpv6.test_is_valid_ipv6_1) ... ok\ntest_is_valid_ipv6_2 (temp_file.IpUtilTestIsValidIpv6.test_is_valid_ipv6_2) ... ok\ntest_is_valid_ipv6_3 (temp_file.IpUtilTestIsValidIpv6.test_is_valid_ipv6_3) ... ok\ntest_is_valid_ipv6_4 (temp_file.IpUtilTestIsValidIpv6.test_is_valid_ipv6_4) ... ok\ntest_is_valid_ipv6_5 (temp_file.IpUtilTestIsValidIpv6.test_is_valid_ipv6_5) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.312s\n\nOK\n"
+}

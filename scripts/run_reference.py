@@ -1,5 +1,7 @@
 from tdd_agent.dataset import load_tasks
 from tdd_agent.grading.grader import GradeRecord, grade
+from tdd_agent.runs import reference_dir, save_records
+
 
 REFERENCE_RUNS = {
     "benchmark": "solution_code",
@@ -28,6 +30,7 @@ def main() -> None:
     tasks = load_tasks()
     for label, code_key in REFERENCE_RUNS.items():
         records = run(tasks, code_key)
+        save_records(records, reference_dir(label))
         print_summary(label, records)
 
 if __name__ == "__main__":

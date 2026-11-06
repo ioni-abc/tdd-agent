@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_23",
+  "counts": {
+    "tests_total": 26,
+    "tests_passed": 26,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_count (temp_file.CombinationCalculatorTestCount.test_count) ... ok\ntest_count_2 (temp_file.CombinationCalculatorTestCount.test_count_2) ... ok\ntest_count_3 (temp_file.CombinationCalculatorTestCount.test_count_3) ... ok\ntest_count_4 (temp_file.CombinationCalculatorTestCount.test_count_4) ... ok\ntest_count_5 (temp_file.CombinationCalculatorTestCount.test_count_5) ... ok\ntest_count_all (temp_file.CombinationCalculatorTestCountAll.test_count_all) ... ok\ntest_count_all_2 (temp_file.CombinationCalculatorTestCountAll.test_count_all_2) ... ok\ntest_count_all_3 (temp_file.CombinationCalculatorTestCountAll.test_count_all_3) ... ok\ntest_count_all_4 (temp_file.CombinationCalculatorTestCountAll.test_count_all_4) ... ok\ntest_count_all_5 (temp_file.CombinationCalculatorTestCountAll.test_count_all_5) ... ok\ntest_main (temp_file.CombinationCalculatorTestMain.test_main) ... ok\ntest_select (temp_file.CombinationCalculatorTestSelect.test_select) ... ok\ntest_select_2 (temp_file.CombinationCalculatorTestSelect.test_select_2) ... ok\ntest_select_3 (temp_file.CombinationCalculatorTestSelect.test_select_3) ... ok\ntest_select_4 (temp_file.CombinationCalculatorTestSelect.test_select_4) ... ok\ntest_select_5 (temp_file.CombinationCalculatorTestSelect.test_select_5) ... ok\ntest_select2 (temp_file.CombinationCalculatorTestSelect2.test_select2) ... ok\ntest_select2_2 (temp_file.CombinationCalculatorTestSelect2.test_select2_2) ... ok\ntest_select2_3 (temp_file.CombinationCalculatorTestSelect2.test_select2_3) ... ok\ntest_select2_4 (temp_file.CombinationCalculatorTestSelect2.test_select2_4) ... ok\ntest_select2_5 (temp_file.CombinationCalculatorTestSelect2.test_select2_5) ... ok\ntest_select_all (temp_file.CombinationCalculatorTestSelectAll.test_select_all) ... ok\ntest_select_all_2 (temp_file.CombinationCalculatorTestSelectAll.test_select_all_2) ... ok\ntest_select_all_3 (temp_file.CombinationCalculatorTestSelectAll.test_select_all_3) ... ok\ntest_select_all_4 (temp_file.CombinationCalculatorTestSelectAll.test_select_all_4) ... ok\ntest_select_all_5 (temp_file.CombinationCalculatorTestSelectAll.test_select_all_5) ... ok\n\n----------------------------------------------------------------------\nRan 26 tests in 0.000s\n\nOK\n"
+}

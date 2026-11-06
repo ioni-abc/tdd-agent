@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_83",
+  "counts": {
+    "tests_total": 16,
+    "tests_passed": 16,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_StudentDatabaseProcessor (temp_file.StudentDatabaseProcessorTest.test_StudentDatabaseProcessor) ... ok\ntest_delete_student_by_name_1 (temp_file.StudentDatabaseProcessorTestDeleteStudentByName.test_delete_student_by_name_1) ... ok\ntest_delete_student_by_name_2 (temp_file.StudentDatabaseProcessorTestDeleteStudentByName.test_delete_student_by_name_2) ... ok\ntest_delete_student_by_name_3 (temp_file.StudentDatabaseProcessorTestDeleteStudentByName.test_delete_student_by_name_3) ... ok\ntest_delete_student_by_name_4 (temp_file.StudentDatabaseProcessorTestDeleteStudentByName.test_delete_student_by_name_4) ... ok\ntest_delete_student_by_name_5 (temp_file.StudentDatabaseProcessorTestDeleteStudentByName.test_delete_student_by_name_5) ... ok\ntest_insert_student_1 (temp_file.StudentDatabaseProcessorTestInsertStudent.test_insert_student_1) ... ok\ntest_insert_student_2 (temp_file.StudentDatabaseProcessorTestInsertStudent.test_insert_student_2) ... ok\ntest_insert_student_3 (temp_file.StudentDatabaseProcessorTestInsertStudent.test_insert_student_3) ... ok\ntest_insert_student_4 (temp_file.StudentDatabaseProcessorTestInsertStudent.test_insert_student_4) ... ok\ntest_insert_student_5 (temp_file.StudentDatabaseProcessorTestInsertStudent.test_insert_student_5) ... ok\ntest_search_student_by_name_1 (temp_file.StudentDatabaseProcessorTestSearchStudentByName.test_search_student_by_name_1) ... ok\ntest_search_student_by_name_2 (temp_file.StudentDatabaseProcessorTestSearchStudentByName.test_search_student_by_name_2) ... ok\ntest_search_student_by_name_3 (temp_file.StudentDatabaseProcessorTestSearchStudentByName.test_search_student_by_name_3) ... ok\ntest_search_student_by_name_4 (temp_file.StudentDatabaseProcessorTestSearchStudentByName.test_search_student_by_name_4) ... ok\ntest_search_student_by_name_5 (temp_file.StudentDatabaseProcessorTestSearchStudentByName.test_search_student_by_name_5) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.030s\n\nOK\n"
+}

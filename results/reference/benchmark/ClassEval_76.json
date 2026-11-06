@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_76",
+  "counts": {
+    "tests_total": 26,
+    "tests_passed": 26,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_add_user_1 (temp_file.SignInSystemTestAddUser.test_add_user_1) ... ok\ntest_add_user_2 (temp_file.SignInSystemTestAddUser.test_add_user_2) ... ok\ntest_add_user_3 (temp_file.SignInSystemTestAddUser.test_add_user_3) ... ok\ntest_add_user_4 (temp_file.SignInSystemTestAddUser.test_add_user_4) ... ok\ntest_add_user_5 (temp_file.SignInSystemTestAddUser.test_add_user_5) ... ok\ntest_all_not_signed_in_1 (temp_file.SignInSystemTestAllNotSignedIn.test_all_not_signed_in_1) ... ok\ntest_all_not_signed_in_2 (temp_file.SignInSystemTestAllNotSignedIn.test_all_not_signed_in_2) ... ok\ntest_all_not_signed_in_3 (temp_file.SignInSystemTestAllNotSignedIn.test_all_not_signed_in_3) ... ok\ntest_all_not_signed_in_4 (temp_file.SignInSystemTestAllNotSignedIn.test_all_not_signed_in_4) ... ok\ntest_all_not_signed_in_5 (temp_file.SignInSystemTestAllNotSignedIn.test_all_not_signed_in_5) ... ok\ntest_all_signed_in_1 (temp_file.SignInSystemTestAllSignedIn.test_all_signed_in_1) ... ok\ntest_all_signed_in_2 (temp_file.SignInSystemTestAllSignedIn.test_all_signed_in_2) ... ok\ntest_all_signed_in_3 (temp_file.SignInSystemTestAllSignedIn.test_all_signed_in_3) ... ok\ntest_all_signed_in_4 (temp_file.SignInSystemTestAllSignedIn.test_all_signed_in_4) ... ok\ntest_all_signed_in_5 (temp_file.SignInSystemTestAllSignedIn.test_all_signed_in_5) ... ok\ntest_check_sign_in_1 (temp_file.SignInSystemTestCheckSignIn.test_check_sign_in_1) ... ok\ntest_check_sign_in_2 (temp_file.SignInSystemTestCheckSignIn.test_check_sign_in_2) ... ok\ntest_check_sign_in_3 (temp_file.SignInSystemTestCheckSignIn.test_check_sign_in_3) ... ok\ntest_check_sign_in_4 (temp_file.SignInSystemTestCheckSignIn.test_check_sign_in_4) ... ok\ntest_check_sign_in_5 (temp_file.SignInSystemTestCheckSignIn.test_check_sign_in_5) ... ok\ntest_main (temp_file.SignInSystemTestMain.test_main) ... ok\ntest_sign_in_1 (temp_file.SignInSystemTestSignIn.test_sign_in_1) ... ok\ntest_sign_in_2 (temp_file.SignInSystemTestSignIn.test_sign_in_2) ... ok\ntest_sign_in_3 (temp_file.SignInSystemTestSignIn.test_sign_in_3) ... ok\ntest_sign_in_4 (temp_file.SignInSystemTestSignIn.test_sign_in_4) ... ok\ntest_sign_in_5 (temp_file.SignInSystemTestSignIn.test_sign_in_5) ... ok\n\n----------------------------------------------------------------------\nRan 26 tests in 0.000s\n\nOK\n"
+}

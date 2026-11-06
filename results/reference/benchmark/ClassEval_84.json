@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_84",
+  "counts": {
+    "tests_total": 21,
+    "tests_passed": 21,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_main (temp_file.TextFileProcessorTestMain.test_main) ... ok\ntest_process_file_1 (temp_file.TextFileProcessorTestProcessFile.test_process_file_1) ... ok\ntest_process_file_2 (temp_file.TextFileProcessorTestProcessFile.test_process_file_2) ... ok\ntest_process_file_3 (temp_file.TextFileProcessorTestProcessFile.test_process_file_3) ... ok\ntest_process_file_4 (temp_file.TextFileProcessorTestProcessFile.test_process_file_4) ... ok\ntest_process_file_5 (temp_file.TextFileProcessorTestProcessFile.test_process_file_5) ... ok\ntest_read_file_1 (temp_file.TextFileProcessorTestReadFile.test_read_file_1) ... ok\ntest_read_file_2 (temp_file.TextFileProcessorTestReadFile.test_read_file_2) ... ok\ntest_read_file_3 (temp_file.TextFileProcessorTestReadFile.test_read_file_3) ... ok\ntest_read_file_4 (temp_file.TextFileProcessorTestReadFile.test_read_file_4) ... ok\ntest_read_file_5 (temp_file.TextFileProcessorTestReadFile.test_read_file_5) ... ok\ntest_read_file_as_json_1 (temp_file.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_1) ... ok\ntest_read_file_as_json_2 (temp_file.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_2) ... ok\ntest_read_file_as_json_3 (temp_file.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_3) ... ok\ntest_read_file_as_json_4 (temp_file.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_4) ... ok\ntest_read_file_as_json_5 (temp_file.TextFileProcessorTestReadFileAsJson.test_read_file_as_json_5) ... ok\ntest_write_file_1 (temp_file.TextFileProcessorTestWriteFile.test_write_file_1) ... ok\ntest_write_file_2 (temp_file.TextFileProcessorTestWriteFile.test_write_file_2) ... ok\ntest_write_file_3 (temp_file.TextFileProcessorTestWriteFile.test_write_file_3) ... ok\ntest_write_file_4 (temp_file.TextFileProcessorTestWriteFile.test_write_file_4) ... ok\ntest_write_file_5 (temp_file.TextFileProcessorTestWriteFile.test_write_file_5) ... ok\n\n----------------------------------------------------------------------\nRan 21 tests in 0.007s\n\nOK\n"
+}

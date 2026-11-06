@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_16",
+  "counts": {
+    "tests_total": 19,
+    "tests_passed": 19,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_calculator (temp_file.CalculatorTest.test_calculator) ... ok\ntest_apply_operator_1 (temp_file.CalculatorTestApplyOperator.test_apply_operator_1) ... ok\ntest_apply_operator_2 (temp_file.CalculatorTestApplyOperator.test_apply_operator_2) ... ok\ntest_apply_operator_3 (temp_file.CalculatorTestApplyOperator.test_apply_operator_3) ... ok\ntest_apply_operator_4 (temp_file.CalculatorTestApplyOperator.test_apply_operator_4) ... ok\ntest_apply_operator_5 (temp_file.CalculatorTestApplyOperator.test_apply_operator_5) ... ok\ntest_calculate_1 (temp_file.CalculatorTestCalculate.test_calculate_1) ... ok\ntest_calculate_2 (temp_file.CalculatorTestCalculate.test_calculate_2) ... ok\ntest_calculate_3 (temp_file.CalculatorTestCalculate.test_calculate_3) ... ok\ntest_calculate_4 (temp_file.CalculatorTestCalculate.test_calculate_4) ... ok\ntest_calculate_5 (temp_file.CalculatorTestCalculate.test_calculate_5) ... ok\ntest_calculate_6 (temp_file.CalculatorTestCalculate.test_calculate_6) ... ok\ntest_calculate_7 (temp_file.CalculatorTestCalculate.test_calculate_7) ... ok\ntest_calculate_8 (temp_file.CalculatorTestCalculate.test_calculate_8) ... ok\ntest_precedence_1 (temp_file.CalculatorTestPrecedence.test_precedence_1) ... ok\ntest_precedence_2 (temp_file.CalculatorTestPrecedence.test_precedence_2) ... ok\ntest_precedence_3 (temp_file.CalculatorTestPrecedence.test_precedence_3) ... ok\ntest_precedence_4 (temp_file.CalculatorTestPrecedence.test_precedence_4) ... ok\ntest_precedence_5 (temp_file.CalculatorTestPrecedence.test_precedence_5) ... ok\n\n----------------------------------------------------------------------\nRan 19 tests in 0.000s\n\nOK\n"
+}

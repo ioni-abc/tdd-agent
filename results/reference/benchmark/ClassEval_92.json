@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_92",
+  "counts": {
+    "tests_total": 21,
+    "tests_passed": 21,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_UserLoginDB (temp_file.UserLoginDBTest.test_UserLoginDB) ... ok\ntest_delete_user_by_username_1 (temp_file.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_1) ... ok\ntest_delete_user_by_username_2 (temp_file.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_2) ... ok\ntest_delete_user_by_username_3 (temp_file.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_3) ... ok\ntest_delete_user_by_username_4 (temp_file.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_4) ... ok\ntest_delete_user_by_username_5 (temp_file.UserLoginDBTestDeleteUserByUsername.test_delete_user_by_username_5) ... ok\ntest_insert_user_1 (temp_file.UserLoginDBTestInsertUser.test_insert_user_1) ... ok\ntest_insert_user_2 (temp_file.UserLoginDBTestInsertUser.test_insert_user_2) ... ok\ntest_insert_user_3 (temp_file.UserLoginDBTestInsertUser.test_insert_user_3) ... ok\ntest_insert_user_4 (temp_file.UserLoginDBTestInsertUser.test_insert_user_4) ... ok\ntest_insert_user_5 (temp_file.UserLoginDBTestInsertUser.test_insert_user_5) ... ok\ntest_search_user_by_username_1 (temp_file.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_1) ... ok\ntest_search_user_by_username_2 (temp_file.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_2) ... ok\ntest_search_user_by_username_3 (temp_file.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_3) ... ok\ntest_search_user_by_username_4 (temp_file.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_4) ... ok\ntest_search_user_by_username_5 (temp_file.UserLoginDBTestSearchUserByUsername.test_search_user_by_username_5) ... ok\ntest_validate_user_login_1 (temp_file.UserLoginDBTestValidateUserLogin.test_validate_user_login_1) ... ok\ntest_validate_user_login_2 (temp_file.UserLoginDBTestValidateUserLogin.test_validate_user_login_2) ... ok\ntest_validate_user_login_3 (temp_file.UserLoginDBTestValidateUserLogin.test_validate_user_login_3) ... ok\ntest_validate_user_login_4 (temp_file.UserLoginDBTestValidateUserLogin.test_validate_user_login_4) ... ok\ntest_validate_user_login_5 (temp_file.UserLoginDBTestValidateUserLogin.test_validate_user_login_5) ... ok\n\n----------------------------------------------------------------------\nRan 21 tests in 0.026s\n\nOK\n"
+}

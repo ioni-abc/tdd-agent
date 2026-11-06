@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_53",
+  "counts": {
+    "tests_total": 10,
+    "tests_passed": 10,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_add_word_1 (temp_file.LongestWordTestAddWord.test_add_word_1) ... ok\ntest_add_word_2 (temp_file.LongestWordTestAddWord.test_add_word_2) ... ok\ntest_add_word_3 (temp_file.LongestWordTestAddWord.test_add_word_3) ... ok\ntest_add_word_4 (temp_file.LongestWordTestAddWord.test_add_word_4) ... ok\ntest_add_word_5 (temp_file.LongestWordTestAddWord.test_add_word_5) ... ok\ntest_find_longest_word_1 (temp_file.LongestWordTestFindLongestWord.test_find_longest_word_1) ... ok\ntest_find_longest_word_2 (temp_file.LongestWordTestFindLongestWord.test_find_longest_word_2) ... ok\ntest_find_longest_word_3 (temp_file.LongestWordTestFindLongestWord.test_find_longest_word_3) ... ok\ntest_find_longest_word_4 (temp_file.LongestWordTestFindLongestWord.test_find_longest_word_4) ... ok\ntest_find_longest_word_5 (temp_file.LongestWordTestFindLongestWord.test_find_longest_word_5) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.000s\n\nOK\n"
+}

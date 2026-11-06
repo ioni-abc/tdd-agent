@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_11",
+  "counts": {
+    "tests_total": 21,
+    "tests_passed": 21,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_add (temp_file.BitStatusUtilTestAdd.test_add) ... ok\ntest_add_2 (temp_file.BitStatusUtilTestAdd.test_add_2) ... ok\ntest_add_3 (temp_file.BitStatusUtilTestAdd.test_add_3) ... ok\ntest_add_4 (temp_file.BitStatusUtilTestAdd.test_add_4) ... ok\ntest_add_5 (temp_file.BitStatusUtilTestAdd.test_add_5) ... ok\ntest_check (temp_file.BitStatusUtilTestCheck.test_check) ... ok\ntest_check_2 (temp_file.BitStatusUtilTestCheck.test_check_2) ... ok\ntest_check_3 (temp_file.BitStatusUtilTestCheck.test_check_3) ... ok\ntest_check_4 (temp_file.BitStatusUtilTestCheck.test_check_4) ... ok\ntest_check_5 (temp_file.BitStatusUtilTestCheck.test_check_5) ... ok\ntest_has (temp_file.BitStatusUtilTestHas.test_has) ... ok\ntest_has_2 (temp_file.BitStatusUtilTestHas.test_has_2) ... ok\ntest_has_3 (temp_file.BitStatusUtilTestHas.test_has_3) ... ok\ntest_has_4 (temp_file.BitStatusUtilTestHas.test_has_4) ... ok\ntest_has_5 (temp_file.BitStatusUtilTestHas.test_has_5) ... ok\ntest_main (temp_file.BitStatusUtilTestMain.test_main) ... ok\ntest_remove (temp_file.BitStatusUtilTestRemove.test_remove) ... ok\ntest_remove_2 (temp_file.BitStatusUtilTestRemove.test_remove_2) ... ok\ntest_remove_3 (temp_file.BitStatusUtilTestRemove.test_remove_3) ... ok\ntest_remove_4 (temp_file.BitStatusUtilTestRemove.test_remove_4) ... ok\ntest_remove_5 (temp_file.BitStatusUtilTestRemove.test_remove_5) ... ok\n\n----------------------------------------------------------------------\nRan 21 tests in 0.000s\n\nOK\n"
+}

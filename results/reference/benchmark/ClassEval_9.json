@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_9",
+  "counts": {
+    "tests_total": 17,
+    "tests_passed": 17,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_add (temp_file.BigNumCalculatorTestAdd.test_add) ... ok\ntest_add_2 (temp_file.BigNumCalculatorTestAdd.test_add_2) ... ok\ntest_add_3 (temp_file.BigNumCalculatorTestAdd.test_add_3) ... ok\ntest_add_4 (temp_file.BigNumCalculatorTestAdd.test_add_4) ... ok\ntest_add_5 (temp_file.BigNumCalculatorTestAdd.test_add_5) ... ok\ntest_main (temp_file.BigNumCalculatorTestMain.test_main) ... ok\ntest_multiply (temp_file.BigNumCalculatorTestMultiply.test_multiply) ... ok\ntest_multiply_2 (temp_file.BigNumCalculatorTestMultiply.test_multiply_2) ... ok\ntest_multiply_3 (temp_file.BigNumCalculatorTestMultiply.test_multiply_3) ... ok\ntest_multiply_4 (temp_file.BigNumCalculatorTestMultiply.test_multiply_4) ... ok\ntest_multiply_5 (temp_file.BigNumCalculatorTestMultiply.test_multiply_5) ... ok\ntest_multiply_6 (temp_file.BigNumCalculatorTestMultiply.test_multiply_6) ... ok\ntest_subtract (temp_file.BigNumCalculatorTestSubtract.test_subtract) ... ok\ntest_subtract_2 (temp_file.BigNumCalculatorTestSubtract.test_subtract_2) ... ok\ntest_subtract_3 (temp_file.BigNumCalculatorTestSubtract.test_subtract_3) ... ok\ntest_subtract_4 (temp_file.BigNumCalculatorTestSubtract.test_subtract_4) ... ok\ntest_subtract_5 (temp_file.BigNumCalculatorTestSubtract.test_subtract_5) ... ok\n\n----------------------------------------------------------------------\nRan 17 tests in 0.001s\n\nOK\n"
+}

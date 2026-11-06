@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_60",
+  "counts": {
+    "tests_total": 16,
+    "tests_passed": 16,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_MovieTicketDB (temp_file.MovieTicketDBTest.test_MovieTicketDB) ... ok\ntest_delete_ticket_1 (temp_file.MovieTicketDBTestDeleteTicket.test_delete_ticket_1) ... ok\ntest_delete_ticket_2 (temp_file.MovieTicketDBTestDeleteTicket.test_delete_ticket_2) ... ok\ntest_delete_ticket_3 (temp_file.MovieTicketDBTestDeleteTicket.test_delete_ticket_3) ... ok\ntest_delete_ticket_4 (temp_file.MovieTicketDBTestDeleteTicket.test_delete_ticket_4) ... ok\ntest_delete_ticket_5 (temp_file.MovieTicketDBTestDeleteTicket.test_delete_ticket_5) ... ok\ntest_insert_ticket_1 (temp_file.MovieTicketDBTestInsertTicket.test_insert_ticket_1) ... ok\ntest_insert_ticket_2 (temp_file.MovieTicketDBTestInsertTicket.test_insert_ticket_2) ... ok\ntest_insert_ticket_3 (temp_file.MovieTicketDBTestInsertTicket.test_insert_ticket_3) ... ok\ntest_insert_ticket_4 (temp_file.MovieTicketDBTestInsertTicket.test_insert_ticket_4) ... ok\ntest_insert_ticket_5 (temp_file.MovieTicketDBTestInsertTicket.test_insert_ticket_5) ... ok\ntest_search_tickets_by_customer_1 (temp_file.MovieTicketDBTestSearchTicketsByCustomer.test_search_tickets_by_customer_1) ... ok\ntest_search_tickets_by_customer_2 (temp_file.MovieTicketDBTestSearchTicketsByCustomer.test_search_tickets_by_customer_2) ... ok\ntest_search_tickets_by_customer_3 (temp_file.MovieTicketDBTestSearchTicketsByCustomer.test_search_tickets_by_customer_3) ... ok\ntest_search_tickets_by_customer_4 (temp_file.MovieTicketDBTestSearchTicketsByCustomer.test_search_tickets_by_customer_4) ... ok\ntest_search_tickets_by_customer_5 (temp_file.MovieTicketDBTestSearchTicketsByCustomer.test_search_tickets_by_customer_5) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.022s\n\nOK\n"
+}

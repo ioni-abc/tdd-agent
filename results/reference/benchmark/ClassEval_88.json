@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_88",
+  "counts": {
+    "tests_total": 26,
+    "tests_passed": 26,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_tricalculator (temp_file.TriCalculatorTest.test_tricalculator) ... ok\ntest_cos_1 (temp_file.TriCalculatorTestCos.test_cos_1) ... ok\ntest_cos_2 (temp_file.TriCalculatorTestCos.test_cos_2) ... ok\ntest_cos_3 (temp_file.TriCalculatorTestCos.test_cos_3) ... ok\ntest_cos_4 (temp_file.TriCalculatorTestCos.test_cos_4) ... ok\ntest_cos_5 (temp_file.TriCalculatorTestCos.test_cos_5) ... ok\ntest_factorial_1 (temp_file.TriCalculatorTestFactorial.test_factorial_1) ... ok\ntest_factorial_2 (temp_file.TriCalculatorTestFactorial.test_factorial_2) ... ok\ntest_factorial_3 (temp_file.TriCalculatorTestFactorial.test_factorial_3) ... ok\ntest_factorial_4 (temp_file.TriCalculatorTestFactorial.test_factorial_4) ... ok\ntest_factorial_5 (temp_file.TriCalculatorTestFactorial.test_factorial_5) ... ok\ntest_sin_1 (temp_file.TriCalculatorTestSin.test_sin_1) ... ok\ntest_sin_2 (temp_file.TriCalculatorTestSin.test_sin_2) ... ok\ntest_sin_3 (temp_file.TriCalculatorTestSin.test_sin_3) ... ok\ntest_sin_4 (temp_file.TriCalculatorTestSin.test_sin_4) ... ok\ntest_sin_5 (temp_file.TriCalculatorTestSin.test_sin_5) ... ok\ntest_tan_1 (temp_file.TriCalculatorTestTan.test_tan_1) ... ok\ntest_tan_2 (temp_file.TriCalculatorTestTan.test_tan_2) ... ok\ntest_tan_3 (temp_file.TriCalculatorTestTan.test_tan_3) ... ok\ntest_tan_4 (temp_file.TriCalculatorTestTan.test_tan_4) ... ok\ntest_tan_5 (temp_file.TriCalculatorTestTan.test_tan_5) ... ok\ntest_taylor_1 (temp_file.TriCalculatorTestTaylor.test_taylor_1) ... ok\ntest_taylor_2 (temp_file.TriCalculatorTestTaylor.test_taylor_2) ... ok\ntest_taylor_3 (temp_file.TriCalculatorTestTaylor.test_taylor_3) ... ok\ntest_taylor_4 (temp_file.TriCalculatorTestTaylor.test_taylor_4) ... ok\ntest_taylor_5 (temp_file.TriCalculatorTestTaylor.test_taylor_5) ... ok\n\n----------------------------------------------------------------------\nRan 26 tests in 0.003s\n\nOK\n"
+}

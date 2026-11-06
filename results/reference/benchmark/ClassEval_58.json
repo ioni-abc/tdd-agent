@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_58",
+  "counts": {
+    "tests_total": 22,
+    "tests_passed": 22,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_check_won (temp_file.MinesweeperGameTestCheckWon.test_check_won) ... ok\ntest_check_won_2 (temp_file.MinesweeperGameTestCheckWon.test_check_won_2) ... ok\ntest_check_won_3 (temp_file.MinesweeperGameTestCheckWon.test_check_won_3) ... ok\ntest_check_won_4 (temp_file.MinesweeperGameTestCheckWon.test_check_won_4) ... ok\ntest_check_won_5 (temp_file.MinesweeperGameTestCheckWon.test_check_won_5) ... ok\ntest_generate_mine_sweeper_map (temp_file.MinesweeperGameTestGenerateMineSweeperMap.test_generate_mine_sweeper_map) ... ok\ntest_generate_mine_sweeper_map_2 (temp_file.MinesweeperGameTestGenerateMineSweeperMap.test_generate_mine_sweeper_map_2) ... ok\ntest_generate_mine_sweeper_map_3 (temp_file.MinesweeperGameTestGenerateMineSweeperMap.test_generate_mine_sweeper_map_3) ... ok\ntest_generate_mine_sweeper_map_4 (temp_file.MinesweeperGameTestGenerateMineSweeperMap.test_generate_mine_sweeper_map_4) ... ok\ntest_generate_mine_sweeper_map_5 (temp_file.MinesweeperGameTestGenerateMineSweeperMap.test_generate_mine_sweeper_map_5) ... ok\ntest_generate_playerMap (temp_file.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap) ... ok\ntest_generate_playerMap_2 (temp_file.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap_2) ... ok\ntest_generate_playerMap_3 (temp_file.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap_3) ... ok\ntest_generate_playerMap_4 (temp_file.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap_4) ... ok\ntest_generate_playerMap_5 (temp_file.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap_5) ... ok\ntest_minesweeper_main (temp_file.MinesweeperGameTestMain.test_minesweeper_main) ... ok\ntest_minesweeper_main_2 (temp_file.MinesweeperGameTestMain.test_minesweeper_main_2) ... ok\ntest_sweep (temp_file.MinesweeperGameTestSweep.test_sweep) ... ok\ntest_sweep_2 (temp_file.MinesweeperGameTestSweep.test_sweep_2) ... ok\ntest_sweep_3 (temp_file.MinesweeperGameTestSweep.test_sweep_3) ... ok\ntest_sweep_4 (temp_file.MinesweeperGameTestSweep.test_sweep_4) ... ok\ntest_sweep_5 (temp_file.MinesweeperGameTestSweep.test_sweep_5) ... ok\n\n----------------------------------------------------------------------\nRan 22 tests in 0.001s\n\nOK\n"
+}

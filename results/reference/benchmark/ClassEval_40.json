@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_40",
+  "counts": {
+    "tests_total": 16,
+    "tests_passed": 16,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_calculate_calorie_intake (temp_file.FitnessTrackerTestCaculateCalorieIntake.test_calculate_calorie_intake) ... ok\ntest_calculate_calorie_intake_2 (temp_file.FitnessTrackerTestCaculateCalorieIntake.test_calculate_calorie_intake_2) ... ok\ntest_calculate_calorie_intake_3 (temp_file.FitnessTrackerTestCaculateCalorieIntake.test_calculate_calorie_intake_3) ... ok\ntest_calculate_calorie_intake_4 (temp_file.FitnessTrackerTestCaculateCalorieIntake.test_calculate_calorie_intake_4) ... ok\ntest_calculate_calorie_intake_5 (temp_file.FitnessTrackerTestCaculateCalorieIntake.test_calculate_calorie_intake_5) ... ok\ntest_condition_judge (temp_file.FitnessTrackerTestConditionJudge.test_condition_judge) ... ok\ntest_condition_judge_2 (temp_file.FitnessTrackerTestConditionJudge.test_condition_judge_2) ... ok\ntest_condition_judge_3 (temp_file.FitnessTrackerTestConditionJudge.test_condition_judge_3) ... ok\ntest_condition_judge_4 (temp_file.FitnessTrackerTestConditionJudge.test_condition_judge_4) ... ok\ntest_condition_judge_5 (temp_file.FitnessTrackerTestConditionJudge.test_condition_judge_5) ... ok\ntest_get_BMI (temp_file.FitnessTrackerTestGetBMI.test_get_BMI) ... ok\ntest_get_BMI_2 (temp_file.FitnessTrackerTestGetBMI.test_get_BMI_2) ... ok\ntest_get_BMI_3 (temp_file.FitnessTrackerTestGetBMI.test_get_BMI_3) ... ok\ntest_get_BMI_4 (temp_file.FitnessTrackerTestGetBMI.test_get_BMI_4) ... ok\ntest_get_BMI_5 (temp_file.FitnessTrackerTestGetBMI.test_get_BMI_5) ... ok\ntest_main (temp_file.FitnessTrackerTestMain.test_main) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.000s\n\nOK\n"
+}

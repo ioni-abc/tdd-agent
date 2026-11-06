@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_25",
+  "counts": {
+    "tests_total": 19,
+    "tests_passed": 19,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_get_cookies (temp_file.CookiesUtilTestGetCookies.test_get_cookies) ... ok\ntest_get_cookies_2 (temp_file.CookiesUtilTestGetCookies.test_get_cookies_2) ... ok\ntest_get_cookies_3 (temp_file.CookiesUtilTestGetCookies.test_get_cookies_3) ... ok\ntest_get_cookies_4 (temp_file.CookiesUtilTestGetCookies.test_get_cookies_4) ... ok\ntest_get_cookies_5 (temp_file.CookiesUtilTestGetCookies.test_get_cookies_5) ... ok\ntest_load_cookies (temp_file.CookiesUtilTestLoadCookies.test_load_cookies) ... ok\ntest_load_cookies_2 (temp_file.CookiesUtilTestLoadCookies.test_load_cookies_2) ... ok\ntest_load_cookies_3 (temp_file.CookiesUtilTestLoadCookies.test_load_cookies_3) ... ok\ntest_load_cookies_4 (temp_file.CookiesUtilTestLoadCookies.test_load_cookies_4) ... ok\ntest_load_cookies_5 (temp_file.CookiesUtilTestLoadCookies.test_load_cookies_5) ... ok\ntest_load_cookies_6 (temp_file.CookiesUtilTestLoadCookies.test_load_cookies_6) ... ok\ntest_main (temp_file.CookiesUtilTestMain.test_main) ... ok\ntest_save_cookies (temp_file.CookiesUtilTestSaveCookies.test_save_cookies) ... ok\ntest_save_cookies_2 (temp_file.CookiesUtilTestSaveCookies.test_save_cookies_2) ... ok\ntest_save_cookies_3 (temp_file.CookiesUtilTestSaveCookies.test_save_cookies_3) ... ok\ntest_save_cookies_4 (temp_file.CookiesUtilTestSaveCookies.test_save_cookies_4) ... ok\ntest_save_cookies_5 (temp_file.CookiesUtilTestSaveCookies.test_save_cookies_5) ... ok\ntest_save_cookies_6 (temp_file.CookiesUtilTestSaveCookies.test_save_cookies_6) ... ok\ntest_set_cookies (temp_file.CookiesUtilTestSetCookies.test_set_cookies) ... ok\n\n----------------------------------------------------------------------\nRan 19 tests in 0.002s\n\nOK\n"
+}
