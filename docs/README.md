@@ -20,6 +20,7 @@ Notes are for me. Decisions feed the design chapter of the thesis.
 | [timeout.md](notes/timeout.md) | the runner's timeout, `RunOutput`, `TimeoutExpired` |
 | [classeval-tests.md](notes/classeval-tests.md) | how ClassEval's tests are organised; the visible/hidden split, explained |
 | [benchmark-fixes.md](notes/benchmark-fixes.md) | how the five broken tasks were diagnosed and fixed; flaky tests; fixes as data |
+| [saving-results.md](notes/saving-results.md) | `runs.py` part by part, reference vs experiment layout, the checkpoint |
 
 ## Decision records
 
@@ -41,6 +42,7 @@ Notes are for me. Decisions feed the design chapter of the thesis.
 | [010](decisions/010-eval-dependency-group.md) | ClassEval's test packages in an `eval` group, pinned (`numpy<2`, `pandas<3`) | Accepted |
 | [011](decisions/011-tdd-agent-v1-sees-all-tests.md) | TDD agent v1 receives all of ClassEval's tests, method by method; split later | Accepted |
 | [012](decisions/012-tdd-agent-loop.md) | The TDD agent's red/green loop | Proposed |
+| [013](decisions/013-results-storage.md) | Results storage in `runs.py`; reference results committed to git | Accepted |
 
 ## Commit messages
 
