@@ -22,6 +22,8 @@ Notes are for me. Decisions feed the design chapter of the thesis.
 | [benchmark-fixes.md](notes/benchmark-fixes.md) | how the five broken tasks were diagnosed and fixed; flaky tests; fixes as data |
 | [saving-results.md](notes/saving-results.md) | `runs.py` part by part, reference vs experiment layout, the checkpoint |
 | [agents-and-llm.md](notes/agents-and-llm.md) | dependency injection, `Protocol`, the baseline agent, the temperature removal, today's bugs |
+| [baseline-results.md](notes/baseline-results.md) | the first full baseline run: 48/100, near misses, crashes, cost |
+| [tdd-agent.md](notes/tdd-agent.md) | the TDD agent part by part, its step log, how it was tested |
 
 ## Decision records
 
@@ -42,7 +44,7 @@ Notes are for me. Decisions feed the design chapter of the thesis.
 | [009](decisions/009-pydantic-models-for-records.md) | Pydantic models for results that cross a boundary | Accepted |
 | [010](decisions/010-eval-dependency-group.md) | ClassEval's test packages in an `eval` group, pinned (`numpy<2`, `pandas<3`) | Accepted |
 | [011](decisions/011-tdd-agent-v1-sees-all-tests.md) | TDD agent v1 receives all of ClassEval's tests, method by method; split later | Accepted |
-| [012](decisions/012-tdd-agent-loop.md) | The TDD agent's red/green loop | Proposed |
+| [012](decisions/012-tdd-agent-loop.md) | The TDD agent's red/green loop | Accepted (implemented) |
 | [013](decisions/013-results-storage.md) | Results storage in `runs.py`; reference and reported experiment results committed to git | Accepted |
 | [014](decisions/014-sampled-decoding.md) | Sampled decoding at the API's fixed temperature; samples per task as a parameter | Accepted |
 | [015](decisions/015-llm-wrapper-and-agent-interface.md) | An LLM wrapper injected into agents; one agent interface; shared prompts | Accepted |
