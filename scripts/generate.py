@@ -11,6 +11,7 @@ from datetime import datetime
 from dotenv import load_dotenv
 
 from tdd_agent.agents.baseline import BaselineAgent
+from tdd_agent.agents.tdd import TDDAgent
 from tdd_agent.dataset import load_tasks
 from tdd_agent.llm import LLM
 from tdd_agent.runs import experiment_dir, save_result, save_run_info
@@ -18,6 +19,7 @@ from tdd_agent.runs import experiment_dir, save_result, save_run_info
 # Registry: agent name on the command line -> agent class
 AGENTS = {
     "baseline": BaselineAgent,
+    "tdd": TDDAgent,
 }
 
 
