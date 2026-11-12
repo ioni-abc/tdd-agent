@@ -1,0 +1,56 @@
+[
+  {
+    "method": "is_operator",
+    "tests_in_suite": 5,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true
+  },
+  {
+    "method": "compare",
+    "tests_in_suite": 12,
+    "red_passed": 8,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 12,
+    "green": true
+  },
+  {
+    "method": "prepare",
+    "tests_in_suite": 18,
+    "red_passed": 13,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 18,
+    "green": true
+  },
+  {
+    "method": "_calculate",
+    "tests_in_suite": 25,
+    "red_passed": 19,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 25,
+    "green": true
+  },
+  {
+    "method": "transform",
+    "tests_in_suite": 31,
+    "red_passed": 25,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 31,
+    "green": true
+  },
+  {
+    "method": "calculate",
+    "tests_in_suite": 36,
+    "red_passed": 31,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 36,
+    "green": true
+  }
+]

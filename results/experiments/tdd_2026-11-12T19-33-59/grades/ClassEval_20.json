@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_20",
+  "counts": {
+    "tests_total": 22,
+    "tests_passed": 22,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_add_user (temp_file.ChatTestAddUser.test_add_user) ... ok\ntest_add_user_2 (temp_file.ChatTestAddUser.test_add_user_2) ... ok\ntest_add_user_3 (temp_file.ChatTestAddUser.test_add_user_3) ... ok\ntest_add_user_4 (temp_file.ChatTestAddUser.test_add_user_4) ... ok\ntest_add_user_5 (temp_file.ChatTestAddUser.test_add_user_5) ... ok\ntest_get_messages (temp_file.ChatTestGetMessages.test_get_messages) ... ok\ntest_get_messages_2 (temp_file.ChatTestGetMessages.test_get_messages_2) ... ok\ntest_get_messages_3 (temp_file.ChatTestGetMessages.test_get_messages_3) ... ok\ntest_get_messages_4 (temp_file.ChatTestGetMessages.test_get_messages_4) ... ok\ntest_get_messages_5 (temp_file.ChatTestGetMessages.test_get_messages_5) ... ok\ntest_main (temp_file.ChatTestMain.test_main) ... ok\ntest_main_2 (temp_file.ChatTestMain.test_main_2) ... ok\ntest_remove_user (temp_file.ChatTestRemoveUser.test_remove_user) ... ok\ntest_remove_user_2 (temp_file.ChatTestRemoveUser.test_remove_user_2) ... ok\ntest_remove_user_3 (temp_file.ChatTestRemoveUser.test_remove_user_3) ... ok\ntest_remove_user_4 (temp_file.ChatTestRemoveUser.test_remove_user_4) ... ok\ntest_remove_user_5 (temp_file.ChatTestRemoveUser.test_remove_user_5) ... ok\ntest_send_message (temp_file.ChatTestSendMessage.test_send_message) ... ok\ntest_send_message_2 (temp_file.ChatTestSendMessage.test_send_message_2) ... ok\ntest_send_message_3 (temp_file.ChatTestSendMessage.test_send_message_3) ... ok\ntest_send_message_4 (temp_file.ChatTestSendMessage.test_send_message_4) ... ok\ntest_send_message_5 (temp_file.ChatTestSendMessage.test_send_message_5) ... ok\n\n----------------------------------------------------------------------\nRan 22 tests in 0.000s\n\nOK\n"
+}

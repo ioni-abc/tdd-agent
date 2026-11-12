@@ -1,0 +1,29 @@
+[
+  {
+    "method": "construct_stop_word_list",
+    "tests_in_suite": 1,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 1,
+    "green": true
+  },
+  {
+    "method": "remove_stop_words",
+    "tests_in_suite": 6,
+    "red_passed": 1,
+    "coded": true,
+    "fix_attempts": 1,
+    "green_passed": 6,
+    "green": true
+  },
+  {
+    "method": "process",
+    "tests_in_suite": 11,
+    "red_passed": 11,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 11,
+    "green": true
+  }
+]

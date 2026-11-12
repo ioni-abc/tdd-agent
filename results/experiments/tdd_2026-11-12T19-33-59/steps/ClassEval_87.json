@@ -1,0 +1,65 @@
+[
+  {
+    "method": "get_current_time",
+    "tests_in_suite": 5,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true
+  },
+  {
+    "method": "get_current_date",
+    "tests_in_suite": 10,
+    "red_passed": 5,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 10,
+    "green": true
+  },
+  {
+    "method": "add_seconds",
+    "tests_in_suite": 15,
+    "red_passed": 10,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 15,
+    "green": true
+  },
+  {
+    "method": "string_to_datetime",
+    "tests_in_suite": 20,
+    "red_passed": 15,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 20,
+    "green": true
+  },
+  {
+    "method": "datetime_to_string",
+    "tests_in_suite": 25,
+    "red_passed": 20,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 25,
+    "green": true
+  },
+  {
+    "method": "get_minutes",
+    "tests_in_suite": 30,
+    "red_passed": 25,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 30,
+    "green": true
+  },
+  {
+    "method": "get_format_time",
+    "tests_in_suite": 35,
+    "red_passed": 30,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 35,
+    "green": true
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "method": "set_city",
+    "tests_in_suite": 5,
+    "red_passed": 2,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true
+  },
+  {
+    "method": "celsius_to_fahrenheit",
+    "tests_in_suite": 10,
+    "red_passed": 8,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 10,
+    "green": true
+  },
+  {
+    "method": "fahrenheit_to_celsius",
+    "tests_in_suite": 15,
+    "red_passed": 13,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 15,
+    "green": true
+  },
+  {
+    "method": "query",
+    "tests_in_suite": 21,
+    "red_passed": 15,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 21,
+    "green": true
+  }
+]

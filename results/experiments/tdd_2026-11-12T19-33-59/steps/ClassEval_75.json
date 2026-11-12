@@ -1,0 +1,38 @@
+[
+  {
+    "method": "add_item",
+    "tests_in_suite": 6,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 6,
+    "green": true
+  },
+  {
+    "method": "remove_item",
+    "tests_in_suite": 12,
+    "red_passed": 7,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 12,
+    "green": true
+  },
+  {
+    "method": "view_items",
+    "tests_in_suite": 17,
+    "red_passed": 12,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 17,
+    "green": true
+  },
+  {
+    "method": "total_price",
+    "tests_in_suite": 22,
+    "red_passed": 17,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 22,
+    "green": true
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "method": "attack",
+    "tests_in_suite": 5,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true
+  },
+  {
+    "method": "heal",
+    "tests_in_suite": 10,
+    "red_passed": 6,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 10,
+    "green": true
+  },
+  {
+    "method": "level_up",
+    "tests_in_suite": 15,
+    "red_passed": 11,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 15,
+    "green": true
+  },
+  {
+    "method": "gain_exp",
+    "tests_in_suite": 20,
+    "red_passed": 15,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 20,
+    "green": true
+  },
+  {
+    "method": "is_alive",
+    "tests_in_suite": 25,
+    "red_passed": 25,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 25,
+    "green": true
+  }
+]

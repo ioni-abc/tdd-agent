@@ -1,0 +1,29 @@
+[
+  {
+    "method": "load_cookies",
+    "tests_in_suite": 6,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 1,
+    "green_passed": 6,
+    "green": true
+  },
+  {
+    "method": "_save_cookies",
+    "tests_in_suite": 12,
+    "red_passed": 12,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 12,
+    "green": true
+  },
+  {
+    "method": "get_cookies",
+    "tests_in_suite": 17,
+    "red_passed": 17,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 17,
+    "green": true
+  }
+]
