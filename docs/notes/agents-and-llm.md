@@ -96,3 +96,28 @@ def generate(self, task: dict) -> AgentResult:
 ## First real runs
 
 3 tasks, `claude-haiku-5-5`: about 7 s per task; 2,881 input and 5,365 output tokens; 2 of 3 classes passed (`ClassEval_0`: 17/19 tests).
+
+## Why `agent.generate` shows `Any` in the editor
+
+In `scripts/generate.py`:
+
+```python
+agent = AGENTS[args.agent](llm)
+result = agent.generate(task)
+```
+
+Which class `agent` is gets decided while the program runs, from the command line (`baseline` or `tdd`). VS Code reads the code without running it, so it can't know whether `agent.generate` is `BaselineAgent.generate` or `TDDAgent.generate`. It falls back to `Any` (tooltip `generate: Any`): no colour, and Cmd+click goes nowhere.
+
+The fix: tell the editor what `agent` is, with the `Agent` protocol:
+
+```python
+from tdd_agent.agents.interface import Agent
+...
+agent: Agent = AGENTS[args.agent](llm)
+```
+
+- `generate` then gets its colour and tooltip: `(method) def generate(self, task: dict) -> AgentResult`.
+- Cmd+click jumps to the protocol's declaration in `agents/interface.py`, not to an implementation, because the editor still can't know which one runs.
+- To reach an implementation: Cmd+click `TDDAgent` in the `AGENTS` dict, or **Go to Implementations** (right-click, or Cmd+F12), which lists every class that fits the protocol.
+
+This is the Strategy pattern seen from the editor: `generate.py` deliberately doesn't know which agent it runs, and neither does the editor. The annotation says "whatever it is, it follows the `Agent` contract", which is what the protocol is for.
