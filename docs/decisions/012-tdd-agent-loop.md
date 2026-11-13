@@ -55,7 +55,7 @@ for method in methods_in_order(task):
 - **Feedback to the model** (`feedback()`): a summary line ("3 of 5 tests pass") plus unittest's failure blocks, capped at 4,000 characters; a timeout or a crash before any test ran gets a short explanation plus the end of the log.
 - **Injected test runner** (`TDDAgent(llm, max_fix_attempts=3, run=run_tests)`), like the LLM.
 - **Step log**, per method, saved to `steps/<task_id>.json` via a new `AgentResult.steps` field: `method`, `tests_in_suite`, `red_passed`, `coded`, `fix_attempts`, `green_passed`, `green`.
-- **Class-level test classes** (not tied to a method; 89 tasks) are never shown to the agent: `tests_for_method` only returns per-method test classes. They are graded at the end, a small held-out set.
+- **Class-level test classes** (not tied to a method) are never shown to the agent: `tests_for_method` only returns per-method test classes. They are graded at the end. Measured: 107 of 2,196 tests (4.9%) in 88 tasks; a side effect, too small and uneven to count as a held-out set (see `notes/classeval-tests.md`).
 - **Method order** (`methods_in_order`): repeatedly the first remaining method whose `method_dependencies` are done; on a cycle, the first remaining. On the data: 28 tasks reordered, 3 cycles; `ClassEval_0` becomes `is_start_with`, `get_jwt_user`, `set_current_user_info_and_log`, `filter`.
 - **Check of the per-method test files** (header + one method's tests vs the reference solution): 366 pass. One real quirk: `ClassEval_25.load_cookies`' tests only pass if another method's test has written `cookies.json` first; in the TDD loop earlier methods' tests are in the suite too.
 - Tested end to end with a fake LLM before any API call.

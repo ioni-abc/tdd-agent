@@ -18,7 +18,7 @@ Notes are for me. Decisions feed the design chapter of the thesis.
 | [grader.md](notes/grader.md) | `grade()` and `GradeRecord`, Pydantic basics, review notes |
 | [reference-run.md](notes/reference-run.md) | the reference run: results, reading the output, the script's refactor |
 | [timeout.md](notes/timeout.md) | the runner's timeout, `RunOutput`, `TimeoutExpired` |
-| [classeval-tests.md](notes/classeval-tests.md) | how ClassEval's tests are organised; the visible/hidden split, explained |
+| [classeval-tests.md](notes/classeval-tests.md) | how ClassEval's tests are organised; class-level tests; which tests the agent never sees; where the data departs from the paper; the visible/hidden split |
 | [benchmark-fixes.md](notes/benchmark-fixes.md) | how the five broken tasks were diagnosed and fixed; flaky tests; fixes as data |
 | [saving-results.md](notes/saving-results.md) | `runs.py` part by part, reference vs experiment layout, the checkpoint |
 | [agents-and-llm.md](notes/agents-and-llm.md) | dependency injection, `Protocol`, the baseline agent, the temperature removal, today's bugs |

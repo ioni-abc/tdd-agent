@@ -23,6 +23,15 @@ Two seams make the extension a swap rather than a rewrite:
 
 Saved generated code means the baseline (which sees no tests) only needs re-grading on hidden tests, not regenerating.
 
+## Evidence since (2026-11-13)
+
+- Full runs, one sample each: baseline 48/100, TDD agent 96/100 (3.8 calls per task; 1.51M input + 0.64M output tokens against 97k + 179k).
+- The TDD agent is graded mostly on tests it saw: only 107 of 2,196 tests (4.9%) are never given to it, in 88 of the 100 tasks, between 0 and 6 per task.
+- `ClassEval_49` failed exactly its 6 unseen tests (30/36), having passed everything it saw.
+- ClassEval's data doesn't follow its paper's own test rules everywhere (12 tasks without a separate class-level test class), so its class-level tests can't serve as a consistent held-out set.
+
+These support the split below as the next step, pending the professor's answer.
+
 ## Consequences
 
 - v1 results carry the weakness above; they are presented as v1, with the split as the planned next step and an explicit question to the professor.
