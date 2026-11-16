@@ -10,8 +10,16 @@ Your task:
 Reply with only the complete code in a single ```python code block, with no explanation."""
 
 # TDD agent: the system prompt is CODER_SYSTEM (identical to the baseline's);
-# these are the user messages of its two kinds of call.
+# these are the user messages of its two kinds of call. Both carry the original skeleton
+# as a fixed specification next to the current code, so a reply that drops a method or
+# docstring cannot erase it for later rounds (seen in ClassEval_31 in the first full run).
 TDD_IMPLEMENT = """We are building this class test-first, one method at a time.
+
+Specification (the original class skeleton; it never changes). Every method listed here
+must stay in the class, with its signature and docstring:
+```python
+{skeleton}
+```
 
 Current code:
 ```python
@@ -30,6 +38,12 @@ Result of running these tests on the current code:
 Reply with the complete updated class."""
 
 TDD_FIX = """Your code does not pass all of the tests yet.
+
+Specification (the original class skeleton; it never changes). Every method listed here
+must stay in the class, with its signature and docstring:
+```python
+{skeleton}
+```
 
 Current code:
 ```python
