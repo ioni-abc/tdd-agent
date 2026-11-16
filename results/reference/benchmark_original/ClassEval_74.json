@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_74",
+  "counts": {
+    "tests_total": 26,
+    "tests_passed": 26,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_server (temp_file.ServerTest.test_server) ... ok\ntest_add_white_list_1 (temp_file.ServerTestAddWhiteList.test_add_white_list_1) ... ok\ntest_add_white_list_2 (temp_file.ServerTestAddWhiteList.test_add_white_list_2) ... ok\ntest_add_white_list_3 (temp_file.ServerTestAddWhiteList.test_add_white_list_3) ... ok\ntest_add_white_list_4 (temp_file.ServerTestAddWhiteList.test_add_white_list_4) ... ok\ntest_add_white_list_5 (temp_file.ServerTestAddWhiteList.test_add_white_list_5) ... ok\ntest_del_white_list_1 (temp_file.ServerTestDelWhiteList.test_del_white_list_1) ... ok\ntest_del_white_list_2 (temp_file.ServerTestDelWhiteList.test_del_white_list_2) ... ok\ntest_del_white_list_3 (temp_file.ServerTestDelWhiteList.test_del_white_list_3) ... ok\ntest_del_white_list_4 (temp_file.ServerTestDelWhiteList.test_del_white_list_4) ... ok\ntest_del_white_list_5 (temp_file.ServerTestDelWhiteList.test_del_white_list_5) ... ok\ntest_recv_1 (temp_file.ServerTestRecv.test_recv_1) ... ok\ntest_recv_2 (temp_file.ServerTestRecv.test_recv_2) ... ok\ntest_recv_3 (temp_file.ServerTestRecv.test_recv_3) ... ok\ntest_recv_4 (temp_file.ServerTestRecv.test_recv_4) ... ok\ntest_recv_5 (temp_file.ServerTestRecv.test_recv_5) ... ok\ntest_send_1 (temp_file.ServerTestSend.test_send_1) ... ok\ntest_send_2 (temp_file.ServerTestSend.test_send_2) ... ok\ntest_send_3 (temp_file.ServerTestSend.test_send_3) ... ok\ntest_send_4 (temp_file.ServerTestSend.test_send_4) ... ok\ntest_send_5 (temp_file.ServerTestSend.test_send_5) ... ok\ntest_show_1 (temp_file.ServerTestShow.test_show_1) ... ok\ntest_show_2 (temp_file.ServerTestShow.test_show_2) ... ok\ntest_show_3 (temp_file.ServerTestShow.test_show_3) ... ok\ntest_show_4 (temp_file.ServerTestShow.test_show_4) ... ok\ntest_show_5 (temp_file.ServerTestShow.test_show_5) ... ok\n\n----------------------------------------------------------------------\nRan 26 tests in 0.000s\n\nOK\n"
+}

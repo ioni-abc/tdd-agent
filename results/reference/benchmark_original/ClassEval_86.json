@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_86",
+  "counts": {
+    "tests_total": 16,
+    "tests_passed": 16,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_check_winner_1 (temp_file.TicTacToeTestCheckWinner.test_check_winner_1) ... ok\ntest_check_winner_2 (temp_file.TicTacToeTestCheckWinner.test_check_winner_2) ... ok\ntest_check_winner_3 (temp_file.TicTacToeTestCheckWinner.test_check_winner_3) ... ok\ntest_check_winner_4 (temp_file.TicTacToeTestCheckWinner.test_check_winner_4) ... ok\ntest_check_winner_5 (temp_file.TicTacToeTestCheckWinner.test_check_winner_5) ... ok\ntest_is_board_full_1 (temp_file.TicTacToeTestIsBoardFull.test_is_board_full_1) ... ok\ntest_is_board_full_2 (temp_file.TicTacToeTestIsBoardFull.test_is_board_full_2) ... ok\ntest_is_board_full_3 (temp_file.TicTacToeTestIsBoardFull.test_is_board_full_3) ... ok\ntest_is_board_full_4 (temp_file.TicTacToeTestIsBoardFull.test_is_board_full_4) ... ok\ntest_is_board_full_5 (temp_file.TicTacToeTestIsBoardFull.test_is_board_full_5) ... ok\ntest_main (temp_file.TicTacToeTestMain.test_main) ... ok\ntest_make_move_1 (temp_file.TicTacToeTestMakeMove.test_make_move_1) ... ok\ntest_make_move_2 (temp_file.TicTacToeTestMakeMove.test_make_move_2) ... ok\ntest_make_move_3 (temp_file.TicTacToeTestMakeMove.test_make_move_3) ... ok\ntest_make_move_4 (temp_file.TicTacToeTestMakeMove.test_make_move_4) ... ok\ntest_make_move_5 (temp_file.TicTacToeTestMakeMove.test_make_move_5) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.000s\n\nOK\n"
+}

@@ -12,6 +12,7 @@ from dotenv import load_dotenv
 
 from tdd_agent.agents.baseline import BaselineAgent
 from tdd_agent.agents.tdd import TDDAgent
+from tdd_agent.agents.interface import Agent
 from tdd_agent.dataset import load_tasks
 from tdd_agent.llm import LLM
 from tdd_agent.runs import experiment_dir, save_result, save_run_info
@@ -23,6 +24,8 @@ AGENTS = {
 }
 
 
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("agent", choices=AGENTS)
@@ -31,7 +34,7 @@ def main() -> None:
 
     load_dotenv()  # ANTHROPIC_API_KEY from .env
     llm = LLM()
-    agent = AGENTS[args.agent](llm)
+    agent: Agent = AGENTS[args.agent](llm)
 
     tasks = load_tasks()
     if args.task_ids:

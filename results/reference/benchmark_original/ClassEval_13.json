@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_13",
+  "counts": {
+    "tests_total": 21,
+    "tests_passed": 21,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_add_book_1 (temp_file.BookManagementTestAddBook.test_add_book_1) ... ok\ntest_add_book_2 (temp_file.BookManagementTestAddBook.test_add_book_2) ... ok\ntest_add_book_3 (temp_file.BookManagementTestAddBook.test_add_book_3) ... ok\ntest_add_book_4 (temp_file.BookManagementTestAddBook.test_add_book_4) ... ok\ntest_add_book_5 (temp_file.BookManagementTestAddBook.test_add_book_5) ... ok\ntest_main (temp_file.BookManagementTestMain.test_main) ... ok\ntest_remove_book_1 (temp_file.BookManagementTestRemoveBook.test_remove_book_1) ... ok\ntest_remove_book_2 (temp_file.BookManagementTestRemoveBook.test_remove_book_2) ... ok\ntest_remove_book_3 (temp_file.BookManagementTestRemoveBook.test_remove_book_3) ... ok\ntest_remove_book_4 (temp_file.BookManagementTestRemoveBook.test_remove_book_4) ... ok\ntest_remove_book_5 (temp_file.BookManagementTestRemoveBook.test_remove_book_5) ... ok\ntest_view_book_quantity_1 (temp_file.BookManagementTestViewBookQuantity.test_view_book_quantity_1) ... ok\ntest_view_book_quantity_2 (temp_file.BookManagementTestViewBookQuantity.test_view_book_quantity_2) ... ok\ntest_view_book_quantity_3 (temp_file.BookManagementTestViewBookQuantity.test_view_book_quantity_3) ... ok\ntest_view_book_quantity_4 (temp_file.BookManagementTestViewBookQuantity.test_view_book_quantity_4) ... ok\ntest_view_book_quantity_5 (temp_file.BookManagementTestViewBookQuantity.test_view_book_quantity_5) ... ok\ntest_view_inventory_1 (temp_file.BookManagementTestViewInventory.test_view_inventory_1) ... ok\ntest_view_inventory_2 (temp_file.BookManagementTestViewInventory.test_view_inventory_2) ... ok\ntest_view_inventory_3 (temp_file.BookManagementTestViewInventory.test_view_inventory_3) ... ok\ntest_view_inventory_4 (temp_file.BookManagementTestViewInventory.test_view_inventory_4) ... ok\ntest_view_inventory_5 (temp_file.BookManagementTestViewInventory.test_view_inventory_5) ... ok\n\n----------------------------------------------------------------------\nRan 21 tests in 0.000s\n\nOK\n"
+}

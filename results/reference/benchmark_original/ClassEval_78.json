@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_78",
+  "counts": {
+    "tests_total": 16,
+    "tests_passed": 16,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_SplitSentence (temp_file.SplitSentenceTest.test_SplitSentence) ... ok\ntest_count_words_1 (temp_file.SplitSentenceTestCountWords.test_count_words_1) ... ok\ntest_count_words_2 (temp_file.SplitSentenceTestCountWords.test_count_words_2) ... ok\ntest_count_words_3 (temp_file.SplitSentenceTestCountWords.test_count_words_3) ... ok\ntest_count_words_4 (temp_file.SplitSentenceTestCountWords.test_count_words_4) ... ok\ntest_count_words_5 (temp_file.SplitSentenceTestCountWords.test_count_words_5) ... ok\ntest_process_text_file_1 (temp_file.SplitSentenceTestProcessTextFile.test_process_text_file_1) ... ok\ntest_process_text_file_2 (temp_file.SplitSentenceTestProcessTextFile.test_process_text_file_2) ... ok\ntest_process_text_file_3 (temp_file.SplitSentenceTestProcessTextFile.test_process_text_file_3) ... ok\ntest_process_text_file_4 (temp_file.SplitSentenceTestProcessTextFile.test_process_text_file_4) ... ok\ntest_process_text_file_5 (temp_file.SplitSentenceTestProcessTextFile.test_process_text_file_5) ... ok\ntest_split_sentences_1 (temp_file.SplitSentenceTestSplitSentences.test_split_sentences_1) ... ok\ntest_split_sentences_2 (temp_file.SplitSentenceTestSplitSentences.test_split_sentences_2) ... ok\ntest_split_sentences_3 (temp_file.SplitSentenceTestSplitSentences.test_split_sentences_3) ... ok\ntest_split_sentences_4 (temp_file.SplitSentenceTestSplitSentences.test_split_sentences_4) ... ok\ntest_split_sentences_5 (temp_file.SplitSentenceTestSplitSentences.test_split_sentences_5) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.000s\n\nOK\n"
+}
