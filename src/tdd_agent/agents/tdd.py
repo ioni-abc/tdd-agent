@@ -65,7 +65,8 @@ class TDDAgent:
         return extract_code(call.reply)
 
     def generate(self, task: dict) -> AgentResult:
-        code = clean_skeleton(task)
+        skeleton = clean_skeleton(task)  # the specification: never replaced
+        code = skeleton  # the current class: replaced by every reply
         suite = test_header(task)
         calls: list[LLMCall] = []
         steps: list[dict] = []
@@ -94,7 +95,7 @@ class TDDAgent:
 
             # CODE: implement the method
             code = self._ask(
-                TDD_IMPLEMENT.format(code=code, method=name, tests=suite, feedback=feedback(run, counts)),
+                TDD_IMPLEMENT.format(skeleton=skeleton, code=code, method=name, tests=suite, feedback=feedback(run, counts)),
                 calls,
             )
 
@@ -104,7 +105,7 @@ class TDDAgent:
             while not self._passed(run, counts) and attempts < self.max_fix_attempts:
                 attempts += 1
                 code = self._ask(
-                    TDD_FIX.format(code=code, tests=suite, feedback=feedback(run, counts)),
+                    TDD_FIX.format(skeleton=skeleton, code=code, tests=suite, feedback=feedback(run, counts)),
                     calls,
                 )
                 run, counts = self._run_suite(code, suite)
