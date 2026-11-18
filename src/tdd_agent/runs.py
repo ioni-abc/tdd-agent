@@ -41,7 +41,7 @@ def save_run_info(run_dir: Path, info: dict) -> None:
 def save_result(run_dir: Path, result: AgentResult) -> None:
     """
     The agent's code to code/<task_id>.py, its LLM calls to calls/<task_id>.json,
-    and its step log (if any) to steps/<task_id>.json.
+    its step log (if any) to steps/<task_id>.json and its test suite (if any) to tests/<task_id>.py.
     """
     (run_dir / "code").mkdir(parents=True, exist_ok=True)
     (run_dir / "calls").mkdir(parents=True, exist_ok=True)
@@ -51,8 +51,11 @@ def save_result(run_dir: Path, result: AgentResult) -> None:
     if result.steps:
         (run_dir / "steps").mkdir(parents=True, exist_ok=True)
         (run_dir / "steps" / f"{result.task_id}.json").write_text(json.dumps(result.steps, indent=2), encoding="utf-8")
+    if result.tests:
+        (run_dir / "tests").mkdir(parents=True, exist_ok=True)
+        (run_dir / "tests" / f"{result.task_id}.py").write_text(result.tests, encoding="utf-8")
 
 
-def load_code(run_dir: Path) -> dict[str, str]:
-    """task_id -> generated code, for every code/<task_id>.py in the run."""
-    return {path.stem: path.read_text(encoding="utf-8") for path in sorted((run_dir / "code").glob("*.py"))}
+def load_code(run_dir: Path, folder: str = "code") -> dict[str, str]:
+    """task_id -> file text, for every <folder>/<task_id>.py in the run (code/ or tests/)."""
+    return {path.stem: path.read_text(encoding="utf-8") for path in sorted((run_dir / folder).glob("*.py"))}

@@ -24,8 +24,6 @@ AGENTS = {
 }
 
 
-
-
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("agent", choices=AGENTS)
@@ -47,6 +45,7 @@ def main() -> None:
         "model": llm.model,
         "temperature": "API default (1.0, not settable since API version 2026-10-21)",
         "max_tokens": llm.max_tokens,
+        "settings": getattr(agent, "settings", {}),
         "started": datetime.now().astimezone().isoformat(timespec="seconds"),
         "tasks": [t["task_id"] for t in tasks],
     })
