@@ -12,6 +12,7 @@ from dotenv import load_dotenv
 
 from tdd_agent.agents.baseline import BaselineAgent
 from tdd_agent.agents.tdd import TDDAgent
+from tdd_agent.agents.tdd_mixed_tests import TDDMixedTestsAgent
 from tdd_agent.agents.tdd_own_tests import TDDOwnTestsAgent
 from tdd_agent.agents.interface import Agent
 from tdd_agent.dataset import load_tasks
@@ -23,6 +24,7 @@ AGENTS = {
     "baseline": BaselineAgent,
     "tdd": TDDAgent,  # experiment 1: ClassEval's tests
     "tdd-own": TDDOwnTestsAgent,  # experiment 2: its own tests
+    "tdd-mixed": TDDMixedTestsAgent,  # experiment 3: some of ClassEval's, the rest its own
 }
 
 

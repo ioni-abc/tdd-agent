@@ -1,4 +1,6 @@
+import ast
 import json
+import math
 
 from tdd_agent import config
 
@@ -30,6 +32,28 @@ def tests_for_method(task: dict, method: dict) -> str:
     full test class; a split would return only the visible part, without changing any agent.
     """
     return method["test_code"] or ""
+
+
+def split_method_tests(test_code: str, ratio: float) -> tuple[str, int, int]:
+    """Keep the first ceil(ratio * n) of a method's n test methods (experiment 3).
+
+    setUp, tearDown and other helpers stay. Returns the kept test class, how many tests
+    it keeps and how many the method had. ClassEval's test_code is one test class.
+    """
+    if not test_code.strip():
+        return "", 0, 0
+    lines = test_code.splitlines()
+    cls = ast.parse(test_code).body[0]
+
+    def start(node) -> int:
+        return min([node.lineno] + [d.lineno for d in getattr(node, "decorator_list", [])])
+
+    tests = [n for n in cls.body if isinstance(n, ast.FunctionDef) and n.name.startswith("test")]
+    keep = math.ceil(ratio * len(tests))
+    dropped = {id(n) for n in tests[keep:]}
+    header = "\n".join(lines[start(cls) - 1 : start(cls.body[0]) - 1])
+    members = ["\n".join(lines[start(n) - 1 : n.end_lineno]) for n in cls.body if id(n) not in dropped]
+    return header + "\n" + "\n\n".join(members), keep, len(tests)
 
 
 def methods_in_order(task: dict) -> list[dict]:
