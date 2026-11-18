@@ -1,0 +1,38 @@
+[
+  {
+    "method": "random_food_position",
+    "tests_in_suite": 5,
+    "red_passed": 5,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true
+  },
+  {
+    "method": "reset",
+    "tests_in_suite": 10,
+    "red_passed": 10,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 10,
+    "green": true
+  },
+  {
+    "method": "eat_food",
+    "tests_in_suite": 15,
+    "red_passed": 10,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 15,
+    "green": true
+  },
+  {
+    "method": "move",
+    "tests_in_suite": 20,
+    "red_passed": 20,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 20,
+    "green": true
+  }
+]

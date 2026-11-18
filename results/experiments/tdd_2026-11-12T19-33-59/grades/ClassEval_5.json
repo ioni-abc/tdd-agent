@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_5",
+  "counts": {
+    "tests_total": 15,
+    "tests_passed": 15,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_AutomaticGuitarSimulator (temp_file.AutomaticGuitarSimulatorTest.test_AutomaticGuitarSimulator) ... ok\ntest_display_1 (temp_file.AutomaticGuitarSimulatorTestDisplay.test_display_1) ... ok\ntest_display_2 (temp_file.AutomaticGuitarSimulatorTestDisplay.test_display_2) ... ok\ntest_display_3 (temp_file.AutomaticGuitarSimulatorTestDisplay.test_display_3) ... ok\ntest_display_4 (temp_file.AutomaticGuitarSimulatorTestDisplay.test_display_4) ... ok\ntest_display_5 (temp_file.AutomaticGuitarSimulatorTestDisplay.test_display_5) ... ok\ntest_interpret_1 (temp_file.AutomaticGuitarSimulatorTestInterpret.test_interpret_1) ... ok\ntest_interpret_2 (temp_file.AutomaticGuitarSimulatorTestInterpret.test_interpret_2) ... ok\ntest_interpret_3 (temp_file.AutomaticGuitarSimulatorTestInterpret.test_interpret_3) ... ok\ntest_interpret_4 (temp_file.AutomaticGuitarSimulatorTestInterpret.test_interpret_4) ... ok\ntest_interpret_5 (temp_file.AutomaticGuitarSimulatorTestInterpret.test_interpret_5) ... ok\ntest_interpret_6 (temp_file.AutomaticGuitarSimulatorTestInterpret.test_interpret_6) ... ok\ntest_interpret_7 (temp_file.AutomaticGuitarSimulatorTestInterpret.test_interpret_7) ... ok\ntest_interpret_8 (temp_file.AutomaticGuitarSimulatorTestInterpret.test_interpret_8) ... ok\ntest_interpret_9 (temp_file.AutomaticGuitarSimulatorTestInterpret.test_interpret_9) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 0.000s\n\nOK\n"
+}

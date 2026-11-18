@@ -1,0 +1,29 @@
+[
+  {
+    "method": "precedence",
+    "tests_in_suite": 5,
+    "red_passed": 2,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true
+  },
+  {
+    "method": "apply_operator",
+    "tests_in_suite": 10,
+    "red_passed": 5,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 10,
+    "green": true
+  },
+  {
+    "method": "calculate",
+    "tests_in_suite": 18,
+    "red_passed": 11,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 18,
+    "green": true
+  }
+]

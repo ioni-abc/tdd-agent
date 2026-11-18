@@ -1,0 +1,38 @@
+[
+  {
+    "method": "add_book",
+    "tests_in_suite": 5,
+    "red_passed": 1,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true
+  },
+  {
+    "method": "remove_book",
+    "tests_in_suite": 10,
+    "red_passed": 5,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 10,
+    "green": true
+  },
+  {
+    "method": "view_inventory",
+    "tests_in_suite": 15,
+    "red_passed": 15,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 15,
+    "green": true
+  },
+  {
+    "method": "view_book_quantity",
+    "tests_in_suite": 20,
+    "red_passed": 20,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 20,
+    "green": true
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "method": "__iter__",
+    "tests_in_suite": 5,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true
+  },
+  {
+    "method": "__len__",
+    "tests_in_suite": 10,
+    "red_passed": 5,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 10,
+    "green": true
+  },
+  {
+    "method": "_to_camel_case",
+    "tests_in_suite": 15,
+    "red_passed": 15,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 15,
+    "green": true
+  },
+  {
+    "method": "_convert_key",
+    "tests_in_suite": 21,
+    "red_passed": 20,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 21,
+    "green": true
+  },
+  {
+    "method": "__getitem__",
+    "tests_in_suite": 26,
+    "red_passed": 26,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 26,
+    "green": true
+  },
+  {
+    "method": "__setitem__",
+    "tests_in_suite": 31,
+    "red_passed": 31,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 31,
+    "green": true
+  },
+  {
+    "method": "__delitem__",
+    "tests_in_suite": 36,
+    "red_passed": 36,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 36,
+    "green": true
+  }
+]

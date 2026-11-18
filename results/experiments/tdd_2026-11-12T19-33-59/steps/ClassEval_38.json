@@ -1,0 +1,29 @@
+[
+  {
+    "method": "read_excel",
+    "tests_in_suite": 6,
+    "red_passed": 1,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 6,
+    "green": true
+  },
+  {
+    "method": "write_excel",
+    "tests_in_suite": 12,
+    "red_passed": 6,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 12,
+    "green": true
+  },
+  {
+    "method": "process_excel_data",
+    "tests_in_suite": 18,
+    "red_passed": 12,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 18,
+    "green": true
+  }
+]

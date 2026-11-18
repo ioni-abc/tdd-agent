@@ -6,6 +6,8 @@ class AgentResult(BaseModel):
     task_id: str
     code: str
     calls: list[LLMCall]
+    steps: list[dict] = []  # agent-specific step log (e.g. the TDD agent's red/green per method)
+
 
 class Agent(Protocol):
     name: str

@@ -1,0 +1,47 @@
+[
+  {
+    "method": "fetch",
+    "tests_in_suite": 5,
+    "red_passed": 2,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true
+  },
+  {
+    "method": "get_occupied_size",
+    "tests_in_suite": 10,
+    "red_passed": 5,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 10,
+    "green": true
+  },
+  {
+    "method": "is_full_with_one_more_email",
+    "tests_in_suite": 15,
+    "red_passed": 13,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 15,
+    "green": true
+  },
+  {
+    "method": "clear_inbox",
+    "tests_in_suite": 20,
+    "red_passed": 17,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 20,
+    "green": true
+  },
+  {
+    "method": "send_to",
+    "tests_in_suite": 25,
+    "red_passed": 22,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 25,
+    "green": true
+  }
+]

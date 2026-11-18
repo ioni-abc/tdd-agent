@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_69",
+  "counts": {
+    "tests_total": 3,
+    "tests_passed": 3,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_extract_text_from_pdfs (temp_file.PDFHandlerTestExtractTextFromPdfs.test_extract_text_from_pdfs) ... ok\ntest_main (temp_file.PDFHandlerTestMain.test_main) ... ok\ntest_merge_pdfs (temp_file.PDFHandlerTestMergePdfs.test_merge_pdfs) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.009s\n\nOK\n"
+}

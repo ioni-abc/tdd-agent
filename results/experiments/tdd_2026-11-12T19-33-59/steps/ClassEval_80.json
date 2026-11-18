@@ -1,0 +1,38 @@
+[
+  {
+    "method": "select",
+    "tests_in_suite": 7,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 7,
+    "green": true
+  },
+  {
+    "method": "insert",
+    "tests_in_suite": 12,
+    "red_passed": 7,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 12,
+    "green": true
+  },
+  {
+    "method": "delete",
+    "tests_in_suite": 18,
+    "red_passed": 12,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 18,
+    "green": true
+  },
+  {
+    "method": "update",
+    "tests_in_suite": 24,
+    "red_passed": 18,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 24,
+    "green": true
+  }
+]

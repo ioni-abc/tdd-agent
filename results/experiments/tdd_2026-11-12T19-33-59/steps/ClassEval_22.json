@@ -1,0 +1,47 @@
+[
+  {
+    "method": "register_student",
+    "tests_in_suite": 3,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 3,
+    "green": true
+  },
+  {
+    "method": "register_class",
+    "tests_in_suite": 6,
+    "red_passed": 3,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 6,
+    "green": true
+  },
+  {
+    "method": "get_students_by_major",
+    "tests_in_suite": 10,
+    "red_passed": 6,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 10,
+    "green": true
+  },
+  {
+    "method": "get_all_major",
+    "tests_in_suite": 13,
+    "red_passed": 10,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 13,
+    "green": true
+  },
+  {
+    "method": "get_most_popular_class_in_major",
+    "tests_in_suite": 15,
+    "red_passed": 13,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 15,
+    "green": true
+  }
+]

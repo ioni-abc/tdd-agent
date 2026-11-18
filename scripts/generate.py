@@ -11,6 +11,8 @@ from datetime import datetime
 from dotenv import load_dotenv
 
 from tdd_agent.agents.baseline import BaselineAgent
+from tdd_agent.agents.tdd import TDDAgent
+from tdd_agent.agents.interface import Agent
 from tdd_agent.dataset import load_tasks
 from tdd_agent.llm import LLM
 from tdd_agent.runs import experiment_dir, save_result, save_run_info
@@ -18,7 +20,10 @@ from tdd_agent.runs import experiment_dir, save_result, save_run_info
 # Registry: agent name on the command line -> agent class
 AGENTS = {
     "baseline": BaselineAgent,
+    "tdd": TDDAgent,
 }
+
+
 
 
 def main() -> None:
@@ -29,7 +34,7 @@ def main() -> None:
 
     load_dotenv()  # ANTHROPIC_API_KEY from .env
     llm = LLM()
-    agent = AGENTS[args.agent](llm)
+    agent: Agent = AGENTS[args.agent](llm)
 
     tasks = load_tasks()
     if args.task_ids:

@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_71",
+  "counts": {
+    "tests_total": 16,
+    "tests_passed": 16,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_check_win_1 (temp_file.PushBoxGameTestCheckWin.test_check_win_1) ... ok\ntest_check_win_2 (temp_file.PushBoxGameTestCheckWin.test_check_win_2) ... ok\ntest_init_game_1 (temp_file.PushBoxGameTestInitGame.test_init_game_1) ... ok\ntest_init_game_2 (temp_file.PushBoxGameTestInitGame.test_init_game_2) ... ok\ntest_init_game_3 (temp_file.PushBoxGameTestInitGame.test_init_game_3) ... ok\ntest_init_game_4 (temp_file.PushBoxGameTestInitGame.test_init_game_4) ... ok\ntest_init_game_5 (temp_file.PushBoxGameTestInitGame.test_init_game_5) ... ok\ntest_init_game_6 (temp_file.PushBoxGameTestInitGame.test_init_game_6) ... ok\ntest_init_game_7 (temp_file.PushBoxGameTestInitGame.test_init_game_7) ... ok\ntest_move_1 (temp_file.PushBoxGameTestMove.test_move_1) ... ok\ntest_move_2 (temp_file.PushBoxGameTestMove.test_move_2) ... ok\ntest_move_3 (temp_file.PushBoxGameTestMove.test_move_3) ... ok\ntest_move_4 (temp_file.PushBoxGameTestMove.test_move_4) ... ok\ntest_move_5 (temp_file.PushBoxGameTestMove.test_move_5) ... ok\ntest_move_6 (temp_file.PushBoxGameTestMove.test_move_6) ... ok\ntest_move_7 (temp_file.PushBoxGameTestMove.test_move_7) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.000s\n\nOK\n"
+}
