@@ -60,3 +60,33 @@ Result of running the tests:
 
 Fix the code so that all of the tests pass, keeping what already works.
 Reply with the complete updated class."""
+
+# TDD agent that writes its own tests (experiments 2 and 3): the test-writing call.
+# It sees the specification and the tests so far, never the code, so its tests come
+# from what the class should do rather than from what the code already does.
+TEST_WRITER_SYSTEM = """You are an expert Python developer practising test-driven development.
+You write unittest tests for a class before it is implemented, from its specification only.
+
+Reply with only the test code in a single ```python code block, with no explanation."""
+
+TDD_WRITE_TESTS = """We are building this class test-first, one method at a time.
+
+Specification (the original class skeleton):
+```python
+{skeleton}
+```
+
+The test suite so far:
+```python
+{suite}
+```
+
+Write {n} new unit tests for the method `{method}`, before it is implemented.
+{extra}
+- Base every expected value on the specification: the docstrings, their examples and the
+  class description. Don't test behaviour the specification doesn't describe.
+- Put them all in one class, `class {test_class}(unittest.TestCase):`, with test methods
+  named test_{method}_1, test_{method}_2, and so on.
+- The class under test, `{class_name}`, is defined in the same file: use it directly,
+  don't import it and don't implement it.
+- `unittest` is already imported; add any other import the tests need above the class."""

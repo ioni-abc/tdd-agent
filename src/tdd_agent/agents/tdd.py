@@ -101,6 +101,14 @@ class TDDAgent:
         for method in methods_in_order(task):
             name = method["method_name"]
             tests, origin = self._method_tests(task, method, skeleton, suite, calls)
+            if not tests.strip():  # no tests for this method (the agent's were unusable): no test, no code
+                steps.append(
+                    MethodStep(
+                        method=name, tests_in_suite=0, red_passed=0, coded=False,
+                        fix_attempts=0, green_passed=0, green=False, **origin,
+                    ).model_dump(exclude_none=True)
+                )
+                continue
             suite += "\n\n" + tests
 
             # RED: the suite on the current code, before this method is implemented
