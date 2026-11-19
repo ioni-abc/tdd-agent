@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_42",
+  "counts": {
+    "tests_total": 23,
+    "tests_passed": 23,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_get_available_rooms (temp_file.HotelTestAvailableRooms.test_get_available_rooms) ... ok\ntest_get_available_rooms_2 (temp_file.HotelTestAvailableRooms.test_get_available_rooms_2) ... ok\ntest_get_available_rooms_3 (temp_file.HotelTestAvailableRooms.test_get_available_rooms_3) ... ok\ntest_get_available_rooms_4 (temp_file.HotelTestAvailableRooms.test_get_available_rooms_4) ... ok\ntest_get_available_rooms_5 (temp_file.HotelTestAvailableRooms.test_get_available_rooms_5) ... ok\ntest_book_room_1 (temp_file.HotelTestBookRoom.test_book_room_1) ... ok\ntest_book_room_2 (temp_file.HotelTestBookRoom.test_book_room_2) ... ok\ntest_book_room_3 (temp_file.HotelTestBookRoom.test_book_room_3) ... ok\ntest_book_room_4 (temp_file.HotelTestBookRoom.test_book_room_4) ... ok\ntest_book_room_5 (temp_file.HotelTestBookRoom.test_book_room_5) ... ok\ntest_book_room_6 (temp_file.HotelTestBookRoom.test_book_room_6) ... ok\ntest_check_in_1 (temp_file.HotelTestCheckIn.test_check_in_1) ... ok\ntest_check_in_2 (temp_file.HotelTestCheckIn.test_check_in_2) ... ok\ntest_check_in_3 (temp_file.HotelTestCheckIn.test_check_in_3) ... ok\ntest_check_in_4 (temp_file.HotelTestCheckIn.test_check_in_4) ... ok\ntest_check_in_5 (temp_file.HotelTestCheckIn.test_check_in_5) ... ok\ntest_check_in_6 (temp_file.HotelTestCheckIn.test_check_in_6) ... ok\ntest_check_out_1 (temp_file.HotelTestCheckOut.test_check_out_1) ... ok\ntest_check_out_2 (temp_file.HotelTestCheckOut.test_check_out_2) ... ok\ntest_check_out_3 (temp_file.HotelTestCheckOut.test_check_out_3) ... ok\ntest_check_out_4 (temp_file.HotelTestCheckOut.test_check_out_4) ... ok\ntest_check_out_5 (temp_file.HotelTestCheckOut.test_check_out_5) ... ok\ntest_main (temp_file.HotelTestMain.test_main) ... ok\n\n----------------------------------------------------------------------\nRan 23 tests in 0.000s\n\nOK\n"
+}

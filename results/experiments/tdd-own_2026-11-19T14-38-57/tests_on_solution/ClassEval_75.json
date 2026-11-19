@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_75",
+  "counts": {
+    "tests_total": 20,
+    "tests_passed": 19,
+    "tests_failed": 1,
+    "tests_errored": 0
+  },
+  "class_passed": false,
+  "timed_out": false,
+  "log": "test_add_item_1 (temp_file.AgentTest_add_item.test_add_item_1) ... ok\ntest_add_item_2 (temp_file.AgentTest_add_item.test_add_item_2) ... ok\ntest_add_item_3 (temp_file.AgentTest_add_item.test_add_item_3) ... ok\ntest_add_item_4 (temp_file.AgentTest_add_item.test_add_item_4) ... ok\ntest_add_item_5 (temp_file.AgentTest_add_item.test_add_item_5) ... ok\ntest_remove_item_1 (temp_file.AgentTest_remove_item.test_remove_item_1) ... ok\ntest_remove_item_2 (temp_file.AgentTest_remove_item.test_remove_item_2) ... ok\ntest_remove_item_3 (temp_file.AgentTest_remove_item.test_remove_item_3) ... ok\ntest_remove_item_4 (temp_file.AgentTest_remove_item.test_remove_item_4) ... ok\ntest_remove_item_5 (temp_file.AgentTest_remove_item.test_remove_item_5) ... ok\ntest_total_price_1 (temp_file.AgentTest_total_price.test_total_price_1) ... FAIL\ntest_total_price_2 (temp_file.AgentTest_total_price.test_total_price_2) ... ok\ntest_total_price_3 (temp_file.AgentTest_total_price.test_total_price_3) ... ok\ntest_total_price_4 (temp_file.AgentTest_total_price.test_total_price_4) ... ok\ntest_total_price_5 (temp_file.AgentTest_total_price.test_total_price_5) ... ok\ntest_view_items_1 (temp_file.AgentTest_view_items.test_view_items_1) ... ok\ntest_view_items_2 (temp_file.AgentTest_view_items.test_view_items_2) ... ok\ntest_view_items_3 (temp_file.AgentTest_view_items.test_view_items_3) ... ok\ntest_view_items_4 (temp_file.AgentTest_view_items.test_view_items_4) ... ok\ntest_view_items_5 (temp_file.AgentTest_view_items.test_view_items_5) ... ok\n\n======================================================================\nFAIL: test_total_price_1 (temp_file.AgentTest_total_price.test_total_price_1)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/private/var/folders/9x/ldh22fhs6m388ywc7hb7f9qc0000gn/T/tmpqs6rphac/temp_file.py\", line 158, in test_total_price_1\n    self.assertIsInstance(result, float)\nAssertionError: 11 is not an instance of <class 'float'>\n\n----------------------------------------------------------------------\nRan 20 tests in 0.000s\n\nFAILED (failures=1)\n"
+}

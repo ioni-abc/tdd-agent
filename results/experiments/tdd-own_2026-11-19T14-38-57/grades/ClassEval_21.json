@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_21",
+  "counts": {
+    "tests_total": 24,
+    "tests_passed": 24,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_add_course_1 (temp_file.ClassroomTestAddCourse.test_add_course_1) ... ok\ntest_add_course_2 (temp_file.ClassroomTestAddCourse.test_add_course_2) ... ok\ntest_add_course_3 (temp_file.ClassroomTestAddCourse.test_add_course_3) ... ok\ntest_add_course_4 (temp_file.ClassroomTestAddCourse.test_add_course_4) ... ok\ntest_add_course_5 (temp_file.ClassroomTestAddCourse.test_add_course_5) ... ok\ntest_add_course_6 (temp_file.ClassroomTestAddCourse.test_add_course_6) ... ok\ntest_check_course_conflict_1 (temp_file.ClassroomTestCheckCourseConflict.test_check_course_conflict_1) ... ok\ntest_check_course_conflict_2 (temp_file.ClassroomTestCheckCourseConflict.test_check_course_conflict_2) ... ok\ntest_check_course_conflict_3 (temp_file.ClassroomTestCheckCourseConflict.test_check_course_conflict_3) ... ok\ntest_check_course_conflict_4 (temp_file.ClassroomTestCheckCourseConflict.test_check_course_conflict_4) ... ok\ntest_check_course_conflict_5 (temp_file.ClassroomTestCheckCourseConflict.test_check_course_conflict_5) ... ok\ntest_check_course_conflict_6 (temp_file.ClassroomTestCheckCourseConflict.test_check_course_conflict_6) ... ok\ntest_is_free_at_1 (temp_file.ClassroomTestIsFreeAt.test_is_free_at_1) ... ok\ntest_is_free_at_2 (temp_file.ClassroomTestIsFreeAt.test_is_free_at_2) ... ok\ntest_is_free_at_3 (temp_file.ClassroomTestIsFreeAt.test_is_free_at_3) ... ok\ntest_is_free_at_4 (temp_file.ClassroomTestIsFreeAt.test_is_free_at_4) ... ok\ntest_is_free_at_5 (temp_file.ClassroomTestIsFreeAt.test_is_free_at_5) ... ok\ntest_main (temp_file.ClassroomTestMain.test_main) ... ok\ntest_remove_course_1 (temp_file.ClassroomTestRemoveCourse.test_remove_course_1) ... ok\ntest_remove_course_2 (temp_file.ClassroomTestRemoveCourse.test_remove_course_2) ... ok\ntest_remove_course_3 (temp_file.ClassroomTestRemoveCourse.test_remove_course_3) ... ok\ntest_remove_course_4 (temp_file.ClassroomTestRemoveCourse.test_remove_course_4) ... ok\ntest_remove_course_5 (temp_file.ClassroomTestRemoveCourse.test_remove_course_5) ... ok\ntest_remove_course_6 (temp_file.ClassroomTestRemoveCourse.test_remove_course_6) ... ok\n\n----------------------------------------------------------------------\nRan 24 tests in 0.002s\n\nOK\n"
+}

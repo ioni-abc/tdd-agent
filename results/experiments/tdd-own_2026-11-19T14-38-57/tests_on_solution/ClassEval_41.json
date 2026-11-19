@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_41",
+  "counts": {
+    "tests_total": 15,
+    "tests_passed": 14,
+    "tests_failed": 0,
+    "tests_errored": 1
+  },
+  "class_passed": false,
+  "timed_out": false,
+  "log": "test__check_five_in_a_row_1 (temp_file.AgentTest__check_five_in_a_row.test__check_five_in_a_row_1) ... ok\ntest__check_five_in_a_row_2 (temp_file.AgentTest__check_five_in_a_row.test__check_five_in_a_row_2) ... ok\ntest__check_five_in_a_row_3 (temp_file.AgentTest__check_five_in_a_row.test__check_five_in_a_row_3) ... ok\ntest__check_five_in_a_row_4 (temp_file.AgentTest__check_five_in_a_row.test__check_five_in_a_row_4) ... ok\ntest__check_five_in_a_row_5 (temp_file.AgentTest__check_five_in_a_row.test__check_five_in_a_row_5) ... ok\ntest_check_winner_1 (temp_file.AgentTest_check_winner.test_check_winner_1) ... ok\ntest_check_winner_2 (temp_file.AgentTest_check_winner.test_check_winner_2) ... ok\ntest_check_winner_3 (temp_file.AgentTest_check_winner.test_check_winner_3) ... ok\ntest_check_winner_4 (temp_file.AgentTest_check_winner.test_check_winner_4) ... ok\ntest_check_winner_5 (temp_file.AgentTest_check_winner.test_check_winner_5) ... ok\ntest_make_move_1 (temp_file.AgentTest_make_move.test_make_move_1) ... ok\ntest_make_move_2 (temp_file.AgentTest_make_move.test_make_move_2) ... ok\ntest_make_move_3 (temp_file.AgentTest_make_move.test_make_move_3) ... ok\ntest_make_move_4 (temp_file.AgentTest_make_move.test_make_move_4) ... ok\ntest_make_move_5 (temp_file.AgentTest_make_move.test_make_move_5) ... ERROR\n\n======================================================================\nERROR: test_make_move_5 (temp_file.AgentTest_make_move.test_make_move_5)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/private/var/folders/9x/ldh22fhs6m388ywc7hb7f9qc0000gn/T/tmpjhl6i0c8/temp_file.py\", line 74, in test_make_move_5\n    self.assertIs(game.make_move(10, 3), False)\n                  ^^^^^^^^^^^^^^^^^^^^^\n  File \"/private/var/folders/9x/ldh22fhs6m388ywc7hb7f9qc0000gn/T/tmpjhl6i0c8/temp_file.py\", line 8, in make_move\n    if self.board[row][col] == ' ':\n       ~~~~~~~~~~^^^^^\nIndexError: list index out of range\n\n----------------------------------------------------------------------\nRan 15 tests in 0.000s\n\nFAILED (errors=1)\n"
+}

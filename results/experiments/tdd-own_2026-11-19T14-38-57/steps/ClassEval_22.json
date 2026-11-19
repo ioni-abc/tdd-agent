@@ -1,0 +1,62 @@
+[
+  {
+    "method": "register_student",
+    "tests_in_suite": 0,
+    "red_passed": 0,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 0,
+    "green": false,
+    "tests_given": 0,
+    "tests_written": 0,
+    "tests_valid": false
+  },
+  {
+    "method": "register_class",
+    "tests_in_suite": 0,
+    "red_passed": 0,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 0,
+    "green": false,
+    "tests_given": 0,
+    "tests_written": 0,
+    "tests_valid": false
+  },
+  {
+    "method": "get_students_by_major",
+    "tests_in_suite": 0,
+    "red_passed": 0,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 0,
+    "green": false,
+    "tests_given": 0,
+    "tests_written": 0,
+    "tests_valid": false
+  },
+  {
+    "method": "get_all_major",
+    "tests_in_suite": 0,
+    "red_passed": 0,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 0,
+    "green": false,
+    "tests_given": 0,
+    "tests_written": 0,
+    "tests_valid": false
+  },
+  {
+    "method": "get_most_popular_class_in_major",
+    "tests_in_suite": 0,
+    "red_passed": 0,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 0,
+    "green": false,
+    "tests_given": 0,
+    "tests_written": 0,
+    "tests_valid": false
+  }
+]

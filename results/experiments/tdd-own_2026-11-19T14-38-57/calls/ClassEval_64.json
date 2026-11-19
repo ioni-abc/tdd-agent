@@ -1,0 +1,82 @@
+[
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1073,
+    "output_tokens": 679,
+    "seconds": 3.0,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_decimal_to_binary(unittest.TestCase):\n\n    def test_decimal_to_binary_1(self):\n        self.assertEqual(NumberConverter.decimal_to_binary(42423), '1010010110110111')\n\n    def test_decimal_to_binary_2(self):\n        self.assertEqual(NumberConverter.decimal_to_binary(0), '0')\n\n    def test_decimal_to_binary_3(self):\n        self.assertEqual(NumberConverter.decimal_to_binary(1), '1')\n\n    def test_decimal_to_binary_4(self):\n        self.assertEqual(NumberConverter.decimal_to_binary(10), '1010')\n\n    def test_decimal_to_binary_5(self):\n        result = NumberConverter.decimal_to_binary(255)\n        self.assertIsInstance(result, str)\n        self.assertEqual(result, '11111111')\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 3146,
+    "output_tokens": 1004,
+    "seconds": 3.7,
+    "reply": "```python\nclass NumberConverter:\n    \"\"\"\n    The class allows to convert  decimal to binary, octal and hexadecimal repectively and contrarily\n    \"\"\"\n\n    @staticmethod\n    def decimal_to_binary(decimal_num):\n        \"\"\"\n        Convert a number from decimal format to binary format.\n        :param decimal_num: int, decimal number\n        :return: str, the binary representation of an integer.\n        >>> NumberConverter.decimal_to_binary(42423)\n        '1010010110110111'\n        \"\"\"\n        return format(decimal_num, 'b')\n\n    @staticmethod\n    def binary_to_decimal(binary_num):\n        \"\"\"\n        Convert a number from binary format to decimal format.\n        :param binary_num: str, binary number\n        :return: int, the decimal representation of binary number str.\n        >>> NumberConverter.binary_to_decimal('1010010110110111')\n        42423\n        \"\"\"\n\n\n    @staticmethod\n    def decimal_to_octal(decimal_num):\n        \"\"\"\n        Convert a number from decimal format to octal format.\n        :param decimal_num: int, decimal number\n        :return: str, the octal representation of an integer.\n        >>> NumberConverter.decimal_to_octal(42423)\n        '122667'\n        \"\"\"\n\n    @staticmethod\n    def octal_to_decimal(octal_num):\n        \"\"\"\n        Convert a number from octal format to decimal format.\n        :param octal_num: str, octal num\n        :return: int, the decimal representation of octal number str.\n        >>> NumberConverter.octal_to_decimal('122667')\n        42423\n        \"\"\"\n\n    @staticmethod\n    def decimal_to_hex(decimal_num):\n        \"\"\"\n        Convert a number from decimal format to hex format.\n        :param decimal_num: int, decimal number\n        :return hex_num: str, the hex representation of an integer.\n        >>> NumberConverter.decimal_to_hex(42423)\n        'a5b7'\n        \"\"\"\n\n    @staticmethod\n    def hex_to_decimal(hex_num):\n        \"\"\"\n        Convert a number from hex format to decimal format.\n        :param hex_num: str, hex num\n        :return: int, the decimal representation of hex number str.\n        >>> NumberConverter.hex_to_decimal('a5b7')\n        42423\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1380,
+    "output_tokens": 312,
+    "seconds": 1.4,
+    "reply": "```python\nclass AgentTest_binary_to_decimal(unittest.TestCase):\n\n    def test_binary_to_decimal_1(self):\n        self.assertEqual(NumberConverter.binary_to_decimal('1010010110110111'), 42423)\n\n    def test_binary_to_decimal_2(self):\n        self.assertEqual(NumberConverter.binary_to_decimal('0'), 0)\n\n    def test_binary_to_decimal_3(self):\n        self.assertEqual(NumberConverter.binary_to_decimal('1'), 1)\n\n    def test_binary_to_decimal_4(self):\n        self.assertEqual(NumberConverter.binary_to_decimal('1010'), 10)\n\n    def test_binary_to_decimal_5(self):\n        result = NumberConverter.binary_to_decimal('11111111')\n        self.assertIsInstance(result, int)\n        self.assertEqual(result, 255)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 3467,
+    "output_tokens": 767,
+    "seconds": 2.6,
+    "reply": "```python\nimport unittest\n\n\nclass NumberConverter:\n    \"\"\"\n    The class allows to convert  decimal to binary, octal and hexadecimal repectively and contrarily\n    \"\"\"\n\n    @staticmethod\n    def decimal_to_binary(decimal_num):\n        \"\"\"\n        Convert a number from decimal format to binary format.\n        :param decimal_num: int, decimal number\n        :return: str, the binary representation of an integer.\n        >>> NumberConverter.decimal_to_binary(42423)\n        '1010010110110111'\n        \"\"\"\n        return format(decimal_num, 'b')\n\n    @staticmethod\n    def binary_to_decimal(binary_num):\n        \"\"\"\n        Convert a number from binary format to decimal format.\n        :param binary_num: str, binary number\n        :return: int, the decimal representation of binary number str.\n        >>> NumberConverter.binary_to_decimal('1010010110110111')\n        42423\n        \"\"\"\n        return int(binary_num, 2)\n\n    @staticmethod\n    def decimal_to_octal(decimal_num):\n        \"\"\"\n        Convert a number from decimal format to octal format.\n        :param decimal_num: int, decimal number\n        :return: str, the octal representation of an integer.\n        >>> NumberConverter.decimal_to_octal(42423)\n        '122667'\n        \"\"\"\n\n    @staticmethod\n    def octal_to_decimal(octal_num):\n        \"\"\"\n        Convert a number from octal format to decimal format.\n        :param octal_num: str, octal num\n        :return: int, the decimal representation of octal number str.\n        >>> NumberConverter.octal_to_decimal('122667')\n        42423\n        \"\"\"\n\n    @staticmethod\n    def decimal_to_hex(decimal_num):\n        \"\"\"\n        Convert a number from decimal format to hex format.\n        :param decimal_num: int, decimal number\n        :return hex_num: str, the hex representation of an integer.\n        >>> NumberConverter.decimal_to_hex(42423)\n        'a5b7'\n        \"\"\"\n\n    @staticmethod\n    def hex_to_decimal(hex_num):\n        \"\"\"\n        Convert a number from hex format to decimal format.\n        :param hex_num: str, hex num\n        :return: int, the decimal representation of hex number str.\n        >>> NumberConverter.hex_to_decimal('a5b7')\n        42423\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1686,
+    "output_tokens": 551,
+    "seconds": 2.7,
+    "reply": "```python\nclass AgentTest_decimal_to_octal(unittest.TestCase):\n\n    def test_decimal_to_octal_1(self):\n        self.assertEqual(NumberConverter.decimal_to_octal(42423), '122667')\n\n    def test_decimal_to_octal_2(self):\n        self.assertEqual(NumberConverter.decimal_to_octal(0), '0')\n\n    def test_decimal_to_octal_3(self):\n        self.assertEqual(NumberConverter.decimal_to_octal(1), '1')\n\n    def test_decimal_to_octal_4(self):\n        self.assertEqual(NumberConverter.decimal_to_octal(8), '10')\n\n    def test_decimal_to_octal_5(self):\n        result = NumberConverter.decimal_to_octal(255)\n        self.assertIsInstance(result, str)\n        self.assertEqual(result, '377')\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 3780,
+    "output_tokens": 782,
+    "seconds": 2.7,
+    "reply": "```python\nimport unittest\n\n\nclass NumberConverter:\n    \"\"\"\n    The class allows to convert  decimal to binary, octal and hexadecimal repectively and contrarily\n    \"\"\"\n\n    @staticmethod\n    def decimal_to_binary(decimal_num):\n        \"\"\"\n        Convert a number from decimal format to binary format.\n        :param decimal_num: int, decimal number\n        :return: str, the binary representation of an integer.\n        >>> NumberConverter.decimal_to_binary(42423)\n        '1010010110110111'\n        \"\"\"\n        return format(decimal_num, 'b')\n\n    @staticmethod\n    def binary_to_decimal(binary_num):\n        \"\"\"\n        Convert a number from binary format to decimal format.\n        :param binary_num: str, binary number\n        :return: int, the decimal representation of binary number str.\n        >>> NumberConverter.binary_to_decimal('1010010110110111')\n        42423\n        \"\"\"\n        return int(binary_num, 2)\n\n    @staticmethod\n    def decimal_to_octal(decimal_num):\n        \"\"\"\n        Convert a number from decimal format to octal format.\n        :param decimal_num: int, decimal number\n        :return: str, the octal representation of an integer.\n        >>> NumberConverter.decimal_to_octal(42423)\n        '122667'\n        \"\"\"\n        return format(decimal_num, 'o')\n\n    @staticmethod\n    def octal_to_decimal(octal_num):\n        \"\"\"\n        Convert a number from octal format to decimal format.\n        :param octal_num: str, octal num\n        :return: int, the decimal representation of octal number str.\n        >>> NumberConverter.octal_to_decimal('122667')\n        42423\n        \"\"\"\n\n    @staticmethod\n    def decimal_to_hex(decimal_num):\n        \"\"\"\n        Convert a number from decimal format to hex format.\n        :param decimal_num: int, decimal number\n        :return hex_num: str, the hex representation of an integer.\n        >>> NumberConverter.decimal_to_hex(42423)\n        'a5b7'\n        \"\"\"\n\n    @staticmethod\n    def hex_to_decimal(hex_num):\n        \"\"\"\n        Convert a number from hex format to decimal format.\n        :param hex_num: str, hex num\n        :return: int, the decimal representation of hex number str.\n        >>> NumberConverter.hex_to_decimal('a5b7')\n        42423\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1981,
+    "output_tokens": 469,
+    "seconds": 2.0,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_octal_to_decimal(unittest.TestCase):\n\n    def test_octal_to_decimal_1(self):\n        self.assertEqual(NumberConverter.octal_to_decimal('122667'), 42423)\n\n    def test_octal_to_decimal_2(self):\n        self.assertEqual(NumberConverter.octal_to_decimal('0'), 0)\n\n    def test_octal_to_decimal_3(self):\n        self.assertEqual(NumberConverter.octal_to_decimal('1'), 1)\n\n    def test_octal_to_decimal_4(self):\n        self.assertEqual(NumberConverter.octal_to_decimal('10'), 8)\n\n    def test_octal_to_decimal_5(self):\n        result = NumberConverter.octal_to_decimal('377')\n        self.assertIsInstance(result, int)\n        self.assertEqual(result, 255)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 4099,
+    "output_tokens": 823,
+    "seconds": 2.8,
+    "reply": "```python\nimport unittest\n\n\nclass NumberConverter:\n    \"\"\"\n    The class allows to convert  decimal to binary, octal and hexadecimal repectively and contrarily\n    \"\"\"\n\n    @staticmethod\n    def decimal_to_binary(decimal_num):\n        \"\"\"\n        Convert a number from decimal format to binary format.\n        :param decimal_num: int, decimal number\n        :return: str, the binary representation of an integer.\n        >>> NumberConverter.decimal_to_binary(42423)\n        '1010010110110111'\n        \"\"\"\n        return format(decimal_num, 'b')\n\n    @staticmethod\n    def binary_to_decimal(binary_num):\n        \"\"\"\n        Convert a number from binary format to decimal format.\n        :param binary_num: str, binary number\n        :return: int, the decimal representation of binary number str.\n        >>> NumberConverter.binary_to_decimal('1010010110110111')\n        42423\n        \"\"\"\n        return int(binary_num, 2)\n\n    @staticmethod\n    def decimal_to_octal(decimal_num):\n        \"\"\"\n        Convert a number from decimal format to octal format.\n        :param decimal_num: int, decimal number\n        :return: str, the octal representation of an integer.\n        >>> NumberConverter.decimal_to_octal(42423)\n        '122667'\n        \"\"\"\n        return format(decimal_num, 'o')\n\n    @staticmethod\n    def octal_to_decimal(octal_num):\n        \"\"\"\n        Convert a number from octal format to decimal format.\n        :param octal_num: str, octal num\n        :return: int, the decimal representation of octal number str.\n        >>> NumberConverter.octal_to_decimal('122667')\n        42423\n        \"\"\"\n        return int(octal_num, 8)\n\n    @staticmethod\n    def decimal_to_hex(decimal_num):\n        \"\"\"\n        Convert a number from decimal format to hex format.\n        :param decimal_num: int, decimal number\n        :return hex_num: str, the hex representation of an integer.\n        >>> NumberConverter.decimal_to_hex(42423)\n        'a5b7'\n        \"\"\"\n        return format(decimal_num, 'x')\n\n    @staticmethod\n    def hex_to_decimal(hex_num):\n        \"\"\"\n        Convert a number from hex format to decimal format.\n        :param hex_num: str, hex num\n        :return: int, the decimal representation of hex number str.\n        >>> NumberConverter.hex_to_decimal('a5b7')\n        42423\n        \"\"\"\n        return int(hex_num, 16)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2285,
+    "output_tokens": 539,
+    "seconds": 2.4,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_decimal_to_hex(unittest.TestCase):\n\n    def test_decimal_to_hex_1(self):\n        self.assertEqual(NumberConverter.decimal_to_hex(42423), 'a5b7')\n\n    def test_decimal_to_hex_2(self):\n        self.assertEqual(NumberConverter.decimal_to_hex(0), '0')\n\n    def test_decimal_to_hex_3(self):\n        self.assertEqual(NumberConverter.decimal_to_hex(10), 'a')\n\n    def test_decimal_to_hex_4(self):\n        self.assertEqual(NumberConverter.decimal_to_hex(16), '10')\n\n    def test_decimal_to_hex_5(self):\n        result = NumberConverter.decimal_to_hex(255)\n        self.assertIsInstance(result, str)\n        self.assertEqual(result, 'ff')\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2591,
+    "output_tokens": 574,
+    "seconds": 2.6,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_hex_to_decimal(unittest.TestCase):\n\n    def test_hex_to_decimal_1(self):\n        self.assertEqual(NumberConverter.hex_to_decimal('a5b7'), 42423)\n\n    def test_hex_to_decimal_2(self):\n        self.assertEqual(NumberConverter.hex_to_decimal('0'), 0)\n\n    def test_hex_to_decimal_3(self):\n        self.assertEqual(NumberConverter.hex_to_decimal('a'), 10)\n\n    def test_hex_to_decimal_4(self):\n        self.assertEqual(NumberConverter.hex_to_decimal('10'), 16)\n\n    def test_hex_to_decimal_5(self):\n        result = NumberConverter.hex_to_decimal('ff')\n        self.assertIsInstance(result, int)\n        self.assertEqual(result, 255)\n```"
+  }
+]

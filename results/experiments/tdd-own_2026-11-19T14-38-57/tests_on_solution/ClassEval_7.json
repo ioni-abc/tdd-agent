@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_7",
+  "counts": {
+    "tests_total": 10,
+    "tests_passed": 9,
+    "tests_failed": 0,
+    "tests_errored": 1
+  },
+  "class_passed": false,
+  "timed_out": false,
+  "log": "test_check_balanced_brackets_1 (temp_file.AgentTest_check_balanced_brackets.test_check_balanced_brackets_1) ... ok\ntest_check_balanced_brackets_2 (temp_file.AgentTest_check_balanced_brackets.test_check_balanced_brackets_2) ... ok\ntest_check_balanced_brackets_3 (temp_file.AgentTest_check_balanced_brackets.test_check_balanced_brackets_3) ... ok\ntest_check_balanced_brackets_4 (temp_file.AgentTest_check_balanced_brackets.test_check_balanced_brackets_4) ... ok\ntest_check_balanced_brackets_5 (temp_file.AgentTest_check_balanced_brackets.test_check_balanced_brackets_5) ... ERROR\ntest_clear_expr_1 (temp_file.AgentTest_clear_expr.test_clear_expr_1) ... ok\ntest_clear_expr_2 (temp_file.AgentTest_clear_expr.test_clear_expr_2) ... ok\ntest_clear_expr_3 (temp_file.AgentTest_clear_expr.test_clear_expr_3) ... ok\ntest_clear_expr_4 (temp_file.AgentTest_clear_expr.test_clear_expr_4) ... ok\ntest_clear_expr_5 (temp_file.AgentTest_clear_expr.test_clear_expr_5) ... ok\n\n======================================================================\nERROR: test_check_balanced_brackets_5 (temp_file.AgentTest_check_balanced_brackets.test_check_balanced_brackets_5)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/private/var/folders/9x/ldh22fhs6m388ywc7hb7f9qc0000gn/T/tmpkf0cx7yq/temp_file.py\", line 85, in test_check_balanced_brackets_5\n    self.assertFalse(b.check_balanced_brackets())\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/private/var/folders/9x/ldh22fhs6m388ywc7hb7f9qc0000gn/T/tmpkf0cx7yq/temp_file.py\", line 17, in check_balanced_brackets\n    Current_Brkt = self.stack.pop()\n                   ^^^^^^^^^^^^^^^^\nIndexError: pop from empty list\n\n----------------------------------------------------------------------\nRan 10 tests in 0.000s\n\nFAILED (errors=1)\n"
+}

@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_9",
+  "counts": {
+    "tests_total": 15,
+    "tests_passed": 15,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_add_1 (temp_file.AgentTest_add.test_add_1) ... ok\ntest_add_2 (temp_file.AgentTest_add.test_add_2) ... ok\ntest_add_3 (temp_file.AgentTest_add.test_add_3) ... ok\ntest_add_4 (temp_file.AgentTest_add.test_add_4) ... ok\ntest_add_5 (temp_file.AgentTest_add.test_add_5) ... ok\ntest_multiply_1 (temp_file.AgentTest_multiply.test_multiply_1) ... ok\ntest_multiply_2 (temp_file.AgentTest_multiply.test_multiply_2) ... ok\ntest_multiply_3 (temp_file.AgentTest_multiply.test_multiply_3) ... ok\ntest_multiply_4 (temp_file.AgentTest_multiply.test_multiply_4) ... ok\ntest_multiply_5 (temp_file.AgentTest_multiply.test_multiply_5) ... ok\ntest_subtract_1 (temp_file.AgentTest_subtract.test_subtract_1) ... ok\ntest_subtract_2 (temp_file.AgentTest_subtract.test_subtract_2) ... ok\ntest_subtract_3 (temp_file.AgentTest_subtract.test_subtract_3) ... ok\ntest_subtract_4 (temp_file.AgentTest_subtract.test_subtract_4) ... ok\ntest_subtract_5 (temp_file.AgentTest_subtract.test_subtract_5) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 0.000s\n\nOK\n"
+}

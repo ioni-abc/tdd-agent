@@ -1,0 +1,34 @@
+[
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 735,
+    "output_tokens": 2761,
+    "seconds": 12.4,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_palindromic_length(unittest.TestCase):\n\n    def test_palindromic_length_1(self):\n        manacher = Manacher('ababa')\n        self.assertEqual(manacher.palindromic_length(2, 1, 'a|b|a|b|a'), 2)\n\n    def test_palindromic_length_2(self):\n        manacher = Manacher('abc')\n        self.assertEqual(manacher.palindromic_length(2, 1, 'a|b|c'), 1)\n\n    def test_palindromic_length_3(self):\n        manacher = Manacher('ababa')\n        self.assertEqual(manacher.palindromic_length(4, 1, 'a|b|a|b|a'), 4)\n\n    def test_palindromic_length_4(self):\n        manacher = Manacher('a-b')\n        self.assertEqual(manacher.palindromic_length(1, 1, 'a-b'), 0)\n\n    def test_palindromic_length_5(self):\n        manacher = Manacher('xababay')\n        self.assertEqual(manacher.palindromic_length(4, 1, 'x|a|b|a|y'), 3)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2567,
+    "output_tokens": 1494,
+    "seconds": 5.7,
+    "reply": "```python\nclass Manacher:\n    \"\"\"\n    his is a class that implements a manacher algorithm to find the Longest palindromic substring in a given string.\n    \"\"\"\n\n    def __init__(self, input_string) -> None:\n        \"\"\"\n        Initializes the Manacher class with the given input_string.\n        :param input_string: The input_string to be searched, str.\n        \"\"\"\n        self.input_string = input_string\n\n    def palindromic_length(self, center, diff, string):\n        \"\"\"\n        Recursively calculates the length of the palindromic substring based on a given center, difference value, and input string.\n        :param center: The center of the palindromic substring, int.\n        :param diff: The difference between the center and the current position, int.\n        :param string: The string to be searched, str.\n        :return: The length of the palindromic substring, int.\n        >>> manacher = Manacher('ababa')\n        >>> manacher.palindromic_length(2, 1, 'a|b|a|b|a')\n        2\n\n        \"\"\"\n        if center - diff == -1 or center + diff == len(string) or string[center + diff] != string[center - diff]:\n            return 0\n        return 1 + self.palindromic_length(center, diff + 1, string)\n\n    def palindromic_string(self):\n        \"\"\"\n        Finds the longest palindromic substring in the given string.\n        :return: The longest palindromic substring, str.\n        >>> manacher = Manacher('ababaxse')\n        >>> manacher.palindromic_string()\n        'ababa'\n\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1118,
+    "output_tokens": 984,
+    "seconds": 4.4,
+    "reply": "```python\nclass AgentTest_palindromic_string(unittest.TestCase):\n\n    def test_palindromic_string_1(self):\n        manacher = Manacher('ababaxse')\n        self.assertEqual(manacher.palindromic_string(), 'ababa')\n\n    def test_palindromic_string_2(self):\n        manacher = Manacher('level')\n        self.assertEqual(manacher.palindromic_string(), 'level')\n\n    def test_palindromic_string_3(self):\n        manacher = Manacher('xabbay')\n        self.assertEqual(manacher.palindromic_string(), 'abba')\n\n    def test_palindromic_string_4(self):\n        manacher = Manacher('xyzracecarq')\n        self.assertEqual(manacher.palindromic_string(), 'racecar')\n\n    def test_palindromic_string_5(self):\n        manacher = Manacher('z')\n        self.assertEqual(manacher.palindromic_string(), 'z')\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2898,
+    "output_tokens": 3196,
+    "seconds": 15.2,
+    "reply": "```python\nclass Manacher:\n    \"\"\"\n    his is a class that implements a manacher algorithm to find the Longest palindromic substring in a given string.\n    \"\"\"\n\n    def __init__(self, input_string) -> None:\n        \"\"\"\n        Initializes the Manacher class with the given input_string.\n        :param input_string: The input_string to be searched, str.\n        \"\"\"\n        self.input_string = input_string\n\n    def palindromic_length(self, center, diff, string):\n        \"\"\"\n        Recursively calculates the length of the palindromic substring based on a given center, difference value, and input string.\n        :param center: The center of the palindromic substring, int.\n        :param diff: The difference between the center and the current position, int.\n        :param string: The string to be searched, str.\n        :return: The length of the palindromic substring, int.\n        >>> manacher = Manacher('ababa')\n        >>> manacher.palindromic_length(2, 1, 'a|b|a|b|a')\n        2\n\n        \"\"\"\n        if center - diff == -1 or center + diff == len(string) or string[center + diff] != string[center - diff]:\n            return 0\n        return 1 + self.palindromic_length(center, diff + 1, string)\n\n    def palindromic_string(self):\n        \"\"\"\n        Finds the longest palindromic substring in the given string.\n        :return: The longest palindromic substring, str.\n        >>> manacher = Manacher('ababaxse')\n        >>> manacher.palindromic_string()\n        'ababa'\n\n        \"\"\"\n        s = self.input_string\n        if not s:\n            return ''\n\n        # Build transformed string: letters at even indices, separators at odd indices.\n        t = '|'.join(s)\n\n        best_start = 0\n        best_end = 0\n        for center in range(len(t)):\n            r = self.palindromic_length(center, 1, t)\n            start = center - r\n            end = center + r\n            if end - start > best_end - best_start:\n                best_start, best_end = start, end\n\n        # Map transformed span back to original indices (letters live at even indices).\n        if best_start % 2 == 1:\n            best_start += 1\n        if best_end % 2 == 1:\n            best_end -= 1\n        return s[best_start // 2: best_end // 2 + 1]\n```"
+  }
+]

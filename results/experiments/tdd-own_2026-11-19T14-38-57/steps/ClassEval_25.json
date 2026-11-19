@@ -1,0 +1,38 @@
+[
+  {
+    "method": "load_cookies",
+    "tests_in_suite": 5,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true,
+    "tests_given": 0,
+    "tests_written": 5,
+    "tests_valid": true
+  },
+  {
+    "method": "_save_cookies",
+    "tests_in_suite": 10,
+    "red_passed": 6,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 10,
+    "green": true,
+    "tests_given": 0,
+    "tests_written": 5,
+    "tests_valid": true
+  },
+  {
+    "method": "get_cookies",
+    "tests_in_suite": 15,
+    "red_passed": 10,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 15,
+    "green": true,
+    "tests_given": 0,
+    "tests_written": 5,
+    "tests_valid": true
+  }
+]

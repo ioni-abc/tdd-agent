@@ -1,0 +1,74 @@
+[
+  {
+    "method": "add_student",
+    "tests_in_suite": 5,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true,
+    "tests_given": 0,
+    "tests_written": 5,
+    "tests_valid": true
+  },
+  {
+    "method": "add_course_score",
+    "tests_in_suite": 10,
+    "red_passed": 6,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 10,
+    "green": true,
+    "tests_given": 0,
+    "tests_written": 5,
+    "tests_valid": true
+  },
+  {
+    "method": "get_gpa",
+    "tests_in_suite": 15,
+    "red_passed": 12,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 15,
+    "green": true,
+    "tests_given": 0,
+    "tests_written": 5,
+    "tests_valid": true
+  },
+  {
+    "method": "get_all_students_with_fail_course",
+    "tests_in_suite": 20,
+    "red_passed": 15,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 20,
+    "green": true,
+    "tests_given": 0,
+    "tests_written": 5,
+    "tests_valid": true
+  },
+  {
+    "method": "get_course_average",
+    "tests_in_suite": 25,
+    "red_passed": 22,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 25,
+    "green": true,
+    "tests_given": 0,
+    "tests_written": 5,
+    "tests_valid": true
+  },
+  {
+    "method": "get_top_student",
+    "tests_in_suite": 30,
+    "red_passed": 25,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 30,
+    "green": true,
+    "tests_given": 0,
+    "tests_written": 5,
+    "tests_valid": true
+  }
+]

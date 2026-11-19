@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_84",
+  "counts": {
+    "tests_total": 20,
+    "tests_passed": 20,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_process_file_1 (temp_file.AgentTest_process_file.test_process_file_1) ... ok\ntest_process_file_2 (temp_file.AgentTest_process_file.test_process_file_2) ... ok\ntest_process_file_3 (temp_file.AgentTest_process_file.test_process_file_3) ... ok\ntest_process_file_4 (temp_file.AgentTest_process_file.test_process_file_4) ... ok\ntest_process_file_5 (temp_file.AgentTest_process_file.test_process_file_5) ... ok\ntest_read_file_1 (temp_file.AgentTest_read_file.test_read_file_1) ... ok\ntest_read_file_2 (temp_file.AgentTest_read_file.test_read_file_2) ... ok\ntest_read_file_3 (temp_file.AgentTest_read_file.test_read_file_3) ... ok\ntest_read_file_4 (temp_file.AgentTest_read_file.test_read_file_4) ... ok\ntest_read_file_5 (temp_file.AgentTest_read_file.test_read_file_5) ... ok\ntest_read_file_as_json_1 (temp_file.AgentTest_read_file_as_json.test_read_file_as_json_1) ... ok\ntest_read_file_as_json_2 (temp_file.AgentTest_read_file_as_json.test_read_file_as_json_2) ... ok\ntest_read_file_as_json_3 (temp_file.AgentTest_read_file_as_json.test_read_file_as_json_3) ... ok\ntest_read_file_as_json_4 (temp_file.AgentTest_read_file_as_json.test_read_file_as_json_4) ... ok\ntest_read_file_as_json_5 (temp_file.AgentTest_read_file_as_json.test_read_file_as_json_5) ... ok\ntest_write_file_1 (temp_file.AgentTest_write_file.test_write_file_1) ... ok\ntest_write_file_2 (temp_file.AgentTest_write_file.test_write_file_2) ... ok\ntest_write_file_3 (temp_file.AgentTest_write_file.test_write_file_3) ... ok\ntest_write_file_4 (temp_file.AgentTest_write_file.test_write_file_4) ... ok\ntest_write_file_5 (temp_file.AgentTest_write_file.test_write_file_5) ... ok\n\n----------------------------------------------------------------------\nRan 20 tests in 0.006s\n\nOK\n"
+}

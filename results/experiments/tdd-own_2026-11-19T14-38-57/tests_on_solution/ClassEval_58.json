@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_58",
+  "counts": {
+    "tests_total": 20,
+    "tests_passed": 20,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_check_won_1 (temp_file.AgentTest_check_won.test_check_won_1) ... ok\ntest_check_won_2 (temp_file.AgentTest_check_won.test_check_won_2) ... ok\ntest_check_won_3 (temp_file.AgentTest_check_won.test_check_won_3) ... ok\ntest_check_won_4 (temp_file.AgentTest_check_won.test_check_won_4) ... ok\ntest_check_won_5 (temp_file.AgentTest_check_won.test_check_won_5) ... ok\ntest_generate_mine_sweeper_map_1 (temp_file.AgentTest_generate_mine_sweeper_map.test_generate_mine_sweeper_map_1) ... ok\ntest_generate_mine_sweeper_map_2 (temp_file.AgentTest_generate_mine_sweeper_map.test_generate_mine_sweeper_map_2) ... ok\ntest_generate_mine_sweeper_map_3 (temp_file.AgentTest_generate_mine_sweeper_map.test_generate_mine_sweeper_map_3) ... ok\ntest_generate_mine_sweeper_map_4 (temp_file.AgentTest_generate_mine_sweeper_map.test_generate_mine_sweeper_map_4) ... ok\ntest_generate_mine_sweeper_map_5 (temp_file.AgentTest_generate_mine_sweeper_map.test_generate_mine_sweeper_map_5) ... ok\ntest_generate_playerMap_1 (temp_file.AgentTest_generate_playerMap.test_generate_playerMap_1) ... ok\ntest_generate_playerMap_2 (temp_file.AgentTest_generate_playerMap.test_generate_playerMap_2) ... ok\ntest_generate_playerMap_3 (temp_file.AgentTest_generate_playerMap.test_generate_playerMap_3) ... ok\ntest_generate_playerMap_4 (temp_file.AgentTest_generate_playerMap.test_generate_playerMap_4) ... ok\ntest_generate_playerMap_5 (temp_file.AgentTest_generate_playerMap.test_generate_playerMap_5) ... ok\ntest_sweep_1 (temp_file.AgentTest_sweep.test_sweep_1) ... ok\ntest_sweep_2 (temp_file.AgentTest_sweep.test_sweep_2) ... ok\ntest_sweep_3 (temp_file.AgentTest_sweep.test_sweep_3) ... ok\ntest_sweep_4 (temp_file.AgentTest_sweep.test_sweep_4) ... ok\ntest_sweep_5 (temp_file.AgentTest_sweep.test_sweep_5) ... ok\n\n----------------------------------------------------------------------\nRan 20 tests in 0.001s\n\nOK\n"
+}

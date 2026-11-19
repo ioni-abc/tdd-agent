@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_73",
+  "counts": {
+    "tests_total": 26,
+    "tests_passed": 26,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_attack (temp_file.RPGCharacterTestAttack.test_attack) ... ok\ntest_attack_2 (temp_file.RPGCharacterTestAttack.test_attack_2) ... ok\ntest_attack_3 (temp_file.RPGCharacterTestAttack.test_attack_3) ... ok\ntest_attack_4 (temp_file.RPGCharacterTestAttack.test_attack_4) ... ok\ntest_attack_5 (temp_file.RPGCharacterTestAttack.test_attack_5) ... ok\ntest_gain_exp_1 (temp_file.RPGCharacterTestGainExp.test_gain_exp_1) ... ok\ntest_gain_exp_2 (temp_file.RPGCharacterTestGainExp.test_gain_exp_2) ... ok\ntest_gain_exp_3 (temp_file.RPGCharacterTestGainExp.test_gain_exp_3) ... ok\ntest_gain_exp_4 (temp_file.RPGCharacterTestGainExp.test_gain_exp_4) ... ok\ntest_gain_exp_5 (temp_file.RPGCharacterTestGainExp.test_gain_exp_5) ... ok\ntest_heal_1 (temp_file.RPGCharacterTestHeal.test_heal_1) ... ok\ntest_heal_2 (temp_file.RPGCharacterTestHeal.test_heal_2) ... ok\ntest_heal_3 (temp_file.RPGCharacterTestHeal.test_heal_3) ... ok\ntest_heal_4 (temp_file.RPGCharacterTestHeal.test_heal_4) ... ok\ntest_heal_5 (temp_file.RPGCharacterTestHeal.test_heal_5) ... ok\ntest_is_alive_1 (temp_file.RPGCharacterTestIsAlive.test_is_alive_1) ... ok\ntest_is_alive_2 (temp_file.RPGCharacterTestIsAlive.test_is_alive_2) ... ok\ntest_is_alive_3 (temp_file.RPGCharacterTestIsAlive.test_is_alive_3) ... ok\ntest_is_alive_4 (temp_file.RPGCharacterTestIsAlive.test_is_alive_4) ... ok\ntest_is_alive_5 (temp_file.RPGCharacterTestIsAlive.test_is_alive_5) ... ok\ntest_level_up_1 (temp_file.RPGCharacterTestLevelUp.test_level_up_1) ... ok\ntest_level_up_2 (temp_file.RPGCharacterTestLevelUp.test_level_up_2) ... ok\ntest_level_up_3 (temp_file.RPGCharacterTestLevelUp.test_level_up_3) ... ok\ntest_level_up_4 (temp_file.RPGCharacterTestLevelUp.test_level_up_4) ... ok\ntest_level_up_5 (temp_file.RPGCharacterTestLevelUp.test_level_up_5) ... ok\ntest_main (temp_file.RPGCharacterTestMain.test_main) ... ok\n\n----------------------------------------------------------------------\nRan 26 tests in 0.000s\n\nOK\n"
+}

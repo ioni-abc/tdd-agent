@@ -1,0 +1,86 @@
+[
+  {
+    "method": "__iter__",
+    "tests_in_suite": 5,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true,
+    "tests_given": 0,
+    "tests_written": 5,
+    "tests_valid": true
+  },
+  {
+    "method": "__len__",
+    "tests_in_suite": 10,
+    "red_passed": 10,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 10,
+    "green": true,
+    "tests_given": 0,
+    "tests_written": 5,
+    "tests_valid": true
+  },
+  {
+    "method": "_to_camel_case",
+    "tests_in_suite": 15,
+    "red_passed": 15,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 15,
+    "green": true,
+    "tests_given": 0,
+    "tests_written": 5,
+    "tests_valid": true
+  },
+  {
+    "method": "_convert_key",
+    "tests_in_suite": 20,
+    "red_passed": 20,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 20,
+    "green": true,
+    "tests_given": 0,
+    "tests_written": 5,
+    "tests_valid": true
+  },
+  {
+    "method": "__getitem__",
+    "tests_in_suite": 25,
+    "red_passed": 25,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 25,
+    "green": true,
+    "tests_given": 0,
+    "tests_written": 5,
+    "tests_valid": true
+  },
+  {
+    "method": "__setitem__",
+    "tests_in_suite": 30,
+    "red_passed": 30,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 30,
+    "green": true,
+    "tests_given": 0,
+    "tests_written": 5,
+    "tests_valid": true
+  },
+  {
+    "method": "__delitem__",
+    "tests_in_suite": 35,
+    "red_passed": 35,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 35,
+    "green": true,
+    "tests_given": 0,
+    "tests_written": 5,
+    "tests_valid": true
+  }
+]

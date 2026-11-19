@@ -1,0 +1,50 @@
+[
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 752,
+    "output_tokens": 759,
+    "seconds": 3.4,
+    "reply": "```python\nimport unittest\n\nclass AgentTest_construct_stop_word_list(unittest.TestCase):\n\n    def setUp(self):\n        self.processor = NLPDataProcessor()\n\n    def test_construct_stop_word_list_1(self):\n        result = self.processor.construct_stop_word_list()\n        self.assertIsInstance(result, list)\n\n    def test_construct_stop_word_list_2(self):\n        result = self.processor.construct_stop_word_list()\n        self.assertEqual(result, ['a', 'an', 'the'])\n\n    def test_construct_stop_word_list_3(self):\n        result = self.processor.construct_stop_word_list()\n        self.assertEqual(len(result), 3)\n\n    def test_construct_stop_word_list_4(self):\n        result = self.processor.construct_stop_word_list()\n        for word in result:\n            self.assertIsInstance(word, str)\n\n    def test_construct_stop_word_list_5(self):\n        first = self.processor.construct_stop_word_list()\n        second = self.processor.construct_stop_word_list()\n        self.assertEqual(first, second)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2350,
+    "output_tokens": 700,
+    "seconds": 3.0,
+    "reply": "```python\nclass NLPDataProcessor:\n    \"\"\"\n    The class processes NLP data by removing stop words from a list of strings using a pre-defined stop word list.\n    \"\"\"\n\n\n    def construct_stop_word_list(self):\n        \"\"\"\n        Construct a stop word list including 'a', 'an', 'the'.\n        :return: a list of stop words\n        >>> NLPDataProcessor.construct_stop_word_list()\n        ['a', 'an', 'the']\n        \"\"\"\n        return ['a', 'an', 'the']\n\n    def remove_stop_words(self, string_list, stop_word_list):\n        \"\"\"\n        Remove all the stop words from the list of strings.\n        :param string_list: a list of strings\n        :param stop_word_list: a list of stop words\n        :return: a list of words without stop words\n        >>> NLPDataProcessor.process(['This is a test.'])\n        [['This', 'is', 'test.']]\n        \"\"\"\n    def process(self, string_list):\n        \"\"\"\n        Construct a stop word list including 'a', 'an', 'the', and remove all the stop words from the list of strings.\n        :param string_list: a list of strings\n        :return: a list of words without stop words\n        >>> NLPDataProcessor.process(['This is a test.'])\n        [['This', 'is', 'test.']]\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1106,
+    "output_tokens": 1073,
+    "seconds": 4.6,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_remove_stop_words(unittest.TestCase):\n\n    def setUp(self):\n        self.processor = NLPDataProcessor()\n        self.stop_words = ['a', 'an', 'the']\n\n    def test_remove_stop_words_1(self):\n        result = self.processor.remove_stop_words(['This is a test.'], self.stop_words)\n        self.assertEqual(result, [['This', 'is', 'test.']])\n\n    def test_remove_stop_words_2(self):\n        result = self.processor.remove_stop_words(['This is a test.'], self.stop_words)\n        self.assertIsInstance(result, list)\n\n    def test_remove_stop_words_3(self):\n        result = self.processor.remove_stop_words(['This is a test.'], ['is'])\n        self.assertEqual(result, [['This', 'a', 'test.']])\n\n    def test_remove_stop_words_4(self):\n        result = self.processor.remove_stop_words(['a cat', 'the dog'], self.stop_words)\n        self.assertEqual(result, [['cat'], ['dog']])\n\n    def test_remove_stop_words_5(self):\n        result = self.processor.remove_stop_words(['This is a test.'], [])\n        self.assertEqual(result, [['This', 'is', 'a', 'test.']])\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 3000,
+    "output_tokens": 817,
+    "seconds": 3.5,
+    "reply": "```python\nimport unittest\n\n\nclass NLPDataProcessor:\n    \"\"\"\n    The class processes NLP data by removing stop words from a list of strings using a pre-defined stop word list.\n    \"\"\"\n\n\n    def construct_stop_word_list(self):\n        \"\"\"\n        Construct a stop word list including 'a', 'an', 'the'.\n        :return: a list of stop words\n        >>> NLPDataProcessor.construct_stop_word_list()\n        ['a', 'an', 'the']\n        \"\"\"\n        return ['a', 'an', 'the']\n\n    def remove_stop_words(self, string_list, stop_word_list):\n        \"\"\"\n        Remove all the stop words from the list of strings.\n        :param string_list: a list of strings\n        :param stop_word_list: a list of stop words\n        :return: a list of words without stop words\n        >>> NLPDataProcessor.process(['This is a test.'])\n        [['This', 'is', 'test.']]\n        \"\"\"\n        result = []\n        for string in string_list:\n            words = [word for word in string.split() if word not in stop_word_list]\n            result.append(words)\n        return result\n\n    def process(self, string_list):\n        \"\"\"\n        Construct a stop word list including 'a', 'an', 'the', and remove all the stop words from the list of strings.\n        :param string_list: a list of strings\n        :return: a list of words without stop words\n        >>> NLPDataProcessor.process(['This is a test.'])\n        [['This', 'is', 'test.']]\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1523,
+    "output_tokens": 913,
+    "seconds": 4.1,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_process(unittest.TestCase):\n\n    def setUp(self):\n        self.processor = NLPDataProcessor()\n\n    def test_process_1(self):\n        result = self.processor.process(['This is a test.'])\n        self.assertEqual(result, [['This', 'is', 'test.']])\n\n    def test_process_2(self):\n        result = self.processor.process(['This is a test.'])\n        self.assertIsInstance(result, list)\n        self.assertIsInstance(result[0], list)\n\n    def test_process_3(self):\n        result = self.processor.process(['a cat', 'the dog'])\n        self.assertEqual(result, [['cat'], ['dog']])\n\n    def test_process_4(self):\n        result = self.processor.process(['a cat', 'the dog', 'an apple'])\n        self.assertEqual(len(result), 3)\n        self.assertEqual(result, [['cat'], ['dog'], ['apple']])\n\n    def test_process_5(self):\n        result = self.processor.process(['the cat and a dog'])\n        self.assertEqual(result, [['cat', 'and', 'dog']])\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 3305,
+    "output_tokens": 521,
+    "seconds": 2.0,
+    "reply": "```python\nimport unittest\n\n\nclass NLPDataProcessor:\n    \"\"\"\n    The class processes NLP data by removing stop words from a list of strings using a pre-defined stop word list.\n    \"\"\"\n\n\n    def construct_stop_word_list(self):\n        \"\"\"\n        Construct a stop word list including 'a', 'an', 'the'.\n        :return: a list of stop words\n        >>> NLPDataProcessor.construct_stop_word_list()\n        ['a', 'an', 'the']\n        \"\"\"\n        return ['a', 'an', 'the']\n\n    def remove_stop_words(self, string_list, stop_word_list):\n        \"\"\"\n        Remove all the stop words from the list of strings.\n        :param string_list: a list of strings\n        :param stop_word_list: a list of stop words\n        :return: a list of words without stop words\n        >>> NLPDataProcessor.process(['This is a test.'])\n        [['This', 'is', 'test.']]\n        \"\"\"\n        result = []\n        for string in string_list:\n            words = [word for word in string.split() if word not in stop_word_list]\n            result.append(words)\n        return result\n\n    def process(self, string_list):\n        \"\"\"\n        Construct a stop word list including 'a', 'an', 'the', and remove all the stop words from the list of strings.\n        :param string_list: a list of strings\n        :return: a list of words without stop words\n        >>> NLPDataProcessor.process(['This is a test.'])\n        [['This', 'is', 'test.']]\n        \"\"\"\n        stop_word_list = self.construct_stop_word_list()\n        return self.remove_stop_words(string_list, stop_word_list)\n```"
+  }
+]

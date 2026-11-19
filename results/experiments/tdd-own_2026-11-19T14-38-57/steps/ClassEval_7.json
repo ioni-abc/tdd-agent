@@ -1,0 +1,26 @@
+[
+  {
+    "method": "clear_expr",
+    "tests_in_suite": 5,
+    "red_passed": 2,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true,
+    "tests_given": 0,
+    "tests_written": 5,
+    "tests_valid": true
+  },
+  {
+    "method": "check_balanced_brackets",
+    "tests_in_suite": 10,
+    "red_passed": 10,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 10,
+    "green": true,
+    "tests_given": 0,
+    "tests_written": 5,
+    "tests_valid": true
+  }
+]

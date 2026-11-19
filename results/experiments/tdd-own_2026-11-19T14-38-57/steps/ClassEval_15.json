@@ -1,0 +1,38 @@
+[
+  {
+    "method": "match_in_pattern",
+    "tests_in_suite": 5,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true,
+    "tests_given": 0,
+    "tests_written": 5,
+    "tests_valid": true
+  },
+  {
+    "method": "mismatch_in_text",
+    "tests_in_suite": 10,
+    "red_passed": 5,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 10,
+    "green": true,
+    "tests_given": 0,
+    "tests_written": 5,
+    "tests_valid": true
+  },
+  {
+    "method": "bad_character_heuristic",
+    "tests_in_suite": 15,
+    "red_passed": 10,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 15,
+    "green": true,
+    "tests_given": 0,
+    "tests_written": 5,
+    "tests_valid": true
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_77",
+  "counts": {
+    "tests_total": 20,
+    "tests_passed": 19,
+    "tests_failed": 1,
+    "tests_errored": 0
+  },
+  "class_passed": false,
+  "timed_out": false,
+  "log": "test_eat_food_1 (temp_file.AgentTest_eat_food.test_eat_food_1) ... ok\ntest_eat_food_2 (temp_file.AgentTest_eat_food.test_eat_food_2) ... ok\ntest_eat_food_3 (temp_file.AgentTest_eat_food.test_eat_food_3) ... ok\ntest_eat_food_4 (temp_file.AgentTest_eat_food.test_eat_food_4) ... ok\ntest_eat_food_5 (temp_file.AgentTest_eat_food.test_eat_food_5) ... ok\ntest_move_1 (temp_file.AgentTest_move.test_move_1) ... ok\ntest_move_2 (temp_file.AgentTest_move.test_move_2) ... ok\ntest_move_3 (temp_file.AgentTest_move.test_move_3) ... ok\ntest_move_4 (temp_file.AgentTest_move.test_move_4) ... ok\ntest_move_5 (temp_file.AgentTest_move.test_move_5) ... ok\ntest_random_food_position_1 (temp_file.AgentTest_random_food_position.test_random_food_position_1) ... ok\ntest_random_food_position_2 (temp_file.AgentTest_random_food_position.test_random_food_position_2) ... ok\ntest_random_food_position_3 (temp_file.AgentTest_random_food_position.test_random_food_position_3) ... ok\ntest_random_food_position_4 (temp_file.AgentTest_random_food_position.test_random_food_position_4) ... ok\ntest_random_food_position_5 (temp_file.AgentTest_random_food_position.test_random_food_position_5) ... FAIL\ntest_reset_1 (temp_file.AgentTest_reset.test_reset_1) ... ok\ntest_reset_2 (temp_file.AgentTest_reset.test_reset_2) ... ok\ntest_reset_3 (temp_file.AgentTest_reset.test_reset_3) ... ok\ntest_reset_4 (temp_file.AgentTest_reset.test_reset_4) ... ok\ntest_reset_5 (temp_file.AgentTest_reset.test_reset_5) ... ok\n\n======================================================================\nFAIL: test_random_food_position_5 (temp_file.AgentTest_random_food_position.test_random_food_position_5)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/private/var/folders/9x/ldh22fhs6m388ywc7hb7f9qc0000gn/T/tmp7a13pw3j/temp_file.py\", line 89, in test_random_food_position_5\n    self.assertGreater(len(seen), 1)\nAssertionError: 1 not greater than 1\n\n----------------------------------------------------------------------\nRan 20 tests in 0.001s\n\nFAILED (failures=1)\n"
+}

@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_55",
+  "counts": {
+    "tests_total": 10,
+    "tests_passed": 9,
+    "tests_failed": 0,
+    "tests_errored": 1
+  },
+  "class_passed": false,
+  "timed_out": false,
+  "log": "test_palindromic_length_1 (temp_file.AgentTest_palindromic_length.test_palindromic_length_1) ... ok\ntest_palindromic_length_2 (temp_file.AgentTest_palindromic_length.test_palindromic_length_2) ... ok\ntest_palindromic_length_3 (temp_file.AgentTest_palindromic_length.test_palindromic_length_3) ... ok\ntest_palindromic_length_4 (temp_file.AgentTest_palindromic_length.test_palindromic_length_4) ... ok\ntest_palindromic_length_5 (temp_file.AgentTest_palindromic_length.test_palindromic_length_5) ... ok\ntest_palindromic_string_1 (temp_file.AgentTest_palindromic_string.test_palindromic_string_1) ... ok\ntest_palindromic_string_2 (temp_file.AgentTest_palindromic_string.test_palindromic_string_2) ... ok\ntest_palindromic_string_3 (temp_file.AgentTest_palindromic_string.test_palindromic_string_3) ... ok\ntest_palindromic_string_4 (temp_file.AgentTest_palindromic_string.test_palindromic_string_4) ... ok\ntest_palindromic_string_5 (temp_file.AgentTest_palindromic_string.test_palindromic_string_5) ... ERROR\n\n======================================================================\nERROR: test_palindromic_string_5 (temp_file.AgentTest_palindromic_string.test_palindromic_string_5)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/private/var/folders/9x/ldh22fhs6m388ywc7hb7f9qc0000gn/T/tmp0k93gb9m/temp_file.py\", line 82, in test_palindromic_string_5\n    self.assertEqual(manacher.palindromic_string(), 'z')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/private/var/folders/9x/ldh22fhs6m388ywc7hb7f9qc0000gn/T/tmp0k93gb9m/temp_file.py\", line 30, in palindromic_string\n    for i in new_input_string[start - max_length:start + max_length + 1]:\n                              ^^^^^\nUnboundLocalError: cannot access local variable 'start' where it is not associated with a value\n\n----------------------------------------------------------------------\nRan 10 tests in 0.000s\n\nFAILED (errors=1)\n"
+}

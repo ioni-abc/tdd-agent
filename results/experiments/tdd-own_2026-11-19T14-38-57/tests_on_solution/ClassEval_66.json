@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_66",
+  "counts": {
+    "tests_total": 10,
+    "tests_passed": 8,
+    "tests_failed": 2,
+    "tests_errored": 0
+  },
+  "class_passed": false,
+  "timed_out": false,
+  "log": "test_is_hex_char_1 (temp_file.AgentTest_is_hex_char.test_is_hex_char_1) ... ok\ntest_is_hex_char_2 (temp_file.AgentTest_is_hex_char.test_is_hex_char_2) ... ok\ntest_is_hex_char_3 (temp_file.AgentTest_is_hex_char.test_is_hex_char_3) ... ok\ntest_is_hex_char_4 (temp_file.AgentTest_is_hex_char.test_is_hex_char_4) ... ok\ntest_is_hex_char_5 (temp_file.AgentTest_is_hex_char.test_is_hex_char_5) ... ok\ntest_replace_1 (temp_file.AgentTest_replace.test_replace_1) ... ok\ntest_replace_2 (temp_file.AgentTest_replace.test_replace_2) ... FAIL\ntest_replace_3 (temp_file.AgentTest_replace.test_replace_3) ... FAIL\ntest_replace_4 (temp_file.AgentTest_replace.test_replace_4) ... ok\ntest_replace_5 (temp_file.AgentTest_replace.test_replace_5) ... ok\n\n======================================================================\nFAIL: test_replace_2 (temp_file.AgentTest_replace.test_replace_2)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/private/var/folders/9x/ldh22fhs6m388ywc7hb7f9qc0000gn/T/tmpulvbvomb/temp_file.py\", line 94, in test_replace_2\n    self.assertEqual(unescaper.replace(text), text)\nAssertionError: 'Plain text with no references, just punctuatio' != 'Plain text with no references, just punctuation!'\n- Plain text with no references, just punctuatio\n+ Plain text with no references, just punctuation!\n?                                               ++\n\n\n======================================================================\nFAIL: test_replace_3 (temp_file.AgentTest_replace.test_replace_3)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/private/var/folders/9x/ldh22fhs6m388ywc7hb7f9qc0000gn/T/tmpulvbvomb/temp_file.py\", line 100, in test_replace_3\n    self.assertEqual(unescaper.replace(\"Hello &#87;orld\"), 'Hello World')\nAssertionError: 'Hello Wor' != 'Hello World'\n- Hello Wor\n+ Hello World\n?          ++\n\n\n----------------------------------------------------------------------\nRan 10 tests in 0.001s\n\nFAILED (failures=2)\n"
+}

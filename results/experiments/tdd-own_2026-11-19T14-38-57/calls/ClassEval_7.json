@@ -1,0 +1,26 @@
+[
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 666,
+    "output_tokens": 713,
+    "seconds": 3.4,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_clear_expr(unittest.TestCase):\n\n    def test_clear_expr_1(self):\n        b = BalancedBrackets(\"a(b)c\")\n        b.clear_expr()\n        self.assertEqual(b.expr, '()')\n\n    def test_clear_expr_2(self):\n        b = BalancedBrackets(\"([{}])\")\n        b.clear_expr()\n        self.assertEqual(b.expr, \"([{}])\")\n\n    def test_clear_expr_3(self):\n        b = BalancedBrackets(\"abc 123 xyz\")\n        b.clear_expr()\n        self.assertEqual(b.expr, \"\")\n\n    def test_clear_expr_4(self):\n        b = BalancedBrackets(\"x{ y [z] } w\")\n        b.clear_expr()\n        self.assertEqual(b.expr, \"{[]}\")\n\n    def test_clear_expr_5(self):\n        b = BalancedBrackets(\"\")\n        result = b.clear_expr()\n        self.assertEqual(b.expr, \"\")\n        self.assertIsNone(result)\n\n\nif __name__ == \"__main__\":\n    unittest.main()\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1988,
+    "output_tokens": 866,
+    "seconds": 2.9,
+    "reply": "```python\nimport unittest\n\n\nclass BalancedBrackets:\n    \"\"\"\n    This is a class that checks for bracket matching\n    \"\"\"\n\n    def __init__(self, expr):\n        \"\"\"\n        Initializes the class with an expression.\n        :param expr: The expression to check for balanced brackets,str.\n        \"\"\"\n        self.stack = []\n        self.left_brackets = [\"(\", \"{\", \"[\"]\n        self.right_brackets = [\")\", \"}\", \"]\"]\n        self.expr = expr\n\n    def clear_expr(self):\n        \"\"\"\n        Clears the expression of all characters that are not brackets.\n        >>> b = BalancedBrackets(\"a(b)c\")\n        >>> b.clear_expr()\n        >>> b.expr\n        '()'\n\n        \"\"\"\n        brackets = self.left_brackets + self.right_brackets\n        self.expr = \"\".join(ch for ch in self.expr if ch in brackets)\n\n    def check_balanced_brackets(self):\n        \"\"\"\n        Checks if the expression has balanced brackets.\n        :return: True if the expression has balanced brackets, False otherwise.\n        >>> b = BalancedBrackets(\"a(b)c\")\n        >>> b.check_balanced_brackets()\n        True\n\n        \"\"\"\n        pairs = {\")\": \"(\", \"}\": \"{\", \"]\": \"[\"}\n        stack = []\n        for ch in self.expr:\n            if ch in self.left_brackets:\n                stack.append(ch)\n            elif ch in self.right_brackets:\n                if not stack or stack[-1] != pairs[ch]:\n                    return False\n                stack.pop()\n        return not stack\n\n\nclass AgentTest_clear_expr(unittest.TestCase):\n\n    def test_clear_expr_1(self):\n        b = BalancedBrackets(\"a(b)c\")\n        b.clear_expr()\n        self.assertEqual(b.expr, '()')\n\n    def test_clear_expr_2(self):\n        b = BalancedBrackets(\"([{}])\")\n        b.clear_expr()\n        self.assertEqual(b.expr, \"([{}])\")\n\n    def test_clear_expr_3(self):\n        b = BalancedBrackets(\"abc 123 xyz\")\n        b.clear_expr()\n        self.assertEqual(b.expr, \"\")\n\n    def test_clear_expr_4(self):\n        b = BalancedBrackets(\"x{ y [z] } w\")\n        b.clear_expr()\n        self.assertEqual(b.expr, \"{[]}\")\n\n    def test_clear_expr_5(self):\n        b = BalancedBrackets(\"\")\n        result = b.clear_expr()\n        self.assertEqual(b.expr, \"\")\n        self.assertIsNone(result)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1040,
+    "output_tokens": 686,
+    "seconds": 3.2,
+    "reply": "```python\nimport unittest\n\nclass AgentTest_check_balanced_brackets(unittest.TestCase):\n\n    def test_check_balanced_brackets_1(self):\n        b = BalancedBrackets(\"a(b)c\")\n        self.assertTrue(b.check_balanced_brackets())\n\n    def test_check_balanced_brackets_2(self):\n        b = BalancedBrackets(\"(\")\n        self.assertFalse(b.check_balanced_brackets())\n\n    def test_check_balanced_brackets_3(self):\n        b = BalancedBrackets(\"([)]\")\n        self.assertFalse(b.check_balanced_brackets())\n\n    def test_check_balanced_brackets_4(self):\n        b = BalancedBrackets(\"x{ y [z] } w\")\n        self.assertTrue(b.check_balanced_brackets())\n\n    def test_check_balanced_brackets_5(self):\n        b = BalancedBrackets(\")(\")\n        self.assertFalse(b.check_balanced_brackets())\n```"
+  }
+]

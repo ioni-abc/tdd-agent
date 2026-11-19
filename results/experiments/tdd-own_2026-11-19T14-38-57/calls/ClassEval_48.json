@@ -1,0 +1,50 @@
+[
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 921,
+    "output_tokens": 850,
+    "seconds": 3.6,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_is_valid_ipv4(unittest.TestCase):\n\n    def test_is_valid_ipv4_1(self):\n        self.assertTrue(IpUtil.is_valid_ipv4('192.168.0.123'))\n\n    def test_is_valid_ipv4_2(self):\n        self.assertFalse(IpUtil.is_valid_ipv4('256.0.0.0'))\n\n    def test_is_valid_ipv4_3(self):\n        self.assertTrue(IpUtil.is_valid_ipv4('255.255.255.255'))\n\n    def test_is_valid_ipv4_4(self):\n        self.assertFalse(IpUtil.is_valid_ipv4('2001:0db8:85a3:0000:0000:8a2e:0370:7334'))\n\n    def test_is_valid_ipv4_5(self):\n        result = IpUtil.is_valid_ipv4('10.0.0.1')\n        self.assertIsInstance(result, bool)\n        self.assertIs(result, True)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1301,
+    "output_tokens": 1187,
+    "seconds": 5.2,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_is_valid_ipv4(unittest.TestCase):\n\n    def test_is_valid_ipv4_1(self):\n        self.assertTrue(IpUtil.is_valid_ipv4('192.168.0.123'))\n\n    def test_is_valid_ipv4_2(self):\n        self.assertFalse(IpUtil.is_valid_ipv4('256.0.0.0'))\n\n    def test_is_valid_ipv4_3(self):\n        self.assertTrue(IpUtil.is_valid_ipv4('0.0.0.0'))\n        self.assertTrue(IpUtil.is_valid_ipv4('255.255.255.255'))\n\n    def test_is_valid_ipv4_4(self):\n        self.assertFalse(IpUtil.is_valid_ipv4('192.168.0'))\n        self.assertFalse(IpUtil.is_valid_ipv4('1.2.3.4.5'))\n\n    def test_is_valid_ipv4_5(self):\n        self.assertFalse(IpUtil.is_valid_ipv4('not an ip'))\n        self.assertFalse(IpUtil.is_valid_ipv4(''))\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 921,
+    "output_tokens": 813,
+    "seconds": 3.6,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_is_valid_ipv6(unittest.TestCase):\n\n    def test_is_valid_ipv6_1(self):\n        # Example from the docstring: a full eight-group IPv6 address is valid.\n        self.assertTrue(IpUtil.is_valid_ipv6('2001:0db8:85a3:0000:0000:8a2e:0370:7334'))\n\n    def test_is_valid_ipv6_2(self):\n        # Example from the docstring: a misplaced \"::\" with extra colons is invalid.\n        self.assertFalse(IpUtil.is_valid_ipv6('2001:0db8:85a3:::8a2e:0370:7334'))\n\n    def test_is_valid_ipv6_3(self):\n        # The method is documented to return a bool, and a valid address yields exactly True.\n        result = IpUtil.is_valid_ipv6('2001:0db8:85a3:0000:0000:8a2e:0370:7334')\n        self.assertIsInstance(result, bool)\n        self.assertIs(result, True)\n\n    def test_is_valid_ipv6_4(self):\n        # An IPv4 address is not an IPv6 address, so it must be reported as invalid.\n        self.assertFalse(IpUtil.is_valid_ipv6('192.168.0.123'))\n\n    def test_is_valid_ipv6_5(self):\n        # An empty string is not a valid IP address, so the result must be False.\n        self.assertFalse(IpUtil.is_valid_ipv6(''))\n\n\nif __name__ == '__main__':\n    unittest.main()\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1303,
+    "output_tokens": 1157,
+    "seconds": 5.2,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_is_valid_ipv6(unittest.TestCase):\n\n    def test_is_valid_ipv6_1(self):\n        self.assertTrue(IpUtil.is_valid_ipv6('2001:0db8:85a3:0000:0000:8a2e:0370:7334'))\n\n    def test_is_valid_ipv6_2(self):\n        self.assertFalse(IpUtil.is_valid_ipv6('2001:0db8:85a3:::8a2e:0370:7334'))\n\n    def test_is_valid_ipv6_3(self):\n        result = IpUtil.is_valid_ipv6('2001:0db8:85a3:0000:0000:8a2e:0370:7334')\n        self.assertIsInstance(result, bool)\n        self.assertIs(result, True)\n\n    def test_is_valid_ipv6_4(self):\n        result = IpUtil.is_valid_ipv6('2001:0db8:85a3:::8a2e:0370:7334')\n        self.assertIsInstance(result, bool)\n        self.assertIs(result, False)\n\n    def test_is_valid_ipv6_5(self):\n        self.assertFalse(IpUtil.is_valid_ipv6('192.168.0.123'))\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 905,
+    "output_tokens": 1648,
+    "seconds": 7.0,
+    "reply": "```python\nimport unittest\nfrom unittest import mock\nimport socket\n\n\nclass AgentTest_get_hostname(unittest.TestCase):\n\n    def test_get_hostname_1(self):\n        self.assertEqual(IpUtil.get_hostname('110.242.68.3'), 'www.baidu.com')\n\n    def test_get_hostname_2(self):\n        result = IpUtil.get_hostname('110.242.68.3')\n        self.assertIsInstance(result, str)\n\n    def test_get_hostname_3(self):\n        with mock.patch('socket.gethostbyaddr',\n                        return_value=('www.baidu.com', [], ['110.242.68.3'])):\n            self.assertEqual(IpUtil.get_hostname('110.242.68.3'), 'www.baidu.com')\n\n    def test_get_hostname_4(self):\n        with mock.patch('socket.gethostbyaddr',\n                        return_value=('example.org', [], ['93.184.216.34'])):\n            self.assertEqual(IpUtil.get_hostname('93.184.216.34'), 'example.org')\n\n    def test_get_hostname_5(self):\n        first = IpUtil.get_hostname('110.242.68.3')\n        second = IpUtil.get_hostname('110.242.68.3')\n        self.assertEqual(first, second)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1287,
+    "output_tokens": 1471,
+    "seconds": 6.6,
+    "reply": "```python\nimport sys\nimport types\nimport unittest\n\ntry:\n    import netifaces  # noqa: F401\nexcept ImportError:\n    sys.modules.setdefault(\"netifaces\", types.ModuleType(\"netifaces\"))\n\n\nclass AgentTest_get_hostname(unittest.TestCase):\n\n    def test_get_hostname_1(self):\n        self.assertEqual(IpUtil.get_hostname('110.242.68.3'), 'www.baidu.com')\n\n    def test_get_hostname_2(self):\n        self.assertIsInstance(IpUtil.get_hostname('110.242.68.3'), str)\n\n    def test_get_hostname_3(self):\n        self.assertNotEqual(IpUtil.get_hostname('110.242.68.3'), '')\n\n    def test_get_hostname_4(self):\n        first = IpUtil.get_hostname('110.242.68.3')\n        second = IpUtil.get_hostname('110.242.68.3')\n        self.assertEqual(first, second)\n\n    def test_get_hostname_5(self):\n        self.assertEqual(IpUtil().get_hostname('110.242.68.3'), 'www.baidu.com')\n```"
+  }
+]

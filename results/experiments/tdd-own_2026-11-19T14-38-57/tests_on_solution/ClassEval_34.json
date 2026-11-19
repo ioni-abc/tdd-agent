@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_34",
+  "counts": {
+    "tests_total": 25,
+    "tests_passed": 25,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test__get_alignment_value_1 (temp_file.AgentTest__get_alignment_value.test__get_alignment_value_1) ... ok\ntest__get_alignment_value_2 (temp_file.AgentTest__get_alignment_value.test__get_alignment_value_2) ... ok\ntest__get_alignment_value_3 (temp_file.AgentTest__get_alignment_value.test__get_alignment_value_3) ... ok\ntest__get_alignment_value_4 (temp_file.AgentTest__get_alignment_value.test__get_alignment_value_4) ... ok\ntest__get_alignment_value_5 (temp_file.AgentTest__get_alignment_value.test__get_alignment_value_5) ... ok\ntest_add_heading_1 (temp_file.AgentTest_add_heading.test_add_heading_1) ... ok\ntest_add_heading_2 (temp_file.AgentTest_add_heading.test_add_heading_2) ... ok\ntest_add_heading_3 (temp_file.AgentTest_add_heading.test_add_heading_3) ... ok\ntest_add_heading_4 (temp_file.AgentTest_add_heading.test_add_heading_4) ... ok\ntest_add_heading_5 (temp_file.AgentTest_add_heading.test_add_heading_5) ... ok\ntest_add_table_1 (temp_file.AgentTest_add_table.test_add_table_1) ... ok\ntest_add_table_2 (temp_file.AgentTest_add_table.test_add_table_2) ... ok\ntest_add_table_3 (temp_file.AgentTest_add_table.test_add_table_3) ... ok\ntest_add_table_4 (temp_file.AgentTest_add_table.test_add_table_4) ... ok\ntest_add_table_5 (temp_file.AgentTest_add_table.test_add_table_5) ... ok\ntest_read_text_1 (temp_file.AgentTest_read_text.test_read_text_1) ... ok\ntest_read_text_2 (temp_file.AgentTest_read_text.test_read_text_2) ... ok\ntest_read_text_3 (temp_file.AgentTest_read_text.test_read_text_3) ... ok\ntest_read_text_4 (temp_file.AgentTest_read_text.test_read_text_4) ... ok\ntest_read_text_5 (temp_file.AgentTest_read_text.test_read_text_5) ... ok\ntest_write_text_1 (temp_file.AgentTest_write_text.test_write_text_1) ... ok\ntest_write_text_2 (temp_file.AgentTest_write_text.test_write_text_2) ... ok\ntest_write_text_3 (temp_file.AgentTest_write_text.test_write_text_3) ... ok\ntest_write_text_4 (temp_file.AgentTest_write_text.test_write_text_4) ... ok\ntest_write_text_5 (temp_file.AgentTest_write_text.test_write_text_5) ... ok\n\n----------------------------------------------------------------------\nRan 25 tests in 0.369s\n\nOK\n"
+}

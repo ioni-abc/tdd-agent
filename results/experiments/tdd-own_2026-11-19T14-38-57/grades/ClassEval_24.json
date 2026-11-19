@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_24",
+  "counts": {
+    "tests_total": 21,
+    "tests_passed": 21,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_add (temp_file.ComplexCalculatorTestAdd.test_add) ... ok\ntest_add_2 (temp_file.ComplexCalculatorTestAdd.test_add_2) ... ok\ntest_add_3 (temp_file.ComplexCalculatorTestAdd.test_add_3) ... ok\ntest_add_4 (temp_file.ComplexCalculatorTestAdd.test_add_4) ... ok\ntest_add_5 (temp_file.ComplexCalculatorTestAdd.test_add_5) ... ok\ntest_divide (temp_file.ComplexCalculatorTestDivide.test_divide) ... ok\ntest_divide_2 (temp_file.ComplexCalculatorTestDivide.test_divide_2) ... ok\ntest_divide_3 (temp_file.ComplexCalculatorTestDivide.test_divide_3) ... ok\ntest_divide_4 (temp_file.ComplexCalculatorTestDivide.test_divide_4) ... ok\ntest_divide_5 (temp_file.ComplexCalculatorTestDivide.test_divide_5) ... ok\ntest_main (temp_file.ComplexCalculatorTestMain.test_main) ... ok\ntest_multiply (temp_file.ComplexCalculatorTestMultiply.test_multiply) ... ok\ntest_multiply_2 (temp_file.ComplexCalculatorTestMultiply.test_multiply_2) ... ok\ntest_multiply_3 (temp_file.ComplexCalculatorTestMultiply.test_multiply_3) ... ok\ntest_multiply_4 (temp_file.ComplexCalculatorTestMultiply.test_multiply_4) ... ok\ntest_multiply_5 (temp_file.ComplexCalculatorTestMultiply.test_multiply_5) ... ok\ntest_subtract (temp_file.ComplexCalculatorTestSubtract.test_subtract) ... ok\ntest_subtract_2 (temp_file.ComplexCalculatorTestSubtract.test_subtract_2) ... ok\ntest_subtract_3 (temp_file.ComplexCalculatorTestSubtract.test_subtract_3) ... ok\ntest_subtract_4 (temp_file.ComplexCalculatorTestSubtract.test_subtract_4) ... ok\ntest_subtract_5 (temp_file.ComplexCalculatorTestSubtract.test_subtract_5) ... ok\n\n----------------------------------------------------------------------\nRan 21 tests in 0.000s\n\nOK\n"
+}
