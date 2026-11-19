@@ -1,0 +1,26 @@
+[
+  {
+    "method": "interpolate_1d",
+    "tests_in_suite": 5,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true,
+    "tests_given": 5,
+    "tests_written": 0,
+    "tests_valid": false
+  },
+  {
+    "method": "interpolate_2d",
+    "tests_in_suite": 8,
+    "red_passed": 5,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 8,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 0,
+    "tests_valid": false
+  }
+]

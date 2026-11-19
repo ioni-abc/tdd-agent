@@ -1,0 +1,50 @@
+[
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1269,
+    "output_tokens": 797,
+    "seconds": 3.7,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_caesar_cipher(unittest.TestCase):\n    def test_caesar_cipher_1(self):\n        encryption_utils = EncryptionUtils(\"key\")\n        self.assertEqual(encryption_utils.caesar_cipher(\"xyz\", 3), \"abc\")\n\n    def test_caesar_cipher_2(self):\n        encryption_utils = EncryptionUtils(\"key\")\n        self.assertEqual(encryption_utils.caesar_cipher(\"Hello\", 3), \"Khoor\")\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 3204,
+    "output_tokens": 881,
+    "seconds": 3.3,
+    "reply": "```python\nimport unittest\n\n\nclass EncryptionUtils:\n    \"\"\"\n    This is a class that provides methods for encryption, including the Caesar cipher, Vigenere cipher, and Rail Fence cipher.\n    \"\"\"\n\n    def __init__(self, key):\n        \"\"\"\n        Initializes the class with a key.\n        :param key: The key to use for encryption, str.\n        \"\"\"\n        self.key = key\n\n    def caesar_cipher(self, plaintext, shift):\n        \"\"\"\n        Encrypts the plaintext using the Caesar cipher.\n        :param plaintext: The plaintext to encrypt, str.\n        :param shift: The number of characters to shift each character in the plaintext, int.\n        :return: The ciphertext, str.\n        >>> e = EncryptionUtils(\"key\")\n        >>> e.caesar_cipher(\"abc\", 1)\n        'bcd'\n\n        \"\"\"\n        result = []\n        for ch in plaintext:\n            if 'a' <= ch <= 'z':\n                result.append(chr((ord(ch) - ord('a') + shift) % 26 + ord('a')))\n            elif 'A' <= ch <= 'Z':\n                result.append(chr((ord(ch) - ord('A') + shift) % 26 + ord('A')))\n            else:\n                result.append(ch)\n        return ''.join(result)\n\n    def vigenere_cipher(self, plaintext):\n        \"\"\"\n        Encrypts the plaintext using the Vigenere cipher.\n        :param plaintext: The plaintext to encrypt, str.\n        :return: The ciphertext, str.\n        >>> e = EncryptionUtils(\"key\")\n        >>> e.vigenere_cipher(\"abc\")\n        'kfa'\n\n        \"\"\"\n\n    def rail_fence_cipher(self,plain_text, rails):\n        \"\"\"\n        Encrypts the plaintext using the Rail Fence cipher.\n        :param plaintext: The plaintext to encrypt, str.\n        :return: The ciphertext, str.\n        >>> e = EncryptionUtils(\"key\")\n        >>> e.rail_fence_cipher(\"abc\", 2)\n        'acb'\n\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1711,
+    "output_tokens": 1206,
+    "seconds": 5.8,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_vigenere_cipher(unittest.TestCase):\n    def test_vigenere_cipher_1(self):\n        encryption_utils = EncryptionUtils(\"key\")\n        self.assertEqual(encryption_utils.vigenere_cipher(\"zzz\"), \"jdx\")\n\n    def test_vigenere_cipher_2(self):\n        encryption_utils = EncryptionUtils(\"a\")\n        self.assertEqual(encryption_utils.vigenere_cipher(\"Hello\"), \"Hello\")\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 3604,
+    "output_tokens": 1667,
+    "seconds": 6.5,
+    "reply": "```python\nimport unittest\n\n\nclass EncryptionUtils:\n    \"\"\"\n    This is a class that provides methods for encryption, including the Caesar cipher, Vigenere cipher, and Rail Fence cipher.\n    \"\"\"\n\n    def __init__(self, key):\n        \"\"\"\n        Initializes the class with a key.\n        :param key: The key to use for encryption, str.\n        \"\"\"\n        self.key = key\n\n    def caesar_cipher(self, plaintext, shift):\n        \"\"\"\n        Encrypts the plaintext using the Caesar cipher.\n        :param plaintext: The plaintext to encrypt, str.\n        :param shift: The number of characters to shift each character in the plaintext, int.\n        :return: The ciphertext, str.\n        >>> e = EncryptionUtils(\"key\")\n        >>> e.caesar_cipher(\"abc\", 1)\n        'bcd'\n\n        \"\"\"\n        result = []\n        for ch in plaintext:\n            if 'a' <= ch <= 'z':\n                result.append(chr((ord(ch) - ord('a') + shift) % 26 + ord('a')))\n            elif 'A' <= ch <= 'Z':\n                result.append(chr((ord(ch) - ord('A') + shift) % 26 + ord('A')))\n            else:\n                result.append(ch)\n        return ''.join(result)\n\n    def vigenere_cipher(self, plaintext):\n        \"\"\"\n        Encrypts the plaintext using the Vigenere cipher.\n        :param plaintext: The plaintext to encrypt, str.\n        :return: The ciphertext, str.\n        >>> e = EncryptionUtils(\"key\")\n        >>> e.vigenere_cipher(\"abc\")\n        'kfa'\n\n        \"\"\"\n        key_shifts = [ord(k) - ord('a') for k in self.key.lower() if 'a' <= k <= 'z']\n        if not key_shifts:\n            return plaintext\n        result = []\n        index = 0\n        for ch in plaintext:\n            if 'a' <= ch <= 'z' or 'A' <= ch <= 'Z':\n                base = ord('a') if ch.islower() else ord('A')\n                shift = key_shifts[index % len(key_shifts)]\n                result.append(chr((ord(ch) - base + shift) % 26 + base))\n                index += 1\n            else:\n                result.append(ch)\n        return ''.join(result)\n\n    def rail_fence_cipher(self,plain_text, rails):\n        \"\"\"\n        Encrypts the plaintext using the Rail Fence cipher.\n        :param plaintext: The plaintext to encrypt, str.\n        :return: The ciphertext, str.\n        >>> e = EncryptionUtils(\"key\")\n        >>> e.rail_fence_cipher(\"abc\", 2)\n        'acb'\n\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2262,
+    "output_tokens": 1578,
+    "seconds": 6.9,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_rail_fence_cipher(unittest.TestCase):\n    def test_rail_fence_cipher_1(self):\n        encryption_utils = EncryptionUtils(\"key\")\n        self.assertEqual(encryption_utils.rail_fence_cipher(\"ABCDEFGHIJ\", 3), \"AEIBDFHJCG\")\n\n    def test_rail_fence_cipher_2(self):\n        encryption_utils = EncryptionUtils(\"key\")\n        self.assertEqual(encryption_utils.rail_fence_cipher(\"\", 2), \"\")\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 4689,
+    "output_tokens": 1507,
+    "seconds": 5.4,
+    "reply": "```python\nimport unittest\n\n\nclass EncryptionUtils:\n    \"\"\"\n    This is a class that provides methods for encryption, including the Caesar cipher, Vigenere cipher, and Rail Fence cipher.\n    \"\"\"\n\n    def __init__(self, key):\n        \"\"\"\n        Initializes the class with a key.\n        :param key: The key to use for encryption, str.\n        \"\"\"\n        self.key = key\n\n    def caesar_cipher(self, plaintext, shift):\n        \"\"\"\n        Encrypts the plaintext using the Caesar cipher.\n        :param plaintext: The plaintext to encrypt, str.\n        :param shift: The number of characters to shift each character in the plaintext, int.\n        :return: The ciphertext, str.\n        >>> e = EncryptionUtils(\"key\")\n        >>> e.caesar_cipher(\"abc\", 1)\n        'bcd'\n\n        \"\"\"\n        result = []\n        for ch in plaintext:\n            if 'a' <= ch <= 'z':\n                result.append(chr((ord(ch) - ord('a') + shift) % 26 + ord('a')))\n            elif 'A' <= ch <= 'Z':\n                result.append(chr((ord(ch) - ord('A') + shift) % 26 + ord('A')))\n            else:\n                result.append(ch)\n        return ''.join(result)\n\n    def vigenere_cipher(self, plaintext):\n        \"\"\"\n        Encrypts the plaintext using the Vigenere cipher.\n        :param plaintext: The plaintext to encrypt, str.\n        :return: The ciphertext, str.\n        >>> e = EncryptionUtils(\"key\")\n        >>> e.vigenere_cipher(\"abc\")\n        'kfa'\n\n        \"\"\"\n        key_shifts = [ord(k) - ord('a') for k in self.key.lower() if 'a' <= k <= 'z']\n        if not key_shifts:\n            return plaintext\n        result = []\n        index = 0\n        for ch in plaintext:\n            if 'a' <= ch <= 'z' or 'A' <= ch <= 'Z':\n                base = ord('a') if ch.islower() else ord('A')\n                shift = key_shifts[index % len(key_shifts)]\n                result.append(chr((ord(ch) - base + shift) % 26 + base))\n                index += 1\n            else:\n                result.append(ch)\n        return ''.join(result)\n\n    def rail_fence_cipher(self,plain_text, rails):\n        \"\"\"\n        Encrypts the plaintext using the Rail Fence cipher.\n        :param plaintext: The plaintext to encrypt, str.\n        :return: The ciphertext, str.\n        >>> e = EncryptionUtils(\"key\")\n        >>> e.rail_fence_cipher(\"abc\", 2)\n        'acb'\n\n        \"\"\"\n        if rails <= 1 or len(plain_text) <= 1:\n            return plain_text\n        rows = [[] for _ in range(rails)]\n        cycle = 2 * (rails - 1)\n        for i, ch in enumerate(plain_text):\n            pos = i % cycle\n            row = pos if pos < rails else cycle - pos\n            rows[row].append(ch)\n        return ''.join(''.join(r) for r in rows)\n```"
+  }
+]

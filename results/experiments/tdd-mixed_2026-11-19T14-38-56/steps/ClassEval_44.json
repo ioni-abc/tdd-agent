@@ -1,0 +1,38 @@
+[
+  {
+    "method": "__format_line_feed",
+    "tests_in_suite": 5,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "format_line_html_text",
+    "tests_in_suite": 17,
+    "red_passed": 9,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 17,
+    "green": true,
+    "tests_given": 8,
+    "tests_written": 4,
+    "tests_valid": true
+  },
+  {
+    "method": "extract_code_from_html_text",
+    "tests_in_suite": 22,
+    "red_passed": 19,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 22,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  }
+]

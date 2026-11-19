@@ -1,0 +1,50 @@
+[
+  {
+    "method": "create_student_table",
+    "tests_in_suite": 5,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 1,
+    "green_passed": 5,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "insert_student",
+    "tests_in_suite": 10,
+    "red_passed": 10,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 10,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "search_student_by_name",
+    "tests_in_suite": 15,
+    "red_passed": 15,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 15,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "delete_student_by_name",
+    "tests_in_suite": 16,
+    "red_passed": 16,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 16,
+    "green": true,
+    "tests_given": 1,
+    "tests_written": 0,
+    "tests_valid": true
+  }
+]

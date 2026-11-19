@@ -1,0 +1,82 @@
+[
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1385,
+    "output_tokens": 512,
+    "seconds": 2.7,
+    "reply": "```python\nimport math\nimport unittest\n\n\nclass AgentTest_calculate_circle_area(unittest.TestCase):\n    def test_calculate_circle_area_1(self):\n        areaCalculator = AreaCalculator(1)\n        self.assertAlmostEqual(math.pi, areaCalculator.calculate_circle_area(), places=7)\n\n    def test_calculate_circle_area_2(self):\n        areaCalculator = AreaCalculator(0)\n        self.assertEqual(0, areaCalculator.calculate_circle_area())\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 3767,
+    "output_tokens": 723,
+    "seconds": 2.5,
+    "reply": "```python\nimport math\nclass AreaCalculator:\n    \"\"\"\n    This is a class for calculating the area of different shapes, including circle, sphere, cylinder, sector and annulus.\n    \"\"\"\n\n\n    def __init__(self, radius):\n        \"\"\"\n        Initialize the radius for shapes.\n        :param radius: float\n        \"\"\"\n        self.radius = radius\n\n    def calculate_circle_area(self):\n        \"\"\"\n        calculate the area of circle based on self.radius\n        :return: area of circle, float\n        >>> areaCalculator = AreaCalculator(2)\n        >>> areaCalculator.calculate_circle_area()\n        12.566370614359172\n        \"\"\"\n        return math.pi * self.radius ** 2\n\n    def calculate_sphere_area(self):\n        \"\"\"\n        calculate the area of sphere based on self.radius\n        :return: area of sphere, float\n        >>> areaCalculator = AreaCalculator(2)\n        >>> areaCalculator.calculate_sphere_area()\n        50.26548245743669\n        \"\"\"\n\n    def calculate_cylinder_area(self, height):\n        \"\"\"\n        calculate the area of cylinder based on self.radius and height\n        :param height: height of cylinder, float\n        :return: area of cylinder, float\n        >>> areaCalculator = AreaCalculator(2)\n        >>> areaCalculator.calculate_cylinder_area(3)\n        62.83185307179586\n        \"\"\"\n\n    def calculate_sector_area(self, angle):\n        \"\"\"\n        calculate the area of sector based on self.radius and angle\n        :param angle: angle of sector, float\n        :return: area of sector, float\n        >>> areaCalculator = AreaCalculator(2)\n        >>> areaCalculator.calculate_sector_area(math.pi)\n        6.283185307179586\n        \"\"\"\n\n    def calculate_annulus_area(self, inner_radius, outer_radius):\n        \"\"\"\n        calculate the area of annulus based on inner_radius and out_radius\n        :param inner_radius: inner radius of sector, float\n        :param outer_radius: outer radius of sector, float\n        :return: area of annulus, float\n        >>> areaCalculator.calculate_annulus_area(2, 3)\n        15.707963267948966\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1841,
+    "output_tokens": 532,
+    "seconds": 2.6,
+    "reply": "```python\nimport math\n\nimport unittest\n\n\nclass AgentTest_calculate_sphere_area(unittest.TestCase):\n    def test_calculate_sphere_area_1(self):\n        areaCalculator = AreaCalculator(1)\n        self.assertAlmostEqual(4 * math.pi, areaCalculator.calculate_sphere_area(), places=7)\n\n    def test_calculate_sphere_area_2(self):\n        areaCalculator = AreaCalculator(0.5)\n        self.assertAlmostEqual(math.pi, areaCalculator.calculate_sphere_area(), places=7)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 3723,
+    "output_tokens": 743,
+    "seconds": 2.6,
+    "reply": "```python\nimport math\nclass AreaCalculator:\n    \"\"\"\n    This is a class for calculating the area of different shapes, including circle, sphere, cylinder, sector and annulus.\n    \"\"\"\n\n\n    def __init__(self, radius):\n        \"\"\"\n        Initialize the radius for shapes.\n        :param radius: float\n        \"\"\"\n        self.radius = radius\n\n    def calculate_circle_area(self):\n        \"\"\"\n        calculate the area of circle based on self.radius\n        :return: area of circle, float\n        >>> areaCalculator = AreaCalculator(2)\n        >>> areaCalculator.calculate_circle_area()\n        12.566370614359172\n        \"\"\"\n        return math.pi * self.radius ** 2\n\n    def calculate_sphere_area(self):\n        \"\"\"\n        calculate the area of sphere based on self.radius\n        :return: area of sphere, float\n        >>> areaCalculator = AreaCalculator(2)\n        >>> areaCalculator.calculate_sphere_area()\n        50.26548245743669\n        \"\"\"\n        return 4 * math.pi * self.radius ** 2\n\n    def calculate_cylinder_area(self, height):\n        \"\"\"\n        calculate the area of cylinder based on self.radius and height\n        :param height: height of cylinder, float\n        :return: area of cylinder, float\n        >>> areaCalculator = AreaCalculator(2)\n        >>> areaCalculator.calculate_cylinder_area(3)\n        62.83185307179586\n        \"\"\"\n\n    def calculate_sector_area(self, angle):\n        \"\"\"\n        calculate the area of sector based on self.radius and angle\n        :param angle: angle of sector, float\n        :return: area of sector, float\n        >>> areaCalculator = AreaCalculator(2)\n        >>> areaCalculator.calculate_sector_area(math.pi)\n        6.283185307179586\n        \"\"\"\n\n    def calculate_annulus_area(self, inner_radius, outer_radius):\n        \"\"\"\n        calculate the area of annulus based on inner_radius and out_radius\n        :param inner_radius: inner radius of sector, float\n        :param outer_radius: outer radius of sector, float\n        :return: area of annulus, float\n        >>> areaCalculator.calculate_annulus_area(2, 3)\n        15.707963267948966\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2326,
+    "output_tokens": 665,
+    "seconds": 3.3,
+    "reply": "```python\nimport math\n\n\nclass AgentTest_calculate_cylinder_area(unittest.TestCase):\n    def test_calculate_cylinder_area_1(self):\n        areaCalculator = AreaCalculator(2)\n        self.assertAlmostEqual(62.83185307179586, areaCalculator.calculate_cylinder_area(3), places=7)\n\n    def test_calculate_cylinder_area_2(self):\n        areaCalculator = AreaCalculator(0.5)\n        self.assertAlmostEqual(3.5 * math.pi, areaCalculator.calculate_cylinder_area(3), places=7)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 4911,
+    "output_tokens": 1283,
+    "seconds": 5.0,
+    "reply": "```python\nimport math\n\n\nclass AreaCalculator:\n    \"\"\"\n    This is a class for calculating the area of different shapes, including circle, sphere, cylinder, sector and annulus.\n    \"\"\"\n\n\n    def __init__(self, radius):\n        \"\"\"\n        Initialize the radius for shapes.\n        :param radius: float\n        \"\"\"\n        self.radius = radius\n\n    def calculate_circle_area(self):\n        \"\"\"\n        calculate the area of circle based on self.radius\n        :return: area of circle, float\n        >>> areaCalculator = AreaCalculator(2)\n        >>> areaCalculator.calculate_circle_area()\n        12.566370614359172\n        \"\"\"\n        return math.pi * self.radius ** 2\n\n    def calculate_sphere_area(self):\n        \"\"\"\n        calculate the area of sphere based on self.radius\n        :return: area of sphere, float\n        >>> areaCalculator = AreaCalculator(2)\n        >>> areaCalculator.calculate_sphere_area()\n        50.26548245743669\n        \"\"\"\n        return 4 * math.pi * self.radius ** 2\n\n    def calculate_cylinder_area(self, height):\n        \"\"\"\n        calculate the area of cylinder based on self.radius and height\n        :param height: height of cylinder, float\n        :return: area of cylinder, float\n        >>> areaCalculator = AreaCalculator(2)\n        >>> areaCalculator.calculate_cylinder_area(3)\n        62.83185307179586\n        \"\"\"\n        return 2 * math.pi * self.radius * (self.radius + height)\n\n    def calculate_sector_area(self, angle):\n        \"\"\"\n        calculate the area of sector based on self.radius and angle\n        :param angle: angle of sector, float\n        :return: area of sector, float\n        >>> areaCalculator = AreaCalculator(2)\n        >>> areaCalculator.calculate_sector_area(math.pi)\n        6.283185307179586\n        \"\"\"\n\n    def calculate_annulus_area(self, inner_radius, outer_radius):\n        \"\"\"\n        calculate the area of annulus based on inner_radius and out_radius\n        :param inner_radius: inner radius of sector, float\n        :param outer_radius: outer radius of sector, float\n        :return: area of annulus, float\n        >>> areaCalculator.calculate_annulus_area(2, 3)\n        15.707963267948966\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2797,
+    "output_tokens": 644,
+    "seconds": 2.9,
+    "reply": "```python\nimport math\n\nimport unittest\n\nclass AgentTest_calculate_sector_area(unittest.TestCase):\n    def test_calculate_sector_area_1(self):\n        areaCalculator = AreaCalculator(2)\n        self.assertAlmostEqual(4 * math.pi, areaCalculator.calculate_sector_area(2 * math.pi), places=7)\n\n    def test_calculate_sector_area_2(self):\n        areaCalculator = AreaCalculator(3)\n        self.assertAlmostEqual(4.5, areaCalculator.calculate_sector_area(1), places=7)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 5382,
+    "output_tokens": 944,
+    "seconds": 3.4,
+    "reply": "```python\nimport math\n\n\nclass AreaCalculator:\n    \"\"\"\n    This is a class for calculating the area of different shapes, including circle, sphere, cylinder, sector and annulus.\n    \"\"\"\n\n\n    def __init__(self, radius):\n        \"\"\"\n        Initialize the radius for shapes.\n        :param radius: float\n        \"\"\"\n        self.radius = radius\n\n    def calculate_circle_area(self):\n        \"\"\"\n        calculate the area of circle based on self.radius\n        :return: area of circle, float\n        >>> areaCalculator = AreaCalculator(2)\n        >>> areaCalculator.calculate_circle_area()\n        12.566370614359172\n        \"\"\"\n        return math.pi * self.radius ** 2\n\n    def calculate_sphere_area(self):\n        \"\"\"\n        calculate the area of sphere based on self.radius\n        :return: area of sphere, float\n        >>> areaCalculator = AreaCalculator(2)\n        >>> areaCalculator.calculate_sphere_area()\n        50.26548245743669\n        \"\"\"\n        return 4 * math.pi * self.radius ** 2\n\n    def calculate_cylinder_area(self, height):\n        \"\"\"\n        calculate the area of cylinder based on self.radius and height\n        :param height: height of cylinder, float\n        :return: area of cylinder, float\n        >>> areaCalculator = AreaCalculator(2)\n        >>> areaCalculator.calculate_cylinder_area(3)\n        62.83185307179586\n        \"\"\"\n        return 2 * math.pi * self.radius * (self.radius + height)\n\n    def calculate_sector_area(self, angle):\n        \"\"\"\n        calculate the area of sector based on self.radius and angle\n        :param angle: angle of sector, float\n        :return: area of sector, float\n        >>> areaCalculator = AreaCalculator(2)\n        >>> areaCalculator.calculate_sector_area(math.pi)\n        6.283185307179586\n        \"\"\"\n        return angle / 2 * self.radius ** 2\n\n    def calculate_annulus_area(self, inner_radius, outer_radius):\n        \"\"\"\n        calculate the area of annulus based on inner_radius and out_radius\n        :param inner_radius: inner radius of sector, float\n        :param outer_radius: outer radius of sector, float\n        :return: area of annulus, float\n        >>> areaCalculator.calculate_annulus_area(2, 3)\n        15.707963267948966\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 3289,
+    "output_tokens": 829,
+    "seconds": 4.0,
+    "reply": "```python\nimport math\n\nimport unittest\n\n\nclass AgentTest_calculate_annulus_area(unittest.TestCase):\n    def test_calculate_annulus_area_1(self):\n        areaCalculator = AreaCalculator(2)\n        self.assertAlmostEqual(5 * math.pi, areaCalculator.calculate_annulus_area(2, 3), places=7)\n\n    def test_calculate_annulus_area_2(self):\n        areaCalculator = AreaCalculator(100)\n        self.assertAlmostEqual(4 * math.pi, areaCalculator.calculate_annulus_area(1.5, 2.5), places=7)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 5921,
+    "output_tokens": 1006,
+    "seconds": 3.5,
+    "reply": "```python\nimport math\n\n\nclass AreaCalculator:\n    \"\"\"\n    This is a class for calculating the area of different shapes, including circle, sphere, cylinder, sector and annulus.\n    \"\"\"\n\n\n    def __init__(self, radius):\n        \"\"\"\n        Initialize the radius for shapes.\n        :param radius: float\n        \"\"\"\n        self.radius = radius\n\n    def calculate_circle_area(self):\n        \"\"\"\n        calculate the area of circle based on self.radius\n        :return: area of circle, float\n        >>> areaCalculator = AreaCalculator(2)\n        >>> areaCalculator.calculate_circle_area()\n        12.566370614359172\n        \"\"\"\n        return math.pi * self.radius ** 2\n\n    def calculate_sphere_area(self):\n        \"\"\"\n        calculate the area of sphere based on self.radius\n        :return: area of sphere, float\n        >>> areaCalculator = AreaCalculator(2)\n        >>> areaCalculator.calculate_sphere_area()\n        50.26548245743669\n        \"\"\"\n        return 4 * math.pi * self.radius ** 2\n\n    def calculate_cylinder_area(self, height):\n        \"\"\"\n        calculate the area of cylinder based on self.radius and height\n        :param height: height of cylinder, float\n        :return: area of cylinder, float\n        >>> areaCalculator = AreaCalculator(2)\n        >>> areaCalculator.calculate_cylinder_area(3)\n        62.83185307179586\n        \"\"\"\n        return 2 * math.pi * self.radius * (self.radius + height)\n\n    def calculate_sector_area(self, angle):\n        \"\"\"\n        calculate the area of sector based on self.radius and angle\n        :param angle: angle of sector, float\n        :return: area of sector, float\n        >>> areaCalculator = AreaCalculator(2)\n        >>> areaCalculator.calculate_sector_area(math.pi)\n        6.283185307179586\n        \"\"\"\n        return angle / 2 * self.radius ** 2\n\n    def calculate_annulus_area(self, inner_radius, outer_radius):\n        \"\"\"\n        calculate the area of annulus based on inner_radius and out_radius\n        :param inner_radius: inner radius of sector, float\n        :param outer_radius: outer radius of sector, float\n        :return: area of annulus, float\n        >>> areaCalculator.calculate_annulus_area(2, 3)\n        15.707963267948966\n        \"\"\"\n        return math.pi * (outer_radius ** 2 - inner_radius ** 2)\n```"
+  }
+]

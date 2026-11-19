@@ -1,0 +1,62 @@
+[
+  {
+    "method": "create_board",
+    "tests_in_suite": 5,
+    "red_passed": 2,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "has_path",
+    "tests_in_suite": 11,
+    "red_passed": 7,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 11,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "is_valid_move",
+    "tests_in_suite": 17,
+    "red_passed": 13,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 17,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "remove_icons",
+    "tests_in_suite": 22,
+    "red_passed": 19,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 22,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "is_game_over",
+    "tests_in_suite": 27,
+    "red_passed": 27,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 27,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "method": "add_stock",
+    "tests_in_suite": 5,
+    "red_passed": 2,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "remove_stock",
+    "tests_in_suite": 10,
+    "red_passed": 6,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 10,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "buy_stock",
+    "tests_in_suite": 15,
+    "red_passed": 11,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 15,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "sell_stock",
+    "tests_in_suite": 20,
+    "red_passed": 16,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 20,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "calculate_portfolio_value",
+    "tests_in_suite": 25,
+    "red_passed": 21,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 25,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "get_stock_value",
+    "tests_in_suite": 30,
+    "red_passed": 26,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 30,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "get_portfolio_summary",
+    "tests_in_suite": 35,
+    "red_passed": 31,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 35,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  }
+]

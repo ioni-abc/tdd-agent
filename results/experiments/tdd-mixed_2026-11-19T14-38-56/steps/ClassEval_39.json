@@ -1,0 +1,74 @@
+[
+  {
+    "method": "is_operator",
+    "tests_in_suite": 5,
+    "red_passed": 2,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "compare",
+    "tests_in_suite": 12,
+    "red_passed": 9,
+    "coded": true,
+    "fix_attempts": 1,
+    "green_passed": 12,
+    "green": true,
+    "tests_given": 5,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "prepare",
+    "tests_in_suite": 18,
+    "red_passed": 17,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 18,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "_calculate",
+    "tests_in_suite": 25,
+    "red_passed": 24,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 25,
+    "green": true,
+    "tests_given": 5,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "transform",
+    "tests_in_suite": 31,
+    "red_passed": 31,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 31,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "calculate",
+    "tests_in_suite": 36,
+    "red_passed": 36,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 36,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  }
+]

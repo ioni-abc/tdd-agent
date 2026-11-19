@@ -1,0 +1,66 @@
+[
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1256,
+    "output_tokens": 581,
+    "seconds": 2.9,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_add(unittest.TestCase):\n    def test_add_1(self):\n        complexCalculator = ComplexCalculator()\n        self.assertEqual(complexCalculator.add(0j, 3+4j), (3+4j))\n        self.assertEqual(complexCalculator.add(3+4j, 0j), (3+4j))\n\n    def test_add_2(self):\n        complexCalculator = ComplexCalculator()\n        self.assertEqual(complexCalculator.add(0.5+1.5j, 2.25-0.75j), (2.75+0.75j))\n        self.assertEqual(complexCalculator.add(2.25-0.75j, 0.5+1.5j), (2.75+0.75j))\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 3089,
+    "output_tokens": 835,
+    "seconds": 3.1,
+    "reply": "```python\nclass ComplexCalculator:\n    \"\"\"\n    This is a class that implements addition, subtraction, multiplication, and division operations for complex numbers.\n    \"\"\"\n\n\n    def __init__(self):\n        pass\n\n    @staticmethod\n    def add(c1, c2):\n        \"\"\"\n        Adds two complex numbers.\n        :param c1: The first complex number,complex.\n        :param c2: The second complex number,complex.\n        :return: The sum of the two complex numbers,complex.\n        >>> complexCalculator = ComplexCalculator()\n        >>> complexCalculator.add(1+2j, 3+4j)\n        (4+6j)\n\n        \"\"\"\n        return c1 + c2\n\n    @staticmethod\n    def subtract(c1, c2):\n        \"\"\"\n        Subtracts two complex numbers.\n        :param c1: The first complex number,complex.\n        :param c2: The second complex number,complex.\n        :return: The difference of the two complex numbers,complex.\n        >>> complexCalculator = ComplexCalculator()\n        >>> complexCalculator.subtract(1+2j, 3+4j)\n        (-2-2j)\n\n        \"\"\"\n\n    @staticmethod\n    def multiply(c1, c2):\n        \"\"\"\n        Multiplies two complex numbers.\n        :param c1: The first complex number,complex.\n        :param c2: The second complex number,complex.\n        :return: The product of the two complex numbers,complex.\n        >>> complexCalculator = ComplexCalculator()\n        >>> complexCalculator.multiply(1+2j, 3+4j)\n        (-5+10j)\n\n        \"\"\"\n\n    @staticmethod\n    def divide(c1, c2):\n        \"\"\"\n        Divides two complex numbers.\n        :param c1: The first complex number,complex.\n        :param c2: The second complex number,complex.\n        :return: The quotient of the two complex numbers,complex.\n        >>> complexCalculator = ComplexCalculator()\n        >>> complexCalculator.divide(1+2j, 3+4j)\n        (0.44+0.08j)\n\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1748,
+    "output_tokens": 653,
+    "seconds": 3.0,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_subtract(unittest.TestCase):\n    def test_subtract_1(self):\n        complexCalculator = ComplexCalculator()\n        self.assertEqual(complexCalculator.subtract(0j, 3+4j), (-3-4j))\n        self.assertEqual(complexCalculator.subtract(3+4j, 0j), (3+4j))\n\n    def test_subtract_2(self):\n        complexCalculator = ComplexCalculator()\n        self.assertEqual(complexCalculator.subtract(2.5+1.5j, 0.5+0.75j), (2+0.75j))\n        self.assertEqual(complexCalculator.subtract(0.5+0.75j, 2.5+1.5j), (-2-0.75j))\n        self.assertEqual(complexCalculator.subtract(1.25-2.5j, 1.25-2.5j), (0j))\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 3683,
+    "output_tokens": 679,
+    "seconds": 2.4,
+    "reply": "```python\nclass ComplexCalculator:\n    \"\"\"\n    This is a class that implements addition, subtraction, multiplication, and division operations for complex numbers.\n    \"\"\"\n\n\n    def __init__(self):\n        pass\n\n    @staticmethod\n    def add(c1, c2):\n        \"\"\"\n        Adds two complex numbers.\n        :param c1: The first complex number,complex.\n        :param c2: The second complex number,complex.\n        :return: The sum of the two complex numbers,complex.\n        >>> complexCalculator = ComplexCalculator()\n        >>> complexCalculator.add(1+2j, 3+4j)\n        (4+6j)\n\n        \"\"\"\n        return c1 + c2\n\n    @staticmethod\n    def subtract(c1, c2):\n        \"\"\"\n        Subtracts two complex numbers.\n        :param c1: The first complex number,complex.\n        :param c2: The second complex number,complex.\n        :return: The difference of the two complex numbers,complex.\n        >>> complexCalculator = ComplexCalculator()\n        >>> complexCalculator.subtract(1+2j, 3+4j)\n        (-2-2j)\n\n        \"\"\"\n        return c1 - c2\n\n    @staticmethod\n    def multiply(c1, c2):\n        \"\"\"\n        Multiplies two complex numbers.\n        :param c1: The first complex number,complex.\n        :param c2: The second complex number,complex.\n        :return: The product of the two complex numbers,complex.\n        >>> complexCalculator = ComplexCalculator()\n        >>> complexCalculator.multiply(1+2j, 3+4j)\n        (-5+10j)\n\n        \"\"\"\n\n    @staticmethod\n    def divide(c1, c2):\n        \"\"\"\n        Divides two complex numbers.\n        :param c1: The first complex number,complex.\n        :param c2: The second complex number,complex.\n        :return: The quotient of the two complex numbers,complex.\n        >>> complexCalculator = ComplexCalculator()\n        >>> complexCalculator.divide(1+2j, 3+4j)\n        (0.44+0.08j)\n\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2286,
+    "output_tokens": 853,
+    "seconds": 3.4,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_multiply(unittest.TestCase):\n    def test_multiply_1(self):\n        complexCalculator = ComplexCalculator()\n        self.assertEqual(complexCalculator.multiply(0j, 3+4j), (0j))\n        self.assertEqual(complexCalculator.multiply(3+4j, 0j), (0j))\n        self.assertEqual(complexCalculator.multiply(1+0j, 3+4j), (3+4j))\n        self.assertEqual(complexCalculator.multiply(3+4j, 1+0j), (3+4j))\n\n    def test_multiply_2(self):\n        complexCalculator = ComplexCalculator()\n        self.assertEqual(complexCalculator.multiply(1j, 1j), (-1+0j))\n        self.assertEqual(complexCalculator.multiply(2j, 3j), (-6+0j))\n        self.assertEqual(complexCalculator.multiply(0.5+1.5j, 2-1j), (2.5+2.5j))\n        self.assertEqual(complexCalculator.multiply(2-1j, 0.5+1.5j), (2.5+2.5j))\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 4308,
+    "output_tokens": 693,
+    "seconds": 2.4,
+    "reply": "```python\nimport unittest\n\n\nclass ComplexCalculator:\n    \"\"\"\n    This is a class that implements addition, subtraction, multiplication, and division operations for complex numbers.\n    \"\"\"\n\n\n    def __init__(self):\n        pass\n\n    @staticmethod\n    def add(c1, c2):\n        \"\"\"\n        Adds two complex numbers.\n        :param c1: The first complex number,complex.\n        :param c2: The second complex number,complex.\n        :return: The sum of the two complex numbers,complex.\n        >>> complexCalculator = ComplexCalculator()\n        >>> complexCalculator.add(1+2j, 3+4j)\n        (4+6j)\n\n        \"\"\"\n        return c1 + c2\n\n    @staticmethod\n    def subtract(c1, c2):\n        \"\"\"\n        Subtracts two complex numbers.\n        :param c1: The first complex number,complex.\n        :param c2: The second complex number,complex.\n        :return: The difference of the two complex numbers,complex.\n        >>> complexCalculator = ComplexCalculator()\n        >>> complexCalculator.subtract(1+2j, 3+4j)\n        (-2-2j)\n\n        \"\"\"\n        return c1 - c2\n\n    @staticmethod\n    def multiply(c1, c2):\n        \"\"\"\n        Multiplies two complex numbers.\n        :param c1: The first complex number,complex.\n        :param c2: The second complex number,complex.\n        :return: The product of the two complex numbers,complex.\n        >>> complexCalculator = ComplexCalculator()\n        >>> complexCalculator.multiply(1+2j, 3+4j)\n        (-5+10j)\n\n        \"\"\"\n        return c1 * c2\n\n    @staticmethod\n    def divide(c1, c2):\n        \"\"\"\n        Divides two complex numbers.\n        :param c1: The first complex number,complex.\n        :param c2: The second complex number,complex.\n        :return: The quotient of the two complex numbers,complex.\n        >>> complexCalculator = ComplexCalculator()\n        >>> complexCalculator.divide(1+2j, 3+4j)\n        (0.44+0.08j)\n\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2912,
+    "output_tokens": 989,
+    "seconds": 4.3,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_divide(unittest.TestCase):\n    def test_divide_1(self):\n        complexCalculator = ComplexCalculator()\n        self.assertAlmostEqual(complexCalculator.divide(0j, 3+4j), (0j))\n        self.assertAlmostEqual(complexCalculator.divide(3+4j, 1+0j), (3+4j))\n        self.assertAlmostEqual(complexCalculator.divide(2-5j, 2-5j), (1+0j))\n\n    def test_divide_2(self):\n        complexCalculator = ComplexCalculator()\n        self.assertAlmostEqual(complexCalculator.divide(6+8j, 2+0j), (3+4j))\n        self.assertAlmostEqual(complexCalculator.divide(1+0j, 1j), (-1j))\n        self.assertAlmostEqual(complexCalculator.divide(3+4j, 1j), (4-3j))\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 5127,
+    "output_tokens": 1789,
+    "seconds": 6.8,
+    "reply": "```python\nimport unittest\n\n\nclass ComplexCalculator:\n    \"\"\"\n    This is a class that implements addition, subtraction, multiplication, and division operations for complex numbers.\n    \"\"\"\n\n\n    def __init__(self):\n        pass\n\n    @staticmethod\n    def add(c1, c2):\n        \"\"\"\n        Adds two complex numbers.\n        :param c1: The first complex number,complex.\n        :param c2: The second complex number,complex.\n        :return: The sum of the two complex numbers,complex.\n        >>> complexCalculator = ComplexCalculator()\n        >>> complexCalculator.add(1+2j, 3+4j)\n        (4+6j)\n\n        \"\"\"\n        return c1 + c2\n\n    @staticmethod\n    def subtract(c1, c2):\n        \"\"\"\n        Subtracts two complex numbers.\n        :param c1: The first complex number,complex.\n        :param c2: The second complex number,complex.\n        :return: The difference of the two complex numbers,complex.\n        >>> complexCalculator = ComplexCalculator()\n        >>> complexCalculator.subtract(1+2j, 3+4j)\n        (-2-2j)\n\n        \"\"\"\n        return c1 - c2\n\n    @staticmethod\n    def multiply(c1, c2):\n        \"\"\"\n        Multiplies two complex numbers.\n        :param c1: The first complex number,complex.\n        :param c2: The second complex number,complex.\n        :return: The product of the two complex numbers,complex.\n        >>> complexCalculator = ComplexCalculator()\n        >>> complexCalculator.multiply(1+2j, 3+4j)\n        (-5+10j)\n\n        \"\"\"\n        return c1 * c2\n\n    @staticmethod\n    def divide(c1, c2):\n        \"\"\"\n        Divides two complex numbers.\n        :param c1: The first complex number,complex.\n        :param c2: The second complex number,complex.\n        :return: The quotient of the two complex numbers,complex.\n        >>> complexCalculator = ComplexCalculator()\n        >>> complexCalculator.divide(1+2j, 3+4j)\n        (0.44+0.08j)\n\n        \"\"\"\n        return c1 / c2\n```"
+  }
+]

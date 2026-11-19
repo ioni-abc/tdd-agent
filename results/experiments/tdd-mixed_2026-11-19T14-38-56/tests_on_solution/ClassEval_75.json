@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_75",
+  "counts": {
+    "tests_total": 22,
+    "tests_passed": 22,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_add_item_1 (temp_file.AgentTest_add_item.test_add_item_1) ... ok\ntest_add_item_2 (temp_file.AgentTest_add_item.test_add_item_2) ... ok\ntest_remove_item_1 (temp_file.AgentTest_remove_item.test_remove_item_1) ... ok\ntest_remove_item_2 (temp_file.AgentTest_remove_item.test_remove_item_2) ... ok\ntest_total_price_1 (temp_file.AgentTest_total_price.test_total_price_1) ... ok\ntest_total_price_2 (temp_file.AgentTest_total_price.test_total_price_2) ... ok\ntest_view_items_1 (temp_file.AgentTest_view_items.test_view_items_1) ... ok\ntest_view_items_2 (temp_file.AgentTest_view_items.test_view_items_2) ... ok\ntest_add_item_1 (temp_file.ShoppingCartTestAddItem.test_add_item_1) ... ok\ntest_add_item_2 (temp_file.ShoppingCartTestAddItem.test_add_item_2) ... ok\ntest_add_item_3 (temp_file.ShoppingCartTestAddItem.test_add_item_3) ... ok\ntest_add_item_4 (temp_file.ShoppingCartTestAddItem.test_add_item_4) ... ok\ntest_remove_item_1 (temp_file.ShoppingCartTestRemoveItem.test_remove_item_1) ... ok\ntest_remove_item_2 (temp_file.ShoppingCartTestRemoveItem.test_remove_item_2) ... ok\ntest_remove_item_3 (temp_file.ShoppingCartTestRemoveItem.test_remove_item_3) ... ok\ntest_remove_item_4 (temp_file.ShoppingCartTestRemoveItem.test_remove_item_4) ... ok\ntest_total_price_1 (temp_file.ShoppingCartTestTotalPrice.test_total_price_1) ... ok\ntest_total_price_2 (temp_file.ShoppingCartTestTotalPrice.test_total_price_2) ... ok\ntest_total_price_3 (temp_file.ShoppingCartTestTotalPrice.test_total_price_3) ... ok\ntest_view_items_1 (temp_file.ShoppingCartTestViewItems.test_view_items_1) ... ok\ntest_view_items_2 (temp_file.ShoppingCartTestViewItems.test_view_items_2) ... ok\ntest_view_items_3 (temp_file.ShoppingCartTestViewItems.test_view_items_3) ... ok\n\n----------------------------------------------------------------------\nRan 22 tests in 0.000s\n\nOK\n"
+}

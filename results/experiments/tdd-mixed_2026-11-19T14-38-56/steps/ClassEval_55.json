@@ -1,0 +1,26 @@
+[
+  {
+    "method": "palindromic_length",
+    "tests_in_suite": 5,
+    "red_passed": 1,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "palindromic_string",
+    "tests_in_suite": 10,
+    "red_passed": 6,
+    "coded": true,
+    "fix_attempts": 1,
+    "green_passed": 10,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  }
+]

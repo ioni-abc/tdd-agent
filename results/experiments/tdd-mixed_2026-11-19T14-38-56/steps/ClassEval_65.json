@@ -1,0 +1,62 @@
+[
+  {
+    "method": "trans_two",
+    "tests_in_suite": 6,
+    "red_passed": 2,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 6,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "trans_three",
+    "tests_in_suite": 11,
+    "red_passed": 8,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 11,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "parse_more",
+    "tests_in_suite": 15,
+    "red_passed": 12,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 15,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 1,
+    "tests_valid": true
+  },
+  {
+    "method": "format_string",
+    "tests_in_suite": 21,
+    "red_passed": 17,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 21,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "format",
+    "tests_in_suite": 27,
+    "red_passed": 27,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 27,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 2,
+    "tests_valid": true
+  }
+]

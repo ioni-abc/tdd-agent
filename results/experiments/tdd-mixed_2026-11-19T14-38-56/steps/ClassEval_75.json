@@ -1,0 +1,50 @@
+[
+  {
+    "method": "add_item",
+    "tests_in_suite": 6,
+    "red_passed": 2,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 6,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "remove_item",
+    "tests_in_suite": 12,
+    "red_passed": 8,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 12,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "view_items",
+    "tests_in_suite": 17,
+    "red_passed": 14,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 17,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "total_price",
+    "tests_in_suite": 22,
+    "red_passed": 19,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 22,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "method": "text2int",
+    "tests_in_suite": 6,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 6,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "is_valid_input",
+    "tests_in_suite": 12,
+    "red_passed": 9,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 12,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 2,
+    "tests_valid": true
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_46",
+  "counts": {
+    "tests_total": 13,
+    "tests_passed": 12,
+    "tests_failed": 1,
+    "tests_errored": 0
+  },
+  "class_passed": false,
+  "timed_out": false,
+  "log": "test_interpolate_1d (temp_file.InterpolationTestInterpolate1d.test_interpolate_1d) ... ok\ntest_interpolate_1d_2 (temp_file.InterpolationTestInterpolate1d.test_interpolate_1d_2) ... ok\ntest_interpolate_1d_3 (temp_file.InterpolationTestInterpolate1d.test_interpolate_1d_3) ... ok\ntest_interpolate_1d_4 (temp_file.InterpolationTestInterpolate1d.test_interpolate_1d_4) ... ok\ntest_interpolate_1d_5 (temp_file.InterpolationTestInterpolate1d.test_interpolate_1d_5) ... ok\ntest_interpolate_1d_6 (temp_file.InterpolationTestInterpolate1d.test_interpolate_1d_6) ... ok\ntest_interpolate_1d_7 (temp_file.InterpolationTestInterpolate1d.test_interpolate_1d_7) ... FAIL\ntest_interpolate_2d (temp_file.InterpolationTestInterpolate2d.test_interpolate_2d) ... ok\ntest_interpolate_2d_2 (temp_file.InterpolationTestInterpolate2d.test_interpolate_2d_2) ... ok\ntest_interpolate_2d_3 (temp_file.InterpolationTestInterpolate2d.test_interpolate_2d_3) ... ok\ntest_interpolate_2d_4 (temp_file.InterpolationTestInterpolate2d.test_interpolate_2d_4) ... ok\ntest_interpolate_2d_5 (temp_file.InterpolationTestInterpolate2d.test_interpolate_2d_5) ... ok\ntest_main (temp_file.InterpolationTestMain.test_main) ... ok\n\n======================================================================\nFAIL: test_interpolate_1d_7 (temp_file.InterpolationTestInterpolate1d.test_interpolate_1d_7)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/private/var/folders/9x/ldh22fhs6m388ywc7hb7f9qc0000gn/T/tmpmm_awwgx/temp_file.py\", line 114, in test_interpolate_1d_7\n    self.assertEqual(interpolation.interpolate_1d([], [], [[], []]), [])\nAssertionError: Lists differ: [None, None] != []\n\nFirst list contains 2 additional elements.\nFirst extra element 0:\nNone\n\n- [None, None]\n+ []\n\n----------------------------------------------------------------------\nRan 13 tests in 0.000s\n\nFAILED (failures=1)\n"
+}

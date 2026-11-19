@@ -1,0 +1,50 @@
+[
+  {
+    "method": "is_start_with",
+    "tests_in_suite": 5,
+    "red_passed": 3,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "get_jwt_user",
+    "tests_in_suite": 10,
+    "red_passed": 7,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 10,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "set_current_user_info_and_log",
+    "tests_in_suite": 11,
+    "red_passed": 10,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 11,
+    "green": true,
+    "tests_given": 1,
+    "tests_written": 0,
+    "tests_valid": true
+  },
+  {
+    "method": "filter",
+    "tests_in_suite": 19,
+    "red_passed": 19,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 19,
+    "green": true,
+    "tests_given": 5,
+    "tests_written": 3,
+    "tests_valid": true
+  }
+]

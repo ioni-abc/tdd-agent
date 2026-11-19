@@ -1,0 +1,62 @@
+[
+  {
+    "method": "calculate_circle_area",
+    "tests_in_suite": 5,
+    "red_passed": 1,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "calculate_sphere_area",
+    "tests_in_suite": 10,
+    "red_passed": 7,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 10,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "calculate_cylinder_area",
+    "tests_in_suite": 15,
+    "red_passed": 11,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 15,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "calculate_sector_area",
+    "tests_in_suite": 20,
+    "red_passed": 16,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 20,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "calculate_annulus_area",
+    "tests_in_suite": 25,
+    "red_passed": 21,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 25,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  }
+]

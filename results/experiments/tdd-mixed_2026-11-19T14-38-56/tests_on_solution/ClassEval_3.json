@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_3",
+  "counts": {
+    "tests_total": 26,
+    "tests_passed": 26,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_count_1 (temp_file.AgentTest_count.test_count_1) ... ok\ntest_count_2 (temp_file.AgentTest_count.test_count_2) ... ok\ntest_count_all_1 (temp_file.AgentTest_count_all.test_count_all_1) ... ok\ntest_count_all_2 (temp_file.AgentTest_count_all.test_count_all_2) ... ok\ntest_factorial_1 (temp_file.AgentTest_factorial.test_factorial_1) ... ok\ntest_factorial_2 (temp_file.AgentTest_factorial.test_factorial_2) ... ok\ntest_select_1 (temp_file.AgentTest_select.test_select_1) ... ok\ntest_select_2 (temp_file.AgentTest_select.test_select_2) ... ok\ntest_select_all_1 (temp_file.AgentTest_select_all.test_select_all_1) ... ok\ntest_select_all_2 (temp_file.AgentTest_select_all.test_select_all_2) ... ok\ntest_count_1 (temp_file.ArrangementCalculatorTestCount.test_count_1) ... ok\ntest_count_2 (temp_file.ArrangementCalculatorTestCount.test_count_2) ... ok\ntest_count_3 (temp_file.ArrangementCalculatorTestCount.test_count_3) ... ok\ntest_count_all_1 (temp_file.ArrangementCalculatorTestCountAll.test_count_all_1) ... ok\ntest_count_all_2 (temp_file.ArrangementCalculatorTestCountAll.test_count_all_2) ... ok\ntest_count_all_3 (temp_file.ArrangementCalculatorTestCountAll.test_count_all_3) ... ok\ntest_factorial_1 (temp_file.ArrangementCalculatorTestFactorial.test_factorial_1) ... ok\ntest_factorial_2 (temp_file.ArrangementCalculatorTestFactorial.test_factorial_2) ... ok\ntest_factorial_3 (temp_file.ArrangementCalculatorTestFactorial.test_factorial_3) ... ok\ntest_select_1 (temp_file.ArrangementCalculatorTestSelect.test_select_1) ... ok\ntest_select_2 (temp_file.ArrangementCalculatorTestSelect.test_select_2) ... ok\ntest_select_3 (temp_file.ArrangementCalculatorTestSelect.test_select_3) ... ok\ntest_select_4 (temp_file.ArrangementCalculatorTestSelect.test_select_4) ... ok\ntest_select_all_1 (temp_file.ArrangementCalculatorTestSelectAll.test_select_all_1) ... ok\ntest_select_all_2 (temp_file.ArrangementCalculatorTestSelectAll.test_select_all_2) ... ok\ntest_select_all_3 (temp_file.ArrangementCalculatorTestSelectAll.test_select_all_3) ... ok\n\n----------------------------------------------------------------------\nRan 26 tests in 0.000s\n\nOK\n"
+}

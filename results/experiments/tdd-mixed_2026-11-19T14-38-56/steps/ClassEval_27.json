@@ -1,0 +1,50 @@
+[
+  {
+    "method": "convert",
+    "tests_in_suite": 6,
+    "red_passed": 2,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 6,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "get_supported_currencies",
+    "tests_in_suite": 11,
+    "red_passed": 8,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 11,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "add_currency_rate",
+    "tests_in_suite": 17,
+    "red_passed": 17,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 17,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "update_currency_rate",
+    "tests_in_suite": 23,
+    "red_passed": 23,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 23,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 2,
+    "tests_valid": true
+  }
+]

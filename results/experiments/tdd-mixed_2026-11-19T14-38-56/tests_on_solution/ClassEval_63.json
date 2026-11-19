@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_63",
+  "counts": {
+    "tests_total": 16,
+    "tests_passed": 15,
+    "tests_failed": 1,
+    "tests_errored": 0
+  },
+  "class_passed": false,
+  "timed_out": false,
+  "log": "test_calculate_word_frequency_1 (temp_file.AgentTest_calculate_word_frequency.test_calculate_word_frequency_1) ... ok\ntest_calculate_word_frequency_2 (temp_file.AgentTest_calculate_word_frequency.test_calculate_word_frequency_2) ... ok\ntest_process_1 (temp_file.AgentTest_process.test_process_1) ... ok\ntest_process_2 (temp_file.AgentTest_process.test_process_2) ... ok\ntest_process_data_1 (temp_file.AgentTest_process_data.test_process_data_1) ... FAIL\ntest_process_data_2 (temp_file.AgentTest_process_data.test_process_data_2) ... ok\ntest_calculate_word_frequency (temp_file.NLPDataProcessorTestCalculate.test_calculate_word_frequency) ... ok\ntest_calculate_word_frequency2 (temp_file.NLPDataProcessorTestCalculate.test_calculate_word_frequency2) ... ok\ntest_calculate_word_frequency3 (temp_file.NLPDataProcessorTestCalculate.test_calculate_word_frequency3) ... ok\ntest_calculate3 (temp_file.NLPDataProcessorTestProcess.test_calculate3) ... ok\ntest_process (temp_file.NLPDataProcessorTestProcess.test_process) ... ok\ntest_process2 (temp_file.NLPDataProcessorTestProcess.test_process2) ... ok\ntest_process4 (temp_file.NLPDataProcessorTestProcess.test_process4) ... ok\ntest_process_data (temp_file.NLPDataProcessorTestProcessData.test_process_data) ... ok\ntest_process_data2 (temp_file.NLPDataProcessorTestProcessData.test_process_data2) ... ok\ntest_process_data3 (temp_file.NLPDataProcessorTestProcessData.test_process_data3) ... ok\n\n======================================================================\nFAIL: test_process_data_1 (temp_file.AgentTest_process_data.test_process_data_1)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/private/var/folders/9x/ldh22fhs6m388ywc7hb7f9qc0000gn/T/tmpkuykrjo7/temp_file.py\", line 103, in test_process_data_1\n    self.assertEqual(self.processor.process_data(string_list), expected_output)\nAssertionError: Lists differ: [['tab', 'here', 'new']] != [['tabherenew']]\n\nFirst differing element 0:\n['tab', 'here', 'new']\n['tabherenew']\n\n- [['tab', 'here', 'new']]\n?       ----    ----\n\n+ [['tabherenew']]\n\n----------------------------------------------------------------------\nRan 16 tests in 0.001s\n\nFAILED (failures=1)\n"
+}

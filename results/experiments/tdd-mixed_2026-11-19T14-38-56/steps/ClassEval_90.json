@@ -1,0 +1,62 @@
+[
+  {
+    "method": "get_scheme",
+    "tests_in_suite": 6,
+    "red_passed": 2,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 6,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "get_host",
+    "tests_in_suite": 14,
+    "red_passed": 9,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 14,
+    "green": true,
+    "tests_given": 5,
+    "tests_written": 3,
+    "tests_valid": true
+  },
+  {
+    "method": "get_path",
+    "tests_in_suite": 20,
+    "red_passed": 16,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 20,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "get_query_params",
+    "tests_in_suite": 26,
+    "red_passed": 23,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 26,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "get_fragment",
+    "tests_in_suite": 31,
+    "red_passed": 28,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 31,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  }
+]

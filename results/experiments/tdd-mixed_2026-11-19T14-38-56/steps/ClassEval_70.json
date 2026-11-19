@@ -1,0 +1,38 @@
+[
+  {
+    "method": "_validate_name",
+    "tests_in_suite": 5,
+    "red_passed": 3,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "_validate_sex",
+    "tests_in_suite": 10,
+    "red_passed": 7,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 10,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "_validate_phoneNumber",
+    "tests_in_suite": 15,
+    "red_passed": 14,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 15,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  }
+]

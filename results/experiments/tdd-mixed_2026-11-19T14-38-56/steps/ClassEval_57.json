@@ -1,0 +1,26 @@
+[
+  {
+    "method": "mrr",
+    "tests_in_suite": 8,
+    "red_passed": 3,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 8,
+    "green": true,
+    "tests_given": 5,
+    "tests_written": 3,
+    "tests_valid": true
+  },
+  {
+    "method": "map",
+    "tests_in_suite": 16,
+    "red_passed": 11,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 16,
+    "green": true,
+    "tests_given": 5,
+    "tests_written": 3,
+    "tests_valid": true
+  }
+]

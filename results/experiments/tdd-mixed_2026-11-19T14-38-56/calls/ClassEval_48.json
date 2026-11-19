@@ -1,0 +1,74 @@
+[
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1195,
+    "output_tokens": 529,
+    "seconds": 2.8,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_is_valid_ipv4(unittest.TestCase):\n    def test_is_valid_ipv4_1(self):\n        result = IpUtil.is_valid_ipv4('256.0.0.0')\n        self.assertEqual(result, False)\n\n    def test_is_valid_ipv4_2(self):\n        result = IpUtil.is_valid_ipv4('2001:0db8:85a3:0000:0000:8a2e:0370:7334')\n        self.assertEqual(result, False)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1576,
+    "output_tokens": 967,
+    "seconds": 4.8,
+    "reply": "```python\nclass AgentTest_is_valid_ipv4(unittest.TestCase):\n    def test_is_valid_ipv4_1(self):\n        result = IpUtil.is_valid_ipv4('256.0.0.0')\n        self.assertEqual(result, False)\n\n    def test_is_valid_ipv4_2(self):\n        result = IpUtil.is_valid_ipv4('2001:0db8:85a3:0000:0000:8a2e:0370:7334')\n        self.assertEqual(result, False)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1999,
+    "output_tokens": 1122,
+    "seconds": 4.6,
+    "reply": "```python\nimport socket\n\ntry:\n    import netifaces\nexcept ImportError:\n    netifaces = None\n\n\nclass IpUtil:\n    \"\"\"\n    This is a class as tool for ip that can be used to obtain the local IP address, validate its validity, and also provides the functionality to retrieve the corresponding hostname.\n    \"\"\"\n\n\n    @staticmethod\n    def is_valid_ipv4(ip_address):\n        \"\"\"\n        Check if the given IP address is a valid IPv4 address.\n        :param ip_address: string, the IP address to check\n        :return: bool, True if the IP address is valid, False otherwise\n        >>> IpUtil.is_valid_ipv4('192.168.0.123')\n        True\n        >>> IpUtil.is_valid_ipv4('256.0.0.0')\n        False\n\n        \"\"\"\n        if not isinstance(ip_address, str):\n            return False\n        try:\n            socket.inet_pton(socket.AF_INET, ip_address)\n        except (OSError, ValueError):\n            return False\n        return True\n\n    @staticmethod\n    def is_valid_ipv6(ip_address):\n        \"\"\"\n        Check if the given IP address is a valid IPv6 address.\n        :param ip_address:string, the IP address to check\n        :return:bool, True if the IP address is valid, False otherwise\n        >>> IpUtil.is_valid_ipv6('2001:0db8:85a3:0000:0000:8a2e:0370:7334')\n        True\n        >>> IpUtil.is_valid_ipv6('2001:0db8:85a3:::8a2e:0370:7334')\n        False\n\n        \"\"\"\n\n\n    @staticmethod\n    def get_hostname(ip_address):\n        \"\"\"\n        Get the hostname associated with the given IP address.\n        :param ip_address:string, the IP address to get the hostname for\n        :return: string, the hostname associated with the IP address\n        >>> IpUtil.get_hostname('110.242.68.3')\n        'www.baidu.com'\n        >>> IpUtil.get_hostname('10.0.0.1')\n\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1460,
+    "output_tokens": 768,
+    "seconds": 3.4,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_is_valid_ipv6(unittest.TestCase):\n    def test_is_valid_ipv6_1(self):\n        result = IpUtil.is_valid_ipv6('192.168.0.123')\n        self.assertEqual(result, False)\n\n    def test_is_valid_ipv6_2(self):\n        result = IpUtil.is_valid_ipv6('2001:0db8:85a3:0000:0000:8a2e:0370:7334:1234')\n        self.assertEqual(result, False)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1842,
+    "output_tokens": 733,
+    "seconds": 3.6,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_is_valid_ipv6(unittest.TestCase):\n    def test_is_valid_ipv6_1(self):\n        result = IpUtil.is_valid_ipv6('2001:db8::1')\n        self.assertEqual(result, True)\n\n    def test_is_valid_ipv6_2(self):\n        result = IpUtil.is_valid_ipv6('192.168.0.123')\n        self.assertEqual(result, False)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2637,
+    "output_tokens": 739,
+    "seconds": 2.6,
+    "reply": "```python\nimport socket\n\ntry:\n    import netifaces\nexcept ImportError:\n    netifaces = None\n\n\nclass IpUtil:\n    \"\"\"\n    This is a class as tool for ip that can be used to obtain the local IP address, validate its validity, and also provides the functionality to retrieve the corresponding hostname.\n    \"\"\"\n\n\n    @staticmethod\n    def is_valid_ipv4(ip_address):\n        \"\"\"\n        Check if the given IP address is a valid IPv4 address.\n        :param ip_address: string, the IP address to check\n        :return: bool, True if the IP address is valid, False otherwise\n        >>> IpUtil.is_valid_ipv4('192.168.0.123')\n        True\n        >>> IpUtil.is_valid_ipv4('256.0.0.0')\n        False\n\n        \"\"\"\n        if not isinstance(ip_address, str):\n            return False\n        try:\n            socket.inet_pton(socket.AF_INET, ip_address)\n        except (OSError, ValueError):\n            return False\n        return True\n\n    @staticmethod\n    def is_valid_ipv6(ip_address):\n        \"\"\"\n        Check if the given IP address is a valid IPv6 address.\n        :param ip_address:string, the IP address to check\n        :return:bool, True if the IP address is valid, False otherwise\n        >>> IpUtil.is_valid_ipv6('2001:0db8:85a3:0000:0000:8a2e:0370:7334')\n        True\n        >>> IpUtil.is_valid_ipv6('2001:0db8:85a3:::8a2e:0370:7334')\n        False\n\n        \"\"\"\n        if not isinstance(ip_address, str):\n            return False\n        try:\n            socket.inet_pton(socket.AF_INET6, ip_address)\n        except (OSError, ValueError):\n            return False\n        return True\n\n\n    @staticmethod\n    def get_hostname(ip_address):\n        \"\"\"\n        Get the hostname associated with the given IP address.\n        :param ip_address:string, the IP address to get the hostname for\n        :return: string, the hostname associated with the IP address\n        >>> IpUtil.get_hostname('110.242.68.3')\n        'www.baidu.com'\n        >>> IpUtil.get_hostname('10.0.0.1')\n\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1699,
+    "output_tokens": 762,
+    "seconds": 3.5,
+    "reply": "```python\nfrom unittest import mock\n\n\nclass AgentTest_get_hostname(unittest.TestCase):\n    def test_get_hostname_1(self):\n        with mock.patch('socket.gethostbyaddr', return_value=('www.baidu.com', [], ['110.242.68.3'])):\n            result = IpUtil.get_hostname('110.242.68.3')\n        self.assertEqual(result, 'www.baidu.com')\n\n    def test_get_hostname_2(self):\n        with mock.patch('socket.gethostbyaddr', return_value=('www.baidu.com', [], ['110.242.68.3'])) as mock_lookup:\n            IpUtil.get_hostname('110.242.68.3')\n        mock_lookup.assert_called_once_with('110.242.68.3')\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2082,
+    "output_tokens": 1000,
+    "seconds": 4.6,
+    "reply": "```python\nimport unittest\nfrom unittest import mock\n\n\nclass AgentTest_get_hostname(unittest.TestCase):\n    def test_get_hostname_1(self):\n        with mock.patch('socket.gethostbyaddr', return_value=('www.baidu.com', [], ['110.242.68.3'])) as mocked:\n            result = IpUtil.get_hostname('110.242.68.3')\n        mocked.assert_called_once_with('110.242.68.3')\n        self.assertEqual(result, 'www.baidu.com')\n\n    def test_get_hostname_2(self):\n        with mock.patch('socket.gethostbyaddr', return_value=('www.baidu.com', ['alias.example.com'], ['110.242.68.3'])):\n            result = IpUtil.get_hostname('110.242.68.3')\n        self.assertEqual(result, 'www.baidu.com')\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2603,
+    "output_tokens": 1098,
+    "seconds": 3.8,
+    "reply": "```python\nimport socket\n\ntry:\n    import netifaces\nexcept ImportError:\n    netifaces = None\n\n\nclass IpUtil:\n    \"\"\"\n    This is a class as tool for ip that can be used to obtain the local IP address, validate its validity, and also provides the functionality to retrieve the corresponding hostname.\n    \"\"\"\n\n\n    @staticmethod\n    def is_valid_ipv4(ip_address):\n        \"\"\"\n        Check if the given IP address is a valid IPv4 address.\n        :param ip_address: string, the IP address to check\n        :return: bool, True if the IP address is valid, False otherwise\n        >>> IpUtil.is_valid_ipv4('192.168.0.123')\n        True\n        >>> IpUtil.is_valid_ipv4('256.0.0.0')\n        False\n\n        \"\"\"\n        if not isinstance(ip_address, str):\n            return False\n        try:\n            socket.inet_pton(socket.AF_INET, ip_address)\n        except (OSError, ValueError):\n            return False\n        return True\n\n    @staticmethod\n    def is_valid_ipv6(ip_address):\n        \"\"\"\n        Check if the given IP address is a valid IPv6 address.\n        :param ip_address:string, the IP address to check\n        :return:bool, True if the IP address is valid, False otherwise\n        >>> IpUtil.is_valid_ipv6('2001:0db8:85a3:0000:0000:8a2e:0370:7334')\n        True\n        >>> IpUtil.is_valid_ipv6('2001:0db8:85a3:::8a2e:0370:7334')\n        False\n\n        \"\"\"\n        if not isinstance(ip_address, str):\n            return False\n        try:\n            socket.inet_pton(socket.AF_INET6, ip_address)\n        except (OSError, ValueError):\n            return False\n        return True\n\n\n    @staticmethod\n    def get_hostname(ip_address):\n        \"\"\"\n        Get the hostname associated with the given IP address.\n        :param ip_address:string, the IP address to get the hostname for\n        :return: string, the hostname associated with the IP address\n        >>> IpUtil.get_hostname('110.242.68.3')\n        'www.baidu.com'\n        >>> IpUtil.get_hostname('10.0.0.1')\n\n        \"\"\"\n        if not isinstance(ip_address, str):\n            return None\n        try:\n            hostname, _, _ = socket.gethostbyaddr(ip_address)\n        except (OSError, ValueError, UnicodeError):\n            return None\n        return hostname\n```"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_73",
+  "counts": {
+    "tests_total": 25,
+    "tests_passed": 24,
+    "tests_failed": 1,
+    "tests_errored": 0
+  },
+  "class_passed": false,
+  "timed_out": false,
+  "log": "test_attack_1 (temp_file.AgentTest_attack.test_attack_1) ... ok\ntest_attack_2 (temp_file.AgentTest_attack.test_attack_2) ... FAIL\ntest_gain_exp_1 (temp_file.AgentTest_gain_exp.test_gain_exp_1) ... ok\ntest_gain_exp_2 (temp_file.AgentTest_gain_exp.test_gain_exp_2) ... ok\ntest_heal_1 (temp_file.AgentTest_heal.test_heal_1) ... ok\ntest_heal_2 (temp_file.AgentTest_heal.test_heal_2) ... ok\ntest_is_alive_1 (temp_file.AgentTest_is_alive.test_is_alive_1) ... ok\ntest_is_alive_2 (temp_file.AgentTest_is_alive.test_is_alive_2) ... ok\ntest_level_up_1 (temp_file.AgentTest_level_up.test_level_up_1) ... ok\ntest_level_up_2 (temp_file.AgentTest_level_up.test_level_up_2) ... ok\ntest_attack (temp_file.RPGCharacterTestAttack.test_attack) ... ok\ntest_attack_2 (temp_file.RPGCharacterTestAttack.test_attack_2) ... ok\ntest_attack_3 (temp_file.RPGCharacterTestAttack.test_attack_3) ... ok\ntest_gain_exp_1 (temp_file.RPGCharacterTestGainExp.test_gain_exp_1) ... ok\ntest_gain_exp_2 (temp_file.RPGCharacterTestGainExp.test_gain_exp_2) ... ok\ntest_gain_exp_3 (temp_file.RPGCharacterTestGainExp.test_gain_exp_3) ... ok\ntest_heal_1 (temp_file.RPGCharacterTestHeal.test_heal_1) ... ok\ntest_heal_2 (temp_file.RPGCharacterTestHeal.test_heal_2) ... ok\ntest_heal_3 (temp_file.RPGCharacterTestHeal.test_heal_3) ... ok\ntest_is_alive_1 (temp_file.RPGCharacterTestIsAlive.test_is_alive_1) ... ok\ntest_is_alive_2 (temp_file.RPGCharacterTestIsAlive.test_is_alive_2) ... ok\ntest_is_alive_3 (temp_file.RPGCharacterTestIsAlive.test_is_alive_3) ... ok\ntest_level_up_1 (temp_file.RPGCharacterTestLevelUp.test_level_up_1) ... ok\ntest_level_up_2 (temp_file.RPGCharacterTestLevelUp.test_level_up_2) ... ok\ntest_level_up_3 (temp_file.RPGCharacterTestLevelUp.test_level_up_3) ... ok\n\n======================================================================\nFAIL: test_attack_2 (temp_file.AgentTest_attack.test_attack_2)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/private/var/folders/9x/ldh22fhs6m388ywc7hb7f9qc0000gn/T/tmpucnzdtd3/temp_file.py\", line 80, in test_attack_2\n    self.assertEqual(defender.hp, 76)\nAssertionError: 56 != 76\n\n----------------------------------------------------------------------\nRan 25 tests in 0.000s\n\nFAILED (failures=1)\n"
+}

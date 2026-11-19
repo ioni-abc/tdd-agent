@@ -1,0 +1,50 @@
+[
+  {
+    "method": "similarity",
+    "tests_in_suite": 5,
+    "red_passed": 2,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "cosine_similarities",
+    "tests_in_suite": 10,
+    "red_passed": 7,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 10,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "n_similarity",
+    "tests_in_suite": 16,
+    "red_passed": 12,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 16,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "compute_idf_weight_dict",
+    "tests_in_suite": 21,
+    "red_passed": 18,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 21,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  }
+]

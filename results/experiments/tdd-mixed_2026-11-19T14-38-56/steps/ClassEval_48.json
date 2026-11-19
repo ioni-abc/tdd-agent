@@ -1,0 +1,38 @@
+[
+  {
+    "method": "is_valid_ipv4",
+    "tests_in_suite": 3,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 3,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 0,
+    "tests_valid": false
+  },
+  {
+    "method": "is_valid_ipv6",
+    "tests_in_suite": 6,
+    "red_passed": 3,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 6,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 0,
+    "tests_valid": false
+  },
+  {
+    "method": "get_hostname",
+    "tests_in_suite": 9,
+    "red_passed": 8,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 9,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 0,
+    "tests_valid": false
+  }
+]

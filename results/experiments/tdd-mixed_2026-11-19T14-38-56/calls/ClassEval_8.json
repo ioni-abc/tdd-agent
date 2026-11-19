@@ -1,0 +1,50 @@
+[
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1081,
+    "output_tokens": 582,
+    "seconds": 2.8,
+    "reply": "```python\nclass AgentTest_deposit(unittest.TestCase):\n\n    def test_deposit_1(self):\n        account1 = BankAccount(500)\n        ret = account1.deposit(1000)\n        self.assertEqual(ret, 1500)\n        self.assertEqual(account1.balance, 1500)\n\n    def test_deposit_2(self):\n        account1 = BankAccount(700)\n        ret = account1.deposit(0)\n        self.assertEqual(ret, 700)\n        self.assertEqual(account1.view_balance(), 700)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2590,
+    "output_tokens": 521,
+    "seconds": 2.0,
+    "reply": "```python\nclass BankAccount:\n    \"\"\"\n    This is a class as a bank account system, which supports deposit money, withdraw money, view balance, and transfer money.\n    \"\"\"\n\n    def __init__(self, balance=0):\n        \"\"\"\n        Initializes a bank account object with an attribute balance, default value is 0.\n        \"\"\"\n        self.balance = balance\n\n    def deposit(self, amount):\n        \"\"\"\n        Deposits a certain amount into the account, increasing the account balance, return the current account balance.\n        If amount is negative, raise a ValueError(\"Invalid amount\").\n        :param amount: int\n        \"\"\"\n        if amount < 0:\n            raise ValueError(\"Invalid amount\")\n        self.balance += amount\n        return self.balance\n\n    def withdraw(self, amount):\n        \"\"\"\n        Withdraws a certain amount from the account, decreasing the account balance, return the current account balance.\n        If amount is negative, raise a ValueError(\"Invalid amount\").\n        If the withdrawal amount is greater than the account balance, raise a ValueError(\"Insufficient balance.\").\n        :param amount: int\n        \"\"\"\n\n    def view_balance(self):\n        \"\"\"\n        Return the account balance.\n        \"\"\"\n\n    def transfer(self, other_account, amount):\n        \"\"\"\n        Transfers a certain amount from the current account to another account.\n        :param other_account: BankAccount\n        :param amount: int\n        >>> account1 = BankAccount()\n        >>> account2 = BankAccount()\n        >>> account1.deposit(1000)\n        >>> account1.transfer(account2, 300)\n        account1.balance = 700 account2.balance = 300\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1908,
+    "output_tokens": 624,
+    "seconds": 2.3,
+    "reply": "```python\nclass BankAccount:\n    \"\"\"\n    This is a class as a bank account system, which supports deposit money, withdraw money, view balance, and transfer money.\n    \"\"\"\n\n    def __init__(self, balance=0):\n        \"\"\"\n        Initializes a bank account object with an attribute balance, default value is 0.\n        \"\"\"\n        self.balance = balance\n\n    def deposit(self, amount):\n        \"\"\"\n        Deposits a certain amount into the account, increasing the account balance, return the current account balance.\n        If amount is negative, raise a ValueError(\"Invalid amount\").\n        :param amount: int\n        \"\"\"\n        if amount < 0:\n            raise ValueError(\"Invalid amount\")\n        self.balance += amount\n        return self.balance\n\n    def withdraw(self, amount):\n        \"\"\"\n        Withdraws a certain amount from the account, decreasing the account balance, return the current account balance.\n        If amount is negative, raise a ValueError(\"Invalid amount\").\n        If the withdrawal amount is greater than the account balance, raise a ValueError(\"Insufficient balance.\").\n        :param amount: int\n        \"\"\"\n        if amount < 0:\n            raise ValueError(\"Invalid amount\")\n        if amount > self.balance:\n            raise ValueError(\"Insufficient balance.\")\n        self.balance -= amount\n        return self.balance\n\n    def view_balance(self):\n        \"\"\"\n        Return the account balance.\n        \"\"\"\n        return self.balance\n\n    def transfer(self, other_account, amount):\n        \"\"\"\n        Transfers a certain amount from the current account to another account.\n        :param other_account: BankAccount\n        :param amount: int\n        >>> account1 = BankAccount()\n        >>> account2 = BankAccount()\n        >>> account1.deposit(1000)\n        >>> account1.transfer(account2, 300)\n        account1.balance = 700 account2.balance = 300\n        \"\"\"\n        self.withdraw(amount)\n        other_account.deposit(amount)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1535,
+    "output_tokens": 641,
+    "seconds": 3.1,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_withdraw(unittest.TestCase):\n\n    def test_withdraw_1(self):\n        account1 = BankAccount(500)\n        ret = account1.withdraw(500)\n        self.assertEqual(ret, 0)\n        self.assertEqual(account1.view_balance(), 0)\n\n    def test_withdraw_2(self):\n        account1 = BankAccount(1000)\n        ret1 = account1.withdraw(300)\n        self.assertEqual(ret1, 700)\n        ret2 = account1.withdraw(200)\n        self.assertEqual(ret2, 500)\n        self.assertEqual(account1.balance, 500)\n        self.assertEqual(account1.view_balance(), 500)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1969,
+    "output_tokens": 437,
+    "seconds": 2.2,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_view_balance(unittest.TestCase):\n\n    def test_view_balance_1(self):\n        account1 = BankAccount(750)\n        self.assertEqual(account1.view_balance(), 750)\n\n    def test_view_balance_2(self):\n        account1 = BankAccount(300)\n        first = account1.view_balance()\n        second = account1.view_balance()\n        self.assertEqual(first, 300)\n        self.assertEqual(second, 300)\n        self.assertEqual(account1.balance, 300)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2505,
+    "output_tokens": 653,
+    "seconds": 3.1,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_transfer(unittest.TestCase):\n\n    def test_transfer_1(self):\n        account1 = BankAccount()\n        account2 = BankAccount()\n        account1.deposit(1000)\n        account1.transfer(account2, 300)\n        self.assertEqual(account1.view_balance(), 700)\n        self.assertEqual(account2.view_balance(), 300)\n\n    def test_transfer_2(self):\n        account1 = BankAccount(500)\n        account2 = BankAccount(200)\n        account1.transfer(account2, 500)\n        self.assertEqual(account1.view_balance(), 0)\n        self.assertEqual(account2.view_balance(), 700)\n```"
+  }
+]

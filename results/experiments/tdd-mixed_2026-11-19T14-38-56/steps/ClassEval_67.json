@@ -1,0 +1,38 @@
+[
+  {
+    "method": "add_dish",
+    "tests_in_suite": 6,
+    "red_passed": 3,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 6,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "calculate_total",
+    "tests_in_suite": 11,
+    "red_passed": 8,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 11,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "checkout",
+    "tests_in_suite": 16,
+    "red_passed": 13,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 16,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  }
+]

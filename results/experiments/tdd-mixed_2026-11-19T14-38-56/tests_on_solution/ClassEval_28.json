@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_28",
+  "counts": {
+    "tests_total": 20,
+    "tests_passed": 20,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_create_table_1 (temp_file.AgentTest_create_table.test_create_table_1) ... ok\ntest_create_table_2 (temp_file.AgentTest_create_table.test_create_table_2) ... ok\ntest_delete_from_database_1 (temp_file.AgentTest_delete_from_database.test_delete_from_database_1) ... ok\ntest_delete_from_database_2 (temp_file.AgentTest_delete_from_database.test_delete_from_database_2) ... ok\ntest_insert_into_database_1 (temp_file.AgentTest_insert_into_database.test_insert_into_database_1) ... ok\ntest_insert_into_database_2 (temp_file.AgentTest_insert_into_database.test_insert_into_database_2) ... ok\ntest_search_database_1 (temp_file.AgentTest_search_database.test_search_database_1) ... ok\ntest_search_database_2 (temp_file.AgentTest_search_database.test_search_database_2) ... ok\ntest_create_table_1 (temp_file.DatabaseProcessorTestCreateTable.test_create_table_1) ... ok\ntest_create_table_2 (temp_file.DatabaseProcessorTestCreateTable.test_create_table_2) ... ok\ntest_create_table_3 (temp_file.DatabaseProcessorTestCreateTable.test_create_table_3) ... ok\ntest_delete_from_database_1 (temp_file.DatabaseProcessorTestDeteleFromDatabase.test_delete_from_database_1) ... ok\ntest_delete_from_database_2 (temp_file.DatabaseProcessorTestDeteleFromDatabase.test_delete_from_database_2) ... ok\ntest_delete_from_database_3 (temp_file.DatabaseProcessorTestDeteleFromDatabase.test_delete_from_database_3) ... ok\ntest_insert_into_database_1 (temp_file.DatabaseProcessorTestInsertIntoDatabase.test_insert_into_database_1) ... ok\ntest_insert_into_database_2 (temp_file.DatabaseProcessorTestInsertIntoDatabase.test_insert_into_database_2) ... ok\ntest_insert_into_database_3 (temp_file.DatabaseProcessorTestInsertIntoDatabase.test_insert_into_database_3) ... ok\ntest_search_database_1 (temp_file.DatabaseProcessorTestSearchDatabase.test_search_database_1) ... ok\ntest_search_database_2 (temp_file.DatabaseProcessorTestSearchDatabase.test_search_database_2) ... ok\ntest_search_database_3 (temp_file.DatabaseProcessorTestSearchDatabase.test_search_database_3) ... ok\n\n----------------------------------------------------------------------\nRan 20 tests in 0.023s\n\nOK\n"
+}

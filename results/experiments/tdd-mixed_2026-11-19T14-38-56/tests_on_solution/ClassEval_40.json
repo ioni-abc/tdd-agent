@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_40",
+  "counts": {
+    "tests_total": 15,
+    "tests_passed": 14,
+    "tests_failed": 1,
+    "tests_errored": 0
+  },
+  "class_passed": false,
+  "timed_out": false,
+  "log": "test_calculate_calorie_intake_1 (temp_file.AgentTest_calculate_calorie_intake.test_calculate_calorie_intake_1) ... FAIL\ntest_calculate_calorie_intake_2 (temp_file.AgentTest_calculate_calorie_intake.test_calculate_calorie_intake_2) ... ok\ntest_condition_judge_1 (temp_file.AgentTest_condition_judge.test_condition_judge_1) ... ok\ntest_condition_judge_2 (temp_file.AgentTest_condition_judge.test_condition_judge_2) ... ok\ntest_get_BMI_1 (temp_file.AgentTest_get_BMI.test_get_BMI_1) ... ok\ntest_get_BMI_2 (temp_file.AgentTest_get_BMI.test_get_BMI_2) ... ok\ntest_calculate_calorie_intake (temp_file.FitnessTrackerTestCaculateCalorieIntake.test_calculate_calorie_intake) ... ok\ntest_calculate_calorie_intake_2 (temp_file.FitnessTrackerTestCaculateCalorieIntake.test_calculate_calorie_intake_2) ... ok\ntest_calculate_calorie_intake_3 (temp_file.FitnessTrackerTestCaculateCalorieIntake.test_calculate_calorie_intake_3) ... ok\ntest_condition_judge (temp_file.FitnessTrackerTestConditionJudge.test_condition_judge) ... ok\ntest_condition_judge_2 (temp_file.FitnessTrackerTestConditionJudge.test_condition_judge_2) ... ok\ntest_condition_judge_3 (temp_file.FitnessTrackerTestConditionJudge.test_condition_judge_3) ... ok\ntest_get_BMI (temp_file.FitnessTrackerTestGetBMI.test_get_BMI) ... ok\ntest_get_BMI_2 (temp_file.FitnessTrackerTestGetBMI.test_get_BMI_2) ... ok\ntest_get_BMI_3 (temp_file.FitnessTrackerTestGetBMI.test_get_BMI_3) ... ok\n\n======================================================================\nFAIL: test_calculate_calorie_intake_1 (temp_file.AgentTest_calculate_calorie_intake.test_calculate_calorie_intake_1)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/private/var/folders/9x/ldh22fhs6m388ywc7hb7f9qc0000gn/T/tmp7u0s2_jh/temp_file.py\", line 117, in test_calculate_calorie_intake_1\n    self.assertAlmostEqual(fitnessTracker.calculate_calorie_intake(), 986.0, places=7)\nAssertionError: 862.75 != 986.0 within 7 places (123.25 difference)\n\n----------------------------------------------------------------------\nRan 15 tests in 0.000s\n\nFAILED (failures=1)\n"
+}

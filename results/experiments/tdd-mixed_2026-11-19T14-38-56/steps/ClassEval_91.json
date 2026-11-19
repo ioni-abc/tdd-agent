@@ -1,0 +1,38 @@
+[
+  {
+    "method": "fix_path",
+    "tests_in_suite": 6,
+    "red_passed": 2,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 6,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "add",
+    "tests_in_suite": 11,
+    "red_passed": 8,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 11,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "parse",
+    "tests_in_suite": 18,
+    "red_passed": 13,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 18,
+    "green": true,
+    "tests_given": 5,
+    "tests_written": 2,
+    "tests_valid": true
+  }
+]

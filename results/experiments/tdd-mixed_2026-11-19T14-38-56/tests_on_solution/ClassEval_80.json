@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_80",
+  "counts": {
+    "tests_total": 24,
+    "tests_passed": 24,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_delete_1 (temp_file.AgentTest_delete.test_delete_1) ... ok\ntest_delete_2 (temp_file.AgentTest_delete.test_delete_2) ... ok\ntest_insert_1 (temp_file.AgentTest_insert.test_insert_1) ... ok\ntest_insert_2 (temp_file.AgentTest_insert.test_insert_2) ... ok\ntest_select_1 (temp_file.AgentTest_select.test_select_1) ... ok\ntest_select_2 (temp_file.AgentTest_select.test_select_2) ... ok\ntest_update_1 (temp_file.AgentTest_update.test_update_1) ... ok\ntest_update_2 (temp_file.AgentTest_update.test_update_2) ... ok\ntest_delete_1 (temp_file.SQLQueryBuilderTestDetele.test_delete_1) ... ok\ntest_delete_2 (temp_file.SQLQueryBuilderTestDetele.test_delete_2) ... ok\ntest_delete_3 (temp_file.SQLQueryBuilderTestDetele.test_delete_3) ... ok\ntest_delete_4 (temp_file.SQLQueryBuilderTestDetele.test_delete_4) ... ok\ntest_insert_1 (temp_file.SQLQueryBuilderTestInsert.test_insert_1) ... ok\ntest_insert_2 (temp_file.SQLQueryBuilderTestInsert.test_insert_2) ... ok\ntest_insert_3 (temp_file.SQLQueryBuilderTestInsert.test_insert_3) ... ok\ntest_select_1 (temp_file.SQLQueryBuilderTestSelect.test_select_1) ... ok\ntest_select_2 (temp_file.SQLQueryBuilderTestSelect.test_select_2) ... ok\ntest_select_3 (temp_file.SQLQueryBuilderTestSelect.test_select_3) ... ok\ntest_select_4 (temp_file.SQLQueryBuilderTestSelect.test_select_4) ... ok\ntest_select_5 (temp_file.SQLQueryBuilderTestSelect.test_select_5) ... ok\ntest_update_1 (temp_file.SQLQueryBuilderTestUpdate.test_update_1) ... ok\ntest_update_2 (temp_file.SQLQueryBuilderTestUpdate.test_update_2) ... ok\ntest_update_3 (temp_file.SQLQueryBuilderTestUpdate.test_update_3) ... ok\ntest_update_4 (temp_file.SQLQueryBuilderTestUpdate.test_update_4) ... ok\n\n----------------------------------------------------------------------\nRan 24 tests in 0.000s\n\nOK\n"
+}

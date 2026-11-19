@@ -1,0 +1,50 @@
+[
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1094,
+    "output_tokens": 404,
+    "seconds": 2.0,
+    "reply": "```python\nclass AgentTest__validate_name(unittest.TestCase):\n    def test__validate_name_1(self):\n        name = \"a\" * 33\n        pr = PersonRequest(name, \"Man\", \"12345678901\")\n        self.assertEqual(pr.name, name)\n\n    def test__validate_name_2(self):\n        name = \"a\" * 34\n        pr = PersonRequest(name, \"Man\", \"12345678901\")\n        self.assertIsNone(pr.name)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2101,
+    "output_tokens": 531,
+    "seconds": 2.0,
+    "reply": "```python\nimport unittest\n\n\nclass PersonRequest:\n    \"\"\"\n    This class validates input personal information data and sets invalid fields to None based to specific rules.\n    \"\"\"\n\n    def __init__(self, name: str, sex: str, phoneNumber: str):\n        \"\"\"\n        Initialize PersonRequest object with the provided information.\n        :param name: str, the name of the person\n        :param sex: str, the sex of the person\n        :param phoneNumber: str, the phone number of the person\n        \"\"\"\n        self.name = self._validate_name(name)\n        self.sex = self._validate_sex(sex)\n        self.phoneNumber = self._validate_phoneNumber(phoneNumber)\n\n\n    def _validate_name(self, name: str) -> str:\n        \"\"\"\n        Validate the name and return it. If name is empty or exceeds 33 characters in length, set to None.\n        :param name: str, the name to validate\n        :return: str, the validated name or None if invalid\n        \"\"\"\n        if not name or len(name) > 33:\n            return None\n        return name\n\n\n    def _validate_sex(self, sex: str) -> str:\n        \"\"\"\n        Validate the sex and return it. If sex is not Man, Woman, or UGM, set to None.\n        :param sex: str, the sex to validate\n        :return: str, the validated sex or None if invalid\n        \"\"\"\n\n    def _validate_phoneNumber(self, phoneNumber: str) -> str:\n        \"\"\"\n        Validate the phone number and return it. If phoneNumber is empty or not an 11 digit number, set to None.\n        :param phoneNumber: str, the phone number to validate\n        :return: str, the validated phone number or None if invalid\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1463,
+    "output_tokens": 486,
+    "seconds": 2.3,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest__validate_sex(unittest.TestCase):\n    def test__validate_sex_1(self):\n        pr = PersonRequest(\"John Doe\", \"Woman\", \"12345678901\")\n        self.assertEqual(pr.sex, \"Woman\")\n\n    def test__validate_sex_2(self):\n        pr = PersonRequest(\"John Doe\", \"man\", \"12345678901\")\n        self.assertIsNone(pr.sex)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2659,
+    "output_tokens": 562,
+    "seconds": 2.1,
+    "reply": "```python\nimport unittest\n\n\nclass PersonRequest:\n    \"\"\"\n    This class validates input personal information data and sets invalid fields to None based to specific rules.\n    \"\"\"\n\n    def __init__(self, name: str, sex: str, phoneNumber: str):\n        \"\"\"\n        Initialize PersonRequest object with the provided information.\n        :param name: str, the name of the person\n        :param sex: str, the sex of the person\n        :param phoneNumber: str, the phone number of the person\n        \"\"\"\n        self.name = self._validate_name(name)\n        self.sex = self._validate_sex(sex)\n        self.phoneNumber = self._validate_phoneNumber(phoneNumber)\n\n\n    def _validate_name(self, name: str) -> str:\n        \"\"\"\n        Validate the name and return it. If name is empty or exceeds 33 characters in length, set to None.\n        :param name: str, the name to validate\n        :return: str, the validated name or None if invalid\n        \"\"\"\n        if not name or len(name) > 33:\n            return None\n        return name\n\n\n    def _validate_sex(self, sex: str) -> str:\n        \"\"\"\n        Validate the sex and return it. If sex is not Man, Woman, or UGM, set to None.\n        :param sex: str, the sex to validate\n        :return: str, the validated sex or None if invalid\n        \"\"\"\n        if sex in (\"Man\", \"Woman\", \"UGM\"):\n            return sex\n        return None\n\n    def _validate_phoneNumber(self, phoneNumber: str) -> str:\n        \"\"\"\n        Validate the phone number and return it. If phoneNumber is empty or not an 11 digit number, set to None.\n        :param phoneNumber: str, the phone number to validate\n        :return: str, the validated phone number or None if invalid\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1865,
+    "output_tokens": 477,
+    "seconds": 2.4,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest__validate_phoneNumber(unittest.TestCase):\n    def test__validate_phoneNumber_1(self):\n        pr = PersonRequest(\"John Doe\", \"Man\", \"12345678901\")\n        self.assertEqual(pr.phoneNumber, \"12345678901\")\n\n    def test__validate_phoneNumber_2(self):\n        pr = PersonRequest(\"John Doe\", \"Man\", \"123456789012\")\n        self.assertIsNone(pr.phoneNumber)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2740,
+    "output_tokens": 638,
+    "seconds": 2.3,
+    "reply": "```python\nimport unittest\n\n\nclass PersonRequest:\n    \"\"\"\n    This class validates input personal information data and sets invalid fields to None based to specific rules.\n    \"\"\"\n\n    def __init__(self, name: str, sex: str, phoneNumber: str):\n        \"\"\"\n        Initialize PersonRequest object with the provided information.\n        :param name: str, the name of the person\n        :param sex: str, the sex of the person\n        :param phoneNumber: str, the phone number of the person\n        \"\"\"\n        self.name = self._validate_name(name)\n        self.sex = self._validate_sex(sex)\n        self.phoneNumber = self._validate_phoneNumber(phoneNumber)\n\n\n    def _validate_name(self, name: str) -> str:\n        \"\"\"\n        Validate the name and return it. If name is empty or exceeds 33 characters in length, set to None.\n        :param name: str, the name to validate\n        :return: str, the validated name or None if invalid\n        \"\"\"\n        if not name or len(name) > 33:\n            return None\n        return name\n\n\n    def _validate_sex(self, sex: str) -> str:\n        \"\"\"\n        Validate the sex and return it. If sex is not Man, Woman, or UGM, set to None.\n        :param sex: str, the sex to validate\n        :return: str, the validated sex or None if invalid\n        \"\"\"\n        if sex in (\"Man\", \"Woman\", \"UGM\"):\n            return sex\n        return None\n\n    def _validate_phoneNumber(self, phoneNumber: str) -> str:\n        \"\"\"\n        Validate the phone number and return it. If phoneNumber is empty or not an 11 digit number, set to None.\n        :param phoneNumber: str, the phone number to validate\n        :return: str, the validated phone number or None if invalid\n        \"\"\"\n        if (isinstance(phoneNumber, str)\n                and len(phoneNumber) == 11\n                and phoneNumber.isdigit()\n                and phoneNumber.isascii()):\n            return phoneNumber\n        return None\n```"
+  }
+]

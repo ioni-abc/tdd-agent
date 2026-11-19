@@ -1,0 +1,38 @@
+[
+  {
+    "method": "precedence",
+    "tests_in_suite": 5,
+    "red_passed": 2,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "apply_operator",
+    "tests_in_suite": 10,
+    "red_passed": 7,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 10,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "calculate",
+    "tests_in_suite": 18,
+    "red_passed": 13,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 18,
+    "green": true,
+    "tests_given": 5,
+    "tests_written": 3,
+    "tests_valid": true
+  }
+]

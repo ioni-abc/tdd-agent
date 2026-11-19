@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_97",
+  "counts": {
+    "tests_total": 13,
+    "tests_passed": 12,
+    "tests_failed": 0,
+    "tests_errored": 1
+  },
+  "class_passed": false,
+  "timed_out": false,
+  "log": "test_is_valid_input (temp_file.Words2NumbersTestIsValidInput.test_is_valid_input) ... ok\ntest_is_valid_input2 (temp_file.Words2NumbersTestIsValidInput.test_is_valid_input2) ... ok\ntest_is_valid_input3 (temp_file.Words2NumbersTestIsValidInput.test_is_valid_input3) ... ok\ntest_is_valid_input4 (temp_file.Words2NumbersTestIsValidInput.test_is_valid_input4) ... ok\ntest_is_valid_input5 (temp_file.Words2NumbersTestIsValidInput.test_is_valid_input5) ... ok\ntest_is_valid_input6 (temp_file.Words2NumbersTestIsValidInput.test_is_valid_input6) ... ok\ntest_main (temp_file.Words2NumbersTestMain.test_main) ... ok\ntest_text2int (temp_file.Words2NumbersTestText2Int.test_text2int) ... ok\ntest_text2int2 (temp_file.Words2NumbersTestText2Int.test_text2int2) ... ok\ntest_text2int3 (temp_file.Words2NumbersTestText2Int.test_text2int3) ... ok\ntest_text2int4 (temp_file.Words2NumbersTestText2Int.test_text2int4) ... ok\ntest_text2int5 (temp_file.Words2NumbersTestText2Int.test_text2int5) ... ok\ntest_text2int6 (temp_file.Words2NumbersTestText2Int.test_text2int6) ... ERROR\n\n======================================================================\nERROR: test_text2int6 (temp_file.Words2NumbersTestText2Int.test_text2int6)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/private/var/folders/9x/ldh22fhs6m388ywc7hb7f9qc0000gn/T/tmpengkqsgs/temp_file.py\", line 122, in test_text2int6\n    self.assertEqual(w2n.text2int(\"one million one hundred sixty-ninth\"), \"1000169\")\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/private/var/folders/9x/ldh22fhs6m388ywc7hb7f9qc0000gn/T/tmpengkqsgs/temp_file.py\", line 49, in text2int\n    raise ValueError(f\"Unknown number word: {word!r}\")\nValueError: Unknown number word: 'ninth'\n\n----------------------------------------------------------------------\nRan 13 tests in 0.000s\n\nFAILED (errors=1)\n"
+}

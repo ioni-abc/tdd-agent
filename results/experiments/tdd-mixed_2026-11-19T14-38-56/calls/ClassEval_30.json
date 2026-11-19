@@ -1,0 +1,98 @@
+[
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1252,
+    "output_tokens": 454,
+    "seconds": 2.2,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_get_sum(unittest.TestCase):\n    def test_get_sum_1(self):\n        ds2 = DataStatistics2([-5, 10, -3])\n        res = ds2.get_sum()\n        self.assertEqual(res, 2)\n\n    def test_get_sum_2(self):\n        ds2 = DataStatistics2([1.5, 2.5, 3.0])\n        res = ds2.get_sum()\n        self.assertEqual(res, 7.0)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2887,
+    "output_tokens": 654,
+    "seconds": 2.3,
+    "reply": "```python\nimport numpy as np\n\nclass DataStatistics2:\n    \"\"\"\n    This is a class for performing data statistics, supporting to get the sum, minimum, maximum, variance, standard deviation, and correlation of a given dataset.\n    \"\"\"\n\n    def __init__(self, data):\n        \"\"\"\n        Initialize Data List\n        :param data:list\n        \"\"\"\n        self.data = np.array(data)\n\n    def get_sum(self):\n        \"\"\"\n        Calculate the sum of data\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_sum()\n        10\n        \"\"\"\n        return self.data.sum().item()\n\n    def get_min(self):\n        \"\"\"\n        Calculate the minimum value in the data\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_min()\n        1\n        \"\"\"\n\n    def get_max(self):\n        \"\"\"\n        Calculate the maximum value in the data\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_max()\n        4\n        \"\"\"\n\n    def get_variance(self):\n        \"\"\"\n        Calculate variance, accurate to two digits after the Decimal separator\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_variance()\n        1.25\n        \"\"\"\n\n    def get_std_deviation(self):\n        \"\"\"\n        Calculate standard deviation, accurate to two digits after the Decimal separator\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_std_deviation()\n        1.12\n        \"\"\"\n\n    def get_correlation(self):\n        \"\"\"\n        Calculate correlation\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_correlation()\n        1.0\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1636,
+    "output_tokens": 436,
+    "seconds": 2.3,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_get_min(unittest.TestCase):\n    def test_get_min_1(self):\n        ds2 = DataStatistics2([-7, -2, -15, -4])\n        res = ds2.get_min()\n        self.assertEqual(res, -15)\n\n    def test_get_min_2(self):\n        ds2 = DataStatistics2([2.5, 2.5, 3.1])\n        res = ds2.get_min()\n        self.assertEqual(res, 2.5)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 3278,
+    "output_tokens": 665,
+    "seconds": 2.3,
+    "reply": "```python\nimport numpy as np\n\nclass DataStatistics2:\n    \"\"\"\n    This is a class for performing data statistics, supporting to get the sum, minimum, maximum, variance, standard deviation, and correlation of a given dataset.\n    \"\"\"\n\n    def __init__(self, data):\n        \"\"\"\n        Initialize Data List\n        :param data:list\n        \"\"\"\n        self.data = np.array(data)\n\n    def get_sum(self):\n        \"\"\"\n        Calculate the sum of data\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_sum()\n        10\n        \"\"\"\n        return self.data.sum().item()\n\n    def get_min(self):\n        \"\"\"\n        Calculate the minimum value in the data\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_min()\n        1\n        \"\"\"\n        return self.data.min().item()\n\n    def get_max(self):\n        \"\"\"\n        Calculate the maximum value in the data\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_max()\n        4\n        \"\"\"\n\n    def get_variance(self):\n        \"\"\"\n        Calculate variance, accurate to two digits after the Decimal separator\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_variance()\n        1.25\n        \"\"\"\n\n    def get_std_deviation(self):\n        \"\"\"\n        Calculate standard deviation, accurate to two digits after the Decimal separator\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_std_deviation()\n        1.12\n        \"\"\"\n\n    def get_correlation(self):\n        \"\"\"\n        Calculate correlation\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_correlation()\n        1.0\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2024,
+    "output_tokens": 508,
+    "seconds": 2.7,
+    "reply": "```python\nclass AgentTest_get_max(unittest.TestCase):\n    def test_get_max_1(self):\n        ds2 = DataStatistics2([1.5, 2.5, 0.5])\n        res = ds2.get_max()\n        self.assertEqual(res, 2.5)\n\n    def test_get_max_2(self):\n        ds2 = DataStatistics2([42])\n        res = ds2.get_max()\n        self.assertEqual(res, 42)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 3657,
+    "output_tokens": 676,
+    "seconds": 2.3,
+    "reply": "```python\nimport numpy as np\n\nclass DataStatistics2:\n    \"\"\"\n    This is a class for performing data statistics, supporting to get the sum, minimum, maximum, variance, standard deviation, and correlation of a given dataset.\n    \"\"\"\n\n    def __init__(self, data):\n        \"\"\"\n        Initialize Data List\n        :param data:list\n        \"\"\"\n        self.data = np.array(data)\n\n    def get_sum(self):\n        \"\"\"\n        Calculate the sum of data\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_sum()\n        10\n        \"\"\"\n        return self.data.sum().item()\n\n    def get_min(self):\n        \"\"\"\n        Calculate the minimum value in the data\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_min()\n        1\n        \"\"\"\n        return self.data.min().item()\n\n    def get_max(self):\n        \"\"\"\n        Calculate the maximum value in the data\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_max()\n        4\n        \"\"\"\n        return self.data.max().item()\n\n    def get_variance(self):\n        \"\"\"\n        Calculate variance, accurate to two digits after the Decimal separator\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_variance()\n        1.25\n        \"\"\"\n\n    def get_std_deviation(self):\n        \"\"\"\n        Calculate standard deviation, accurate to two digits after the Decimal separator\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_std_deviation()\n        1.12\n        \"\"\"\n\n    def get_correlation(self):\n        \"\"\"\n        Calculate correlation\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_correlation()\n        1.0\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2416,
+    "output_tokens": 869,
+    "seconds": 3.9,
+    "reply": "```python\nimport unittest\nimport numpy as np\n\n\nclass AgentTest_get_variance(unittest.TestCase):\n    def test_get_variance_1(self):\n        ds2 = DataStatistics2([5, 5, 5])\n        res = ds2.get_variance()\n        self.assertAlmostEqual(res, 0.0, places=2)\n\n    def test_get_variance_2(self):\n        ds2 = DataStatistics2([-1.5, 2.5, 0.0])\n        res = ds2.get_variance()\n        self.assertAlmostEqual(res, 2.72, places=2)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 4398,
+    "output_tokens": 1143,
+    "seconds": 4.2,
+    "reply": "```python\nimport numpy as np\n\nclass DataStatistics2:\n    \"\"\"\n    This is a class for performing data statistics, supporting to get the sum, minimum, maximum, variance, standard deviation, and correlation of a given dataset.\n    \"\"\"\n\n    def __init__(self, data):\n        \"\"\"\n        Initialize Data List\n        :param data:list\n        \"\"\"\n        self.data = np.array(data)\n\n    def get_sum(self):\n        \"\"\"\n        Calculate the sum of data\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_sum()\n        10\n        \"\"\"\n        return self.data.sum().item()\n\n    def get_min(self):\n        \"\"\"\n        Calculate the minimum value in the data\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_min()\n        1\n        \"\"\"\n        return self.data.min().item()\n\n    def get_max(self):\n        \"\"\"\n        Calculate the maximum value in the data\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_max()\n        4\n        \"\"\"\n        return self.data.max().item()\n\n    def get_variance(self):\n        \"\"\"\n        Calculate variance, accurate to two digits after the Decimal separator\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_variance()\n        1.25\n        \"\"\"\n        return round(float(np.var(self.data)), 2)\n\n    def get_std_deviation(self):\n        \"\"\"\n        Calculate standard deviation, accurate to two digits after the Decimal separator\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_std_deviation()\n        1.12\n        \"\"\"\n\n    def get_correlation(self):\n        \"\"\"\n        Calculate correlation\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_correlation()\n        1.0\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2882,
+    "output_tokens": 1007,
+    "seconds": 4.5,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_get_std_deviation(unittest.TestCase):\n    def test_get_std_deviation_1(self):\n        ds2 = DataStatistics2([5, 5, 5])\n        res = ds2.get_std_deviation()\n        self.assertAlmostEqual(res, 0.0, places=2)\n\n    def test_get_std_deviation_2(self):\n        ds2 = DataStatistics2([2, 4, 4, 4, 5, 5, 7, 9])\n        res = ds2.get_std_deviation()\n        self.assertAlmostEqual(res, 2.0, places=2)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 4937,
+    "output_tokens": 890,
+    "seconds": 3.3,
+    "reply": "```python\nimport numpy as np\n\nclass DataStatistics2:\n    \"\"\"\n    This is a class for performing data statistics, supporting to get the sum, minimum, maximum, variance, standard deviation, and correlation of a given dataset.\n    \"\"\"\n\n    def __init__(self, data):\n        \"\"\"\n        Initialize Data List\n        :param data:list\n        \"\"\"\n        self.data = np.array(data)\n\n    def get_sum(self):\n        \"\"\"\n        Calculate the sum of data\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_sum()\n        10\n        \"\"\"\n        return self.data.sum().item()\n\n    def get_min(self):\n        \"\"\"\n        Calculate the minimum value in the data\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_min()\n        1\n        \"\"\"\n        return self.data.min().item()\n\n    def get_max(self):\n        \"\"\"\n        Calculate the maximum value in the data\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_max()\n        4\n        \"\"\"\n        return self.data.max().item()\n\n    def get_variance(self):\n        \"\"\"\n        Calculate variance, accurate to two digits after the Decimal separator\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_variance()\n        1.25\n        \"\"\"\n        return round(float(np.var(self.data)), 2)\n\n    def get_std_deviation(self):\n        \"\"\"\n        Calculate standard deviation, accurate to two digits after the Decimal separator\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_std_deviation()\n        1.12\n        \"\"\"\n        return round(float(np.std(self.data)), 2)\n\n    def get_correlation(self):\n        \"\"\"\n        Calculate correlation\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_correlation()\n        1.0\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 3322,
+    "output_tokens": 907,
+    "seconds": 4.6,
+    "reply": "```python\nimport unittest\n\nimport numpy as np\n\n\nclass AgentTest_get_correlation(unittest.TestCase):\n    def test_get_correlation_1(self):\n        ds2 = DataStatistics2([5, 3, 8, 1, 7])\n        res = ds2.get_correlation()\n        self.assertIsInstance(res, float)\n\n    def test_get_correlation_2(self):\n        ds2 = DataStatistics2([5, 3, 8, 1, 7])\n        res = ds2.get_correlation()\n        self.assertGreaterEqual(res, -1.0)\n        self.assertLessEqual(res, 1.0)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 5235,
+    "output_tokens": 1779,
+    "seconds": 7.1,
+    "reply": "```python\nimport numpy as np\n\nclass DataStatistics2:\n    \"\"\"\n    This is a class for performing data statistics, supporting to get the sum, minimum, maximum, variance, standard deviation, and correlation of a given dataset.\n    \"\"\"\n\n    def __init__(self, data):\n        \"\"\"\n        Initialize Data List\n        :param data:list\n        \"\"\"\n        self.data = np.array(data)\n\n    def get_sum(self):\n        \"\"\"\n        Calculate the sum of data\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_sum()\n        10\n        \"\"\"\n        return self.data.sum().item()\n\n    def get_min(self):\n        \"\"\"\n        Calculate the minimum value in the data\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_min()\n        1\n        \"\"\"\n        return self.data.min().item()\n\n    def get_max(self):\n        \"\"\"\n        Calculate the maximum value in the data\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_max()\n        4\n        \"\"\"\n        return self.data.max().item()\n\n    def get_variance(self):\n        \"\"\"\n        Calculate variance, accurate to two digits after the Decimal separator\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_variance()\n        1.25\n        \"\"\"\n        return round(float(np.var(self.data)), 2)\n\n    def get_std_deviation(self):\n        \"\"\"\n        Calculate standard deviation, accurate to two digits after the Decimal separator\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_std_deviation()\n        1.12\n        \"\"\"\n        return round(float(np.std(self.data)), 2)\n\n    def get_correlation(self):\n        \"\"\"\n        Calculate correlation\n        :return:float\n        >>> ds2 = DataStatistics2([1, 2, 3, 4])\n        >>> ds2.get_correlation()\n        1.0\n        \"\"\"\n        x = np.asarray(self.data, dtype=float).ravel()\n        y = x.copy()\n        x_dev = x - x.mean()\n        y_dev = y - y.mean()\n        denom = np.sqrt(np.sum(x_dev ** 2)) * np.sqrt(np.sum(y_dev ** 2))\n        if denom == 0:\n            return float('nan')\n        r = float(np.sum(x_dev * y_dev) / denom)\n        return round(r, 2)\n```"
+  }
+]

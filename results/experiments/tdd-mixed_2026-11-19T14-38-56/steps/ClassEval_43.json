@@ -1,0 +1,62 @@
+[
+  {
+    "method": "add_employee",
+    "tests_in_suite": 3,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 3,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 0,
+    "tests_valid": false
+  },
+  {
+    "method": "remove_employee",
+    "tests_in_suite": 6,
+    "red_passed": 3,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 6,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 0,
+    "tests_valid": false
+  },
+  {
+    "method": "get_employee",
+    "tests_in_suite": 9,
+    "red_passed": 6,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 9,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 0,
+    "tests_valid": false
+  },
+  {
+    "method": "update_employee",
+    "tests_in_suite": 13,
+    "red_passed": 9,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 13,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 0,
+    "tests_valid": false
+  },
+  {
+    "method": "list_employees",
+    "tests_in_suite": 16,
+    "red_passed": 13,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 16,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 0,
+    "tests_valid": false
+  }
+]

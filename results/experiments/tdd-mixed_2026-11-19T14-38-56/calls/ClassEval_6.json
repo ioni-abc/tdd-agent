@@ -1,0 +1,34 @@
+[
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 964,
+    "output_tokens": 715,
+    "seconds": 3.6,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_setNum(unittest.TestCase):\n    def test_setNum_1(self):\n        a = AvgPartition([1, 2, 3, 4, 5, 6], 3)\n        self.assertEqual(a.setNum(), (2, 0))\n\n    def test_setNum_2(self):\n        a = AvgPartition([1, 2], 3)\n        self.assertEqual(a.setNum(), (0, 2))\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2353,
+    "output_tokens": 617,
+    "seconds": 2.5,
+    "reply": "```python\nclass AvgPartition:\n    \"\"\"\n    This is a class that partitions the given list into different blocks by specifying the number of partitions, with each block having a uniformly distributed length.\n    \"\"\"\n\n    def __init__(self, lst, limit):\n        \"\"\"\n        Initialize the class with the given list and the number of partitions, and check if the number of partitions is greater than 0.\n        \"\"\"\n        self.lst = lst\n        self.limit = limit\n\n    def setNum(self):\n        \"\"\"\n        Calculate the size of each block and the remainder of the division.\n        :return: the size of each block and the remainder of the division, tuple.\n        >>> a = AvgPartition([1, 2, 3, 4], 2)\n        >>> a.setNum()\n        (2, 0)\n\n        \"\"\"\n        return divmod(len(self.lst), self.limit)\n\n    def get(self, index):\n        \"\"\"\n        calculate the size of each block and the remainder of the division, and calculate the corresponding start and end positions based on the index of the partition.\n        :param index: the index of the partition,int.\n        :return: the corresponding block, list.\n        >>> a = AvgPartition([1, 2, 3, 4], 2)\n        >>> a.get(0)\n        [1, 2]\n\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1301,
+    "output_tokens": 826,
+    "seconds": 4.2,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_get(unittest.TestCase):\n    def test_get_1(self):\n        a = AvgPartition([1, 2, 3, 4, 5, 6], 3)\n        self.assertEqual(a.get(2), [5, 6])\n\n    def test_get_2(self):\n        a = AvgPartition([1, 2, 3, 4, 5], 2)\n        self.assertEqual(a.get(1), [4, 5])\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2676,
+    "output_tokens": 714,
+    "seconds": 2.9,
+    "reply": "```python\nclass AvgPartition:\n    \"\"\"\n    This is a class that partitions the given list into different blocks by specifying the number of partitions, with each block having a uniformly distributed length.\n    \"\"\"\n\n    def __init__(self, lst, limit):\n        \"\"\"\n        Initialize the class with the given list and the number of partitions, and check if the number of partitions is greater than 0.\n        \"\"\"\n        self.lst = lst\n        self.limit = limit\n\n    def setNum(self):\n        \"\"\"\n        Calculate the size of each block and the remainder of the division.\n        :return: the size of each block and the remainder of the division, tuple.\n        >>> a = AvgPartition([1, 2, 3, 4], 2)\n        >>> a.setNum()\n        (2, 0)\n\n        \"\"\"\n        return divmod(len(self.lst), self.limit)\n\n    def get(self, index):\n        \"\"\"\n        calculate the size of each block and the remainder of the division, and calculate the corresponding start and end positions based on the index of the partition.\n        :param index: the index of the partition,int.\n        :return: the corresponding block, list.\n        >>> a = AvgPartition([1, 2, 3, 4], 2)\n        >>> a.get(0)\n        [1, 2]\n\n        \"\"\"\n        size, remainder = self.setNum()\n        start = index * size + min(index, remainder)\n        end = start + size + (1 if index < remainder else 0)\n        return self.lst[start:end]\n```"
+  }
+]

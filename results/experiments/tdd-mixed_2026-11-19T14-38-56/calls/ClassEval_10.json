@@ -1,0 +1,66 @@
+[
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1372,
+    "output_tokens": 661,
+    "seconds": 3.5,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_clean_non_binary_chars(unittest.TestCase):\n    def test_clean_non_binary_chars_1(self):\n        bdp = BinaryDataProcessor(\"Hello 0110 World\\n1001!\")\n        self.assertEqual(bdp.binary_string, \"01101001\")\n\n    def test_clean_non_binary_chars_2(self):\n        bdp = BinaryDataProcessor(\"xyzABC?!\")\n        self.assertEqual(bdp.binary_string, \"\")\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 3469,
+    "output_tokens": 1329,
+    "seconds": 5.2,
+    "reply": "```python\nclass BinaryDataProcessor:\n    \"\"\"\n    This is a class used to process binary data, which includes functions such as clearing non 0 or 1 characters, counting binary string information, and converting to corresponding strings based on different encoding methods.\n    \"\"\"\n\n    def __init__(self, binary_string):\n        \"\"\"\n        Initialize the class with a binary string and clean it by removing all non 0 or 1 characters.\n        \"\"\"\n        self.binary_string = binary_string\n        self.clean_non_binary_chars()\n\n    def clean_non_binary_chars(self):\n        \"\"\"\n        Clean the binary string by removing all non 0 or 1 characters.\n        >>> bdp = BinaryDataProcessor(\"01101000daf3e4r01100101011011000110110001101111\")\n        >>> bdp.clean_non_binary_chars()\n        >>> bdp.binary_string\n        '0110100001100101011011000110110001101111'\n\n        \"\"\"\n        self.binary_string = ''.join(ch for ch in self.binary_string if ch in '01')\n\n    def calculate_binary_info(self):\n        \"\"\"\n        Calculate the binary string information, including the percentage of 0 and 1, and the total length of the binary string.\n        >>> bdp = BinaryDataProcessor(\"0110100001100101011011000110110001101111\")\n        >>> bdp.calculate_binary_info()\n        {'Zeroes': 0.475, 'Ones': 0.525, 'Bit length': 40}\n\n        \"\"\"\n\n    def convert_to_ascii(self):\n        \"\"\"\n        Convert the binary string to ascii string.\n        >>> bdp = BinaryDataProcessor(\"0110100001100101011011000110110001101111\")\n        >>> bdp.convert_to_ascii()\n        'hello'\n\n        \"\"\"\n\n    def convert_to_utf8(self):\n        \"\"\"\n        Convert the binary string to utf-8 string.\n        >>> bdp = BinaryDataProcessor(\"0110100001100101011011000110110001101111\")\n        >>> bdp.convert_to_utf8()\n        'hello'\n\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1905,
+    "output_tokens": 781,
+    "seconds": 3.9,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_calculate_binary_info(unittest.TestCase):\n    def test_calculate_binary_info_1(self):\n        bdp = BinaryDataProcessor(\"0000\")\n        self.assertEqual(bdp.calculate_binary_info(), {'Zeroes': 1.0, 'Ones': 0.0, 'Bit length': 4})\n\n    def test_calculate_binary_info_2(self):\n        bdp = BinaryDataProcessor(\"ab1c1d1e0\")\n        self.assertEqual(bdp.calculate_binary_info(), {'Zeroes': 0.25, 'Ones': 0.75, 'Bit length': 4})\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 4105,
+    "output_tokens": 1209,
+    "seconds": 4.4,
+    "reply": "```python\nclass BinaryDataProcessor:\n    \"\"\"\n    This is a class used to process binary data, which includes functions such as clearing non 0 or 1 characters, counting binary string information, and converting to corresponding strings based on different encoding methods.\n    \"\"\"\n\n    def __init__(self, binary_string):\n        \"\"\"\n        Initialize the class with a binary string and clean it by removing all non 0 or 1 characters.\n        \"\"\"\n        self.binary_string = binary_string\n        self.clean_non_binary_chars()\n\n    def clean_non_binary_chars(self):\n        \"\"\"\n        Clean the binary string by removing all non 0 or 1 characters.\n        >>> bdp = BinaryDataProcessor(\"01101000daf3e4r01100101011011000110110001101111\")\n        >>> bdp.clean_non_binary_chars()\n        >>> bdp.binary_string\n        '0110100001100101011011000110110001101111'\n\n        \"\"\"\n        self.binary_string = ''.join(ch for ch in self.binary_string if ch in '01')\n\n    def calculate_binary_info(self):\n        \"\"\"\n        Calculate the binary string information, including the percentage of 0 and 1, and the total length of the binary string.\n        >>> bdp = BinaryDataProcessor(\"0110100001100101011011000110110001101111\")\n        >>> bdp.calculate_binary_info()\n        {'Zeroes': 0.475, 'Ones': 0.525, 'Bit length': 40}\n\n        \"\"\"\n        length = len(self.binary_string)\n        if length == 0:\n            return {'Zeroes': 0.0, 'Ones': 0.0, 'Bit length': 0}\n        zeroes = self.binary_string.count('0')\n        ones = self.binary_string.count('1')\n        return {\n            'Zeroes': zeroes / length,\n            'Ones': ones / length,\n            'Bit length': length,\n        }\n\n    def convert_to_ascii(self):\n        \"\"\"\n        Convert the binary string to ascii string.\n        >>> bdp = BinaryDataProcessor(\"0110100001100101011011000110110001101111\")\n        >>> bdp.convert_to_ascii()\n        'hello'\n\n        \"\"\"\n\n    def convert_to_utf8(self):\n        \"\"\"\n        Convert the binary string to utf-8 string.\n        >>> bdp = BinaryDataProcessor(\"0110100001100101011011000110110001101111\")\n        >>> bdp.convert_to_utf8()\n        'hello'\n\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2395,
+    "output_tokens": 682,
+    "seconds": 3.8,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_convert_to_ascii(unittest.TestCase):\n    def test_convert_to_ascii_1(self):\n        bdp = BinaryDataProcessor(\"0100100001001001\")\n        self.assertEqual(bdp.convert_to_ascii(), \"HI\")\n\n    def test_convert_to_ascii_2(self):\n        bdp = BinaryDataProcessor(\"010100000111100101110100011010000110111101101110\")\n        self.assertEqual(bdp.convert_to_ascii(), \"Python\")\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 4358,
+    "output_tokens": 1182,
+    "seconds": 4.2,
+    "reply": "```python\nclass BinaryDataProcessor:\n    \"\"\"\n    This is a class used to process binary data, which includes functions such as clearing non 0 or 1 characters, counting binary string information, and converting to corresponding strings based on different encoding methods.\n    \"\"\"\n\n    def __init__(self, binary_string):\n        \"\"\"\n        Initialize the class with a binary string and clean it by removing all non 0 or 1 characters.\n        \"\"\"\n        self.binary_string = binary_string\n        self.clean_non_binary_chars()\n\n    def clean_non_binary_chars(self):\n        \"\"\"\n        Clean the binary string by removing all non 0 or 1 characters.\n        >>> bdp = BinaryDataProcessor(\"01101000daf3e4r01100101011011000110110001101111\")\n        >>> bdp.clean_non_binary_chars()\n        >>> bdp.binary_string\n        '0110100001100101011011000110110001101111'\n\n        \"\"\"\n        self.binary_string = ''.join(ch for ch in self.binary_string if ch in '01')\n\n    def calculate_binary_info(self):\n        \"\"\"\n        Calculate the binary string information, including the percentage of 0 and 1, and the total length of the binary string.\n        >>> bdp = BinaryDataProcessor(\"0110100001100101011011000110110001101111\")\n        >>> bdp.calculate_binary_info()\n        {'Zeroes': 0.475, 'Ones': 0.525, 'Bit length': 40}\n\n        \"\"\"\n        length = len(self.binary_string)\n        if length == 0:\n            return {'Zeroes': 0.0, 'Ones': 0.0, 'Bit length': 0}\n        zeroes = self.binary_string.count('0')\n        ones = self.binary_string.count('1')\n        return {\n            'Zeroes': zeroes / length,\n            'Ones': ones / length,\n            'Bit length': length,\n        }\n\n    def convert_to_ascii(self):\n        \"\"\"\n        Convert the binary string to ascii string.\n        >>> bdp = BinaryDataProcessor(\"0110100001100101011011000110110001101111\")\n        >>> bdp.convert_to_ascii()\n        'hello'\n\n        \"\"\"\n        chars = []\n        for i in range(0, len(self.binary_string) - 7, 8):\n            chunk = self.binary_string[i:i + 8]\n            chars.append(chr(int(chunk, 2)))\n        return ''.join(chars)\n\n    def convert_to_utf8(self):\n        \"\"\"\n        Convert the binary string to utf-8 string.\n        >>> bdp = BinaryDataProcessor(\"0110100001100101011011000110110001101111\")\n        >>> bdp.convert_to_utf8()\n        'hello'\n\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2842,
+    "output_tokens": 864,
+    "seconds": 4.5,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_convert_to_utf8(unittest.TestCase):\n    def test_convert_to_utf8_1(self):\n        # \"\u00e9\" (U+00E9) is encoded in UTF-8 as two bytes: 0xC3 0xA9\n        bdp = BinaryDataProcessor(\"1100001110101001\")\n        self.assertEqual(bdp.convert_to_utf8(), \"\u00e9\")\n\n    def test_convert_to_utf8_2(self):\n        # \"h\" followed by \"\u20ac\" (U+20AC), which is encoded in UTF-8 as three bytes: 0xE2 0x82 0xAC\n        bdp = BinaryDataProcessor(\"01101000111000101000001010101100\")\n        self.assertEqual(bdp.convert_to_utf8(), \"h\u20ac\")\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 4961,
+    "output_tokens": 1194,
+    "seconds": 4.2,
+    "reply": "```python\nclass BinaryDataProcessor:\n    \"\"\"\n    This is a class used to process binary data, which includes functions such as clearing non 0 or 1 characters, counting binary string information, and converting to corresponding strings based on different encoding methods.\n    \"\"\"\n\n    def __init__(self, binary_string):\n        \"\"\"\n        Initialize the class with a binary string and clean it by removing all non 0 or 1 characters.\n        \"\"\"\n        self.binary_string = binary_string\n        self.clean_non_binary_chars()\n\n    def clean_non_binary_chars(self):\n        \"\"\"\n        Clean the binary string by removing all non 0 or 1 characters.\n        >>> bdp = BinaryDataProcessor(\"01101000daf3e4r01100101011011000110110001101111\")\n        >>> bdp.clean_non_binary_chars()\n        >>> bdp.binary_string\n        '0110100001100101011011000110110001101111'\n\n        \"\"\"\n        self.binary_string = ''.join(ch for ch in self.binary_string if ch in '01')\n\n    def calculate_binary_info(self):\n        \"\"\"\n        Calculate the binary string information, including the percentage of 0 and 1, and the total length of the binary string.\n        >>> bdp = BinaryDataProcessor(\"0110100001100101011011000110110001101111\")\n        >>> bdp.calculate_binary_info()\n        {'Zeroes': 0.475, 'Ones': 0.525, 'Bit length': 40}\n\n        \"\"\"\n        length = len(self.binary_string)\n        if length == 0:\n            return {'Zeroes': 0.0, 'Ones': 0.0, 'Bit length': 0}\n        zeroes = self.binary_string.count('0')\n        ones = self.binary_string.count('1')\n        return {\n            'Zeroes': zeroes / length,\n            'Ones': ones / length,\n            'Bit length': length,\n        }\n\n    def convert_to_ascii(self):\n        \"\"\"\n        Convert the binary string to ascii string.\n        >>> bdp = BinaryDataProcessor(\"0110100001100101011011000110110001101111\")\n        >>> bdp.convert_to_ascii()\n        'hello'\n\n        \"\"\"\n        chars = []\n        for i in range(0, len(self.binary_string) - 7, 8):\n            chunk = self.binary_string[i:i + 8]\n            chars.append(chr(int(chunk, 2)))\n        return ''.join(chars)\n\n    def convert_to_utf8(self):\n        \"\"\"\n        Convert the binary string to utf-8 string.\n        >>> bdp = BinaryDataProcessor(\"0110100001100101011011000110110001101111\")\n        >>> bdp.convert_to_utf8()\n        'hello'\n\n        \"\"\"\n        data = bytearray()\n        for i in range(0, len(self.binary_string) - 7, 8):\n            chunk = self.binary_string[i:i + 8]\n            data.append(int(chunk, 2))\n        return data.decode('utf-8', errors='replace')\n```"
+  }
+]

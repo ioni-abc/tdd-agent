@@ -1,0 +1,50 @@
+[
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1333,
+    "output_tokens": 673,
+    "seconds": 3.0,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_match_in_pattern(unittest.TestCase):\n    def test_match_in_pattern_1(self):\n        boyerMooreSearch = BoyerMooreSearch(\"ABAABA\", \"ABAB\")\n        self.assertEqual(boyerMooreSearch.match_in_pattern(\"A\"), 2)\n\n    def test_match_in_pattern_2(self):\n        boyerMooreSearch = BoyerMooreSearch(\"XYZ\", \"Z\")\n        self.assertEqual(boyerMooreSearch.match_in_pattern(\"Z\"), 0)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 3145,
+    "output_tokens": 842,
+    "seconds": 3.3,
+    "reply": "```python\nclass BoyerMooreSearch:\n    \"\"\"\n    his is a class that implements the Boyer-Moore algorithm for string searching, which is used to find occurrences of a pattern within a given text.\n    \"\"\"\n\n    def __init__(self, text, pattern):\n        \"\"\"\n        Initializes the BoyerMooreSearch class with the given text and pattern.\n        :param text: The text to be searched, str.\n        :param pattern: The pattern to be searched for, str.\n        \"\"\"\n        self.text, self.pattern = text, pattern\n        self.textLen, self.patLen = len(text), len(pattern)\n\n    def match_in_pattern(self, char):\n        \"\"\"\n        Finds the rightmost occurrence of a character in the pattern.\n        :param char: The character to be searched for, str.\n        :return: The index of the rightmost occurrence of the character in the pattern, int.\n        >>> boyerMooreSearch = BoyerMooreSearch(\"ABAABA\", \"AB\")\n        >>> boyerMooreSearch.match_in_pattern(\"A\")\n        0\n\n        \"\"\"\n        return self.pattern.rfind(char)\n\n    def mismatch_in_text(self, currentPos):\n        \"\"\"\n        Determines the position of the first dismatch between the pattern and the text.\n        :param currentPos: The current position in the text, int.\n        :return: The position of the first dismatch between the pattern and the text, int,otherwise -1.\n        >>> boyerMooreSearch = BoyerMooreSearch(\"ABAABA\", \"ABC\")\n        >>> boyerMooreSearch.mismatch_in_text(0)\n        2\n\n        \"\"\"\n\n    def bad_character_heuristic(self):\n        \"\"\"\n        Finds all occurrences of the pattern in the text.\n        :return: A list of all positions of the pattern in the text, list.\n        >>> boyerMooreSearch = BoyerMooreSearch(\"ABAABA\", \"AB\")\n        >>> boyerMooreSearch.bad_character_heuristic()\n        [0, 3]\n\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1821,
+    "output_tokens": 825,
+    "seconds": 3.9,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_mismatch_in_text(unittest.TestCase):\n    def test_mismatch_in_text_1(self):\n        boyerMooreSearch = BoyerMooreSearch(\"ABAABA\", \"ABC\")\n        self.assertEqual(boyerMooreSearch.mismatch_in_text(3), 5)\n\n    def test_mismatch_in_text_2(self):\n        boyerMooreSearch = BoyerMooreSearch(\"ABAABA\", \"AAB\")\n        self.assertEqual(boyerMooreSearch.mismatch_in_text(2), -1)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 3651,
+    "output_tokens": 1478,
+    "seconds": 5.4,
+    "reply": "```python\nclass BoyerMooreSearch:\n    \"\"\"\n    his is a class that implements the Boyer-Moore algorithm for string searching, which is used to find occurrences of a pattern within a given text.\n    \"\"\"\n\n    def __init__(self, text, pattern):\n        \"\"\"\n        Initializes the BoyerMooreSearch class with the given text and pattern.\n        :param text: The text to be searched, str.\n        :param pattern: The pattern to be searched for, str.\n        \"\"\"\n        self.text, self.pattern = text, pattern\n        self.textLen, self.patLen = len(text), len(pattern)\n\n    def match_in_pattern(self, char):\n        \"\"\"\n        Finds the rightmost occurrence of a character in the pattern.\n        :param char: The character to be searched for, str.\n        :return: The index of the rightmost occurrence of the character in the pattern, int.\n        >>> boyerMooreSearch = BoyerMooreSearch(\"ABAABA\", \"AB\")\n        >>> boyerMooreSearch.match_in_pattern(\"A\")\n        0\n\n        \"\"\"\n        return self.pattern.rfind(char)\n\n    def mismatch_in_text(self, currentPos):\n        \"\"\"\n        Determines the position of the first dismatch between the pattern and the text.\n        :param currentPos: The current position in the text, int.\n        :return: The position of the first dismatch between the pattern and the text, int,otherwise -1.\n        >>> boyerMooreSearch = BoyerMooreSearch(\"ABAABA\", \"ABC\")\n        >>> boyerMooreSearch.mismatch_in_text(0)\n        2\n\n        \"\"\"\n        if currentPos < 0 or currentPos + self.patLen > self.textLen:\n            return -1\n        for i in range(self.patLen - 1, -1, -1):\n            textIndex = currentPos + i\n            if self.text[textIndex] != self.pattern[i]:\n                return textIndex\n        return -1\n\n    def bad_character_heuristic(self):\n        \"\"\"\n        Finds all occurrences of the pattern in the text.\n        :return: A list of all positions of the pattern in the text, list.\n        >>> boyerMooreSearch = BoyerMooreSearch(\"ABAABA\", \"AB\")\n        >>> boyerMooreSearch.bad_character_heuristic()\n        [0, 3]\n\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2344,
+    "output_tokens": 679,
+    "seconds": 3.2,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_bad_character_heuristic(unittest.TestCase):\n    def test_bad_character_heuristic_1(self):\n        boyerMooreSearch = BoyerMooreSearch(\"AAAA\", \"AA\")\n        self.assertEqual(boyerMooreSearch.bad_character_heuristic(), [0, 1, 2])\n\n    def test_bad_character_heuristic_2(self):\n        boyerMooreSearch = BoyerMooreSearch(\"XYZ\", \"Z\")\n        self.assertEqual(boyerMooreSearch.bad_character_heuristic(), [2])\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 4366,
+    "output_tokens": 2111,
+    "seconds": 7.8,
+    "reply": "```python\nclass BoyerMooreSearch:\n    \"\"\"\n    his is a class that implements the Boyer-Moore algorithm for string searching, which is used to find occurrences of a pattern within a given text.\n    \"\"\"\n\n    def __init__(self, text, pattern):\n        \"\"\"\n        Initializes the BoyerMooreSearch class with the given text and pattern.\n        :param text: The text to be searched, str.\n        :param pattern: The pattern to be searched for, str.\n        \"\"\"\n        self.text, self.pattern = text, pattern\n        self.textLen, self.patLen = len(text), len(pattern)\n\n    def match_in_pattern(self, char):\n        \"\"\"\n        Finds the rightmost occurrence of a character in the pattern.\n        :param char: The character to be searched for, str.\n        :return: The index of the rightmost occurrence of the character in the pattern, int.\n        >>> boyerMooreSearch = BoyerMooreSearch(\"ABAABA\", \"AB\")\n        >>> boyerMooreSearch.match_in_pattern(\"A\")\n        0\n\n        \"\"\"\n        return self.pattern.rfind(char)\n\n    def mismatch_in_text(self, currentPos):\n        \"\"\"\n        Determines the position of the first dismatch between the pattern and the text.\n        :param currentPos: The current position in the text, int.\n        :return: The position of the first dismatch between the pattern and the text, int,otherwise -1.\n        >>> boyerMooreSearch = BoyerMooreSearch(\"ABAABA\", \"ABC\")\n        >>> boyerMooreSearch.mismatch_in_text(0)\n        2\n\n        \"\"\"\n        if currentPos < 0 or currentPos + self.patLen > self.textLen:\n            return -1\n        for i in range(self.patLen - 1, -1, -1):\n            textIndex = currentPos + i\n            if self.text[textIndex] != self.pattern[i]:\n                return textIndex\n        return -1\n\n    def bad_character_heuristic(self):\n        \"\"\"\n        Finds all occurrences of the pattern in the text.\n        :return: A list of all positions of the pattern in the text, list.\n        >>> boyerMooreSearch = BoyerMooreSearch(\"ABAABA\", \"AB\")\n        >>> boyerMooreSearch.bad_character_heuristic()\n        [0, 3]\n\n        \"\"\"\n        positions = []\n        pos = 0\n        while pos <= self.textLen - self.patLen:\n            mis = self.mismatch_in_text(pos)\n            if mis == -1:\n                positions.append(pos)\n                shift = 1\n            else:\n                badChar = self.text[mis]\n                last = self.match_in_pattern(badChar)\n                shift = max(1, mis - pos - last)\n            pos += shift\n        return positions\n```"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "method": "create_table",
+    "tests_in_suite": 2,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 2,
+    "green": true,
+    "tests_given": 2,
+    "tests_written": 0,
+    "tests_valid": true
+  },
+  {
+    "method": "add_book",
+    "tests_in_suite": 3,
+    "red_passed": 2,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 3,
+    "green": true,
+    "tests_given": 1,
+    "tests_written": 0,
+    "tests_valid": true
+  },
+  {
+    "method": "remove_book",
+    "tests_in_suite": 4,
+    "red_passed": 3,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 4,
+    "green": true,
+    "tests_given": 1,
+    "tests_written": 0,
+    "tests_valid": true
+  },
+  {
+    "method": "borrow_book",
+    "tests_in_suite": 5,
+    "red_passed": 4,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true,
+    "tests_given": 1,
+    "tests_written": 0,
+    "tests_valid": true
+  },
+  {
+    "method": "return_book",
+    "tests_in_suite": 6,
+    "red_passed": 5,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 6,
+    "green": true,
+    "tests_given": 1,
+    "tests_written": 0,
+    "tests_valid": true
+  },
+  {
+    "method": "search_books",
+    "tests_in_suite": 7,
+    "red_passed": 6,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 7,
+    "green": true,
+    "tests_given": 1,
+    "tests_written": 0,
+    "tests_valid": true
+  }
+]

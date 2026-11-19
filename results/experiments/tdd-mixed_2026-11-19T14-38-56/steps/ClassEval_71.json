@@ -1,0 +1,38 @@
+[
+  {
+    "method": "init_game",
+    "tests_in_suite": 7,
+    "red_passed": 2,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 7,
+    "green": true,
+    "tests_given": 5,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "check_win",
+    "tests_in_suite": 9,
+    "red_passed": 8,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 9,
+    "green": true,
+    "tests_given": 2,
+    "tests_written": 0,
+    "tests_valid": true
+  },
+  {
+    "method": "move",
+    "tests_in_suite": 16,
+    "red_passed": 16,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 16,
+    "green": true,
+    "tests_given": 5,
+    "tests_written": 2,
+    "tests_valid": true
+  }
+]

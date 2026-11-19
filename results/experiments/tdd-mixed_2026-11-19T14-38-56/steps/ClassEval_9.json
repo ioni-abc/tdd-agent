@@ -1,0 +1,38 @@
+[
+  {
+    "method": "add",
+    "tests_in_suite": 5,
+    "red_passed": 1,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "subtract",
+    "tests_in_suite": 10,
+    "red_passed": 6,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 10,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "multiply",
+    "tests_in_suite": 16,
+    "red_passed": 11,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 16,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 2,
+    "tests_valid": true
+  }
+]

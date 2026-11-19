@@ -1,0 +1,38 @@
+[
+  {
+    "method": "caesar_cipher",
+    "tests_in_suite": 6,
+    "red_passed": 1,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 6,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "vigenere_cipher",
+    "tests_in_suite": 11,
+    "red_passed": 7,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 11,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "rail_fence_cipher",
+    "tests_in_suite": 17,
+    "red_passed": 12,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 17,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 2,
+    "tests_valid": true
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "method": "caesar_decipher",
+    "tests_in_suite": 7,
+    "red_passed": 1,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 7,
+    "green": true,
+    "tests_given": 5,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "vigenere_decipher",
+    "tests_in_suite": 13,
+    "red_passed": 8,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 13,
+    "green": true,
+    "tests_given": 4,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "rail_fence_decipher",
+    "tests_in_suite": 18,
+    "red_passed": 14,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 18,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  }
+]

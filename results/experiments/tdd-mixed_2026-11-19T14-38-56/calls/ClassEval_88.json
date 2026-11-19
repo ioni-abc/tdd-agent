@@ -1,0 +1,82 @@
+[
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1025,
+    "output_tokens": 580,
+    "seconds": 2.7,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_factorial(unittest.TestCase):\n    def test_factorial_1(self):\n        tricalculator = TriCalculator()\n        self.assertEqual(tricalculator.factorial(1), 1)\n\n    def test_factorial_2(self):\n        tricalculator = TriCalculator()\n        self.assertEqual(tricalculator.factorial(10), 3628800)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2500,
+    "output_tokens": 674,
+    "seconds": 2.8,
+    "reply": "```python\nfrom math import pi, fabs\n\nclass TriCalculator:\n    \"\"\"\n    The class allows to calculate trigonometric values, including cosine, sine, and tangent, using Taylor series approximations.\n    \"\"\"\n\n\n    def __init__(self):\n        pass\n\n    def cos(self, x):\n        \"\"\"\n        Calculate the cos value of the x-degree angle\n        :param x:float\n        :return:float\n        >>> tricalculator = TriCalculator()\n        >>> tricalculator.cos(60)\n        0.5\n        \"\"\"\n\n    def factorial(self, a):\n        \"\"\"\n        Calculate the factorial of a\n        :param a: int\n        :return: int\n        >>> tricalculator.factorial(5)\n        120\n        \"\"\"\n        result = 1\n        for i in range(2, a + 1):\n            result *= i\n        return result\n\n    def taylor(self, x, n):\n        \"\"\"\n        Finding the n-order Taylor expansion value of cos (x/180 * pi)\n        :param x: int\n        :param n: int\n        :return: float\n        >>> tricalculator.taylor(60, 50)\n        0.5000000000000001\n        \"\"\"\n\n    def sin(self, x):\n        \"\"\"\n        Calculate the sin value of the x-degree angle\n        :param x: float\n        :return: float\n        >>> tricalculator.sin(30)\n        0.5\n        \"\"\"\n\n\n    def tan(self, x):\n        \"\"\"\n        Calculate the tan value of the x-degree angle\n        :param x: float\n        :return: float\n        >>> tricalculator.tan(45)\n        1.0\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1375,
+    "output_tokens": 503,
+    "seconds": 2.5,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_taylor(unittest.TestCase):\n    def test_taylor_1(self):\n        tricalculator = TriCalculator()\n        self.assertAlmostEqual(tricalculator.taylor(0, 50), 1.0)\n\n    def test_taylor_2(self):\n        tricalculator = TriCalculator()\n        self.assertAlmostEqual(tricalculator.taylor(180, 50), -1.0)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 3557,
+    "output_tokens": 1036,
+    "seconds": 4.3,
+    "reply": "```python\nfrom math import pi, fabs\n\nclass TriCalculator:\n    \"\"\"\n    The class allows to calculate trigonometric values, including cosine, sine, and tangent, using Taylor series approximations.\n    \"\"\"\n\n\n    def __init__(self):\n        pass\n\n    def cos(self, x):\n        \"\"\"\n        Calculate the cos value of the x-degree angle\n        :param x:float\n        :return:float\n        >>> tricalculator = TriCalculator()\n        >>> tricalculator.cos(60)\n        0.5\n        \"\"\"\n\n    def factorial(self, a):\n        \"\"\"\n        Calculate the factorial of a\n        :param a: int\n        :return: int\n        >>> tricalculator.factorial(5)\n        120\n        \"\"\"\n        result = 1\n        for i in range(2, a + 1):\n            result *= i\n        return result\n\n    def taylor(self, x, n):\n        \"\"\"\n        Finding the n-order Taylor expansion value of cos (x/180 * pi)\n        :param x: int\n        :param n: int\n        :return: float\n        >>> tricalculator.taylor(60, 50)\n        0.5000000000000001\n        \"\"\"\n        angle = x / 180 * pi\n        total = 0.0\n        for k in range(n + 1):\n            total += ((-1) ** k) * (angle ** (2 * k)) / self.factorial(2 * k)\n        return total\n\n    def sin(self, x):\n        \"\"\"\n        Calculate the sin value of the x-degree angle\n        :param x: float\n        :return: float\n        >>> tricalculator.sin(30)\n        0.5\n        \"\"\"\n\n\n    def tan(self, x):\n        \"\"\"\n        Calculate the tan value of the x-degree angle\n        :param x: float\n        :return: float\n        >>> tricalculator.tan(45)\n        1.0\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 1707,
+    "output_tokens": 425,
+    "seconds": 2.2,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_cos(unittest.TestCase):\n    def test_cos_1(self):\n        tricalculator = TriCalculator()\n        self.assertAlmostEqual(tricalculator.cos(180), -1.0)\n\n    def test_cos_2(self):\n        tricalculator = TriCalculator()\n        self.assertAlmostEqual(tricalculator.cos(90), 0.0)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 3659,
+    "output_tokens": 1421,
+    "seconds": 6.0,
+    "reply": "```python\nfrom math import pi, fabs\n\nclass TriCalculator:\n    \"\"\"\n    The class allows to calculate trigonometric values, including cosine, sine, and tangent, using Taylor series approximations.\n    \"\"\"\n\n\n    def __init__(self):\n        pass\n\n    def cos(self, x):\n        \"\"\"\n        Calculate the cos value of the x-degree angle\n        :param x:float\n        :return:float\n        >>> tricalculator = TriCalculator()\n        >>> tricalculator.cos(60)\n        0.5\n        \"\"\"\n        angle = x % 360\n        return round(self.taylor(angle, 50), 10)\n\n    def factorial(self, a):\n        \"\"\"\n        Calculate the factorial of a\n        :param a: int\n        :return: int\n        >>> tricalculator.factorial(5)\n        120\n        \"\"\"\n        result = 1\n        for i in range(2, a + 1):\n            result *= i\n        return result\n\n    def taylor(self, x, n):\n        \"\"\"\n        Finding the n-order Taylor expansion value of cos (x/180 * pi)\n        :param x: int\n        :param n: int\n        :return: float\n        >>> tricalculator.taylor(60, 50)\n        0.5000000000000001\n        \"\"\"\n        angle = x / 180 * pi\n        total = 0.0\n        for k in range(n + 1):\n            total += ((-1) ** k) * (angle ** (2 * k)) / self.factorial(2 * k)\n        return total\n\n    def sin(self, x):\n        \"\"\"\n        Calculate the sin value of the x-degree angle\n        :param x: float\n        :return: float\n        >>> tricalculator.sin(30)\n        0.5\n        \"\"\"\n\n\n    def tan(self, x):\n        \"\"\"\n        Calculate the tan value of the x-degree angle\n        :param x: float\n        :return: float\n        >>> tricalculator.tan(45)\n        1.0\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2035,
+    "output_tokens": 655,
+    "seconds": 3.3,
+    "reply": "```python\nimport unittest\n\n\nclass AgentTest_sin(unittest.TestCase):\n    def test_sin_1(self):\n        tricalculator = TriCalculator()\n        self.assertAlmostEqual(tricalculator.sin(90), 1.0)\n\n    def test_sin_2(self):\n        tricalculator = TriCalculator()\n        self.assertAlmostEqual(tricalculator.sin(45), 0.7071067811865476)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 4031,
+    "output_tokens": 1166,
+    "seconds": 4.6,
+    "reply": "```python\nfrom math import pi, fabs\n\nclass TriCalculator:\n    \"\"\"\n    The class allows to calculate trigonometric values, including cosine, sine, and tangent, using Taylor series approximations.\n    \"\"\"\n\n\n    def __init__(self):\n        pass\n\n    def cos(self, x):\n        \"\"\"\n        Calculate the cos value of the x-degree angle\n        :param x:float\n        :return:float\n        >>> tricalculator = TriCalculator()\n        >>> tricalculator.cos(60)\n        0.5\n        \"\"\"\n        angle = x % 360\n        return round(self.taylor(angle, 50), 10)\n\n    def factorial(self, a):\n        \"\"\"\n        Calculate the factorial of a\n        :param a: int\n        :return: int\n        >>> tricalculator.factorial(5)\n        120\n        \"\"\"\n        result = 1\n        for i in range(2, a + 1):\n            result *= i\n        return result\n\n    def taylor(self, x, n):\n        \"\"\"\n        Finding the n-order Taylor expansion value of cos (x/180 * pi)\n        :param x: int\n        :param n: int\n        :return: float\n        >>> tricalculator.taylor(60, 50)\n        0.5000000000000001\n        \"\"\"\n        angle = x / 180 * pi\n        total = 0.0\n        for k in range(n + 1):\n            total += ((-1) ** k) * (angle ** (2 * k)) / self.factorial(2 * k)\n        return total\n\n    def sin(self, x):\n        \"\"\"\n        Calculate the sin value of the x-degree angle\n        :param x: float\n        :return: float\n        >>> tricalculator.sin(30)\n        0.5\n        \"\"\"\n        return self.cos(90 - x)\n\n\n    def tan(self, x):\n        \"\"\"\n        Calculate the tan value of the x-degree angle\n        :param x: float\n        :return: float\n        >>> tricalculator.tan(45)\n        1.0\n        \"\"\"\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 2365,
+    "output_tokens": 580,
+    "seconds": 2.9,
+    "reply": "```python\nclass AgentTest_tan(unittest.TestCase):\n    def test_tan_1(self):\n        tricalculator = TriCalculator()\n        self.assertAlmostEqual(tricalculator.tan(0), 0.0)\n\n    def test_tan_2(self):\n        tricalculator = TriCalculator()\n        self.assertAlmostEqual(tricalculator.tan(60), 1.7320508075688772)\n```"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "stop_reason": "end_turn",
+    "input_tokens": 4363,
+    "output_tokens": 1389,
+    "seconds": 5.5,
+    "reply": "```python\nfrom math import pi, fabs\n\nclass TriCalculator:\n    \"\"\"\n    The class allows to calculate trigonometric values, including cosine, sine, and tangent, using Taylor series approximations.\n    \"\"\"\n\n\n    def __init__(self):\n        pass\n\n    def cos(self, x):\n        \"\"\"\n        Calculate the cos value of the x-degree angle\n        :param x:float\n        :return:float\n        >>> tricalculator = TriCalculator()\n        >>> tricalculator.cos(60)\n        0.5\n        \"\"\"\n        angle = x % 360\n        return round(self.taylor(angle, 50), 10)\n\n    def factorial(self, a):\n        \"\"\"\n        Calculate the factorial of a\n        :param a: int\n        :return: int\n        >>> tricalculator.factorial(5)\n        120\n        \"\"\"\n        result = 1\n        for i in range(2, a + 1):\n            result *= i\n        return result\n\n    def taylor(self, x, n):\n        \"\"\"\n        Finding the n-order Taylor expansion value of cos (x/180 * pi)\n        :param x: int\n        :param n: int\n        :return: float\n        >>> tricalculator.taylor(60, 50)\n        0.5000000000000001\n        \"\"\"\n        angle = x / 180 * pi\n        total = 0.0\n        for k in range(n + 1):\n            total += ((-1) ** k) * (angle ** (2 * k)) / self.factorial(2 * k)\n        return total\n\n    def sin(self, x):\n        \"\"\"\n        Calculate the sin value of the x-degree angle\n        :param x: float\n        :return: float\n        >>> tricalculator.sin(30)\n        0.5\n        \"\"\"\n        return self.cos(90 - x)\n\n\n    def tan(self, x):\n        \"\"\"\n        Calculate the tan value of the x-degree angle\n        :param x: float\n        :return: float\n        >>> tricalculator.tan(45)\n        1.0\n        \"\"\"\n        cos_value = self.cos(x)\n        if fabs(cos_value) < 1e-10:\n            return False\n        return self.sin(x) / cos_value\n```"
+  }
+]

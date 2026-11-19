@@ -1,0 +1,50 @@
+[
+  {
+    "method": "correlation_coefficient",
+    "tests_in_suite": 5,
+    "red_passed": 1,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "skewness",
+    "tests_in_suite": 10,
+    "red_passed": 6,
+    "coded": true,
+    "fix_attempts": 3,
+    "green_passed": 9,
+    "green": false,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "kurtosis",
+    "tests_in_suite": 15,
+    "red_passed": 12,
+    "coded": true,
+    "fix_attempts": 3,
+    "green_passed": 13,
+    "green": false,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  },
+  {
+    "method": "pdf",
+    "tests_in_suite": 20,
+    "red_passed": 18,
+    "coded": true,
+    "fix_attempts": 3,
+    "green_passed": 4,
+    "green": false,
+    "tests_given": 3,
+    "tests_written": 2,
+    "tests_valid": true
+  }
+]

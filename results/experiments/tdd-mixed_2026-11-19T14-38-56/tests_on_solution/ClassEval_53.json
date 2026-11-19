@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_53",
+  "counts": {
+    "tests_total": 10,
+    "tests_passed": 9,
+    "tests_failed": 1,
+    "tests_errored": 0
+  },
+  "class_passed": false,
+  "timed_out": false,
+  "log": "test_add_word_1 (temp_file.AgentTest_add_word.test_add_word_1) ... ok\ntest_add_word_2 (temp_file.AgentTest_add_word.test_add_word_2) ... ok\ntest_find_longest_word_1 (temp_file.AgentTest_find_longest_word.test_find_longest_word_1) ... FAIL\ntest_find_longest_word_2 (temp_file.AgentTest_find_longest_word.test_find_longest_word_2) ... ok\ntest_add_word_1 (temp_file.LongestWordTestAddWord.test_add_word_1) ... ok\ntest_add_word_2 (temp_file.LongestWordTestAddWord.test_add_word_2) ... ok\ntest_add_word_3 (temp_file.LongestWordTestAddWord.test_add_word_3) ... ok\ntest_find_longest_word_1 (temp_file.LongestWordTestFindLongestWord.test_find_longest_word_1) ... ok\ntest_find_longest_word_2 (temp_file.LongestWordTestFindLongestWord.test_find_longest_word_2) ... ok\ntest_find_longest_word_3 (temp_file.LongestWordTestFindLongestWord.test_find_longest_word_3) ... ok\n\n======================================================================\nFAIL: test_find_longest_word_1 (temp_file.AgentTest_find_longest_word.test_find_longest_word_1)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/private/var/folders/9x/ldh22fhs6m388ywc7hb7f9qc0000gn/T/tmpf9mjv9zf/temp_file.py\", line 86, in test_find_longest_word_1\n    self.assertEqual('I', longestWord.find_longest_word(sentence))\nAssertionError: 'I' != ''\n- I\n\n\n----------------------------------------------------------------------\nRan 10 tests in 0.000s\n\nFAILED (failures=1)\n"
+}

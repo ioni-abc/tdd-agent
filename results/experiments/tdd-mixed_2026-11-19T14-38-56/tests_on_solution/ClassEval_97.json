@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_97",
+  "counts": {
+    "tests_total": 12,
+    "tests_passed": 11,
+    "tests_failed": 1,
+    "tests_errored": 0
+  },
+  "class_passed": false,
+  "timed_out": false,
+  "log": "test_is_valid_input_1 (temp_file.AgentTest_is_valid_input.test_is_valid_input_1) ... FAIL\ntest_is_valid_input_2 (temp_file.AgentTest_is_valid_input.test_is_valid_input_2) ... ok\ntest_text2int_1 (temp_file.AgentTest_text2int.test_text2int_1) ... ok\ntest_text2int_2 (temp_file.AgentTest_text2int.test_text2int_2) ... ok\ntest_is_valid_input (temp_file.Words2NumbersTestIsValidInput.test_is_valid_input) ... ok\ntest_is_valid_input2 (temp_file.Words2NumbersTestIsValidInput.test_is_valid_input2) ... ok\ntest_is_valid_input3 (temp_file.Words2NumbersTestIsValidInput.test_is_valid_input3) ... ok\ntest_is_valid_input4 (temp_file.Words2NumbersTestIsValidInput.test_is_valid_input4) ... ok\ntest_text2int (temp_file.Words2NumbersTestText2Int.test_text2int) ... ok\ntest_text2int2 (temp_file.Words2NumbersTestText2Int.test_text2int2) ... ok\ntest_text2int3 (temp_file.Words2NumbersTestText2Int.test_text2int3) ... ok\ntest_text2int4 (temp_file.Words2NumbersTestText2Int.test_text2int4) ... ok\n\n======================================================================\nFAIL: test_is_valid_input_1 (temp_file.AgentTest_is_valid_input.test_is_valid_input_1)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/private/var/folders/9x/ldh22fhs6m388ywc7hb7f9qc0000gn/T/tmpoz6cfrg0/temp_file.py\", line 130, in test_is_valid_input_1\n    self.assertFalse(w2n.is_valid_input(\"thirty-two\"))\nAssertionError: True is not false\n\n----------------------------------------------------------------------\nRan 12 tests in 0.000s\n\nFAILED (failures=1)\n"
+}
