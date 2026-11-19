@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_70",
+  "counts": {
+    "tests_total": 16,
+    "tests_passed": 16,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_PersonRequest (temp_file.PersonRequestTest.test_PersonRequest) ... ok\ntest_validate_name_1 (temp_file.PersonRequestTestValidateName.test_validate_name_1) ... ok\ntest_validate_name_2 (temp_file.PersonRequestTestValidateName.test_validate_name_2) ... ok\ntest_validate_name_3 (temp_file.PersonRequestTestValidateName.test_validate_name_3) ... ok\ntest_validate_name_4 (temp_file.PersonRequestTestValidateName.test_validate_name_4) ... ok\ntest_validate_name_5 (temp_file.PersonRequestTestValidateName.test_validate_name_5) ... ok\ntest_validate_phoneNumber_1 (temp_file.PersonRequestTestValidatePhoneNumber.test_validate_phoneNumber_1) ... ok\ntest_validate_phoneNumber_2 (temp_file.PersonRequestTestValidatePhoneNumber.test_validate_phoneNumber_2) ... ok\ntest_validate_phoneNumber_3 (temp_file.PersonRequestTestValidatePhoneNumber.test_validate_phoneNumber_3) ... ok\ntest_validate_phoneNumber_4 (temp_file.PersonRequestTestValidatePhoneNumber.test_validate_phoneNumber_4) ... ok\ntest_validate_phoneNumber_5 (temp_file.PersonRequestTestValidatePhoneNumber.test_validate_phoneNumber_5) ... ok\ntest_validate_sex_1 (temp_file.PersonRequestTestValidateSex.test_validate_sex_1) ... ok\ntest_validate_sex_2 (temp_file.PersonRequestTestValidateSex.test_validate_sex_2) ... ok\ntest_validate_sex_3 (temp_file.PersonRequestTestValidateSex.test_validate_sex_3) ... ok\ntest_validate_sex_4 (temp_file.PersonRequestTestValidateSex.test_validate_sex_4) ... ok\ntest_validate_sex_5 (temp_file.PersonRequestTestValidateSex.test_validate_sex_5) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.000s\n\nOK\n"
+}

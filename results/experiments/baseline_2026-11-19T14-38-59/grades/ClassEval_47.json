@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_47",
+  "counts": {
+    "tests_total": 16,
+    "tests_passed": 16,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_IPAddress (temp_file.IPAddressTest.test_IPAddress) ... ok\ntest_get_binary_1 (temp_file.IPAddressTestGetBinary.test_get_binary_1) ... ok\ntest_get_binary_2 (temp_file.IPAddressTestGetBinary.test_get_binary_2) ... ok\ntest_get_binary_3 (temp_file.IPAddressTestGetBinary.test_get_binary_3) ... ok\ntest_get_binary_4 (temp_file.IPAddressTestGetBinary.test_get_binary_4) ... ok\ntest_get_binary_5 (temp_file.IPAddressTestGetBinary.test_get_binary_5) ... ok\ntest_get_octets_1 (temp_file.IPAddressTestGetOctets.test_get_octets_1) ... ok\ntest_get_octets_2 (temp_file.IPAddressTestGetOctets.test_get_octets_2) ... ok\ntest_get_octets_3 (temp_file.IPAddressTestGetOctets.test_get_octets_3) ... ok\ntest_get_octets_4 (temp_file.IPAddressTestGetOctets.test_get_octets_4) ... ok\ntest_get_octets_5 (temp_file.IPAddressTestGetOctets.test_get_octets_5) ... ok\ntest_is_valid_1 (temp_file.IPAddressTestIsValid.test_is_valid_1) ... ok\ntest_is_valid_2 (temp_file.IPAddressTestIsValid.test_is_valid_2) ... ok\ntest_is_valid_3 (temp_file.IPAddressTestIsValid.test_is_valid_3) ... ok\ntest_is_valid_4 (temp_file.IPAddressTestIsValid.test_is_valid_4) ... ok\ntest_is_valid_5 (temp_file.IPAddressTestIsValid.test_is_valid_5) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.000s\n\nOK\n"
+}
