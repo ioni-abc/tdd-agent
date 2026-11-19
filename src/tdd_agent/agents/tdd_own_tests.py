@@ -53,7 +53,16 @@ class TDDOwnTestsAgent(TDDAgent):
         return "", 0
 
     def _check_loads(self, skeleton: str, suite: str) -> None:
-        """The suite must still load: a bad import or name at module level would break every later run."""
+        """The suite must still load: a bad import or name at module level would break every later run.
+
+        Checked against the skeleton, so it can only judge the tests if the skeleton itself is valid
+        Python. Three ClassEval skeletons are not (22, 43, 46: an unclosed docstring, curly quotes);
+        there the check is skipped, and the red run's "could not run" feedback lets the LLM repair it.
+        """
+        try:
+            compile(skeleton, "<skeleton>", "exec")
+        except SyntaxError:
+            return
         run = self.run(skeleton, suite)
         if "_FailedTest" in run.log or parse_log(run.log).tests_total == 0:
             raise UnusableTests("The test file fails to load:\n" + run.log[-1500:])

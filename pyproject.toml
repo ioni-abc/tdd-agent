@@ -27,6 +27,7 @@ dev = [
 eval = [
     "beautifulsoup4>=4.15.0",
     "gensim>=4.4.0",
+    "netifaces>=0.11.0",
     "nltk>=3.10.4",
     "numpy<2",
     "openpyxl>=3.1.5",
