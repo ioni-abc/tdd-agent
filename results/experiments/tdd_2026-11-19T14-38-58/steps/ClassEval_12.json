@@ -1,0 +1,29 @@
+[
+  {
+    "method": "create_deck",
+    "tests_in_suite": 5,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true
+  },
+  {
+    "method": "calculate_hand_value",
+    "tests_in_suite": 11,
+    "red_passed": 5,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 11,
+    "green": true
+  },
+  {
+    "method": "check_winner",
+    "tests_in_suite": 17,
+    "red_passed": 11,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 17,
+    "green": true
+  }
+]

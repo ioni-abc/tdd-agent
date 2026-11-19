@@ -1,0 +1,29 @@
+[
+  {
+    "method": "init_game",
+    "tests_in_suite": 7,
+    "red_passed": 2,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 7,
+    "green": true
+  },
+  {
+    "method": "check_win",
+    "tests_in_suite": 9,
+    "red_passed": 8,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 9,
+    "green": true
+  },
+  {
+    "method": "move",
+    "tests_in_suite": 16,
+    "red_passed": 16,
+    "coded": false,
+    "fix_attempts": 0,
+    "green_passed": 16,
+    "green": true
+  }
+]

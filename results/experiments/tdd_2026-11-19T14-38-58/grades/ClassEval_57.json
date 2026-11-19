@@ -1,0 +1,12 @@
+{
+  "task_id": "ClassEval_57",
+  "counts": {
+    "tests_total": 20,
+    "tests_passed": 20,
+    "tests_failed": 0,
+    "tests_errored": 0
+  },
+  "class_passed": true,
+  "timed_out": false,
+  "log": "test_metricscalculator2_1 (temp_file.MetricsCalculator2Test.test_metricscalculator2_1) ... ok\ntest_metricscalculator2_2 (temp_file.MetricsCalculator2Test.test_metricscalculator2_2) ... ok\ntest_metricscalculator2_3 (temp_file.MetricsCalculator2Test.test_metricscalculator2_3) ... ok\ntest_metricscalculator2_4 (temp_file.MetricsCalculator2Test.test_metricscalculator2_4) ... ok\ntest_map_1 (temp_file.MetricsCalculator2TestMap.test_map_1) ... ok\ntest_map_2 (temp_file.MetricsCalculator2TestMap.test_map_2) ... ok\ntest_map_3 (temp_file.MetricsCalculator2TestMap.test_map_3) ... ok\ntest_map_4 (temp_file.MetricsCalculator2TestMap.test_map_4) ... ok\ntest_map_5 (temp_file.MetricsCalculator2TestMap.test_map_5) ... ok\ntest_map_6 (temp_file.MetricsCalculator2TestMap.test_map_6) ... ok\ntest_map_7 (temp_file.MetricsCalculator2TestMap.test_map_7) ... ok\ntest_map_8 (temp_file.MetricsCalculator2TestMap.test_map_8) ... ok\ntest_mrr_1 (temp_file.MetricsCalculator2TestMrr.test_mrr_1) ... ok\ntest_mrr_2 (temp_file.MetricsCalculator2TestMrr.test_mrr_2) ... ok\ntest_mrr_3 (temp_file.MetricsCalculator2TestMrr.test_mrr_3) ... ok\ntest_mrr_4 (temp_file.MetricsCalculator2TestMrr.test_mrr_4) ... ok\ntest_mrr_5 (temp_file.MetricsCalculator2TestMrr.test_mrr_5) ... ok\ntest_mrr_6 (temp_file.MetricsCalculator2TestMrr.test_mrr_6) ... ok\ntest_mrr_7 (temp_file.MetricsCalculator2TestMrr.test_mrr_7) ... ok\ntest_mrr_8 (temp_file.MetricsCalculator2TestMrr.test_mrr_8) ... ok\n\n----------------------------------------------------------------------\nRan 20 tests in 0.001s\n\nOK\n"
+}

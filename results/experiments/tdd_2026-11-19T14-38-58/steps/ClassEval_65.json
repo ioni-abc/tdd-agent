@@ -1,0 +1,47 @@
+[
+  {
+    "method": "trans_two",
+    "tests_in_suite": 6,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 6,
+    "green": true
+  },
+  {
+    "method": "trans_three",
+    "tests_in_suite": 11,
+    "red_passed": 6,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 11,
+    "green": true
+  },
+  {
+    "method": "parse_more",
+    "tests_in_suite": 15,
+    "red_passed": 11,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 15,
+    "green": true
+  },
+  {
+    "method": "format_string",
+    "tests_in_suite": 21,
+    "red_passed": 15,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 21,
+    "green": true
+  },
+  {
+    "method": "format",
+    "tests_in_suite": 27,
+    "red_passed": 26,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 27,
+    "green": true
+  }
+]

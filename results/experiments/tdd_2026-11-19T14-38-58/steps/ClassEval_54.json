@@ -1,0 +1,47 @@
+[
+  {
+    "method": "create_board",
+    "tests_in_suite": 5,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true
+  },
+  {
+    "method": "has_path",
+    "tests_in_suite": 11,
+    "red_passed": 5,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 11,
+    "green": true
+  },
+  {
+    "method": "is_valid_move",
+    "tests_in_suite": 17,
+    "red_passed": 11,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 17,
+    "green": true
+  },
+  {
+    "method": "remove_icons",
+    "tests_in_suite": 22,
+    "red_passed": 17,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 22,
+    "green": true
+  },
+  {
+    "method": "is_game_over",
+    "tests_in_suite": 27,
+    "red_passed": 22,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 27,
+    "green": true
+  }
+]

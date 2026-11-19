@@ -1,0 +1,47 @@
+[
+  {
+    "method": "calculate_circle_area",
+    "tests_in_suite": 5,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true
+  },
+  {
+    "method": "calculate_sphere_area",
+    "tests_in_suite": 10,
+    "red_passed": 9,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 10,
+    "green": true
+  },
+  {
+    "method": "calculate_cylinder_area",
+    "tests_in_suite": 15,
+    "red_passed": 10,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 15,
+    "green": true
+  },
+  {
+    "method": "calculate_sector_area",
+    "tests_in_suite": 20,
+    "red_passed": 15,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 20,
+    "green": true
+  },
+  {
+    "method": "calculate_annulus_area",
+    "tests_in_suite": 25,
+    "red_passed": 20,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 25,
+    "green": true
+  }
+]

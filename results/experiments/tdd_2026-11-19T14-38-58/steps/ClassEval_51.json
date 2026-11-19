@@ -1,0 +1,20 @@
+[
+  {
+    "method": "kappa",
+    "tests_in_suite": 5,
+    "red_passed": 0,
+    "coded": true,
+    "fix_attempts": 0,
+    "green_passed": 5,
+    "green": true
+  },
+  {
+    "method": "fleiss_kappa",
+    "tests_in_suite": 10,
+    "red_passed": 5,
+    "coded": true,
+    "fix_attempts": 1,
+    "green_passed": 10,
+    "green": true
+  }
+]
