@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never says what happens when N is past the last column, yet the test expects a return of 0 for N=100, and the agent's code simply writes the file unchanged and returns success, which none of its own tests exercised."
+}

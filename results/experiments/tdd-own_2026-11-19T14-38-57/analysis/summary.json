@@ -1,0 +1,40 @@
+{
+  "run": "tdd-own_2026-11-19T14-38-57",
+  "failed_classes": 57,
+  "tests_by_reason": {
+    "class": {},
+    "classeval_test": {
+      "unstated_behaviour": 145,
+      "docstring_contradicts_solution": 38,
+      "no_method_info": 30,
+      "other_code_bug": 13,
+      "caused_by_wrong_agent_test": 10,
+      "stated_but_untested": 4,
+      "unparsed": 2
+    },
+    "agent_test": {
+      "agent_assumed_unstated": 54,
+      "broken_test_code": 37,
+      "docstring_contradicts_solution": 35,
+      "docstring_example_wrong": 5,
+      "agent_misread_docstring": 2
+    }
+  },
+  "agent_tests_in_passing_classes": 16,
+  "classes_by_classeval_reason": {
+    "unstated_behaviour": 49,
+    "no_method_info": 22,
+    "docstring_contradicts_solution": 15,
+    "caused_by_wrong_agent_test": 6,
+    "other_code_bug": 5,
+    "stated_but_untested": 4,
+    "unparsed": 2
+  },
+  "docstring_examples": {
+    "methods_with_examples": 380,
+    "examples": 961,
+    "examples_not_reproduced_by_solution_code": 291,
+    "examples_contradicting_solution_code": 15,
+    "tasks_with_a_contradicting_example": 12
+  }
+}

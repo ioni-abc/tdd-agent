@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only describes returning the resource path on success and never says what to return for a URL with no scheme or path, so the test's expectation of None for 'abcdefg' is behaviour the agent had no way to know from the docstring."
+}

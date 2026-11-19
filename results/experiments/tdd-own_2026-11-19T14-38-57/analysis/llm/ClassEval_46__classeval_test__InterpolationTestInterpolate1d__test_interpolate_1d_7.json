@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says nothing about empty x/y inputs or nested-list x_interp values, which is what this test checks; the reference returns [] by skipping every point, while the agent's code indexes xs[1] on an empty list and raises IndexError."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring only shows a URL with a query string and never says what to return when there is no '?', so the test's expectation of {} is an assumption the docstring does not support, while the solution returns None."
+}

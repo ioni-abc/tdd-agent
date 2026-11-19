@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never says what happens when the dish dict lacks a count or has a non-positive count, yet the agent's code rejects such input with `requested <= 0`, while the reference solution accepts an empty dict and returns True, so the failing test checks behaviour the docstring does not describe."
+}

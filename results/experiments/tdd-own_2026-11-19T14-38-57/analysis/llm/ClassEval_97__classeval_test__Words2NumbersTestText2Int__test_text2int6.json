@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says to convert word strings to integer strings with a '32' example and never mentions ordinal words like 'sixty-ninth', yet the test expects them to be converted, so the agent had no stated basis for handling them."
+}

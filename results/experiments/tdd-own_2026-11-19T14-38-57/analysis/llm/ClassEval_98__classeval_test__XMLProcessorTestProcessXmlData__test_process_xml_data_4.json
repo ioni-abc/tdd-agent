@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says the method 'modifies the data in XML elements' without specifying uppercasing, so the agent's whitespace-stripping implementation was a reasonable reading, and the test's expectation of 'APPLE' comes from behaviour the docstring never describes."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says set_volume returns True when the volume is set, and the test follows that, but the reference solution returns None for valid input and only returns False for invalid input."
+}

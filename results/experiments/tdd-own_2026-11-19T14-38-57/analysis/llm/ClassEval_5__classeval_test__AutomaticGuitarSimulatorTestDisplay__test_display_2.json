@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says \"Print out\" the chord and tune and the example shows printed output, so the agent's print-based code follows it, while the reference solution and the failing test expect `display` to return the string (`:return: str`)."
+}

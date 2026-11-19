@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never says that an out-of-range page number should return an empty dict, which is the behaviour this test checks, so the agent had no way to know it was required."
+}

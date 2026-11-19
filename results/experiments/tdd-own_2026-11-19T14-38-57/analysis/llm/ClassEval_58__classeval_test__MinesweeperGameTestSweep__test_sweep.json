@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The test checks that `score` increases to 1 after a sweep, but the docstring only describes the return value and never mentions updating the score, so the agent had no stated basis for incrementing it."
+}

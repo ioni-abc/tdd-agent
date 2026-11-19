@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says the method returns the expression without spaces (example \"2 + 3 * 4\" -> \"2+3*4\"), and never mentions converting unary minus to '~', which is the behaviour this test checks."
+}

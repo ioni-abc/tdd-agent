@@ -1,0 +1,4 @@
+{
+  "label": "other_code_bug",
+  "reason": "The error is a NameError for ImageChops, meaning the agent's module never imported it, which the test needs; this is a missing-import mistake in the agent's code, not a behaviour mismatch with the docstring, and no agent test was wrong."
+}

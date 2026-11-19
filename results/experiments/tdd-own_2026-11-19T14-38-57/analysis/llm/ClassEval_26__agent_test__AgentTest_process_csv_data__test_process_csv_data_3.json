@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring says only that the N-th column is kept, capitalized and written with the title, without specifying the row layout; the reference writes all values as one row, while the test assumed one row per value, which the docstring does not state."
+}

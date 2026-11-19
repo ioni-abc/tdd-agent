@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The failing test depends on the table name `books` and column `available`, but the docstring never specifies the schema, so the agent's use of `book` and `availability` was not something the docstring ruled out."
+}

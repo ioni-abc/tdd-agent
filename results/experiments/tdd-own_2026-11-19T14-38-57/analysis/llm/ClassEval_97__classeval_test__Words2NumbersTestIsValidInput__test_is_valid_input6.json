@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says valid words are those convertible to numbers and never mentions ordinal forms like \"fifteenth\", which the reference handles via ordinal_endings; the agent's code rejects it, but the docstring does not specify that behaviour."
+}

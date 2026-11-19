@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says checkout returns False when empty or the total otherwise, but never says selected_dishes should be cleared afterward, which is the behaviour the failing assertion checks and the reference solution implements."
+}

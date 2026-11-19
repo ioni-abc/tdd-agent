@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says the method should 'Print out' the text, so the test captures stdout, but the reference solution returns the string instead of printing it, so the captured output is empty."
+}

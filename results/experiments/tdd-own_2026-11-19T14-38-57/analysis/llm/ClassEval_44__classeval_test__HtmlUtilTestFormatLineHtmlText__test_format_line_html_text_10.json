@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The failing test expects a period appended to paragraph text and no newline between elements, but the docstring only shows line-separated output and never mentions adding periods, so the agent's newline-joined output is consistent with what it was told."
+}

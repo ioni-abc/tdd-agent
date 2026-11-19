@@ -1,0 +1,4 @@
+{
+  "label": "stated_but_untested",
+  "reason": "The docstring states the return value is the position of the mismatch between pattern and text, which means a text position offset by currentPos, but the agent returned the pattern index i instead. The docstring example uses currentPos=0, where both readings give 2, and the agent wrote no test with a nonzero currentPos to catch this."
+}

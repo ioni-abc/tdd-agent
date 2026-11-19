@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The return_book docstring only says it marks a book as returned, so the test's claim that a subsequent borrow_book call leaves availability not equal to 1 is an assumption about other behaviour that the docstring never describes."
+}

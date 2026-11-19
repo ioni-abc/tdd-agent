@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The agent's view_inventory matches the reference (it returns self.inventory), and its docstring says nothing about whether books with zero quantity are removed from the dict, so the failure comes from the removal behaviour the test checks (the inventory keeps zero-quantity entries instead of deleting them), which the docstring does not describe."
+}

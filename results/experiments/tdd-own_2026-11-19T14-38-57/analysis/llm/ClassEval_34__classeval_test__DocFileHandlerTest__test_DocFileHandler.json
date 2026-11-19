@@ -1,0 +1,4 @@
+{
+  "label": "other_code_bug",
+  "reason": "The failing assertion is in write_text, which appended to the existing content instead of replacing it, a mistake outside _get_alignment_value; the agent had no wrong tests, and the alignment method's mapping is not implicated."
+}

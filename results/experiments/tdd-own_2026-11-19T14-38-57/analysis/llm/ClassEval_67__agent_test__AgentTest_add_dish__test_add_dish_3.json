@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring says nothing about a dish missing from the menu, so the test's expectation of False for an unknown dish is an assumption, while the reference solution appends it and returns True."
+}

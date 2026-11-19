@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says display should 'Print out' the chord and tune, so the test captures stdout, but the reference solution returns the string instead of printing it, giving an empty capture."
+}

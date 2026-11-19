@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring says nothing about out-of-bounds coordinates, so the test's assumption that make_move(10, 3) and similar calls return False is the agent's own guess, and the reference solution raises IndexError on them."
+}

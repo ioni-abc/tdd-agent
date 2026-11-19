@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says to remove a stock with an example of an exact-match removal, and never says what happens when the requested quantity exceeds the held quantity, which is the behaviour this test checks (expecting False)."
+}

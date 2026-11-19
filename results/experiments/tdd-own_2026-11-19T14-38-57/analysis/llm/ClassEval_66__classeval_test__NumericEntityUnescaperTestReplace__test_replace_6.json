@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says nothing about how a truncated reference like \"&#\" should be handled, so the test's expectation that it becomes an empty string comes from the reference's loop bounds rather than from any stated rule."
+}

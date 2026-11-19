@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says the method should 'Print out' the chord and tune, so the agent's test captures stdout, but the reference solution returns the string and prints nothing, giving an empty capture."
+}

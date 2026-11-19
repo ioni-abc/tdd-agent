@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never says how invalid characters such as '?' should be handled, and the reference silently ignores them to return 3, while the agent treated the bad character as a failure and returned None, which the docstring's 'otherwise None' wording does not clearly rule out."
+}

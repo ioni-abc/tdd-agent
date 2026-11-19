@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says it creates \"the book table\" and gives no table name or column names, yet the test expects a table named `books` with columns id, title, author and available. The agent chose `book` with `availability`, so `PRAGMA table_info(books)` returns an empty list, and nothing in the docstring specifies that schema."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "other_code_bug",
+  "reason": "The failure is a NameError for ImageChops, which the test uses but the agent's module never imported, so the problem is a missing import in the agent's code rather than the brightness behaviour or any listed test."
+}

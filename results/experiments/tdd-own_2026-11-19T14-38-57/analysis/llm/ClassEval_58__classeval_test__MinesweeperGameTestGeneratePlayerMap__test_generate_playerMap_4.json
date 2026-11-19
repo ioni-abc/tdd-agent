@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The error comes from the constructor's mine placement (random.sample with k=4 on a 1x1 board), and the docstring never says k must be at most n*n, so the agent had no spec for this case; generate_playerMap itself correctly returns [['-']]."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says the method returns False or True and says nothing about storing the message in the receiver's list, which is the behaviour the failing test checks (the agent's code appends only to the sender's list)."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "stated_but_untested",
+  "reason": "The docstring explicitly says `:return: str`, but the agent's code prints and returns None, and none of its tests checked the return value because they only captured stdout."
+}

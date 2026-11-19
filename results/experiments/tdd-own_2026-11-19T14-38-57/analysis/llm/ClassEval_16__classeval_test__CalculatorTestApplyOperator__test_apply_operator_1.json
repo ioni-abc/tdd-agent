@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring example `([1, -1], ['-'])` matches the agent's output, which removes the first operator and leaves `['-']`, while the reference solution pops the last operator and the failing test expects `['+']`, so the docstring and solution disagree."
+}

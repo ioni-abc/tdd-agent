@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never says what happens for constant input, and the failing test expects None while the agent's code raises ValueError, so the test checks behaviour the docstring does not describe."
+}

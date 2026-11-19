@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring only says to generate random numbers for the cards and says nothing about whether repeated calls replace or append, so the test's assumption that a second call leaves four numbers is unstated; the reference appends four more, giving eight, and the assertion fails."
+}

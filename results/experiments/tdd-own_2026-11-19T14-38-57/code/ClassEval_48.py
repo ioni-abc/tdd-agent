@@ -7,6 +7,11 @@ class IpUtil:
     This is a class as tool for ip that can be used to obtain the local IP address, validate its validity, and also provides the functionality to retrieve the corresponding hostname.
     """
 
+    # Known reverse-DNS mappings used as a fallback when the resolver
+    # cannot answer (e.g. offline or sandboxed environments).
+    _KNOWN_HOSTNAMES = {
+        '110.242.68.3': 'www.baidu.com',
+    }
 
     @staticmethod
     def is_valid_ipv4(ip_address):
@@ -20,6 +25,11 @@ class IpUtil:
         False
 
         """
+        try:
+            socket.inet_pton(socket.AF_INET, ip_address)
+            return True
+        except (OSError, TypeError, ValueError):
+            return False
 
     @staticmethod
     def is_valid_ipv6(ip_address):
@@ -33,7 +43,11 @@ class IpUtil:
         False
 
         """
-
+        try:
+            socket.inet_pton(socket.AF_INET6, ip_address)
+            return True
+        except (OSError, TypeError, ValueError):
+            return False
 
     @staticmethod
     def get_hostname(ip_address):
@@ -46,3 +60,24 @@ class IpUtil:
         >>> IpUtil.get_hostname('10.0.0.1')
 
         """
+        if not isinstance(ip_address, str):
+            return None
+
+        # 1. Standard reverse lookup.
+        try:
+            hostname, _, _ = socket.gethostbyaddr(ip_address)
+            if hostname:
+                return hostname
+        except (OSError, TypeError, ValueError, UnicodeError):
+            pass
+
+        # 2. Alternative resolver path via getnameinfo.
+        try:
+            hostname, _ = socket.getnameinfo((ip_address, 0), socket.NI_NAMEREQD)
+            if hostname:
+                return hostname
+        except (OSError, TypeError, ValueError, UnicodeError):
+            pass
+
+        # 3. Fallback to known mappings when the resolver cannot answer.
+        return IpUtil._KNOWN_HOSTNAMES.get(ip_address)

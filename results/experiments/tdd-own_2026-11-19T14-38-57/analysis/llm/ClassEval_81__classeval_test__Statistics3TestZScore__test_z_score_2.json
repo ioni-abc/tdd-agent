@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only gives the normal z-score formula and example and never says what happens for constant input, yet the test expects None while the agent's code raises ValueError."
+}

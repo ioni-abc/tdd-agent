@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring example says \"thirty-two\" returns False, so the agent's code rejects hyphenated words, while the reference solution replaces hyphens with spaces and expects the hyphenated test input to be True."
+}

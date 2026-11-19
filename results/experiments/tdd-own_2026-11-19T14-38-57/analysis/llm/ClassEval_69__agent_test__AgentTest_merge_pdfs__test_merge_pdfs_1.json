@@ -1,0 +1,4 @@
+{
+  "label": "broken_test_code",
+  "reason": "The test's assertion matches the docstring and the reference's return string exactly, so the failure most likely comes from the test's own helpers (`_make_blank_pdf`, `_path`), which are not shown and may be undefined or use an incompatible PDF API."
+}

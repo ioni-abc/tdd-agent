@@ -1,0 +1,4 @@
+{
+  "label": "agent_misread_docstring",
+  "reason": "The docstring says `:return: str` and its example shows the value of `display(...)`, matching the solution's return statement, but the test captures stdout via `_capture_display`, so it expects printed output that never occurs."
+}

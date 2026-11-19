@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says check_win returns False when not all boxes are on targets, but the reference solution never resets is_game_over to False, so it stays True after a box leaves its target, and the test follows the docstring's stated behaviour."
+}

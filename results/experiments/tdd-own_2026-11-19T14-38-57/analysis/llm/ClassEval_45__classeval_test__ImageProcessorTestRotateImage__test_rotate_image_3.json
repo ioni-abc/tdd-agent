@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The reported error is a NameError from the test file's missing ImageChops import, but the agent's use of expand=True also diverges from the reference's plain rotate(degrees), and the docstring never specifies whether the canvas should expand, so that behaviour is unstated."
+}

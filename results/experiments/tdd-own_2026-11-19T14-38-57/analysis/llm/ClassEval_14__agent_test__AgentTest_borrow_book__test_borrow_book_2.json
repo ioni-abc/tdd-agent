@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring only says borrow_book marks one book as borrowed, and never states the default availability of books added by add_book or the row ordering the test relies on, so the test's assumptions about the other rows' values are the agent's own."
+}

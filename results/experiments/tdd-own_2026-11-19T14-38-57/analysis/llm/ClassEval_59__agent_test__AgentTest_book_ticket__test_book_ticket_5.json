@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says self.movies is changed only if the booking succeeds, so the test's expectation that a failed booking leaves seats unchanged follows the docstring, while the reference solution sets seat (1,1) before hitting the already-booked seat (0,0) and returns 'Booking failed.'."
+}

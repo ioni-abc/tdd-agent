@@ -1,62 +1,62 @@
 [
   {
     "method": "register_student",
-    "tests_in_suite": 0,
+    "tests_in_suite": 5,
     "red_passed": 0,
-    "coded": false,
+    "coded": true,
     "fix_attempts": 0,
-    "green_passed": 0,
-    "green": false,
+    "green_passed": 5,
+    "green": true,
     "tests_given": 0,
-    "tests_written": 0,
-    "tests_valid": false
+    "tests_written": 5,
+    "tests_valid": true
   },
   {
     "method": "register_class",
-    "tests_in_suite": 0,
-    "red_passed": 0,
-    "coded": false,
+    "tests_in_suite": 10,
+    "red_passed": 5,
+    "coded": true,
     "fix_attempts": 0,
-    "green_passed": 0,
-    "green": false,
+    "green_passed": 10,
+    "green": true,
     "tests_given": 0,
-    "tests_written": 0,
-    "tests_valid": false
+    "tests_written": 5,
+    "tests_valid": true
   },
   {
     "method": "get_students_by_major",
-    "tests_in_suite": 0,
-    "red_passed": 0,
-    "coded": false,
+    "tests_in_suite": 15,
+    "red_passed": 10,
+    "coded": true,
     "fix_attempts": 0,
-    "green_passed": 0,
-    "green": false,
+    "green_passed": 15,
+    "green": true,
     "tests_given": 0,
-    "tests_written": 0,
-    "tests_valid": false
+    "tests_written": 5,
+    "tests_valid": true
   },
   {
     "method": "get_all_major",
-    "tests_in_suite": 0,
-    "red_passed": 0,
-    "coded": false,
+    "tests_in_suite": 20,
+    "red_passed": 15,
+    "coded": true,
     "fix_attempts": 0,
-    "green_passed": 0,
-    "green": false,
+    "green_passed": 20,
+    "green": true,
     "tests_given": 0,
-    "tests_written": 0,
-    "tests_valid": false
+    "tests_written": 5,
+    "tests_valid": true
   },
   {
     "method": "get_most_popular_class_in_major",
-    "tests_in_suite": 0,
-    "red_passed": 0,
-    "coded": false,
+    "tests_in_suite": 25,
+    "red_passed": 20,
+    "coded": true,
     "fix_attempts": 0,
-    "green_passed": 0,
-    "green": false,
+    "green_passed": 25,
+    "green": true,
     "tests_given": 0,
-    "tests_written": 0,
-    "tests_valid": false
+    "tests_written": 5,
+    "tests_valid": true
   }
 ]

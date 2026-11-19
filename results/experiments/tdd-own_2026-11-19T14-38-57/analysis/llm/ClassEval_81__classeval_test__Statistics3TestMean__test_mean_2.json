@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never says what the mean of an empty list should be, so the test's expectation of None for `[]` is not described, and the agent's code raises ZeroDivisionError as the docstring allows."
+}

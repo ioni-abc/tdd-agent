@@ -1,0 +1,4 @@
+{
+  "label": "other_code_bug",
+  "reason": "The failure is a NameError for ImageChops, which is missing from the imports the agent's module provides, not a logic error in adjust_brightness, and no wrong agent tests were listed."
+}

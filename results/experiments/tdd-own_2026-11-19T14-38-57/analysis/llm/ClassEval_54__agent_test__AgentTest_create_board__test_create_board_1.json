@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring example shows a fixed, deterministic 4x4 layout that the test expects, but the reference solution fills the board with random.choice, so the solution does not match the documented output."
+}

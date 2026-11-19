@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says nothing about whether x must be sorted or how unsorted x values should be handled, yet the test passes unsorted x=[1,6,4] and expects the reference's segment-by-segment result, which the agent's sorting changes."
+}

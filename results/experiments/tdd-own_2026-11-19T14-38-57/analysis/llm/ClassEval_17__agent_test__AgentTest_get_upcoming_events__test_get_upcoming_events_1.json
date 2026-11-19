@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The test uses the exact event data from the docstring example, which expects a list back, but the reference solution filters on now() and then reads event['start_time'] from an event that lacks that key, so it raises KeyError."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never says what happens to interpolation points outside the grid, while the reference silently drops the out-of-range point (4) and the test expects [7.5], whereas the agent's code extrapolates and returns two values."
+}

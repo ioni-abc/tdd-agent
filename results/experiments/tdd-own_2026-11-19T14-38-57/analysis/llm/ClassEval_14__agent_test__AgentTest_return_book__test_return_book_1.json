@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring only says the book is marked as returned and never describes the `available` column or its value encoding, so the test's assumptions about column index 3 and the value 1 are the agent's own inferences rather than documented behaviour."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring describes N as a 'serial number' and its example calls process_excel_data(1, ...), which the agent read as 1-based indexing (index = N-1). The reference solution uses 0-based row[N] and appends a new column, so the test expects different behaviour than the docstring supports."
+}

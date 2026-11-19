@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The test expects checkout to clear selected_dishes, as the reference solution does, but the docstring never mentions clearing the order, so the agent's code (which doesn't clear it) follows the documented behaviour."
+}

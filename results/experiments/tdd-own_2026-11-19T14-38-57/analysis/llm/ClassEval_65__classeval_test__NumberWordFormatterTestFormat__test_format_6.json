@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says x is an int or float and never mentions None, so the test's expectation that format(None) returns an empty string is behaviour the agent had no way to know from the skeleton."
+}

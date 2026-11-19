@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says customers 'with over 1000 points' get the discount, so the test's expectation of 0.0 at exactly 1000 follows the text, but solution_code uses `>= 1000` and applies the discount at 1000."
+}

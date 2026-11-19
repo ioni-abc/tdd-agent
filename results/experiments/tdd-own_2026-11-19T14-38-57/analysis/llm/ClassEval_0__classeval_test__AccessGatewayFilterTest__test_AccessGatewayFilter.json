@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The failing test checks `filter`, `is_start_with` and `get_jwt_user`, none of which relate to the docstring of `set_current_user_info_and_log`, so the behaviour it asserts is not described for this method. The agent's own tests only exercise logging and do not produce this failure."
+}

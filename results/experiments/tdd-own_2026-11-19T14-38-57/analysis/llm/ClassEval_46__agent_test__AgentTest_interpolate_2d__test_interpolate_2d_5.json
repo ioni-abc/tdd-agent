@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring never states how z is indexed, but the test's comment assumes z[i][j] corresponds to y[i] and x[j], while the reference solution indexes z by x first and y second, so the agent's assumed layout causes the out-of-range access."
+}

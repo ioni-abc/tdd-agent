@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring calls N a 'serial number' and its example passes 1 for the first column, so the agent's N-1 indexing follows the docstring, while the reference solution and this test use 0-based indexing with N=0 for the first column."
+}

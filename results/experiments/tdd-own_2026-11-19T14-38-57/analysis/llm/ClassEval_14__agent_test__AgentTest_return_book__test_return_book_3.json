@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring only says return_book marks a book as returned, and the test assumes title and author stay unchanged, which the docstring never describes."
+}

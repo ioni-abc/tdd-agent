@@ -1,0 +1,4 @@
+{
+  "label": "broken_test_code",
+  "reason": "The test depends on helpers (_make_blank_pdf, _path) and on passing their return values into PDFHandler, and nothing shown confirms that usage is valid, so the failure looks like a fault in the test code rather than a documented-behaviour mismatch."
+}

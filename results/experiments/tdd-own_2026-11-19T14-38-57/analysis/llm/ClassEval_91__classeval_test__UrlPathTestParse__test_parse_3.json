@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says parse populates segments and never mentions the `with_end_tag` flag, which the test checks and the reference sets when the path ends with '/', while the agent's code never sets it."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only specifies converting a str key to camel case and says nothing about non-string input, so the test expecting an integer key to be returned unchanged checks behaviour the agent had no way to know from the docstring."
+}

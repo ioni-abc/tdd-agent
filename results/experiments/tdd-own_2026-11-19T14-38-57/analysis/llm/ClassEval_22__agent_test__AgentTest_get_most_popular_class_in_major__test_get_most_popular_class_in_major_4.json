@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring says nothing about students who have no registered classes, yet the test assumed Bob (with no register_class calls) would be handled gracefully, while the reference solution raises KeyError when it indexes students_registration_classes for him."
+}

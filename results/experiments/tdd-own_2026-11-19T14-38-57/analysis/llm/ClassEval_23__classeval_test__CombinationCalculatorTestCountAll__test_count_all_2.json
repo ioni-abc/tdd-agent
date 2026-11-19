@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says nothing about negative inputs or what to return for them, yet the test expects `False` for `count_all(-1)`, and the agent's code crashes with a ValueError on the negative shift."
+}

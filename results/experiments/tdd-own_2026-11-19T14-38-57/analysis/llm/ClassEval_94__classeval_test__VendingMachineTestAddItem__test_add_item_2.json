@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says add_item adds a product with its price and quantity and never mentions that adding an existing item should increase its quantity via restocking, which is what the failing test checks."
+}

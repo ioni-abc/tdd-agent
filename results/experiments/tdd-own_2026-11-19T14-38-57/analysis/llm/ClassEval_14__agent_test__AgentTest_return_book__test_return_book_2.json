@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring only says the method marks a book as returned and never describes the table schema, the column holding availability, or how borrowing sets that value, so the test's assumptions about row layout (index 3 as the availability flag) and borrow semantics are the agent's own guesses."
+}

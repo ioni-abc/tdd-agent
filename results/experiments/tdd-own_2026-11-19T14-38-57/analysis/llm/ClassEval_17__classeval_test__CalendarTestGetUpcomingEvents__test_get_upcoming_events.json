@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring example returns past-dated events (2023) as upcoming, so the agent's code follows that example by returning all events without filtering by the current time, while the reference solution and this test expect [] because those start times are already past."
+}

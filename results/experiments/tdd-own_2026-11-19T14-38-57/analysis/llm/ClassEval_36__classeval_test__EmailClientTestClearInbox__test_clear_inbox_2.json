@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never mentions that clear_inbox should do nothing when the client's address is empty, which is the behaviour this test checks; the agent's code followed the documented size-based deletion and none of its tests covered an empty address."
+}

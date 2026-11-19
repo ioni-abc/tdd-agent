@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring only says the access is logged and never specifies a log level, but the test assumed INFO, while the reference solution logs at level=1, which assertLogs(level='INFO') does not capture."
+}

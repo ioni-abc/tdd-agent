@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says to remove all stop words, and the agent's code does that, giving ['test'], while the reference solution's remove-during-iteration bug and this test expect ['is', 'test'] instead."
+}

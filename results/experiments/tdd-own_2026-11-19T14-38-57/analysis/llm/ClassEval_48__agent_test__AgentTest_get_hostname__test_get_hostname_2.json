@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says the method returns a string and gives 'www.baidu.com' as the example for that IP, so the test follows the documented contract, while the reference solution returns None when the reverse DNS lookup raises herror."
+}

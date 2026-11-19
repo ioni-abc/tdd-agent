@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says only 'based on certain rules and conditions' and never says whether paths outside a protected prefix are allowed, so the agent's choice to return True for '/abc' without checking the JWT is a rule the docstring doesn't describe and the test checks."
+}

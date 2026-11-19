@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never mentions appending periods to paragraphs or joining text without a separator, which is what the failing test checks, while the agent's newline-separated output is a reasonable reading of the docstring's line-based example."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The failing test checks that `answer('pass')` returns a 4-card list, but the docstring shown (for `get_my_cards`) never says what `answer('pass')` should return, and no agent test covered it."
+}

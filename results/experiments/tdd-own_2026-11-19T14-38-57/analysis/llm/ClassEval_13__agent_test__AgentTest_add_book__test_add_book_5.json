@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says the inventory is sorted by book title, so the test checks that ordering, but the reference solution just inserts into a dict and keeps insertion order, so the sort the docstring promises never happens."
+}

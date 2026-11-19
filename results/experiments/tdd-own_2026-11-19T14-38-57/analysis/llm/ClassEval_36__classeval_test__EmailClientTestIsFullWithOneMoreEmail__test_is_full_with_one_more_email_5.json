@@ -1,0 +1,4 @@
+{
+  "label": "caused_by_wrong_agent_test",
+  "reason": "The agent's test_3 asserts that filling a 50-capacity box exactly to 50 returns True, which the reference's strict `>` contradicts, and that test is what pushed the agent toward `>=`, producing the True at the equality boundary that this failing test rejects."
+}

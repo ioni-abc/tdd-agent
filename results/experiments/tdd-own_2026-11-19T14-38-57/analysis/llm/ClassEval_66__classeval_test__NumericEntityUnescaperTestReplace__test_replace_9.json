@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says the rest of the input is kept with only references replaced, so the agent's code correctly keeps the trailing ';', while the reference solution's loop bound silently drops it and the test expects that."
+}

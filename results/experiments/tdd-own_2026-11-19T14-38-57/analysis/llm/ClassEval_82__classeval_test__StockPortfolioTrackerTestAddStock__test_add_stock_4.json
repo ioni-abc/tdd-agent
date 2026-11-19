@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only shows appending a new stock and says nothing about merging quantities when the same name is added again, which is the behaviour this test checks, so the agent's plain append follows the docstring."
+}

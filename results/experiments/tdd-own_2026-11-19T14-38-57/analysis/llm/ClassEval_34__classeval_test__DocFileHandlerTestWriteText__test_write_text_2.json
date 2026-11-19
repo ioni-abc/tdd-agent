@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says the method writes content to a Word document and does not specify whether existing content is replaced or appended, yet the test expects the file to be overwritten, while the agent's code appended to the existing document."
+}

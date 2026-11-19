@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says direction has four valid values and never specifies what happens for an invalid direction like '???', so the test's expectation (return the unchanged state) is not described anywhere the agent saw, while the agent chose to return None."
+}

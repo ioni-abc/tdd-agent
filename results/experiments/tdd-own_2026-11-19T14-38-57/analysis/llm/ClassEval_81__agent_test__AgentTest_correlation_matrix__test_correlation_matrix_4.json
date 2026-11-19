@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring only says the method computes a correlation matrix of the list, with a symmetric all-ones example, and never says whether correlations are taken between rows or columns or what the output shape is. The test's expected value of 0.7746 reflects an interpretation the agent assumed, which the reference solution (column-wise Pearson correlation giving a 5x5 matrix) does not match."
+}

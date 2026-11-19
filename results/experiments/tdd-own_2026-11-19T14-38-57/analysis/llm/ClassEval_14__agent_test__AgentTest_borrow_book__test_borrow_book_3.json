@@ -1,0 +1,4 @@
+{
+  "label": "broken_test_code",
+  "reason": "The test calls `self._fetch_all_rows()`, a helper that is never defined in the shown `setUp`, so the test is faulty code independent of the reference `borrow_book` behaviour, which the docstring does not contradict."
+}

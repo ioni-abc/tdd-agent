@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never says the slots are fixed one-hour intervals, yet the test expects 24 hourly slots, while the agent implemented free-interval gaps that return a single whole-day slot."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring says only that a 'book table' is created and never names it, yet the test drops and checks for a table called 'book' while the reference solution creates 'books', so the test relies on an unstated table name."
+}

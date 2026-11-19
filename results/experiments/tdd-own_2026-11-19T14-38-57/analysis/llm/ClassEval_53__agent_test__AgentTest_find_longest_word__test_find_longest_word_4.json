@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring explicitly says words are strictly case sensitive, so the test's expectation of 'aM' follows from it, but the solution lowercases the sentence and returns 'am'."
+}

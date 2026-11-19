@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says inf is returned only when the count exceeds 2^63-1, so for n=63 (count exactly 2^63-1) the test's expected integer follows the docstring, but solution_code returns float('inf') for n=63."
+}

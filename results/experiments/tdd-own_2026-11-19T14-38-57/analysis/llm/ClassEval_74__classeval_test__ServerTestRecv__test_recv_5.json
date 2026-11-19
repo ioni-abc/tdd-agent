@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says nothing about returning -1 for a malformed info dict missing the 'addr' or 'content' key, so the agent's False return follows the documented behaviour and the test checks an undocumented validation path."
+}

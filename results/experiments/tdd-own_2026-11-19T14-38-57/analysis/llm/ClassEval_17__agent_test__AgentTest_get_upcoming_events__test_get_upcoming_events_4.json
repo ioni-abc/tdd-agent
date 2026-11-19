@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The test mirrors the docstring example, which includes an event without 'start_time' and shows it being returned, but solution_code reads event['start_time'] on every event it scans, so it raises KeyError on that event."
+}

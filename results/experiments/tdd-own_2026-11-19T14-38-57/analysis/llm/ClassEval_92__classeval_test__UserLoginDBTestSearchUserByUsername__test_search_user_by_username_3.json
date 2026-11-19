@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says the method returns a list of tuples, so the agent's fetchall() follows it, while the reference uses fetchone() and the failing test expects a single tuple, so user[0] is a tuple rather than the username."
+}

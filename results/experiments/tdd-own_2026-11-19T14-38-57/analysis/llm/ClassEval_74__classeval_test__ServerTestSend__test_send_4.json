@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says an error message string is returned, without specifying its exact text, so the test's exact-match expectation of 'info structure is not correct' is behaviour the docstring does not describe."
+}

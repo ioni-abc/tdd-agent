@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never says whether x must be sorted or how unsorted x should be handled, yet the test expects interpolation over the segments in the given order, while the agent's code sorts the points and gets [1.67, 3.0]."
+}

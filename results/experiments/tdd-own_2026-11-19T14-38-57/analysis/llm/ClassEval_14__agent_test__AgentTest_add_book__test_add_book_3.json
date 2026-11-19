@@ -1,0 +1,4 @@
+{
+  "label": "broken_test_code",
+  "reason": "The test never calls create_table() before add_book(), even though the docstring example shows it is required, so the INSERT would fail on a missing table; it also relies on a `_fetch_all_rows` helper that is not defined in the shown code."
+}

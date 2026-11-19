@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says nothing about what tan returns at 90 degrees, where the test expects False, so the agent had no stated basis for returning False and instead raised ZeroDivisionError."
+}

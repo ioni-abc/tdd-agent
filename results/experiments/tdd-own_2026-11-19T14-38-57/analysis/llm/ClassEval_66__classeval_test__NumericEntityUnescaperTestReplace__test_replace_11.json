@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never says what happens to a malformed reference like `&#c1d;` (the reference returns '' by aborting on a failed int parse), so the agent's choice to leave malformed text in place follows the docstring, and neither of its wrong tests exercises malformed input."
+}

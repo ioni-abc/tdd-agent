@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring never mentions empty cells (' ') or whether they can be traversed, yet the test assumes a path runs through them, while the solution only steps onto cells equal to the start icon's value."
+}

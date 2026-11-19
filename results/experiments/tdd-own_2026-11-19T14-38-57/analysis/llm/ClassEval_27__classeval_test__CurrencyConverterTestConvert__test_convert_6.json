@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says nothing about how unsupported currencies are handled, yet the test expects `False` for an unknown currency, while the agent's code raises a ValueError as its own choice."
+}

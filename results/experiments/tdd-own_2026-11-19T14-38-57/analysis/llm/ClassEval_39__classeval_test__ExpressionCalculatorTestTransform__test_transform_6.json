@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only shows whitespace removal, while the failing test expects the unary-minus handling (rewriting a leading '~(' to '0-(') that the docstring never describes."
+}

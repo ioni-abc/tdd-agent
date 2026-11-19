@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says buy_stock adds the stock to the portfolio and never mentions merging quantities for an existing holding, which the test and reference solution (via add_stock) expect, so the agent's plain append was a reasonable reading of the spec."
+}

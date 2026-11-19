@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says nothing about an empty input list, so the test's expectation of `(0.0, [0.0])` for `map([])` is behaviour the agent could not have inferred, and the agent's code returns `(0.0, [])`."
+}

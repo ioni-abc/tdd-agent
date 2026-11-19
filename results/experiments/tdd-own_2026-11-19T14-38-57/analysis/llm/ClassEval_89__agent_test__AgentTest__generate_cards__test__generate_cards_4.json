@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring says only to generate four random numbers between 1 and 9, with no mention of repeated calls or resetting `nums`, yet the test calls `_generate_cards` 50 times on one game, and the reference's `assert len(self.nums) == 4` fails on the second call."
+}

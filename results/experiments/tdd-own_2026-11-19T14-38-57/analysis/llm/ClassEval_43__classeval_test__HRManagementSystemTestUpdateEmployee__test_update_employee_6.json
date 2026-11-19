@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says the method returns True if the employee exists and False otherwise, and says nothing about rejecting unknown keys like 'Name', which is the behaviour the failing test checks and the reference solution implements."
+}

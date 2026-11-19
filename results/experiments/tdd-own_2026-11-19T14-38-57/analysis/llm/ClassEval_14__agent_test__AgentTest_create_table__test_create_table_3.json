@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring says only that a 'book table' is created and never names it, so the test's `_table_exists` check likely assumed a table name or schema that the reference solution's `books` table does not match."
+}

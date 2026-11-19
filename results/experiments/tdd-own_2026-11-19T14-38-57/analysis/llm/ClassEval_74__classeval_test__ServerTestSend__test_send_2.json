@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says an error message string is returned on failure, without specifying its wording, so the exact text 'info structure is not correct' that this test checks is not described anywhere the agent could see."
+}

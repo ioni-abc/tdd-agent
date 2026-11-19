@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says add_item adds a product and never mentions that re-adding an existing item should increase its quantity (restock), which is what the reference solution and failing test expect, while the agent's code overwrote the entry."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "other_code_bug",
+  "reason": "The failure is a NameError for ImageChops, which the test uses, so the agent's module never imported it; this is a missing-import mistake, not a behavioural mismatch with the docstring or the brightness logic."
+}

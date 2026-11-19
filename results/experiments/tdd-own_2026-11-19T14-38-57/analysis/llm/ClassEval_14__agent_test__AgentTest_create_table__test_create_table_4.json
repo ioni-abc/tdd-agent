@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring only says it creates \"the book table\" and gives no column names, yet the test assumes the table is named `book` with an `availability` column, while the reference solution creates `books` with `available`."
+}

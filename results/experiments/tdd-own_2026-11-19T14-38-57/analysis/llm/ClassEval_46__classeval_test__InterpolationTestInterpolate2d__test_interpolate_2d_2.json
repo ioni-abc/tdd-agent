@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says nothing about points outside the grid, yet the test expects out-of-range interpolation points (y=4) to be dropped, while the agent's code extrapolates and returns values for them, so the failing behaviour is one the docstring does not describe."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "other_code_bug",
+  "reason": "The agent's code updates a nonexistent table `book` and column `availability` instead of the schema's `books` table and `available` column. The docstring doesn't specify the schema, so this is an ordinary implementation mistake rather than a docstring or test-driven issue."
+}

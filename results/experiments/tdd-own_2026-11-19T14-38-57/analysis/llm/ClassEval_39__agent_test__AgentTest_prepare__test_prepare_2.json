@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring says nothing about whitespace, so the test's expectation that spaces are stripped from the tokens is an assumption the agent made, and the reference solution keeps the spaces."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "other_code_bug",
+  "reason": "The agent's formula, n*sum_cu/((n-1)*m2^1.5), differs from the reference's (n-1)(n-2) denominator and only matches at n=3 by coincidence, so the 1.7181079837227262 vs ...264 mismatch comes from a different computation order that is also a genuine formula error for general n, not from anything the docstring states."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring example (`['+', '-']` \u2192 `['-']`) shows the agent's delete-index-0 behaviour, which the agent followed, while the reference pops the top operator and the failing test expects `['+']` to remain, so the docstring and solution disagree."
+}

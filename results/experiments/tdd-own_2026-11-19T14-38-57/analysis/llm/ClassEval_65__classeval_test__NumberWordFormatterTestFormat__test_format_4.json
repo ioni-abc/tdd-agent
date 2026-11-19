@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says the method converts an int or float to words and gives an integer example, so it never mentions the 'AND CENTS' decimal handling that this test checks, and the agent's truncation to int is a reasonable reading of the text."
+}

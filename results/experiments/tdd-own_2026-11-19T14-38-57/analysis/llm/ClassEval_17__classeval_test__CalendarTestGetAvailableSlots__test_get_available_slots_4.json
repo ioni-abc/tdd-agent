@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only shows a single contiguous free interval for the example, while the test expects hourly slots (24 of them) for a day whose only event falls outside that date, a granularity the docstring never mentions."
+}

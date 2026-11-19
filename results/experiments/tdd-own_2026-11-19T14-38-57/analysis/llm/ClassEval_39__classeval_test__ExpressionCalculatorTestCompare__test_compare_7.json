@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says compare returns True when the current operator has higher or equal precedence, so the agent's `priority(cur) >= priority(peek)` follows it, while the reference computes `peek >= cur` and the test expects True for `compare(\"+\", \"%\")`, which the docstring would make False."
+}

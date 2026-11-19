@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring only says the book is marked as borrowed and never describes the table schema, yet the test assumes column index 3 holds the availability flag and that its value is 1 when free. Those schema assumptions, not the solution's `available = 0` update, are the likely cause of the failure."
+}

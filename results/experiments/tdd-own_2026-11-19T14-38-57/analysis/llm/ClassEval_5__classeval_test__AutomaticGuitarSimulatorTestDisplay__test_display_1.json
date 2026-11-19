@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says 'Print out' and the agent's code prints as instructed, while the reference solution returns the string and the ClassEval test asserts on the return value, so the docstring and solution disagree on the behaviour."
+}

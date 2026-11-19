@@ -1,0 +1,4 @@
+{
+  "label": "other_code_bug",
+  "reason": "The agent's calculate_calorie_intake follows the docstring's branching, and the test's expected 708.05 implies condition_judge should return 0 (normal, BMI about 20.3) for this input, yet the agent's result of 809.2 means it took the 1.6 'too thin' branch, pointing to a mistake in the agent's condition classification rather than in the method's branching or the docstring."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring never states whether z is indexed as z[x][y] or z[y][x]; the test's comment assumes z[i][j] maps to y[i] and x[j], and the reference solution indexes z by x-then-y, giving 2.0 at (1,2) instead of 4."
+}

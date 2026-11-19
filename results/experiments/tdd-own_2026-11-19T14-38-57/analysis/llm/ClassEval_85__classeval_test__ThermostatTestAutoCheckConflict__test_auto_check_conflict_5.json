@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never says how equal current and target temperatures should be handled, while the reference solution treats equality as requiring 'heat' mode and returns False, so the agent's choice to return True for 'cool' at 25 vs 25 is a boundary the docstring leaves unspecified."
+}

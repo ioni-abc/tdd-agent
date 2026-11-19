@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says nothing about how a truncated reference like \"&#X\" at the end of the string should be handled, whereas the reference solution returns the output so far (dropping the partial reference), and the agent's code keeps the characters literally."
+}

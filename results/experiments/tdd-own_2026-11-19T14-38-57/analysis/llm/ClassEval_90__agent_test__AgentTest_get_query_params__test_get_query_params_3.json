@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring only shows a URL with a fragment and never says what happens without one, so the test's expectation that 'python' is returned in full is an assumption. The reference solution uses find('#') returning -1 and slices off the last character, which the docstring does not contradict."
+}

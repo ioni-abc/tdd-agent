@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says it returns an 'open file object', while the failing test requires a zipfile.ZipFile instance (with `filename` and `mode` attributes), a specific type the docstring never describes."
+}

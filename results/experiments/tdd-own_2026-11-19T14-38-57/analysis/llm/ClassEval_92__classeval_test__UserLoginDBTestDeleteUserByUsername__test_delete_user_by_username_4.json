@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The failing test expects `search_user_by_username` to return None for a deleted user, but neither the delete docstring nor the agent's code specifies that return value, and the agent's code correctly deletes the row, so the test checks behaviour the docstring never describes."
+}

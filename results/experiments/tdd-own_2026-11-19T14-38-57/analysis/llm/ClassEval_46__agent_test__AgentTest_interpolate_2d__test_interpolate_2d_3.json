@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring never says whether z is indexed as z[x][y] or z[y][x]; the symmetric example gives 3.0 under either convention, so the test's assumed z[y][x] layout is unstated, while the solution uses z[i][j] with i tied to x."
+}

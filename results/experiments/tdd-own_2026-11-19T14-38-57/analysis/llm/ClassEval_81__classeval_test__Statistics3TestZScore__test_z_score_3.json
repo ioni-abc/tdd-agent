@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says nothing about single-element or undefined-std inputs, yet the test expects None for `[1]`, while the agent's code propagated a ValueError from `standard_deviation` and raised its own error for constant input."
+}

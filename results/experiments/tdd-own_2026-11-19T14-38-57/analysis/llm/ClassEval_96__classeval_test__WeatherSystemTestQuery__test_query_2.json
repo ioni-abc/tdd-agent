@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never says what should happen when the city is missing from weather_list, so the test's expectation of returning False is not described, and the agent's code raising KeyError is consistent with the docstring."
+}

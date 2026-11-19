@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says to rotate the image if one is loaded and never specifies whether the canvas expands, yet the agent used `expand=True` while the reference uses the default non-expanding rotate, so the test's expected output depends on behaviour the docstring leaves unstated."
+}

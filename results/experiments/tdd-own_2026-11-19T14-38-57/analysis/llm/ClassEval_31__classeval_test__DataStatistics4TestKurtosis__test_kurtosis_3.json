@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The test asserts an exact floating-point value (-1.5000000000000002) that depends on the reference's specific arithmetic order, while the docstring only gives a loosely specified formula result. The agent's mathematically equivalent formula returns -1.5, a rounding difference the docstring does not describe."
+}

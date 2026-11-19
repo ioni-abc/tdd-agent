@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says nothing about list items or the '[-]' prefix and trailing period that the failing test expects for <ul><li>, so the agent had no stated basis for that behaviour."
+}

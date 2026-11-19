@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says to create the \"book table\", and the agent named it `book`, but the reference solution and the failing test expect the table to be named `books`, so the agent followed the docstring while the solution and test expect otherwise."
+}

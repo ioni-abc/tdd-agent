@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says nothing about whether the image should be expanded when rotated, while the agent's `expand=True` differs from the reference's default rotation that this test relies on; the NameError for `ImageChops` comes from the test file itself, not the agent's code."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "broken_test_code",
+  "reason": "The test reads the output with `PyPDF2.PdfFileReader` and `merged.numPages`, the deprecated pre-3.0 API that the reference solution's comments say was removed, so the test itself calls a non-existent API and fails regardless of the merge logic."
+}

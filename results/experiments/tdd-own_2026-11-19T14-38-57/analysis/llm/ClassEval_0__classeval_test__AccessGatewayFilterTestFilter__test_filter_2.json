@@ -1,0 +1,4 @@
+{
+  "label": "caused_by_wrong_agent_test",
+  "reason": "The agent's test_filter_5 asserted that '/api/data' GET returns False, which led the agent to require a JWT for /api paths, so its code returns False where the reference and this test expect True; the docstring never specifies that rule."
+}

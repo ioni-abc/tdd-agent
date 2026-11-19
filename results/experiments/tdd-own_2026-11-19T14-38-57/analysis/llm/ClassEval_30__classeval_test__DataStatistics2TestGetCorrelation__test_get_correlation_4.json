@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring gives only the example [1,2,3,4] \u2192 1.0 and never says what the correlation is computed against. The agent chose correlation with the index, while the reference returns self-correlation (1.0 for any 1-D data), which the test checks and the docstring does not describe."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "other_code_bug",
+  "reason": "The reported NameError comes from the test file's missing ImageChops import, which none of the listed labels cover; the only code-level divergence is the agent's undocumented expand=True in rotate, which isn't a docstring-driven or wrong-test cause."
+}

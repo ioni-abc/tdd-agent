@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring never says that adjacent HTML block elements with no whitespace between them become separate lines, or that paragraphs get no punctuation added; the test assumed both, while the reference solution joins the text and appends ':' and '.' as its paragraph logic dictates."
+}

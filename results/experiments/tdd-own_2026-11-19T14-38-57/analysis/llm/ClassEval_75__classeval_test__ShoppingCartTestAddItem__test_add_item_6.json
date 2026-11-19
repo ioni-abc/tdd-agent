@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says the method adds item price and quantity and gives a single-call example, so it never says whether re-adding an existing item replaces or accumulates the quantity, which is what this test checks."
+}

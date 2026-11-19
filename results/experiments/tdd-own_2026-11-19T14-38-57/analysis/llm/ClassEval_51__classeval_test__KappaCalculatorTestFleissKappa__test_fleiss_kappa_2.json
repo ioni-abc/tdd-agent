@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The failing test's first row is [1, 0, 0, 0, 14], which sums to 15 rather than n=14, and the reference divides by the actual total of all entries while the agent divides by N*n. The docstring never specifies how the chance-agreement denominator should be computed for inconsistent row sums, so this behaviour is not described."
+}

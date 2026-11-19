@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says to \"Print out\" the line and its doctest shows bare printed output, so the agent's print-based code follows that text, while the reference solution and the failing test expect a returned string despite the docstring's own \":return: str\"."
+}

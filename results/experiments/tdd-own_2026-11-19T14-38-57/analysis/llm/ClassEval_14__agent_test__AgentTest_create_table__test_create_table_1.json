@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The create_table docstring only says it creates the table when called, and says nothing about the constructor creating it, yet the test assumes BookManagementDB's initialization sets up the table and the reference fails that check."
+}

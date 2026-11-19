@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never says what happens to cards whose rank is neither a digit, J/Q/K, nor A, but the test expects such a card ('BS', 'CS') to be silently ignored, while the agent's code crashes on int('B')."
+}

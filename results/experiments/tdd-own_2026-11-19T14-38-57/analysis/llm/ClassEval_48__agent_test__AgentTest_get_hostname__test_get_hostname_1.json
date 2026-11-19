@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The test asserts the docstring's explicit example ('110.242.68.3' \u2192 'www.baidu.com'), but the reference solution returns None on socket.herror, so it does not produce the documented result in this environment."
+}

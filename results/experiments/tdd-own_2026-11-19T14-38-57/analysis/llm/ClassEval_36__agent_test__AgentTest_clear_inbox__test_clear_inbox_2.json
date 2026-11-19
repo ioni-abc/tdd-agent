@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring says to delete the oldest emails until there is enough space but says nothing about the case where the inbox cannot free enough space; the test assumes an all-or-nothing outcome that the docstring never states, while the reference solution deletes everything."
+}

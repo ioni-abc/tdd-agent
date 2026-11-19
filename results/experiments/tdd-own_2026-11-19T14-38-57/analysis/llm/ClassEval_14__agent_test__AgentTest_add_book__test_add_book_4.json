@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring says only that the book is added with availability 1, and says nothing about the table's column layout (an id column first) or row ordering, yet the test depends on both via `row[1:]` and the order of the three rows."
+}

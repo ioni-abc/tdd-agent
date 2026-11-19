@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says the method returns the root element and never mentions returning None on a missing or invalid file, which is the behaviour the test checks; the agent's code let the FileNotFoundError propagate."
+}

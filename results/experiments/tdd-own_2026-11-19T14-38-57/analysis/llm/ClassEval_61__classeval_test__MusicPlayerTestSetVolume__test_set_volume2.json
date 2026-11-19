@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says set_volume returns True when the volume is set, and the agent's code does so, but the reference solution returns None on success and the classeval test expects None, so the docstring and solution_code disagree."
+}

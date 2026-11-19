@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring example shows get_jwt_user returning `{'user': {'name': 'user1'}}` without the 'jwt' key, but solution_code returns the whole token dict including 'jwt', so the agent's test followed the docstring and the reference contradicts it."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says the median is returned as a float, so the test's `assertIsInstance(result, float)` follows the docstring, but the reference solution returns the int element `2` for odd-length input."
+}

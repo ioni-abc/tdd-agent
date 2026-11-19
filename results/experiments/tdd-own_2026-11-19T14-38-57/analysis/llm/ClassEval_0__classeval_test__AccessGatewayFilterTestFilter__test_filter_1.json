@@ -1,0 +1,4 @@
+{
+  "label": "caused_by_wrong_agent_test",
+  "reason": "The agent's own test_filter_5 asserts that '/api/data' returns False, which is the behaviour its code implements (it returns False when no JWT is present), so that wrong test drove the code to produce the failing result."
+}

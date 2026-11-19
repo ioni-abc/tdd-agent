@@ -1,0 +1,4 @@
+{
+  "label": "broken_test_code",
+  "reason": "The test reads the output with `PyPDF2.PdfFileReader` and `.numPages`, which were removed in PyPDF2 3.0. The reference solution uses the 3.0 API (`PdfWriter`, `reader.pages`), so the test's own API use is faulty rather than the agent misreading the docstring."
+}

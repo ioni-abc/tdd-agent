@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says the method returns True or False, but the failing test expects None for a low-level user on '/abc', a fall-through case the docstring never describes."
+}

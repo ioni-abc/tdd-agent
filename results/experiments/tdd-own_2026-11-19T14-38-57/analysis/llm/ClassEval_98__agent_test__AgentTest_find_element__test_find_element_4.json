@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring only says it finds elements with the given name and never specifies depth, so the test's assumption that matches are found at any depth is an unstated assumption, while the reference's `root.findall` only matches direct children."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "stated_but_untested",
+  "reason": "The docstring says get_my_cards returns four random numbers, but the agent's code never resets self.nums before calling _generate_cards, so repeated calls can accumulate extra cards, and the agent wrote no test that checked this."
+}

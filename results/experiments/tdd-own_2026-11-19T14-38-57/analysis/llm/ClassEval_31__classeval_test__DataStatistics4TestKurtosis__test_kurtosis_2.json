@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says nothing about what happens when the data has zero variance, so the test's expectation of NaN for [1, 1, 1] is not specified anywhere the agent could see, and the agent's choice of returning 0.0 was not contradicted by the text."
+}

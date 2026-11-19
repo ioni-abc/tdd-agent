@@ -1,0 +1,4 @@
+{
+  "label": "other_code_bug",
+  "reason": "The agent's code deletes from a table named `book` instead of `books`, a plain implementation error that the docstring does not mention and that none of the agent's own tests caught as a cause of failure."
+}

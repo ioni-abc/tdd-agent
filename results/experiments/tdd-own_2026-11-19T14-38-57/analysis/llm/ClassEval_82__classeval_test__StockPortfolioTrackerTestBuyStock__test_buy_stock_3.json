@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says the stock is added to the portfolio and shows a single purchase into an empty portfolio, while the failing test expects a repeat purchase of the same stock to merge into one entry with combined quantity, which the docstring never describes."
+}

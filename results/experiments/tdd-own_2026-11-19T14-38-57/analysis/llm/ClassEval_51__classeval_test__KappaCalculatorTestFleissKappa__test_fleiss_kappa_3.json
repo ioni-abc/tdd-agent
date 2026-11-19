@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says n raters and N samples, which implies N*n total ratings, but it does not say how the chance-agreement denominator is computed. The reference divides by the actual matrix sum, which here is 141 because the test's first row sums to 15, while the agent's code divides by N*n = 140, and the docstring does not specify which the function should use."
+}

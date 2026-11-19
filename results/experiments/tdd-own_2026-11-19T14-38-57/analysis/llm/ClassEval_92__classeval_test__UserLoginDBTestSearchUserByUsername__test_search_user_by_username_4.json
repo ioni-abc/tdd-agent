@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring explicitly says the method returns a list of tuples, so the agent's fetchall() follows it, while the reference's fetchone() returns a single row that the test expects (user[0] == 'user4')."
+}

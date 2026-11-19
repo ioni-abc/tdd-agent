@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never says that sweeping should increment the score, yet the failing assertion checks `score == 1`, which the agent's code does not do because it never updates `self.score`."
+}

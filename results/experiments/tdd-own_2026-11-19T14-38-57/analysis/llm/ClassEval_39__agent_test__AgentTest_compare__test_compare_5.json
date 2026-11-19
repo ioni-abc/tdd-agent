@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says compare returns True only when the current operator has higher or equal precedence, so compare('+', '*') should be False as the test expects, but the reference solution computes peek >= cur and returns True."
+}

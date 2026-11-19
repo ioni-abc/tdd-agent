@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The agent's code returns the earliest events regardless of the current time, as the docstring example shows with 2023 events, while the reference solution and this test expect events before now to be excluded and return []."
+}

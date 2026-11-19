@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The failing test uses a row summing to 15 instead of n=14, so the reference normalises by the actual matrix total while the agent divides by N*n; the docstring never says how rows that don't sum to n should be handled, and both versions agree on the documented example."
+}

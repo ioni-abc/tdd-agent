@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says the method writes content to a Word document and never says whether existing content is replaced or appended, while the test expects the file to contain only the new text, so the overwrite-versus-append behaviour it checks is not described."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says the method returns a list of tuples with len(result) = 1, so the agent's fetchall() follows it, while the reference solution's fetchone() returns a single tuple and the failing test expects that."
+}

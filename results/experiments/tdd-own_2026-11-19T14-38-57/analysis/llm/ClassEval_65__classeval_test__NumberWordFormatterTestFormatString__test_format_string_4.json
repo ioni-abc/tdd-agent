@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only shows a whole-number example and never mentions decimal input or a cents suffix, so the test's expectation for '1.23' is not described, and the agent's ValueError on a non-digit string follows from what it was told."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says customers 'over 1000 points' get the discount, so the agent's strict '> 1000' check follows it, while the reference solution and the failing test use '>= 1000' at exactly 1000 points."
+}

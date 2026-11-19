@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says accuracy is computed from predicted and true labels and gives a binary example, so it never says how a non-binary label like 2 should be handled. The reference solution's confusion-matrix logic (which ignores or mis-buckets the 2) yields 1/3, while the agent's plain match-count gives 0.25, a behaviour the docstring does not specify."
+}

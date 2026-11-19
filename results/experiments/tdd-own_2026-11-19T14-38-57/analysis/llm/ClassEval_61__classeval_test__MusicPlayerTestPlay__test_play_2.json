@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only specifies returning the current song or False when there is no current song, and says nothing about the case of an empty playlist with a set current_song, which is what this test checks (expecting None)."
+}

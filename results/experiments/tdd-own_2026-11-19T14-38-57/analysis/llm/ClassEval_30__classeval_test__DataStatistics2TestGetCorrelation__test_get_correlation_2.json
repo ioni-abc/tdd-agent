@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only shows [1,2,3,4] giving 1.0, which fits both the agent's index-versus-values correlation and the reference's self-correlation, so the docstring never says what the correlation is taken against, and the failing test for [1,2,203,4] checks a behaviour the docstring does not describe."
+}

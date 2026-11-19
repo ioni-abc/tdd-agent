@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says the method randomly generates a new food position, which the test follows by expecting the position to change across calls, but the reference solution only regenerates when the food collides with the snake, so it leaves the position unchanged otherwise."
+}

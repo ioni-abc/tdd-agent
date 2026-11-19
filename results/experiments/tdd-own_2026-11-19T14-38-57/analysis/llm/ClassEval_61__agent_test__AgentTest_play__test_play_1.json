@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says play returns False when there is no current song, and the test checks exactly that, but the reference solution returns None when the playlist is empty because the elif branch has no fallback return."
+}

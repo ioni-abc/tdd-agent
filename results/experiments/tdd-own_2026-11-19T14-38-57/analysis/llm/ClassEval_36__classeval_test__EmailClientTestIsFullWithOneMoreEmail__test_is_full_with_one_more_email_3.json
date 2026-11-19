@@ -1,0 +1,4 @@
+{
+  "label": "caused_by_wrong_agent_test",
+  "reason": "The agent's wrong test asserted that filling the box exactly to capacity (40+10 with capacity 50) returns True, which led it to write `>=`, the same boundary choice that returns True here where the reference returns False at equality (0+10 with capacity 10)."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring example shows each block element (title, paragraph, code marker) on its own line, which the test follows, but the solution merges them into one line with a colon added after 'Intro', so the reference output departs from the documented format."
+}

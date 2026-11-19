@@ -1,0 +1,4 @@
+{
+  "label": "caused_by_wrong_agent_test",
+  "reason": "The agent's own tests (test_read_zip_file_2 and _3) asserted that the return value is a raw open file whose read() yields the zip bytes, which steered the code to return a BufferedReader from open(), the type that fails the ZipFile-specific `filename`/`mode` checks here."
+}

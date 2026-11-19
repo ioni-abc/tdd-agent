@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says to add a stock to the portfolio and shows a single append on an empty portfolio, so it never mentions merging quantities for a duplicate name, which is the behaviour the failing test checks."
+}

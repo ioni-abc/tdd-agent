@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says nothing about list items or the '[-]' prefix that the reference solution adds to <li> text, and the failing test checks exactly that behaviour."
+}

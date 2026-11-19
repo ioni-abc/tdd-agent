@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring example expects both past-dated events, including one with no 'start_time' key, to be returned for n=1, while the solution filters on 'start_time >= now' for every event it visits, so the test's expectation follows the docstring and the solution raises KeyError."
+}

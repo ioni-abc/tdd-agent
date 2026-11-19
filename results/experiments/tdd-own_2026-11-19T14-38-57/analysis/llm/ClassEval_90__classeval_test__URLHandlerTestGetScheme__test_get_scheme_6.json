@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says to return the URL's scheme on success and says nothing about what to return when there is no scheme, which is the case this test checks (expecting None for \"abcdefg\", while the agent's urlparse-based code returns an empty string)."
+}

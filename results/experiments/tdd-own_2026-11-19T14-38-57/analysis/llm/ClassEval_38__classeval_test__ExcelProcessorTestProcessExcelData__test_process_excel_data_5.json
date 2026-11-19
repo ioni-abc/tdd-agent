@@ -1,0 +1,4 @@
+{
+  "label": "caused_by_wrong_agent_test",
+  "reason": "The agent's code uses 1-based indexing (index = N - 1) so N=1 uppercases the 'Name' column, which is the behaviour its own wrong test_process_excel_data_2 asserts (uppercasing column 0 for N=1), whereas the reference uses 0-based indexing and appends an uppercased copy of column N."
+}

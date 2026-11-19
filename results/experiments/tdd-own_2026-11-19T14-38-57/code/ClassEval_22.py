@@ -1,3 +1,6 @@
+import unittest
+
+
 class ClassRegistrationSystem:
     """
     This is a class as a class registration system, allowing to register students, register them for classes, retrieve students by major, get a list of all majors, and determine the most popular class within a specific major.
@@ -17,6 +20,11 @@ class ClassRegistrationSystem:
         """
         register a student to the system, add the student to the students list, if the student is already registered, return 0, else return 1
         """
+        for registered in self.students:
+            if registered["name"] == student["name"]:
+                return 0
+        self.students.append(student)
+        return 1
 
     def register_class(self, student_name, class_name):
         """
@@ -28,6 +36,11 @@ class ClassRegistrationSystem:
         >>> registration_system.register_class(student_name="John", class_name="CS101")
         >>> registration_system.register_class(student_name="John", class_name="CS102")
         ["CS101", "CS102"]
+        """
+        if student_name not in self.students_registration_classes:
+            self.students_registration_classes[student_name] = []
+        self.students_registration_classes[student_name].append(class_name)
+        return self.students_registration_classes[student_name]
 
     def get_students_by_major(self, major):
         """
@@ -40,6 +53,7 @@ class ClassRegistrationSystem:
         >>> registration_system.get_students_by_major("Computer Science")
         ["John"]
         """
+        return [student["name"] for student in self.students if student["major"] == major]
 
     def get_all_major(self):
         """
@@ -50,6 +64,12 @@ class ClassRegistrationSystem:
         >>> registration_system.get_all_major(student1)
         ["Computer Science"]
         """
+        majors = []
+        for student in self.students:
+            major = student["major"]
+            if major not in majors:
+                majors.append(major)
+        return majors
 
     def get_most_popular_class_in_major(self, major):
         """
@@ -64,3 +84,17 @@ class ClassRegistrationSystem:
         >>> registration_system.get_most_popular_class_in_major("Computer Science")
         "Data Structures"
         """
+        major_students = self.get_students_by_major(major)
+        counts = {}
+        for name in major_students:
+            for class_name in set(self.students_registration_classes.get(name, [])):
+                counts[class_name] = counts.get(class_name, 0) + 1
+        if not counts:
+            return None
+        best_class = None
+        best_count = -1
+        for class_name, count in counts.items():
+            if count > best_count:
+                best_class = class_name
+                best_count = count
+        return best_class

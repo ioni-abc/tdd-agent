@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring declares the return as `float` and the example shows `3.00`, so the test's float assertion follows the docstring, but the reference solution returns the integer element `3` for odd-length input."
+}

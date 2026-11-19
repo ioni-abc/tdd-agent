@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only gives a square 3x3 example and never says whether rows or columns are the variables, while the reference solution and failing test treat columns as variables and expect a 3x3 output for 4x3 input, which the docstring does not describe."
+}

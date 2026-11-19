@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says nothing about sorting or monotonic x, but the agent's code sorts the points, while the reference uses the input order on unsorted x=[1,6,4], so the test checks behaviour the docstring never describes."
+}

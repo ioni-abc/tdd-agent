@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says compare returns True only when the current operator has higher or equal precedence, so '+' versus '*' should be False, which is what the agent's code returns. The reference solution and the failing test expect True, which reverses the docstring's stated semantics."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never says that read_excel should return None when the file cannot be read, which is what this test checks with an empty filename, so the agent had no spec for it and its code simply raises from load_workbook outside any try block."
+}

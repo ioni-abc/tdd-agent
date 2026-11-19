@@ -1,0 +1,4 @@
+{
+  "label": "other_code_bug",
+  "reason": "The error is a NameError from the test file never importing ImageChops, not from the agent's logic, and the only code-side difference is the agent's use of expand=True, which none of the listed labels cleanly describe, so this catch-all is the closest fit."
+}

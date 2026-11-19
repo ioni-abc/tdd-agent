@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says the method writes content to a Word document and never says whether that replaces the file's contents, which is what the reference does and what this test checks, while the agent's code appends to the existing document instead."
+}

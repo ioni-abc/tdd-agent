@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says set_volume returns True when the volume is set, but the reference solution sets self.volume and returns nothing (None) on success, so the test's assertIs(..., True) follows the docstring while the solution does otherwise."
+}

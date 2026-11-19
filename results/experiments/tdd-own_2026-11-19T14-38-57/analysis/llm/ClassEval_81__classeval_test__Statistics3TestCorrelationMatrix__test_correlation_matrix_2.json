@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only shows a square 3x3 example and never says whether the matrix is built from rows or columns, so the expected 3x3 output for a 2x3 input is a behaviour the docstring does not describe."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The agent's formula is mathematically correct and gives -1.5 for [1, 5, 3]; the test expects the reference's floating-point artifact -1.5000000000000002, which the docstring does not specify."
+}

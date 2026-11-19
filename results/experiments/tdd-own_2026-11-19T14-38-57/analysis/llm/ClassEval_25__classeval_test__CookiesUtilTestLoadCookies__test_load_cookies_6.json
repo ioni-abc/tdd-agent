@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only describes loading cookies from an existing file and says nothing about returning an empty dict when the file is missing, which is the behaviour this test checks."
+}

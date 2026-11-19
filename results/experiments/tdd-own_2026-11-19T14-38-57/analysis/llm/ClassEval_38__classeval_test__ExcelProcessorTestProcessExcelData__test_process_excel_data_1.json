@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring's \"serial number of the column\" and \"change the specified column\" support the agent's 1-based in-place uppercasing, while the reference and this test use 0-based indexing and append a new uppercased column. The agent's own wrong tests reinforce the 1-based reading, but the mismatch originates in the docstring wording."
+}

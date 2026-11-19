@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring only says to rotate the image by the given degrees and never mentions whether dimensions swap, so the agent assumed a width/height swap; the reference uses PIL's rotate without expand, which keeps the size at (40, 30)."
+}

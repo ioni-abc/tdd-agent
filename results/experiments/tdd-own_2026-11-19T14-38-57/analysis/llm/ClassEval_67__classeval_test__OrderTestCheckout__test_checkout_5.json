@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never says checkout should clear self.selected_dishes, yet the test asserts the list is empty afterward, and the agent's code, which follows the docstring, leaves it populated."
+}

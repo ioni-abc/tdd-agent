@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The agent's delete matches the reference solution, and the failure comes from the test expecting search_user_by_username to return None for a missing user, a return convention the delete docstring never mentions."
+}

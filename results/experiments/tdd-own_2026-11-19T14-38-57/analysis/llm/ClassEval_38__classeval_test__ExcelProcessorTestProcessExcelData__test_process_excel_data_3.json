@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says only that the 'serial number' column should be uppercased, without specifying 0-based indexing or that the result is appended as a new column, which is what this test and the reference solution expect. The agent's 1-based, in-place interpretation is a reasonable reading of the text, so the mismatch comes from behaviour the docstring never describes."
+}

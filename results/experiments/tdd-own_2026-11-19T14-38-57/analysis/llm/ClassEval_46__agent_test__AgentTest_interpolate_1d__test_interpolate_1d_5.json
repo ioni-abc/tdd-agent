@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring never says what happens to x_interp points outside the range of x, but the test assumes one output per input point and linear extrapolation for 2.5. The reference solution silently drops out-of-range points, so the length check fails with 3 != 4."
+}

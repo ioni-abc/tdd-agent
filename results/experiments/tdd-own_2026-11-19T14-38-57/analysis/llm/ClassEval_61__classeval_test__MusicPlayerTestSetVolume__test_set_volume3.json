@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring explicitly says the method returns True when the volume is set, so the agent's `return True` follows it, while the reference solution returns None on success and the failing test expects None."
+}

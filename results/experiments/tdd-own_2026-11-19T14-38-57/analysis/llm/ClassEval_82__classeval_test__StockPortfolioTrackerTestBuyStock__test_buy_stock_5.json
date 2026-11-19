@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says the stock is added to the portfolio, but the test expects a repeated AAPL purchase to merge into the existing entry, a behaviour the reference gets through add_stock and the docstring never describes."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "other_code_bug",
+  "reason": "The failure is a NameError for ImageChops, a missing import in the module or test scope rather than wrong brightness behaviour, and none of the docstring-related labels apply to it."
+}

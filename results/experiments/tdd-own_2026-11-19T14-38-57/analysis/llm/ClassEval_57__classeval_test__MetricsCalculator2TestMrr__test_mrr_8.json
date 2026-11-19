@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never says that a ground-truth total of 0 should yield 0.0 for every input, yet the test checks exactly that; the agent ignored total_num and computed reciprocal ranks (giving 0.75), which the docstring does not contradict."
+}

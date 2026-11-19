@@ -1,0 +1,4 @@
+{
+  "label": "stated_but_untested",
+  "reason": "The docstring gives the exact example output 2.3760224064818463, and the agent's algebraically equivalent formula differs only in floating-point ordering (2.376022406481846), which none of its own tests checked."
+}

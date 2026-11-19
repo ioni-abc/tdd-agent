@@ -1,0 +1,4 @@
+{
+  "label": "agent_misread_docstring",
+  "reason": "The docstring clearly says to delete the oldest emails until enough space is freed, which matches the solution (four 10-unit emails are all removed to free 35), but the test expects one email to remain, which contradicts that rule."
+}

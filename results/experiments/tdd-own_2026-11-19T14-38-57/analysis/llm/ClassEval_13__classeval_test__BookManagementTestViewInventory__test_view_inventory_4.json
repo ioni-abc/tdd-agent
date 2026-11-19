@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The failing assertion checks that removing a book's last copy deletes its entry, which the view_inventory docstring never describes, and view_inventory itself correctly returns self.inventory as documented."
+}

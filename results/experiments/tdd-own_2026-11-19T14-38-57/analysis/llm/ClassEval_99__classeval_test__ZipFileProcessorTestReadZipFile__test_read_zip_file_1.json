@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says it returns an 'open file object' and never specifies a zipfile.ZipFile, so the test's checks on `.filename` and `.mode` go beyond what the agent was told, and the agent's `open(..., 'rb')` return is a reasonable reading of the docstring."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says it returns an 'open file object', so it never specifies that the object must be a zipfile.ZipFile with .filename and .mode attributes, which is what this test checks; the agent's open-in-binary-mode return is a reasonable reading of the docstring."
+}

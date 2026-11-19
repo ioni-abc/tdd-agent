@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring example `apply_operator([1, 2, 3], ['+', '-'])` returns `['-']` as the remaining operator stack, which the agent's code reproduces by deleting the first operator, while the reference pops the top operator and leaves `['+']`, so the failing test follows the reference rather than the documented example."
+}

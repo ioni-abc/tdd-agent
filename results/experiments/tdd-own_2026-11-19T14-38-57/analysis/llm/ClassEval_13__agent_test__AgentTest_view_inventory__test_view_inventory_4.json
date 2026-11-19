@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring says nothing about the inventory being sorted by title, and the reference solution simply returns the dict in insertion order, so the agent's sorted-keys expectation was an unstated assumption."
+}

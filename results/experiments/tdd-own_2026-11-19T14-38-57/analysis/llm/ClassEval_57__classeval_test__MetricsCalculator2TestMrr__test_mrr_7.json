@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says nothing about empty-list input, so the expected `[0.0]` second return value for `mrr([])` is a behaviour the agent had no way to infer; its code returns an empty list, and no agent test covered this case."
+}

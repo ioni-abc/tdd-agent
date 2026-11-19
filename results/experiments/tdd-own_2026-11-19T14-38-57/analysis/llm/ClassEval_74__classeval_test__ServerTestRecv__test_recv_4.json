@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The test expects recv to return -1 for a malformed info dict missing the 'content' key, but the docstring only describes whitelist acceptance and returning False otherwise, never mentioning a -1 return for invalid input."
+}

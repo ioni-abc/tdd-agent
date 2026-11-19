@@ -1,0 +1,4 @@
+{
+  "label": "broken_test_code",
+  "reason": "The test calls `self._fetch_all_rows()`, a helper that is never defined in the shown test code, so the test itself is faulty regardless of the reference `remove_book` behaviour, which the docstring and solution agree on."
+}

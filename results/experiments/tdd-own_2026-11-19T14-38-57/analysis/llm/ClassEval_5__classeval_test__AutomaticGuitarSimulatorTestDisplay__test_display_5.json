@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says 'Print out' the chord and tune, so the agent printed and returned None, but the reference solution and the failing test expect the formatted string to be returned."
+}

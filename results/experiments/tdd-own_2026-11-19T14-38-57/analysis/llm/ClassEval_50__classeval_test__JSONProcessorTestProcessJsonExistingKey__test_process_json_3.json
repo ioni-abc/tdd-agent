@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only specifies returns of 0 for a missing file or missing key and says nothing about an empty or invalid JSON file, yet the test expects 0 there while the agent's code returns -1 from the read error, so the tested behaviour is not described in the docstring."
+}

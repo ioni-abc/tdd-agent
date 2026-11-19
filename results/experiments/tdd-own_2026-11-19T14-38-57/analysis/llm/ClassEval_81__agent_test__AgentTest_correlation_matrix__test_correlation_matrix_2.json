@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring never states the output's dimensions, and its only example is a square 3x3 input, so the agent assumed the matrix size would match the number of rows. The solution instead sizes the matrix by the number of columns (len(data[0])), giving 4x4 for this input."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says `info` is a dict and never describes what happens for non-dict input, yet the failing test expects `-1` for a list argument, while the agent's code crashes on `.get` and no agent test covered this case."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring only says to generate random numbers between 1 and 9 and says nothing about whether the method resets or appends to `self.nums`. The test assumed repeated calls on the same game are safe, but the reference solution appends each time and then asserts `len(self.nums) == 4`, which fails on the second call."
+}

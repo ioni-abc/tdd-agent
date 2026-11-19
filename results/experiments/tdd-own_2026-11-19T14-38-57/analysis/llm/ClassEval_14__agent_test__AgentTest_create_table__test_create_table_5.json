@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring never names the table, but the test queries `PRAGMA table_info(book)`, whereas the reference solution creates a table called `books`, so the test assumed a name the docstring does not state."
+}

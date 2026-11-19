@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says an error message string is returned, not the exact text 'info structure is not correct' that the test asserts, so the agent's differently worded messages are consistent with the docstring while the test checks an unspecified detail."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring only says remove_book deletes the book with the given ID and says nothing about how IDs are assigned, which ID maps to which book, or what availability value add_book stores, yet the test depends on all three."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says the output is the input string with references replaced, which implies the surrounding text is kept, but the reference loop `while pos < length - 2` drops the last two characters, so 'Hello World' becomes 'Hello Wor'."
+}

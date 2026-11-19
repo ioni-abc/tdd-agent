@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The agent's code follows the docstring example, which returns the earliest events including 2023 dates, while the reference solution filters on start_time >= now, so the failing test's expectation of the 2124 event conflicts with the documented example."
+}

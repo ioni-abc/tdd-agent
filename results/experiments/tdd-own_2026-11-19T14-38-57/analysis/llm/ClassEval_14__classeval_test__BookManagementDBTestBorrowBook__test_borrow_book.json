@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says the book is marked as borrowed and never names the table or column, yet the test checks the `books` table and `available` column, while the agent's code used `book` and `availability`."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says parse populates the segments list and never mentions setting `with_end_tag` for a trailing slash, which is the behaviour the failing assertion checks, so the agent's code had no stated requirement to follow."
+}

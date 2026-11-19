@@ -1,0 +1,4 @@
+{
+  "label": "caused_by_wrong_agent_test",
+  "reason": "The failure comes from `search_user_by_username` returning a list of rows instead of a single row, and the agent's wrong tests (e.g. `len(rows) == 1` and `rows[0]` indexing) encoded that list-of-rows shape, which the reference contradicts."
+}

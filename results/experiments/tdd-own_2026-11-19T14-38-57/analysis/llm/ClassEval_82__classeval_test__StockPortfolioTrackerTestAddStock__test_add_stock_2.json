@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says to add a stock and shows a single append example, never mentioning that an existing ticker's quantity should be merged, which is what the failing test checks."
+}

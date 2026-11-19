@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says nothing about constant input or what z_score should return when the standard deviation is zero, yet the test expects None, so the agent's ValueError is a choice the docstring never constrained."
+}

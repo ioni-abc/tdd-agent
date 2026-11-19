@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The agent's formula is mathematically correct (the exact kurtosis for [1,2,4] is -1.5), and the test demands the reference implementation's specific floating-point rounding (-1.4999999999999996), which the docstring never specifies."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says the output is the input with only numeric references replaced, so plain text should come back unchanged, but the solution's `while pos < length - 2` loop drops the last two characters ('n!'), which contradicts that."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never says free time is split into 60-minute slots, and its example (one free hour from 23:00 to midnight) is consistent with the agent's single merged free interval, so the 24-slot hourly granularity the test expects is not described."
+}

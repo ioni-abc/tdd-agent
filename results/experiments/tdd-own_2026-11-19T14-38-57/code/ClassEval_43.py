@@ -1,3 +1,6 @@
+import unittest
+
+
 class HRManagementSystem:
     """
     This is a class as personnel management system that implements functions such as adding, deleting, querying, and updating employees
@@ -25,6 +28,15 @@ class HRManagementSystem:
         False
 
         """
+        if employee_id in self.employees:
+            return False
+        self.employees[employee_id] = {
+            'name': name,
+            'position': position,
+            'department': department,
+            'salary': salary,
+        }
+        return True
 
     def remove_employee(self, employee_id):
         """
@@ -39,6 +51,10 @@ class HRManagementSystem:
         False
 
         """
+        if employee_id in self.employees:
+            del self.employees[employee_id]
+            return True
+        return False
 
     def update_employee(self, employee_id: int, employee_info: dict):
         """
@@ -54,6 +70,10 @@ class HRManagementSystem:
         False
 
         """
+        if employee_id in self.employees:
+            self.employees[employee_id] = dict(employee_info)
+            return True
+        return False
 
     def get_employee(self, employee_id):
         """
@@ -68,9 +88,12 @@ class HRManagementSystem:
         False
 
         """
+        if employee_id in self.employees:
+            return self.employees[employee_id]
+        return False
 
     def list_employees(self):
-        “”“
+        """
         List all employees' information in the HRManagementSystem.
         :return: A list of all employees' information,dict.
         >>> hrManagementSystem = HRManagementSystem()
@@ -79,3 +102,9 @@ class HRManagementSystem:
         {1: {'employee_ID': 1, 'name': 'John', 'position': 'Manager', 'department': 'Sales', 'salary': 100000}}
 
         """
+        result = {}
+        for employee_id, info in self.employees.items():
+            record = {'employee_ID': employee_id}
+            record.update(info)
+            result[employee_id] = record
+        return result

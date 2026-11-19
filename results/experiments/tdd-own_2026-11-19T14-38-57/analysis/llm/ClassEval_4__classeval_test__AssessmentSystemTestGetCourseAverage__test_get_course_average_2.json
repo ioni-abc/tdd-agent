@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never mentions how None scores should be handled, but the test expects them to be skipped (average 85 for Physics), so the agent had no stated basis for excluding them and its code crashed on the None value."
+}

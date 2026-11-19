@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring never states the output dimensions; its only example is a square 3x3 input, so the test's assumption that the matrix has one row per data row (2x2) is an unstated assumption, while the solution builds a matrix sized by the number of columns (3x3)."
+}

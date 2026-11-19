@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never says what the matrix should be for a single-row input or that degenerate correlations should be None, and the agent's code treats rows as variables, a choice the docstring leaves open, so the expected 3x3 None matrix is not something the docstring describes."
+}

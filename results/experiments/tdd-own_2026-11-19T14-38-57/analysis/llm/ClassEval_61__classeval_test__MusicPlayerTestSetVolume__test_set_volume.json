@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says set_volume returns True when the volume is set, and the agent's code does so, while the reference solution and this test expect None on success."
+}

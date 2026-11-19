@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The failing assertion depends on the row shape returned by search_user_by_username, which insert_user's docstring never describes, and the agent's insert_user matches the reference behaviour of storing the username and password."
+}

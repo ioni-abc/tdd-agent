@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says the method returns the request parameters on success and never mentions returning None when the URL has no query string, which is the case this test checks (it expects None, while the agent's code returns {})."
+}

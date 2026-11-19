@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The test reuses the docstring example's events, including one without 'start_time', and the docstring's example output implies no error, but the reference solution indexes event['start_time'] on that event and raises KeyError."
+}

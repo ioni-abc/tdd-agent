@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says to return the fragment after '#' and never specifies the return value when the URL has no '#', so the test's expectation of None for a fragment-less URL is not described; the agent's urlparse-based '' return is consistent with the docstring."
+}

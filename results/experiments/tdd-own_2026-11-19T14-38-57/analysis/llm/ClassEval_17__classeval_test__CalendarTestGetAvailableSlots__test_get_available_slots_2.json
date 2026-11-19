@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never says slots are fixed one-hour intervals, yet the failing test expects 23 hourly slots, while the agent returned the two free gaps (0:00-1:00 and 2:00-24:00) that the docstring's wording and example allow."
+}

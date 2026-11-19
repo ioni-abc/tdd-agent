@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The failing assertion checks that `score` increments to 1 after a sweep, but the docstring never mentions updating a score, so the agent had no stated basis for implementing it."
+}

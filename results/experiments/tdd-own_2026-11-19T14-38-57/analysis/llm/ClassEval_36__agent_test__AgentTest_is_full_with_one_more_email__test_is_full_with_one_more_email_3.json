@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring says only that it returns True if the box is full, without specifying whether an exact fit counts as full, so the test's assumption that 40+10 reaching capacity 50 is full goes beyond what is stated, while the reference uses strict '>'."
+}

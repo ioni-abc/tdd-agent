@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring does not specify how prices are formatted, so the test's assumption that 2.5 renders as '$2.50' is unstated; the solution's f-string produces '$2.5'."
+}

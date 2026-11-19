@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring only says the method returns None when the token is invalid and never describes a request missing the 'headers' key, so the agent's expectation of None for that case was an assumption, and the reference raises KeyError instead."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring example returns events dated 2023 with no time filtering, so the agent's code follows it by returning the earliest n events regardless of the current time, whereas the reference solution filters out events whose start_time is before datetime.now(), which the failing test expects."
+}

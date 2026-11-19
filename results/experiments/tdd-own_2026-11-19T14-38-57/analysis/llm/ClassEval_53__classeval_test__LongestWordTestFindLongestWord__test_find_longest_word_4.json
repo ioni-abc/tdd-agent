@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says words are strictly case sensitive, so the agent correctly failed to match 'Apple' against 'apple', but solution_code lowercases the sentence and the test expects 'apple', contradicting the docstring."
+}

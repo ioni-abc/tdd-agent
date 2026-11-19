@@ -1,0 +1,4 @@
+{
+  "label": "broken_test_code",
+  "reason": "The test calls `self._fetch_all_rows()`, which is not defined in the shown setUp or test code, and the docstring and reference solution agree on inserting title and author, so the failure most likely comes from the test's own faulty helper usage rather than a behavioural mismatch."
+}

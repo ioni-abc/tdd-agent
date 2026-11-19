@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only gives the example [1,2,3,4] \u2192 1.0 and never says what is correlated, so the agent's index-versus-values reading is a reasonable interpretation that yields 0.2 here, while the reference (np.corrcoef on 1-D data) always returns 1.0, a behaviour the docstring does not describe."
+}

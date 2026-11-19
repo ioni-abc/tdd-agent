@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says compare returns True when the current operator has higher or equal precedence, so compare('*', '+') should be True, but the reference's priority-table lookup returns False for this pair, so the test follows the docstring and the solution does otherwise."
+}

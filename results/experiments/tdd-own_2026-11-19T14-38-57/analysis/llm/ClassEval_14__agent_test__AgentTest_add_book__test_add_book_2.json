@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring says availability is set to 1, which matches the reference solution, so the failure most likely comes from the test's unstated assumptions about the table layout (such as the `rows[0][3]` column index and the `_fetch_all_rows` helper) rather than from a contradiction in the docstring."
+}

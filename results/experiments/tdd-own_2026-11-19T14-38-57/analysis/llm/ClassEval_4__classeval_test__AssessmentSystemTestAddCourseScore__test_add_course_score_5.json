@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only describes adding a score for an existing student and says nothing about a missing name, yet the test expects a silent no-op for an unknown student, which the agent's code does not implement (it raises KeyError)."
+}

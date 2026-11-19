@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says play returns the current song in the playlist, and the test follows that by setting current_song to 'song2' and expecting 'song2', but the reference solution always returns playlist[0] and ignores current_song."
+}

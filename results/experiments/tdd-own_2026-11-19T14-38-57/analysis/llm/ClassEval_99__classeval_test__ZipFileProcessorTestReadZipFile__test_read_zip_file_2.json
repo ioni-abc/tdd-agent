@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says it returns an 'open file object', without specifying a ZipFile, but the failing test checks ZipFile-specific attributes like `.filename` and `.mode`, which the docstring does not describe."
+}

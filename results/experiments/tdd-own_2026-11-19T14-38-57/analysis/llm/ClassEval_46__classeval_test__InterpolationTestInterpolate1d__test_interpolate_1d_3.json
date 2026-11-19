@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never says whether unsorted x-coordinates are handled by segment order or by sorting, yet the test relies on the reference's order-dependent segment lookup with x=[1,6,4], while the agent's code sorts the points, a behaviour the docstring does not describe."
+}

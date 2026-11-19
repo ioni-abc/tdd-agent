@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring's example says '110.242.68.3' returns 'www.baidu.com', and the agent's code returns that value, while the ClassEval test and reference solution expect None for the same input."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only gives the example [1,2,3,4] \u2192 1.0 and never says what the correlation is computed against, so the agent's index-based interpretation was a guess, while the reference (a 1-D corrcoef, which is always 1.0) expects 1.0 for [1,4,3,2], a behaviour the docstring does not describe."
+}

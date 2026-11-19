@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says only to remove books and raise on invalid input, and never says a title should be deleted from the inventory when its count reaches zero, which is what the failing test expects."
+}

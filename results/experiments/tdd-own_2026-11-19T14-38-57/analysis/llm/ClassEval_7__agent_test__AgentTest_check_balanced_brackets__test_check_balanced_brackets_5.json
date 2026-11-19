@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring only says the method returns True or False for balanced brackets and says nothing about a closing bracket appearing before any opener, so the agent assumed `)(` returns False, while the reference solution instead raises IndexError from popping an empty stack."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only gives an adjacent same-icon example, not a rule that paths run through same-valued cells, yet the test expects a multi-step path over all-'a' cells. The agent instead invented a traversal rule that only moves through empty ' ' cells, and its listed wrong tests merely reinforce that invented rule."
+}

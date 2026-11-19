@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring only describes a path between two icons with a matching example, and says nothing about empty cells being passable, yet the test assumes a path can cross the ' ' cells, which the solution's equal-value adjacency check forbids."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring declares a float return type and shows `11.0`, but the reference solution's `sum` of integer products returns the int `11`, so the test's `assertIsInstance(result, float)` follows the docstring while the solution does otherwise."
+}

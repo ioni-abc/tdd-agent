@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring never says that block elements such as <h1> and <p> produce separate lines; the example's line breaks come from newlines in its input, which the test's single-line HTML lacks, so the reference's concatenated output 'HeadingSome text.' is consistent with the docstring and the agent assumed the separation."
+}

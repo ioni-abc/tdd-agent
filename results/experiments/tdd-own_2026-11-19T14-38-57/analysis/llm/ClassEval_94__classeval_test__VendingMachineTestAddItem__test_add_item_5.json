@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring only says the method adds a product and gives a single-add example, and never says that adding an existing item should increase its quantity via restocking, which is the behaviour this test checks. The agent's code overwrites the entry instead, and no wrong agent tests were involved."
+}

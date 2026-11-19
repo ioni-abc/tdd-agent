@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never says whether rows or columns are the variables, and its only example is a square 3x3 input, so the test's expectation that a 5x3 input yields a 3x3 matrix (one row and column per feature) is not described; the agent instead treated rows as variables and returned a 5x5 matrix."
+}

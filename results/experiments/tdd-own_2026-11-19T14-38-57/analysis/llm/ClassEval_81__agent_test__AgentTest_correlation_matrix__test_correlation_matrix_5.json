@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring never says how the output dimensions relate to the input shape, and its only example is square, so the agent's assumption that the matrix is 3x3 for 3 rows of 5 values is not stated anywhere; the reference solution instead returns a 5x5 matrix based on the number of columns."
+}

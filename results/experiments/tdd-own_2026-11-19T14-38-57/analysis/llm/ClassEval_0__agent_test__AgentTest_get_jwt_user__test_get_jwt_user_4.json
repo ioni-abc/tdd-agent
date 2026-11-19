@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring only says None is returned for an invalid token and never describes a request with no 'jwt' key, so the agent's expectation of None for that case is an assumption, and the reference solution raises KeyError instead."
+}

@@ -1,0 +1,4 @@
+{
+  "label": "agent_assumed_unstated",
+  "reason": "The docstring never says which paths bypass authentication, so the agent's assumption that '/api/data' without a token is rejected is unstated; the reference's prefix whitelist (is_start_with) lets it through and returns True."
+}

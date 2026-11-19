@@ -1,0 +1,4 @@
+{
+  "label": "other_code_bug",
+  "reason": "The agent invented an age-under-25 rule that overrides the male lower BMI bound to 22, so a normal BMI of about 20.3 is wrongly classed as too thin, which is a mistake in the agent's own logic rather than a documented or tested behaviour."
+}

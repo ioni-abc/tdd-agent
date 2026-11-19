@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring says nothing about interpolation points outside the grid, but the reference solution silently drops them, which this test checks; the agent's code instead extrapolates and returns 13.0 for (4, 4)."
+}

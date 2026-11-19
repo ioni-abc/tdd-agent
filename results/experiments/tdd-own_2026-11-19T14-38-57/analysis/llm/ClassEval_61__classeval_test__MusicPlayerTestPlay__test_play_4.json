@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says play returns the current song, and the agent's code returns current_song ('song3'), but the reference solution and this test expect playlist[0] ('song1'), so the failure comes from a conflict between the docstring and the solution rather than from a bug in the agent's code or its own tests."
+}

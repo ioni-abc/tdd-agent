@@ -1,0 +1,4 @@
+{
+  "label": "caused_by_wrong_agent_test",
+  "reason": "The failing assertion depends on search_user_by_username returning a single row tuple, but the agent's test_insert_user_2 and test_insert_user_3 assumed `rows` is a list of rows (`len(rows) == 1`, `rows[0]`), which likely led the agent to implement the search as returning a list, so that wrong test pushed the code into the failing shape."
+}

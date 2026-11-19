@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never mentions the '%' operator, so the test's expectation that '%' has the same precedence as '/' (via the reference's mapping) is not specified anywhere the agent could see, and the agent's own tests did not cover '%'."
+}

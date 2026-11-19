@@ -1,0 +1,4 @@
+{
+  "label": "docstring_contradicts_solution",
+  "reason": "The docstring says that when the number of combinations exceeds 2^63-1 the method returns float(\"inf\"), and n=64 yields 2^64-1, so the test follows the docstring; the reference solution instead returns False for any n > 63."
+}

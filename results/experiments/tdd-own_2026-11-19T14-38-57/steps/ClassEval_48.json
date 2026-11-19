@@ -1,38 +1,38 @@
 [
   {
     "method": "is_valid_ipv4",
-    "tests_in_suite": 0,
+    "tests_in_suite": 5,
     "red_passed": 0,
-    "coded": false,
+    "coded": true,
     "fix_attempts": 0,
-    "green_passed": 0,
-    "green": false,
+    "green_passed": 5,
+    "green": true,
     "tests_given": 0,
-    "tests_written": 0,
-    "tests_valid": false
+    "tests_written": 5,
+    "tests_valid": true
   },
   {
     "method": "is_valid_ipv6",
-    "tests_in_suite": 0,
-    "red_passed": 0,
-    "coded": false,
+    "tests_in_suite": 10,
+    "red_passed": 5,
+    "coded": true,
     "fix_attempts": 0,
-    "green_passed": 0,
-    "green": false,
+    "green_passed": 10,
+    "green": true,
     "tests_given": 0,
-    "tests_written": 0,
-    "tests_valid": false
+    "tests_written": 5,
+    "tests_valid": true
   },
   {
     "method": "get_hostname",
-    "tests_in_suite": 0,
-    "red_passed": 0,
-    "coded": false,
-    "fix_attempts": 0,
-    "green_passed": 0,
-    "green": false,
+    "tests_in_suite": 15,
+    "red_passed": 11,
+    "coded": true,
+    "fix_attempts": 1,
+    "green_passed": 15,
+    "green": true,
     "tests_given": 0,
-    "tests_written": 0,
-    "tests_valid": false
+    "tests_written": 5,
+    "tests_valid": true
   }
 ]

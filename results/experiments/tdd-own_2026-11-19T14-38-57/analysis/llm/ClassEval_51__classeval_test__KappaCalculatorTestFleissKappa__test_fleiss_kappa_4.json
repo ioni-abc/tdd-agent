@@ -1,0 +1,4 @@
+{
+  "label": "unstated_behaviour",
+  "reason": "The docstring never says how chance agreement is normalised, and the reference divides column sums by the actual matrix total (141, because the modified first row sums to 15), whereas the agent uses N*n = 140, so the test checks a detail the docstring leaves unspecified."
+}
