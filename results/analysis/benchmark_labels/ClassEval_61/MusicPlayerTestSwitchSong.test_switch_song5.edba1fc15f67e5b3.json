@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With an empty playlist there is no next song, so the docstring's \"False if there was no next song\" directly predicts the expected False.",
+  "missing": "none"
+}

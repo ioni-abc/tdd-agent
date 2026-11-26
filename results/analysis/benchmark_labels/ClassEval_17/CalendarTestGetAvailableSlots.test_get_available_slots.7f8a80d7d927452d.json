@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"all available time slots\" without giving the slot length (one hour, aligned to the hour) or how a slot that touches an event's boundary counts as busy, so a correct implementation could return different slots than the test expects.",
+  "missing": "The docstring should state that the day is split into consecutive fixed-length slots (here one hour, starting at midnight), and that a slot is unavailable only if it overlaps an existing event's interval, with the event end treated as exclusive."
+}

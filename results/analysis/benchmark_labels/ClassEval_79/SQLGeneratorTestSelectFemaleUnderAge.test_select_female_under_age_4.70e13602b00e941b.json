@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the exact output format, `SELECT * FROM table1 WHERE age < N AND gender = 'female';`, so a programmer substituting 10 for the age would produce the expected string.",
+  "missing": "none"
+}

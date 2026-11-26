@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names Cohen's kappa over a square confusion matrix, and the standard definition (diagonal sum over total for observed agreement, row and column marginals for chance agreement) yields the test's expected value of about 0.1947.",
+  "missing": "none"
+}

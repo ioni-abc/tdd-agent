@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says create_deck returns a list of 52 cards with the Jokers removed, which is the length the test checks on the deck the game builds.",
+  "missing": "none"
+}

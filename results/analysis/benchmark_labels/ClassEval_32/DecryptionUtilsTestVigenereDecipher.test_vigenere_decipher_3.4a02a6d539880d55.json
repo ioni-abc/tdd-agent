@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says whether letter case is preserved, and its only example is all lowercase, so a correct decipher that lowercases or otherwise normalises the output would fail this mixed-case test.",
+  "missing": "The docstring should state that each output letter keeps the case of the corresponding ciphertext letter, with uppercase and lowercase letters preserved independently."
+}

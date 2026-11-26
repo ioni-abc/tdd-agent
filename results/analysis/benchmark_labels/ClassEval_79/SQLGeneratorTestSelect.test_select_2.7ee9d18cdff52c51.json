@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same behaviour the test checks: a field list is joined with commas, the condition is appended after WHERE, and the statement ends with a semicolon.",
+  "missing": "none"
+}

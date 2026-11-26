@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says an error message is returned on failure but does not say that a missing key triggers it or give the exact message, so a programmer could reasonably return a different string or treat this input as valid.",
+  "missing": "The docstring should state exactly which inputs count as malformed (non-dict, or a dict lacking either required key) and the exact error string to return for them."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies converting a numeric string to uppercase words ending in \"ONLY\", with a worked example, so a programmer following it would naturally produce \"ONE MILLION ONLY\" for 1000000.",
+  "missing": "none"
+}

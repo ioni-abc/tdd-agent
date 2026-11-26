@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says \"upcoming events from a given date\" but gives no reference point, so a programmer could reasonably filter by the current time, by a date argument, or by the event date rather than start time, and the test's expectation that a past-starting event is excluded is not stated.",
+  "missing": "The docstring should say that \"upcoming\" means events whose start time is at or after the current moment, and that events starting earlier are skipped, with the result capped at the requested count."
+}

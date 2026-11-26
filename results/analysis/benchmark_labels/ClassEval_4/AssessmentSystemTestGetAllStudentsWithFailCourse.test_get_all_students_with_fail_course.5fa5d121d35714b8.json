@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return students who have any score below 60, so a programmer would implement a strict less-than-60 check over each student's courses, which matches the test's expected `['Bob']` (Bob has 50, while David's 60 is excluded).",
+  "missing": "none"
+}

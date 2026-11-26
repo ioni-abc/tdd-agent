@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says nothing about the case where the instance's city is absent from `weather_list`, so a programmer would likely raise an error or return None, while the test expects `False`.",
+  "missing": "The docstring should say what to return when the configured city is not a key in `weather_list` (here, `False`), instead of only describing the successful tuple return."
+}

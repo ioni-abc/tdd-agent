@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each entry pairs a letters Chord with a numeric Tune, and its example shows space-separated segments split into those fields, so a programmer would produce `[{'Chord': 'C', 'Tune': '53231323'}]` for this single-segment input.",
+  "missing": "none"
+}

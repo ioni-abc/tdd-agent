@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the temperature is converted to the requested units, so a programmer would convert the source-unit reading to the target unit, but the test expects one exact floating-point result that depends on the specific conversion formula and operation order.",
+  "missing": "The docstring should specify the conversion formula used for each unit pair (or the rounding precision of the returned temperature), so that any conversion from a stored reading to the requested unit yields the same exact value."
+}

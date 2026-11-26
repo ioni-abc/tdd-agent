@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only to add a course score to the student's record, so it doesn't say whether re-adding an existing course replaces the old score or combines with it, and the test checks that a repeated course keeps only the latest value.",
+  "missing": "The docstring should state what happens when a score for the same course is added again, such as whether the new value replaces the stored one or is accumulated with it."
+}

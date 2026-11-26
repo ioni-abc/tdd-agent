@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test-method mismatch: the test never calls create_deck and instead checks the self.deck attribute populated in setUp, which the create_deck docstring does not describe.",
+  "missing": "The docstring should state that the constructor stores the generated deck in an instance attribute (self.deck) and that this stored deck is what callers read afterward."
+}

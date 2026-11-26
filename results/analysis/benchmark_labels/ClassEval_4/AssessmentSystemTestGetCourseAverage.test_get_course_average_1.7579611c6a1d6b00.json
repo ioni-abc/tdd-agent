@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the average score of a course across students who have records for it, which is what the test checks: Physics scores of 90 and 80 average to 85.0, ignoring students without that course.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows a non-zero hundreds digit, so a programmer could reasonably output \"ZERO ZERO SEVEN\", \"SEVEN\", or something else for a leading-zero input, and the test expects just \"SEVEN\".",
+  "missing": "The docstring should state how a leading zero in the hundreds position is handled, e.g. whether it is dropped so the number reads as its tens/ones part alone, with no \"HUNDRED\" or \"AND\" added."
+}

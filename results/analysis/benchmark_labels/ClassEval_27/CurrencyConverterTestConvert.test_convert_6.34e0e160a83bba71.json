@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes a successful conversion and says nothing about an unrecognised currency code, yet the test expects the call to return a falsy value rather than raising an error or returning a number.",
+  "missing": "The docstring should state what the method returns or raises when either currency code is not a supported currency, including the exact falsy value (such as False) it should return."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says customers \"with over 1000 points\" get the discount, which excludes exactly 1000, but the test uses 1000 points and expects a 5% discount of 12.5, matching the reference's `>= 1000` check.",
+  "missing": "The docstring should state that the discount applies when the customer's points are at least the threshold (inclusive), and that the discount equals 5% of the order's total."
+}

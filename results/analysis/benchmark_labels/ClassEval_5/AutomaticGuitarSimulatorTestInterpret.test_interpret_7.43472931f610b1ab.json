@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says Chord is letters and Tune is numbers, and its example shows a multi-letter chord (\"Em\"), so a programmer would take the leading letter run as the chord and the rest as the tune, which gives \"ABC\" and \"43231323\" for this test.",
+  "missing": "none"
+}

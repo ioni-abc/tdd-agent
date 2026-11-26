@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the area as a circle's area from its radius and its example (radius 2 giving 12.566...) pins down pi times radius squared, which is exactly what the test checks at radius 2000 within a 0.01 tolerance.",
+  "missing": "none"
+}

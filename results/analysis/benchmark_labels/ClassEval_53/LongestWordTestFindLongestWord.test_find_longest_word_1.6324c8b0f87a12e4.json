@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to strip punctuation, split the sentence into words, and return the longest one found in self.word_list, so a programmer would produce 'a' for this input, matching the test.",
+  "missing": "none"
+}

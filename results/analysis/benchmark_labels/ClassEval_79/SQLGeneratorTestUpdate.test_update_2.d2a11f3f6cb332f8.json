@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the exact format (quoted values, comma-joined SET clause, WHERE condition, trailing semicolon, table name from the object), so a programmer generalising to three fields would produce the expected string.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows each input string split into words with the stop words dropped and returned as a list of word lists, which is what the test expects for a string containing a single stop word.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that the song is removed, so a programmer could reasonably implement list.remove, which raises an error when the song is absent, while the test expects a silent no-op on an empty playlist.",
+  "missing": "The docstring should say what happens when the song is not in the playlist, for example that the playlist is left unchanged and no error is raised."
+}

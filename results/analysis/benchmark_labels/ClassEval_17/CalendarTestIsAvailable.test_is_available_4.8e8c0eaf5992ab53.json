@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer reading \"available for a given time slot\" would treat any overlap with an existing event as unavailable, which is exactly what this partially overlapping slot tests, so the expected False follows from the docstring.",
+  "missing": "none"
+}

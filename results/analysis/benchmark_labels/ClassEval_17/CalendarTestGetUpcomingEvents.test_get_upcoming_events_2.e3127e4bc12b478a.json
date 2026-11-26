@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says \"upcoming\" and \"from a given date,\" but the signature has no date parameter, so a programmer cannot tell that the reference point is the current time and that events starting before now must be excluded, which this test depends on.",
+  "missing": "The docstring should state that \"upcoming\" is measured against the current time, and that only events whose start time is at or after the current moment are returned, with already-started or past events excluded."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a successful send returns True and its example shows the inbox entry with sender, receiver, content, size, a timestamp, and state 'unread', which is what the test checks for a small email to a non-full inbox.",
+  "missing": "none"
+}

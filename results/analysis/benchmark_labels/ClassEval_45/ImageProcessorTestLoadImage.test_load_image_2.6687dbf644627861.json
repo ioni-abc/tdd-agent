@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to open the image at the given path with PIL and that the result is stored on `processor.image`, so a programmer following it would set `self.image` to the opened file, whose size then matches the saved 100x100 image the test checks.",
+  "missing": "none"
+}

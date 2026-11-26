@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says insert_user adds a user with a username and password to the \"users\" table, which is exactly what the test checks by inserting and then reading the row back with the natural column order.",
+  "missing": "none"
+}

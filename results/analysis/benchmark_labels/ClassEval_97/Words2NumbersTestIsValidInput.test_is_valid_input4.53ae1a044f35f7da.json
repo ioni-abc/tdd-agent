@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False unless every word is a valid number word, and \"eleventy\" is not one, so a programmer following it would return False.",
+  "missing": "none"
+}

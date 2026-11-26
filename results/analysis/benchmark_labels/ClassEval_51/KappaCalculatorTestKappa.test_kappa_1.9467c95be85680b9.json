@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example gives this exact input and expects 0.25, and standard Cohen's kappa (observed agreement from the diagonal, expected agreement from marginals) produces that value, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

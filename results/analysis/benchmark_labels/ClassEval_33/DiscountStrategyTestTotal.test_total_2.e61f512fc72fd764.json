@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines total as the cost of the cart's items, and the example shows quantity times price, so a programmer summing quantity \u00d7 price across items would get the test's 150.0.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the full convention (uppercase English words, scale words like THOUSAND, \"AND\" usage, and a trailing ONLY), so a programmer following it would naturally produce \"ONE MILLION ONLY\" for one million.",
+  "missing": "none"
+}

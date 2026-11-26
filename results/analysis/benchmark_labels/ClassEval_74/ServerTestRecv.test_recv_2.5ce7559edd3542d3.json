@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says a non-whitelisted address returns False and the content is not received, but it never says whether the stored `receive_struct` must stay in its initial empty state, which the test asserts.",
+  "missing": "When the address is not on the whitelist, the method must leave any internal record of received messages unchanged, so it stays at whatever its initial value was."
+}

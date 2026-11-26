@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method converts a binary string to its decimal integer value, which is exactly what the test checks (the 19-bit string maps to 339639), so a programmer following it would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says set_city sets the city of the weather system, and a programmer doing that would store 'Shanghai' so the test's assertion that the city is not 'Tokyo' holds.",
+  "missing": "none"
+}

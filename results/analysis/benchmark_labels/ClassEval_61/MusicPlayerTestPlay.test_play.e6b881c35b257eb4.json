@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example sets the same playlist and current song and shows `'song1'` as the result, so a programmer following it would return that value and pass the test.",
+  "missing": "none"
+}

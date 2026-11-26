@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the exact output format 'SELECT * FROM table1 WHERE age BETWEEN lo AND hi;' with the bounds inserted, so a programmer following it would produce the test's expected string for inputs 10 and 20.",
+  "missing": "none"
+}

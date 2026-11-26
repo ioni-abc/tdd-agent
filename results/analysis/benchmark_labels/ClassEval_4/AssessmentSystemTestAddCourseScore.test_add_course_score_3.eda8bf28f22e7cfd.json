@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only to add a course score to the student, so a programmer could reasonably accumulate, keep the first value, or overwrite when the same course is scored twice, and the test expects overwriting.",
+  "missing": "The docstring should state what happens when a course already has a recorded score for that student, such as whether the new score replaces the old one, is combined with it, or is ignored."
+}

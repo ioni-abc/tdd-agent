@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring defines values only for digits, J/Q/K and A, so it does not say what a card with an unrecognised rank (here B and C) contributes, and a faithful implementation could raise an error or count it differently from the expected 20.",
+  "missing": "The docstring should state that any card whose rank is not a digit, J, Q, K or A adds nothing to the total (or should specify some other value or error behaviour for it)."
+}

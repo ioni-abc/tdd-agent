@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"list of data\", so a programmer could reasonably return each row as a list, while the test expects each row as a tuple.",
+  "missing": "The docstring should specify the type of each returned row (for example, tuples of cell values) and which worksheet is read when the workbook has several."
+}

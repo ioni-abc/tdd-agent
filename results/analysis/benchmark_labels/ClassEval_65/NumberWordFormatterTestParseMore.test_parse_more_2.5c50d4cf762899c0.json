@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example calls `parse_more(1)` and expects `\"THOUSAND\"`, which is exactly what the test checks.",
+  "missing": "none"
+}

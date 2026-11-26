@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest gives the same ciphertext, rail count, and expected plaintext as the test, and a programmer implementing standard zigzag rail-fence decryption would produce 'Hello, World!'.",
+  "missing": "none"
+}

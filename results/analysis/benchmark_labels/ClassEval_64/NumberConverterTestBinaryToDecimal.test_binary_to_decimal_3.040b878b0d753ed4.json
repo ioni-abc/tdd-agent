@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the decimal value of a binary string, so a programmer would implement standard base-2 parsing, which gives 42455 for this input (I verified the bit sum).",
+  "missing": "none"
+}

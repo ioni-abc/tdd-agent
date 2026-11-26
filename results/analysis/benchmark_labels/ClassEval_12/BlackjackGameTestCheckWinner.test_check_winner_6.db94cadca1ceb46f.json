@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With both hands at or under 21, the docstring says the hand closer to 21 wins, and the player's hand (21 or 12 depending on ace value) beats the dealer's 10 under either ace valuation, so the expected 'Player wins' follows from the docstring.",
+  "missing": "none"
+}

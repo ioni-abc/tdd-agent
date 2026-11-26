@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same output format (quoted values, comma-joined SET clause, WHERE clause, trailing semicolon) that this four-field test checks, so a programmer following it would pass.",
+  "missing": "none"
+}

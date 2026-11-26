@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only illustrates the fidelity promotion, so a programmer following it cannot know the large-order promotion's threshold or discount rate that this test relies on.",
+  "missing": "The docstring should state each promotion's eligibility condition (for example, the item count or distinct-product count that triggers it) and the exact discount it applies (percentage or fixed amount, and whether it is computed on the total), so every promotion's behaviour can be implemented from the docstring alone."
+}

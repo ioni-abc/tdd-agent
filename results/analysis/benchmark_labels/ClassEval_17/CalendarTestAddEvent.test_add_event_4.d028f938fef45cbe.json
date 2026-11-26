@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_event adds the given event dict to the calendar, and its example shows the dict being appended to `calendar.events`, so a programmer following it would append the event and pass this test.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what happens to non-letter characters, but the test expects digits to pass through unchanged, so a programmer following the docstring could shift or reject them and fail.",
+  "missing": "The docstring should state that any character that is not an alphabetic letter is copied to the output unchanged, while letters keep their case and are shifted within their own alphabet."
+}

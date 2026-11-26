@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example uses the same inbox and size (30) and shows the oldest emails removed until the freed space reaches the requested size, leaving the 15-size email, which is exactly what the test asserts.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says adding an address appends it to the whitelist and gives the example `add_white_list(88)` returning `[88]`, so a programmer following it would leave `white_list` equal to `[88]`, which is what the test checks.",
+  "missing": "none"
+}

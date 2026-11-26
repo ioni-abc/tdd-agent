@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (radius 2, angle pi giving about 6.283) matches the standard sector formula radius squared times angle over two, which is what the test's radius 1.5 and angle pi expect (about 3.534, within the 0.01 tolerance of 3.53).",
+  "missing": "none"
+}

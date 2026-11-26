@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the method returns True when the volume is set, but the test expects None on a successful set, and the reference code returns nothing in that case.",
+  "missing": "The docstring should say that on success the method returns None (no value), and returns False only when the input is out of range, instead of promising True on success."
+}

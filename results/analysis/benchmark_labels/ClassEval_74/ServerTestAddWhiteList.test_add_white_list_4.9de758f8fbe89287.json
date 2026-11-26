@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the address is added to the whitelist and the example shows the resulting list, so a programmer following it would produce `[11]` after adding 11 to an empty whitelist.",
+  "missing": "none"
+}

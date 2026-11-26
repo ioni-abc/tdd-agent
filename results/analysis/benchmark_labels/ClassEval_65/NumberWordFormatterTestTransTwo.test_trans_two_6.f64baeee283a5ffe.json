@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method converts a two-digit number to words and gives the uppercase format with a tens-and-units example, so a programmer would naturally return \"EIGHTY\" for 80 with no unit word.",
+  "missing": "none"
+}

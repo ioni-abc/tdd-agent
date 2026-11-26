@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the factor as a linear brightness scale (0.0 black, 1.0 original), which is what the test checks at 0.7 on a white image, and a programmer would implement it with PIL's brightness enhancer as the reference does.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each submission is added to the resumes list, so a programmer would append every call in order, which is what the test checks even with duplicate names.",
+  "missing": "none"
+}

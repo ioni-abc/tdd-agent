@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the method returns True when the volume is set, but the test and reference code expect None on a valid volume of 100.",
+  "missing": "The docstring should say that a valid volume is stored and the method returns None (no return value), and that only an invalid volume returns False."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the column is \"changed to uppercase\" but does not say the result is appended as a new last column with the original kept, which is what the test expects.",
+  "missing": "The docstring should state that the uppercased values are written as a new column added after all existing columns (original columns unchanged), and that the output file name is the input file's base name with \"_process.xlsx\" appended."
+}

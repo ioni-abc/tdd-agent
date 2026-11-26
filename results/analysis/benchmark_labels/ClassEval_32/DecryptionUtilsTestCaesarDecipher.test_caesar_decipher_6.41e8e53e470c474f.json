@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows a lowercase example, so a programmer could reasonably handle only lowercase letters or change case, yet the test expects uppercase letters to be shifted and kept uppercase.",
+  "missing": "The docstring should say how letter case is handled, for example that uppercase letters stay uppercase after shifting, and that non-alphabetic characters are passed through unchanged."
+}

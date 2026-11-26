@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the standard Cohen's kappa over a square confusion matrix, and computing that for this test's matrix gives 22/113 \u2248 0.19469, matching the expected value.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test reads a deck attribute populated at object construction rather than calling create_deck, and the docstring never says the constructor must store a deck, though a correct create_deck could still leave that attribute unset.",
+  "missing": "The docstring should state that creating the game object must also initialise the instance's stored deck with the full set of cards, so that code reading that attribute without calling the method sees the same 52 cards."
+}

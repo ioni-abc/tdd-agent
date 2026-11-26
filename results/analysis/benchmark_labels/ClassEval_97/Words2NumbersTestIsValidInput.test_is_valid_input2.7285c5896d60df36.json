@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says valid words are those that \"can be converted into numbers\" but never says whether ordinal words or connecting words like \"and\" count as valid, so a programmer could reasonably reject the test's input.",
+  "missing": "The docstring should state which word forms are accepted, including whether ordinal forms and conjunction words are valid inputs, and how hyphens between words are treated."
+}

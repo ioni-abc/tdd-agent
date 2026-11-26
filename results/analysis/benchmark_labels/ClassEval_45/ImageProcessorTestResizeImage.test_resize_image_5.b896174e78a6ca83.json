@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the image is resized to the given width and height, so it does not say whether the resized image keeps the original format, and the test asserts that the format becomes None.",
+  "missing": "The docstring should state whether the resized image keeps the source file's metadata such as its format, or whether resizing produces an image with no format attached."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to rotate the image by the given degrees but does not say in which direction or whether the canvas expands, and the test's exact pixel comparison against PIL's default `rotate(45)` depends on those choices.",
+  "missing": "The docstring should state the rotation direction (for example counterclockwise, as PIL does), whether the output canvas is enlarged to fit the rotated image or keeps the original size, and what fills the uncovered corners."
+}

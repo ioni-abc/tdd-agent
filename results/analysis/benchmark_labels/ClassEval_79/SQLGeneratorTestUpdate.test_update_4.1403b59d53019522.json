@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies the UPDATE format with SET clause of \"field = 'value'\" pairs joined by commas, WHERE condition, and trailing semicolon, which the test with five fields exercises directly, so a programmer following it would produce the expected string.",
+  "missing": "none"
+}

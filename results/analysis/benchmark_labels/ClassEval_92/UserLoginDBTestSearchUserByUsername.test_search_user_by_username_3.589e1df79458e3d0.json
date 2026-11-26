@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring promises a list of all matching rows (with `len(result) = 1` in the example), but the test and reference code expect a single row tuple whose elements are indexed directly, so a docstring-following implementation returns a list and fails.",
+  "missing": "The docstring should state that the method returns the first matching record as a single tuple of column values (or None if nothing matches), not a list of tuples."
+}

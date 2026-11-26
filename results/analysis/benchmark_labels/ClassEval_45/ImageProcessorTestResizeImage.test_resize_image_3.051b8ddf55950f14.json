@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the image's `format` attribute to be None after resizing, which is a side effect of PIL creating a new image object, but the docstring never mentions format, so an implementation that preserves the format would fail.",
+  "missing": "The docstring should say whether the image's file-format metadata is kept or discarded after resizing, and if it is discarded, that the result has no format value."
+}

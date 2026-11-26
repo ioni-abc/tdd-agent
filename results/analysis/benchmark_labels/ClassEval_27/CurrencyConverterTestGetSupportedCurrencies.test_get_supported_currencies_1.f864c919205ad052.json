@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the exact list and order `['USD','EUR','GBP','JPY','CAD','AUD','CNY']` for a default `CurrencyConverter`, which is what the test asserts.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Following the docstring, the five cards total 53 with three Aces at 11, and each Ace is downgraded to 1 until the total is at most 21 or all Aces are counted as 1, giving 23, which matches the test.",
+  "missing": "none"
+}

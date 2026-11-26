@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that a two-digit number is converted to words, so a programmer could reasonably render \"05\" as \"ZERO FIVE\" or as \"FIVE\", and the test expects \"FIVE\".",
+  "missing": "The docstring should say how a leading zero is handled, i.e. whether a padded value such as \"0d\" is read as the single digit d (and so spoken as that digit's word) or as zero followed by that digit."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring describes converting a three-digit number to words but does not say how a leading zero in the hundreds place should be rendered, so a correct implementation could output something like \"ZERO HUNDRED...\" or drop the hundreds part, while the test expects just \"SIX\".",
+  "missing": "The docstring should state how a hundreds digit of zero is handled, i.e. whether the hundreds part is omitted entirely and the remaining tens and units are converted as a two-digit number with no \"HUNDRED\" or \"AND\" wording."
+}

@@ -1,0 +1,3758 @@
+{
+  "ClassEval_0": {
+    "filter": {
+      "attempted": 2,
+      "failed": []
+    },
+    "is_start_with": {
+      "attempted": 2,
+      "failed": []
+    },
+    "get_jwt_user": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "filter.get_jwt_user({'headers': {'Authorization': {'user': {'name': 'user1'}, 'jwt': 'user1'+str(datetime.date.today())}}})",
+          "want": "{'user': {'name': 'user1'}",
+          "got": "{'user': {'name': 'user1'}, 'jwt': 'user12026-11-19'}",
+          "contradicts": false
+        }
+      ]
+    },
+    "set_current_user_info_and_log": {
+      "attempted": 3,
+      "failed": []
+    }
+  },
+  "ClassEval_1": {
+    "calculate_circle_area": {
+      "attempted": 2,
+      "failed": []
+    },
+    "calculate_sphere_area": {
+      "attempted": 2,
+      "failed": []
+    },
+    "calculate_cylinder_area": {
+      "attempted": 2,
+      "failed": []
+    },
+    "calculate_sector_area": {
+      "attempted": 2,
+      "failed": []
+    },
+    "calculate_annulus_area": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "areaCalculator.calculate_annulus_area(2, 3)",
+          "want": "15.707963267948966",
+          "got": "NameError(\"name 'areaCalculator' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_2": {
+    "parse_arguments": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "parser.parse_arguments(\"python script.py --arg1=value1 -arg2 value2 --option1 -option2\")",
+          "want": "(True, None)",
+          "got": "NameError(\"name 'parser' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "parser.arguments",
+          "want": "{'arg1': 'value1', 'arg2': 'value2', 'option1': True, 'option2': True}",
+          "got": "NameError(\"name 'parser' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "get_argument": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "parser.arguments",
+          "want": "{'arg1': 'value1', 'arg2': 'value2', 'option1': True, 'option2': True}",
+          "got": "NameError(\"name 'parser' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "parser.get_argument('arg2')",
+          "want": "'value2'",
+          "got": "NameError(\"name 'parser' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "add_argument": {
+      "attempted": 3,
+      "failed": [
+        {
+          "source": "parser.add_argument('arg1', True, 'int')",
+          "want": "",
+          "got": "NameError(\"name 'parser' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "parser.required",
+          "want": "{'arg1'}",
+          "got": "NameError(\"name 'parser' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "parser.types",
+          "want": "{'arg1': 'int'}",
+          "got": "NameError(\"name 'parser' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "_convert_type": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "parser.types",
+          "want": "{'arg1': int}",
+          "got": "NameError(\"name 'parser' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "parser._convert_type('arg1', '21')",
+          "want": "21",
+          "got": "NameError(\"name 'parser' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_3": {
+    "count": {
+      "attempted": 1,
+      "failed": []
+    },
+    "count_all": {
+      "attempted": 1,
+      "failed": []
+    },
+    "select": {
+      "attempted": 2,
+      "failed": []
+    },
+    "select_all": {
+      "attempted": 2,
+      "failed": []
+    },
+    "factorial": {
+      "attempted": 1,
+      "failed": []
+    }
+  },
+  "ClassEval_4": {
+    "add_student": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "system.add_student('student 1', 3, 'SE')",
+          "want": "",
+          "got": "NameError(\"name 'system' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "system.students",
+          "want": "{'student 1': {'name': 'student 1', 'grade': 3, 'major': 'SE', 'courses': {}}}",
+          "got": "NameError(\"name 'system' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "add_course_score": {
+      "attempted": 3,
+      "failed": [
+        {
+          "source": "system.add_student('student 1', 3, 'SE')",
+          "want": "",
+          "got": "NameError(\"name 'system' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "system.add_course_score('student 1', 'math', 94)",
+          "want": "",
+          "got": "NameError(\"name 'system' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "system.students",
+          "want": "{'student 1': {'name': 'student 1', 'grade': 3, 'major': 'SE', 'courses': {'math': 94}}}",
+          "got": "NameError(\"name 'system' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "get_gpa": {
+      "attempted": 4,
+      "failed": [
+        {
+          "source": "system.add_student('student 1', 3, 'SE')",
+          "want": "",
+          "got": "NameError(\"name 'system' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "system.add_course_score('student 1', 'math', 94)",
+          "want": "",
+          "got": "NameError(\"name 'system' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "system.add_course_score('student 1', 'Computer Network', 92)",
+          "want": "",
+          "got": "NameError(\"name 'system' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "system.get_gpa('student 1')",
+          "want": "93.0",
+          "got": "NameError(\"name 'system' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "get_all_students_with_fail_course": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "system.add_course_score('student 1', 'Society', 59)",
+          "want": "",
+          "got": "NameError(\"name 'system' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "system.get_all_students_with_fail_course()",
+          "want": "['student 1']",
+          "got": "NameError(\"name 'system' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "get_course_average": {
+      "attempted": 0,
+      "failed": []
+    },
+    "get_top_student": {
+      "attempted": 5,
+      "failed": [
+        {
+          "source": "system.add_student('student 1', 3, 'SE')",
+          "want": "",
+          "got": "NameError(\"name 'system' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "system.add_student('student 2', 2, 'SE')",
+          "want": "",
+          "got": "NameError(\"name 'system' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "system.add_course_score('student 1', 'Computer Network', 92)",
+          "want": "",
+          "got": "NameError(\"name 'system' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "system.add_course_score('student 2', 'Computer Network', 97)",
+          "want": "",
+          "got": "NameError(\"name 'system' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "system.get_top_student()",
+          "want": "'student 2'",
+          "got": "NameError(\"name 'system' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_5": {
+    "interpret": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "play_list = context.interpret(display = False)",
+          "want": "[{'Chord': 'C', 'Tune': '53231323'}, {'Chord': 'Em', 'Tune': '43231323'}, {'Chord': 'F', 'Tune': '43231323'}, {'Chord': 'G', 'Tune': '63231323'}]",
+          "got": "",
+          "contradicts": false
+        }
+      ]
+    },
+    "display": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "context.display(\"C\", \"53231323\")",
+          "want": "Normal Guitar Playing -- Chord: C, Play Tune: 53231323",
+          "got": "'Normal Guitar Playing -- Chord: C, Play Tune: 53231323'",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_6": {
+    "setNum": {
+      "attempted": 2,
+      "failed": []
+    },
+    "get": {
+      "attempted": 2,
+      "failed": []
+    }
+  },
+  "ClassEval_7": {
+    "clear_expr": {
+      "attempted": 3,
+      "failed": []
+    },
+    "check_balanced_brackets": {
+      "attempted": 2,
+      "failed": []
+    }
+  },
+  "ClassEval_8": {
+    "deposit": {
+      "attempted": 0,
+      "failed": []
+    },
+    "withdraw": {
+      "attempted": 0,
+      "failed": []
+    },
+    "view_balance": {
+      "attempted": 0,
+      "failed": []
+    },
+    "transfer": {
+      "attempted": 4,
+      "failed": [
+        {
+          "source": "account1.deposit(1000)",
+          "want": "",
+          "got": "1000",
+          "contradicts": false
+        },
+        {
+          "source": "account1.transfer(account2, 300)",
+          "want": "account1.balance = 700 account2.balance = 300",
+          "got": "",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_9": {
+    "add": {
+      "attempted": 2,
+      "failed": []
+    },
+    "subtract": {
+      "attempted": 2,
+      "failed": []
+    },
+    "multiply": {
+      "attempted": 2,
+      "failed": []
+    }
+  },
+  "ClassEval_10": {
+    "clean_non_binary_chars": {
+      "attempted": 3,
+      "failed": []
+    },
+    "calculate_binary_info": {
+      "attempted": 2,
+      "failed": []
+    },
+    "convert_to_ascii": {
+      "attempted": 2,
+      "failed": []
+    },
+    "convert_to_utf8": {
+      "attempted": 2,
+      "failed": []
+    }
+  },
+  "ClassEval_11": {
+    "add": {
+      "attempted": 2,
+      "failed": []
+    },
+    "has": {
+      "attempted": 2,
+      "failed": []
+    },
+    "remove": {
+      "attempted": 2,
+      "failed": []
+    },
+    "check": {
+      "attempted": 2,
+      "failed": []
+    }
+  },
+  "ClassEval_12": {
+    "create_deck": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "black_jack_game.create_deck()",
+          "want": "['QD', '9D', 'JC', 'QH', '2S', 'JH', '7D', '6H', '9S', '5C', '7H', 'QS', '5H',\n'6C', '7C', '3D', '10C', 'AD', '4C', '5D', 'AH', '2D', 'QC', 'KH', '9C', '9H',\n'4H', 'JS', '6S', '8H', '8C', '4S', '3H', '10H', '7S', '6D', '3C', 'KC', '3S',\n'2H', '10D', 'KS', '4D', 'AC', '10S', '2C', 'KD', '5S', 'JD', '8S', 'AS', '8D']",
+          "got": "['3C', '4D', 'AC', '10C', '5H', '5D', '8S', 'QC', '4H', '2D', 'JD', 'KH', '9S', '3S', 'JS', 'AS', '10H', '2H', 'AH', 'JC', '6H', '9D', '10D', '9H', '6S', '7H', '7S', '2S', '6C', '10S', 'JH', 'KC', '8C', '4S', 'KD', '5S', '6D', 'QD', '4C', '5C', '7D', 'KS', '9C', '7C', 'AD', '3D', '3H', '8D', '2C', 'QS', 'QH', '8H']",
+          "contradicts": true
+        }
+      ]
+    },
+    "calculate_hand_value": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "black_jack_game.calculate_hand_value(['QD', '9D', 'JC', 'QH', 'AS'])",
+          "want": "40",
+          "got": "NameError(\"name 'black_jack_game' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "check_winner": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "black_jack_game.check_winner(['QD', '9D', 'JC', 'QH', 'AS'], ['QD', '9D', 'JC', 'QH', '2S'])",
+          "want": "'Player wins'",
+          "got": "NameError(\"name 'black_jack_game' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_13": {
+    "add_book": {
+      "attempted": 0,
+      "failed": []
+    },
+    "remove_book": {
+      "attempted": 0,
+      "failed": []
+    },
+    "view_inventory": {
+      "attempted": 4,
+      "failed": []
+    },
+    "view_book_quantity": {
+      "attempted": 3,
+      "failed": []
+    }
+  },
+  "ClassEval_14": {
+    "create_table": {
+      "attempted": 2,
+      "failed": []
+    },
+    "add_book": {
+      "attempted": 3,
+      "failed": []
+    },
+    "remove_book": {
+      "attempted": 2,
+      "failed": []
+    },
+    "borrow_book": {
+      "attempted": 2,
+      "failed": []
+    },
+    "return_book": {
+      "attempted": 2,
+      "failed": []
+    },
+    "search_books": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "book_db.search_books()",
+          "want": "[(1, 'book1', 'author', 1)]",
+          "got": "NameError(\"name 'book_db' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_15": {
+    "match_in_pattern": {
+      "attempted": 2,
+      "failed": []
+    },
+    "mismatch_in_text": {
+      "attempted": 2,
+      "failed": []
+    },
+    "bad_character_heuristic": {
+      "attempted": 2,
+      "failed": []
+    }
+  },
+  "ClassEval_16": {
+    "calculate": {
+      "attempted": 2,
+      "failed": []
+    },
+    "precedence": {
+      "attempted": 3,
+      "failed": []
+    },
+    "apply_operator": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "calculator.apply_operator([1, 2, 3], ['+', '-'])",
+          "want": "([1, -1], ['-'])",
+          "got": "([1, -1], ['+'])",
+          "contradicts": true
+        }
+      ]
+    }
+  },
+  "ClassEval_17": {
+    "add_event": {
+      "attempted": 3,
+      "failed": []
+    },
+    "remove_event": {
+      "attempted": 4,
+      "failed": []
+    },
+    "get_events": {
+      "attempted": 3,
+      "failed": []
+    },
+    "is_available": {
+      "attempted": 3,
+      "failed": []
+    },
+    "get_available_slots": {
+      "attempted": 3,
+      "failed": []
+    },
+    "get_upcoming_events": {
+      "attempted": 3,
+      "failed": [
+        {
+          "source": "calendar.get_upcoming_events(1)",
+          "want": "[{'date': datetime.datetime(2023, 1, 1, 0, 0), 'start_time': datetime.datetime(2023, 1, 1, 0, 0), 'end_time': datetime.datetime(2023, 1, 1, 23, 0), 'description': 'New Year'}, {'date': datetime.datetime(2023, 1, 2, 0, 0), 'end_time': datetime.datetime(2023, 1, 2, 1, 0), 'description': 'New Year 2'}]",
+          "got": "KeyError('start_time')",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_18": {
+    "__getitem__": {
+      "attempted": 3,
+      "failed": []
+    },
+    "__setitem__": {
+      "attempted": 3,
+      "failed": [
+        {
+          "source": "camelize_map.__setitem__('first_name', 'new name')",
+          "want": "camelize_map['first_name'] = 'new name'",
+          "got": "",
+          "contradicts": false
+        }
+      ]
+    },
+    "__delitem__": {
+      "attempted": 4,
+      "failed": [
+        {
+          "source": "flag = 'first_name' in camelize_map",
+          "want": "flag = False",
+          "got": "",
+          "contradicts": false
+        }
+      ]
+    },
+    "__iter__": {
+      "attempted": 5,
+      "failed": [
+        {
+          "source": "camelize_map.__iter__()",
+          "want": "<dict_keyiterator object at 0x0000026739977C20>",
+          "got": "<dict_keyiterator object at 0x1061db100>",
+          "contradicts": false
+        }
+      ]
+    },
+    "__len__": {
+      "attempted": 5,
+      "failed": []
+    },
+    "_convert_key": {
+      "attempted": 2,
+      "failed": []
+    },
+    "_to_camel_case": {
+      "attempted": 2,
+      "failed": []
+    }
+  },
+  "ClassEval_19": {
+    "generate_primes": {
+      "attempted": 2,
+      "failed": []
+    },
+    "get_primes": {
+      "attempted": 2,
+      "failed": []
+    }
+  },
+  "ClassEval_20": {
+    "add_user": {
+      "attempted": 3,
+      "failed": [
+        {
+          "source": "chat.add_user('John')",
+          "want": "True\nself.users = {'John': []}",
+          "got": "True",
+          "contradicts": false
+        }
+      ]
+    },
+    "remove_user": {
+      "attempted": 4,
+      "failed": []
+    },
+    "send_message": {
+      "attempted": 4,
+      "failed": []
+    },
+    "get_messages": {
+      "attempted": 4,
+      "failed": []
+    }
+  },
+  "ClassEval_21": {
+    "add_course": {
+      "attempted": 2,
+      "failed": []
+    },
+    "remove_course": {
+      "attempted": 3,
+      "failed": []
+    },
+    "is_free_at": {
+      "attempted": 4,
+      "failed": []
+    },
+    "check_course_conflict": {
+      "attempted": 3,
+      "failed": []
+    }
+  },
+  "ClassEval_22": {
+    "register_student": {
+      "attempted": 0,
+      "failed": []
+    },
+    "register_class": {
+      "attempted": 0,
+      "failed": []
+    },
+    "get_students_by_major": {
+      "attempted": 4,
+      "failed": [
+        {
+          "source": "registration_system.register_student(student1)",
+          "want": "",
+          "got": "1",
+          "contradicts": false
+        },
+        {
+          "source": "registration_system.get_students_by_major(\"Computer Science\")",
+          "want": "[\"John\"]",
+          "got": "['John']",
+          "contradicts": false
+        }
+      ]
+    },
+    "get_all_major": {
+      "attempted": 3,
+      "failed": [
+        {
+          "source": "registration_system.get_all_major(student1)",
+          "want": "[\"Computer Science\"]",
+          "got": "NameError(\"name 'student1' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "get_most_popular_class_in_major": {
+      "attempted": 4,
+      "failed": [
+        {
+          "source": "registration_system.students = [{\"name\": \"John\", \"major\": \"Computer Science\"},",
+          "want": "{\"name\": \"Bob\", \"major\": \"Computer Science\"},\n                                     {\"name\": \"Alice\", \"major\": \"Computer Science\"}]",
+          "got": "SyntaxError(\"'[' was never closed\", ('<doctest m[1]>', 1, 32, 'registration_system.students = [{\"name\": \"John\", \"major\": \"Computer Science\"},\\n', 1, 0))",
+          "contradicts": false
+        },
+        {
+          "source": "registration_system.students_registration_classes = {\"John\": [\"Algorithms\", \"Data Structures\"],",
+          "want": "\"Bob\": [\"Operating Systems\", \"Data Structures\", \"Algorithms\"]}",
+          "got": "SyntaxError(\"'{' was never closed\", ('<doctest m[2]>', 1, 53, 'registration_system.students_registration_classes = {\"John\": [\"Algorithms\", \"Data Structures\"],\\n', 1, 0))",
+          "contradicts": false
+        },
+        {
+          "source": "registration_system.get_most_popular_class_in_major(\"Computer Science\")",
+          "want": "\"Data Structures\"",
+          "got": "ValueError('max() iterable argument is empty')",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_23": {
+    "count": {
+      "attempted": 1,
+      "failed": []
+    },
+    "count_all": {
+      "attempted": 1,
+      "failed": []
+    },
+    "select": {
+      "attempted": 2,
+      "failed": []
+    },
+    "select_all": {
+      "attempted": 2,
+      "failed": []
+    },
+    "_select": {
+      "attempted": 4,
+      "failed": []
+    }
+  },
+  "ClassEval_24": {
+    "add": {
+      "attempted": 2,
+      "failed": []
+    },
+    "subtract": {
+      "attempted": 2,
+      "failed": []
+    },
+    "multiply": {
+      "attempted": 2,
+      "failed": []
+    },
+    "divide": {
+      "attempted": 2,
+      "failed": []
+    }
+  },
+  "ClassEval_25": {
+    "get_cookies": {
+      "attempted": 3,
+      "failed": []
+    },
+    "load_cookies": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "cookies_util.load_cookies()",
+          "want": "{'key1': 'value1', 'key2': 'value2'}",
+          "got": "{}",
+          "contradicts": true
+        }
+      ]
+    },
+    "_save_cookies": {
+      "attempted": 3,
+      "failed": []
+    }
+  },
+  "ClassEval_26": {
+    "read_csv": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "csvProcessor.read_csv('read_test.csv')",
+          "want": "(['a', 'b', 'c', 'd'], [['hElLo', 'YoU', 'ME', 'LoW']])",
+          "got": "FileNotFoundError(2, 'No such file or directory')",
+          "contradicts": false
+        }
+      ]
+    },
+    "write_csv": {
+      "attempted": 2,
+      "failed": []
+    },
+    "process_csv_data": {
+      "attempted": 4,
+      "failed": [
+        {
+          "source": "csvProcessor.read_csv('read_test.csv')",
+          "want": "(['a', 'b', 'c', 'd'], [['hElLo', 'YoU', 'ME', 'LoW']])",
+          "got": "FileNotFoundError(2, 'No such file or directory')",
+          "contradicts": false
+        },
+        {
+          "source": "csvProcessor.process_csv_data(0, 'read_test.csv')",
+          "want": "1",
+          "got": "FileNotFoundError(2, 'No such file or directory')",
+          "contradicts": false
+        },
+        {
+          "source": "csvProcessor.read_csv('read_test_process.csv')",
+          "want": "(['a', 'b', 'c', 'd'], [['HELLO']])",
+          "got": "FileNotFoundError(2, 'No such file or directory')",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_27": {
+    "convert": {
+      "attempted": 2,
+      "failed": []
+    },
+    "get_supported_currencies": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "cc.get_supported_currencies()",
+          "want": "['USD','EUR','GBP','JPY','CAD','AUD','CNY']",
+          "got": "['USD', 'EUR', 'GBP', 'JPY', 'CAD', 'AUD', 'CNY']",
+          "contradicts": false
+        }
+      ]
+    },
+    "add_currency_rate": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "cc.add_currency_rate('KRW', 1308.84)",
+          "want": "self.rates['KRW'] = 1308.84",
+          "got": "",
+          "contradicts": false
+        }
+      ]
+    },
+    "update_currency_rate": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "cc.update_currency_rate('CNY', 7.18)",
+          "want": "self.rates['CNY'] = 7.18",
+          "got": "",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_28": {
+    "create_table": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "db.create_table('user', 'name', 'age')",
+          "want": "",
+          "got": "NameError(\"name 'db' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "insert_into_database": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "db.insert_into_database('user', [",
+          "want": "{'name': 'John', 'age': 25},\n        {'name': 'Alice', 'age': 30}\n    ])",
+          "got": "SyntaxError(\"'[' was never closed\", ('<doctest m[0]>', 1, 33, \"db.insert_into_database('user', [\\n\", 1, 0))",
+          "contradicts": false
+        }
+      ]
+    },
+    "search_database": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "db.search_database('user', 'John')",
+          "want": "[(1, 'John', 25)]",
+          "got": "NameError(\"name 'db' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "delete_from_database": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "db.delete_from_database('user', 'John')",
+          "want": "",
+          "got": "NameError(\"name 'db' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_29": {
+    "mean": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "ds.mean([1, 2, 3, 4, 5])",
+          "want": "3.00",
+          "got": "3.0",
+          "contradicts": false
+        }
+      ]
+    },
+    "median": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "ds.median([2, 5, 1, 3, 4])",
+          "want": "3.00",
+          "got": "3",
+          "contradicts": false
+        }
+      ]
+    },
+    "mode": {
+      "attempted": 2,
+      "failed": []
+    }
+  },
+  "ClassEval_30": {
+    "get_sum": {
+      "attempted": 2,
+      "failed": []
+    },
+    "get_min": {
+      "attempted": 2,
+      "failed": []
+    },
+    "get_max": {
+      "attempted": 2,
+      "failed": []
+    },
+    "get_variance": {
+      "attempted": 2,
+      "failed": []
+    },
+    "get_std_deviation": {
+      "attempted": 2,
+      "failed": []
+    },
+    "get_correlation": {
+      "attempted": 2,
+      "failed": []
+    }
+  },
+  "ClassEval_31": {
+    "correlation_coefficient": {
+      "attempted": 1,
+      "failed": []
+    },
+    "skewness": {
+      "attempted": 1,
+      "failed": []
+    },
+    "kurtosis": {
+      "attempted": 1,
+      "failed": []
+    },
+    "pdf": {
+      "attempted": 1,
+      "failed": []
+    }
+  },
+  "ClassEval_32": {
+    "caesar_decipher": {
+      "attempted": 2,
+      "failed": []
+    },
+    "vigenere_decipher": {
+      "attempted": 2,
+      "failed": []
+    },
+    "rail_fence_decipher": {
+      "attempted": 2,
+      "failed": []
+    }
+  },
+  "ClassEval_33": {
+    "total": {
+      "attempted": 4,
+      "failed": []
+    },
+    "due": {
+      "attempted": 4,
+      "failed": []
+    },
+    "FidelityPromo": {
+      "attempted": 4,
+      "failed": []
+    },
+    "BulkItemPromo": {
+      "attempted": 4,
+      "failed": []
+    },
+    "LargeOrderPromo": {
+      "attempted": 4,
+      "failed": [
+        {
+          "source": "DiscountStrategy.LargeOrderPromo(order)",
+          "want": "0.0",
+          "got": "0",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_34": {
+    "read_text": {
+      "attempted": 0,
+      "failed": []
+    },
+    "write_text": {
+      "attempted": 0,
+      "failed": []
+    },
+    "add_heading": {
+      "attempted": 0,
+      "failed": []
+    },
+    "add_table": {
+      "attempted": 0,
+      "failed": []
+    },
+    "_get_alignment_value": {
+      "attempted": 0,
+      "failed": []
+    }
+  },
+  "ClassEval_35": {
+    "find_blank": {
+      "attempted": 2,
+      "failed": []
+    },
+    "move": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "eightPuzzle.move([[2, 3, 4], [5, 8, 1], [6, 0, 7]], 'left')",
+          "want": "[[2, 3, 4], [5, 8, 1], [0, 6, 7]]",
+          "got": "NameError(\"name 'eightPuzzle' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "get_possible_moves": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "eightPuzzle.get_possible_moves([[2, 3, 4], [5, 8, 1], [6, 0, 7]])",
+          "want": "['up', 'left', 'right']",
+          "got": "NameError(\"name 'eightPuzzle' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "solve": {
+      "attempted": 2,
+      "failed": []
+    }
+  },
+  "ClassEval_36": {
+    "send_to": {
+      "attempted": 4,
+      "failed": [
+        {
+          "source": "receiver.inbox",
+          "want": "{'sender': 'sender@example.com', 'receiver': 'receiver@example.com', 'content': 'Hello', 'size': 10, 'time': '2023-07-13 11:36:40', 'state': 'unread'}",
+          "got": "[{'sender': 'sender@example.com', 'receiver': 'receiver@example.com', 'content': 'Hello', 'size': 10, 'time': '2026-11-19 21:03:42', 'state': 'unread'}]",
+          "contradicts": true
+        }
+      ]
+    },
+    "fetch": {
+      "attempted": 4,
+      "failed": []
+    },
+    "is_full_with_one_more_email": {
+      "attempted": 3,
+      "failed": []
+    },
+    "get_occupied_size": {
+      "attempted": 4,
+      "failed": []
+    },
+    "clear_inbox": {
+      "attempted": 5,
+      "failed": []
+    }
+  },
+  "ClassEval_37": {
+    "caesar_cipher": {
+      "attempted": 2,
+      "failed": []
+    },
+    "vigenere_cipher": {
+      "attempted": 2,
+      "failed": []
+    },
+    "rail_fence_cipher": {
+      "attempted": 2,
+      "failed": []
+    }
+  },
+  "ClassEval_38": {
+    "read_excel": {
+      "attempted": 0,
+      "failed": []
+    },
+    "write_excel": {
+      "attempted": 9,
+      "failed": [
+        {
+          "source": "new_data = [",
+          "want": "",
+          "got": "SyntaxError(\"'[' was never closed\", ('<doctest m[1]>', 1, 12, 'new_data = [\\n', 1, 0))",
+          "contradicts": false
+        },
+        {
+          "source": "('Name', 'Age', 'Country'),",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[2]>', 1, 4, \"    ('Name', 'Age', 'Country'),\\n\", 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "('John', 25, 'USA'),",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[3]>', 1, 4, \"    ('John', 25, 'USA'),\\n\", 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "('Alice', 30, 'Canada'),",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[4]>', 1, 4, \"    ('Alice', 30, 'Canada'),\\n\", 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "('Bob', 35, 'Australia'),",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[5]>', 1, 4, \"    ('Bob', 35, 'Australia'),\\n\", 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "('Julia', 28, 'Germany')",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[6]>', 1, 4, \"    ('Julia', 28, 'Germany')\\n\", 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "]",
+          "want": "",
+          "got": "SyntaxError(\"unmatched ']'\", ('<doctest m[7]>', 1, 1, ']', 1, 1))",
+          "contradicts": false
+        },
+        {
+          "source": "data = processor.write_excel(new_data, 'test_data.xlsx')",
+          "want": "",
+          "got": "NameError(\"name 'new_data' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "process_excel_data": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "success, output_file = processor.process_excel_data(1, 'test_data.xlsx')",
+          "want": "",
+          "got": "TypeError('cannot unpack non-iterable int object')",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_39": {
+    "calculate": {
+      "attempted": 2,
+      "failed": []
+    },
+    "prepare": {
+      "attempted": 2,
+      "failed": []
+    },
+    "is_operator": {
+      "attempted": 2,
+      "failed": []
+    },
+    "compare": {
+      "attempted": 2,
+      "failed": []
+    },
+    "_calculate": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "expression_calculator._calculate(\"2\", \"3\", \"+\")",
+          "want": "5.0",
+          "got": "Decimal('5')",
+          "contradicts": false
+        }
+      ]
+    },
+    "transform": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "expression_calculator.transform(\"2 + 3 * 4\")",
+          "want": "\"2+3*4\"",
+          "got": "'2+3*4'",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_40": {
+    "get_BMI": {
+      "attempted": 2,
+      "failed": []
+    },
+    "condition_judge": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "fitnessTracker.condition_judge()",
+          "want": "-1",
+          "got": "0",
+          "contradicts": true
+        }
+      ]
+    },
+    "calculate_calorie_intake": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "fitnessTracker.calculate_calorie_intake()",
+          "want": "986.0",
+          "got": "862.75",
+          "contradicts": true
+        }
+      ]
+    }
+  },
+  "ClassEval_41": {
+    "make_move": {
+      "attempted": 3,
+      "failed": []
+    },
+    "check_winner": {
+      "attempted": 4,
+      "failed": [
+        {
+          "source": "for move in moves:\n    gomokuGame.make_move(move[0], move[1])",
+          "want": "",
+          "got": "True\nTrue\nTrue\nTrue\nTrue\nTrue\nTrue\nTrue\nTrue",
+          "contradicts": false
+        }
+      ]
+    },
+    "_check_five_in_a_row": {
+      "attempted": 5,
+      "failed": [
+        {
+          "source": "for move in moves:\n    gomokuGame.make_move(move[0], move[1])",
+          "want": "",
+          "got": "True\nTrue\nTrue\nTrue\nTrue\nTrue\nTrue\nTrue\nTrue",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_42": {
+    "book_room": {
+      "attempted": 6,
+      "failed": []
+    },
+    "check_in": {
+      "attempted": 5,
+      "failed": []
+    },
+    "check_out": {
+      "attempted": 5,
+      "failed": []
+    },
+    "get_available_rooms": {
+      "attempted": 2,
+      "failed": []
+    }
+  },
+  "ClassEval_43": {
+    "add_employee": {
+      "attempted": 3,
+      "failed": []
+    },
+    "remove_employee": {
+      "attempted": 4,
+      "failed": []
+    },
+    "update_employee": {
+      "attempted": 4,
+      "failed": []
+    },
+    "get_employee": {
+      "attempted": 4,
+      "failed": []
+    },
+    "list_employees": {
+      "attempted": 0,
+      "failed": []
+    }
+  },
+  "ClassEval_44": {
+    "__format_line_feed": {
+      "attempted": 0,
+      "failed": []
+    },
+    "format_line_html_text": {
+      "attempted": 0,
+      "failed": [],
+      "note": "did not run: on3.12/doctest.py\", line 802, in _check_prompt_blank\n    raise ValueError('line %r of the docstring for %s '\nValueError: line 4 of the docstring for m lacks blank after >>>: '>>>htmlutil = HtmlUtil()'"
+    },
+    "extract_code_from_html_text": {
+      "attempted": 0,
+      "failed": [],
+      "note": "did not run: on3.12/doctest.py\", line 802, in _check_prompt_blank\n    raise ValueError('line %r of the docstring for %s '\nValueError: line 4 of the docstring for m lacks blank after >>>: '>>>htmlutil = HtmlUtil()'"
+    }
+  },
+  "ClassEval_45": {
+    "load_image": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "processor.load_image('test.jpg')",
+          "want": "",
+          "got": "NameError(\"name 'processor' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "processor.image",
+          "want": "<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=3072x4096 at 0x194F2412A48>",
+          "got": "NameError(\"name 'processor' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "save_image": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "processor.load_image('test.jpg')",
+          "want": "",
+          "got": "NameError(\"name 'processor' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "processor.save_image('test2.jpg')",
+          "want": "",
+          "got": "NameError(\"name 'processor' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "resize_image": {
+      "attempted": 4,
+      "failed": [
+        {
+          "source": "processor.load_image('test.jpg')",
+          "want": "",
+          "got": "NameError(\"name 'processor' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "processor.resize_image(300, 300)",
+          "want": "",
+          "got": "NameError(\"name 'processor' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "processor.image.width",
+          "want": "300",
+          "got": "NameError(\"name 'processor' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "processor.image.height",
+          "want": "300",
+          "got": "NameError(\"name 'processor' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "rotate_image": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "processor.load_image('test.jpg')",
+          "want": "",
+          "got": "NameError(\"name 'processor' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "processor.resize_image(90)",
+          "want": "",
+          "got": "NameError(\"name 'processor' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "adjust_brightness": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "processor.load_image('test.jpg')",
+          "want": "",
+          "got": "NameError(\"name 'processor' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "processor.adjust_brightness(0.5)",
+          "want": "",
+          "got": "NameError(\"name 'processor' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_46": {
+    "interpolate_1d": {
+      "attempted": 2,
+      "failed": []
+    },
+    "interpolate_2d": {
+      "attempted": 0,
+      "failed": []
+    }
+  },
+  "ClassEval_47": {
+    "is_valid": {
+      "attempted": 2,
+      "failed": []
+    },
+    "get_octets": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "ipaddress.get_octets()",
+          "want": "[\"10\", \"10\", \"10\", \"10\"]",
+          "got": "['10', '10', '10', '10']",
+          "contradicts": false
+        }
+      ]
+    },
+    "get_binary": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "ipaddress.get_binary()",
+          "want": "\"00001010.00001010.00001010.00001010\"",
+          "got": "'00001010.00001010.00001010.00001010'",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_48": {
+    "is_valid_ipv4": {
+      "attempted": 2,
+      "failed": []
+    },
+    "is_valid_ipv6": {
+      "attempted": 2,
+      "failed": []
+    },
+    "get_hostname": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "IpUtil.get_hostname('110.242.68.3')",
+          "want": "'www.baidu.com'",
+          "got": "",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_49": {
+    "post_job": {
+      "attempted": 3,
+      "failed": []
+    },
+    "remove_job": {
+      "attempted": 4,
+      "failed": []
+    },
+    "submit_resume": {
+      "attempted": 3,
+      "failed": []
+    },
+    "withdraw_resume": {
+      "attempted": 4,
+      "failed": []
+    },
+    "search_jobs": {
+      "attempted": 3,
+      "failed": []
+    },
+    "get_job_applicants": {
+      "attempted": 4,
+      "failed": []
+    }
+  },
+  "ClassEval_50": {
+    "read_json": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "json.read_json('test.json')",
+          "want": "{'name': 'test', 'age': 14}",
+          "got": "AttributeError(\"module 'json' has no attribute 'read_json'\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "write_json": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "json.write_json({'key1': 'value1', 'key2': 'value2'}, 'test.json')",
+          "want": "1",
+          "got": "AttributeError(\"module 'json' has no attribute 'write_json'\")",
+          "contradicts": false
+        },
+        {
+          "source": "json.read_json('test.json')",
+          "want": "{'key1': 'value1', 'key2': 'value2'}",
+          "got": "AttributeError(\"module 'json' has no attribute 'read_json'\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "process_json": {
+      "attempted": 3,
+      "failed": [
+        {
+          "source": "json.read_json('test.json')",
+          "want": "{'key1': 'value1', 'key2': 'value2'}",
+          "got": "AttributeError(\"module 'json' has no attribute 'read_json'\")",
+          "contradicts": false
+        },
+        {
+          "source": "json.process_json('test.json', 'key1')",
+          "want": "1",
+          "got": "AttributeError(\"module 'json' has no attribute 'process_json'\")",
+          "contradicts": false
+        },
+        {
+          "source": "json.read_json('test.json')",
+          "want": "{'key2': 'value2'}",
+          "got": "AttributeError(\"module 'json' has no attribute 'read_json'\")",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_51": {
+    "kappa": {
+      "attempted": 1,
+      "failed": []
+    },
+    "fleiss_kappa": {
+      "attempted": 10,
+      "failed": [
+        {
+          "source": "KappaCalculator.fleiss_kappa([[0, 0, 0, 0, 14],",
+          "want": "",
+          "got": "SyntaxError(\"'[' was never closed\", ('<doctest m[0]>', 1, 30, 'KappaCalculator.fleiss_kappa([[0, 0, 0, 0, 14],\\n', 1, 0))",
+          "contradicts": false
+        },
+        {
+          "source": "[0, 2, 6, 4, 2],",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[1]>', 1, 29, '                             [0, 2, 6, 4, 2],\\n', 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "[0, 0, 3, 5, 6],",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[2]>', 1, 29, '                             [0, 0, 3, 5, 6],\\n', 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "[0, 3, 9, 2, 0],",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[3]>', 1, 29, '                             [0, 3, 9, 2, 0],\\n', 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "[2, 2, 8, 1, 1],",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[4]>', 1, 29, '                             [2, 2, 8, 1, 1],\\n', 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "[7, 7, 0, 0, 0],",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[5]>', 1, 29, '                             [7, 7, 0, 0, 0],\\n', 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "[3, 2, 6, 3, 0],",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[6]>', 1, 29, '                             [3, 2, 6, 3, 0],\\n', 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "[2, 5, 3, 2, 2],",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[7]>', 1, 29, '                             [2, 5, 3, 2, 2],\\n', 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "[6, 5, 2, 1, 0],",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[8]>', 1, 29, '                             [6, 5, 2, 1, 0],\\n', 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "[0, 2, 2, 3, 7]], 10, 5, 14)",
+          "want": "0.20993070442195522",
+          "got": "IndentationError('unexpected indent', ('<doctest m[9]>', 1, 29, '                             [0, 2, 2, 3, 7]], 10, 5, 14)\\n', 1, -1))",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_52": {
+    "lemmatize_sentence": {
+      "attempted": 2,
+      "failed": []
+    },
+    "get_pos_tag": {
+      "attempted": 2,
+      "failed": []
+    },
+    "remove_punctuation": {
+      "attempted": 2,
+      "failed": []
+    }
+  },
+  "ClassEval_53": {
+    "add_word": {
+      "attempted": 0,
+      "failed": []
+    },
+    "find_longest_word": {
+      "attempted": 4,
+      "failed": [
+        {
+          "source": "longestWord.find_longest_word('I am a student.')",
+          "want": "'a'",
+          "got": "''",
+          "contradicts": true
+        }
+      ]
+    }
+  },
+  "ClassEval_54": {
+    "create_board": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "mc.create_board()",
+          "want": "mc.board = [['a', 'b', 'c', 'a'],\n            ['a', 'b', 'c', 'a'],\n            ['a', 'b', 'c', 'a'],\n            ['a', 'b', 'c', 'a']]",
+          "got": "[['c', 'b', 'c', 'a'], ['a', 'a', 'a', 'c'], ['a', 'b', 'a', 'c'], ['c', 'a', 'b', 'a']]",
+          "contradicts": false
+        }
+      ]
+    },
+    "is_valid_move": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "mc = MahjongConnect([4, 4], ['a', 'b', 'c'])",
+          "want": "mc.board = [['a', 'b', 'c', 'a'],\n            ['a', 'b', 'c', 'a'],\n            ['a', 'b', 'c', 'a'],\n            ['a', 'b', 'c', 'a']]",
+          "got": "",
+          "contradicts": false
+        },
+        {
+          "source": "mc.is_valid_move((0, 0), (1, 0))",
+          "want": "True",
+          "got": "False",
+          "contradicts": true
+        }
+      ]
+    },
+    "has_path": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "mc = MahjongConnect([4, 4], ['a', 'b', 'c'])",
+          "want": "mc.board = [['a', 'b', 'c', 'a'],\n            ['a', 'b', 'c', 'a'],\n            ['a', 'b', 'c', 'a'],\n            ['a', 'b', 'c', 'a']]",
+          "got": "",
+          "contradicts": false
+        },
+        {
+          "source": "mc.is_valid_move((0, 0), (1, 0))",
+          "want": "True",
+          "got": "False",
+          "contradicts": true
+        }
+      ]
+    },
+    "remove_icons": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "mc = MahjongConnect([4, 4], ['a', 'b', 'c'])",
+          "want": "mc.board = [['a', 'b', 'c', 'a'],\n            ['a', 'b', 'c', 'a'],\n            ['a', 'b', 'c', 'a'],\n            ['a', 'b', 'c', 'a']]",
+          "got": "",
+          "contradicts": false
+        },
+        {
+          "source": "mc.remove_icons((0, 0), (1, 0))",
+          "want": "mc.board = [[' ', 'b', 'c', 'a'],\n            [' ', 'b', 'c', 'a'],\n            ['a', 'b', 'c', 'a'],\n            ['a', 'b', 'c', 'a']]",
+          "got": "",
+          "contradicts": false
+        }
+      ]
+    },
+    "is_game_over": {
+      "attempted": 6,
+      "failed": [
+        {
+          "source": "mc = MahjongConnect([4, 4] ['a', 'b', 'c'])",
+          "want": "",
+          "got": "TypeError('list indices must be integers or slices, not tuple')",
+          "contradicts": false
+        },
+        {
+          "source": "mc.board = [[' ', ' ', ' ', ' '],",
+          "want": "",
+          "got": "SyntaxError(\"'[' was never closed\", ('<doctest m[1]>', 1, 12, \"mc.board = [[' ', ' ', ' ', ' '],\\n\", 1, 0))",
+          "contradicts": false
+        },
+        {
+          "source": "[' ', ' ', ' ', ' '],",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[2]>', 1, 8, \"        [' ', ' ', ' ', ' '],\\n\", 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "[' ', ' ', ' ', ' '],",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[3]>', 1, 8, \"        [' ', ' ', ' ', ' '],\\n\", 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "[' ', ' ', ' ', ' ']]",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[4]>', 1, 8, \"        [' ', ' ', ' ', ' ']]\\n\", 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "mc.is_game_over()",
+          "want": "True",
+          "got": "NameError(\"name 'mc' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_55": {
+    "palindromic_length": {
+      "attempted": 2,
+      "failed": []
+    },
+    "palindromic_string": {
+      "attempted": 2,
+      "failed": []
+    }
+  },
+  "ClassEval_56": {
+    "update": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "mc.update([1, 1, 0, 0], [1, 0, 0, 1])",
+          "want": "(self.true_positives, self.false_positives, self.false_negatives, self.true_negatives) = (1, 1, 1, 1)",
+          "got": "",
+          "contradicts": false
+        }
+      ]
+    },
+    "precision": {
+      "attempted": 2,
+      "failed": []
+    },
+    "recall": {
+      "attempted": 2,
+      "failed": []
+    },
+    "f1_score": {
+      "attempted": 2,
+      "failed": []
+    },
+    "accuracy": {
+      "attempted": 0,
+      "failed": [],
+      "note": "did not run: , line 802, in _check_prompt_blank\n    raise ValueError('line %r of the docstring for %s '\nValueError: line 6 of the docstring for m lacks blank after >>>: '>>>mc.accuracy([1, 1, 0, 0], [1, 0, 0, 1])'"
+    }
+  },
+  "ClassEval_57": {
+    "mrr": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "MetricsCalculator2.mrr(([1, 0, 1, 0], 4))",
+          "want": "",
+          "got": "(1.0, [1.0])",
+          "contradicts": false
+        },
+        {
+          "source": "MetricsCalculator2.mrr([([1, 0, 1, 0], 4), ([0, 1, 0, 1], 4)])",
+          "want": "1.0, [1.0]\n0.75, [1.0, 0.5]",
+          "got": "(0.75, [1.0, 0.5])",
+          "contradicts": false
+        }
+      ]
+    },
+    "map": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "MetricsCalculator2.map(([1, 0, 1, 0], 4))",
+          "want": "",
+          "got": "(0.41666666666666663, [0.41666666666666663])",
+          "contradicts": false
+        },
+        {
+          "source": "MetricsCalculator2.map([([1, 0, 1, 0], 4), ([0, 1, 0, 1], 4)])",
+          "want": "0.41666666666666663, [0.41666666666666663]\n0.3333333333333333, [0.41666666666666663, 0.25]",
+          "got": "(0.3333333333333333, [0.41666666666666663, 0.25])",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_58": {
+    "generate_mine_sweeper_map": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "minesweeper_game.generate_mine_sweeper_map()",
+          "want": "[['X', 1, 0], [1, 1, 0], [0, 0, 0]]",
+          "got": "[[1, 1, 1], [1, 'X', 1], [1, 1, 1]]",
+          "contradicts": true
+        }
+      ]
+    },
+    "generate_playerMap": {
+      "attempted": 2,
+      "failed": []
+    },
+    "check_won": {
+      "attempted": 4,
+      "failed": []
+    },
+    "sweep": {
+      "attempted": 4,
+      "failed": []
+    }
+  },
+  "ClassEval_59": {
+    "add_movie": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "system.add_movie('Batman', 49.9, '17:05', '19:25', 3)",
+          "want": "",
+          "got": "NameError(\"name 'system' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "system.movies",
+          "want": "[{'name': 'Batman', 'price': 49.9, 'start_time': datetime.datetime(1900, 1, 1, 17, 5), 'end_time': datetime.datetime(1900, 1, 1, 19, 25),\n'seats': array([[0., 0., 0.],\n    [0., 0., 0.],\n    [0., 0., 0.]])}]",
+          "got": "NameError(\"name 'system' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "book_ticket": {
+      "attempted": 4,
+      "failed": [
+        {
+          "source": "system.add_movie('Batman', 49.9, '17:05', '19:25', 3)",
+          "want": "",
+          "got": "NameError(\"name 'system' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "system.book_ticket('Batman', [(0, 0), (0, 1)])",
+          "want": "'Booking success.'",
+          "got": "NameError(\"name 'system' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "system.book_ticket('Batman', [(0, 0)])",
+          "want": "'Booking failed.'",
+          "got": "NameError(\"name 'system' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "system.book_ticket('batman', [(0, 0)])",
+          "want": "'Movie not found.'",
+          "got": "NameError(\"name 'system' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "available_movies": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "system.add_movie('Batman', 49.9, '17:05', '19:25', 3)",
+          "want": "",
+          "got": "NameError(\"name 'system' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "system.available_movies('12:00', '22:00')",
+          "want": "['Batman']",
+          "got": "NameError(\"name 'system' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_60": {
+    "create_table": {
+      "attempted": 0,
+      "failed": []
+    },
+    "insert_ticket": {
+      "attempted": 0,
+      "failed": []
+    },
+    "search_tickets_by_customer": {
+      "attempted": 4,
+      "failed": [
+        {
+          "source": "result = ticket_db.search_tickets_by_customer(\"John Doe\")",
+          "want": "len(result) = 1",
+          "got": "",
+          "contradicts": false
+        }
+      ]
+    },
+    "delete_ticket": {
+      "attempted": 0,
+      "failed": []
+    }
+  },
+  "ClassEval_61": {
+    "add_song": {
+      "attempted": 3,
+      "failed": []
+    },
+    "remove_song": {
+      "attempted": 4,
+      "failed": []
+    },
+    "play": {
+      "attempted": 4,
+      "failed": []
+    },
+    "stop": {
+      "attempted": 4,
+      "failed": []
+    },
+    "switch_song": {
+      "attempted": 4,
+      "failed": []
+    },
+    "previous_song": {
+      "attempted": 4,
+      "failed": []
+    },
+    "set_volume": {
+      "attempted": 3,
+      "failed": []
+    },
+    "shuffle": {
+      "attempted": 3,
+      "failed": []
+    }
+  },
+  "ClassEval_62": {
+    "construct_stop_word_list": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "NLPDataProcessor.construct_stop_word_list()",
+          "want": "['a', 'an', 'the']",
+          "got": "TypeError(\"NLPDataProcessor.construct_stop_word_list() missing 1 required positional argument: 'self'\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "remove_stop_words": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "NLPDataProcessor.process(['This is a test.'])",
+          "want": "[['This', 'is', 'test.']]",
+          "got": "TypeError(\"NLPDataProcessor.process() missing 1 required positional argument: 'string_list'\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "process": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "NLPDataProcessor.process(['This is a test.'])",
+          "want": "[['This', 'is', 'test.']]",
+          "got": "TypeError(\"NLPDataProcessor.process() missing 1 required positional argument: 'string_list'\")",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_63": {
+    "process_data": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "NLPDataProcessor.process_data(['This is a test.'])",
+          "want": "[['this', 'is', 'a', 'test']]",
+          "got": "NameError(\"name 'NLPDataProcessor' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "calculate_word_frequency": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "NLPDataProcessor.calculate_word_frequency([['this', 'is', 'a', 'test'], ['this', 'is', 'another', 'test']])",
+          "want": "{'this': 2, 'is': 2, 'test': 2, 'a': 1, 'another': 1}",
+          "got": "NameError(\"name 'NLPDataProcessor' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "process": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "NLPDataProcessor.process(['This is a test.', 'This is another test.'])",
+          "want": "{'this': 2, 'is': 2, 'test': 2, 'a': 1, 'another': 1}",
+          "got": "NameError(\"name 'NLPDataProcessor' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_64": {
+    "decimal_to_binary": {
+      "attempted": 1,
+      "failed": []
+    },
+    "binary_to_decimal": {
+      "attempted": 1,
+      "failed": []
+    },
+    "decimal_to_octal": {
+      "attempted": 1,
+      "failed": []
+    },
+    "octal_to_decimal": {
+      "attempted": 1,
+      "failed": []
+    },
+    "decimal_to_hex": {
+      "attempted": 1,
+      "failed": []
+    },
+    "hex_to_decimal": {
+      "attempted": 1,
+      "failed": []
+    }
+  },
+  "ClassEval_65": {
+    "format": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "formatter.format(123456)",
+          "want": "\"ONE HUNDRED AND TWENTY THREE THOUSAND FOUR HUNDRED AND FIFTY SIX ONLY\"",
+          "got": "'ONE HUNDRED AND TWENTY THREE THOUSAND FOUR HUNDRED AND FIFTY SIX ONLY'",
+          "contradicts": false
+        }
+      ]
+    },
+    "format_string": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "formatter.format_string(\"123456\")",
+          "want": "\"ONE HUNDRED AND TWENTY THREE THOUSAND FOUR HUNDRED AND FIFTY SIX ONLY\"",
+          "got": "'ONE HUNDRED AND TWENTY THREE THOUSAND FOUR HUNDRED AND FIFTY SIX ONLY'",
+          "contradicts": false
+        }
+      ]
+    },
+    "trans_two": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "formatter.trans_two(\"23\")",
+          "want": "\"TWENTY THREE\"",
+          "got": "'TWENTY THREE'",
+          "contradicts": false
+        }
+      ]
+    },
+    "trans_three": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "formatter.trans_three(\"123\")",
+          "want": "\"ONE HUNDRED AND TWENTY THREE\"",
+          "got": "'ONE HUNDRED AND TWENTY THREE'",
+          "contradicts": false
+        }
+      ]
+    },
+    "parse_more": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "formatter.parse_more(1)",
+          "want": "\"THOUSAND\"",
+          "got": "'THOUSAND'",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_66": {
+    "replace": {
+      "attempted": 2,
+      "failed": []
+    },
+    "is_hex_char": {
+      "attempted": 1,
+      "failed": []
+    }
+  },
+  "ClassEval_67": {
+    "add_dish": {
+      "attempted": 3,
+      "failed": []
+    },
+    "calculate_total": {
+      "attempted": 5,
+      "failed": []
+    },
+    "checkout": {
+      "attempted": 5,
+      "failed": []
+    }
+  },
+  "ClassEval_68": {
+    "get_page": {
+      "attempted": 2,
+      "failed": []
+    },
+    "get_page_info": {
+      "attempted": 11,
+      "failed": [
+        {
+          "source": "page_util.get_page_info(1)",
+          "want": "",
+          "got": "{'current_page': 1, 'per_page': 1, 'total_pages': 4, 'total_items': 4, 'has_previous': False, 'has_next': True, 'data': [1]}",
+          "contradicts": false
+        },
+        {
+          "source": "{",
+          "want": "",
+          "got": "SyntaxError(\"'{' was never closed\", ('<doctest m[2]>', 1, 1, '{\\n', 1, 0))",
+          "contradicts": false
+        },
+        {
+          "source": "\"current_page\": 1,",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[3]>', 1, 4, '    \"current_page\": 1,\\n', 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "\"per_page\": 1,",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[4]>', 1, 4, '    \"per_page\": 1,\\n', 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "\"total_pages\": 4,",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[5]>', 1, 4, '    \"total_pages\": 4,\\n', 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "\"total_items\": 4,",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[6]>', 1, 4, '    \"total_items\": 4,\\n', 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "\"has_previous\": False,",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[7]>', 1, 4, '    \"has_previous\": False,\\n', 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "\"has_next\": True,",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[8]>', 1, 4, '    \"has_next\": True,\\n', 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "\"data\": [1]",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[9]>', 1, 4, '    \"data\": [1]\\n', 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "}",
+          "want": "",
+          "got": "SyntaxError(\"unmatched '}'\", ('<doctest m[10]>', 1, 1, '}', 1, 1))",
+          "contradicts": false
+        }
+      ]
+    },
+    "search": {
+      "attempted": 8,
+      "failed": [
+        {
+          "source": "page_util.search(\"1\")",
+          "want": "",
+          "got": "{'keyword': '1', 'total_results': 1, 'total_pages': 1, 'results': [1]}",
+          "contradicts": false
+        },
+        {
+          "source": "search_info = {",
+          "want": "",
+          "got": "SyntaxError(\"'{' was never closed\", ('<doctest m[2]>', 1, 15, 'search_info = {\\n', 1, 0))",
+          "contradicts": false
+        },
+        {
+          "source": "\"keyword\": \"1\",",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[3]>', 1, 4, '    \"keyword\": \"1\",\\n', 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "\"total_results\": 1,",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[4]>', 1, 4, '    \"total_results\": 1,\\n', 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "\"total_pages\": 1,",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[5]>', 1, 4, '    \"total_pages\": 1,\\n', 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "\"results\": [1]",
+          "want": "",
+          "got": "IndentationError('unexpected indent', ('<doctest m[6]>', 1, 4, '    \"results\": [1]\\n', 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "}",
+          "want": "",
+          "got": "SyntaxError(\"unmatched '}'\", ('<doctest m[7]>', 1, 1, '}', 1, 1))",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_69": {
+    "merge_pdfs": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "handler = PDFHandler(['a.pdf', 'b.pdf'])",
+          "want": "",
+          "got": "FileNotFoundError(2, 'No such file or directory')",
+          "contradicts": false
+        },
+        {
+          "source": "handler.merge_pdfs('out.pdf')",
+          "want": "Merged PDFs saved at out.pdf",
+          "got": "NameError(\"name 'handler' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "extract_text_from_pdfs": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "handler = PDFHandler(['a.pdf', 'b.pdf'])",
+          "want": "",
+          "got": "FileNotFoundError(2, 'No such file or directory')",
+          "contradicts": false
+        },
+        {
+          "source": "handler.extract_text_from_pdfs()",
+          "want": "['Test a.pdf', 'Test b.pdf']",
+          "got": "NameError(\"name 'handler' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_70": {
+    "_validate_name": {
+      "attempted": 0,
+      "failed": []
+    },
+    "_validate_sex": {
+      "attempted": 0,
+      "failed": []
+    },
+    "_validate_phoneNumber": {
+      "attempted": 0,
+      "failed": []
+    }
+  },
+  "ClassEval_71": {
+    "init_game": {
+      "attempted": 5,
+      "failed": []
+    },
+    "check_win": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "game.check_win()",
+          "want": "",
+          "got": "False",
+          "contradicts": false
+        }
+      ]
+    },
+    "move": {
+      "attempted": 7,
+      "failed": [
+        {
+          "source": "game.print_map()",
+          "want": "# # # # # \n# O     #\n#   X   #\n#     G #\n# # # # #",
+          "got": "AttributeError(\"'PushBoxGame' object has no attribute 'print_map'\")",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_72": {
+    "match": {
+      "attempted": 2,
+      "failed": []
+    },
+    "findall": {
+      "attempted": 2,
+      "failed": []
+    },
+    "split": {
+      "attempted": 2,
+      "failed": []
+    },
+    "sub": {
+      "attempted": 2,
+      "failed": []
+    },
+    "generate_email_pattern": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "ru.generate_email_pattern()",
+          "want": "'\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}\\b'",
+          "got": "'\\\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\\\.[A-Z|a-z]{2,}\\\\b'",
+          "contradicts": true
+        }
+      ]
+    },
+    "generate_phone_number_pattern": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "ru.generate_phone_number_pattern()",
+          "want": "'\\b\\d{3}-\\d{3}-\\d{4}\\b'",
+          "got": "'\\\\b\\\\d{3}-\\\\d{3}-\\\\d{4}\\\\b'",
+          "contradicts": true
+        }
+      ]
+    },
+    "generate_split_sentences_pattern": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "ru.generate_split_sentences_pattern()",
+          "want": "'[.!?][\\s]{1,2}(?=[A-Z])'",
+          "got": "'[.!?][\\\\s]{1,2}(?=[A-Z])'",
+          "contradicts": false
+        }
+      ]
+    },
+    "split_sentences": {
+      "attempted": 2,
+      "failed": []
+    },
+    "validate_phone_number": {
+      "attempted": 2,
+      "failed": []
+    },
+    "extract_email": {
+      "attempted": 2,
+      "failed": []
+    }
+  },
+  "ClassEval_73": {
+    "attack": {
+      "attempted": 4,
+      "failed": []
+    },
+    "heal": {
+      "attempted": 2,
+      "failed": []
+    },
+    "gain_exp": {
+      "attempted": 4,
+      "failed": []
+    },
+    "level_up": {
+      "attempted": 2,
+      "failed": []
+    },
+    "is_alive": {
+      "attempted": 2,
+      "failed": []
+    }
+  },
+  "ClassEval_74": {
+    "add_white_list": {
+      "attempted": 2,
+      "failed": []
+    },
+    "del_white_list": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "server.add_white_list(88)",
+          "want": "",
+          "got": "NameError(\"name 'server' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "server.del_white_list(88)",
+          "want": "[]",
+          "got": "NameError(\"name 'server' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "recv": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "server.recv({\"addr\":88,\"content\":\"abc\"})",
+          "want": "abc",
+          "got": "NameError(\"name 'server' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "send": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "server.send({\"addr\":66,\"content\":\"ABC\"})",
+          "want": "self.send_struct = {\"addr\":66,\"content\":\"ABC\"}",
+          "got": "NameError(\"name 'server' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "show": {
+      "attempted": 3,
+      "failed": [
+        {
+          "source": "server.recv({\"addr\":88,\"content\":\"abc\"})",
+          "want": "",
+          "got": "NameError(\"name 'server' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "server.send({\"addr\":66,\"content\":\"ABC\"})",
+          "want": "",
+          "got": "NameError(\"name 'server' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "server.show(\"send\")",
+          "want": "{\"addr\":66,\"content\":\"ABC\"}",
+          "got": "NameError(\"name 'server' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_75": {
+    "add_item": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "shoppingcart.add_item(\"apple\", 1, 5)",
+          "want": "self.items = {\"apple\":{\"price\":1, \"quantity\":5}}",
+          "got": "",
+          "contradicts": false
+        }
+      ]
+    },
+    "remove_item": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "shoppingcart.add_item(\"apple\", 1, 5)",
+          "want": "",
+          "got": "NameError(\"name 'shoppingcart' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "shoppingcart.remove_item(\"apple\", 3)",
+          "want": "self.items = {\"apple\":{\"price\":1, \"quantity\":2}}",
+          "got": "NameError(\"name 'shoppingcart' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "view_items": {
+      "attempted": 3,
+      "failed": [
+        {
+          "source": "shoppingcart.add_item(\"apple\", 1, 5)",
+          "want": "",
+          "got": "NameError(\"name 'shoppingcart' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "shoppingcart.remove_item(\"apple\", 3)",
+          "want": "",
+          "got": "NameError(\"name 'shoppingcart' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "shoppingcart.view_items()",
+          "want": "{\"apple\":{\"price\":1, \"quantity\":2}}",
+          "got": "NameError(\"name 'shoppingcart' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "total_price": {
+      "attempted": 4,
+      "failed": [
+        {
+          "source": "shoppingcart.total_price()",
+          "want": "11.0",
+          "got": "11",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_76": {
+    "add_user": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "signInSystem.add_user(\"mike\")",
+          "want": "True",
+          "got": "NameError(\"name 'signInSystem' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "signInSystem.add_user(\"mike\")",
+          "want": "False",
+          "got": "NameError(\"name 'signInSystem' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "sign_in": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "signInSystem.sign_in(\"mike\")",
+          "want": "True",
+          "got": "NameError(\"name 'signInSystem' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "signInSystem.sign_in(\"mik\")",
+          "want": "False",
+          "got": "NameError(\"name 'signInSystem' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "check_sign_in": {
+      "attempted": 5,
+      "failed": [
+        {
+          "source": "signInSystem.check_sign_in(\"jack\")",
+          "want": "False",
+          "got": "NameError(\"name 'signInSystem' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "signInSystem.add_user(\"jack\")",
+          "want": "",
+          "got": "NameError(\"name 'signInSystem' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "signInSystem.check_sign_in(\"jack\")",
+          "want": "",
+          "got": "NameError(\"name 'signInSystem' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "signInSystem.sign_in(\"jack\")",
+          "want": "",
+          "got": "NameError(\"name 'signInSystem' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "signInSystem.check_sign_in(\"jack\")",
+          "want": "True",
+          "got": "NameError(\"name 'signInSystem' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "all_signed_in": {
+      "attempted": 3,
+      "failed": [
+        {
+          "source": "signInSystem.add_user(\"jack\")",
+          "want": "True",
+          "got": "NameError(\"name 'signInSystem' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "signInSystem.sign_in(\"jack\")",
+          "want": "",
+          "got": "NameError(\"name 'signInSystem' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "signInSystem.all_signed_in()",
+          "want": "True",
+          "got": "NameError(\"name 'signInSystem' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "all_not_signed_in": {
+      "attempted": 4,
+      "failed": []
+    }
+  },
+  "ClassEval_77": {
+    "move": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "snake.move((1,1))",
+          "want": "self.length = 1\nself.positions = [(51, 51), (50, 50)]\nself.score = 10",
+          "got": "NameError(\"name 'snake' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "random_food_position": {
+      "attempted": 0,
+      "failed": []
+    },
+    "reset": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "snake.reset()",
+          "want": "self.length = 1\nself.positions = [(50, 50)]\nself.score = 0\nself.random_food_position()",
+          "got": "",
+          "contradicts": false
+        }
+      ]
+    },
+    "eat_food": {
+      "attempted": 3,
+      "failed": [
+        {
+          "source": "snake.eat_food()",
+          "want": "self.length = 2\nself.score = 10",
+          "got": "",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_78": {
+    "split_sentences": {
+      "attempted": 2,
+      "failed": []
+    },
+    "count_words": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "ss.count_words(\"abc def\")",
+          "want": "2",
+          "got": "NameError(\"name 'ss' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "process_text_file": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "ss.process_text_file(\"aaa aaaa. bb bbbb bbb? cccc ccccccc cc ccc. dd ddd?\")",
+          "want": "4",
+          "got": "NameError(\"name 'ss' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_79": {
+    "select": {
+      "attempted": 2,
+      "failed": []
+    },
+    "insert": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "sql.insert({'key1': 'value1', 'key2': 'value2'})",
+          "want": "\"INSERT INTO table1 (key1, key2) VALUES ('value1', 'value2');\"",
+          "got": "NameError(\"name 'sql' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "update": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "sql.update({'field1': 'new_value1', 'field2': 'new_value2'}, \"field3 = value1\")",
+          "want": "\"UPDATE table1 SET field1 = 'new_value1', field2 = 'new_value2' WHERE field3 = value1;\"",
+          "got": "NameError(\"name 'sql' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "delete": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "sql.delete(\"field1 = value1\")",
+          "want": "'DELETE FROM table1 WHERE field1 = value1;'",
+          "got": "NameError(\"name 'sql' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "select_female_under_age": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "sql.select_female_under_age(30)",
+          "want": "\"SELECT * FROM table1 WHERE age < 30 AND gender = 'female';\"",
+          "got": "NameError(\"name 'sql' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "select_by_age_range": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "sql.select_by_age_range(20, 30)",
+          "want": "'SELECT * FROM table1 WHERE age BETWEEN 20 AND 30;'",
+          "got": "NameError(\"name 'sql' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_80": {
+    "select": {
+      "attempted": 1,
+      "failed": []
+    },
+    "insert": {
+      "attempted": 1,
+      "failed": []
+    },
+    "delete": {
+      "attempted": 1,
+      "failed": []
+    },
+    "update": {
+      "attempted": 1,
+      "failed": []
+    }
+  },
+  "ClassEval_81": {
+    "median": {
+      "attempted": 2,
+      "failed": []
+    },
+    "mode": {
+      "attempted": 2,
+      "failed": []
+    },
+    "correlation": {
+      "attempted": 2,
+      "failed": []
+    },
+    "mean": {
+      "attempted": 2,
+      "failed": []
+    },
+    "correlation_matrix": {
+      "attempted": 2,
+      "failed": []
+    },
+    "standard_deviation": {
+      "attempted": 2,
+      "failed": []
+    },
+    "z_score": {
+      "attempted": 2,
+      "failed": []
+    }
+  },
+  "ClassEval_82": {
+    "add_stock": {
+      "attempted": 3,
+      "failed": []
+    },
+    "remove_stock": {
+      "attempted": 4,
+      "failed": []
+    },
+    "buy_stock": {
+      "attempted": 3,
+      "failed": []
+    },
+    "sell_stock": {
+      "attempted": 4,
+      "failed": []
+    },
+    "calculate_portfolio_value": {
+      "attempted": 3,
+      "failed": []
+    },
+    "get_portfolio_summary": {
+      "attempted": 3,
+      "failed": []
+    },
+    "get_stock_value": {
+      "attempted": 2,
+      "failed": []
+    }
+  },
+  "ClassEval_83": {
+    "create_student_table": {
+      "attempted": 2,
+      "failed": []
+    },
+    "insert_student": {
+      "attempted": 4,
+      "failed": []
+    },
+    "search_student_by_name": {
+      "attempted": 3,
+      "failed": []
+    },
+    "delete_student_by_name": {
+      "attempted": 5,
+      "failed": []
+    }
+  },
+  "ClassEval_84": {
+    "read_file_as_json": {
+      "attempted": 3,
+      "failed": [
+        {
+          "source": "textFileProcessor.read_file_as_json()",
+          "want": "{'name': 'test', 'age': 12}",
+          "got": "FileNotFoundError(2, 'No such file or directory')",
+          "contradicts": false
+        },
+        {
+          "source": "type(textFileProcessor.read_file_as_json())",
+          "want": "<class 'dict'>",
+          "got": "FileNotFoundError(2, 'No such file or directory')",
+          "contradicts": false
+        }
+      ]
+    },
+    "read_file": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "textFileProcessor.read_file()",
+          "want": "'{\\n    \"name\": \"test\",\\n    \"age\": 12\\n}'",
+          "got": "FileNotFoundError(2, 'No such file or directory')",
+          "contradicts": false
+        }
+      ]
+    },
+    "write_file": {
+      "attempted": 3,
+      "failed": []
+    },
+    "process_file": {
+      "attempted": 3,
+      "failed": [
+        {
+          "source": "textFileProcessor.read_file()",
+          "want": "'{\\n    \"name\": \"test\",\\n    \"age\": 12\\n}'",
+          "got": "FileNotFoundError(2, 'No such file or directory')",
+          "contradicts": false
+        },
+        {
+          "source": "textFileProcessor.process_file()",
+          "want": "'nametestage'",
+          "got": "FileNotFoundError(2, 'No such file or directory')",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_85": {
+    "get_target_temperature": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "thermostat.get_target_temperature()",
+          "want": "37.5",
+          "got": "NameError(\"name 'thermostat' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "set_target_temperature": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "thermostat.set_target_temperature(37.6)",
+          "want": "",
+          "got": "NameError(\"name 'thermostat' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "thermostat.target_temperature",
+          "want": "37.6",
+          "got": "NameError(\"name 'thermostat' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "get_mode": {
+      "attempted": 0,
+      "failed": []
+    },
+    "set_mode": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "thermostat.set_mode('cool')",
+          "want": "",
+          "got": "NameError(\"name 'thermostat' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "thermostat.mode",
+          "want": "'cool'",
+          "got": "NameError(\"name 'thermostat' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "auto_set_mode": {
+      "attempted": 3,
+      "failed": []
+    },
+    "auto_check_conflict": {
+      "attempted": 3,
+      "failed": []
+    },
+    "simulate_operation": {
+      "attempted": 2,
+      "failed": []
+    }
+  },
+  "ClassEval_86": {
+    "make_move": {
+      "attempted": 3,
+      "failed": [
+        {
+          "source": "ttt.current_player",
+          "want": "'X'",
+          "got": "NameError(\"name 'ttt' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "ttt.make_move(1, 1)",
+          "want": "",
+          "got": "NameError(\"name 'ttt' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "ttt.current_player",
+          "want": "'O'",
+          "got": "NameError(\"name 'ttt' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "check_winner": {
+      "attempted": 3,
+      "failed": [
+        {
+          "source": "for move in moves:\n    ttt.make_move(move[0], move[1])",
+          "want": "",
+          "got": "NameError(\"name 'ttt' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "ttt.check_winner()",
+          "want": "'X'",
+          "got": "NameError(\"name 'ttt' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "is_board_full": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "ttt.is_board_full()",
+          "want": "False",
+          "got": "NameError(\"name 'ttt' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_87": {
+    "get_current_time": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "timeutils.get_current_time()",
+          "want": "\"19:19:22\"",
+          "got": "'21:03:58'",
+          "contradicts": true
+        }
+      ]
+    },
+    "get_current_date": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "timeutils.get_current_date()",
+          "want": "\"2023-06-14\"",
+          "got": "NameError(\"name 'timeutils' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "add_seconds": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "timeutils.add_seconds(600)",
+          "want": "\"19:29:22\"",
+          "got": "NameError(\"name 'timeutils' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "string_to_datetime": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "timeutils.string_to_datetime(\"2001-7-18 1:1:1\")",
+          "want": "2001-07-18 01:01:01",
+          "got": "NameError(\"name 'timeutils' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "datetime_to_string": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "timeutils.datetime_to_string(timeutils.datetime)",
+          "want": "\"2023-06-14 19:30:03\"",
+          "got": "NameError(\"name 'timeutils' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "get_minutes": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "timeutils.get_minutes(\"2001-7-18 1:1:1\", \"2001-7-18 2:1:1\")",
+          "want": "60",
+          "got": "NameError(\"name 'timeutils' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "get_format_time": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "timeutils.get_format_time(2001, 7, 18, 1, 1, 1)",
+          "want": "\"2001-07-18 01:01:01\"",
+          "got": "NameError(\"name 'timeutils' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_88": {
+    "cos": {
+      "attempted": 2,
+      "failed": []
+    },
+    "factorial": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "tricalculator.factorial(5)",
+          "want": "120",
+          "got": "NameError(\"name 'tricalculator' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "taylor": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "tricalculator.taylor(60, 50)",
+          "want": "0.5000000000000001",
+          "got": "NameError(\"name 'tricalculator' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "sin": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "tricalculator.sin(30)",
+          "want": "0.5",
+          "got": "NameError(\"name 'tricalculator' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "tan": {
+      "attempted": 1,
+      "failed": [
+        {
+          "source": "tricalculator.tan(45)",
+          "want": "1.0",
+          "got": "NameError(\"name 'tricalculator' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_89": {
+    "_generate_cards": {
+      "attempted": 0,
+      "failed": []
+    },
+    "get_my_cards": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "game.get_my_cards()",
+          "want": "",
+          "got": "[9, 5, 1, 2]",
+          "contradicts": false
+        }
+      ]
+    },
+    "answer": {
+      "attempted": 4,
+      "failed": [
+        {
+          "source": "ret = game.answer(ans)",
+          "want": "True",
+          "got": "",
+          "contradicts": false
+        }
+      ]
+    },
+    "evaluate_expression": {
+      "attempted": 4,
+      "failed": [
+        {
+          "source": "ret = game.evaluate_expression(ans)",
+          "want": "True",
+          "got": "",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_90": {
+    "get_scheme": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "urlhandler.get_scheme()",
+          "want": "\"https\"",
+          "got": "'https'",
+          "contradicts": false
+        }
+      ]
+    },
+    "get_host": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "urlhandler.get_host()",
+          "want": "\"www.baidu.com\"",
+          "got": "'www.baidu.com'",
+          "contradicts": false
+        }
+      ]
+    },
+    "get_path": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "urlhandler.get_path()",
+          "want": "\"/s?wd=aaa&rsv_spt=1#page\"",
+          "got": "'/s?wd=aaa&rsv_spt=1#page'",
+          "contradicts": false
+        }
+      ]
+    },
+    "get_query_params": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "urlhandler.get_query_params()",
+          "want": "{\"wd\": \"aaa\", \"rsv_spt\": \"1\"}",
+          "got": "{'wd': 'aaa', 'rsv_spt': '1'}",
+          "contradicts": false
+        }
+      ]
+    },
+    "get_fragment": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "urlhandler.get_fragment()",
+          "want": "\"page\"",
+          "got": "'page'",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_91": {
+    "add": {
+      "attempted": 3,
+      "failed": []
+    },
+    "parse": {
+      "attempted": 2,
+      "failed": []
+    },
+    "fix_path": {
+      "attempted": 2,
+      "failed": []
+    }
+  },
+  "ClassEval_92": {
+    "insert_user": {
+      "attempted": 3,
+      "failed": [
+        {
+          "source": "user_db.create_table()",
+          "want": "",
+          "got": "AttributeError(\"'UserLoginDB' object has no attribute 'create_table'\")",
+          "contradicts": false
+        },
+        {
+          "source": "user_db.insert_user('user1', 'pass1')",
+          "want": "",
+          "got": "OperationalError('no such table: users')",
+          "contradicts": false
+        }
+      ]
+    },
+    "search_user_by_username": {
+      "attempted": 4,
+      "failed": [
+        {
+          "source": "user_db.create_table()",
+          "want": "",
+          "got": "AttributeError(\"'UserLoginDB' object has no attribute 'create_table'\")",
+          "contradicts": false
+        },
+        {
+          "source": "user_db.insert_user('user1', 'pass1')",
+          "want": "",
+          "got": "OperationalError('no such table: users')",
+          "contradicts": false
+        },
+        {
+          "source": "result = user_db.search_user_by_username('user1')",
+          "want": "len(result) = 1",
+          "got": "OperationalError('no such table: users')",
+          "contradicts": false
+        }
+      ]
+    },
+    "delete_user_by_username": {
+      "attempted": 4,
+      "failed": [
+        {
+          "source": "user_db.create_table()",
+          "want": "",
+          "got": "AttributeError(\"'UserLoginDB' object has no attribute 'create_table'\")",
+          "contradicts": false
+        },
+        {
+          "source": "user_db.insert_user('user1', 'pass1')",
+          "want": "",
+          "got": "OperationalError('no such table: users')",
+          "contradicts": false
+        },
+        {
+          "source": "user_db.delete_user_by_username('user1')",
+          "want": "",
+          "got": "OperationalError('no such table: users')",
+          "contradicts": false
+        }
+      ]
+    },
+    "validate_user_login": {
+      "attempted": 4,
+      "failed": [
+        {
+          "source": "user_db.create_table()",
+          "want": "",
+          "got": "AttributeError(\"'UserLoginDB' object has no attribute 'create_table'\")",
+          "contradicts": false
+        },
+        {
+          "source": "user_db.insert_user('user1', 'pass1')",
+          "want": "",
+          "got": "OperationalError('no such table: users')",
+          "contradicts": false
+        },
+        {
+          "source": "user_db.validate_user_login('user1', 'pass1')",
+          "want": "True",
+          "got": "OperationalError('no such table: users')",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_93": {
+    "similarity": {
+      "attempted": 3,
+      "failed": []
+    },
+    "cosine_similarities": {
+      "attempted": 3,
+      "failed": [
+        {
+          "source": "VectorUtil.cosine_similarities(vector1, vectors_all)",
+          "want": "[0.97463185 0.95941195]",
+          "got": "array([0.97463185, 0.95941195])",
+          "contradicts": false
+        }
+      ]
+    },
+    "n_similarity": {
+      "attempted": 3,
+      "failed": []
+    },
+    "compute_idf_weight_dict": {
+      "attempted": 2,
+      "failed": []
+    }
+  },
+  "ClassEval_94": {
+    "add_item": {
+      "attempted": 3,
+      "failed": []
+    },
+    "insert_coin": {
+      "attempted": 2,
+      "failed": []
+    },
+    "purchase_item": {
+      "attempted": 5,
+      "failed": []
+    },
+    "restock_item": {
+      "attempted": 4,
+      "failed": []
+    },
+    "display_items": {
+      "attempted": 4,
+      "failed": []
+    }
+  },
+  "ClassEval_95": {
+    "add_product": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "warehouse.add_product(1, \"product1\", 3)",
+          "want": "",
+          "got": "NameError(\"name 'warehouse' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "warehouse.inventory",
+          "want": "{1: {'name': 'product1', 'quantity': 3}}",
+          "got": "NameError(\"name 'warehouse' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "update_product_quantity": {
+      "attempted": 3,
+      "failed": [
+        {
+          "source": "warehouse.add_product(1, \"product1\", 3)",
+          "want": "",
+          "got": "NameError(\"name 'warehouse' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "warehouse.update_product_quantity(1, -1)",
+          "want": "",
+          "got": "NameError(\"name 'warehouse' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "warehouse.inventory",
+          "want": "{1: {'name': 'product1', 'quantity': 2}}",
+          "got": "NameError(\"name 'warehouse' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "get_product_quantity": {
+      "attempted": 3,
+      "failed": [
+        {
+          "source": "warehouse.add_product(1, \"product1\", 3)",
+          "want": "",
+          "got": "NameError(\"name 'warehouse' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "warehouse.get_product_quantity(1)",
+          "want": "3",
+          "got": "NameError(\"name 'warehouse' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "warehouse.get_product_quantity(2)",
+          "want": "False",
+          "got": "NameError(\"name 'warehouse' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "create_order": {
+      "attempted": 4,
+      "failed": [
+        {
+          "source": "warehouse.add_product(1, \"product1\", 3)",
+          "want": "",
+          "got": "NameError(\"name 'warehouse' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "warehouse.create_order(1, 1, 2)",
+          "want": "",
+          "got": "NameError(\"name 'warehouse' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "warehouse.orders",
+          "want": "{1: {'product_id': 1, 'quantity': 2, 'status': 'Shipped'}}",
+          "got": "NameError(\"name 'warehouse' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "warehouse.create_order(1, 2, 2)",
+          "want": "False",
+          "got": "NameError(\"name 'warehouse' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "change_order_status": {
+      "attempted": 4,
+      "failed": [
+        {
+          "source": "warehouse.add_product(1, \"product1\", 3)",
+          "want": "",
+          "got": "NameError(\"name 'warehouse' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "warehouse.create_order(1, 1, 2)",
+          "want": "",
+          "got": "NameError(\"name 'warehouse' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "warehouse.change_order_status(1, \"done\")",
+          "want": "",
+          "got": "NameError(\"name 'warehouse' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "warehouse.orders",
+          "want": "{1: {'product_id': 1, 'quantity': 2, 'status': 'done'}}",
+          "got": "NameError(\"name 'warehouse' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "track_order": {
+      "attempted": 3,
+      "failed": [
+        {
+          "source": "warehouse.add_product(1, \"product1\", 3)",
+          "want": "",
+          "got": "NameError(\"name 'warehouse' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "warehouse.create_order(1, 1, 2)",
+          "want": "",
+          "got": "NameError(\"name 'warehouse' is not defined\")",
+          "contradicts": false
+        },
+        {
+          "source": "warehouse.track_order(1)",
+          "want": "'Shipped'",
+          "got": "NameError(\"name 'warehouse' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_96": {
+    "query": {
+      "attempted": 3,
+      "failed": []
+    },
+    "set_city": {
+      "attempted": 3,
+      "failed": []
+    },
+    "celsius_to_fahrenheit": {
+      "attempted": 3,
+      "failed": []
+    },
+    "fahrenheit_to_celsius": {
+      "attempted": 3,
+      "failed": []
+    }
+  },
+  "ClassEval_97": {
+    "text2int": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "w2n.text2int(\"thirty-two\")",
+          "want": "\"32\"",
+          "got": "'32'",
+          "contradicts": false
+        }
+      ]
+    },
+    "is_valid_input": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "w2n.is_valid_input(\"thirty-two\")",
+          "want": "False",
+          "got": "True",
+          "contradicts": true
+        }
+      ]
+    }
+  },
+  "ClassEval_98": {
+    "read_xml": {
+      "attempted": 3,
+      "failed": [
+        {
+          "source": "print(root_element)",
+          "want": "<Element 'root' at 0x7f8e3b7eb180>",
+          "got": "None",
+          "contradicts": false
+        }
+      ]
+    },
+    "write_xml": {
+      "attempted": 4,
+      "failed": [
+        {
+          "source": "print(success)",
+          "want": "True",
+          "got": "False",
+          "contradicts": true
+        }
+      ]
+    },
+    "process_xml_data": {
+      "attempted": 4,
+      "failed": [
+        {
+          "source": "success = xml_processor.process_xml_data('processed.xml')",
+          "want": "",
+          "got": "AttributeError(\"'NoneType' object has no attribute 'iter'\")",
+          "contradicts": false
+        },
+        {
+          "source": "print(success)",
+          "want": "True",
+          "got": "NameError(\"name 'success' is not defined\")",
+          "contradicts": false
+        }
+      ]
+    },
+    "find_element": {
+      "attempted": 5,
+      "failed": [
+        {
+          "source": "items = xml_processor.find_element('item')",
+          "want": "",
+          "got": "AttributeError(\"'NoneType' object has no attribute 'findall'\")",
+          "contradicts": false
+        },
+        {
+          "source": "for item in items:",
+          "want": "",
+          "got": "IndentationError(\"expected an indented block after 'for' statement on line 1\", ('<doctest m[3]>', 1, 19, 'for item in items:\\n', 1, -1))",
+          "contradicts": false
+        },
+        {
+          "source": "print(item.text)",
+          "want": "apple\nbanana\norange",
+          "got": "IndentationError('unexpected indent', ('<doctest m[4]>', 1, 4, '    print(item.text)\\n', 1, -1))",
+          "contradicts": false
+        }
+      ]
+    }
+  },
+  "ClassEval_99": {
+    "read_zip_file": {
+      "attempted": 2,
+      "failed": []
+    },
+    "extract_all": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "zfp.extract_all(\"result/aaa\")",
+          "want": "",
+          "got": "False",
+          "contradicts": false
+        }
+      ]
+    },
+    "extract_file": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "zfp.extract_file(\"bbb.txt\", \"result/aaa\")",
+          "want": "",
+          "got": "False",
+          "contradicts": false
+        }
+      ]
+    },
+    "create_zip_file": {
+      "attempted": 2,
+      "failed": [
+        {
+          "source": "zfp.create_zip_file([\"bbb.txt\", \"ccc,txt\", \"ddd.txt\"], \"output/bcd\")",
+          "want": "",
+          "got": "False",
+          "contradicts": false
+        }
+      ]
+    }
+  }
+}

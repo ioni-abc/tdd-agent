@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to \"change the specified column\" in place, but the test expects the original columns kept and an uppercased copy appended as a new column in a newly named output file, which a programmer following the docstring would not produce.",
+  "missing": "The docstring should state that the method writes a new file containing all original columns plus an appended column holding the uppercased text of the chosen column (with purely numeric values copied unchanged), and that the output name is the input name without its extension plus a \"_process.xlsx\" suffix."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says stop returns False when there is no current song, and this test sets a playlist without a current song and expects False, which a programmer following the docstring would produce.",
+  "missing": "none"
+}

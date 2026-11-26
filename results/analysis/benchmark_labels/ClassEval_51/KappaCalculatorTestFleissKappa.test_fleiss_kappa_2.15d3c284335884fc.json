@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives no rule for normalizing category proportions, and this test's input has a row summing to 15 rather than n=14, so the reference's total-of-matrix denominator differs from the standard N*n denominator a programmer would likely use, and the expected value would not match.",
+  "missing": "The docstring should state how category proportions are normalized (for example, whether the denominator is the sum of all matrix entries or N times n) and what to do when a row's total does not equal n."
+}

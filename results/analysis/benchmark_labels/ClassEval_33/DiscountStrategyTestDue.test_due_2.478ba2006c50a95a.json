@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's single example only hints at the fidelity promotion (a 5% discount for this customer), so a programmer would not reliably know the eligibility rule and percentage that the test's expected 237.5 depends on.",
+  "missing": "The docstring should state the discount rule that applies to each promotion, including the eligibility condition (such as a fidelity threshold) and the percentage or amount deducted from the total."
+}

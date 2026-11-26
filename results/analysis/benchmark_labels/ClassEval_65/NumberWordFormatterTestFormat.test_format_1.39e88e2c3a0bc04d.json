@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example gives the exact input 123456 and the exact uppercase words output with \"AND\" and \"ONLY\" that the test expects, so a programmer following it would pass.",
+  "missing": "none"
+}

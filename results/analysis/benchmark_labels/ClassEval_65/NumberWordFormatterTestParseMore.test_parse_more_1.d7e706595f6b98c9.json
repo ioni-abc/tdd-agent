@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives only the index-1 example (\"THOUSAND\") and says nothing about index 0, so a programmer could reasonably return something other than the empty string the test expects.",
+  "missing": "The docstring should state what is returned for an index that has no magnitude word, such as the empty string for the base (zero) magnitude."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test checks that a shift of 26 returns the text unchanged, an edge case the docstring never mentions, so a correct implementation that does not wrap shifts modulo the alphabet size could fail.",
+  "missing": "The docstring should state that the shift wraps around the alphabet, so any integer shift (including values at or beyond the alphabet size, or negative) is applied modulo 26, leaving letters unchanged when the shift is a multiple of 26."
+}

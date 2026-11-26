@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says digits add their value, J/Q/K count as 10, Aces count as 11, and an Ace drops to 1 only when the total exceeds 21, so a programmer would compute 9 + 11 = 20 and pass.",
+  "missing": "none"
+}

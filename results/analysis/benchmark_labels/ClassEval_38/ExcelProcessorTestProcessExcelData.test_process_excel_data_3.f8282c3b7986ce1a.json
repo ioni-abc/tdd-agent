@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the column is \"changed\" to uppercase, but the test expects the uppercased values (including the header) to be appended as a new last column while the original column is kept, and a programmer reading \"change the column\" would plausibly overwrite it in place and fail.",
+  "missing": "The docstring should state that each row gets a new column appended at the end holding the uppercased value of the chosen column (header included, numeric-looking values copied unchanged), that the original columns are kept, and that the output is saved under the input name with a `_process.xlsx` suffix."
+}

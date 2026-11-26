@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the image is resized to the given target width and height when one is open, which is exactly what the test checks by comparing the image size to (30, 15).",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says save_image writes the loaded image to the given path when one has been opened, which is exactly what the test checks by loading an image, saving it, and reopening the saved file.",
+  "missing": "none"
+}

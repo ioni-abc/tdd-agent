@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names the three stop words and gives the exact example output `['a', 'an', 'the']`, which is the list the test asserts with `assertEqual`.",
+  "missing": "none"
+}

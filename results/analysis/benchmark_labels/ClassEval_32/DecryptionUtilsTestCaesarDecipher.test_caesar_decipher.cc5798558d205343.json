@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the exact example `caesar_decipher('ifmmp', 1)` returning `'hello'`, and the test checks that same case, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says items with a quantity of 20 or more get a 10% discount, so a programmer would compute 10% of quantity times price for those items and skip the rest, which yields the expected 20.0.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to save the loaded image to the given path, and the test only checks that a `.png` path produces a PNG file, which any standard save-to-path implementation does.",
+  "missing": "none"
+}

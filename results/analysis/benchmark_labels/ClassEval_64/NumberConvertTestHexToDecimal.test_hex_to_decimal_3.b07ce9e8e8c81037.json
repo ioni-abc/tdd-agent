@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert a hex string to its decimal integer, which is what the test checks with a five-digit mixed letter-and-digit hex string (0x14a93 = 84627), so a standard hex-to-int conversion passes.",
+  "missing": "none"
+}

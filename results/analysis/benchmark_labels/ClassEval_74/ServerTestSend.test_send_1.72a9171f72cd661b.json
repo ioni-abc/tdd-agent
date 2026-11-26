@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says `send` takes a dict with address and content and gives the example that sets `self.send_struct` to that dict, which is exactly what this test checks with a valid input.",
+  "missing": "none"
+}

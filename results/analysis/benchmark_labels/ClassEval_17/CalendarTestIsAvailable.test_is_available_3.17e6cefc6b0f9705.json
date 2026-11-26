@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer reading \"True if the calendar is available for the given time slot, False otherwise\" and the example of a slot that collides with an existing event would return False here, since the requested slot starts at the event's start and overlaps it.",
+  "missing": "none"
+}

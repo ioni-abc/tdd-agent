@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to remove the given position from `job_listings` but does not say what happens when several listings are equal, while the test expects only the first matching entry to be removed and the duplicate to remain.",
+  "missing": "The docstring should state whether removal deletes only the first entry equal to the given job or every equal entry, and which one applies when duplicates exist."
+}

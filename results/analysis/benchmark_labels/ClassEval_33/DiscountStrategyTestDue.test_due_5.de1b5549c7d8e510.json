@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives only one fidelity example (1200 points, 5% off), so a programmer cannot tell that a customer with 900 points gets no discount and the test's expected 250.0 is correct.",
+  "missing": "The docstring should state the eligibility rule for the loyalty promotion: the fidelity threshold at which the discount applies, and that customers below it receive no discount."
+}

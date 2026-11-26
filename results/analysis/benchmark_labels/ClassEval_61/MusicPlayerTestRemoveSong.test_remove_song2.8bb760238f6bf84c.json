@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says remove_song removes the given song from the playlist, which is exactly what the test checks: \"song1\" is removed and the other songs remain.",
+  "missing": "none"
+}

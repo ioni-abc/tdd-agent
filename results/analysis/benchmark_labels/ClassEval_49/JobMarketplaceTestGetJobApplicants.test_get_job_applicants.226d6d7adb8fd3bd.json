@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example runs the same scenario (one resume whose skills match the job's requirements) and shows the same single-applicant list as the expected output, so a programmer following it would pass.",
+  "missing": "none"
+}

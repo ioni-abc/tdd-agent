@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to remove 'a', 'an', and 'the' from each string and return word lists, so a programmer would split each string into words and keep 'Hello', 'aa', and 'World' unchanged, matching the test's expected output.",
+  "missing": "none"
+}

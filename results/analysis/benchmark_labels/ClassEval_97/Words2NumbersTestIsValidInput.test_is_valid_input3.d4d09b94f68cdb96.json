@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring's own example says the hyphenated input \"thirty-two\" returns False, while this test and the reference code expect a hyphenated input containing \"twenty-fifth\" and \"forty-second\" to return True.",
+  "missing": "The docstring should state whether hyphenated compounds are split into separate words and checked individually, and whether ordinal forms (such as \"fifth\" or \"second\") count as valid words, and it should correct the example to match."
+}

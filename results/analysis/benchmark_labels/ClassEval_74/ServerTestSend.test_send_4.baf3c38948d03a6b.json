@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says an error string is returned for bad input, but the test checks one exact wording, which a correct implementation could reasonably word differently.",
+  "missing": "The docstring should give the exact error message text returned when the input is not a dict or lacks the required keys."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to rotate the loaded image by the given degrees, but it does not say the direction, and the test expects the counterclockwise convention that PIL's `rotate` uses, so a clockwise implementation would fail.",
+  "missing": "The docstring should state the rotation direction and sign convention (for example, that positive angles rotate counterclockwise as in PIL) and whether the image is expanded to fit the rotated result."
+}

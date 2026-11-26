@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to resize the loaded image to the given width and height, and a standard resize keeps the image's color mode, so a programmer following it would leave the mode as \"RGB\" and pass.",
+  "missing": "none"
+}

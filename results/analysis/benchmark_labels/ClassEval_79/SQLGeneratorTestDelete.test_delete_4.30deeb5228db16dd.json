@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method builds a DELETE statement from the given condition string, so a programmer would insert the condition verbatim after WHERE and append a semicolon, which is what this compound AND test expects.",
+  "missing": "none"
+}

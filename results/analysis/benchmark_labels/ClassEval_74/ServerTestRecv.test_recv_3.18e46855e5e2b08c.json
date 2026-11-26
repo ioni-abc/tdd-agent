@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never mentions input validation, so a programmer following it could reasonably return False for a non-dict argument like a list, while the test expects -1 and an unchanged receive_struct.",
+  "missing": "The docstring should state what happens when the argument is not a dict or lacks the \"addr\" or \"content\" keys: the method returns -1 and leaves the stored receive state unchanged, rather than returning False."
+}

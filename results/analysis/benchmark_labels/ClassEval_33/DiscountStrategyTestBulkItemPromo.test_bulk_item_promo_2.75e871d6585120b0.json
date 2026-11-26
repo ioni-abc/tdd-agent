@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the 10% discount applies only when an item's quantity reaches 20 or more, so a programmer following it would return 0 when both items are below that threshold, matching the test's expected 0.",
+  "missing": "none"
+}

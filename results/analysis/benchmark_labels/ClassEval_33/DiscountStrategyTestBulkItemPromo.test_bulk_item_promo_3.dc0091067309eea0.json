@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each item with quantity of at least 20 gets a 10% discount and items below that get none, so a programmer would compute 10% of 100 \u00d7 10.0 = 100.0 for the qualifying item and ignore the 5-unit item, matching the expected value.",
+  "missing": "none"
+}

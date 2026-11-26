@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says removing a song takes it out of the playlist, and its example shows removing \"song1\" from [\"song1\", \"song2\"] leaves [\"song2\"], which is exactly what the test asserts.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest gives the exact call `convert(64, 'CNY', 'USD')` returning `10.0`, which is the same case and expected value the test checks.",
+  "missing": "none"
+}

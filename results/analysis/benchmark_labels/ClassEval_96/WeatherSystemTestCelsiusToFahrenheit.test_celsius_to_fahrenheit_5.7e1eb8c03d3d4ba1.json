@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the conversion formula's example (27 C gives 80.6 F), so a programmer implementing Celsius-to-Fahrenheit conversion would return 80.6 for input 27, which is not equal to 23, so the test passes.",
+  "missing": "none"
+}

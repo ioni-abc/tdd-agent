@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each submission is added to the resumes list as a dict with name, skills and experience, so a programmer appending each new resume in order would pass this two-submission test.",
+  "missing": "none"
+}

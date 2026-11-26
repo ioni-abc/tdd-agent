@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the result as whether the box is full after adding an email of the given size, so a programmer would compute occupied plus size against capacity, which returns True for an empty zero-capacity box and a 10-unit email.",
+  "missing": "none"
+}

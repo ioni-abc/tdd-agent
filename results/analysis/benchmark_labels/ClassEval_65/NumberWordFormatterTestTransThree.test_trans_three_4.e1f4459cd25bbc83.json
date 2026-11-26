@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives no rule for a leading zero in the hundreds place, so a correct implementation could return \"ZERO ... \", \"ONE HUNDRED\" or some other form instead of the bare \"ONE\" this test expects.",
+  "missing": "The docstring should state how a leading zero in the hundreds position is handled, i.e. whether the hundreds part is omitted entirely and the remaining digits are converted alone, with no \"HUNDRED\" or \"AND\" added."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The player's hand totals 22 (bust) and the dealer's 16, and the docstring's \"otherwise, the lower hand value wins\" rule gives \"Dealer wins\", which is what the test expects.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (radius 2 giving about 12.566, which is pi times 4) fixes the formula as pi times radius squared, so a programmer would return 0 for radius 0, which is what the test expects.",
+  "missing": "none"
+}

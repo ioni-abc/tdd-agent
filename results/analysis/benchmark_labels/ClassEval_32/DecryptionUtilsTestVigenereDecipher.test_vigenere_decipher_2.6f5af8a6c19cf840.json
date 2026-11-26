@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example uses the same key 'key' and the same Vigenere shift rule, so a programmer following it would correctly decipher 'rijvs' to 'hello'.",
+  "missing": "none"
+}

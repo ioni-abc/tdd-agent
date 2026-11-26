@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method converts any two-digit number to words, so a programmer would naturally produce \"TEN\" for \"10\", which is what the test expects.",
+  "missing": "none"
+}

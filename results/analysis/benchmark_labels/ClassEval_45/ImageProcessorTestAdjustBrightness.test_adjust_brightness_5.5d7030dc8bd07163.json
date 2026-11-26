@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the factor so that 0.0 gives black and 1.0 gives the original, which implies multiplicative brightness scaling, so a programmer would produce the same result as the test's PIL-based expected image for factor 1.5.",
+  "missing": "none"
+}

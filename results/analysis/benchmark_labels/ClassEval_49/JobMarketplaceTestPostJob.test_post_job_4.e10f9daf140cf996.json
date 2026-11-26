@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each posting is added to job_listings, so a programmer would append each of the three calls in order, which is what the test checks, including the repeated Software Engineer entry.",
+  "missing": "none"
+}

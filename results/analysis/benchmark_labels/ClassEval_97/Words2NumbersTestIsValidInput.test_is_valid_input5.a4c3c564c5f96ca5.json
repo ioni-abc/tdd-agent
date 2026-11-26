@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that valid input contains words convertible to numbers, so a programmer could reasonably reject \"and\" or a bare \"hundred\" after \"thousand\", while the test expects True for such a phrase.",
+  "missing": "The docstring should state which connector words (such as \"and\") and multiplier words are accepted as valid input, and whether they are accepted in any position or only in certain grammatical forms."
+}

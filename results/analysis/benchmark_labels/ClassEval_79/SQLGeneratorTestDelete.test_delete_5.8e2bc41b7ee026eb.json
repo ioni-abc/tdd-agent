@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the output format `DELETE FROM <table> WHERE <condition>;` with the condition inserted as-is, so a programmer following it would produce the exact string this test expects for a multi-clause AND condition.",
+  "missing": "none"
+}

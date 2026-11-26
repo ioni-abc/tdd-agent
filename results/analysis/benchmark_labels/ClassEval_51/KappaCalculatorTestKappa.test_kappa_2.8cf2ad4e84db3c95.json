@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the standard Cohen's kappa of a square matrix, and this test's expected value (22/113 \u2248 0.19469) is exactly that standard computation, so a correct implementation would pass; the docstring's own example (0.25) does not match the reference code, but that does not affect this test.",
+  "missing": "none"
+}

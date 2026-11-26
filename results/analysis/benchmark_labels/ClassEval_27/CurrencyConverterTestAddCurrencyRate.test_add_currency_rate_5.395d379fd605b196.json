@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says adding a new currency stores its exchange rate, and its example shows `self.rates['KRW'] = 1308.84`, so a programmer would store the new rate under that key and the test's check on `cc.rates['ddd']` would pass.",
+  "missing": "none"
+}

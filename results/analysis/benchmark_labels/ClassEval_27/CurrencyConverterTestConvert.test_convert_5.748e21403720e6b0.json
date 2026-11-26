@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects 64 USD to convert to 78.72 CAD, which depends on the exchange rates hard-coded in the class, and the docstring gives no rates or supported currencies beyond the CNY-to-USD example.",
+  "missing": "The docstring should list the supported currencies and the exchange rate used between each pair (or the base currency and each currency's rate against it), and state what happens for unsupported currencies."
+}

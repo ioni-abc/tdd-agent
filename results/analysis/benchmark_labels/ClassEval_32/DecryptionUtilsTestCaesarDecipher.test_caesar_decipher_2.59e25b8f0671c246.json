@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says how a shift larger than the alphabet length (27 here) is handled, so a programmer could reasonably implement a shift that fails to wrap correctly and fail this test.",
+  "missing": "The docstring should state that the shift is applied modulo the alphabet size (26 letters), so any integer shift, including values larger than 26 or negative, wraps around within the same case."
+}

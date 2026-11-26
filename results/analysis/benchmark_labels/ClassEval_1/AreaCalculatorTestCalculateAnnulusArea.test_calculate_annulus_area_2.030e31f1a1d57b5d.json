@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the annulus area as the region between the two radii, and the standard formula pi*(outer\u00b2 \u2212 inner\u00b2) gives 0 when the radii are equal, which is what the test expects.",
+  "missing": "none"
+}

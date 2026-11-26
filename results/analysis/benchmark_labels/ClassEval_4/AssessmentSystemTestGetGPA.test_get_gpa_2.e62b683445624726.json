@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_gpa returns None when the name is not among the students, and the test calls it for a name that was never added, so a programmer following the docstring would return None and pass.",
+  "missing": "none"
+}

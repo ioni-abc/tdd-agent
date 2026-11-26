@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The sphere-area docstring says nothing about circle area or zero-size inputs, yet the test exercises `calculate_circle_area` on a degenerate input, so a correct sphere implementation could not be expected to satisfy it from this docstring.",
+  "missing": "The docstring should state the expected return value for degenerate (zero-size or zero-dimension) inputs and name the specific method and quantity each returned value corresponds to."
+}

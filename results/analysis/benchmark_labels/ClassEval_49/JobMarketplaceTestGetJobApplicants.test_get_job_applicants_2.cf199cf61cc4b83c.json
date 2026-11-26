@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns only the candidates that meet the job's requirements, and the test's single match (exact skill overlap) versus non-match (no shared skills) is the obvious filtering result under any reasonable reading.",
+  "missing": "none"
+}

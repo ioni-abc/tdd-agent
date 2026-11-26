@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names the Vigenere cipher and gives a worked example with the same key, so a programmer implementing standard Vigenere decryption would produce the test's expected output.",
+  "missing": "none"
+}

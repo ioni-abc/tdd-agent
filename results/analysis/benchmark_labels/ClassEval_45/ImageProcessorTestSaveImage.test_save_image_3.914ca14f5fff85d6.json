@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to save the loaded image to the given path, so a programmer would write the file and the saved file's mode will match the loaded RGB image, which is what the test checks.",
+  "missing": "none"
+}

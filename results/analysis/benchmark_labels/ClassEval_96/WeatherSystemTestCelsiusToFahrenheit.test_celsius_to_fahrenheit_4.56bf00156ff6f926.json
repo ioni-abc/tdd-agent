@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example gives 80.6 for a Celsius input of 27, so a programmer following it returns a value that is not 73.4 and the assertNotEqual check passes.",
+  "missing": "none"
+}

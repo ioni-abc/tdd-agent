@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to remove all stop words from each string and return the remaining words, so a programmer would split each single-word string, filter out the stop word, and get an empty list per string, matching [[], [], []].",
+  "missing": "none"
+}

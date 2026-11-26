@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes whitelist acceptance and returning False for rejected addresses, so it never says that a dict missing the address key should return -1 and leave the stored state empty, which is what this test checks.",
+  "missing": "The docstring should state that if the input is not a dict or lacks the address or content key, the method returns -1 and does not change the stored receive record."
+}

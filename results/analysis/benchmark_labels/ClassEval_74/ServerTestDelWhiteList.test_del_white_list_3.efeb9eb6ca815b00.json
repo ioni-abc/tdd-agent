@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says that deleting an address that does not exist returns False, which is exactly what the test checks with an empty whitelist.",
+  "missing": "none"
+}

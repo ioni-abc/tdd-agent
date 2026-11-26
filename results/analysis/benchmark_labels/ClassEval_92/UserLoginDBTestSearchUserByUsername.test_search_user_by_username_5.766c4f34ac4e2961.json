@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring promises a list of tuples and a `len(result) = 1` check, but the reference code and test expect a single row tuple (indexable directly as `user[0]`), so a programmer following the docstring would return a list and fail.",
+  "missing": "The docstring should say the method returns the first matching row as one tuple (or None when nothing matches), not a list of tuples, so that indexing the result gives column values directly."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what happens when the student name is not in `self.students`, so a programmer could reasonably raise an error, create a new record, or do nothing, while the test expects the existing data to be left untouched.",
+  "missing": "The docstring should state what happens when the given student name does not exist in the system (for example, whether the call is silently ignored, raises an error, or creates a record) and that other students' data must remain unchanged."
+}

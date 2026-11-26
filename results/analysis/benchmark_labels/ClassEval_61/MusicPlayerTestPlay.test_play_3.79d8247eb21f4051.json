@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says play() returns False when there is no current song, and this test leaves current_song unset while the playlist is non-empty, so a programmer following the docstring would return False and pass.",
+  "missing": "none"
+}

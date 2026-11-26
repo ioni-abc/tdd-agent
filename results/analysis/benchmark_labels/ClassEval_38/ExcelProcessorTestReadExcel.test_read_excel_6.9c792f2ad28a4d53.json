@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the method returns a list of data but says nothing about failure, so a programmer would likely raise an error or return an empty list for an empty file name, while the test expects `None`.",
+  "missing": "The docstring should say what the method returns when the file cannot be read (for example an empty file name or a missing or invalid file), and state that the return value is `None` in that case."
+}

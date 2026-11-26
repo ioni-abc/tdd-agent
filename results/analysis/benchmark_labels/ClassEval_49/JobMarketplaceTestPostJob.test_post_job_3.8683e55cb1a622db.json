@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each posted position is added to the job_listings list as a record with its title, company and requirements, so a programmer would append one dict per call and the test's two-entry expected list would match.",
+  "missing": "none"
+}

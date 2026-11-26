@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the total as the sum of item costs over the cart, so an empty cart naturally gives 0, which is what the test expects, and assertEqual accepts 0 as equal to 0.0.",
+  "missing": "none"
+}

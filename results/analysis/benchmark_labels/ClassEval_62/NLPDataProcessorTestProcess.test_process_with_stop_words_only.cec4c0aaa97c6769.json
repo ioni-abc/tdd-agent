@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says all stop words are removed and the example shows each input string becoming its own list of remaining words, so a programmer would produce one empty list per input string here, which is what the test expects.",
+  "missing": "none"
+}

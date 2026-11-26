@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows the fidelity promotion, so a programmer cannot infer how the bulk-item promotion used by this test computes its discount, and the expected 410.0 depends on that unstated rule.",
+  "missing": "The docstring should describe each promotion's discount rule, including which items qualify (for example, by quantity threshold), whether the discount is a percentage of that item's line subtotal or of the whole cart, and how multiple promotions or rounding are handled."
+}

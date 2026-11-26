@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the exact format string and says the key and value are substituted into it, so a programmer would produce \"Chord: , Play Tune: \" for empty inputs, matching the test.",
+  "missing": "none"
+}

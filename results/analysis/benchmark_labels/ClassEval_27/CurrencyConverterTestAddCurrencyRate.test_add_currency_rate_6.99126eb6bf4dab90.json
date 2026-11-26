@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return False when the currency is already in the support list, and the test adds USD, which the default converter already supports, so a programmer following the docstring would return False and pass.",
+  "missing": "none"
+}

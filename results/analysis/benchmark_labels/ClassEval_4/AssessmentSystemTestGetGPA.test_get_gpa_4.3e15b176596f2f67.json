@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns None when the name is not among the students, which is exactly what the test checks by asking for an absent student 'Bob'.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to remove the stop words and return per-string word lists, and its example shows whitespace-split tokens in nested lists, so a programmer would split each string and keep every word when the stop list is empty, which is what the test expects.",
+  "missing": "none"
+}

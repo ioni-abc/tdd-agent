@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects 24 hourly slots on the queried day even though the event's `date` field is that day while its start and end times fall on the next day, and the docstring does not say which field decides whether an event blocks a slot.",
+  "missing": "The docstring should state that slots are one hour long, cover the whole day from midnight, and that an event blocks a slot only when its start and end times overlap that slot, regardless of the event's `date` field."
+}

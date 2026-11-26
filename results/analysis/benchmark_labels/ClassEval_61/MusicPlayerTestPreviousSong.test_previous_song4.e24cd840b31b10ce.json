@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False when there is no previous song, and with no current song selected there is none, so a programmer following it would return False as the test expects.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says `show(\"receive\")` returns the receive struct, and the test expects the struct from the most recent successful receive, which a programmer following the docstring would return.",
+  "missing": "none"
+}

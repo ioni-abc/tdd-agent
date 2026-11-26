@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer following the docstring would join the list with \", \" and append the condition verbatim after WHERE, which produces exactly the expected string even though one list element already contains a comma.",
+  "missing": "none"
+}

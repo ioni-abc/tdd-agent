@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says that slots are fixed-length hourly blocks starting at midnight, or that only events overlapping the requested day block them, so a correct implementation could return a different slot count and fail this test.",
+  "missing": "The docstring should state the slot length and starting boundary, and say whether events are matched by their start and end times against the requested day or by their date field, so the expected slot count can be derived."
+}

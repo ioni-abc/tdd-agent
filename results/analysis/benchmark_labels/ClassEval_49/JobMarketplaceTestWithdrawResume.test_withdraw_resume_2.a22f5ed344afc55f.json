@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says withdraw_resume removes the given resume from the resumes list, and this test checks that the matching resume is removed while the other stays.",
+  "missing": "none"
+}

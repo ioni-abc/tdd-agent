@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says `show(\"send\")` returns the send struct, and the test sends one message, then receives another, and expects the send struct back, which is what a programmer would implement from that description.",
+  "missing": "none"
+}

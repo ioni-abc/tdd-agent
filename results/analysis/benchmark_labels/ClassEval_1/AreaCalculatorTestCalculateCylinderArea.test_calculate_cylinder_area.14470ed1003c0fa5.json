@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (radius 2, height 3 giving 62.83, which equals 2\u03c0\u00b72\u00b7(2+3)) pins the formula as total surface area, 2\u03c0r(r+h), so a programmer following it would compute 16\u03c0 \u2248 50.27 for height 2 and pass the test within the 0.01 tolerance.",
+  "missing": "none"
+}

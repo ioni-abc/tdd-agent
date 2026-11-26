@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the octal representation of an integer, and its example shows plain digits without a prefix, which is what the test checks (21271 is 51427 in octal).",
+  "missing": "none"
+}

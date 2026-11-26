@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies that the method returns a SQL SELECT statement with a BETWEEN clause on age using the given bounds, and the docstring example matches the test's expected output exactly, so a programmer following it would produce the tested string.",
+  "missing": "none"
+}

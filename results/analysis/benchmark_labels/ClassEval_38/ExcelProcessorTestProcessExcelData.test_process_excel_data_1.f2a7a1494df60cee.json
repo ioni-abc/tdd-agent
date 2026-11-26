@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to change the column to uppercase in place, but the test expects a new uppercased column appended at the end of each row, including the header, with numeric cells kept as they are.",
+  "missing": "The docstring should state that the processed column is written as a new last column in every row (header included), that its text values are uppercased, and that values whose string form is all digits are copied unchanged."
+}

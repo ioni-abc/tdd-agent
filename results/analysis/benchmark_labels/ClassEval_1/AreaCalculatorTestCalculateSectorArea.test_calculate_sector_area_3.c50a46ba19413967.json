@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the sector area from radius and angle with a worked example, so the standard formula gives 0 for an angle of 0, which is what the test expects.",
+  "missing": "none"
+}

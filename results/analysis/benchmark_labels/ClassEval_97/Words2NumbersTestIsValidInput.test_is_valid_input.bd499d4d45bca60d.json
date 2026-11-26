@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring's own example says \"thirty-two\" returns False, but the test and reference code treat hyphenated number words like that as valid, so the test expects True.",
+  "missing": "The docstring should state that hyphens between number words are treated as separators, so a hyphenated compound number whose parts are all valid number words returns True, and its example should reflect that."
+}

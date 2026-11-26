@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says clear_inbox deletes the oldest emails to free space, so a programmer would delete them, but the test expects no change when the client's address is empty, which the docstring never mentions.",
+  "missing": "The docstring should state what happens when the email client has no address (for example, that it returns without removing any emails), since this edge case overrides the normal deletion behaviour."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says remove_job removes the given position from job_listings, and its doctest shows the list becoming empty after removing the only entry, which is exactly what the test checks.",
+  "missing": "none"
+}

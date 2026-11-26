@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method removes the given resume from the resumes list, so a programmer would remove each passed resume in turn, which leaves the list empty after the two calls the test makes.",
+  "missing": "none"
+}

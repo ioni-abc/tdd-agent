@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example call returns exactly the seven currencies in the same order the test asserts, so a programmer following it would return that list and pass.",
+  "missing": "none"
+}

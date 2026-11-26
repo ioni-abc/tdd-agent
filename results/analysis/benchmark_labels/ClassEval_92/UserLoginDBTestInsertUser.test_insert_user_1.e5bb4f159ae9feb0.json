@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method inserts a username and password into the \"users\" table, which is the behaviour the test exercises, and a programmer would write a plain insert that the later search can find.",
+  "missing": "none"
+}

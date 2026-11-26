@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method removes stop words from each string in the list and returns the resulting word lists, so for an empty input list a programmer would naturally return an empty list, which is what the test expects.",
+  "missing": "none"
+}

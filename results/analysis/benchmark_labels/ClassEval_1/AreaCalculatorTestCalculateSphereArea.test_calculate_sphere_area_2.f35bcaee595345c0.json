@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test calls `calculate_circle_area`, which this sphere-area docstring never mentions, so nothing here tells a programmer what that method should return.",
+  "missing": "Each method's docstring should state the exact formula or quantity it returns for its inputs, so a test calling any method can be passed from the docstring of that method alone."
+}

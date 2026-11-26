@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what a zero value should produce, so a programmer could reasonably return \"ZERO\" or an empty string, and the test expects an empty string.",
+  "missing": "The docstring should state that any input whose digits are all zero (including a single zero digit) returns an empty string, not a word such as \"ZERO\"."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to open the image with PIL and shows the result as `processor.image`, so a programmer would write `self.image = Image.open(image_path)`, which sets `filename` to the given path.",
+  "missing": "none"
+}

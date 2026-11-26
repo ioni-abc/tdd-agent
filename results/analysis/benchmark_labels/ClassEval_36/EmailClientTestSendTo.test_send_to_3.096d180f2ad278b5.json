@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says send_to returns False when the receiver's mailbox is full, and a programmer following it would return False without adding the email, which is what this test checks.",
+  "missing": "The docstring should say whether a rejected send leaves the receiver's inbox unchanged and whether it has any side effect on the sender's inbox, since the reference clears the sender's inbox on rejection."
+}

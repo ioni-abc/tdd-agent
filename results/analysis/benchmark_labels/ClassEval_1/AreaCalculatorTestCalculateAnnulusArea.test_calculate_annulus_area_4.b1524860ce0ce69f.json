@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the annulus area as the outer circle minus the inner circle, and its example (2, 3 giving about 15.708 = 5\u03c0) fixes the formula as \u03c0\u00b7(outer\u00b2 \u2212 inner\u00b2), which the test's (1, 3) case, expecting about 25.13 = 8\u03c0, follows directly.",
+  "missing": "none"
+}

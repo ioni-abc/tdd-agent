@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers the return value of False for an out-of-range volume, but the test also expects the stored volume to remain 50, which depends on an initial value the docstring never gives.",
+  "missing": "The docstring should state the default volume the player has after construction and that an invalid volume leaves the current volume unchanged."
+}

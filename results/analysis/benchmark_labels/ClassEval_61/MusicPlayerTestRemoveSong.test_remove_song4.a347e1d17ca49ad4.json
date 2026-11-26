@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method removes the given song from the playlist, which is exactly what the test checks by removing one song from a list and expecting the rest to remain in order.",
+  "missing": "none"
+}

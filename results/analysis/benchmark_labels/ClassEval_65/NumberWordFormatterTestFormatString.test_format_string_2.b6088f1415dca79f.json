@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the uppercase words format with a trailing \"ONLY\", so a programmer following it would produce \"ONE THOUSAND ONLY\" for 1000.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (radius 2, angle pi giving 6.283185...) fixes the standard formula area = r\u00b2 \u00b7 angle / 2 with the angle in radians, which gives about 3.1416 for the test's input, within the 0.01 tolerance of 3.14.",
+  "missing": "none"
+}

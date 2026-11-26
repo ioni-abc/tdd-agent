@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer implementing the docstring's Caesar decipherment with a shift of 0 would shift every letter by nothing, so the output equals the input, which is what the test expects.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"Otherwise, the winner is the one with the lower hand value\" rule covers the case where both hands exceed 21, and a programmer applying it would pick the dealer's 22 over the player's 23, matching the expected 'Dealer wins'.",
+  "missing": "none"
+}

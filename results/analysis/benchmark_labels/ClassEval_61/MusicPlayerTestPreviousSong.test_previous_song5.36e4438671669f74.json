@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False when there is no previous song, and with an empty playlist there is none, so a programmer following it would return False.",
+  "missing": "none"
+}

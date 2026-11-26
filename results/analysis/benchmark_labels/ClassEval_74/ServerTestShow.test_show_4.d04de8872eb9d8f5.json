@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says `show(\"send\")` returns the struct of the send type, and the test sends one struct and then checks that `show(\"send\")` returns it, which a programmer following the docstring would pass.",
+  "missing": "none"
+}

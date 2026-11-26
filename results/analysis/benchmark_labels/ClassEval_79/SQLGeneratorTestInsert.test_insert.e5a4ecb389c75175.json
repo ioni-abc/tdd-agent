@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same output format (INSERT INTO table1 with the keys, then quoted values and a trailing semicolon), so a programmer following it would produce the string this test expects.",
+  "missing": "none"
+}

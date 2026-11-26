@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test checks the `self.deck` attribute populated in the constructor, but the docstring only describes the return value of `create_deck`, so a correct implementation that doesn't store the result on the instance would fail.",
+  "missing": "The docstring should state that the game object's `deck` attribute is set to the same 52-card list when the object is constructed, and that this list contains every rank and suit combination."
+}

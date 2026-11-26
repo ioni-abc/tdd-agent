@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same pattern the test checks (comma-space separated field names, each value single-quoted, and a trailing semicolon), so a programmer generalising to five fields would produce the expected string.",
+  "missing": "none"
+}

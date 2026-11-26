@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the binary representation of an integer as a str, and its example shows plain digits with no prefix, which is what the test expects for 84907 (I verified the expected string is correct).",
+  "missing": "none"
+}

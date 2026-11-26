@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers \"no next song\" but not the case where no current song is set, so a programmer could reasonably start from the first playlist entry and return True, which would fail this test.",
+  "missing": "The docstring should say what happens when no current song is set (or the current song is not in the playlist): whether it returns False, or starts from the first song and returns True."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says recv returns the content for a whitelisted address, but the test checks that the method also saves the received address and content as instance state, which the docstring never mentions.",
+  "missing": "The docstring should say that when a message is accepted, its address and content are also saved on the object as state that a caller can inspect later, not only returned."
+}

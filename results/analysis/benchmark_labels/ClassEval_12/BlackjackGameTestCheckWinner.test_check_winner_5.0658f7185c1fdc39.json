@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule that the hand closer to 21 wins (when both are at or under 21) yields 'Dealer wins' for this test's hands, whichever way the ace is valued.",
+  "missing": "none"
+}

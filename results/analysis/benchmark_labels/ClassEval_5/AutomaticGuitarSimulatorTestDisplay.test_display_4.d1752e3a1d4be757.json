@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the exact output format \"Normal Guitar Playing -- Chord: %s, Play Tune: %s\" with the chord and tune substituted in, so a programmer following it would produce the expected string for chord G and tune 63231323.",
+  "missing": "none"
+}

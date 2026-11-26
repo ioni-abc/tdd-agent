@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes returning the first unread email, so a programmer could reasonably return an empty dict or raise an error when the inbox is empty, and the test expects None.",
+  "missing": "The docstring should state what the method returns when no unread email exists, such as None or an empty value, and whether it raises an error."
+}

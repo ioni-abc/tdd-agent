@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the binary representation of an integer as a string, so a programmer would produce the standard binary digits, which is what the test checks for 42423.",
+  "missing": "none"
+}

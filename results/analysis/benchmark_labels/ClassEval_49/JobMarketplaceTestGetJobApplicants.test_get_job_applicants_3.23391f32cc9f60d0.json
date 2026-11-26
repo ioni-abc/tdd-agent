@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the candidates that meet the job requirements via matches_requirements, and the test checks that only the resume whose skills match the job's requirements is returned, which a programmer following the docstring would produce.",
+  "missing": "none"
+}

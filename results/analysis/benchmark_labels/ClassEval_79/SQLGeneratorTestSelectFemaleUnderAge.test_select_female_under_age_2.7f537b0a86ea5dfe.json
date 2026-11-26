@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies that the method produces a SQL SELECT of all columns from the table where age is less than the given value and gender is 'female', with the example showing the exact format, so a programmer following it would produce the test's expected string for age 40.",
+  "missing": "none"
+}

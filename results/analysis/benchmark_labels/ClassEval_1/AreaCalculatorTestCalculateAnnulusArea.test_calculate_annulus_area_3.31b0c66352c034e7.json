@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the annulus area from inner and outer radius, so a programmer would compute pi times (outer\u00b2 minus inner\u00b2), which for inner 0 and outer 1 gives about 3.1416 and passes the test's 0.01 tolerance around 3.14.",
+  "missing": "none"
+}

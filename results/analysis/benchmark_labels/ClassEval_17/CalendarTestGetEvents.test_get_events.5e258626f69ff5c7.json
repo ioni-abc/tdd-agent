@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to get all events on a given date, so a programmer would filter stored events by calendar date, which returns the single matching event the test expects.",
+  "missing": "none"
+}

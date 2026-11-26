@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the 7% discount applies only when the order has 10 or more different products, so a programmer would return 0 for a single-product order, which matches the test's expected 0.0.",
+  "missing": "none"
+}

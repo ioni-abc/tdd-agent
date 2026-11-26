@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"list of data\", so a programmer could reasonably return each row as a list, but the test expects each row as a tuple, as openpyxl's `values_only` iteration produces.",
+  "missing": "The docstring should say the container type of each returned row (for example, tuples of cell values as opposed to lists) and which worksheet's rows are returned, including what happens when reading fails."
+}

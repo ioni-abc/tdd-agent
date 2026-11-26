@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes int or float inputs, so a programmer would not know that a None argument should return an empty string rather than raising an error or producing words.",
+  "missing": "The docstring should state what the method returns when the input is None or otherwise absent, such as an empty string, so implementers handle that case explicitly."
+}

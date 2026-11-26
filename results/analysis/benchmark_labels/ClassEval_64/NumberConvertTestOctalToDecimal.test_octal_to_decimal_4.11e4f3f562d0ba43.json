@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert an octal string to its decimal integer value, which is exactly what this test checks: '513527' should give 169815.",
+  "missing": "none"
+}

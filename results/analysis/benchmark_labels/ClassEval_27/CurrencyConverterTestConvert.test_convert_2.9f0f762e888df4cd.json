@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only covers converting between currencies, so a programmer could reasonably check that both currencies are known before comparing them, and would then fail this same-currency case, which the test expects to return the amount unchanged.",
+  "missing": "The docstring should state what happens when the source and target currencies are identical, namely that the amount is returned unchanged, and whether this check happens before or regardless of validating the currency codes."
+}

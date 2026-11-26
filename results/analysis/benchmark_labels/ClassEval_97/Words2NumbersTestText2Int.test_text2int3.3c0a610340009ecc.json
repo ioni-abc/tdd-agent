@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows a hyphenated example, so it doesn't say whether a connecting word inside a number phrase is absorbed into the number or breaks it into separate parts, which this test depends on.",
+  "missing": "The docstring should state how connecting words such as \"and\" that appear within a spelled-out number are treated, including whether they are ignored so the whole phrase yields one combined integer string."
+}

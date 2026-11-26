@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True only when the box would be full after adding the email, and the test checks a small email into a box with plenty of room, which a programmer following that description would return False for, matching the docstring example.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the exact output format and an example with chord \"C\" and tune \"53231323\", which is the same format and input the test checks after parsing via interpret().",
+  "missing": "none"
+}

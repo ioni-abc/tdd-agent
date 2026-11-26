@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method appends the input word to self.word_list, so a programmer following it would append each word in call order, keeping duplicates, which is what the test checks.",
+  "missing": "none"
+}

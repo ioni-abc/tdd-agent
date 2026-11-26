@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names the standard Rail Fence cipher with a caller-supplied rail count, so a programmer would implement the usual zigzag decipher, which is what the reference code does for 7 rails.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method adds the resume to the resumes list, and its example shows the exact dict with keys name, skills and experience that the test checks.",
+  "missing": "none"
+}

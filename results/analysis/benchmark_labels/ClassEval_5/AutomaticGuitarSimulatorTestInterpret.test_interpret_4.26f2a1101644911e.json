@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each dict holds the leading letters as Chord and the numbers as Tune, so a programmer splitting \"G63231323\" would get the expected single-element list.",
+  "missing": "none"
+}

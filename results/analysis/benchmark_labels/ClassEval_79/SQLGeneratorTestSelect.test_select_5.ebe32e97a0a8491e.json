@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the fields are listed after SELECT, the condition is appended after WHERE, and the statement ends with a semicolon, which is exactly what the test expects for a single field and a comma-containing condition inserted verbatim.",
+  "missing": "none"
+}

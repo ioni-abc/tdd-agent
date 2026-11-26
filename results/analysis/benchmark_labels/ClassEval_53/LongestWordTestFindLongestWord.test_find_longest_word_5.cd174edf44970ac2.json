@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says matching is strictly case sensitive, so a capitalized sentence word like \"Apple\" should not match a lowercase list entry, but the test and reference code lowercase the sentence and expect that match.",
+  "missing": "The docstring should state whether the sentence is lowercased before matching, and that words in the sentence match list entries regardless of capitalization, since the stated case-sensitivity conflicts with the expected behaviour."
+}

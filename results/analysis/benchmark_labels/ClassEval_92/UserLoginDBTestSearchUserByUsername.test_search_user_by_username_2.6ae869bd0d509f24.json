@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the method returns a list of tuples, so a programmer would return a list of matching rows, but the test indexes the result as a single row (`user[0] == 'user2'`), which a list of tuples would fail.",
+  "missing": "When a lookup returns rows, the docstring must say whether the result is a single row tuple or a list of row tuples, and whether it is empty or None when nothing matches, since a list would break code that indexes columns directly."
+}

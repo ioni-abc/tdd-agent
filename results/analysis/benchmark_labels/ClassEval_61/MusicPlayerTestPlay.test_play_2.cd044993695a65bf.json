@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says play returns False when there is no current song, but this test, with an empty playlist, expects None, which the reference code returns by falling through without a return.",
+  "missing": "The docstring should state what is returned when the playlist is empty (None), and reserve False for the case where the playlist has songs but no current song is set."
+}

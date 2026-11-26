@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the octal representation as a str and its example shows '122667' for 42423, which is exactly what the test checks.",
+  "missing": "none"
+}

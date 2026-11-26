@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says post_job appends a dict with job_title, company, and requirements keys to job_listings, which is exactly what the test checks with different input values.",
+  "missing": "none"
+}

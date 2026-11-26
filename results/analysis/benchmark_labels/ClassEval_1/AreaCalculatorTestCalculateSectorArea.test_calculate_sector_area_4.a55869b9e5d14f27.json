@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the sector area as radius squared times angle over two (its example with radius 2 and angle \u03c0 gives 6.28, which matches), so a programmer applying that formula to radius 2 and angle 2\u03c0 would get about 12.566 and pass the 12.56 \u00b1 0.01 check.",
+  "missing": "none"
+}

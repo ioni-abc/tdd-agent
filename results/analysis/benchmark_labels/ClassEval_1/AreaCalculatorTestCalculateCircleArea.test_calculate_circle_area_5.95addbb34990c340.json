@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the behaviour as the area of a circle from self.radius, and its example (radius 2 giving 12.566...) matches pi times radius squared, so a programmer following it would return about 0.0314 for radius 0.1, within the test's delta of 0.01.",
+  "missing": "none"
+}

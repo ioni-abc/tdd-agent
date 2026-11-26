@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method converts the city's temperature to the units given by `tmp_units` and returns it with the weather, so a programmer would convert 23 \u00b0C to Fahrenheit and return 73.4 with 'cloudy'.",
+  "missing": "none"
+}

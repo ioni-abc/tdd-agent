@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example sets temperature to 80.6 and shows fahrenheit_to_celsius returning 26.999999999999996, which is exactly what the test asserts, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the annulus area as the difference between the outer and inner circle areas, and its example (2, 3 giving 15.7079...) confirms pi*(outer\u00b2 \u2212 inner\u00b2), which yields about 25.13 for the test's inputs.",
+  "missing": "none"
+}

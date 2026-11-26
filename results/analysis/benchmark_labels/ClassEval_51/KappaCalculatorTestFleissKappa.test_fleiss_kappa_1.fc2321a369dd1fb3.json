@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names the Fleiss kappa calculation over an N\u00d7k count matrix with n raters, and the test's rows each sum to 14 and match the standard formula, so a programmer implementing Fleiss kappa would get the expected value.",
+  "missing": "none"
+}

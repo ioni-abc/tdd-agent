@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_word appends the input word to self.word_list, which is exactly what the test checks when it adds three words in sequence and expects them in insertion order.",
+  "missing": "none"
+}

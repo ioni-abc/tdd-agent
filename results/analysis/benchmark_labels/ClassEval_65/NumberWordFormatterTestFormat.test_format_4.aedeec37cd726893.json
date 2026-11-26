@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows an integer example, so a programmer would not know that a float's fractional part is rendered as \"AND CENTS\" followed by the digits in words, and could reasonably produce a different wording.",
+  "missing": "The docstring should specify how non-integer inputs are worded, including how the decimal part is named and spelled out, and where the \"ONLY\" suffix goes, so any float input can be formatted to match."
+}

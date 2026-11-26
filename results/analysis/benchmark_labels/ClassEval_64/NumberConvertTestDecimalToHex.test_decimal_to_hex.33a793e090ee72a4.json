@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example `decimal_to_hex(42423)` returns `'a5b7'`, which is exactly the input and expected output this test checks, so a programmer following it would pass.",
+  "missing": "none"
+}

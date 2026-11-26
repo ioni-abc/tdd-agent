@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to delete the oldest emails until there is enough room for the given size, and a programmer following that would return None with no return value, which is what the test asserts.",
+  "missing": "none"
+}

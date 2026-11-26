@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example searches for \"skill1\", which appears in a listing's requirements, and expects that listing back, which is exactly what the test checks.",
+  "missing": "none"
+}

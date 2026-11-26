@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer following the docstring would send a 20-size email into an empty 30-capacity inbox, get True, and store the dict in the documented format, which is what the test checks.",
+  "missing": "none"
+}

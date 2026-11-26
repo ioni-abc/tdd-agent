@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example and its description of Chord (letters) and Tune (numbers) make a programmer split the input on spaces and separate each segment's leading letters from its digits, which is exactly what this two-segment test checks.",
+  "missing": "none"
+}

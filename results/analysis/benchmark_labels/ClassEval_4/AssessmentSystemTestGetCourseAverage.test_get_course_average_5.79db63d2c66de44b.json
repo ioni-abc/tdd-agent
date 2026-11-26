@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the average score of the course across students who have records for it, so a programmer would compute the mean over the one student who took Mathematics and get 90.",
+  "missing": "none"
+}

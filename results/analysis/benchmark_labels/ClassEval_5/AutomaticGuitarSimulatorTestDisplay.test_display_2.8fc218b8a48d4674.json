@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the exact output format \"Normal Guitar Playing -- Chord: %s, Play Tune: %s\", and the test only checks that display fills that format with the chord and tune it is given.",
+  "missing": "none"
+}

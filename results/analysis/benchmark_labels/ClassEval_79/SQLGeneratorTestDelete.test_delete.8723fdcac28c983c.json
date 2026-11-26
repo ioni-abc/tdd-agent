@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the exact format \"DELETE FROM table1 WHERE field1 = value1;\" for the condition-based delete, which is what the test checks, so a programmer following it would produce the expected string.",
+  "missing": "none"
+}

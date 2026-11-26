@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to take the student with the highest GPA from `get_gpa` but never says how students with no course scores are handled, and this test includes such a student, so an implementation that divides by zero or lets that student win could fail.",
+  "missing": "The docstring should state how students whose GPA cannot be computed (for example, no recorded course scores) are treated, such as being excluded from the comparison, and what is returned when no student qualifies."
+}

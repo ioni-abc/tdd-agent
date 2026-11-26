@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives only a hyphenated example (\"thirty-two\"), so a programmer would not know that a connector word like \"and\" inside a large number phrase is ignored, or that scale words like \"million\" combine with the words on both sides, which the test relies on.",
+  "missing": "The docstring should state how connector words (such as \"and\") within a number phrase are treated, and how scale words (such as thousand or million) combine with the number words before and after them, with examples that cover mixed-scale phrases."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a 10% discount applies only when an item's quantity reaches 20 or more, so a cart with all quantities below 20 should yield a discount of 0, which is what the test expects.",
+  "missing": "none"
+}

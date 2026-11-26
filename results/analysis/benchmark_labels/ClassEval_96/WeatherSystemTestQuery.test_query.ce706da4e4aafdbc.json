@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example calls `query(weather_list)` with the default celsius units on a New York entry already in celsius, and returns `(27, 'sunny')`, which is exactly what the test asserts.",
+  "missing": "none"
+}

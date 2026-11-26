@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says send_to returns False when the receiver's mailbox is full, and this test sends a 10-unit email to a receiver with no capacity and expects False, which a programmer would implement as a full-mailbox check.",
+  "missing": "none"
+}

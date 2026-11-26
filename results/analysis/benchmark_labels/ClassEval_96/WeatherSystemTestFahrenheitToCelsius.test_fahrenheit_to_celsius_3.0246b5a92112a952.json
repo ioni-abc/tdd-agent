@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the conversion from Fahrenheit to Celsius and says it returns a float, so a correct implementation gives about 26.67 for 80, which is not equal to 23 and passes the assertion.",
+  "missing": "none"
+}

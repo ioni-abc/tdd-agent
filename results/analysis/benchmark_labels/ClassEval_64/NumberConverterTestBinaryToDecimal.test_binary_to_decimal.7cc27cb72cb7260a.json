@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert a binary string to its decimal integer, and the test checks exactly that for a 16-digit binary string, which a standard base-2 conversion satisfies.",
+  "missing": "none"
+}

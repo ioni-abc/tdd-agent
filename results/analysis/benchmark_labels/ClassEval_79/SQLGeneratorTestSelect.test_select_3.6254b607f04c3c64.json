@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says `fields` is a list joined into the SELECT clause and `condition` is appended after WHERE, with a trailing semicolon, so a straightforward implementation produces the expected string.",
+  "missing": "none"
+}

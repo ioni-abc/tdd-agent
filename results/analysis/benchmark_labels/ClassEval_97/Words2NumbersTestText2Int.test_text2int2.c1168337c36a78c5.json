@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for converting a number written in words to its integer string, and a programmer would naturally produce \"123\" for \"one hundred and twenty-three\", with the hyphen in \"twenty-three\" handled as part of the number.",
+  "missing": "none"
+}

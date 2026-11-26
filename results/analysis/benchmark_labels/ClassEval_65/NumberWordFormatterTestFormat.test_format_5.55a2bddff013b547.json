@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's single example shows the uppercase words-plus-\"ONLY\" convention but says nothing about how zero is rendered, so a correct implementation could plausibly output \"ZERO\" without the suffix.",
+  "missing": "The docstring should state how zero (and other edge values) is written, including whether the \"ONLY\" suffix and uppercase convention apply to it."
+}

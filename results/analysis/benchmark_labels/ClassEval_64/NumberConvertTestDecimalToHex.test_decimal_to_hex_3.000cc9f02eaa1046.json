@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example `decimal_to_hex(42423)` returns `'a5b7'`, which shows the lowercase, unprefixed hex string the test expects for 84907 (`'14bab'`).",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows a hyphenated example (\"thirty-two\"), so it doesn't say how a conjunction like \"and\" inside a number phrase should be handled, and a correct implementation could reasonably produce a different string than \"101\".",
+  "missing": "The docstring should state how filler words such as \"and\" inside a number phrase are treated (ignored and folded into the number, or emitted as text), and what output a multi-part phrase with such a word should give."
+}

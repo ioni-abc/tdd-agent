@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example output matches the test exactly, showing the table name, quoted SET values, the WHERE clause, and the trailing semicolon.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the method returns a list of tuples and gives a length-of-result example, but the test and reference code expect a single row tuple (indexed directly by column), so a programmer following the docstring would return a list and fail the column checks.",
+  "missing": "The docstring should state whether the method returns one matching row as a single tuple (or None when nothing matches) or a list of all matching rows, and the return type it gives must match that choice."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that the slot must be free of events, so a programmer could reasonably treat a slot that starts exactly when an event ends as a conflict, while the test expects it to be available.",
+  "missing": "The docstring should say whether a time slot that only touches an existing event at its start or end boundary counts as overlapping, and if it does not, that back-to-back slots are available."
+}

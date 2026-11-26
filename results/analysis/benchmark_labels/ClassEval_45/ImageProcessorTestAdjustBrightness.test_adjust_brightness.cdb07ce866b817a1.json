@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the factor so that 0.0 gives black and 1.0 gives the original image, which is the semantics of PIL's `ImageEnhance.Brightness`, so a programmer following it would produce the same output the test compares against.",
+  "missing": "none"
+}

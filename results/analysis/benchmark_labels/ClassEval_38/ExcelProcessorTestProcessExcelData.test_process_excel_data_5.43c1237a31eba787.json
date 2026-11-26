@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to change the specified column to uppercase, so a programmer would likely overwrite that column in place, but the test expects the original data kept and a new uppercase column appended at the end, with numeric-looking values copied unchanged.",
+  "missing": "The docstring should state that the output keeps all original columns, appends a new last column containing the uppercase text of the chosen column, and copies values that look like digits over unchanged rather than uppercasing them."
+}

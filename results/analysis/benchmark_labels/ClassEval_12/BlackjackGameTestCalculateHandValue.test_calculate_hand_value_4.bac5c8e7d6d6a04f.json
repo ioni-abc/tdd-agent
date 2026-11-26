@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that when the total exceeds 21 with Aces present, Aces drop from 11 to 1 until the total is at most 21 or all Aces are 1, so a programmer would reduce the single Ace to get 25 and stop because no Aces remain.",
+  "missing": "none"
+}

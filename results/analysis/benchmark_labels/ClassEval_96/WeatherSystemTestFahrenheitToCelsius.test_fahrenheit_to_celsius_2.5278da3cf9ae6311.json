@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the standard Fahrenheit-to-Celsius conversion and its example output (26.999999999999996 for 80.6) shows the floating-point result a programmer following the formula would get, which matches the test's expected value for 73.4.",
+  "missing": "none"
+}

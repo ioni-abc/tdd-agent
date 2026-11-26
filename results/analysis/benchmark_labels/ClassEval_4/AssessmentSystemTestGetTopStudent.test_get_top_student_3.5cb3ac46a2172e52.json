@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the method returns the top student's name as a str but never says what to return when there are no students, so a programmer could reasonably return an empty string, raise an error, or return None.",
+  "missing": "The docstring should state what the method returns when no student qualifies (for example, no students, or no student with a computable GPA), such as None versus an empty string."
+}

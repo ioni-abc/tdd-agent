@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Filtering stop words from an empty list of strings should naturally yield an empty list, which is what the test asserts, and the docstring's description of the return value covers this case.",
+  "missing": "none"
+}

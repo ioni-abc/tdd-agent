@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows each input string becoming a list of its non-stop words, so a programmer following it would split each string, drop 'a', 'an' and 'the', and get [[], [], [], ['This']].",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says all stop words are removed, so a programmer would drop \"is\" as well as \"This\" and \"a\", but the test expects \"is\" to remain, matching the reference code's skip-while-removing bug.",
+  "missing": "The docstring should state that every whitespace-separated token exactly matching an entry in the stop word list is removed, with matching case-sensitive, and that no matching token is kept regardless of its position in the sentence."
+}

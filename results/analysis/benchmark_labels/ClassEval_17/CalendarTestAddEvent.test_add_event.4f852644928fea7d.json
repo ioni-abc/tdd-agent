@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_event adds the given event dict to the calendar, and the doctest shows calendar.events then holds that dict, which is exactly what the test checks.",
+  "missing": "none"
+}

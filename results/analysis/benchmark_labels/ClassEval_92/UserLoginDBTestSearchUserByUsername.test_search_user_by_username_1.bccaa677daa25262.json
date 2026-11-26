@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the method returns a list of tuples with a length of 1, but the test indexes the result directly (`user[0]`, `user[1]`) as a single row, which matches the reference's `fetchone()` returning one tuple.",
+  "missing": "The docstring should state whether a lookup returns one row as a tuple of column values (or None when nothing matches) or a list of all matching rows, and it should match the form the code actually returns."
+}

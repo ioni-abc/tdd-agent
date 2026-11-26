@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method adds a course score for a named student in `self.students`, and the example shows the score being stored under the course, so a programmer following it would store 90 under \"Math\" for the existing student \"Alice\".",
+  "missing": "none"
+}

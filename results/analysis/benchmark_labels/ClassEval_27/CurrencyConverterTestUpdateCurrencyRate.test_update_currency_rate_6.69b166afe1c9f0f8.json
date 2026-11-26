@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False when the update is unsuccessful, and a programmer would reasonably treat an unknown currency code as an unsuccessful update, so the test's `assertFalse` matches the documented behaviour.",
+  "missing": "none"
+}

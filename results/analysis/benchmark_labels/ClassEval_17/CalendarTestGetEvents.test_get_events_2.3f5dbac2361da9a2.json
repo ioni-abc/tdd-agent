@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns all events on the given date, so a programmer would filter by date and return an empty list when no event falls on the queried day, which is what this test checks.",
+  "missing": "none"
+}

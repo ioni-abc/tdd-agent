@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say that each row must sum to the number of raters, and this test's first row sums to one more than `n`, so a programmer using the standard formula (dividing by N*n) would get a different value than the reference, which divides by the actual total of entries.",
+  "missing": "The docstring should state that every row of the input must sum to the rater count `n`, and say how the category proportions are normalised (by N*n or by the actual total of the matrix) when that constraint is violated."
+}

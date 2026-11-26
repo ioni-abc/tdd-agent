@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows a case with a nonzero remainder (\"123\"), so a programmer would not know that a hundreds-only number like 900 should be rendered without the \"AND\" clause.",
+  "missing": "When the last two digits are both zero, the output should be just the hundreds word followed by \"HUNDRED\", with no \"AND\" clause; when the hundreds digit is zero, the output should be the tens-and-units conversion alone."
+}

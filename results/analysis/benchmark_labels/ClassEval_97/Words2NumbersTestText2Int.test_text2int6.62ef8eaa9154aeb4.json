@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says to convert \"the word string\" to an integer string, so a programmer would not know that ordinal-form words such as \"-th\" endings are to be converted to their numeric values.",
+  "missing": "The docstring should state how ordinal-form number words (words with ordinal suffixes or ordinal forms like \"first\" or \"-th\" endings) are handled, including whether they are converted to their integer value and how they combine with the preceding cardinal words."
+}

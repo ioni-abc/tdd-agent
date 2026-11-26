@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes applying a discount and never says what `due` returns when no promotion is supplied, so a programmer could plausibly fail to return the undiscounted cart total that this test expects.",
+  "missing": "The docstring should state that when no discount strategy/promotion is set, `due` returns the full undiscounted total of all items (quantity times price summed over the cart)."
+}

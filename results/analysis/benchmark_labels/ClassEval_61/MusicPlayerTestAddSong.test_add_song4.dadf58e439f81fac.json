@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_song adds a song to the playlist, and the doctest shows the song appended to an empty list, so a programmer would append each song and the four-song test follows from that.",
+  "missing": "none"
+}

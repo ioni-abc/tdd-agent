@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the exact output format \"SELECT * FROM table1 WHERE age < 30 AND gender = 'female';\" for an age argument, so a programmer following it would produce the test's expected string for age 50 with table1.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says set_city stores the given city on the weather system, and its example shows `.city` equal to the new value, so a programmer would set `self.city` and the test's check that the city is no longer the original value would pass.",
+  "missing": "none"
+}

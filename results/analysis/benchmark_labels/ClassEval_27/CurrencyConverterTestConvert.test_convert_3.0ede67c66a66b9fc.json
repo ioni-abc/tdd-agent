@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects 64 CNY to convert to 7.2 GBP, which depends on the GBP and CNY rates stored in the class, and the docstring only gives a single CNY-to-USD example, so a programmer cannot derive the GBP result.",
+  "missing": "The docstring should state the exchange rates used (or the rate table and its base currency) so that the converted value for any currency pair can be computed, not just the one example given."
+}

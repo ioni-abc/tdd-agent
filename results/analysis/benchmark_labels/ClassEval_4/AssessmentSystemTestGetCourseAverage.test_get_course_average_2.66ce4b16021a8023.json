@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring doesn't say whether a course entry with a missing (None) score counts as a record, so a programmer could reasonably average it in or crash, yet the test expects Bob's 85 alone to be the average.",
+  "missing": "When computing an average over per-student records, entries whose score is missing (None) must be skipped and not counted in the divisor; the average is taken only over the students who have an actual numeric score for the course, and None is returned only if no such score exists."
+}

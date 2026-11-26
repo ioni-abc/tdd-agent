@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says delete generates \"DELETE FROM table1 WHERE field1 = value1;\" from a condition string, so a programmer would produce the same output with a compound AND condition, which the test expects.",
+  "missing": "none"
+}

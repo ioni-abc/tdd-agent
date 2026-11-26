@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the hex representation of an integer, and its example shows lowercase digits with no \"0x\" prefix, which is exactly what the test expects for 339639 (`52eb7`).",
+  "missing": "none"
+}

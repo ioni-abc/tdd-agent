@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the full format (table name, comma-separated field list, single-quoted values, trailing semicolon), and a programmer following it would produce the test's four-field output.",
+  "missing": "none"
+}

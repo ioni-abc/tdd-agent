@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says remove the given position dict from job_listings, and a programmer doing that (e.g., via list removal) would produce the same final list the test expects, even with the duplicate entry.",
+  "missing": "none"
+}

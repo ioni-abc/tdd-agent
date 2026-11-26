@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies that fields are joined into the SELECT list and the condition is appended as a WHERE clause ending with a semicolon, which is exactly what the test checks with a single field and condition.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to delete the oldest emails until enough space is freed for the given size, which means removing the first email (size 10) and stopping once that meets the requested size, matching the test's expected remaining inbox.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a 7% discount applies to the whole order once there are 10 or more different products, which is exactly what this test checks: 100 distinct products totalling 1000 should give 70.0.",
+  "missing": "none"
+}

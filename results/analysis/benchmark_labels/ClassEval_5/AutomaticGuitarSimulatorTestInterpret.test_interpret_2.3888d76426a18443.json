@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each returned dict holds the letter part as Chord and the number part as Tune, and the test's single-chord input is just one instance of that split, so a programmer following it would produce the expected output.",
+  "missing": "none"
+}

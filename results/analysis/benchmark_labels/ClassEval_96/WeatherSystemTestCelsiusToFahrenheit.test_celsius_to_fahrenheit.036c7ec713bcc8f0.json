@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest converts 27 degrees Celsius to 80.6 Fahrenheit, which is exactly what the test checks.",
+  "missing": "none"
+}

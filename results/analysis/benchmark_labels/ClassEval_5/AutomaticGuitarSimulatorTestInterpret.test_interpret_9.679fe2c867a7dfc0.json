@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says an empty input returns an empty list, which is exactly what this test checks with an empty play text.",
+  "missing": "none"
+}

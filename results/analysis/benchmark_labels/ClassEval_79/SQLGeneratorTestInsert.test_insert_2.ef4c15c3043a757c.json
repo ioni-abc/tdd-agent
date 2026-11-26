@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the exact format (comma-separated field names, single-quoted values, and a trailing semicolon), so a programmer following it would produce the three-field output this test expects.",
+  "missing": "none"
+}

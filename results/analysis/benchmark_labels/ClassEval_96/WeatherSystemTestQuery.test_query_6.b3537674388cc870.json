@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says query converts the temperature to the requested `tmp_units`, so a programmer would convert 27 Celsius to Fahrenheit and return 80.6 with 'sunny', which is what the test expects.",
+  "missing": "none"
+}

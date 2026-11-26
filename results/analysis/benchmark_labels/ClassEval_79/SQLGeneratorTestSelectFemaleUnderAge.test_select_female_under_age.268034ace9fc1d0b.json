@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example gives the exact expected output for `select_female_under_age(30)` on `table1`, which is the same string the test asserts.",
+  "missing": "none"
+}

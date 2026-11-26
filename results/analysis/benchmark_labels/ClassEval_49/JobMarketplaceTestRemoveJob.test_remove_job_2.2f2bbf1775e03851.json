@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the given position dict is removed from job_listings, and the test removes the first of two listings and checks that only the other remains, which a programmer following the docstring would produce.",
+  "missing": "none"
+}

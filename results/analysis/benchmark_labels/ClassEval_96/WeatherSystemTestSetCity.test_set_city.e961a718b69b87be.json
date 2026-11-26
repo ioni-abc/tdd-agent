@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says set_city sets the city attribute, and its example shows that after set_city('Beijing') the city equals 'Beijing', which is exactly what the test asserts.",
+  "missing": "none"
+}

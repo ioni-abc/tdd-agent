@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows an integer example, so a programmer would not know that a decimal input should be split into a whole part and cents, or that the cents are spoken as \"AND CENTS\" followed by the two digits before \"ONLY\".",
+  "missing": "The docstring should state how a fractional part is rendered: the digits after the decimal point are converted to words and introduced with \"AND CENTS\" before the trailing \"ONLY\", with the exact wording and casing specified."
+}

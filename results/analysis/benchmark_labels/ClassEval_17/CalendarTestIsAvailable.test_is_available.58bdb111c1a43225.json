@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own doctest shows the same case (a slot identical to an existing event returns False), so a programmer following it would return False here.",
+  "missing": "none"
+}

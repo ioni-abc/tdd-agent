@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the result is a list of dicts with letter-based Chord and numeric Tune fields, and its example already shows an Em chord split from its digits, so a programmer following it would produce this single-chord result.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the positions that meet the requirements as a list, so a programmer would naturally return an empty list when no position matches, which is what this test expects.",
+  "missing": "none"
+}

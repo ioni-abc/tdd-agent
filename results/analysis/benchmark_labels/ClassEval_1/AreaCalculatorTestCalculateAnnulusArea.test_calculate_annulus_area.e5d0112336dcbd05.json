@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the annulus area as the difference between the outer and inner circle areas, and its example (2, 3 giving 5\u03c0) confirms the formula, so a programmer would compute \u03c0(outer\u00b2 \u2212 inner\u00b2) and pass this test (8\u03c0 \u2248 25.133, within the 0.01 delta of 25.128).",
+  "missing": "none"
+}

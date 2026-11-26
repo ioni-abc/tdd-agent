@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test passes a shift of -26 and expects the letters unchanged, but the docstring never says how shifts outside the usual range are handled, so a correct implementation could fail.",
+  "missing": "The docstring should state that the shift wraps around the alphabet, so any integer shift (negative or larger than the alphabet size) is reduced modulo the alphabet length, with case preserved."
+}

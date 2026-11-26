@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"list of data\", but the test expects each row as a tuple of cell values, so a programmer returning lists of lists would fail the equality check.",
+  "missing": "The docstring should specify the container type of each returned row (for example, a tuple of cell values per row) and which sheet is read, since a plain \"list of data\" leaves the row type open."
+}

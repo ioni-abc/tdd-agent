@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring lists thousand, million, billion in order and gives the example parse_more(1) returning \"THOUSAND\", so a programmer would infer that index 3 maps to \"BILLION\".",
+  "missing": "none"
+}

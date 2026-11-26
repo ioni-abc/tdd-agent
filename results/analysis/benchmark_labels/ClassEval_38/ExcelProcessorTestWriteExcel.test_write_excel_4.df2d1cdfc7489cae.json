@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method writes the given data to the named Excel file and returns 1 on success, which is the behaviour this test checks, and its example shows a list of row tuples written out, so a programmer following it would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names the standard Rail Fence cipher with a given number of rails, and a programmer implementing that zigzag decryption would produce the expected output for 6 rails.",
+  "missing": "none"
+}

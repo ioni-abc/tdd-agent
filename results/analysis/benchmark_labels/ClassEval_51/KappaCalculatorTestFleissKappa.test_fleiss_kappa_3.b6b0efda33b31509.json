@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test feeds a matrix where one row sums to 15 while n=14, and the reference computes chance agreement from the actual matrix total, which a programmer following the docstring's standard Fleiss formula might not reproduce.",
+  "missing": "The docstring should specify how the category proportions are normalised (from the actual total of the matrix entries or from N\u00d7n) and how to handle rows whose counts do not sum to the number of raters n."
+}

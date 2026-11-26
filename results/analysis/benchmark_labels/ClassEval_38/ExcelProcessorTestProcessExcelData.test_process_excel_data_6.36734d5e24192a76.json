@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the method returns an (int, str) tuple, but the test expects a bare `0` when the column index is out of range, which the reference code returns.",
+  "missing": "none"
+}

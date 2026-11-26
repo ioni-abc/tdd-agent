@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the exact output format \"Normal Guitar Playing -- Chord: %s, Play Tune: %s\" and the test checks only that format with a chord and tune, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

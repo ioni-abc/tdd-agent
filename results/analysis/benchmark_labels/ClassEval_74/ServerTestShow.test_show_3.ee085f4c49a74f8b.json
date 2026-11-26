@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that any type other than 'send' or 'receive' returns False, and the test passes an unrecognised string and expects False.",
+  "missing": "none"
+}

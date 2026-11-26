@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for a standard Fahrenheit-to-Celsius conversion returning a float, so a correct implementation gives about 26.67 for 80, which is not 27 and passes the assertNotEqual check.",
+  "missing": "none"
+}

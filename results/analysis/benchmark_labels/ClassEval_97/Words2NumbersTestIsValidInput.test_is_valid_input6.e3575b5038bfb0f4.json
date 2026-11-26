@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says valid words are those that can be converted into numbers, and \"fifteenth\" and \"hundred\" both convert to numbers, so a programmer would expect True, which matches the test.",
+  "missing": "none"
+}

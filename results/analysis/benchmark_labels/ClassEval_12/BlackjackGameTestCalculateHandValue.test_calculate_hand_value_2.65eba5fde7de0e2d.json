@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says digits add their value, J/Q/K count as 10, and the total is returned without any Ace adjustment when there are no Aces, so a programmer following it would compute 2+3+10+10 = 25 and pass.",
+  "missing": "none"
+}

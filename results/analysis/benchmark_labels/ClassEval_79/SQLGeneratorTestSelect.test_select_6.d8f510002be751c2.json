@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer reading that `condition` is optional with default None and that the statement is built from the fields and conditions would omit the WHERE clause when no condition is given, which is what this test expects.",
+  "missing": "none"
+}

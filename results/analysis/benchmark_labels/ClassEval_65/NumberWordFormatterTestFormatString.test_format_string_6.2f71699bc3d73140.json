@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same uppercase words-plus-\"ONLY\" output format that the test expects for a two-digit number, so a programmer following it would produce \"TEN ONLY\".",
+  "missing": "none"
+}

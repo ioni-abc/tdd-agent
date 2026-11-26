@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says `remove_job` removes the given position dict from `job_listings`, so a programmer would implement removal of the passed dict, and the test's two sequential removals leave the list empty as expected.",
+  "missing": "none"
+}

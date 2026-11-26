@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the image is resized to the given width and height, so a programmer would not know the test expects the color mode to remain RGB, though a PIL resize would naturally preserve it.",
+  "missing": "The docstring should state that resizing changes only the dimensions and keeps the image's existing color mode (e.g., RGB stays RGB)."
+}

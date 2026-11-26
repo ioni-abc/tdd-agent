@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says an error string is returned when sending fails, but the test requires one exact message text for an input that lacks a required key, and the docstring does not give that text.",
+  "missing": "The docstring should state the exact error string to return when the input is not a dict or is missing any required key."
+}

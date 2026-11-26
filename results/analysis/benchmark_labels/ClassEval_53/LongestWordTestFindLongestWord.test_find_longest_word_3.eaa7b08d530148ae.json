@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to strip punctuation, split the sentence into words, and return the longest word that is in the word list, so a programmer would produce 'student' from 'I am a student.' with \"student\" in the list.",
+  "missing": "none"
+}

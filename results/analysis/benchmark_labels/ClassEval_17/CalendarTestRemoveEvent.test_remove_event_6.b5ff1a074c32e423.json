@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test removes an event from an empty calendar and expects no error and an empty list, but the docstring only says to remove an event and never says what happens when the event is absent, so a programmer could reasonably raise an error instead.",
+  "missing": "The docstring should state what happens when the given event is not in the calendar, for example whether it is silently ignored or an error is raised."
+}

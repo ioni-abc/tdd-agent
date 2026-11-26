@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test's first row sums to 15 while n=14, and the reference code's per-row agreement term subtracts the fixed n rather than the actual row total, so a standard Fleiss implementation using row totals would return a different value than the expected 0.2096583016522883.",
+  "missing": "The docstring should state that each row's counts must sum to n (the number of raters), or specify whether agreement is computed from the fixed n parameter or from each row's actual total when they differ."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest gives the same input and expected output as the test, and a standard Vigenere decipher using the constructor key 'key' produces 'ybocl'.",
+  "missing": "none"
+}

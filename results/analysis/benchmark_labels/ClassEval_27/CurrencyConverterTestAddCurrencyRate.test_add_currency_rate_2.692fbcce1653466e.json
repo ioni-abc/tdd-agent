@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a new currency with its exchange rate is added to the supported list, and its example shows the rate stored in `self.rates`, so a programmer following it would store `'aaa'` with rate 1.0 and pass the test.",
+  "missing": "none"
+}

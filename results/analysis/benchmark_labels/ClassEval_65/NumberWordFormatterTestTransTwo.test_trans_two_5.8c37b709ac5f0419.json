@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says it converts a two-digit number to words, so a programmer could reasonably output \"ZERO ONE\", \"01\", or \"ONE\" for \"01\", and only the reference's \"drop the leading zero\" behaviour yields the expected \"ONE\".",
+  "missing": "The docstring should say how a string with a leading zero (a single-digit value padded to two characters) is rendered, including whether the zero is dropped and only the digit's word returned."
+}

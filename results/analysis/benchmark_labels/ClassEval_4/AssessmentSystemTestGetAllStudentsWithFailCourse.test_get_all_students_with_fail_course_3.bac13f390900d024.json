@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer implementing \"get all students who have any score below 60\" would naturally return an empty list when there are no students, which is what the test expects.",
+  "missing": "none"
+}

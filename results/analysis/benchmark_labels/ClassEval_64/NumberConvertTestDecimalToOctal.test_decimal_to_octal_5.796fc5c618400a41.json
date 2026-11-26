@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the octal representation of an integer as a string, and its example shows no \"0o\" prefix, so a programmer following it would produce the test's expected '1227256' for 339630.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the address is removed from the whitelist, and its example shows the list empty afterward, so a programmer following it would leave `white_list` as an empty list, matching the test.",
+  "missing": "none"
+}

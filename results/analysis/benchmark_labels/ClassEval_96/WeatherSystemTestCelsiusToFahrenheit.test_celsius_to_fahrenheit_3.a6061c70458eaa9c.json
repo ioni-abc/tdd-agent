@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer implementing the documented Celsius-to-Fahrenheit conversion would get 73.4 for this input, which is not 80.6, so the test's inequality assertion passes.",
+  "missing": "none"
+}

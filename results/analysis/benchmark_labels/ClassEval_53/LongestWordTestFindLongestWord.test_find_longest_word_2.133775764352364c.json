@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns '' when self.word_list is empty, and this test builds a fresh LongestWord with no words added and expects '', so a programmer following the docstring would pass.",
+  "missing": "none"
+}

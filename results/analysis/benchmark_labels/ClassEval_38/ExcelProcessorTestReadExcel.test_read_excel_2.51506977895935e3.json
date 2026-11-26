@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"list of data\", but the test expects each row as a tuple, which a programmer could reasonably replace with a list and fail.",
+  "missing": "The docstring should specify the type of each row in the returned list (for example, tuples versus lists) and how cell values are represented."
+}

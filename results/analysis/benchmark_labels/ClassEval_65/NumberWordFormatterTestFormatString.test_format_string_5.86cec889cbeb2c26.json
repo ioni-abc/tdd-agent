@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that a number string is converted to words, so a programmer could plausibly return \"ZERO\" for input '0' rather than the \"ZERO ONLY\" the test expects.",
+  "missing": "The docstring should state the exact output for zero (and for any input with no non-zero digits), including whether the uppercase \"ONLY\" suffix is always appended."
+}

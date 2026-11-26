@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the next n upcoming events, so a programmer would filter out events whose start time is already past, which is what this test checks by expecting an empty list for a 2023 event.",
+  "missing": "none"
+}

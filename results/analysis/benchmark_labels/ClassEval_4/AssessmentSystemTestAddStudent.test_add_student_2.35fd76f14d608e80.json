@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to add each student into `self.students` and shows the exact per-student dict structure (name, grade, major, empty courses), so a programmer following it would produce the expected two-entry dict.",
+  "missing": "none"
+}

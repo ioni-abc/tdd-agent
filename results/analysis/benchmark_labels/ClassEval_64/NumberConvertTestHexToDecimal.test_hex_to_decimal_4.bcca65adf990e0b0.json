@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert a hex string to its decimal integer, which is exactly what the test checks for the input '29a77' (0x29a77 = 170615), so a programmer following it would pass.",
+  "missing": "none"
+}

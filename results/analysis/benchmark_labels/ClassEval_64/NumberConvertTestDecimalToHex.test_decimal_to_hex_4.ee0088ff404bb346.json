@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the lowercase, unprefixed hex form that the test expects, and 169815 converts to '29757' under that convention, so a programmer following it would pass.",
+  "missing": "none"
+}

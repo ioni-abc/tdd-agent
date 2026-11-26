@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert a decimal integer to its hex string, and a programmer following it (lowercase digits, no prefix, as in the example) would return '5317' for 21271.",
+  "missing": "none"
+}

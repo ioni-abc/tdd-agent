@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states that an order with 10 or more distinct products gets a 7% discount on the whole order, and the test's 1000 distinct products with a total of 10000 should yield 700, which a programmer following the docstring would produce.",
+  "missing": "none"
+}

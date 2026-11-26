@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says 0 means failed writing, and writing to an empty file name is a failure a programmer would naturally catch and report as 0, so a faithful implementation passes this test.",
+  "missing": "none"
+}

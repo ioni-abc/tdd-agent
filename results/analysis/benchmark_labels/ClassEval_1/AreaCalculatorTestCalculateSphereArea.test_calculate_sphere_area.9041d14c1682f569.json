@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example gives 50.2654... for radius 2, which is 4\u03c0r\u00b2, and the test's expected 50.27 is within the 0.01 tolerance of that value, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

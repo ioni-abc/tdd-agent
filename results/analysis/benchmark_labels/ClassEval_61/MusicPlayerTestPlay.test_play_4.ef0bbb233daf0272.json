@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says play returns \"the current song in the playlist\", but it never says what to return when `current_song` is not in the playlist, and the test expects the first playlist entry where a programmer would likely return `current_song`.",
+  "missing": "The docstring should state what the method returns when the current song is set but not present in the playlist, for example whether it returns the current song anyway, returns the first playlist entry, or returns False."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the temperature is converted to the requested units but gives no formula or rounding rule, so a correct implementation could return 27.0 instead of the exact float the test asserts.",
+  "missing": "The docstring should specify the conversion formulas (for example, Fahrenheit to Celsius as (F - 32) * 5 / 9 and the reverse), and whether converted values are returned unrounded or rounded, so exact float results can be predicted."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says \"upcoming\" without saying that upcoming means starting at or after the current time, so a programmer could reasonably use a different reference point or timestamp and fail to exclude the past event this test expects to be dropped.",
+  "missing": "The docstring should state that events are compared against the current time using each event's start time, that only events starting at or after that time are returned in their stored order, and that at most n are returned."
+}

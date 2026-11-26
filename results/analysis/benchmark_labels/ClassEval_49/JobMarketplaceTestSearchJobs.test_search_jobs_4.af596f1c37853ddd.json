@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer following the docstring would search the listings for the criteria and return the matching ones, so with no matches they would return an empty list, which is what the test expects.",
+  "missing": "none"
+}

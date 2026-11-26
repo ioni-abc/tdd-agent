@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example, text2int(\"thirty-two\") returning \"32\", is exactly the case the test checks, so a programmer following the docstring would produce the expected string.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names Cohen's kappa over a k\u00d7k confusion matrix and gives a worked example, so a programmer would implement the standard formula (diagonal agreement against marginal-product expected agreement), which yields 22/113 \u2248 0.1947 for this matrix as the test expects.",
+  "missing": "none"
+}

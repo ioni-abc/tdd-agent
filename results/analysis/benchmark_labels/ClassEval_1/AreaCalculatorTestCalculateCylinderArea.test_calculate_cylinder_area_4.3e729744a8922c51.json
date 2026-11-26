@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (radius 2, height 3 giving 62.83) matches the total surface area formula 2\u00b7\u03c0\u00b7r\u00b7(r+h) that the reference code and this test use, so a programmer following it would pass.",
+  "missing": "none"
+}

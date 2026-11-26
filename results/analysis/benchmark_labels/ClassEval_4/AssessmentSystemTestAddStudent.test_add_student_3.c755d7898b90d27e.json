@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to add each student into the self.students dict in the shown format, so adding three students in sequence and checking the accumulated dict is exactly what a programmer following it would produce.",
+  "missing": "none"
+}

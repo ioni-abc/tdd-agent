@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says fetch returns the first unread email and marks it read, and a programmer following that would return the first unread entry in the inbox, which is what the test expects.",
+  "missing": "none"
+}

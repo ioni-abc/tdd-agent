@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the sector formula implicitly through its example (radius 2 with angle pi returns about 6.283, which is r\u00b2\u00b7\u03b8/2), so a programmer following it would compute 0 for radius 0 and pass.",
+  "missing": "none"
+}

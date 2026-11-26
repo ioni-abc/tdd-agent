@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says rotate_image rotates the loaded image by the given degrees, so a programmer would implement a rotation, and a 360-degree rotation of a 100x100 image should leave its pixels unchanged, which is what the test checks.",
+  "missing": "none"
+}

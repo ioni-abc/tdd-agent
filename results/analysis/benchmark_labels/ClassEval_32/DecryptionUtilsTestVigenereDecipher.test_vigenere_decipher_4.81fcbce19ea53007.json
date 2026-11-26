@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes Vigenere deciphering with the key given at construction, and a standard implementation applied to 'bcd' with key 'key' yields 'ryf', which is what the test expects.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says send_to returns True when the email is sent and shows the receiver's inbox gaining the email entry, which is exactly what this non-full case expects, and the timestamp follows the format shown in the example.",
+  "missing": "none"
+}

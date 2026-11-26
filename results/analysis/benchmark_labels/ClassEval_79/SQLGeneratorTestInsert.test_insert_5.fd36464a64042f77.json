@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the exact format the test checks (field names comma-separated, each value single-quoted, the table name from the constructor, and a trailing semicolon), and the test just applies that same format to six fields.",
+  "missing": "none"
+}

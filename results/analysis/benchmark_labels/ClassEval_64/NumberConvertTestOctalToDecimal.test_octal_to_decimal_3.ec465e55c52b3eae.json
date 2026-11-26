@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method takes an octal string and returns its decimal integer value, which is exactly what the test checks (245653 octal = 84907 decimal).",
+  "missing": "none"
+}

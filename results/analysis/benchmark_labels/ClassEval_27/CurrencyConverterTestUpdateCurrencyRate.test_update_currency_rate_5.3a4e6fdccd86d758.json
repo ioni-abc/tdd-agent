@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows `update_currency_rate('CNY', 7.18)` setting `self.rates['CNY']` to the new value, which is exactly what this test checks with 4.0.",
+  "missing": "none"
+}

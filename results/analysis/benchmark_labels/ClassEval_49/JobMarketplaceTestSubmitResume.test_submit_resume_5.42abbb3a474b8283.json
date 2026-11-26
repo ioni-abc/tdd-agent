@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each submission is added to the resumes list, so a programmer would append every call, and the test's repeated resumes are all kept in order, as the test expects.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says the slots are fixed one-hour blocks starting at midnight, so an implementation using another granularity or grid could return a different count than the 24 this test expects.",
+  "missing": "The docstring should state the slot length and grid, for example that the day is split into consecutive fixed-length slots starting at midnight, and how many slots a free day yields."
+}

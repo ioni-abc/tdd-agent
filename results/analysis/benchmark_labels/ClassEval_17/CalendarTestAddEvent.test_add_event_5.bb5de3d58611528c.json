@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_event adds the given event dict to the calendar, and its example shows the event appearing unchanged in `calendar.events`, which is exactly what this test checks.",
+  "missing": "none"
+}

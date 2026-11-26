@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says rotate the image by the given degrees if an image has been opened, which is exactly what the test checks: load an image, rotate by 90, and compare against a 90-degree rotation of the original.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that searching for a skill returns only the listing whose requirements contain it, which is exactly what this test checks, so a programmer following it would pass.",
+  "missing": "none"
+}

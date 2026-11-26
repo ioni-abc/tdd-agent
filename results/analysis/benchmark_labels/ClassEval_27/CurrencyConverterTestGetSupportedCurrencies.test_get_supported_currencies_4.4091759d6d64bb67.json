@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example output is exactly the list the test asserts, including the order, so a programmer following it would return that same list.",
+  "missing": "none"
+}

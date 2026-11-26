@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test calls `calculate_circle_area`, a method this docstring never mentions, so nothing here tells a programmer what that method should return.",
+  "missing": "Each method's docstring must state the formula or return value of the method that is actually tested, and a test on a differently named method needs that method's own documented behaviour, not the sibling method's."
+}

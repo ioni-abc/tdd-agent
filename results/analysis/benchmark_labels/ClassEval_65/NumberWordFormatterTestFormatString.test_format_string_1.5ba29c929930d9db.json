@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example input \"123456\" and its output string match exactly what this test asserts, so a programmer following the docstring would produce the expected result.",
+  "missing": "none"
+}

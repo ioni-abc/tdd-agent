@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method updates the exchange rate for the given currency, and its example shows `self.rates['CNY'] = 7.18`, so a programmer following it would store the new rate and pass this test.",
+  "missing": "none"
+}

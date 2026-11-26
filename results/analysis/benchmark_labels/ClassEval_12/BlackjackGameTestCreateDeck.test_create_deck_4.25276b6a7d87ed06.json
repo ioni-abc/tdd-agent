@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the deck is 52 cards in the format like 'AS' and the example shows 10, J, Q and K in all four suits, so a correct implementation would contain every such card and pass the assertions.",
+  "missing": "none"
+}

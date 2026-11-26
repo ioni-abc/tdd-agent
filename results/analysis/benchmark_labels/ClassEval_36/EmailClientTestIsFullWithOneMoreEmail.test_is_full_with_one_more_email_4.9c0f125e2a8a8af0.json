@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method reports whether the box is full after adding an email of the given size, so a programmer would compare current occupied size plus the new size against capacity, and an oversized email into an empty box should return True.",
+  "missing": "none"
+}

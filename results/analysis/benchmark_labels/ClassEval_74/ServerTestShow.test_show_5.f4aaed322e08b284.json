@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says `show(\"send\")` returns the struct for send, and a programmer would return the most recently sent struct, which is what the test checks even though the address 22 is not on the whitelist.",
+  "missing": "none"
+}

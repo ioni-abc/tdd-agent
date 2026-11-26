@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each call adds the position to job_listings, so a programmer would append every call in order, and the test's four appends (including duplicates) match that.",
+  "missing": "none"
+}

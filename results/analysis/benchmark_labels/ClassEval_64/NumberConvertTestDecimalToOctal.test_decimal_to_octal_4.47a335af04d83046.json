@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the octal representation of an integer as a string, so a programmer would produce the standard base-8 digits, which is what this test checks.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method updates the exchange rate for a currency and gives an example that sets `rates['CNY']` to 7.18, so a programmer would implement a direct assignment that the test's check of `rates['CNY'] == 3.0` confirms.",
+  "missing": "none"
+}

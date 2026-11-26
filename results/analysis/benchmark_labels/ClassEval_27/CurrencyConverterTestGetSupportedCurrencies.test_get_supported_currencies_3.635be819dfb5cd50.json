@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest shows that a fresh `CurrencyConverter()` returns exactly `['USD','EUR','GBP','JPY','CAD','AUD','CNY']` in that order, which is what the test asserts.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that the calendar must be free for the slot, so a programmer could reasonably treat a slot starting exactly when another event ends as a conflict, while the test expects it to be available.",
+  "missing": "The docstring should state whether a time slot that begins exactly when an existing event ends (or ends exactly when one begins) counts as overlapping, and specify that such touching endpoints do not conflict."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows hourly slots that are free when they only touch an event's boundary, so a programmer following it would divide the day into 60-minute slots and exclude only the one overlapping the 1:00-2:00 event, giving 23.",
+  "missing": "none"
+}

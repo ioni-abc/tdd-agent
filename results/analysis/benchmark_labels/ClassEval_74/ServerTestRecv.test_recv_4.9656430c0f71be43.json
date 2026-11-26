@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes whitelisted versus non-whitelisted addresses, returning content or False, and says nothing about malformed input, so the test's expectation of -1 and an unchanged `receive_struct` for a message missing its content key is not specified.",
+  "missing": "The docstring should state that if the info is not a dict or lacks the \"addr\" or \"content\" key, the method returns -1 and leaves the stored receive state unchanged, regardless of whitelist membership."
+}
