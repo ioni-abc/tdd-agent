@@ -48,6 +48,21 @@ Each judged row also has a `MISSING` sentence: the general rule the docstring sh
 
 `uv run python scripts/export_tasks.py` writes `results/analysis/tasks_readable/<task_id>.md` for all 100 tasks: skeleton, then for each method its docstring, `solution_code` and tests, each test with its label, reason and `MISSING`. The JSON looks unreadable only because newlines are stored as `\n`.
 
+## Second judge and the re-score (`claude-sonnet-5-5`, `scripts/rescore_stated.py`)
+
+- Sonnet ran over the same 2088 tests (`results/analysis/benchmark_labels_claude-sonnet-5-5.csv`, about $8). Agreement with Haiku: **88.6%** (1850 of 2088). Disagreements are mostly `stated` against `unstated` (107 and 74 tests); `contradicts`: 26 tests are `contradicts` for both judges, 24 more for only one. Two replies were unparsed and stay unjudged.
+- **Both judges say `stated`: 1480 tests.** Every run was re-scored on them (`results/analysis/rescore_stated.csv`):
+
+| Run | As graded (classes) | `stated` tests passed | Classes passing all `stated` tests |
+| --- | --- | --- | --- |
+| baseline | 51/100 | 1452/1480 (98.1%) | 94/99 |
+| tdd | 97/100 | 1473/1480 (99.5%) | 98/99 |
+| tdd-mixed | 68/100 | 1465/1480 (99.0%) | 96/99 |
+| tdd-own | 43/100 | 1451/1480 (98.0%) | 91/99 |
+
+- On the `unstated` tests (294) baseline passes 65.6% and tdd 98.0%; on `contradicts` (26) 15.4% against 100%. The gap between the approaches sits in behaviour the docstring does not support, which tdd learns from the given tests.
+- Each run is one sample with sampled decoding, so differences of 3 to 4 classes on the `stated` subset are probably noise.
+
 ## Plan for the scores
 - Re-score each run (baseline, tdd, tdd-own) on the `stated` tests only (1565 of 2196, 71%), joined with the per-test lines in each run's `grades/*.json`.
 - `other_inconsistency` is reported as its own group; `unstated` and `contradicts` plus `MISSING` are the to-do list if docstrings are rewritten later.

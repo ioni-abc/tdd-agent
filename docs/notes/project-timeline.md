@@ -44,4 +44,6 @@ Oldest at the top. Numbers are classes passed out of 100 (tests passed out of 21
 - 62 of the 67 `other_inconsistency` rows are one defect: the test is filed under method X but exercises method Y (ClassEval_83, 89 and 60 hold 39 of them).
 - `scripts/export_tasks.py`: one readable Markdown file per task in `results/analysis/tasks_readable/`, for hand-checking.
 - Details: `results-of-insception-run-for-inconsistencies.md`.
-- Next: hand-check about 100 labels, re-score every run on the `stated` tests only, bring the numbers to the meeting with the professor on Fri 27 Nov.
+- Second judge (claude-sonnet-5-5): 88.6% agreement with Haiku; hand-check skipped. 1480 tests are `stated` for both judges.
+- `scripts/rescore_stated.py`: classes passing all their `stated` tests: baseline 94/99, tdd 98/99, tdd-mixed 96/99, tdd-own 91/99 (as graded: 51, 97, 68, 43).
+- Next: bring the numbers to the meeting with the professor on Fri 27 Nov; decide on fixing `contradicts` and rewriting `unstated` docstrings.
