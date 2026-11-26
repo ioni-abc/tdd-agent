@@ -43,5 +43,5 @@ Oldest at the top. Numbers are classes passed out of 100 (tests passed out of 21
 - Result on all 100 tasks (`results/analysis/benchmark_labels.csv`): `stated` 1565 (75%), `unstated` 418 (20%), `contradicts` 38 (1.8%), `other_inconsistency` 67 (3.2%), `no_method_info` 108 (not judged).
 - 62 of the 67 `other_inconsistency` rows are one defect: the test is filed under method X but exercises method Y (ClassEval_83, 89 and 60 hold 39 of them).
 - `scripts/export_tasks.py`: one readable Markdown file per task in `results/analysis/tasks_readable/`, for hand-checking.
-- Details: `benchmark-check.md`.
+- Details: `results-of-insception-run-for-inconsistencies.md`.
 - Next: hand-check about 100 labels, re-score every run on the `stated` tests only, bring the numbers to the meeting with the professor on Fri 27 Nov.

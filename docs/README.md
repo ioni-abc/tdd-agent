@@ -25,7 +25,7 @@ Notes are for me. Decisions feed the design chapter of the thesis.
 | [baseline-results.md](notes/baseline-results.md) | the first full baseline run: 48/100, near misses, crashes, cost |
 | [tdd-agent.md](notes/tdd-agent.md) | the TDD agent part by part, its step log, how it was tested |
 | [project-timeline.md](notes/project-timeline.md) | every step so far, oldest first, and the results each produced |
-| [benchmark-check.md](notes/benchmark-check.md) | the per-test docstring check: labels, results on all 100 tasks, the wrong-method defect, the readable task export |
+| [results-of-insception-run-for-inconsistencies.md](notes/results-of-insception-run-for-inconsistencies.md) | the per-test docstring check: labels, results on all 100 tasks, the wrong-method defect, the readable task export |
 
 ## Decision records
 
