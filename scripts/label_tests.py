@@ -16,6 +16,7 @@ From the project root:
     uv run python scripts/label_tests.py --dry-run                      # row counts only, no LLM calls
     uv run python scripts/label_tests.py --tasks ClassEval_1,ClassEval_4,ClassEval_92
     uv run python scripts/label_tests.py --sample 20 --seed 0           # 20 random tasks
+    uv run python scripts/label_tests.py --model claude-sonnet-5-5      # another judge, own CSV and cache
     uv run python scripts/label_tests.py                                # all 100 tasks (about 2088 calls)
 Writes results/analysis/benchmark_labels.csv and caches each answer in
 results/analysis/benchmark_labels/, so a rerun makes no new calls (an unparsed answer is not cached).
@@ -144,18 +145,26 @@ def parse_reply(reply: str) -> dict:
 # ---------- step 5: cache, calls, CSV ----------
 
 
-def cache_path(row: dict, system: str, prompt: str) -> Path:
+def cache_path(row: dict, system: str, prompt: str, model: str = config.MODEL) -> Path:
     """One file per test. The name carries a hash of system+prompt, so changing either one
-    (the rules, the labels, the docstring, the test) misses the cache and asks again."""
+    (the rules, the labels, the docstring, the test) misses the cache and asks again.
+    The hash does not contain the model, so another model gets its own folder
+    (the default model keeps the original folder, so its saved answers stay valid)."""
     h = hashlib.sha256((system + prompt).encode("utf-8")).hexdigest()[:16]
-    return CACHE_DIR / row["task_id"] / f"{row['test_class']}.{row['test']}.{h}.json"
+    base = CACHE_DIR if model == config.MODEL else CACHE_DIR / model
+    return base / row["task_id"] / f"{row['test_class']}.{row['test']}.{h}.json"
+
+
+def csv_path(model: str = config.MODEL) -> Path:
+    """benchmark_labels.csv for the default model, benchmark_labels_<model>.csv for another."""
+    return CSV_PATH if model == config.MODEL else OUT_DIR / f"benchmark_labels_{model}.csv"
 
 
 def judge_one(llm: LLM, row: dict) -> dict:
     if not row["method"]:
         return {"label": NO_METHOD, "reason": "its test class is in no methods_info[i]['test_class']", "missing": ""}
     prompt = judge_prompt(row)
-    path = cache_path(row, JUDGE_SYSTEM, prompt)
+    path = cache_path(row, JUDGE_SYSTEM, prompt, llm.model)
     if path.exists():
         return json.loads(path.read_text(encoding="utf-8"))
     result = parse_reply(llm.call(JUDGE_SYSTEM, prompt).reply)
@@ -185,6 +194,7 @@ def main() -> None:
     parser.add_argument("--tasks", help="comma-separated task ids, e.g. ClassEval_1,ClassEval_4 (default: all)")
     parser.add_argument("--sample", type=int, help="random sample of this many tasks (with --seed)")
     parser.add_argument("--seed", type=int, default=0)
+    parser.add_argument("--model", default=config.MODEL, help=f"judge model (default {config.MODEL}); its CSV and cache are kept apart")
     parser.add_argument("--workers", type=int, default=8)
     parser.add_argument("--dry-run", action="store_true", help="count rows, make no LLM call")
     args = parser.parse_args()
@@ -202,12 +212,12 @@ def main() -> None:
         return
 
     load_dotenv()
-    labelled = run(rows, LLM(), args.workers)
-    write_csv(labelled)
+    labelled = run(rows, LLM(model=args.model), args.workers)
+    write_csv(labelled, csv_path(args.model))
     counts = {}
     for r in labelled:
         counts[r["label"]] = counts.get(r["label"], 0) + 1
-    print(counts, "->", CSV_PATH)
+    print(counts, "->", csv_path(args.model))
 
 
 if __name__ == "__main__":
