@@ -24,6 +24,7 @@ Notes are for me. Decisions feed the design chapter of the thesis.
 | [agents-and-llm.md](notes/agents-and-llm.md) | dependency injection, `Protocol`, the baseline agent, the temperature removal, today's bugs |
 | [baseline-results.md](notes/baseline-results.md) | the first full baseline run: 48/100, near misses, crashes, cost |
 | [tdd-agent.md](notes/tdd-agent.md) | the TDD agent part by part, its step log, how it was tested |
+| [project-timeline.md](notes/project-timeline.md) | every step so far, oldest first, and the results each produced |
 
 ## Decision records
 
