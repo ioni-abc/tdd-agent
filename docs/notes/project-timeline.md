@@ -39,6 +39,9 @@ Oldest at the top. Numbers are classes passed out of 100 (tests passed out of 21
 - Tags on the tips of `tdd-mixed-tests` and `failure-analysis`, fast-forward merge into `main` (tip 6e9fee5), redundant branches deleted. `docs` stays separate.
 
 ## 9. Benchmark check (branch `test-method-vs-method-docstring`)
-- `scripts/label_tests.py`: an LLM judge (claude-haiku-5-5) labels each of the 2088 tests that have a method as `stated`, `unstated` or `contradicts` against the method's docstring, with a `MISSING` sentence.
-- Next: run it on ClassEval_1, 4 and 92, hand-check about 100 labels, then re-score every run on the `stated` tests only (Option A) and use `unstated`/`contradicts` plus `MISSING` as the docstring rewrite list.
-- Meeting with the professor: Fri 27 Nov.
+- `scripts/label_tests.py`: an LLM judge (claude-haiku-5-5) labels each of the 2088 tests that have a method as `stated`, `unstated`, `contradicts` or `other_inconsistency`, with a `MISSING` sentence.
+- Result on all 100 tasks (`results/analysis/benchmark_labels.csv`): `stated` 1565 (75%), `unstated` 418 (20%), `contradicts` 38 (1.8%), `other_inconsistency` 67 (3.2%), `no_method_info` 108 (not judged).
+- 62 of the 67 `other_inconsistency` rows are one defect: the test is filed under method X but exercises method Y (ClassEval_83, 89 and 60 hold 39 of them).
+- `scripts/export_tasks.py`: one readable Markdown file per task in `results/analysis/tasks_readable/`, for hand-checking.
+- Details: `benchmark-check.md`.
+- Next: hand-check about 100 labels, re-score every run on the `stated` tests only, bring the numbers to the meeting with the professor on Fri 27 Nov.
