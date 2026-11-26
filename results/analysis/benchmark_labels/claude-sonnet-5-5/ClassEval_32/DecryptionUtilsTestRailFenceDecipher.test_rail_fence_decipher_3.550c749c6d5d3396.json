@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Splitting the ciphertext into row lengths for a standard zigzag over 5 rails and reading it back gives 'Holr d,!oeWll', which is the expected value, so a standard Rail Fence decoder passes.",
+  "missing": "none"
+}

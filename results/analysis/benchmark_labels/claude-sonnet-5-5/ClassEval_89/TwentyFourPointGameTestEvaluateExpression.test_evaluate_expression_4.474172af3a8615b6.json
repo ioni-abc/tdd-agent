@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Wrong-method call: the test is filed under `answer` but calls `evaluate_expression` directly with a malformed expression, so it never exercises the documented `answer` method.",
+  "missing": "none"
+}

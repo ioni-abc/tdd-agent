@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"modifies the data in XML elements\" and never says the modification is uppercasing the text of 'item' elements, yet the test expects 'APPLE'.",
+  "missing": "The docstring should say that the text of every 'item' element is converted to uppercase before the tree is written to the file."
+}

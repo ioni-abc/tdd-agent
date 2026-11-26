@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test counts words in \"abc def\", which is exactly the docstring's own example of space-separated words, and any reasonable implementation returns 2.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a phone number that is non-empty and an 11-digit number is valid and returned, and the test passes \"12345678901\", which is exactly 11 digits, so it is kept.",
+  "missing": "none"
+}

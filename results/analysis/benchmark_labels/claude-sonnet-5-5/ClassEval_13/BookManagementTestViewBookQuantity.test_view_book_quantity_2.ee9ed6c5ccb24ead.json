@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return 0 when the title is not in the inventory, and the test checks an empty inventory with an absent title, which falls under that rule.",
+  "missing": "none"
+}

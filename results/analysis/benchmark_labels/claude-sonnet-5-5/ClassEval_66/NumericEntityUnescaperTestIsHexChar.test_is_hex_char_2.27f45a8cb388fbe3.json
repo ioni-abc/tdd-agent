@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A hexadecimal digit includes uppercase 'F', so a programmer following the docstring would return True, matching the test and the reference code.",
+  "missing": "none"
+}

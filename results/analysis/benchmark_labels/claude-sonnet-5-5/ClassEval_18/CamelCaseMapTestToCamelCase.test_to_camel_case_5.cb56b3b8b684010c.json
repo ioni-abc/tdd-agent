@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example ('first_name' -> 'firstName') shows the standard snake_case to camelCase conversion, and the test ('eee_fff' -> 'eeeFff') is the same simple case with one underscore and lowercase letters.",
+  "missing": "none"
+}

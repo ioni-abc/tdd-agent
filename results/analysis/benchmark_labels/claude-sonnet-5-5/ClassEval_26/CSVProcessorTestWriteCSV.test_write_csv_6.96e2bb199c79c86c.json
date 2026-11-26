@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return 1 on success and 0 otherwise, and writing to an empty file name cannot succeed (open('') raises an error), so a programmer catching failures would return 0.",
+  "missing": "none"
+}

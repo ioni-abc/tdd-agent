@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The first row sums to 15 while n is 14, so the expected value depends on how the implementation handles row sums that differ from n, and the docstring does not say; the reference divides category totals by the actual grand total rather than N*n, and uses n in the per-row agreement term.",
+  "missing": "The docstring should say what to do when a row's counts do not sum to the number of raters, for example whether category proportions use the actual total of the matrix or N times n, and whether per-row agreement uses n or the row's own sum."
+}

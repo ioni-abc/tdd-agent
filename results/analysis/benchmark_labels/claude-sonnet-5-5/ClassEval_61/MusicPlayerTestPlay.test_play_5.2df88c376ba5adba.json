@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test mirrors the docstring's own example: with current_song set to \"song1\", play() returns \"song1\", which is what a programmer following the docstring would implement (return the current song).",
+  "missing": "none"
+}

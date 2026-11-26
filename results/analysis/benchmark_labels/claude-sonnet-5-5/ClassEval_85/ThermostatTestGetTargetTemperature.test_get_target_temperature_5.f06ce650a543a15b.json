@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to get the target temperature, which the reference returns and the test checks; the \":return self.current_temperature\" line is a typo, and it is harmless here because both values are 25.",
+  "missing": "none"
+}

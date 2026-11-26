@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says it computes the \"correlation matrix of the given list\", and its 3x3 example is square, so it never shows whether rows or columns are the variables, while this 5x3 test expects a 3x3 result (columns as variables).",
+  "missing": "The docstring should say that each column of the input is a variable and each row an observation, so the result is a square matrix with one row and column per input column."
+}

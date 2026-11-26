@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes generating all combinations of sizes 1 through n, and a single-element list naturally yields [['B']], which matches the example's pattern and the reference.",
+  "missing": "none"
+}

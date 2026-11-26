@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the same format as the test: `SET age='15'` with numeric values quoted and `WHERE name='Test'`, so a programmer following the example would produce `age='18'` here as well.",
+  "missing": "none"
+}

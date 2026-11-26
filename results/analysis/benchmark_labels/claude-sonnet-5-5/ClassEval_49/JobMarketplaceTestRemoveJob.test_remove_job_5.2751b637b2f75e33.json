@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The list contains two equal job dicts and the test expects only the first occurrence removed, but the docstring never says whether one or all matching entries are removed.",
+  "missing": "The docstring should state that when several equal entries exist, only the first matching entry is removed and the others remain."
+}

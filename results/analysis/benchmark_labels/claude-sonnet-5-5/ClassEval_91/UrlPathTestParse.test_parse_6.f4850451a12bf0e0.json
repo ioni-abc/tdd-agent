@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only illustrates a normal path and never says what happens for an empty path string, nor that parse sets a with_end_tag attribute, which the test asserts is False.",
+  "missing": "The docstring should say that an empty path leaves the segments list empty and does not set the trailing-slash flag (with_end_tag), and that this flag is True only when a non-empty path ends with a slash."
+}

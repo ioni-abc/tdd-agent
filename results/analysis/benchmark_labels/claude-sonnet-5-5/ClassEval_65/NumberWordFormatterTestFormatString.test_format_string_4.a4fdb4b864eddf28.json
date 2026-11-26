@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows an integer example and says nothing about decimal inputs, so the \"AND CENTS\" wording and the way the fractional part is converted are not stated.",
+  "missing": "The docstring should say how a decimal part is handled: the integer part is spoken first, then \"AND CENTS\" followed by the fractional digits read as a two-digit number, then \"ONLY\"."
+}

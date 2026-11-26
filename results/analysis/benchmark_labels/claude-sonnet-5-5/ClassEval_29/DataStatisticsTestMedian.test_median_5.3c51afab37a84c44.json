@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The median of an even-length list is the mean of the two middle values (5 and 6 \u2192 5.5), which is the standard definition, and rounding to two decimals leaves 5.5 unchanged.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"list of data\", but the test requires each row to be a tuple, so an implementation returning lists of lists would fail.",
+  "missing": "The docstring should say the result is a list with one entry per row, in sheet order, and that each row is a tuple of cell values rather than a list."
+}

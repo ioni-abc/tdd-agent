@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's only example shows a single item, so it never says how multiple products are joined in the returned string (here, with a newline between entries), and the docstring's wording \"a list of the products, str\" is ambiguous about the separator.",
+  "missing": "When the machine holds several products, the docstring should state that each product appears on its own line, with entries joined by a newline character and no trailing separator, in inventory order."
+}

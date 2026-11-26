@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test checks that `is_game_over` is False after construction, but the `init_game` docstring only describes setting the positions of the player, targets and boxes and says nothing about the game-over flag.",
+  "missing": "The docstring should say that `is_game_over` is False after initialization, or that initialization leaves the game-over flag unchanged and the game is not over at the start."
+}

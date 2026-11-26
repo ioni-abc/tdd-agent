@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert a key string to camel case, with an example of underscore-separated words becoming lowerCamelCase, and 'ccc_ddd' -> 'cccDdd' follows the same pattern.",
+  "missing": "none"
+}

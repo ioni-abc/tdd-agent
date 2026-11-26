@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The input is a valid binary string with 8-bit groups, and converting each byte to its ASCII character gives \"hmbo\", which matches the docstring's example behavior.",
+  "missing": "none"
+}

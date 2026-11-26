@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes computing the number of combinations of m elements from n, with the example C(4,2)=6; C(6,3)=20 follows directly from the standard binomial coefficient.",
+  "missing": "none"
+}

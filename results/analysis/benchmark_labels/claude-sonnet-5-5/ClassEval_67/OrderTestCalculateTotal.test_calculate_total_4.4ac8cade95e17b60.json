@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The total is count*price*sales summed over the ordered dishes (27+48=75), which matches the docstring's description and example.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example output gives the exact regex, and that regex cannot match an address that ends in \"@com.\" with no letters after the final dot, so the expected False follows from it.",
+  "missing": "none"
+}

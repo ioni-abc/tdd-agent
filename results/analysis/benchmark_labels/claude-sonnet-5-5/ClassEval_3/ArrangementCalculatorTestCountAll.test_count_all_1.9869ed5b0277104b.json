@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes summing arrangements for choosing 1 through n items, and its own example (n=4 gives 64) is exactly what the test checks.",
+  "missing": "none"
+}

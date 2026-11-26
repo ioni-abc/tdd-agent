@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the exact format string, and the test passes the chord and tune values, which are simply substituted into that format; the reference code does exactly this.",
+  "missing": "none"
+}

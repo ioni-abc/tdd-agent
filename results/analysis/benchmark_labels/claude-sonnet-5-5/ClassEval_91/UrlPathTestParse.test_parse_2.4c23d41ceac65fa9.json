@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The segments result follows from the docstring example, but the test also asserts a `with_end_tag` attribute that the docstring never mentions.",
+  "missing": "The docstring should say that parse sets a flag attribute (with_end_tag) to True when the path ends with a slash and leaves it False otherwise."
+}

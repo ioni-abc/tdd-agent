@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says words are strictly case sensitive, so 'Apple' would not match 'apple' in the list and 'red' would be returned, but the test expects 'apple' because the reference lowercases the sentence.",
+  "missing": "none"
+}

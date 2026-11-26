@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the old \"Initial content\" to be gone after `write_text`, so the call replaces the document, but the docstring only says \"writes the specified content to a Word document\" and does not say whether existing content is replaced or appended to.",
+  "missing": "The docstring should say that `write_text` creates a new document and overwrites any existing file content, rather than appending to it."
+}

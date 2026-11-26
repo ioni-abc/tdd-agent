@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says insert_user inserts a new user into the \"users\" table; the test inserts a user and retrieves it via search_user_by_username, which only requires the row to be stored with the given username and password.",
+  "missing": "none"
+}

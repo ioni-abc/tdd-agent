@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With an empty pattern there is no mismatching position, so the docstring's \"otherwise -1\" applies and any natural implementation returns -1.",
+  "missing": "none"
+}

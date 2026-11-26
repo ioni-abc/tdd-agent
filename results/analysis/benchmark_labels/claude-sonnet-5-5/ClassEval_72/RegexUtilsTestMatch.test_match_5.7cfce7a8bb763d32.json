@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The text \"123-456-789a\" does not fit the phone pattern under any reasonable interpretation (match, search or fullmatch), so returning False follows directly from \"check if the text matches the regular expression\".",
+  "missing": "none"
+}

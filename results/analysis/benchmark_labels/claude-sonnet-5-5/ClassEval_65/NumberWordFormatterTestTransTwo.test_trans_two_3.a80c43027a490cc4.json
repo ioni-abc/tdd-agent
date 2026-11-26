@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only covers a two-digit number like \"23\", so a programmer could not tell that a leading zero such as \"05\" should yield just \"FIVE\" rather than something like \"ZERO FIVE\".",
+  "missing": "The docstring should say how a number with a leading zero is handled: the zero is dropped and only the units word is returned."
+}

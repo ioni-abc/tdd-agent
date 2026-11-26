@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the tan of a 60-degree angle, which is about 1.7320508076, and `assertAlmostEqual` tolerates the reference's rounding to 10 places.",
+  "missing": "none"
+}

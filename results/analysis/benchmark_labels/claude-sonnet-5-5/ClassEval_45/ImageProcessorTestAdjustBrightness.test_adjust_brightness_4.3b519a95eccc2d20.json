@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a factor of 1.0 gives the original image, and the test checks that factor 1.0 produces the same image as the PIL enhancer, which is the original image.",
+  "missing": "none"
+}

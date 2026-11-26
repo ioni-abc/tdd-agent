@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says nothing about error handling, so a programmer would not know to return None for an invalid file name (here an empty string) rather than raise an exception.",
+  "missing": "The docstring should say that if the file cannot be opened or read (e.g., the name is empty, the file does not exist, or the format is invalid), the method returns None instead of raising an error."
+}

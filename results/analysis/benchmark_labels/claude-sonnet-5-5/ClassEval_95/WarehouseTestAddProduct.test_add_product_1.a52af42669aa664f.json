@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a new product is added to the dict, and its example shows the same structure ({id: {'name', 'quantity'}}) that the test expects for a fresh product.",
+  "missing": "none"
+}

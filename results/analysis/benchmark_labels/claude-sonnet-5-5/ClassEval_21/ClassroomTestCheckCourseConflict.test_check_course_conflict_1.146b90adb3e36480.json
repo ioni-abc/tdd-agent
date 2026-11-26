@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The two courses do not overlap and share no boundary, so the docstring's rule of returning True when there is no conflict gives True, which matches the test and the reference code.",
+  "missing": "none"
+}

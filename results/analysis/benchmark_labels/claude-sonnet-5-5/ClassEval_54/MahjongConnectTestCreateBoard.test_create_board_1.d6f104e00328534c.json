@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the board is built from the given size and icons, and the test only checks that every icon on the board comes from the icon list. A cyclic board as in the docstring example would pass, as would the reference's random one.",
+  "missing": "none"
+}

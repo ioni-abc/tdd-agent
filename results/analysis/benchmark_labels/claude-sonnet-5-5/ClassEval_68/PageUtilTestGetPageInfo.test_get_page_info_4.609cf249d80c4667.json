@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the full dict structure (current_page, per_page, total_pages, total_items, has_previous, has_next, data), and the test's last page with a partial slice follows naturally from paging semantics with ceil total pages and a slice of the remaining items.",
+  "missing": "none"
+}

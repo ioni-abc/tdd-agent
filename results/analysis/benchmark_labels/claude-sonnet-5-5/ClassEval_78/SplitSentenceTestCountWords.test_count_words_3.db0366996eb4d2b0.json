@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says numbers are not counted as words, so \"abc 1\" yields 1 word, which matches the test and the reference code.",
+  "missing": "none"
+}

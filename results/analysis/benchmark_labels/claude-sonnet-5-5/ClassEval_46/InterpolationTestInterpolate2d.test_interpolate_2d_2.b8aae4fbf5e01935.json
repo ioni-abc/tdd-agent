@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test includes an interpolation point outside the data range, which the reference silently omits from the output, but the docstring never says what happens to out-of-range points.",
+  "missing": "The docstring should say that interpolation points falling outside the range of the given x or y data are skipped (omitted from the result list) rather than extrapolated or causing an error."
+}

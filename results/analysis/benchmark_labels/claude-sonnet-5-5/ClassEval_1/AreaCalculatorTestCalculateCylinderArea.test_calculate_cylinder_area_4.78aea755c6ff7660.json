@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "\"Area of cylinder\" most naturally means total surface area, and the docstring example (radius 2, height 3 gives 62.83) matches 2\u03c0r(r+h), which also gives about 70.69 for this test's inputs.",
+  "missing": "none"
+}

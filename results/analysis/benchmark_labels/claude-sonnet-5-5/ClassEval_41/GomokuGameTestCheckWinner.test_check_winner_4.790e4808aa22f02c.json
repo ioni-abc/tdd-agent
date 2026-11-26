@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "By the last move both X (row 5, columns 1\u20135) and O (row 0, columns 0\u20134) have five in a row, and the reference returns 'O' only because it scans rows from the top, while the docstring doesn't say which to return when both have five.",
+  "missing": "The docstring should say which symbol to return when several players have five in a row at once, for example by stating the scan order (top-to-bottom, left-to-right) and that the first line found is returned."
+}

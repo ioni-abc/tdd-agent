@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it gets the target temperature, which is what the test expects (25), though the `:return` line has a copy-paste slip naming current_temperature.",
+  "missing": "none"
+}

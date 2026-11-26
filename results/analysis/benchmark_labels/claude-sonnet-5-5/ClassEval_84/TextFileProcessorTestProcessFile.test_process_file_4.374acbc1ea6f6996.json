@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring describes filtering to alphabetic characters, overwriting the file and returning the result, but the test mocks `read_file` and `write_file` and asserts each is called exactly once, and the docstring never says the method must go through those helpers. An implementation that opened the file directly would behave correctly yet fail the test.",
+  "missing": "The docstring should say that process_file must read the content by calling the class's own read_file method and write the filtered result by calling its write_file method, each once, rather than accessing the file directly."
+}

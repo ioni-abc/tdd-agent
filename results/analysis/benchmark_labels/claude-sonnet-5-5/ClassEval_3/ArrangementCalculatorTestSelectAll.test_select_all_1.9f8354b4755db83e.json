@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses the exact input and expected output shown in the docstring example, which fixes both the content and the ordering.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Standard precision with positive class 1 gives TP=2, FP=0, so 1.0, which follows from the docstring's \"calculate precision\" and the usual convention.",
+  "missing": "none"
+}

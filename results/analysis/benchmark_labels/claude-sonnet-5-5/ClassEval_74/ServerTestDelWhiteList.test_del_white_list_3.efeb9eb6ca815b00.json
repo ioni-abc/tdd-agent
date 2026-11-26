@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The :return: line explicitly says to return False when the address is not in the whitelist, which is exactly what the test checks on an empty whitelist.",
+  "missing": "none"
+}

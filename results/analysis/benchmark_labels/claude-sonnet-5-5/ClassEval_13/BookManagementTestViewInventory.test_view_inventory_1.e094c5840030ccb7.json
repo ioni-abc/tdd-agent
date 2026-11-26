@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test filed under view_inventory never calls view_inventory; it reads bookManagement.inventory directly and mainly checks add_book's default quantity of 1.",
+  "missing": "none"
+}

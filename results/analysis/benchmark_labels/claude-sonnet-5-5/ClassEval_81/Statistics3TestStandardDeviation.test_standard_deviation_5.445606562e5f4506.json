@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example ([1,2,3] -> 1.0) only works with the sample (n-1) standard deviation, which is what this test's expected value uses.",
+  "missing": "none"
+}

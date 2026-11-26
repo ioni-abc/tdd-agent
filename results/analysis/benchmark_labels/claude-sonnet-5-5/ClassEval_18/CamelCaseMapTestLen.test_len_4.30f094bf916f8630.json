@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test sets three keys with distinct camel-case forms ('firstName', 'lastName', 'age'), so the length is 3, which matches \"length of the own data\" and the docstring example.",
+  "missing": "none"
+}

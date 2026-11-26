@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects booked_rooms to be a nested dict mapping room type to guest name to number of rooms booked, but the docstring only says booked_rooms is \"modified\" and gives no structure, so another reasonable layout would fail the assertion.",
+  "missing": "The docstring should say that booked_rooms maps each room type to a dict of guest name to the number of rooms booked, and that a successful booking adds or sets that guest's entry and subtracts the count from available_rooms."
+}

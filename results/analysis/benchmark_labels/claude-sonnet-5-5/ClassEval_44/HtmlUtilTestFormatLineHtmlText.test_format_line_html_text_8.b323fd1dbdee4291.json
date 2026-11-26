@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The input is a list with an empty item and contains no code, so the text-only output is empty, which follows from \"get the html text without the code\".",
+  "missing": "none"
+}

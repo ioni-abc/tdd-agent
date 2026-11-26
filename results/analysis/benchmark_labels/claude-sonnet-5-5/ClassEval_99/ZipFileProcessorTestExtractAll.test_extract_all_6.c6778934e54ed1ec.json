@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the method returns True or False for success, but the test passes an empty file name and an empty output path and expects False; the docstring does not say that invalid or failing input returns False instead of raising an exception.",
+  "missing": "The docstring should state that any failure during extraction (such as a missing, empty, or invalid zip file path, or an invalid output path) is caught and the method returns False instead of raising an exception."
+}

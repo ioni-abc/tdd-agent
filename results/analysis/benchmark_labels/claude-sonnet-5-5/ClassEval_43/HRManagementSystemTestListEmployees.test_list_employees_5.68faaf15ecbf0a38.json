@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the output format, with an added 'employee_ID' key in each employee dict, and this test checks that same behaviour for two employees plus an empty employees dict, which returns {}.",
+  "missing": "none"
+}

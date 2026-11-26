@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example ('first_name' -> 'firstName') shows the snake_case to camelCase conversion, and the test's 'ccc_ddd' -> 'cccDdd' is the same simple case, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

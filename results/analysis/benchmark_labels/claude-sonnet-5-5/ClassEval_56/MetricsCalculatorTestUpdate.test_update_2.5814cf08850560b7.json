@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says update counts the four sample types from predicted vs. true labels, and the standard confusion-matrix definitions give (1, 2, 1, 0) for this input: pair (1,1) is a true positive, (1,0) twice gives two false positives, and (0,1) is a false negative.",
+  "missing": "none"
+}

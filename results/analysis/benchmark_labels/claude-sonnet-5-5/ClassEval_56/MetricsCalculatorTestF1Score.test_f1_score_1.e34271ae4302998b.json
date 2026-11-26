@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test matches the docstring's own example, and F1 as the harmonic mean of precision and recall gives 0.5 here (precision 0.5, recall 0.5) under the standard definitions with label 1 as the positive class.",
+  "missing": "none"
+}

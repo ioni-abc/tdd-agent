@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to remove the given event from the calendar and its example matches the test exactly, so a straightforward implementation (removing an equal dict from the list) passes.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says MRR is the mean of reciprocal rank, and for one tuple the first correct answer at position 4 gives 1/4 = 0.25, returned as (0.25, [0.25]), which matches the test.",
+  "missing": "none"
+}

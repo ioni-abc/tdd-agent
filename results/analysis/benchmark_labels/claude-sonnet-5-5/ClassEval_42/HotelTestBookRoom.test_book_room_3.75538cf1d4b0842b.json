@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that when the requested number exceeds the remaining rooms but some remain, the method returns the remaining quantity (here 1), and that failed bookings leave state unchanged, which matches the test's booked_rooms and available_rooms assertions.",
+  "missing": "none"
+}

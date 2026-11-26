@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to calculate the sum of the data, and the test checks that [1, 2, 203, 4] sums to 210, which is a plain sum with no special convention.",
+  "missing": "none"
+}

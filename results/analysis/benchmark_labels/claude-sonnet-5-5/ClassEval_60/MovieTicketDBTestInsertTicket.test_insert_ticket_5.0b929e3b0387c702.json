@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test inserts and reads back a ticket by position, so it depends on the table's column order, and the docstring lists the fields in that order (id, movie name, theater name, seat number, customer name).",
+  "missing": "none"
+}

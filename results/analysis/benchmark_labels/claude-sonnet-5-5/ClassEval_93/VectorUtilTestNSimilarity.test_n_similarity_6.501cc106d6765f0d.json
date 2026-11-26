@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Vacuous test: the bare try/except with no assertion swallows any outcome for empty input, so it passes for any implementation and verifies nothing about the docstring.",
+  "missing": "none"
+}

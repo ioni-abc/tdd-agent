@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to extract all email addresses from the text, and this test has two valid emails plus one non-email token that should be skipped, which any reasonable email extraction does.",
+  "missing": "none"
+}

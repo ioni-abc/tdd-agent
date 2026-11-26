@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The check time 09:40 lies strictly inside the 09:00\u201310:00 course, so any reasonable reading of \"conflict with a course time\" gives False, matching the test.",
+  "missing": "none"
+}

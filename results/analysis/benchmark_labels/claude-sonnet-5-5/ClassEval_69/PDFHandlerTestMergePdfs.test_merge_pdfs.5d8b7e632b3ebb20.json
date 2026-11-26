@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Mismatched test target: the test calls merge_pdfs and checks its return message and the output file, never calling extract_text_from_pdfs, which is the method it is filed under.",
+  "missing": "none"
+}

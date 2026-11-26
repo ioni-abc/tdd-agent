@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says submit_resume adds the resume to the resumes list, and its example shows the dict format; two submissions naturally append in order, which is what the test checks.",
+  "missing": "none"
+}

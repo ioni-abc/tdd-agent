@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the file is read as JSON and a dict is returned for JSON object content, which is exactly what the test checks with a JSON object file.",
+  "missing": "none"
+}

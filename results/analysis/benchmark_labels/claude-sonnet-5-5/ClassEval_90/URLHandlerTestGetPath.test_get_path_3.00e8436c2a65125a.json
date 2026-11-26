@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_path returns the resource address, the third part of the URL, and its example shows the portion starting at the first \"/\" after the host; this test's expected \"/openai/human-eval\" follows directly from that.",
+  "missing": "none"
+}

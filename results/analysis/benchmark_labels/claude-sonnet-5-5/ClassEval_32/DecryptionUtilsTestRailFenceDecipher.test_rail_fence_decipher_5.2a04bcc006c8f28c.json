@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With 7 rails and 13 characters, the standard zigzag rail fence decoding (start on the top rail, go down, then back up) gives 'Hoe,rll dWl!o', which matches the expected value.",
+  "missing": "none"
+}

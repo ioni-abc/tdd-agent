@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says healing adds 10 hp with a cap of 100, so healing from 50 gives 60, which is what the test checks.",
+  "missing": "none"
+}

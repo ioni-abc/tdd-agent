@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test checks a same-day gap of 5 hours, which is 300 minutes, and the docstring's description (minutes between two times, rounded) plus its example directly imply this result.",
+  "missing": "none"
+}

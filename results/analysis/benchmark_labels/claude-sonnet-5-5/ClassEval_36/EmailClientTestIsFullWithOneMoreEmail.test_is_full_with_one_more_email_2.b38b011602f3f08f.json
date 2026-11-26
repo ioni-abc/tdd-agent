@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With capacity 0 and an empty inbox, adding a size-10 email clearly exceeds capacity, so any reasonable reading of \"full after adding\" returns True and the test avoids the equality boundary.",
+  "missing": "none"
+}

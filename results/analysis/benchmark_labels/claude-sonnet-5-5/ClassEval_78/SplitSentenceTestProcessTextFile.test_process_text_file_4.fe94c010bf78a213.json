@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The input has sentences of 2, 3 and 4 words, so the longest has 4 words, which is what the docstring asks for, and the docstring example shows that \".\" and \"?\" end sentences.",
+  "missing": "none"
+}

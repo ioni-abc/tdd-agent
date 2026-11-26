@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says check_winner detects a winner in rows, columns and diagonals and returns the winner's mark; this test has X completing a column (0,0),(1,0),(2,0), which is covered.",
+  "missing": "none"
+}

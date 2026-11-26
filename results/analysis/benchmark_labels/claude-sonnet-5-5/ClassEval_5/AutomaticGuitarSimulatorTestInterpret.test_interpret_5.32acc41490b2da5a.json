@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows splitting a space-separated score into dicts with Chord letters and Tune digits, and this test applies the same behaviour to a two-chord input.",
+  "missing": "none"
+}

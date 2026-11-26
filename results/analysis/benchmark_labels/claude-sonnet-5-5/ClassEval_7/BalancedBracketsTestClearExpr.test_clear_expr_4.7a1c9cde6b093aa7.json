@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "\"Brackets\" naturally includes (), [] and {}, and removing every non-bracket character while keeping order gives \"[(){}\" for this input.",
+  "missing": "none"
+}

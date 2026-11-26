@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says nothing about non-alphabetic characters such as digits, so an implementation that shifts every character (for example by code point) would return something other than \"123\".",
+  "missing": "The docstring should state that only alphabetic characters are shifted (wrapping around the alphabet and preserving case), and that non-letter characters are left unchanged."
+}

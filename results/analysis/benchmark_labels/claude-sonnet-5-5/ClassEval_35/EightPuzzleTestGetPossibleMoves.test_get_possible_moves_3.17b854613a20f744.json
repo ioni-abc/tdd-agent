@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The blank is in the top row middle, so the possible moves are down, left and right, as the docstring's example convention (blank movement) implies, and the test accepts exactly those.",
+  "missing": "none"
+}

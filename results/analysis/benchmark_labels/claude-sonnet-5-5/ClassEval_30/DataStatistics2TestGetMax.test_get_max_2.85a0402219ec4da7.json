@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the maximum value in the data, and the test checks that a list with 203 as its largest element returns 203, which follows directly from that.",
+  "missing": "none"
+}

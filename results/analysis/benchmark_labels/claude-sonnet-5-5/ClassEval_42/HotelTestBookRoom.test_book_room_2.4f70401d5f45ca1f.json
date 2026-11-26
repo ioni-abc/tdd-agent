@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that if room_type isn't in available_rooms, return False; booking a nonexistent type returns False, and the state checks (booked_rooms empty, available_rooms unchanged) follow naturally from \"fail to book\".",
+  "missing": "none"
+}

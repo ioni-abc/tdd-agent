@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test only checks that the new food position is not on the snake and lies within the 100x100 screen, and a programmer following the docstring would generate a position on the screen that avoids the snake, so it would pass.",
+  "missing": "none"
+}

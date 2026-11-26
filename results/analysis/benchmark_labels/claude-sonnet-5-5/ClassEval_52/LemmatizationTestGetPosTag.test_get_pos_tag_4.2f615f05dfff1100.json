@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to remove punctuation, tokenize, and return the POS tag of each word. Reference code does this with NLTK's pos_tag, and the test checks exactly that output, including the trailing space and period.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method calls auto_set_mode, adjusts the temperature in that mode until the target is reached, and returns the elapsed time. Its example (20.4 to 37.5 gives 18) implies one degree per time unit, so 20 to 25 gives 5, the mode stays 'heat', and the current temperature ends at 25.",
+  "missing": "none"
+}

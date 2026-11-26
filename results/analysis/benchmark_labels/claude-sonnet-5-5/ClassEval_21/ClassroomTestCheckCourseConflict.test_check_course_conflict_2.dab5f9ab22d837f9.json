@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The new course partially overlaps the existing one, which is clearly a time conflict, so the docstring's \"False if conflicts\" gives the expected False.",
+  "missing": "none"
+}

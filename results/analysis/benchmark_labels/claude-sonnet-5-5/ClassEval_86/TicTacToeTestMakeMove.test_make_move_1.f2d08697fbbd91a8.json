@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test makes a move on an empty cell and checks that it returns True and that the player switches to 'O'. The docstring says the mark is placed and switched, and returns whether the move succeeded, so a successful move returning True follows directly.",
+  "missing": "none"
+}

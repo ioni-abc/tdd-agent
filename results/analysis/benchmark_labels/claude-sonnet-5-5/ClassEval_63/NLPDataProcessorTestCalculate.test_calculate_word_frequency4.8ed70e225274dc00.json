@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "Three words ('this', 'is', 'a') tie at count 2 for the last two top-5 places, and the expected output keeps 'this' and 'is' but drops 'a', which relies on the reference's stable sort that keeps first-occurrence order among ties.",
+  "missing": "The docstring should say that words with equal frequency are ordered by their first appearance in the input, so that this order decides which of them make the top 5."
+}

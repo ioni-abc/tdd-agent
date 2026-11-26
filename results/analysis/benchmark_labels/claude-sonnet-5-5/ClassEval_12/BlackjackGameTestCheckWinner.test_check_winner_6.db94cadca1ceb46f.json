@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The player's hand is worth 21, or 11 if the ace counts as 1, and the dealer's hand is worth 10. Both are at most 21 and the player is closer to 21, so the stated rule gives 'Player wins' either way.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The first two assertions (True, then False for a duplicate id) follow from the docstring, but the last one checks the internal `employees` attribute, which is a dict keyed by employee id whose values are dicts with the keys 'name', 'position', 'department' and 'salary'. The docstring never describes that storage.",
+  "missing": "The docstring should say that employees are stored in an `employees` attribute, a dict keyed by employee id, where each value is a dict with the keys 'name', 'position', 'department' and 'salary'."
+}

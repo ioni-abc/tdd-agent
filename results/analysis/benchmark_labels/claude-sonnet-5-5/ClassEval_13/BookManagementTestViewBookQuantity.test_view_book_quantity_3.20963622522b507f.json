@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the quantity of the book, and the test adds a book with quantity 2 and expects 2 back, so any implementation that follows the docstring passes.",
+  "missing": "none"
+}

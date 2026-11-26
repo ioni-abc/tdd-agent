@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Four moves on empty cells each succeed and return True, and switching the mark after each move leaves 'X' as the current player, which follows directly from the docstring.",
+  "missing": "none"
+}

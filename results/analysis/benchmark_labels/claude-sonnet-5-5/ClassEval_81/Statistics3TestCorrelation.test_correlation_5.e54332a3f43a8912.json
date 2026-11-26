@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says it calculates the correlation, with no mention of the zero-variance case (constant lists), where the reference returns None; a programmer might raise ZeroDivisionError, return nan, or return 0.",
+  "missing": "The docstring should say that when either list has zero variance (so the correlation denominator is zero and the correlation is undefined), the method returns None."
+}

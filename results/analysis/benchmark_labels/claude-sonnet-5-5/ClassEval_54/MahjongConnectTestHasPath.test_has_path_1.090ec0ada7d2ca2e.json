@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The two icons are adjacent and identical, so any reasonable reading of \"path between two icons\" yields True, and a programmer following the docstring would pass.",
+  "missing": "none"
+}

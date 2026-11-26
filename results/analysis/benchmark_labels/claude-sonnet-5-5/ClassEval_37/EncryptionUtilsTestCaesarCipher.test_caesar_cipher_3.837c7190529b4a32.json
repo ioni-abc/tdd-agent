@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "An empty plaintext has no characters to shift, so any reasonable Caesar cipher implementation returns an empty string, which is what the test expects.",
+  "missing": "none"
+}

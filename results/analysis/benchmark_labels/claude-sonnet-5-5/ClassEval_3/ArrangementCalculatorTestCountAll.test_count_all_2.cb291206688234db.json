@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to count arrangements of size 1 through n from n items, and for n=1 there is exactly one arrangement, so a programmer following it returns 1, which matches the test.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says __len__ returns the length of the data, and the example shows the count of added keys; the test adds one key and expects 1, which any straightforward implementation satisfies.",
+  "missing": "none"
+}

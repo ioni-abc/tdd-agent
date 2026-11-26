@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that any argument that is odd (or negative) must raise ValueError; the input [2, 3, 4, 5] contains odd numbers, so a ValueError is raised, which is what the test asserts.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"Calculate correlation\" with return type float, without saying what is correlated; a programmer could not tell that it should be the Pearson correlation matrix from np.corrcoef of the data treated as a single variable.",
+  "missing": "The docstring should say which quantity is computed (e.g. Pearson correlation coefficient of the data via numpy's corrcoef with rowvar=False) and what the single-variable input yields (a scalar 1.0 for one variable, not a matrix)."
+}

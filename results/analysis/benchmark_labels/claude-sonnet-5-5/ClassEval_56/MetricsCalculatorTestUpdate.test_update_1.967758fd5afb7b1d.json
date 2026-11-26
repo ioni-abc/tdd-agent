@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example gives the same inputs and the same counts (1, 1, 1, 1) that the test checks, and the standard confusion-matrix semantics with 1 as positive determine them.",
+  "missing": "none"
+}

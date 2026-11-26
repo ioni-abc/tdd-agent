@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test includes invalid card ranks ('B', 'C'), which the docstring does not cover; the reference silently ignores them (adding 0), giving 20, but a programmer could raise an error or assign other values.",
+  "missing": "The docstring should say that cards whose rank is not a digit, J, Q, K, or A are ignored and contribute nothing to the hand value."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test adds a user and signs them in, and the docstring says sign_in returns True for an existing user and sets their state to True, so the expected True follows directly.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the exact format (columns joined by ', ', all values quoted as strings including numbers), and this test follows the same pattern with three keys.",
+  "missing": "none"
+}

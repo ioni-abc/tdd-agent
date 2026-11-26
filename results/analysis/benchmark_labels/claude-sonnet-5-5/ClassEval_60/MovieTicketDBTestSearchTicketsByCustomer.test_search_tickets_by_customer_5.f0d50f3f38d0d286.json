@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test inserts a ticket with `insert_ticket` and reads it back, and an implementation that writes the four given values into the \"tickets\" table passes; the column order checked comes from the table schema, not from `insert_ticket`.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says items with quantity of 20 or more get a 10% discount per unit, so 20 units at 10.0 gives 20.0 and the 5-unit item gets none, as the test expects.",
+  "missing": "none"
+}

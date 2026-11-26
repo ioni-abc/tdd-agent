@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the exact format (\"DELETE FROM table1 WHERE name='Test' AND age='14'\"), and this test with a single condition follows the same pattern, producing \"DELETE FROM items WHERE name='apple'\".",
+  "missing": "none"
+}

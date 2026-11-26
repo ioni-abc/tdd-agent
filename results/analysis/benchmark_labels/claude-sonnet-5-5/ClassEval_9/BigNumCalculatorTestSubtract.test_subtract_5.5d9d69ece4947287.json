@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is an ordinary subtraction of two positive numeric strings with a positive result, which follows directly from the docstring's \"difference of the two numbers\" as a string.",
+  "missing": "none"
+}

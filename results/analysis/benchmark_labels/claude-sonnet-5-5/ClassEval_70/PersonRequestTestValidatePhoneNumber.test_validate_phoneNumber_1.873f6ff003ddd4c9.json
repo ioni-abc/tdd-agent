@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says an empty phone number is set to None, which is exactly what the test checks via the constructor.",
+  "missing": "none"
+}

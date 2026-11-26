@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says login is valid only if the user exists and the password is correct, so a wrong password for an existing user should return False, which is what the test expects.",
+  "missing": "none"
+}

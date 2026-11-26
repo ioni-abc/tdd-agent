@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows that a user with no entry (e.g. 'Mary') returns an empty list, which is exactly what this test checks for 'Amy'.",
+  "missing": "none"
+}

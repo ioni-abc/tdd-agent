@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says `columns` is a list of str and gives no way to select all columns, but the test passes the string \"*\" and expects \"SELECT * FROM users\"; the default '*' appears only in the signature.",
+  "missing": "The docstring should state that `columns` may be the string '*' (the default), meaning all columns, and that it is then inserted into the query as-is instead of being joined as a list."
+}

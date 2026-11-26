@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The customer has 1800 fidelity points, which is over 1000, so the docstring gives a 5% discount on the entire order. The order total is 10\u00d720 + 5\u00d710 = 250, and 5% of that is 12.5, which matches the test.",
+  "missing": "none"
+}

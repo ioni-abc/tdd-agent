@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The input splits into 8-bit chunks 01101000, 01100101, 01100010 and 01101111, which are 'h', 'e', 'b' and 'o', so the expected \"hebo\" is the standard binary-to-ASCII conversion the docstring describes.",
+  "missing": "none"
+}

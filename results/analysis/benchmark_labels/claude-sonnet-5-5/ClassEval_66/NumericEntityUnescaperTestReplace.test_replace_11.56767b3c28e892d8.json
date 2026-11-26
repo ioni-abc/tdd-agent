@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say what happens with a malformed numeric reference; the reference code aborts and returns only what was accumulated so far (here an empty string), instead of leaving the text unchanged and continuing.",
+  "missing": "The docstring should say that when a reference is malformed (for example, non-decimal characters in a decimal reference), processing stops and the function returns only the output built before it, discarding the rest of the string."
+}

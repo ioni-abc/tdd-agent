@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method computes the median of a list and its example shows an even-length list averaging the two middle values (2.5), so the even-length input here correctly yields 3.5.",
+  "missing": "none"
+}

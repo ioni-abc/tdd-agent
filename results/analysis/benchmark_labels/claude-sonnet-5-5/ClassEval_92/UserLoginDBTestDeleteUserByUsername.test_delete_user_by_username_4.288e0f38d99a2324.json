@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method deletes a user from the \"users\" table by username, so after inserting and deleting 'user4' a search returning None is what a programmer following it would produce.",
+  "missing": "none"
+}

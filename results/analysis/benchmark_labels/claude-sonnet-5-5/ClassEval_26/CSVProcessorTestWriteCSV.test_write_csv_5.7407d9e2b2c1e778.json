@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test writes a normal list of rows and expects return value 1 and a correct round trip, which matches the docstring's description and example.",
+  "missing": "none"
+}

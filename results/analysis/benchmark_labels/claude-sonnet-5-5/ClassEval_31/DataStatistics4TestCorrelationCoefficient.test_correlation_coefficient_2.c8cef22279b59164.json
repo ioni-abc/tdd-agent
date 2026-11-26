@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "With constant inputs the standard correlation formula divides by zero (undefined/NaN), and the docstring does not say to return 0 in that case, though the reference returns 0 when the denominator is zero.",
+  "missing": "The docstring should state that when either data set has zero variance (so the denominator is zero and the correlation is undefined), the function returns 0."
+}

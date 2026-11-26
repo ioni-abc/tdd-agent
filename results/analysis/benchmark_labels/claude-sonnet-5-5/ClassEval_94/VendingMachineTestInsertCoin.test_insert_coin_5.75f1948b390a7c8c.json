@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says coins are inserted and the resulting balance is returned, so repeated insertions accumulate onto the existing balance, giving 6.25.",
+  "missing": "none"
+}

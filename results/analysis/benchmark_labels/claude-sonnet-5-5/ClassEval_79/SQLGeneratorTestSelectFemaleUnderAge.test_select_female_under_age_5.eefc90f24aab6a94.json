@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows exactly the format the test expects (`SELECT * FROM table1 WHERE age < N AND gender = 'female';`), and the test only changes the age value to 50.",
+  "missing": "none"
+}

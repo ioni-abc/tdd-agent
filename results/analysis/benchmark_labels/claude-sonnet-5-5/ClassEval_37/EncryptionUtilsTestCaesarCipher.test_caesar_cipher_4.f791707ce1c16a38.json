@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says that shifting wraps around the 26-letter alphabet, which this test needs because a shift of 26 must return the original text.",
+  "missing": "The docstring should say that letters wrap around within the alphabet (modulo 26), so shifting past 'z' or 'Z' continues from 'a' or 'A', and that case is preserved."
+}

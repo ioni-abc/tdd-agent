@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Method/test mismatch: the test is filed under get_my_cards but calls game.answer('pass') and never calls get_my_cards, so it checks a different method's behaviour (the reference answer() returns a list of four cards on 'pass').",
+  "missing": "none"
+}

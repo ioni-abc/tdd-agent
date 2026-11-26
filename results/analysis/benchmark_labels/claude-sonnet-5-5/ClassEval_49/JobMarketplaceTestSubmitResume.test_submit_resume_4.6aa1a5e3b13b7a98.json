@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each submitted resume is added to the resumes list, and the example shows the dict format, so four submissions (including duplicates) yield four entries in order; a natural implementation passes.",
+  "missing": "none"
+}

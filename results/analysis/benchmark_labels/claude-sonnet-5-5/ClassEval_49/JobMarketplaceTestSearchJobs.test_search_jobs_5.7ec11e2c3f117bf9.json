@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the position information that meets the requirements, so a criteria that matches no listing naturally gives an empty list, and any reasonable implementation returns [] here.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the correlation of two lists, and any standard correlation (Pearson or rank-based) of two perfectly linearly related lists is 1.0, as in the docstring example.",
+  "missing": "none"
+}

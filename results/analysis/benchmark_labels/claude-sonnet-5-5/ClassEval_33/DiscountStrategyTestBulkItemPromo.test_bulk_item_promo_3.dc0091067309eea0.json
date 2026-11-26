@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says items with quantity of 20 or more get a 10% discount, so 100*10.0*0.1 = 100.0 with the other item excluded, which is what the test expects.",
+  "missing": "none"
+}

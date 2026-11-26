@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The data [1, 5, 3] is symmetric about its mean, so the third central moment is exactly zero and any standard skewness formula returns 0.0.",
+  "missing": "none"
+}

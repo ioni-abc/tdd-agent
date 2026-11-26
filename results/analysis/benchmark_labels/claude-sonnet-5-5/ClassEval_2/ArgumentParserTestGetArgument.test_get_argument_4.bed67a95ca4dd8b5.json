@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_argument returns the value of the named key from the arguments dictionary, and the test sets arguments directly and expects True for key \"d\", which follows from that.",
+  "missing": "none"
+}

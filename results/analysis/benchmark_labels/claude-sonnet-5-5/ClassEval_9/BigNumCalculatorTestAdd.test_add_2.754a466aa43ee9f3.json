@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test checks ordinary addition of two numeric strings of different lengths, which \"Adds two big numbers\" with string return clearly implies, and the expected value is the correct sum.",
+  "missing": "none"
+}

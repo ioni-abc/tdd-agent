@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says words are strictly case sensitive, so 'Apple' in the sentence should not match the word list entry 'apple' and the result should be ''. The reference code lowercases the sentence and returns 'apple', which is the opposite of what the docstring says.",
+  "missing": "none"
+}

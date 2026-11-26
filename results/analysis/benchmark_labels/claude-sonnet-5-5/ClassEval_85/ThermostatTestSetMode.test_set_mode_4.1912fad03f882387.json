@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says valid modes are 'heat' and 'cool' and its example shows that setting a mode makes it the current mode, which is exactly what the test checks for 'heat'.",
+  "missing": "none"
+}

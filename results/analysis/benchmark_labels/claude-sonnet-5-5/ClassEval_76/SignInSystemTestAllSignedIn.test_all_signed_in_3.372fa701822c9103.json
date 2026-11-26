@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With one user added and signed in, the docstring's \"True if all users are signed in\" clearly gives True, and its own example covers the same scenario.",
+  "missing": "none"
+}

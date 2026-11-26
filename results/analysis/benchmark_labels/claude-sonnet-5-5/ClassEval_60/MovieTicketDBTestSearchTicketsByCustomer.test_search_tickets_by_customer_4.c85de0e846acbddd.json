@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test inserts a ticket and reads it back, which is what the docstring describes: the ticket goes into the \"tickets\" table with the four given fields, and the stored row matches.",
+  "missing": "none"
+}

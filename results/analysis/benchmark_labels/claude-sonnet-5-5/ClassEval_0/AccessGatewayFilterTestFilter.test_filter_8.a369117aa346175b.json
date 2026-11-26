@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says to filter requests \"based on certain rules and conditions\", giving no information about which paths bypass checks, how the JWT in the Authorization header is validated (here a token whose date is a year old and whose jwt user name differs from the user name is accepted), or the user level threshold (level above 2) that allows access.",
+  "missing": "The docstring should specify the filtering rules: which path prefixes are allowed without authentication, how the Authorization header's JWT is validated (including its date/expiry and user matching), and the minimum user level required for access."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says nothing about malformed input (a dict missing the \"addr\" key), yet the test expects -1, which a programmer could not guess from the docstring, which only specifies the content on success and False otherwise.",
+  "missing": "The docstring should say that if the info is not a dict or lacks the \"addr\" or \"content\" key, the method returns -1 and leaves the stored received data unchanged."
+}

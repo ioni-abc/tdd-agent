@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring specifies a list of tuples (and `len(result) = 1`), but the reference and test return and index a single row tuple via fetchone.",
+  "missing": "none"
+}

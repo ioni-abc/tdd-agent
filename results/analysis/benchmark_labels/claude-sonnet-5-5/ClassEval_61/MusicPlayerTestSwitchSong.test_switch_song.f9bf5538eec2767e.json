@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test sets up a playlist with a next song after the current one and expects True, which is exactly what the docstring and its example describe.",
+  "missing": "none"
+}

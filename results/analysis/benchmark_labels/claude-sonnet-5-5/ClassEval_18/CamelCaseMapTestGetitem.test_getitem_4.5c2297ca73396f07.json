@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says to return the value for the key, with an example using the identical key 'first_name'; it never says keys are normalized to camelCase, so a lookup with 'first_Name' retrieving the value stored under 'first_name' is not derivable from it.",
+  "missing": "The docstring should say that keys are converted to camelCase (snake_case parts joined with later parts capitalized, with existing capitalization normalized) before lookup, so differently-cased variants of the same key map to the same entry."
+}

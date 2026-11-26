@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Deciphering uppercase 'IFMMP' with shift 1 gives 'HELLO' by the standard Caesar cipher, and preserving case is the natural behavior any implementation would follow.",
+  "missing": "none"
+}

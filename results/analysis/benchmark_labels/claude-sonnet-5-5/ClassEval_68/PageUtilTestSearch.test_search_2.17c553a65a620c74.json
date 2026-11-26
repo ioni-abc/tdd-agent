@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows that a string keyword matches integer items and returns total_results, total_pages and results. For \"2\", only the item 2 matches in either substring or equality matching, giving one result on one page, so any reasonable implementation passes.",
+  "missing": "none"
+}

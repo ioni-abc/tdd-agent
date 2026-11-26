@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Checking in more rooms than booked is documented to return False, and a natural implementation leaves booked_rooms unchanged, which matches the test's expected state.",
+  "missing": "none"
+}

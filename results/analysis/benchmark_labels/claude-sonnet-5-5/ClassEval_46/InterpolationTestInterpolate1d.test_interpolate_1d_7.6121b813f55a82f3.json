@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test feeds empty data with malformed (list-valued) interpolation points and expects [], which relies on the reference silently skipping points that fall in no data interval, something the docstring never specifies.",
+  "missing": "The docstring should say that interpolation points not lying within any interval of the data (including when the data is empty) are skipped and produce no output element, rather than causing an error."
+}

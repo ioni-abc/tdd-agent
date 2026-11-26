@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Removing punctuation and splitting gives 'student', which is in the word list and case-sensitively matches, so a programmer following the docstring returns 'student'.",
+  "missing": "none"
+}

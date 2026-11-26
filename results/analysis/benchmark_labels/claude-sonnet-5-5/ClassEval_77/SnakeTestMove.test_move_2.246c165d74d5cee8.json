@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says that when the head does not hit the body, \"its own length plus one\", so a plain move would raise length to 2, but the test and reference code keep length at 1 and only grow the snake when food is eaten.",
+  "missing": "none"
+}

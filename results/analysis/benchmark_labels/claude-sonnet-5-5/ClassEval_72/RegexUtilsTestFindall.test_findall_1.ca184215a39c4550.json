@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return a list of all matching substrings, and this test uses the same example as the docstring's doctest, so a straightforward implementation (re.findall) passes.",
+  "missing": "none"
+}

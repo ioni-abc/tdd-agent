@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the same call shape (a field list plus a condition) and the exact output format, \"SELECT f1, f2 FROM table WHERE cond;\", which is what the test expects.",
+  "missing": "none"
+}

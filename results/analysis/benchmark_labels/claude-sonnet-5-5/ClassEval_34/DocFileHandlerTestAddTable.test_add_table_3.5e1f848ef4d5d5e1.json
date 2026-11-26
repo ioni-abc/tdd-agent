@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method adds a table populated with the given list-of-lists data, and the test checks exactly that: the table has 3 rows and 2 columns and the cell contents match the input.",
+  "missing": "none"
+}

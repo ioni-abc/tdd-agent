@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says it returns \"the open file object\", never that it is a zipfile.ZipFile opened in read mode, which the test's `.filename` and `.mode` checks require.",
+  "missing": "The docstring should say that the returned object is a ZipFile object for the given archive path, opened in read mode ('r')."
+}

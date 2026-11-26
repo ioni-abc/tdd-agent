@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test only asserts that `clear_inbox` returns None, and the docstring example calls it with no output shown, which implies it returns nothing, so a programmer following it would pass.",
+  "missing": "none"
+}

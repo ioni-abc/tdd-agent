@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to \"modify available_rooms and booked_rooms\" and return 'Success!', but the test also asserts the exact layout of booked_rooms (room type mapping to a dict of guest name to number booked), which the docstring never describes.",
+  "missing": "The docstring should say that booked_rooms maps each room type to a dictionary of guest name to the number of rooms booked, and that a successful booking adds that entry and subtracts the count from available_rooms."
+}

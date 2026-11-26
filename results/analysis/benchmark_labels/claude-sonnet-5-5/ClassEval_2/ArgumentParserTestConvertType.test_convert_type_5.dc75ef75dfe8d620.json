@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to convert the value using the type in self.types, but does not say that the conversion is a plain call like bool(\"False\"), so a non-empty string such as \"False\" becomes True. A programmer might instead parse the string \"False\" as False and fail the test.",
+  "missing": "The docstring should say that conversion applies the registered type directly as a constructor or callable to the string (so bool of any non-empty string yields True), with no special parsing of values such as \"False\"."
+}

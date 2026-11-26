@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test adds a stock with a new name to a portfolio holding a different stock, and the docstring says \"Add a stock to the portfolio\", so appending it at the end is the natural behaviour.",
+  "missing": "none"
+}

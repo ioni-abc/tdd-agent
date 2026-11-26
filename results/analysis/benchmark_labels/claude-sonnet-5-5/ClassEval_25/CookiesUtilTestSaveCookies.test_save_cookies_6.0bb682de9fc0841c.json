@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return False when saving fails, and an empty filename makes the file write fail, so a try/except implementation returns False as the test expects.",
+  "missing": "none"
+}

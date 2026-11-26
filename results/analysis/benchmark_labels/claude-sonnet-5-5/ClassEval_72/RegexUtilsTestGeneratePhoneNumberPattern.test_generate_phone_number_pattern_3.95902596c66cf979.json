@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows one example output string and never says which phone number format is matched, so a programmer might implement a different pattern, such as one allowing optional separators or parentheses, and the test expecting '123-456-789' to be rejected could fail.",
+  "missing": "The docstring should state the exact phone number format the pattern must match (three digits, a hyphen, three digits, a hyphen, then four digits, with word boundaries) and say that other formats, including numbers with too few digits, must not match."
+}

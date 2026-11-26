@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows parse_more(1) returns \"THOUSAND\", which is exactly what the test checks, and it matches the reference code's table lookup.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Mismatched target: the test is filed under get_my_cards but calls game.answer('1+') and checks it returns False, so it does not exercise get_my_cards at all.",
+  "missing": "none"
+}

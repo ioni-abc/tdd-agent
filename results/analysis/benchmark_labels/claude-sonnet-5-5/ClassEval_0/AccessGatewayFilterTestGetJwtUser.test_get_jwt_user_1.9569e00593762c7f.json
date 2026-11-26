@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses the same token as the docstring example (name plus today's date), which should return the user info, and the test only asserts a non-None result.",
+  "missing": "none"
+}

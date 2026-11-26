@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never defines \"invalid input\", so it does not say that removing more copies than are in stock must raise an error, which this test expects.",
+  "missing": "The docstring should say that an error is raised when the title is not in inventory or when the requested quantity exceeds the stock on hand."
+}

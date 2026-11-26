@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"Calculate correlation\" with a float return, and its example (1.0 for [1,2,3,4]) doesn't indicate what correlation of a single 1-D data list means, so a programmer cannot derive that the result is 1.0 for an arbitrary list like this one (the reference uses np.corrcoef on a 1-D array, which returns 1.0 as a degenerate self-correlation).",
+  "missing": "The docstring should state that correlation is computed as the Pearson correlation coefficient of the data with itself (via np.corrcoef), so any 1-D data list returns 1.0 as a float."
+}

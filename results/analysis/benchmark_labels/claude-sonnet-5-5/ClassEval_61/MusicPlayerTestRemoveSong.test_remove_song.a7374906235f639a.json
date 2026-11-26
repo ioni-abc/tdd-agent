@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test removes \"song1\" from a two-song playlist and expects [\"song2\"], which is exactly what the docstring says and shows in its example.",
+  "missing": "none"
+}

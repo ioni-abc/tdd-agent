@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "C(6,6) = 1 follows directly from the standard definition of combinations that the docstring describes, so a programmer would return 1.",
+  "missing": "none"
+}

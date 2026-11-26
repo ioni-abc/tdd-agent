@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes cosine similarity (name, summary, and doctest values), and the test expects standard cosine similarity values, which a normal implementation would produce.",
+  "missing": "none"
+}

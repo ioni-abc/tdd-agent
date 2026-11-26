@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The expression has a mismatched bracket pair (square bracket closed by a parenthesis), which is unbalanced under the standard meaning of balanced brackets, so False follows from the docstring.",
+  "missing": "none"
+}

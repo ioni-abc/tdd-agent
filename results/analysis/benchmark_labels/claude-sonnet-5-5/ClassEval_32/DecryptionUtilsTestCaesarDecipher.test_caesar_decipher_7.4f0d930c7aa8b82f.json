@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says how non-alphabetic characters such as digits are handled, and the test expects them to pass through unchanged, which an implementation might not do.",
+  "missing": "The docstring should say that characters outside the alphabet (digits, punctuation, spaces) are left unchanged by deciphering, while letters are shifted and keep their case."
+}

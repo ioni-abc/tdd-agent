@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test expects cos(30\u00b0) \u2248 0.8660254, which is what a Taylor expansion of cos(x/180*pi) with 50 terms yields regardless of how \"n-order\" is interpreted.",
+  "missing": "none"
+}

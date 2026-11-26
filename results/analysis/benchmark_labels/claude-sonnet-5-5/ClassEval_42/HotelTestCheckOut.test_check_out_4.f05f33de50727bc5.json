@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says check_out only adds the count to available_rooms for an existing type, which gives double 3; booked_rooms is never mentioned, so an implementation following the docstring leaves it unchanged and passes.",
+  "missing": "none"
+}

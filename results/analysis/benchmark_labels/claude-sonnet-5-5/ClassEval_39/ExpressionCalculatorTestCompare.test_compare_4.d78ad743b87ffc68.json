@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says True when the current operator has higher or equal precedence, so \"*\" vs \"+\" should give True, but the test and reference expect False because the code checks whether the stack-top operator has precedence >= the current one.",
+  "missing": "none"
+}

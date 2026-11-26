@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert a hex string to its decimal int, and '29a77' is an ordinary lowercase hex string whose value is 170615, so a standard implementation passes.",
+  "missing": "none"
+}

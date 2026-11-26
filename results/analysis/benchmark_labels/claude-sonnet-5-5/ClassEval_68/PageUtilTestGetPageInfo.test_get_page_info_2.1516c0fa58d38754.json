@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the full dict with all keys and their semantics (current_page, per_page, total_pages, total_items, has_previous, has_next, data), and this test is a normal first-page case that follows the same pattern with the ceiling division for total pages being the natural reading.",
+  "missing": "none"
+}

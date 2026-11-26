@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says whether a sentence boundary needs whitespace after the punctuation, so a period directly followed by a letter (\"Aaa.Bbbb\") could reasonably be split, yet the test expects it to stay joined.",
+  "missing": "The docstring should say that a sentence ends only at a period, question mark or exclamation mark followed by whitespace, and that punctuation not followed by whitespace does not split the text."
+}

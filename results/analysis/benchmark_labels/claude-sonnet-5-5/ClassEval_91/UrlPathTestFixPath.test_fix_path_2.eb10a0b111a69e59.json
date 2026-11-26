@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says leading and trailing slashes are removed, and the test's '/aaa/bbb/' becoming 'aaa/bbb' follows directly from that, just like the docstring example.",
+  "missing": "none"
+}

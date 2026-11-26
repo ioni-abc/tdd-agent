@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that if the current temperature is lower than the target the mode is 'heat', otherwise 'cool'; here 25 is not lower than 20, so 'cool' is the expected result, and the test's use of get_mode() is a plain accessor.",
+  "missing": "none"
+}

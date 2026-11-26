@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows that the value under the 'cookies' key becomes self.cookies, so ignoring the additional 'cookies2' key follows naturally.",
+  "missing": "none"
+}

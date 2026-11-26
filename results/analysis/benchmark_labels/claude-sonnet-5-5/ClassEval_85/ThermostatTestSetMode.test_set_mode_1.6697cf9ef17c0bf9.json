@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test sets a valid mode 'cool' and checks it is stored, which matches the docstring's example and the allowed values ['heat', 'cool']; the misleading summary line \"Get the current work mode\" does not change what is expected.",
+  "missing": "none"
+}

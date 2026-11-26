@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows 27\u00b0C converting to 80.6\u00b0F, and the test only asserts the result is not 73.4, which any correct Celsius-to-Fahrenheit conversion satisfies.",
+  "missing": "none"
+}

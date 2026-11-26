@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A shift of -26 is a multiple of 26, so decrypting with it returns the original text under any standard Caesar implementation, and the expected 'bcd' follows from the docstring's description.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the host domain name (the second part of the URL), and the test uses a standard https URL with a path and query string, where the expected \"www.bing.com\" is exactly that host.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The expression \"a(b){c}\" has properly matched and balanced brackets with non-bracket characters ignored, so a programmer following the docstring would return True.",
+  "missing": "none"
+}

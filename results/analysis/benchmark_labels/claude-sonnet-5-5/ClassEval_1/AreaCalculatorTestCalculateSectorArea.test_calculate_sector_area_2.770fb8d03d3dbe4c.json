@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (radius 2, angle \u03c0 giving 2\u03c0 \u2248 6.283) shows the angle is in radians and the formula is r\u00b2\u00b7angle/2. For angle \u03c0/2 that gives \u03c0 \u2248 3.14, which is what the test expects.",
+  "missing": "none"
+}

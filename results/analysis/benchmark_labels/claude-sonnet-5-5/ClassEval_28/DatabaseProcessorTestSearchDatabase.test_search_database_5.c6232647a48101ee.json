@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says the method returns None when no rows match the name, and the test searches for a name that is not present and expects None.",
+  "missing": "none"
+}

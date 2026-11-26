@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never mentions invalid or negative amounts, so a programmer would not know that a negative transfer should raise ValueError with the message \"Invalid amount\"; that behaviour comes from the withdraw method in the reference code.",
+  "missing": "The docstring should say that a negative amount is invalid and that transfer raises a ValueError with a specific message in that case, leaving both balances unchanged."
+}

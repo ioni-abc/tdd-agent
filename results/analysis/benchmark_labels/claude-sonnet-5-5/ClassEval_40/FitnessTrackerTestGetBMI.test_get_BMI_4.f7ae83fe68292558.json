@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says BMI is weight divided by the square of height, and the test's value 60/1.72**2 matches that formula exactly.",
+  "missing": "none"
+}

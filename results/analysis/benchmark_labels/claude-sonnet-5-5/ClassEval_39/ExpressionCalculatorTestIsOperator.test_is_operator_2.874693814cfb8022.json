@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring lists '-' among the operators in the set, so is_operator(\"-\") returning True follows directly from it.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says whether each inner list is a variable or an observation. The test's 4x3 input only gives the expected 3x3 result if columns are the variables, as in the reference code, and the 3x3 docstring example cannot tell the two orientations apart.",
+  "missing": "The docstring should say that each inner list is one observation (a row) and each column is a variable. The result is then a square matrix with one row and column per column of the input, holding the Pearson correlation between each pair of columns."
+}

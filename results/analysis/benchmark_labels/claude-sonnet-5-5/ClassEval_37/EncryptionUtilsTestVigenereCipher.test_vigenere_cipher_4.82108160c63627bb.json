@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's only example is lowercase letters, so it does not say that case is preserved, that non-letters pass through unchanged, or that the key position advances only on letters, all of which this test relies on.",
+  "missing": "The docstring should state that letter case is preserved, that non-alphabetic characters are copied unchanged, and that the key position advances only for alphabetic characters."
+}

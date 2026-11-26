@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the standard Cohen's kappa of a k\u00d7k matrix, and the expected value matches it: observed agreement 6/13, chance agreement 56/169, kappa \u2248 0.1947.",
+  "missing": "none"
+}

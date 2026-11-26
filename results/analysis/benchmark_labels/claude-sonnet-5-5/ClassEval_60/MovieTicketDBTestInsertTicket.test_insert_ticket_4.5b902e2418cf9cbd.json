@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Wrong-method test: it is filed under create_table but exercises insert_ticket and search_tickets_by_customer, so it mainly checks those methods and touches create_table only indirectly through setUp and column order.",
+  "missing": "none"
+}

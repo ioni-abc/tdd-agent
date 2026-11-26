@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The hand 2+3+10+10 = 25 follows directly from the docstring's rules (digit values added, J/Q/K worth 10), with no aces involved and no adjustment needed, so the sum of 25 is what a programmer would return.",
+  "missing": "none"
+}

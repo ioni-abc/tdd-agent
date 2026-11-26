@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Selling the full quantity removes the stock, returns True, and adds price*quantity to cash (10000+3000=13000), which follows directly from the docstring's description.",
+  "missing": "none"
+}

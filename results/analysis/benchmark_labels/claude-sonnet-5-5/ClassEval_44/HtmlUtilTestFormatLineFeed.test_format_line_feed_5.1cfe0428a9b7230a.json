@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "An empty string has no consecutive line breaks, so a programmer following the docstring would naturally return it unchanged, which is what the test expects.",
+  "missing": "none"
+}

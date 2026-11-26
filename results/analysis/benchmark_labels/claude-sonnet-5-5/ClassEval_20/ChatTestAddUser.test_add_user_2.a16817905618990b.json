@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_user returns False when the user is already in the Chat, and the test checks exactly this; the unchanged users dict follows naturally from not adding a duplicate.",
+  "missing": "none"
+}

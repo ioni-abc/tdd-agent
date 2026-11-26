@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the function returns the positions that meet the criteria, so when no listing matches \"skill5\" a programmer would naturally return an empty list.",
+  "missing": "none"
+}

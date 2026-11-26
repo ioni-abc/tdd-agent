@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the deck holds all 52 cards of a standard deck without Jokers, in the format 'AS', '2S', ..., '10C'. The test checks that each of those 52 rank+suit strings is in the deck, which follows from that description.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test mismatch: `test_add_book_2` never calls `add_book`; it only asserts that a freshly constructed BookManagement has an empty inventory, which tests the constructor rather than the method it is filed under.",
+  "missing": "none"
+}

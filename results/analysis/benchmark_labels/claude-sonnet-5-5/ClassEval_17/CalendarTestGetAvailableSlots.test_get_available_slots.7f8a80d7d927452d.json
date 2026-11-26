@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The prose never defines the slot granularity (one-hour slots from midnight through the next midnight) or how an overlapping event blocks a slot; only the single example implies it.",
+  "missing": "The docstring should say that slots are consecutive one-hour intervals covering the whole day from 00:00 to 24:00, and that a slot is available only if it does not overlap any existing event."
+}

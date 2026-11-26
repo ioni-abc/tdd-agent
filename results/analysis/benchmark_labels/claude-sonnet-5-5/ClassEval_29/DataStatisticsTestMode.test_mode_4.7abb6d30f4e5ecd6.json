@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the return is a float (the mode), but the example and test expect a list, even when there is a single mode ([4]); a programmer could return the scalar 4.",
+  "missing": "The docstring should say that the method always returns a list of all values with the highest frequency, even when only one value is the mode."
+}

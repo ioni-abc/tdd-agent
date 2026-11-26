@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert a key string to camel case and gives the example 'first_name' -> 'firstName'; the test's 'aaa_bbb' -> 'aaaBbb' follows the same snake_case-to-camelCase rule.",
+  "missing": "none"
+}

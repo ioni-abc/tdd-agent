@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test asserts that cash_balance drops to 8500.0 after a purchase, but the docstring only says to add the stock to the portfolio and return True or False, and never says the cash balance is reduced by price times quantity.",
+  "missing": "The docstring should say that a successful purchase deducts the total cost (price times quantity) from the cash balance."
+}

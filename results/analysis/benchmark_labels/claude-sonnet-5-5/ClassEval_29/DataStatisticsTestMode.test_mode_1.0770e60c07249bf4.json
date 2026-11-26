@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example uses the same input and shows the expected output [2, 3], so a programmer following it would return a list of all modes in this tie case, even though the \":return:float\" description is loose.",
+  "missing": "none"
+}

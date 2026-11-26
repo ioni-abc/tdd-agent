@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says \"all arrangements\" of size 1 to n but not the order of the output list; the test uses an exact list comparison, which requires grouping by size with ascending size and lexicographic order within each size, as in the docstring example.",
+  "missing": "The docstring should say that results are ordered by arrangement length, shortest first, and within each length follow the input order (as itertools.permutations yields them)."
+}

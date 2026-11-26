@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return a list of all matching substrings for the pattern, and the test's phone-number pattern matches exactly the two expected substrings, just as in the docstring example.",
+  "missing": "none"
+}

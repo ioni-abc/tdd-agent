@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"rotate image if image has opened\" and gives degrees as a float, but the test expects the result to equal PIL's `Image.rotate(45)` (counter-clockwise, same canvas size, no expansion, black fill for corners), and a programmer might choose a different direction or expand the canvas.",
+  "missing": "The docstring should say that the image is rotated counter-clockwise by the given degrees using PIL's default `rotate` behaviour, keeping the original canvas size (no expansion) and filling uncovered corners with the default fill color."
+}

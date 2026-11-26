@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Adding the plain segment 'eee' to an empty UrlPath should yield segments ['eee'], which matches the docstring's example of appending 'foo' and 'bar' to the list; fix_path leaves a plain alphanumeric segment unchanged.",
+  "missing": "none"
+}

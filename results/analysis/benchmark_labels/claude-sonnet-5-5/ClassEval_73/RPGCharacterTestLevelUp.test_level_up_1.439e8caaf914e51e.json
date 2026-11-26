@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says leveling up resets experience to zero, adds 20 hp, and adds 5 to attack and defense, which is exactly what the test checks for a starting level of 1.",
+  "missing": "none"
+}

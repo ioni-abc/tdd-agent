@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says write_xml writes the XML data to the given file and returns True on success; the test checks exactly that, and re-reading the output file gives the same items.",
+  "missing": "none"
+}

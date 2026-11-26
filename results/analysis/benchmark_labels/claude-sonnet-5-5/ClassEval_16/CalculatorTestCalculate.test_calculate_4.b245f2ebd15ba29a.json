@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never mentions the '^' operator, that it means exponentiation, or that it binds tighter than '*' and '+', yet the test expects 37, which depends on exactly that.",
+  "missing": "The docstring should state which operators are supported, including that '^' is exponentiation, and the precedence order (exponent above multiplication/division above addition/subtraction)."
+}

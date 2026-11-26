@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never defines which kurtosis formula to use (population excess kurtosis with a specific computation order), and the test demands an exact float match, so an alternative valid implementation could fail.",
+  "missing": "The docstring should state the exact formula: population excess kurtosis, i.e. the fourth central moment divided by the population standard deviation to the fourth power, minus 3, computed in that order so the floating-point result matches."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that the hostname is returned and shows no output for '10.0.0.1', so a programmer would not know that an address with no hostname should give None rather than raising an error or returning an empty string.",
+  "missing": "The docstring should say that when no hostname can be resolved for the IP address (the lookup fails), the method returns None instead of raising an exception."
+}

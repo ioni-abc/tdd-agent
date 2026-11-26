@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to generate primes up to the limit, and for a limit of 18 the primes are 2, 3, 5, 7, 11, 13, 17, which the test expects, so any correct implementation passes.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With an empty list of interpolation points, any reasonable implementation of \"return the y-coordinate of each interpolation point as a list\" returns an empty list, which is what the test expects.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A board with several empty cells is not completely filled, so the docstring clearly implies False, and the reference code checks for empty cells in the same way.",
+  "missing": "none"
+}

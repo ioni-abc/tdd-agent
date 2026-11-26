@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The annulus area is pi*(outer\u00b2 - inner\u00b2), which for inner radius 0 and outer radius 1 gives pi, about 3.14, and the docstring example matches this formula.",
+  "missing": "none"
+}

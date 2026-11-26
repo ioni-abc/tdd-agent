@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what happens when a score is added for a course that already has one, and the test expects the new score to overwrite the old one.",
+  "missing": "The docstring should say that adding a score for a course the student already has replaces the existing score with the new one."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Removing non-letters (so \"Special@Characters\" becomes \"specialcharacters\") and splitting an all-digit string into an empty word list both follow from \"keep only English letters and spaces\" and \"split into a list of words\".",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that for this exact map, `game.boxes` is `[(2, 2)]`, which is what the test asserts.",
+  "missing": "none"
+}

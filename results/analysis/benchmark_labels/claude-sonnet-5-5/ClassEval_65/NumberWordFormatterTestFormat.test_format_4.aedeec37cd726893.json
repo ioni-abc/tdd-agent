@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows an integer example and says nothing about how decimals are rendered, yet the test expects the odd \"ONE AND CENTS TWENTY THREE ONLY\" format for 1.23.",
+  "missing": "The docstring should state how the fractional part of a float is converted: the exact wording and order (for example, a \"CENTS\" marker placed before the fractional digits as words), and where \"ONLY\" goes."
+}

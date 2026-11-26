@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for Cohen's kappa of a k\u00d7k matrix, and the test's expected value (about 0.1947) equals the standard formula (P0 = 6/13, Pe = 56/169), so a programmer following the docstring would pass.",
+  "missing": "none"
+}

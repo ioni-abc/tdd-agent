@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says requests are filtered by \"certain rules and conditions\" and gives a '/login' example, so it never says that a path like '/login/data' is allowed because it starts with a whitelisted prefix.",
+  "missing": "The docstring should say that requests whose path begins with any of the allowed prefixes (such as the login or register paths) are allowed without authentication, and that other requests need a valid token whose user level is high enough."
+}

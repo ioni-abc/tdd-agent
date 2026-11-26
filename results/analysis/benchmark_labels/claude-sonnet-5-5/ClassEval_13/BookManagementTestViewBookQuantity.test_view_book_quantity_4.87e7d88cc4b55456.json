@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test ends with a lookup of a title that has no copies left, and the docstring covers both outcomes: it returns the stored quantity, or 0 if the title is not in the inventory. Whether `remove_book` deletes the entry or leaves it at 0, `view_book_quantity` returns 0.",
+  "missing": "none"
+}

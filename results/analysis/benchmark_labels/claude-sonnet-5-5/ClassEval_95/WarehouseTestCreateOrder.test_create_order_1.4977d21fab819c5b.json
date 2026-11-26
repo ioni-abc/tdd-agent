@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a new order with product id, quantity and default status 'Shipped' is put into self.orders, and the example shows the same structure, so a straightforward implementation passes this test.",
+  "missing": "none"
+}

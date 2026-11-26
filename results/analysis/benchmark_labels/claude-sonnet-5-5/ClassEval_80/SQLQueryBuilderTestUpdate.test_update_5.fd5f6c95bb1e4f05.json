@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows that values, including the numeric 15, are quoted as '15' in the output, so a float 1.0 would naturally be rendered as '1.0' and the WHERE clause matches the example format.",
+  "missing": "none"
+}

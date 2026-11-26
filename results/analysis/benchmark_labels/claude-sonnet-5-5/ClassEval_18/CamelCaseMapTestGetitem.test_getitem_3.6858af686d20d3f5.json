@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Storing a value under a key and reading it back with the same key returns that value, which is exactly what the docstring says; the key 'age' is unchanged by camel-case conversion.",
+  "missing": "none"
+}

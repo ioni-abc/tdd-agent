@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Method mismatch: the test is filed under `select` but calls `calc.count(6, 3)`, a different method that the `select` docstring does not cover, so it never exercises `select`.",
+  "missing": "none"
+}

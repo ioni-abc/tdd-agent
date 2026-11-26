@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring defines cosine similarity but does not say what to return when one vector is the zero vector (norm 0, so the cosine is undefined); the reference returns 0.0 because the unit-vector helper leaves a zero vector unchanged, while a plain formula would divide by zero and give nan or raise an error.",
+  "missing": "The docstring should say that if either vector has zero length (all zeros), the similarity is defined as 0.0 instead of raising an error or returning nan."
+}

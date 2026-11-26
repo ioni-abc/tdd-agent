@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the scheme of the URL, and for \"bbb://github.com/...\" the scheme is \"bbb\", which any reasonable implementation (including urlparse-style or splitting on \"://\") would return.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest example shows exactly the input and output the test checks, including the added 'employee_ID' key in each employee's dict, so a programmer following the example would pass.",
+  "missing": "none"
+}

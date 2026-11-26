@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test calls factorial(3) and expects 6, which is the standard factorial value that the docstring's \"Calculate the factorial of a\" (with the factorial(5)=120 example) clearly implies.",
+  "missing": "none"
+}

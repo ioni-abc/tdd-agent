@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The cells (0,0) to (0,3) hold four consecutive symbols of the same player and (0,4) is empty, so the docstring's rule of five consecutive symbols gives False, matching the test.",
+  "missing": "none"
+}

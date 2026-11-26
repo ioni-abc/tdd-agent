@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring example shows output starting at \"Title\" with no surrounding newlines, but the test expects a leading and trailing \"\\n\", which comes from the reference's whitespace-newline collapsing and is never described.",
+  "missing": "The docstring should say how whitespace and line breaks in the output are normalised: runs of newlines collapse into a single newline, and leading or trailing newlines from the input's surrounding whitespace are kept rather than stripped."
+}

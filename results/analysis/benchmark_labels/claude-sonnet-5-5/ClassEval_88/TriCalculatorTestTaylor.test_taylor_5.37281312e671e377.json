@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With n=50 the Taylor series for cos(45\u00b0) has converged under any reasonable reading of \"n-order\", so the expected 0.7071... follows from the docstring and assertAlmostEqual tolerates tiny float differences.",
+  "missing": "none"
+}

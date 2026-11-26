@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is the same as the docstring's example (\"abc\", 2 -> 'acb'), and the standard rail fence algorithm produces it.",
+  "missing": "none"
+}

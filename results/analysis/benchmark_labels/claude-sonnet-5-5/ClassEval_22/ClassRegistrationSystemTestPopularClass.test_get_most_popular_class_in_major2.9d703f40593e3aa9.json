@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "In both majors the class with the highest enrollment is unique (Data Structures with 3 in Computer Science, Linear Algebra with 2 in Mathematics), so any implementation that follows \"highest enrollment in the major\" returns the expected values with no tie-breaking involved.",
+  "missing": "none"
+}

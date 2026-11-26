@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Ordering exactly the remaining stock is the natural reading of \"dish count is valid\", so the dish is added, the menu count drops to 0, and the dish appears in selected_dishes, as the test expects.",
+  "missing": "none"
+}

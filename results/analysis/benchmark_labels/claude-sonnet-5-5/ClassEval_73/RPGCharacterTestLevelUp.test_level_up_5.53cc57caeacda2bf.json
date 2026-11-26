@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Starting at level 4, one call to `level_up` should give level 5, exp 0, hp +20 (120), attack +5 (25) and defense +5 (15), which is what the docstring describes and the test checks.",
+  "missing": "none"
+}

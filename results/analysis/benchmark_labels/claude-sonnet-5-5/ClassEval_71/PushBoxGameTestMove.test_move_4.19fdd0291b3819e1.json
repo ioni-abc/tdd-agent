@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test moves the player down ('s') into an empty cell and expects the row to increase by one, the column to stay the same, and the game not to be won, all of which follow from the docstring's direction semantics and win check.",
+  "missing": "none"
+}

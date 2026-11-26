@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that withdrawing more than the balance raises ValueError(\"Insufficient balance.\"), and the test withdraws 1000 from a balance of 500 and checks that exact message.",
+  "missing": "none"
+}

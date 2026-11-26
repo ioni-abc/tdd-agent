@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a 10% discount applies only when a single item's quantity is 20 or more; here the quantities are 10 and 5, so no discount applies and the result is 0.",
+  "missing": "none"
+}

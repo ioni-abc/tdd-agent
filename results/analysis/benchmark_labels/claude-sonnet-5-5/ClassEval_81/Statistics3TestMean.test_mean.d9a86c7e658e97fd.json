@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test calls mean on [1, 2, 3] and expects 2.0, which is the ordinary arithmetic mean and matches the docstring example exactly.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says matching rows are returned as a list of tuples, and its example shows the id, name and age layout the test checks with a single John row.",
+  "missing": "none"
+}

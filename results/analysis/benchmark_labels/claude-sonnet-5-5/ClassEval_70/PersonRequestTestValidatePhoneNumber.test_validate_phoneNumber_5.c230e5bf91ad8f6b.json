@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The input is an 11-digit string, which the docstring says is valid, so a programmer would return it unchanged, and the test expects exactly that.",
+  "missing": "none"
+}

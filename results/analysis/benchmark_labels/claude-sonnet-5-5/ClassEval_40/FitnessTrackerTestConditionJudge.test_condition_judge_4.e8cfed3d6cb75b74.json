@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"based on the BMI standard\" and never gives the BMI ranges per sex, nor how BMI is computed, so a programmer cannot tell that BMI \u2248 20.28 for a male counts as normal (the reference uses a male range of 20\u201325, which is not mentioned). The example shows only a too-thin case, and the lower boundary is not specified.",
+  "missing": "The docstring should give the BMI standard ranges for each sex (the lower and upper normal bounds), state that BMI is weight divided by height squared, and say whether the bounds are inclusive."
+}

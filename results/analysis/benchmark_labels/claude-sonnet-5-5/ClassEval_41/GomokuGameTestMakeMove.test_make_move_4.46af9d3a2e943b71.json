@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a valid move places the current player's symbol and switches players, and that an occupied cell gives False; the test checks X at (0,0), then O at (0,1), then a False result for the repeated (0,0), all of which follows from this.",
+  "missing": "none"
+}

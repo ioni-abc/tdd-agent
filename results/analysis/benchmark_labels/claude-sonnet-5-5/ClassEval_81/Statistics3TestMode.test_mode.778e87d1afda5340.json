@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses a list with a single clear mode, [1, 2, 3, 3], and the docstring says mode returns a list and shows this exact example, so a programmer following it would return [3].",
+  "missing": "none"
+}

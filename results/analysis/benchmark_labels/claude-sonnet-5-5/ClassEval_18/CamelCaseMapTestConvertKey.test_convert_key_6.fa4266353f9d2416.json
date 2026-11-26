@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring declares `key` as str and says nothing about non-string keys, but the test passes an integer and expects it back unchanged.",
+  "missing": "The docstring should say that keys which are not strings are returned unchanged, without conversion or an error."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Starting at level 1 with 0 exp, 400 exp gives level 2 after 100 and level 3 after 200 more, leaving 100 exp, which is the leveling and overflow rule the docstring describes and its example confirms.",
+  "missing": "none"
+}

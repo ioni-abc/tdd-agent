@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest shows the exact pattern, so a programmer would return it and the unseparated number '1234567890' would not match, giving False.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test removes 2 from a quantity of 5 and expects 3, which is the plain subtraction the docstring describes and its example shows.",
+  "missing": "none"
+}

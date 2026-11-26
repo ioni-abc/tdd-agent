@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the blank moving in the given direction (swapping with its neighbour), and the test's 'right' move has the blank swap with its right neighbour, consistent with that.",
+  "missing": "none"
+}

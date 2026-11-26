@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring example only shows values that are exact at three decimals, so it never says whether the fractions are rounded; the test expects full-precision unrounded floats, which a rounding implementation would fail.",
+  "missing": "The docstring should say that the Zeroes and Ones values are returned as plain fractions (count divided by total length) with no rounding, at full float precision."
+}

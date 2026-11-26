@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A shift of 26 is a full rotation of the alphabet, so a programmer following the Caesar cipher description would return the text unchanged, which matches the test.",
+  "missing": "none"
+}

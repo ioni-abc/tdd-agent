@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says args must be greater than or equal to 0 and even, otherwise raise ValueError, so -1 (negative and odd) raises ValueError under any reading.",
+  "missing": "none"
+}

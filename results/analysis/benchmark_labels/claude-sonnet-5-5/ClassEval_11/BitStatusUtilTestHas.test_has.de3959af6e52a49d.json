@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test calls has(6, 2) and expects True, which matches the docstring example exactly, and 6 (binary 110) contains bit 2 under any reasonable reading of \"contains\".",
+  "missing": "none"
+}

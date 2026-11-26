@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects an ordinal word (\"fifteenth\") to count as valid, but the docstring never says ordinal forms are accepted, and its only example is misleading.",
+  "missing": "The docstring should say that ordinal forms of number words (for example, words ending in \"th\", or \"first\" and \"second\") are also accepted as valid number words."
+}

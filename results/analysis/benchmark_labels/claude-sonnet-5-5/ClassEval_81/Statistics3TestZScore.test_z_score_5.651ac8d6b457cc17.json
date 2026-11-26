@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes computing z-scores and never says what happens when all values are equal (standard deviation zero), where the reference returns None instead of raising an error or returning a list of zeros or NaNs.",
+  "missing": "The docstring should say that when the standard deviation is zero (for example, all elements are identical), the method returns None rather than a list."
+}

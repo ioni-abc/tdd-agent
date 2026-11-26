@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test requires a table named exactly 'books', but the docstring only says \"the book table\" without giving its name, so a correct implementation could use a different name and fail.",
+  "missing": "The docstring should specify the exact name of the table to create (and ideally its columns), since callers and tests look it up by that name."
+}

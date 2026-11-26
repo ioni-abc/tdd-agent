@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The area of an annulus is pi*(R^2 - r^2), which for radii 1 and 3 gives 8*pi \u2248 25.13, matching the test, and the docstring's example is consistent with this formula.",
+  "missing": "none"
+}

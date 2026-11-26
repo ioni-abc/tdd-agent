@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes the case where a '#' fragment exists, so it never says what to return when the URL has no fragment, and the test expects None where an implementation could just as reasonably return an empty string.",
+  "missing": "The docstring should say what get_fragment returns when the URL contains no '#' (for example, that it returns None rather than an empty string)."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The input is a valid 8-bit-aligned binary string for \"helli\", and the docstring's instruction to convert the binary string to a utf-8 string, with its \"hello\" example, implies decoding each 8-bit group as a byte, so the test is covered.",
+  "missing": "none"
+}

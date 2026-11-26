@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows leading and trailing slashes stripped to give segments, so '/123/456/789' yielding ['123','456','789'] follows, and with_end_tag stays at its default False when there is no trailing slash.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The input has one malformed address (\"ygusyfysy@.com\", with no domain label before the dot) and one valid address, so any reasonable email extraction returns only the valid one, as the docstring's \"extract all email addresses\" implies.",
+  "missing": "none"
+}

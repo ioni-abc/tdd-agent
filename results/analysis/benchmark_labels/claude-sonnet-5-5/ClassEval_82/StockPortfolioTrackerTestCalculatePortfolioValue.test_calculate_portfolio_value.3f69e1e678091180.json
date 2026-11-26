@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest shows a 10000.0 cash balance plus one holding worth 1500.0 giving 11500.0, which is exactly what this test checks, so cash plus the sum of holdings can be inferred.",
+  "missing": "none"
+}

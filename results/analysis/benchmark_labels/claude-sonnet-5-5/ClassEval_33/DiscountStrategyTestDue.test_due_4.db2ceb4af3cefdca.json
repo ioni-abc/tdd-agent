@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The due() docstring does not say how the LargeOrderPromo discount is computed (its rate or the distinct-product threshold), yet the test's expected 139.5 depends on that rule.",
+  "missing": "The docstring should say that the discount is determined by the chosen promotion, and give each promotion's rule (for the large-order promotion, the minimum number of distinct products and the percentage taken off the whole order total)."
+}

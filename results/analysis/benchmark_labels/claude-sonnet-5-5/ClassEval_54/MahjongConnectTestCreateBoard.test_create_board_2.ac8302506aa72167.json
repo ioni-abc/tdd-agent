@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test only checks that every icon on the board comes from the given icon list, which a docstring-following implementation (including the cyclic pattern in the example) satisfies, even though the reference code picks icons randomly.",
+  "missing": "none"
+}

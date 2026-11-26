@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that a valid info dict with addr and content gets stored in send_struct, which is exactly what this test checks with a valid input.",
+  "missing": "none"
+}

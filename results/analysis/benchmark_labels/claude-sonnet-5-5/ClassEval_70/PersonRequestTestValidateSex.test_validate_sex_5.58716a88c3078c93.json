@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a sex outside Man, Woman, or UGM becomes None, and \"khsigy\" is invalid, so the constructor stores None as the test expects.",
+  "missing": "none"
+}

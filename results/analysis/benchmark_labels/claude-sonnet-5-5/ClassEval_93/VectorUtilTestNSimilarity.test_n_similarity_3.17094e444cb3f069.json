@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"cosine similarity between two sets of vectors\", but the test expects the cosine of the two lists' mean vectors, which gives 0.9487 here. Pairwise cosines or another aggregation would give different values and fail.",
+  "missing": "The docstring should say that each list is first averaged element-wise into one mean vector, and the result is the single scalar cosine similarity between those two mean vectors."
+}

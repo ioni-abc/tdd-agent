@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says withdraw_resume removes the given resume from the resumes list, and the test calls it twice to remove both resumes, leaving an empty list, which any straightforward implementation would do.",
+  "missing": "none"
+}

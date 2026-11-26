@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is an ordinary multiplication of two digit strings returning the product string, which is exactly what the docstring describes.",
+  "missing": "none"
+}

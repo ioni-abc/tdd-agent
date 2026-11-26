@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes adding a new product, so a programmer might overwrite the existing entry when the same item is added again, while the test expects the quantities to be summed.",
+  "missing": "The docstring should say that adding an item already in the inventory increases its existing quantity by the given amount (keeping the existing entry) instead of replacing it."
+}

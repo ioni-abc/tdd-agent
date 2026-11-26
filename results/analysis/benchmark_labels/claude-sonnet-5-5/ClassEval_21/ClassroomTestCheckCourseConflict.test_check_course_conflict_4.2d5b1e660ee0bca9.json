@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The new course (09:40-10:40) overlaps the existing course (09:00-10:00), so the docstring's \"False if the new course time conflicts\" clearly applies and the test expects False.",
+  "missing": "none"
+}

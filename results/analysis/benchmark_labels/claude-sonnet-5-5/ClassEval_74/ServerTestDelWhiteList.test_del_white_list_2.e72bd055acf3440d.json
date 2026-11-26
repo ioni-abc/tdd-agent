@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's :return: line says to return False when the address does not exist, which is exactly what the test checks on an empty whitelist.",
+  "missing": "none"
+}

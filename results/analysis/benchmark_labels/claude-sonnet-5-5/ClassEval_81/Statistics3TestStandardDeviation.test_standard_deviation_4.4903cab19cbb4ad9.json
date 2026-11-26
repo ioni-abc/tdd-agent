@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A standard deviation of [1, 1, 1, 1] is 0.0 whether the population or sample formula is used, so any reasonable implementation passes this test.",
+  "missing": "none"
+}

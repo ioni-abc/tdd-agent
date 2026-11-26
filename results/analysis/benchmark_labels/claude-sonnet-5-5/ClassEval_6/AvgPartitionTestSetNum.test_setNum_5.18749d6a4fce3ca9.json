@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to compute the block size and the remainder of the division; with 5 items in 5 partitions, the natural result is (1, 0), which matches the test.",
+  "missing": "none"
+}

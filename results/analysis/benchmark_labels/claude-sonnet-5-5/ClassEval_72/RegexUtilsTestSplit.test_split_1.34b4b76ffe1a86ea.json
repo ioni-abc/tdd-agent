@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to split text on a regular expression and return the substrings, and its doctest shows the exact output, including the empty strings at the ends, which the test repeats.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Adding songs one after another to the playlist naturally appends them in order, matching the docstring and the example, so the expected list follows directly.",
+  "missing": "none"
+}

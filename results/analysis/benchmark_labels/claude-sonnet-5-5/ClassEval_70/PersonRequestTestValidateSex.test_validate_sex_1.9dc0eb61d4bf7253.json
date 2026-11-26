@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that a sex other than Man, Woman, or UGM is set to None, and the test passes \"Unknown\" and expects pr.sex to be None. The test reaches _validate_sex through the constructor rather than calling it directly, but the docstring's behaviour still applies.",
+  "missing": "none"
+}

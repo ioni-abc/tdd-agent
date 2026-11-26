@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that get_messages('John') returns the list stored under that user's name, which is exactly what the test checks.",
+  "missing": "none"
+}

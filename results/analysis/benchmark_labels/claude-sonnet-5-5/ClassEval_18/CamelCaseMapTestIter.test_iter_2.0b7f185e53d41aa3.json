@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example output, `dict_keyiterator`, shows that `__iter__` returns an iterator over the map's stored keys, and a dict iterator gives them in insertion order. That is all the test checks, because its keys contain no underscores and so are unchanged by camelization.",
+  "missing": "none"
+}

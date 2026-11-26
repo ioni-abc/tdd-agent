@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects names in the order students were stored (John before Bob), but the docstring says only \"a list of student name\" and never specifies the ordering, so an implementation returning a different order (e.g. sorted alphabetically) would fail.",
+  "missing": "The docstring should state that the returned names keep the order in which the students were registered (insertion order), without sorting."
+}

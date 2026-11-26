@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test matches the docstring's own example: the city's temperature is already in celsius, so no conversion is needed and the result is (27, 'sunny').",
+  "missing": "none"
+}

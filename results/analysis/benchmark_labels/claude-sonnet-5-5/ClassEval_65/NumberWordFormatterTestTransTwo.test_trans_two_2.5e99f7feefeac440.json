@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Converting the two-digit number \"10\" into words naturally gives \"TEN\", and the docstring's description of converting a two-digit number into words, with the uppercase format shown in the example, is enough for a programmer to produce this.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says that targets, boxes and the player position are set, and never mentions a `target_count` attribute, so an implementation that follows it could leave `target_count` unset or at 0 and fail the test.",
+  "missing": "The docstring should say that init_game also sets `target_count` to the number of targets found on the map."
+}

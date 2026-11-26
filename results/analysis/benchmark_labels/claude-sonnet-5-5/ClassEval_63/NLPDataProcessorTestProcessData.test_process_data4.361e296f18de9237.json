@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Keeping only letters and spaces deletes digits and symbols without replacing them, then lowercasing and splitting gives exactly the expected lists, including an empty list for digit-only input.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test checks factorial(5) == 120, which is the standard factorial and is also the docstring's own example.",
+  "missing": "none"
+}

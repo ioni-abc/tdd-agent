@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring example says a hyphenated number like \"thirty-two\" is invalid (False), but the reference code treats hyphens as spaces and the test expects True for hyphenated number words.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With a single item, selecting at least 1 and at most 1 item gives exactly [[1]], which follows directly from the docstring and its example.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Indirect test: it constructs PersonRequest and checks the `name` attribute rather than calling `_validate_name` directly; the behaviour (a valid short name is returned unchanged) is implied by the docstring, but the test relies on the constructor calling `_validate_name` and storing the result, which the method's docstring does not state.",
+  "missing": "none"
+}

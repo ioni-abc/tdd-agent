@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"raise false while get invalid input\" and never defines invalid input, so removing more copies than are in stock could reasonably be handled in another way, such as removing what is available.",
+  "missing": "The docstring should say that an exception is raised when the title is not in inventory or when the requested quantity exceeds the quantity in stock."
+}

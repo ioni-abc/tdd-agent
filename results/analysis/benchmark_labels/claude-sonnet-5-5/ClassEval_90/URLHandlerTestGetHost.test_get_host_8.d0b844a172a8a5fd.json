@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The URL \"https://bbb.com/\" has host domain \"bbb.com\", which follows directly from the docstring's description of the host as the second part of the URL, and the docstring example shows the same pattern.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The standard Rail Fence decipher (zigzag starting at the top rail) with 4 rails turns 'Hoo!el,Wrdl l' into 'H!W reoldll,o', which is what the test expects. The docstring's 3-rail example uses the same convention.",
+  "missing": "none"
+}

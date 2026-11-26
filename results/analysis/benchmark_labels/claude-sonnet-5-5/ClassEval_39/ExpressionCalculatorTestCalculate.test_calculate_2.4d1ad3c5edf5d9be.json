@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows an infix expression being evaluated to a float with normal arithmetic, so \"2 + 3 + 4\" giving 9.0 follows directly, despite the misleading \"postfix\" wording.",
+  "missing": "none"
+}

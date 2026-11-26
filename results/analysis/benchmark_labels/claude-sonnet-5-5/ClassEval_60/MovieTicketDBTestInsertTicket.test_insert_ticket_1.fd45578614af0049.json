@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test exercises create_table only indirectly, through insert and search, and it depends on column order. The docstring lists the fields in that same order (ID, movie, theater, seat, customer), so an implementation following it would pass.",
+  "missing": "none"
+}

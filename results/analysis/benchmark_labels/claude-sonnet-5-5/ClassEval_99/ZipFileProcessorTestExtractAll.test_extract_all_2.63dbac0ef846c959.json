@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to extract all files into the given path and return True on success, which is exactly what the test checks (a True return and the extracted file existing in the output directory).",
+  "missing": "none"
+}

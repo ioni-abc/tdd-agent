@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names the standard Rail Fence cipher and gives an example identical to the test, so a programmer implementing the standard zigzag decryption would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say whether a slot that starts exactly at an existing event's end time counts as a conflict, and the test expects that it does not.",
+  "missing": "The docstring should say that time slots are treated as half-open intervals, so a slot that only touches an event's start or end boundary without overlapping it is still available."
+}

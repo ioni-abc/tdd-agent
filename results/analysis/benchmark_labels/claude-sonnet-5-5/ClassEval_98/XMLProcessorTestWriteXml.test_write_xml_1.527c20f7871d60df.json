@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Writing the processor's XML data to the file and returning True on success is what the docstring describes, and the test checks exactly that plus a round-trip read.",
+  "missing": "none"
+}

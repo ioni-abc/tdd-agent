@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says play returns the current song, and the test sets current_song to \"song1\" and expects \"song1\", which matches the docstring (the reference returning playlist[0] gives the same result here).",
+  "missing": "none"
+}

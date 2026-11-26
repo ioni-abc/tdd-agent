@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test expects standard precision (TP/(TP+FP) = 2/3 with positive class 1), which matches the docstring's \"Calculate precision\" and its example.",
+  "missing": "none"
+}

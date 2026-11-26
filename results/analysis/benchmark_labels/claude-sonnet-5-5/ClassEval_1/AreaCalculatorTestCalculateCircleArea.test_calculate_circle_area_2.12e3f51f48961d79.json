@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to compute the circle's area from self.radius, and the example (radius 2 giving 4\u03c0) shows the standard formula \u03c0r\u00b2, so radius 2.5 gives about 19.63, which the test accepts within its delta.",
+  "missing": "none"
+}

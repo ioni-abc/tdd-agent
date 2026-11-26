@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that when m is not provided all items are selected, and its example shows arrangements as ordered lists in lexicographic order; for [1, 2] this gives [[1, 2], [2, 1]], matching the test.",
+  "missing": "none"
+}

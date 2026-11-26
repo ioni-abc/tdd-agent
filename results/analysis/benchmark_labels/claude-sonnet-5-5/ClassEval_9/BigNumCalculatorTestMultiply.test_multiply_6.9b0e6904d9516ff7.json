@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says how leading zeros in the input or output strings are handled, so a programmer could return \"000000001\" or \"1\" for this input, and only \"1\" passes.",
+  "missing": "The docstring should say that the result is returned as a normalized number string with leading zeros stripped (a result of zero is \"0\"), and that inputs may contain leading zeros."
+}

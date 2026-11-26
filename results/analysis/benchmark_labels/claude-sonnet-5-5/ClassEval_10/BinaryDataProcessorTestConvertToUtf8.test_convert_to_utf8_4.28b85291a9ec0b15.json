@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The input is a valid 8-bit-per-character binary string, and converting it to UTF-8 yields \"kello\" (0x6B='k', then \"ello\"), which is the ordinary behaviour the docstring describes and illustrates with the \"hello\" example.",
+  "missing": "none"
+}

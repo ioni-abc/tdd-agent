@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the XML data is written to the file and True is returned on success; the test checks exactly this by writing the root and re-parsing the file to verify the items.",
+  "missing": "none"
+}

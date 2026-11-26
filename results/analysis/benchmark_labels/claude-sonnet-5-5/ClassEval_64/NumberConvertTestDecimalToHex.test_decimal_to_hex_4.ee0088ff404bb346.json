@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows a hex string with no \"0x\" prefix, and 169815 converts to '29757', which uses only digits, so the case convention for letters does not matter here.",
+  "missing": "none"
+}

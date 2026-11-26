@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Treating 1 as the positive class, the test has precision 1 and recall 2/3, so the harmonic mean is 0.8, which is what the docstring's definition of F1 gives.",
+  "missing": "none"
+}

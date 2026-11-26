@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says deposit increases the balance and returns the current balance, so two deposits of 1000 and 2000 return 3000, which the test expects.",
+  "missing": "none"
+}

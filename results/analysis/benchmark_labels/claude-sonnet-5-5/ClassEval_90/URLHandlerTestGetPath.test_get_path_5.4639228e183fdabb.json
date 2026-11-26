@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_path returns the third part of the URL (the resource address), and the example shows everything from the first slash after the host onward, so \"/bbb/human-eval\" follows directly.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The method docstring only says to set the value for the key, but the test passes only if the key is converted to camel case before storing, so that it matches how `__getitem__` looks it up.",
+  "missing": "The docstring should say that the key is converted to camel case before the value is stored, so lookups through the same conversion find it."
+}

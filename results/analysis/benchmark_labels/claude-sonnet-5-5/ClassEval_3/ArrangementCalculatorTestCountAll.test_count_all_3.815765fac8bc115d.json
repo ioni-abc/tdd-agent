@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to count arrangements choosing 1 to n items from n; for n=2 that is 2 + 2 = 4, and the doctest for n=4 (64 = 4+12+24+24) confirms the permutation interpretation, so the test is consistent.",
+  "missing": "none"
+}

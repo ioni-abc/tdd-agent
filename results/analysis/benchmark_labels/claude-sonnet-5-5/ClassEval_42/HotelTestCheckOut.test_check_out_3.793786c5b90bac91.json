@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a new room type is added to available_rooms, and its example shows 'triple' added with count 2. The test expects exactly that, and booked_rooms stays unchanged, which fits the docstring since it only mentions available_rooms.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says that an occupied cell makes the move fail (returning False) or that a failed move leaves the current player unchanged, and the test's last two assertions depend on both.",
+  "missing": "State that a move onto an already occupied position is unsuccessful: it returns False, leaves the board unchanged, and does not switch the current player."
+}

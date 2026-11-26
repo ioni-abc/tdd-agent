@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The goal is the standard `[[1,2,3],[4,5,6],[7,8,0]]`. BFS returns the shortest path, and here the only 2-move solution moves the blank right twice. The docstring example (`[7,0,8]` \u2192 `['right']`) confirms that \"right\" means the blank moves right.",
+  "missing": "none"
+}

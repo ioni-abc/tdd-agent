@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "\"Marks a book as returned\" corresponds to setting the available flag back to 1, which follows from the class's schema and from borrow_book setting it to 0.",
+  "missing": "none"
+}

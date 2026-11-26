@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to add the given seconds to the current time and return it as '%H:%M:%S', which is exactly what the test checks with 500 seconds.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example pins down the total surface area formula, and a radius of 0 gives an area of 0 under it, which matches the test.",
+  "missing": "none"
+}

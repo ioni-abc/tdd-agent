@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows hourly slots from midnight through the final 23:00\u201300:00 slot, with events removing the slots they overlap. An event whose start and end fall on January 2 overlaps none of January 1's slots, so all 24 remain.",
+  "missing": "none"
+}

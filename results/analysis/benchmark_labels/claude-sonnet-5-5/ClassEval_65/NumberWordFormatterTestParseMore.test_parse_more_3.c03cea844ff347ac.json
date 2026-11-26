@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring lists thousand, million, billion in order and its example maps index 1 to uppercase \"THOUSAND\", so index 2 giving \"MILLION\" follows directly.",
+  "missing": "none"
+}

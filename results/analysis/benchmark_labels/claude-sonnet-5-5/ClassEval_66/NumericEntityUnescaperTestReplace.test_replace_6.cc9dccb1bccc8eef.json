@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says nothing about incomplete or malformed references such as a bare \"&#\", and a natural implementation would return the input unchanged, while the reference returns an empty string because its loop drops trailing characters.",
+  "missing": "The docstring should say what happens to text that is not a complete numeric character reference (for example a truncated \"&#\" at the end of the input): whether it is kept unchanged or dropped."
+}

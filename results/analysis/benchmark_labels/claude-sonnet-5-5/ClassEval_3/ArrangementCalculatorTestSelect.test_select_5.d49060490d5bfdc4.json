@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says select picks m items as arrangements, and its example shows ordered lists in input order; with m=1 the result is each element as a single-item list in original order, which a programmer would naturally produce.",
+  "missing": "none"
+}

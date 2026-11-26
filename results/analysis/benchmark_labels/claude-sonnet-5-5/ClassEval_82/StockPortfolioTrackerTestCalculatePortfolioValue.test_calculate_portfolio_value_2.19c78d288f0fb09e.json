@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the total includes cash balance plus the sum of price times quantity over holdings (10000 + 1500 = 11500), and this test with two holdings follows the same rule (10000 + 3000 = 13000).",
+  "missing": "none"
+}

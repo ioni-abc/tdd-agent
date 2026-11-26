@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test asserts that booked seats are set to 1, but the docstring only says the seats value changes and never specifies what value marks a booked seat.",
+  "missing": "The docstring should state that the seat matrix uses 0 for an available seat and 1 for a booked seat, and that booking sets each requested seat to 1."
+}

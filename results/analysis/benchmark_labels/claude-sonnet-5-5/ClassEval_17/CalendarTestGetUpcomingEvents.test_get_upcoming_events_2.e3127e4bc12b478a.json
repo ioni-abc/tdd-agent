@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring talks about \"a given date\" and lists a `date` parameter, but the signature has none, and it never says that \"upcoming\" means an event whose start_time is at or after the current system time; the test expects a 2023 event to be excluded because it is in the past.",
+  "missing": "State that upcoming events are those whose start_time is at or after the current date and time (datetime.now()), taken in list order, and that the result holds at most n of them, empty if none qualify."
+}

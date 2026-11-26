@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the direction \"only has 4 direction\" values, so an invalid direction such as '???' is outside the documented input, and the expected result (an unchanged copy of the state) is only an artifact of the reference code's if/elif chain with no else branch.",
+  "missing": "The docstring should say what move returns when the direction is not one of the four valid values, for example that the state is returned unchanged."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to level up when exp reaches 100 times the current level and to carry overflow into further level-ups. Starting at level 1, 300 exp gives level 2 after 100 and level 3 after another 200. The exact boundary counts as \"reached\", so exp ends at 0 and level at 3.",
+  "missing": "none"
+}

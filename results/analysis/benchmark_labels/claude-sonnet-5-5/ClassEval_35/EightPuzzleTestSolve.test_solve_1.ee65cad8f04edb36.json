@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example is exactly this test's input and output, and the BFS description gives a one-move path ['right'] for this state.",
+  "missing": "none"
+}

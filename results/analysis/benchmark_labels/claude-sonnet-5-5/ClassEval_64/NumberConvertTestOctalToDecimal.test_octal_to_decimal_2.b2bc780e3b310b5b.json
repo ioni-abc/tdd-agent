@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test converts a plain octal string to its decimal int, which is exactly what the docstring describes. Since 5\u00b78^4 + 1\u00b78^3 + 4\u00b78^2 + 2\u00b78 + 7 = 21271, the expected value is correct.",
+  "missing": "none"
+}

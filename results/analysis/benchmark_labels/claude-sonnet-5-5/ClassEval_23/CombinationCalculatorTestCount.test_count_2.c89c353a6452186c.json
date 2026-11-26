@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the number of combinations of m elements from n, and the standard formula gives C(5,3)=10, which a programmer would implement and the test confirms.",
+  "missing": "none"
+}

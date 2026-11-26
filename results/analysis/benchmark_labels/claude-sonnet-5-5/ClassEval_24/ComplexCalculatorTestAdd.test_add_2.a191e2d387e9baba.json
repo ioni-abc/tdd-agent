@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Adding two complex numbers, here with negative parts, yields (-4-6j) by ordinary complex addition, which the docstring's description and example cover.",
+  "missing": "none"
+}

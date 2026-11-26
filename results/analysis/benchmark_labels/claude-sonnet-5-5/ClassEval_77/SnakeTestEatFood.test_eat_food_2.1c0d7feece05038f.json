@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says eat_food increases length by 1 and score by 100, so two calls give length 3 and score 200, which the test checks; the doctest's \"score = 10\" is a typo, but the prose is clear.",
+  "missing": "none"
+}

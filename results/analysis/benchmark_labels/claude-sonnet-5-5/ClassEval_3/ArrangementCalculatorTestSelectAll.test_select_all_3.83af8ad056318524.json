@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says all arrangements of size 1 up to n are generated, and its example shows ordering by size and then lexicographic by input position, which the test's [[1],[2],[1,2],[2,1]] follows.",
+  "missing": "none"
+}

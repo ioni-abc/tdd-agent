@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test makes 8 moves at 8 distinct positions, leaving one of the 9 cells empty, so a board that is \"completely filled\" must report False, as the docstring implies.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the count as the sum of ordered arrangements for sizes 1 to n, and its example (64 for n=4) fits this; for n=3 the sum is 3+6+6=15, which matches the test.",
+  "missing": "none"
+}

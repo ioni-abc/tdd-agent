@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring returns True for a new user and its example shows users becoming {'John': []}, so adding two new users yields True each time and a dict mapping each name to an empty list.",
+  "missing": "none"
+}

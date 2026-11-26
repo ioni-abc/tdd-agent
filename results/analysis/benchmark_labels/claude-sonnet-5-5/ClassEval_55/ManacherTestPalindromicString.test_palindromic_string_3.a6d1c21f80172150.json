@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The input 'ababax' has a unique longest palindromic substring 'ababa', so following the docstring (\"longest palindromic substring\") yields the expected output without any tie-breaking or edge-case convention.",
+  "missing": "none"
+}

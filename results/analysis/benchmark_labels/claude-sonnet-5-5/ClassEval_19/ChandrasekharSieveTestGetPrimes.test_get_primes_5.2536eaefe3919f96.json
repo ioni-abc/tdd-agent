@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "`get_primes` only returns the already-generated list of primes, and for an input of 1 there are no primes, so an empty list follows directly from the docstring.",
+  "missing": "none"
+}

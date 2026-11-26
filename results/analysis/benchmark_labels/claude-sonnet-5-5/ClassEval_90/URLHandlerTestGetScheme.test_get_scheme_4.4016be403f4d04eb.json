@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the URL's scheme, and the text before \"://\" is \"aaa\"; nothing in the docstring restricts schemes to well-known ones, so a natural implementation returns \"aaa\".",
+  "missing": "none"
+}

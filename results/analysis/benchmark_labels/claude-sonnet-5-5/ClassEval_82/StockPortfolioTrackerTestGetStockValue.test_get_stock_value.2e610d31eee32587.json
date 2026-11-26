@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example is identical to the test case, and the value of a stock as price times quantity is the natural implementation, so a programmer following it would pass.",
+  "missing": "none"
+}

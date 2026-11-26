@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test expects the standard cosine similarity of the two vectors (4/(2\u00b7\u221a5) \u2248 0.8944), which is exactly what the docstring describes.",
+  "missing": "none"
+}

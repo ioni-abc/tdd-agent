@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Selling a stock that isn't held means there is not enough quantity, so the docstring's \"False if the quantity is not enough\" covers it, and the portfolio and cash stay unchanged.",
+  "missing": "none"
+}

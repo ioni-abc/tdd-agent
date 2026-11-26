@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows a nonzero example ending in \"ONLY\" and never says how zero is rendered, so \"ZERO ONLY\" is one convention among several (e.g. \"ZERO\", or an empty string).",
+  "missing": "The docstring should state that the number zero is converted to the word \"ZERO\" followed by the \"ONLY\" suffix."
+}

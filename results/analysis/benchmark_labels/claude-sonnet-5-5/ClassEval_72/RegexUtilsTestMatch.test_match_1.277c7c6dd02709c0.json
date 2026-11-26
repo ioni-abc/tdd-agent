@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test repeats the docstring's own example, where the text clearly matches the pattern, so any reasonable implementation (match, fullmatch, search) returns True.",
+  "missing": "none"
+}

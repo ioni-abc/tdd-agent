@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method calculates the median of a list, and the median of [1,2,3,4,5] is 3, which any standard implementation returns (3 == 3.0 in assertEqual).",
+  "missing": "none"
+}

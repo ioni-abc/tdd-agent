@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test calls remove(6, 2) and expects 4, which is exactly the docstring's own example, so removing status 2 from 6 gives 4.",
+  "missing": "none"
+}

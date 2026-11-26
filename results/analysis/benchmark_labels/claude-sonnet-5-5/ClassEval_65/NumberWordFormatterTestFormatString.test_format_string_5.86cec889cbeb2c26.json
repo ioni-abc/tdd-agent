@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows a nonzero example, so a programmer would not know that \"0\" should yield \"ZERO ONLY\"; a natural implementation might produce \"ZERO\" or an empty-based string.",
+  "missing": "The docstring should say that an input representing zero (all zero digits) returns the word \"ZERO\" followed by the \"ONLY\" suffix."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a level-up happens when exp reaches 100 times the current level and that overflow carries into the next level-up, so 200 exp at level 1 gives level 2 with 100 exp left over, which is what the test expects.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test computes ordinary precision (TP=1, FP=1 gives 0.5) with positive class 1, which matches the standard definition and the docstring example.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says `load_cookies` reads the cookies file and returns its contents as a dict, and the test expects exactly that. The assignment to `self.cookies_util.cookies` plays no part in the result.",
+  "missing": "none"
+}

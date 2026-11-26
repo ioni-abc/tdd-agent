@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that missing required arguments yield (False, set of missing names), and this test provides name but not the required age, so (False, {\"age\"}) follows directly.",
+  "missing": "none"
+}

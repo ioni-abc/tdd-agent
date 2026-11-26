@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test mirrors the docstring's own example: accuracy of [1,1,0,0] against [1,0,0,1] is 0.5, which is the standard fraction of matching predictions, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

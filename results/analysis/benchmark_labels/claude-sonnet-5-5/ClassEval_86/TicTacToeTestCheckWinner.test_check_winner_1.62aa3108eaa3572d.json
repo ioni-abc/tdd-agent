@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says check_winner returns the winner's mark ('X' or 'O') when a row, column or diagonal is complete, and the test's row of X's at row 1 matches this and the docstring's own example.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to compute the factorial of a, and factorial(1) = 1 follows from the standard mathematical definition, so a programmer would return 1.",
+  "missing": "none"
+}

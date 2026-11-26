@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test checks factorial(2) == 2, which is the standard factorial value that any implementation following \"Calculate the factorial of a\" would produce.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The longest palindromic substring of 'ababaxssss' is uniquely 'ababa' (length 5, versus 'ssss' at length 4), so the docstring's description determines the expected output.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With an empty stop word list nothing is removed, so each string is split into words and returned as a list per string, which matches the nested-list shape in the docstring example.",
+  "missing": "none"
+}

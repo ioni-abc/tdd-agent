@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring doesn't say whether a token mixing letters and digits is dropped entirely or just has its digits removed, and the test expects the digits to be stripped while the word is kept (3).",
+  "missing": "State that non-letter characters (punctuation and digits) are removed from the text before counting, so a token that still has letters after removal counts as a word, and a token with no letters left does not."
+}

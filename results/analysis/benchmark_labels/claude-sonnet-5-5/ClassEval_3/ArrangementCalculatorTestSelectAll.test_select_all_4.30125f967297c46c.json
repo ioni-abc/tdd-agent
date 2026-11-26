@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows arrangements grouped by increasing size, with input-order permutations within each size, which yields exactly the expected output for [1, 3].",
+  "missing": "none"
+}

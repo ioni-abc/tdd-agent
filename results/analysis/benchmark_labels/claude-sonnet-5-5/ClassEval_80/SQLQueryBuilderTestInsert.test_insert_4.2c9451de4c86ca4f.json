@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the exact format (column names joined by commas, values quoted in single quotes), and a single-key dict follows it directly to give \"INSERT INTO users (name) VALUES ('Tom')\".",
+  "missing": "none"
+}

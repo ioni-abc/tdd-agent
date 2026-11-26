@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to find the blank and move the board in the given direction, and the example shows the blank swapping with its neighbor. In the test, the blank at the center moves down, swapping with 8, which gives the expected result.",
+  "missing": "none"
+}

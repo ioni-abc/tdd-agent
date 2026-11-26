@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"calculate the kurtosis\" and gives one example. It does not say which definition to use (excess kurtosis with the 3 subtracted, population versus sample standard deviation, no bias correction), and the test uses exact float equality, so a different valid formula or operation order could give a slightly different float.",
+  "missing": "The docstring should say that kurtosis is the population excess kurtosis: the fourth central moment divided by the population standard deviation to the fourth power, minus 3, with no bias correction."
+}

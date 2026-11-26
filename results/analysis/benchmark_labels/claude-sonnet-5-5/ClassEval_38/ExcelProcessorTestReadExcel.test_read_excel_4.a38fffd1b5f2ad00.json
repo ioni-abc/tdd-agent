@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says it returns a \"list of data\", but the test expects a list of tuples (one per row), and an implementation returning a list of lists would fail the equality check.",
+  "missing": "The docstring should say that the return value is a list with one entry per row of the active sheet, and that each row is a tuple of cell values."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return False when the product_id is not in inventory, and the test checks that an empty warehouse returns False for an unknown id.",
+  "missing": "none"
+}

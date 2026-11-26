@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the search stops when open_list is empty but never says what to return when no solution is found, and the test expects None, where an empty list would be just as plausible.",
+  "missing": "State that solve returns None, not an empty list, when the queue empties without reaching the goal state (the puzzle is unsolvable)."
+}

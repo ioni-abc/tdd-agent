@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the quantity when the product_id is in inventory, and the test adds product 1 with quantity 10 and expects 10, which matches.",
+  "missing": "none"
+}

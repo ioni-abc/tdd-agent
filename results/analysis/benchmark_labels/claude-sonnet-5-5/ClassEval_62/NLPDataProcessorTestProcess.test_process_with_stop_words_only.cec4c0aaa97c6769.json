@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows one inner list of words per input string, with stop words like 'a', 'an' and 'the' removed, so stop-word-only strings naturally give empty lists, i.e. [[], [], []].",
+  "missing": "none"
+}

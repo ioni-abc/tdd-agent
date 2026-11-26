@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test buys a stock already in the portfolio and expects the quantities to merge into one entry and the cash balance to be reduced, but the docstring only says \"add it to the portfolio\" and never describes merging with an existing entry or the cash deduction.",
+  "missing": "The docstring should say that buying a stock whose name is already in the portfolio increases that entry's quantity instead of adding a duplicate entry, and that the purchase cost (price times quantity) is deducted from the cash balance."
+}

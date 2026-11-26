@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows that a user not in chat.users (Mary) yields an empty list, which is the same behavior this test checks for an unknown user 'Amy'.",
+  "missing": "none"
+}

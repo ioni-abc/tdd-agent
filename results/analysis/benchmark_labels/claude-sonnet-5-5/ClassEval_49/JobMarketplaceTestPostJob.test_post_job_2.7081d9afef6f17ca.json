@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says post_job adds the position information to job_listings, and its example shows a dict with keys job_title, company and requirements, which is exactly what this test expects for a fresh marketplace.",
+  "missing": "none"
+}

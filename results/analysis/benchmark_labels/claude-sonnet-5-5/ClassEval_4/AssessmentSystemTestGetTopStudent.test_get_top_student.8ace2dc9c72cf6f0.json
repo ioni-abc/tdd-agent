@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test expects the student with the highest average score (Alice, 90 vs 85), which is exactly what the docstring describes.",
+  "missing": "none"
+}

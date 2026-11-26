@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows purchasing a nonexistent item ('Pizza') returning False, and the test checks exactly this plus that the inventory stays unchanged, which is the natural behavior of a failed purchase.",
+  "missing": "none"
+}

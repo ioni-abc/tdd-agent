@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Converting \"10\" to \"TEN\" and appending \" ONLY\" follows from the docstring's description and its example, which also ends in \"ONLY\".",
+  "missing": "none"
+}

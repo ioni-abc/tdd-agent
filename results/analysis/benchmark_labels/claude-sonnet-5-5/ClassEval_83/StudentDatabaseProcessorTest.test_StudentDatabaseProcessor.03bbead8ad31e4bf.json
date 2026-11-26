@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method deletes a student from the \"students\" table by name, and the test inserts Charlie, deletes him by name, and checks that no rows remain, which a programmer following the docstring would satisfy.",
+  "missing": "none"
+}

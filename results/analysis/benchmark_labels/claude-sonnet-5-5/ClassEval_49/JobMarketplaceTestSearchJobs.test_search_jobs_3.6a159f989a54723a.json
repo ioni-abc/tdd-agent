@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the listings that meet the requirements, and its example shows a skill matching an entry in the requirements list; this test searches for a skill present in only the second listing and expects just that one, which follows directly.",
+  "missing": "none"
+}

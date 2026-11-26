@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test replays the docstring's own example, where X gets five in a row horizontally, and the docstring says to return the winning symbol in that case.",
+  "missing": "none"
+}

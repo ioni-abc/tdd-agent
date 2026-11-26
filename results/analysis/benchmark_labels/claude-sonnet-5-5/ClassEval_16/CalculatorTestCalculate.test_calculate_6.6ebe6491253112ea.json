@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says calculate returns the value of the expression, and '(1+2)+3' evaluates to 6, which equals 6.0 in the assertion; parentheses are ordinary expression syntax.",
+  "missing": "none"
+}

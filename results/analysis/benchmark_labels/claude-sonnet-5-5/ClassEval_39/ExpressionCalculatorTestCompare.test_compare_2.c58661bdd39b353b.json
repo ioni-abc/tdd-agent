@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "`*` and `/` have equal precedence by standard arithmetic convention, and the docstring says to return True when the current operator has higher or equal precedence, so True is expected. The reference code's comparison direction (peek >= cur) differs from the docstring, but the two agree when precedence is equal, as in this test.",
+  "missing": "none"
+}

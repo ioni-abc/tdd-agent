@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test searches by a skill that appears in one listing's requirements and expects only that listing, which follows directly from the docstring's description and example.",
+  "missing": "none"
+}

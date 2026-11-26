@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The employee exists and all keys are valid, so the docstring's rule (return True for an existing employee, and update the info) covers both calls and the final state.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test transfers 200 from an account holding 500 to one holding 1000, a plain successful transfer, and the docstring's \"transfers a certain amount from the current account to another account\" with its example gives 300 and 1200 as expected.",
+  "missing": "none"
+}

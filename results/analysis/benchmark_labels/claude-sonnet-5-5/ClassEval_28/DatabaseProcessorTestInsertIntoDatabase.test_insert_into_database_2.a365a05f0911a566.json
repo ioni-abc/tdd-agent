@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each dictionary in `data` is inserted as a row, and the test checks the row count and that the first row's age is 15. A generic implementation that uses the dictionary keys as columns would pass. The index `[2]` comes from the table layout that `create_table` builds, not from how `insert_into_database` behaves.",
+  "missing": "none"
+}

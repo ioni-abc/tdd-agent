@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes counting permutations of m items chosen from n, and P(4,3) = 4!/1! = 24, which a programmer would compute correctly from this description.",
+  "missing": "none"
+}

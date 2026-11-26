@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says check_out adds the count to the existing room type in available_rooms, which gives the expected 4 singles, and since booked_rooms is never mentioned it stays unchanged.",
+  "missing": "none"
+}

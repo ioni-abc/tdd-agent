@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what get_page_info returns for a page number outside the valid range (here page 5 with only 4 pages), so a programmer could raise an error, return None, or clamp the page rather than return an empty dict.",
+  "missing": "The docstring should say that when the page number is less than 1 or greater than the total number of pages, the method returns an empty dictionary."
+}

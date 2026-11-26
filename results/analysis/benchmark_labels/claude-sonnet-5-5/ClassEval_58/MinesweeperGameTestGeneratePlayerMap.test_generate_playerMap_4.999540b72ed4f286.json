@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the board is n*n with '-' for unknown positions, so n=1 gives [['-']]; k=4 exceeds the number of cells, but generate_playerMap does not use k.",
+  "missing": "none"
+}

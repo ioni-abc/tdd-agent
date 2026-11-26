@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to remove every character that is not 0 or 1, and its example uses the same input and output as the test. The test never calls the method directly, but the constructor in the class skeleton calls it, so a correct implementation passes.",
+  "missing": "none"
+}

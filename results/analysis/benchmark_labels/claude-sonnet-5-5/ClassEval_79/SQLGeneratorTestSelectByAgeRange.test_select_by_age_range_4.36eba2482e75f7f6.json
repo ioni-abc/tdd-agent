@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the exact output format `SELECT * FROM table1 WHERE age BETWEEN 20 AND 30;`, and the test with 40 and 50 follows the same pattern, so an implementation based on the docstring passes.",
+  "missing": "none"
+}

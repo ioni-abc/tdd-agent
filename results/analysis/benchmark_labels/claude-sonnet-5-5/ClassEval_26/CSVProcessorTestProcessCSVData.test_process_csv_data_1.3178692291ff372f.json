@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest uses the same input and shows the processed file reading back as the full title row `['a','b','c','d']` and the data `[['HELLO']]`. That is exactly what the test checks, so a programmer following it would pass.",
+  "missing": "none"
+}

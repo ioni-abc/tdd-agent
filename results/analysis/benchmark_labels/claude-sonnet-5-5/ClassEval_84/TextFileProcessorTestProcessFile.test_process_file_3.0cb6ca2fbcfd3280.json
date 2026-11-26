@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Filtering out all non-alphabetic characters from ', 123 !' yields an empty string, which is written back and returned, matching the docstring's description and example.",
+  "missing": "none"
+}

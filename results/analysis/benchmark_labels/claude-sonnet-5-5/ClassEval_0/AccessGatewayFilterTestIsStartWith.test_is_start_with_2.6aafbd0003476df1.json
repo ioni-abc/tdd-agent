@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the URI is checked against the prefixes \"/api\" and \"/login\" and returns False otherwise, so '/admin/settings' matches neither and gives False.",
+  "missing": "none"
+}

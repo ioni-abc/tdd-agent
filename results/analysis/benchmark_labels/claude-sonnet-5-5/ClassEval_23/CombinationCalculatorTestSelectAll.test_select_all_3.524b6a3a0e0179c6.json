@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows all combinations ordered by increasing size, in input order within each size, and the test with three elements follows the same pattern.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says an error message string is returned on failure but never says what counts as failure (e.g. a missing \"addr\" key) or what the exact message text is, so \"info structure is not correct\" cannot be derived.",
+  "missing": "The docstring should say that if the info is not a dict or lacks the \"addr\" or \"content\" key, the method returns the exact string \"info structure is not correct\"."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Misfiled test: it is named test_delete_ticket_1 and mainly exercises delete_ticket, using search_tickets_by_customer only as a helper, so it does not fit the documented method; the search behaviour it relies on (exact-name match returning rows) is itself consistent with the docstring.",
+  "missing": "none"
+}

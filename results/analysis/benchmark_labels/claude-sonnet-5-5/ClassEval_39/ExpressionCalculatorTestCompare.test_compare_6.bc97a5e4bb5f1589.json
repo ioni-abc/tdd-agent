@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says to return True when the current operator has higher or equal precedence than the stack-top operator. Here \"%\" outranks \"+\", so a programmer following it would return True, but the test and reference code expect False because they actually compute whether peek's precedence is greater than or equal to cur's.",
+  "missing": "none"
+}

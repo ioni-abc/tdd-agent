@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test input is three plain, well-formed email addresses separated by spaces, and the docstring's own example is identical, so any reasonable email-extraction implementation returns the expected list.",
+  "missing": "none"
+}

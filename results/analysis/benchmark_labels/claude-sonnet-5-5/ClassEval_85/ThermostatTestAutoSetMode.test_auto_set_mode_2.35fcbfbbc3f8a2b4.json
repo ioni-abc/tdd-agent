@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that if current temperature is lower than target the mode is 'heat', otherwise 'cool'; here 25 is not lower than 20, so 'cool' is expected, which matches the test.",
+  "missing": "none"
+}

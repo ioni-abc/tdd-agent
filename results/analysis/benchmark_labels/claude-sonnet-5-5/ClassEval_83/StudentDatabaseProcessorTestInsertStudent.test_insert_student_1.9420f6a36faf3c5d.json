@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Mismatched target: the test is `test_insert_student_1`, which asserts on `insert_student`, and `create_student_table` is only called in `setUp`; the docstring's table name and column order would still satisfy it.",
+  "missing": "none"
+}

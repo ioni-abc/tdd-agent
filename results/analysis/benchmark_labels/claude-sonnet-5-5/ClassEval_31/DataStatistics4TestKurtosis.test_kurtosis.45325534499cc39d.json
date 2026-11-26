@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"calculate the kurtosis\", and the example hints at excess kurtosis with population moments, but the test uses exact float equality on a last-digit rounding value (-1.5000000000000002) that depends on the exact order of operations in the reference code.",
+  "missing": "The docstring should give the exact formula (population fourth central moment divided by the squared population variance, minus 3) and say how results are compared, such as rounding or a tolerance, so that tiny floating-point differences do not matter."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test inserts a ticket and reads it back by customer; a programmer following the docstring would insert a row into the \"tickets\" table with those four values, which satisfies the checks.",
+  "missing": "none"
+}

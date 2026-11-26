@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert the binary string to a utf-8 string and gives the same example the test uses, so a programmer following it would produce \"hello\".",
+  "missing": "none"
+}

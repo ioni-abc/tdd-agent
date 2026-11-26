@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Removing an existing employee returns True and deletes it, and a repeat removal finds it absent and returns False, both of which follow directly from the docstring.",
+  "missing": "none"
+}

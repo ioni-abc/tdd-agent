@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows add_student storing a dict keyed by name with name, grade, major and an empty courses dict, and the test only repeats this for five students.",
+  "missing": "none"
+}

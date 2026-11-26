@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses `search_tickets_by_customer` only to find rows matching an exact customer name (one row, then none after deletion), which the docstring describes, and the id in the first column comes from `SELECT *` on the class's own table.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The method name, the summary line and the docstring example (about 0.9746 for the example vectors) all show standard cosine similarity, which is what this test computes (e.g. 3/(2\u00b7\u221a3) \u2248 0.866); the \"cosine distance\" wording in the return line is loose but is outweighed by the example.",
+  "missing": "none"
+}

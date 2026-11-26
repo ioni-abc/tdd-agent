@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The doctest (radius 2, height 3 \u2192 62.83) fixes the total surface area formula 2\u03c0r(r+h), and this test's expected value is consistent with it.",
+  "missing": "none"
+}

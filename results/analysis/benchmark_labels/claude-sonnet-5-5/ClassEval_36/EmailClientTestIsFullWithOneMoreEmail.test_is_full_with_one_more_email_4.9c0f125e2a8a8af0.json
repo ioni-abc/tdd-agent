@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With an empty inbox, an email of size 20 exceeds a capacity of 10, so the box is full after adding it, which matches the docstring on any reasonable reading, and the equality boundary is not exercised.",
+  "missing": "none"
+}

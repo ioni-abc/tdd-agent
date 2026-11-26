@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows selecting 2 of 4 items as ordered arrangements in lexicographic-by-position order, and this test applies the same behaviour to [1, 2, 3], so a programmer following the example would produce the expected output.",
+  "missing": "none"
+}

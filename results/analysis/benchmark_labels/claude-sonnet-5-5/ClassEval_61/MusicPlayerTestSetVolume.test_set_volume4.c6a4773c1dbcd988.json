@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a volume outside 0\u2013100 is invalid and that `False` is returned for it, so `set_volume(101)` returning `False` follows directly. The volume staying at its initial 50 is implied because an invalid volume is not set, and that initial value comes from `__init__`, not from this method.",
+  "missing": "none"
+}

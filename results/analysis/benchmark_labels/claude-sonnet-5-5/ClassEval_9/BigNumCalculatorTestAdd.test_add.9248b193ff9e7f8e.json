@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses the same example as the docstring, adding two large positive integer strings, and the expected sum is the ordinary arithmetic result, which a programmer following the docstring would produce.",
+  "missing": "none"
+}

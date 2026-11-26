@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows whitespace removal (\"2 + 3 * 4\" becomes \"2+3*4\"), and this test's input \"2 - 3 * 4\" only needs the spaces removed, since the binary minus follows a digit and is not converted to '~'.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says sentences end at \". \" or \"? \" except after \"Mr.\", and the test's \"Mr. Smith\" is not split while the split after \"Smith?\" is, exactly as described.",
+  "missing": "none"
+}

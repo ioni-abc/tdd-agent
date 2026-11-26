@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test computes the mean of a list of ones, which is 1.0, and the docstring's \"mean of the given list\" describes exactly this ordinary case.",
+  "missing": "none"
+}

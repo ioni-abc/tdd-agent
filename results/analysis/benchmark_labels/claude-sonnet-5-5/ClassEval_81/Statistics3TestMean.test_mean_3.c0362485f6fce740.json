@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test computes the mean of [1, 1, 1], which a programmer would implement as sum/len and get 1.0, as the docstring describes.",
+  "missing": "none"
+}

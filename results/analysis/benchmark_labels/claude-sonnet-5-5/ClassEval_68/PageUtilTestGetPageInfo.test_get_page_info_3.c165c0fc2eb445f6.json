@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example and description give the dict keys and semantics (current page, per-page size, total pages, items, has_previous/has_next, page data), and a middle page of a 10-item list with page size 3 follows directly from them with ceil division for total pages.",
+  "missing": "none"
+}

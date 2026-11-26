@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest uses the same input (80.6) and the exact same expected output (26.999999999999996) as the test, and the standard formula (F-32)*5/9 produces it.",
+  "missing": "none"
+}

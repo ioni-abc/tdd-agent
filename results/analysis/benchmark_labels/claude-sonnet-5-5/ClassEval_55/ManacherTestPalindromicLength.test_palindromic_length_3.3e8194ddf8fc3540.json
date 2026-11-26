@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With center 2 and diff 3, the left index is -1, which is out of bounds, so the recursion stops and returns 0. This is the same base case that ends the docstring example's recursion, where the count of 2 comes from stopping at the string boundary.",
+  "missing": "none"
+}

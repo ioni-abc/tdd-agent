@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says combinations whose size is set by the length of resultList are generated recursively, and its example shows size 2 from four items; with a one-element resultList the same rule gives the four singletons in data order.",
+  "missing": "none"
+}

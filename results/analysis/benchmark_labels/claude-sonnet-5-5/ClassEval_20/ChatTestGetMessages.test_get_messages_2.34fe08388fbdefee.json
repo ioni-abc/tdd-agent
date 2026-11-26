@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_messages returns all of a user's messages, and a user with an empty message list naturally yields an empty list, as the test expects.",
+  "missing": "none"
+}

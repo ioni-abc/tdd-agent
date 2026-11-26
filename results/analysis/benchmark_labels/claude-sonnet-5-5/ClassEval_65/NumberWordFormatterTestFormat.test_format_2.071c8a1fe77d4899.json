@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the format (uppercase words, \"AND\" before tens, \"THOUSAND\", trailing \"ONLY\"), and 1000 follows naturally as \"ONE THOUSAND ONLY\" with no hundreds or tens part, so no \"AND\" appears.",
+  "missing": "none"
+}

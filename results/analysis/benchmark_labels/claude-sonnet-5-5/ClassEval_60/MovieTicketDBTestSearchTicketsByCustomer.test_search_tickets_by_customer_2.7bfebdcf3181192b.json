@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test mismatch: this test is named `test_search_tickets_by_customer_2` and mainly checks `search_tickets_by_customer`, using `insert_ticket` only as setup, even though the docstring's plain \"insert a ticket\" behaviour would be met.",
+  "missing": "none"
+}

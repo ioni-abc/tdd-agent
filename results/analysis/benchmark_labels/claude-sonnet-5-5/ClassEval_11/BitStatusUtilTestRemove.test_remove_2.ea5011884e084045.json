@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Removing a status that is not set in the current status should leave it unchanged, which follows naturally from \"remove the specified status from the current status\"; 8 does not contain bit 2, so 8 is the result.",
+  "missing": "none"
+}

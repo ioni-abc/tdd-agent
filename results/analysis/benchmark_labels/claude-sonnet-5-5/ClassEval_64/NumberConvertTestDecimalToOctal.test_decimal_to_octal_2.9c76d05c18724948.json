@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the octal string of a positive decimal integer, with an example showing no \"0o\" prefix, and 21271 converts to '51427' under that rule.",
+  "missing": "none"
+}

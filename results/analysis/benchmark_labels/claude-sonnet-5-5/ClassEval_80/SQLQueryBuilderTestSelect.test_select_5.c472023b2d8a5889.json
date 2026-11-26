@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows a column list joined by \", \" and a where dict rendered as key='value' (with the value quoted), which is exactly what this test checks with one column and one condition.",
+  "missing": "none"
+}

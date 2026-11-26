@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test fetches page 2 of a 10-item list with page size 3 and expects [4, 5, 6]. That is the ordinary meaning of \"retrieve a specific page\", and the docstring example (page 1 with page size 1 gives [1]) shows pages are 1-indexed, so a programmer would pass.",
+  "missing": "none"
+}

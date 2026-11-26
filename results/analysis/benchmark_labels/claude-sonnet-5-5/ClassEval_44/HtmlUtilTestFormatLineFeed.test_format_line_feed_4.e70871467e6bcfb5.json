@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says consecutive line breaks are replaced with a single line break, so 'ccc\\n\\n\\n' becomes 'ccc\\n', which matches the test and the reference.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "BMR for a male is 10\u00b775 + 6.25\u00b71.72 \u2212 5\u00b722 + 5 = 655.75, and the user's BMI of about 25.35 is above the overweight threshold, so the docstring's \"too fat\" rule applies (\u00d71.2 gives 786.9), as the reference code does.",
+  "missing": "none"
+}

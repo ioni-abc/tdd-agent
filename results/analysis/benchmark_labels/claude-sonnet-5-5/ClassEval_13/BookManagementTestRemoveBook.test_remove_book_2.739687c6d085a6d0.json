@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Removing a quantity of a book that is in stock reduces its count by that quantity, which is what the docstring's \"Remove one or several books\" describes and what the test checks.",
+  "missing": "none"
+}

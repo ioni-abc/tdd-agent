@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"calculate accuracy\" with a binary example, so a programmer would compute matches over all pairs, giving 1/4, but the reference skips the pair with label 2 and returns 1/3.",
+  "missing": "The docstring should say that only pairs where both labels are 0 or 1 are counted (in both the correct count and the total), and that pairs containing any other label value are ignored."
+}

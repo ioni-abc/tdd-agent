@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example ([1, 2, 3, 4] gives 1.25) fixes the population variance (divide by n) and rounding to two decimals, and the test's 7551.25 follows from exactly that.",
+  "missing": "none"
+}

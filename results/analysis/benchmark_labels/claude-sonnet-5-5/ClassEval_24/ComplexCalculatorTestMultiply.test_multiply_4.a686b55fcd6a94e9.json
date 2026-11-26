@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it multiplies two complex numbers, and standard complex multiplication gives (-5-10j) for these inputs.",
+  "missing": "none"
+}

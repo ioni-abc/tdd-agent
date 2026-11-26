@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the event is added to the calendar and its example shows the event appended to an initially empty events list, which is exactly what this test checks with different end_time values.",
+  "missing": "none"
+}

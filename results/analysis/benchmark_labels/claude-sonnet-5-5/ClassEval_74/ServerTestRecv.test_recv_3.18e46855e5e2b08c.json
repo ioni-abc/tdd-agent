@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes a dict input and returns content or False; it says nothing about malformed input (non-dict or missing keys) returning -1.",
+  "missing": "The docstring should state that if info is not a dict or lacks the address or content key, the method returns -1 and leaves the stored received data unchanged."
+}

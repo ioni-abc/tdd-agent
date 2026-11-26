@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows a hyphenated two-word example (\"thirty-two\" -> \"32\") and never says how filler words like \"and\" are handled, or how scale words such as \"thousand\" combine; the test expects \"and\" to be silently absorbed into \"2019\".",
+  "missing": "The docstring should say that connecting words such as \"and\" inside a number phrase are ignored, and that scale words (hundred, thousand, etc.) multiply and accumulate into a single integer, so a phrase using them converts to one numeric string."
+}

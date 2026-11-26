@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is the docstring's own example, and standard bilinear interpolation on the grid yields [3.0, 7.0] regardless of the z orientation convention.",
+  "missing": "none"
+}

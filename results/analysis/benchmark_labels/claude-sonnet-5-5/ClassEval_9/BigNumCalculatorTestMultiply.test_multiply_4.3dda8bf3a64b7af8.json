@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test multiplies two positive integer strings and expects the exact product as a string, which is what the docstring describes.",
+  "missing": "none"
+}

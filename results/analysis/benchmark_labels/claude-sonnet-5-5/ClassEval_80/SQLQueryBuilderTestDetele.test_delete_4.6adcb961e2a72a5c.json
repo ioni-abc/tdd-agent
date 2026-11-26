@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the format \"DELETE FROM table WHERE key='value'\" with values quoted, which a single-condition call like this one follows directly.",
+  "missing": "none"
+}

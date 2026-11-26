@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest uses the same input `[1, 2, 3, 4]` and gives `1.25`, which fixes population variance (sample variance would be about 1.67) rounded to two decimals, so the test matches.",
+  "missing": "none"
+}

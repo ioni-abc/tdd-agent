@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly lists that positions must be within the game board range, and (300, 0) is out of range for a 4x4 board, so returning False follows directly.",
+  "missing": "none"
+}

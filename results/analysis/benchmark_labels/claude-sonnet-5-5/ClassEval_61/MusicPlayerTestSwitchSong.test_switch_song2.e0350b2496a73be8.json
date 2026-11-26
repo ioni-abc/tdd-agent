@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return False if there was no next song, and the test sets the current song to the last one in the playlist, so there is no next song and False is expected.",
+  "missing": "none"
+}

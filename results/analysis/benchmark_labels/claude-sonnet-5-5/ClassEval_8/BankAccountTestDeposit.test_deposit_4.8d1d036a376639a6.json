@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Zero is not negative, so no error is raised and the deposit returns the unchanged balance of 0, as the docstring describes.",
+  "missing": "none"
+}

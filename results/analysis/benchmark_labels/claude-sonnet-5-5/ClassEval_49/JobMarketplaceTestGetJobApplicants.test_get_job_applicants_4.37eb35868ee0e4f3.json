@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return only candidates that meet the job's requirements, and neither resume's skills overlap the requirements, so any sensible matching rule gives an empty list.",
+  "missing": "none"
+}

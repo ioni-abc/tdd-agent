@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is identical to the docstring's example, which shows the total as cash plus stock value (11500.0) and the per-stock list with name and value.",
+  "missing": "none"
+}

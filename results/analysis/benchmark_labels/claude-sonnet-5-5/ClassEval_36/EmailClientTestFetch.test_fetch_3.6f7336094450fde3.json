@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says nothing about what fetch returns when no unread email exists (only read emails or an empty inbox), and the test expects None, which a programmer could reasonably miss and return something else such as an empty dict or raise an error.",
+  "missing": "The docstring should state that when the inbox has no unread emails (including when it is empty), fetch returns None and changes nothing."
+}

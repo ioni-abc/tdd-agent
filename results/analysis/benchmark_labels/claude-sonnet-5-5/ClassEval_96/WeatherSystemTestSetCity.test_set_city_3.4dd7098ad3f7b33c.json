@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says set_city sets the city, so after set_city('Shanghai') the city is 'Shanghai', which is not 'Beijing', and the test's assertNotEqual passes.",
+  "missing": "none"
+}

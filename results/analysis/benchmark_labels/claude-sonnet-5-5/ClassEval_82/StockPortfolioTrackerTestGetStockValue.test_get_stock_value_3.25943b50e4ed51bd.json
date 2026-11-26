@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the stock's value from its price and quantity, and the doctest shows this is price times quantity, so a price of 0.0 with quantity 10 gives 0.0 under any reasonable implementation.",
+  "missing": "none"
+}

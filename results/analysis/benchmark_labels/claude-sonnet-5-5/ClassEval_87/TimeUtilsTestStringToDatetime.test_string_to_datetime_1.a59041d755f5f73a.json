@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses the exact input from the docstring example and expects the corresponding datetime, so the docstring covers it.",
+  "missing": "none"
+}

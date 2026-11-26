@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test adds 5 apples and removes 4, leaving 1, which is plain subtraction as the docstring describes and its example shows.",
+  "missing": "none"
+}

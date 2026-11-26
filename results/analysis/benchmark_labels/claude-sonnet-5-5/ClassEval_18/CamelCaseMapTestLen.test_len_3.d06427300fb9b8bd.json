@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says __len__ returns the length of the object's data, and the example shows it counting stored entries; a map with one entry gives 1, which any natural implementation returns.",
+  "missing": "none"
+}

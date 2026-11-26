@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example uses the same map and shows `game.player_row` is 1, which is exactly what the test asserts, and the \"O\" cell is in row 1.",
+  "missing": "none"
+}

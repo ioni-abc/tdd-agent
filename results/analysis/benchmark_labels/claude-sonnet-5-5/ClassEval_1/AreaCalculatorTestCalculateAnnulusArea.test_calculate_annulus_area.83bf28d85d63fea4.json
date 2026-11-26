@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test calls the method with ordinary radii (1, 3), and the standard annulus formula pi*(R\u00b2\u2212r\u00b2), also shown by the docstring example, gives about 25.13, within the test's tolerance.",
+  "missing": "none"
+}

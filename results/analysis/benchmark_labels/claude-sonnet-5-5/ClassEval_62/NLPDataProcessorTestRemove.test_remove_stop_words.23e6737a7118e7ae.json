@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the return is \"a list of words\", which a programmer could read as a flat list, but the test expects one list of words per input string. The doctest shows nested output, but it is attached to a different method (`process`), so it does not settle the question.",
+  "missing": "The docstring should say that each input string is split on whitespace and the result is a list of lists, one inner list per input string, with the stop words removed and the order kept."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring and its example give the dict keys (keyword, total_results, total_pages, results) and say to find items containing the keyword. For \"4\" in 1..10 this gives one result, [4], and with a page size of 3 the natural ceiling division gives one page, so a straightforward implementation passes.",
+  "missing": "none"
+}

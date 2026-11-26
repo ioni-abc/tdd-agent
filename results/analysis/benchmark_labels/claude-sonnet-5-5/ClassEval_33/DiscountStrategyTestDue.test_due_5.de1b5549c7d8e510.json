@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "`due` only has to subtract the promotion's discount from the total, and for this cart (total 250, no discount at fidelity 900) that gives 250.0; the fidelity threshold belongs to `FidelityPromo`, not to `due`.",
+  "missing": "none"
+}

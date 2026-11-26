@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to split text by a regular expression pattern and return the substrings, and its example shows the re.split behaviour, including empty strings at the ends. This test expects exactly that, since the first number does not match and so stays in the text.",
+  "missing": "none"
+}

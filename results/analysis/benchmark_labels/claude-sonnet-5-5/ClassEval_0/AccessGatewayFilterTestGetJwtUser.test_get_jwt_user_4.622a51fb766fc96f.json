@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses the same shape of token as the docstring example, with the jwt being the user name plus today's date. The docstring says a valid token returns the user information rather than None, and the test only asserts a non-None result.",
+  "missing": "none"
+}

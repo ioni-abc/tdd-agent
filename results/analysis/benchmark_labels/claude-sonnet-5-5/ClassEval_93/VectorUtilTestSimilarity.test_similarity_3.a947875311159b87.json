@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Cosine similarity of two identical vectors is 1.0, which follows directly from the docstring's definition and its example, so a correct implementation passes.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows fractions (0.475, 0.525) and bit length, and plain count/length division reproduces the test's expected values exactly.",
+  "missing": "none"
+}

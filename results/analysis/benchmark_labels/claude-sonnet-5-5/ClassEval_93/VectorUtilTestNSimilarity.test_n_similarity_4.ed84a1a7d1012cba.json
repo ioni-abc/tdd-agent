@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"cosine similarity between two sets of vectors\", while the reference and the test average each set into one mean vector and take the cosine of the two means, giving a scalar.",
+  "missing": "The docstring should say that each list is first reduced to its element-wise mean vector, and the result is the single cosine similarity between those two mean vectors, not pairwise similarities."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says restock \"replenishes the inventory\" of a product already in the machine and returns True; adding the quantity to the existing stock is the natural reading, so the test (True, Pizza quantity 10 to 20) matches.",
+  "missing": "none"
+}

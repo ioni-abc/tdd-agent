@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The doctest gives the exact pattern string, which requires 1-2 whitespace characters between the punctuation and the capital letter, so '.Y' does not match.",
+  "missing": "none"
+}

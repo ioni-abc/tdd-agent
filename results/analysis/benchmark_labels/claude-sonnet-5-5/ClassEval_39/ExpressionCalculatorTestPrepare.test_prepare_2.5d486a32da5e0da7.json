@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows \"2+3*4\" converting to ['2','3','4','*','+'], and the test with \"2+3/4\" follows the same standard infix-to-postfix precedence rule, giving ['2','3','4','/','+'].",
+  "missing": "none"
+}

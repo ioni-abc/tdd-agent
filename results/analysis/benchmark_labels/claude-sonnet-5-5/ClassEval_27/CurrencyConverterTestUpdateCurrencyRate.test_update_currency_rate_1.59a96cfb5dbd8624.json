@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test updates an existing currency ('CNY') to a new rate and checks that the stored rate changed, which is exactly what the docstring and its example describe.",
+  "missing": "none"
+}

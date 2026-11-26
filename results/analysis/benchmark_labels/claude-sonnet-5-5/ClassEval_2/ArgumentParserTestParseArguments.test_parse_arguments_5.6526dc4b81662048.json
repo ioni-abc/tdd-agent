@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says only missing required arguments cause `(False, missing_args)`, and `add_argument(\"age\")` is not marked required, so a missing `age` still yields `(True, None)`.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to split text on the regex pattern and return the substrings, which is exactly re.split behavior; the input has one non-matching phone number and two matching ones, so the expected list follows directly from applying the pattern.",
+  "missing": "none"
+}

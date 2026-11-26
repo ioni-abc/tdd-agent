@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Converting an amount from a currency to the same currency naturally returns the same amount, which follows from the meaning of \"convert\" and from any rate-based implementation.",
+  "missing": "none"
+}

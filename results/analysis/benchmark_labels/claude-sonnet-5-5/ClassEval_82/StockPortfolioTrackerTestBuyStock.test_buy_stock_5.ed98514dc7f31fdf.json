@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says that buying a stock already in the portfolio merges its quantity into the existing entry, so a plain append would fail the test's expected portfolio.",
+  "missing": "The docstring should say that if a stock with the same name is already in the portfolio, its quantity is increased in place instead of a new entry being added, and that the cash balance is reduced by price times quantity."
+}

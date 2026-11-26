@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "An empty input list naturally yields an empty list of word lists, since the docstring says the method returns a list of word lists, one per input string.",
+  "missing": "none"
+}

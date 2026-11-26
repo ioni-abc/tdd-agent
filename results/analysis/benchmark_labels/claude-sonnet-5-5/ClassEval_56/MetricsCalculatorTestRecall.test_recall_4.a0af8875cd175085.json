@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Standard recall with 1 as the positive class gives TP=2, FN=1, so 2/3, matching the test and consistent with the docstring example.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that if the student is already registered, the method returns 0. The test registers the same student twice and expects 0 on the second call, which matches this directly.",
+  "missing": "none"
+}

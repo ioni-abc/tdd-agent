@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "__iter__ simply iterates over the stored (already camelCase-converted) keys in insertion order, which is the natural implementation of \"an iterator over own data\", and the conversion is handled by __setitem__.",
+  "missing": "none"
+}

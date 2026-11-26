@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to compute the sine of an angle in degrees, so sin(45) \u2248 0.7071067812 follows, and assertAlmostEqual's 7-place tolerance absorbs the reference's rounding.",
+  "missing": "none"
+}

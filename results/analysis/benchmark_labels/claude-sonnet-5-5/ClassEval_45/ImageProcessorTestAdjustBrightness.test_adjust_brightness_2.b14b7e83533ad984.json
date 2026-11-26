@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only gives the endpoints (0.0 gives black, 1.0 gives the original) and says nothing about how intermediate factors like 0.5 are computed, while the test requires a pixel-exact match with PIL's ImageEnhance.Brightness (a linear blend with a black image).",
+  "missing": "The docstring should say that the brightness is applied as a linear scaling of pixel values, equivalent to blending the image with a black image by the factor (as in PIL's ImageEnhance.Brightness), so intermediate factors give exact results."
+}

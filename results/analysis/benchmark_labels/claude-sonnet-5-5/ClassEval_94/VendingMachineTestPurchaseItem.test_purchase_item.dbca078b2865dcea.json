@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows a successful purchase returning the remaining balance (0.0), and purchasing a product naturally implies the stock quantity decreases by one, which is what the test checks.",
+  "missing": "none"
+}

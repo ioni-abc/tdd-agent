@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say how incomplete or malformed references (like a truncated \"&#X\") are handled; the reference drops the leftover text and returns an empty string, whereas a natural implementation would leave it unchanged.",
+  "missing": "The docstring should say what happens to malformed or incomplete numeric references, for example whether they are kept as-is or discarded, and whether the rest of the string is dropped when one is found at the end."
+}

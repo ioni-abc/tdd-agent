@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says set_city sets the city and its example shows `weatherSystem.city` equal to 'Beijing' afterward, which is exactly what the test checks.",
+  "missing": "none"
+}

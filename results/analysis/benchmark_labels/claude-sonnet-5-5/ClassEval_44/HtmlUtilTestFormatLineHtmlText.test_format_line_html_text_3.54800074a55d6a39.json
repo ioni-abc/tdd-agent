@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says code is replaced by -CODE-, but the test expects the output to start and end with a newline, because blank runs collapse to a single \"\\n\" rather than being stripped; the docstring's example output shows no such leading or trailing newline.",
+  "missing": "The docstring should say how whitespace and line breaks are normalized: consecutive newlines collapse to one, and the leading and trailing newlines from the surrounding markup are kept rather than stripped."
+}

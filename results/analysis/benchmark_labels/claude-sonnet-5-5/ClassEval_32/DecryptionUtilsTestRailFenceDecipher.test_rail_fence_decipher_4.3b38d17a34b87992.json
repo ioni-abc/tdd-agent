@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses standard Rail Fence decryption with a zigzag over 6 rails on a 13-character text. Working it through by hand gives exactly the expected 'Holrll d,!oeW', and the reference code implements the same standard algorithm.",
+  "missing": "none"
+}

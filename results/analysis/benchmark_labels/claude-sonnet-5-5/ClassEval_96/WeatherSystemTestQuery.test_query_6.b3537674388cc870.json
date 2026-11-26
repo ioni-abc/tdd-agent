@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert the temperature to the requested units, and the test expects 27\u00b0C to be returned as 80.6\u00b0F, which is the standard conversion (27*9/5+32 = 80.6).",
+  "missing": "none"
+}

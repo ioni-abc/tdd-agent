@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (variance 1.25 for the same values, rounded to two decimals) fixes the population variance, and the reordered input gives the same result.",
+  "missing": "none"
+}

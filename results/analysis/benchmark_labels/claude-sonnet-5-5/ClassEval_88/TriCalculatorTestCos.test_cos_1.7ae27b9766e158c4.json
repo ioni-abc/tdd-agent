@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to compute cos of a degree angle, and its example (cos(60) -> 0.5) matches the test. A straightforward implementation such as math.cos(math.radians(60)) returns 0.5000000000000001, so assertEqual against 0.5 fails unless the result is rounded, and the docstring never mentions rounding.",
+  "missing": "The docstring should say the result is rounded to a fixed number of decimal places (10), so that exact-equality comparisons with values like 0.5 hold."
+}

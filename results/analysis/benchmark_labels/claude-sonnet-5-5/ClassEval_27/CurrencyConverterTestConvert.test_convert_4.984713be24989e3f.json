@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The expected 46.08 depends on the specific GBP and USD rates in the class's rate table, which the method docstring never gives and cannot be inferred from the single CNY/USD example.",
+  "missing": "The docstring should specify the exchange rates available (each currency's rate relative to a base currency) and that conversion divides by the source rate and multiplies by the target rate."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says purchase fails when the item is out of stock (returns False otherwise), but this test has the item in stock with insufficient balance and expects False with inventory unchanged; the docstring never mentions insufficient balance as a failure condition.",
+  "missing": "The docstring should state that the purchase also fails, returning False and leaving balance and inventory unchanged, when the balance is less than the item's price."
+}

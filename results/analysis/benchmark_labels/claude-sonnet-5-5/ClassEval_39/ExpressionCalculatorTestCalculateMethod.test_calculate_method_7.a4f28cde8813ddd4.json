@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test calls `_calculate` with an invalid operator inside a bare try/except that swallows any exception, so it passes whatever the implementation does (raise, return None, or return a value).",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A user who was added but never signed in is not signed in, so \"all users are signed in\" is false, which is what the test expects and a programmer would implement this.",
+  "missing": "none"
+}

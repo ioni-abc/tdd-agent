@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows exactly the output format the test expects, 'DELETE FROM table1 WHERE field1 = value1;', so a programmer following it would pass.",
+  "missing": "none"
+}

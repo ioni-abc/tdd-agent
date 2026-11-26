@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows the successful removal returning True and never says what is returned or changed when the named stock is absent from the portfolio.",
+  "missing": "The docstring should say that when no portfolio entry matches the stock's name (with sufficient quantity), the method returns False and leaves the portfolio unchanged."
+}

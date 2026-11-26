@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says False is returned when the stock quantity is insufficient, and a failed sale naturally leaves the portfolio and cash balance unchanged.",
+  "missing": "none"
+}

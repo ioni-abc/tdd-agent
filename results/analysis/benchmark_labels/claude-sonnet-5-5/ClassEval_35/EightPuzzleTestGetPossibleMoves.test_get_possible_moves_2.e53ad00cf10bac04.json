@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses the same state as the docstring example (blank at bottom-middle) and expects ['up','left','right'], which the example already shows. The test only checks that each returned direction is in that list.",
+  "missing": "none"
+}

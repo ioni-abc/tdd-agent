@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The expected 'dog' depends on punctuation removal deleting the apostrophe so \"dog's\" becomes \"dogs\" (rather than splitting into separate tokens), which the docstring does not specify.",
+  "missing": "The docstring should state that punctuation characters, including apostrophes inside words, are deleted outright (not replaced by spaces) before tokenizing, so that the joined remainder of a word is lemmatized as one token."
+}

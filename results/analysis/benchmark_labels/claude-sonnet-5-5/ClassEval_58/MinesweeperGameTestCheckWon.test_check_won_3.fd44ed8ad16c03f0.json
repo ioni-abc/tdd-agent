@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the player has won only when the player map holds nothing but mines (unrevealed cells are all mines), and here many unrevealed '-' cells sit over non-mine cells, so False follows.",
+  "missing": "none"
+}

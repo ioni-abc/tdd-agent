@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Misfiled test: it is named test_delete_ticket_3 and mainly exercises delete_ticket, though it also calls search_tickets_by_customer (the method it is filed under) to look up the ticket id and confirm the deletion.",
+  "missing": "none"
+}

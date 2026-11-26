@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Adding a plain segment 'ddd' to an empty UrlPath yields ['ddd'], which follows directly from the docstring's append behavior and example.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says code is replaced by -CODE-, and says nothing about appending a period to paragraphs that lack ending punctuation, or about joining a paragraph with following inline text without a newline.",
+  "missing": "The docstring should state that the text of each paragraph without trailing punctuation gets a period appended, and that the text of adjacent block elements is concatenated without a separator unless line breaks are explicitly specified."
+}

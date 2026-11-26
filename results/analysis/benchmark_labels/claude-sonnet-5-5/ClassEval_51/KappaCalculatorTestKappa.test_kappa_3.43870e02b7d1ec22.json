@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses a standard 3x3 confusion matrix, and the reference computes ordinary Cohen's kappa, (P0 - Pe)/(1 - Pe), with P0 the diagonal sum over the total and Pe from row and column marginals. Hand-checking gives about 0.1947, matching the expected value, so a programmer applying the standard definition named in the docstring would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring's example for the same move shows length 1 and score 10 with positions [(51,51),(50,50)], but the test and reference code expect length 2 and score 100 after the head lands on the food.",
+  "missing": "none"
+}

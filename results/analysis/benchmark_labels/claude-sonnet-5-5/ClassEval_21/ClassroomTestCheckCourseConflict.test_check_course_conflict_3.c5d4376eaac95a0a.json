@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that courses sharing a boundary time count as conflicting, so a new course starting at 10:00 when an existing one ends at 10:00 returns False, as the test expects.",
+  "missing": "none"
+}

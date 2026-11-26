@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the stock's value is returned, and the example (150.0 \u00d7 10 = 1500.0) implies price times quantity, so zero price and zero quantity give 0.0 with no special handling.",
+  "missing": "none"
+}

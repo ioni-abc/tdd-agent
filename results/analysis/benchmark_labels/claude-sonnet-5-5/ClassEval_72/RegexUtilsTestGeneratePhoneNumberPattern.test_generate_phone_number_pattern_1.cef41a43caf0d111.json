@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest shows the exact pattern returned, `\\b\\d{3}-\\d{3}-\\d{4}\\b`, which matches '123-456-7890', so a programmer following the example would pass the test.",
+  "missing": "none"
+}

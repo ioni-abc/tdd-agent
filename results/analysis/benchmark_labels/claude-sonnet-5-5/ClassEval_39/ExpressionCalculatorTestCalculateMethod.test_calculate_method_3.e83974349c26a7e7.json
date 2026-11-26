@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method performs the calculation for the given operands and operator and returns a Decimal, so \"2\" * \"3\" yielding 6 is the obvious result and matches the test.",
+  "missing": "none"
+}

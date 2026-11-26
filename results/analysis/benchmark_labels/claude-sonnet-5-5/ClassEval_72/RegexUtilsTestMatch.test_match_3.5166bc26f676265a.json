@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The text \"111-111-1111\" fully matches the phone-number pattern, so any reasonable implementation of \"check if the text matches the regular expression\" returns True, as the docstring example also does.",
+  "missing": "none"
+}

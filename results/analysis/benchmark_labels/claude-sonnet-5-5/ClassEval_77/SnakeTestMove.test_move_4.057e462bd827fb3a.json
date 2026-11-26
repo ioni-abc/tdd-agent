@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With direction (0,0) the head stays at (50,50), which is not the food position, so no food is eaten and the score stays 0. Whether an implementation treats the head overlapping itself as a collision (reset) or as a plain move, the result is length 1, head at (50,50) and score 0, so a programmer following the docstring passes.",
+  "missing": "none"
+}

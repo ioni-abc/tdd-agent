@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that an address not on the whitelist means the content is not received and `False` is returned. The test's `False` result and its unchanged `receive_struct` (still `{}` from initialization) both follow from that.",
+  "missing": "none"
+}

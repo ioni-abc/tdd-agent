@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method sets the target temperature, and its example shows `target_temperature` holding the value afterwards. The test sets 30 and reads the same value back through the getter, which matches this behaviour.",
+  "missing": "none"
+}

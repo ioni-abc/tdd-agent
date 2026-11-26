@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the current time formatted as '%H:%M:%S', and the test checks exactly that by comparing against the same format applied to the object's datetime.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The two positions hold different icons ('a' vs 'b'), and the docstring explicitly requires the two positions to have the same icon, so False follows directly.",
+  "missing": "none"
+}

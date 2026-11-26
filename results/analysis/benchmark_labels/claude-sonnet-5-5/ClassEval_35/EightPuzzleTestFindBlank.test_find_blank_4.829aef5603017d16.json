@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test passes a state with no 0 element and expects None, but the docstring never says what to return when no blank exists; a programmer might raise an error or return a sentinel such as (-1, -1).",
+  "missing": "The docstring should say what find_blank returns when the state contains no blank (0) element, for example that it returns None."
+}

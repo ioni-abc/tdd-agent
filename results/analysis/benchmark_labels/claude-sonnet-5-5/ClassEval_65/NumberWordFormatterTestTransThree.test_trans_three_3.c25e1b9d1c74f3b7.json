@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only gives an example for a full three-digit number like \"123\"; for an input with a leading zero (\"007\") a programmer could reasonably produce \"ZERO HUNDRED AND SEVEN\" or similar, rather than dropping the hundreds part and returning just \"SEVEN\".",
+  "missing": "The docstring should say that when the hundreds digit is zero, the hundreds part (and the \"AND\") is omitted and the result is just the words for the remaining two-digit part."
+}

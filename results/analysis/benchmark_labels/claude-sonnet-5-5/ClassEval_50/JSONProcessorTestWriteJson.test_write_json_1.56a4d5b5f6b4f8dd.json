@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test writes a dict to a valid path, expects a return value of 1, and checks that the file contents match the data, all of which the docstring describes.",
+  "missing": "none"
+}

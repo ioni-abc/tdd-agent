@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The customer has 10000 points (over 1000) and the order total is 250, so the docstring's 5% discount on the entire order gives 12.5, matching the test.",
+  "missing": "none"
+}

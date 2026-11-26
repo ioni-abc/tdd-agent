@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says which request paths are allowed without authentication, so a programmer could not infer that '/api/data' with no token should return True.",
+  "missing": "The docstring should list the path prefixes that are always allowed without a token, and say that other requests need a valid JWT token whose user level is above a given threshold."
+}

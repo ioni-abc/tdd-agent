@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what `mrr` returns for an empty list, and the test expects `(0.0, [0.0])`, a convention a programmer could not infer from the docstring.",
+  "missing": "The docstring should say that an empty input returns 0.0 as the mean together with a one-element list containing 0.0."
+}

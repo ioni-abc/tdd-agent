@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that the mode is returned as a list, and the test has a tie between 3 and 4; the docstring does not say that all tied values are returned, nor in what order (here, order of first appearance).",
+  "missing": "When several values tie for the highest frequency, the method should return all of them in a list, ordered by their first appearance in the input."
+}

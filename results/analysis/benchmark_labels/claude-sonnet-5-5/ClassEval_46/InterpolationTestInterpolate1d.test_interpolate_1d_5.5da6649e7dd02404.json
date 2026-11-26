@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The x-coordinates are not in ascending order, and the docstring does not say how to handle that; the reference uses the segments in the given order, whereas an implementation that sorted the points first would return different values.",
+  "missing": "The docstring should say whether x must be sorted ascending or the points are used in the order given (consecutive pairs as segments), and what happens for x_interp values outside the data range."
+}

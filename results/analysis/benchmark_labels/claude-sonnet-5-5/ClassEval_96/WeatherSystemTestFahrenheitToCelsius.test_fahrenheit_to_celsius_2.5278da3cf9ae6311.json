@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says to convert Fahrenheit to Celsius, but the test uses `assertEqual` on an exact float (23.000000000000004) that depends on the order of operations in the formula, so an equivalent formula such as `(F-32)/1.8` could give a slightly different float and fail.",
+  "missing": "The docstring should specify the exact computation, `(temperature - 32) * 5 / 9` evaluated in that order with no rounding, or say that results are compared within a floating-point tolerance."
+}

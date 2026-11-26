@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says substrings matched by the regex are replaced, so a non-matching phone number (only 3 digits in the last group) stays unchanged and the two matching ones are replaced, which is exactly what the test expects.",
+  "missing": "none"
+}

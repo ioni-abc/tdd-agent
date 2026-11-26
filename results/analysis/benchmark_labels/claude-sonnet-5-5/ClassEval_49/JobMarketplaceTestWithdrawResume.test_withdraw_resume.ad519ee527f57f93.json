@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the function removes the given resume from the resumes list, and the test removes the only resume and expects an empty list, which matches.",
+  "missing": "none"
+}

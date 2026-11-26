@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test asserts that selected_dishes is empty after checkout, but the docstring only describes the return value and never says the selection is cleared.",
+  "missing": "The docstring should say that after a successful checkout the order's selected dishes list is reset to empty."
+}

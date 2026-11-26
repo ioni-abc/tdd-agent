@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says \"get all majors in the system\" and returns a list, but does not say whether duplicates are removed, so the test's expectation of one entry per distinct major (in first-appearance order) is not specified.",
+  "missing": "The docstring should say that the returned list contains each distinct major only once, ordered by first appearance among the students."
+}

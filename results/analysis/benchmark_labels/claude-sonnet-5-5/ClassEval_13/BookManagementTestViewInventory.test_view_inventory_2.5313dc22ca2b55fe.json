@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test never calls view_inventory; it reads the `inventory` attribute of a fresh object, so it checks the constructor's initial state rather than the documented method.",
+  "missing": "none"
+}

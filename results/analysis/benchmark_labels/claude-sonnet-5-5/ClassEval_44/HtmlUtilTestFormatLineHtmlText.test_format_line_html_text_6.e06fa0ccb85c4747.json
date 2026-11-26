@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what to return for empty input, and an implementation might reasonably return an empty string, None, or raise an error; the test expects ''.",
+  "missing": "The docstring should say that when the input is None or an empty string, the method returns an empty string."
+}

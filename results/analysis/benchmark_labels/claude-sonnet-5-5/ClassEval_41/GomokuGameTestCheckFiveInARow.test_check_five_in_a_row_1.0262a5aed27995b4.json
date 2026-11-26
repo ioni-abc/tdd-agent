@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Starting at (5,5) and moving by (0,-1) gives five consecutive cells of the same player's symbol, which the docstring's description of counting from the start cell in the given direction directly yields as True.",
+  "missing": "none"
+}

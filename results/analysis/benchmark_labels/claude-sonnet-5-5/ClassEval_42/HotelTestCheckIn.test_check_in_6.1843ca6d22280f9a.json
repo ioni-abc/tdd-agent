@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says check_in returns False if the room_type is not in booked_rooms, and the test uses room type 'abc', which is not in booked_rooms, so False is expected.",
+  "missing": "none"
+}

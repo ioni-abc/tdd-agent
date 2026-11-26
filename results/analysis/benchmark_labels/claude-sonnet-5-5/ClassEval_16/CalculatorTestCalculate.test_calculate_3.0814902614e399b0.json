@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "\"Calculate the value of a given expression\" implies standard arithmetic with usual operator precedence, so '1+2*3+4' gives 11 (11.0 equals 11), and any reasonable implementation passes.",
+  "missing": "none"
+}

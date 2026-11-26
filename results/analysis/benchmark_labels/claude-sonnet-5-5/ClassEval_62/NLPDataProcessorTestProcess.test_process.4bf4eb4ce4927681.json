@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to remove the stop words 'a', 'an', 'the' from each string, and its example shows the output as a list of word lists split on whitespace with punctuation kept; the test follows this for all three inputs.",
+  "missing": "none"
+}

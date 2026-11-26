@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to count word frequency across all the lists and sort by descending value, returning the top 5. This test has only two distinct words, so both are returned in descending order ({'world': 4, 'hello': 3}), and no ties or tie-breaking come into play.",
+  "missing": "none"
+}

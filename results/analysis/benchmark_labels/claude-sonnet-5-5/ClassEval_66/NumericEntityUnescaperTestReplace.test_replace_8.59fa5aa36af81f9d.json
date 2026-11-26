@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "\"&#???;\" is not a valid numeric character reference, so a programmer would leave it unchanged and replace only the valid \"&#66;\" and \"&#67;\", which gives \"&#???;BC\" as the test expects.",
+  "missing": "none"
+}

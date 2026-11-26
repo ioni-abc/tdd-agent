@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows selling the full quantity and says the stock is removed, never saying that a partial sale reduces the held quantity and keeps the remainder in the portfolio.",
+  "missing": "State that selling less than the held quantity decreases the stock's quantity in the portfolio by the amount sold (keeping the entry with the remainder), and adds price times quantity sold to the cash balance."
+}

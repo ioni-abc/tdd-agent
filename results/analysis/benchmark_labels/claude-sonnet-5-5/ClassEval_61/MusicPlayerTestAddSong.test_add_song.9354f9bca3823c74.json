@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_song adds a song to the playlist and its example shows the playlist as ['song1'] after one call, which is exactly what the test checks.",
+  "missing": "none"
+}

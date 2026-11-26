@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says code is replaced by -CODE-, but the test expects a `<code>` tag outside `<pre>` to stay as plain text, and a period to be appended to a paragraph with no trailing punctuation.",
+  "missing": "The docstring should say that only `<pre>` and `<blockquote>` blocks are replaced by -CODE- (a standalone `<code>` tag is kept as text) and that paragraphs not ending in punctuation get a period appended (or a colon if a code block follows), with no newline inserted between adjacent elements."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says numeric character references are replaced with their Unicode characters, and \"&#67;\" is \"C\", so \"CCC\" is the expected result, just like the \"ABC\" example.",
+  "missing": "none"
+}

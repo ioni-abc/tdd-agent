@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects ordinal words (\"second\", \"third\") to count as valid number words, but the docstring only says \"words that can be converted into numbers\" and never mentions ordinals.",
+  "missing": "The docstring should say that ordinal words (such as those ending in -th, -st, -nd, -rd or their irregular forms) and connecting words like \"and\" are treated as valid number words."
+}

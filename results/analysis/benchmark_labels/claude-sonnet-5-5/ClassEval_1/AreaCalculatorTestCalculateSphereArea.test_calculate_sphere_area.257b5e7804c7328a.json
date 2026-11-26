@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the area of a sphere from self.radius and gives the example for radius 2 (50.265...), so a programmer would implement 4\u03c0r\u00b2, which the test checks within a tolerance.",
+  "missing": "none"
+}

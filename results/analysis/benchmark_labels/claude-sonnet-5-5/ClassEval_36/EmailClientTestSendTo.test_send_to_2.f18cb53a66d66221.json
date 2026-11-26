@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says send_to returns False if the receiver's email box is full, and a receiver with capacity 0 cannot fit a size-10 email, so False follows directly.",
+  "missing": "none"
+}

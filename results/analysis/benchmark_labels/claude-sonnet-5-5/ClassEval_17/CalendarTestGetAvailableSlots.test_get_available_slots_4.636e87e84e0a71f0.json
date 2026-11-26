@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test has an event whose 'date' field is Jan 1 but whose start and end times fall on Jan 2, and the docstring doesn't say whether conflicts are judged by the full start/end datetimes or by the 'date' field or time of day, so an implementation could return 23 instead of 24.",
+  "missing": "The docstring should say that an event blocks a slot only when its full start and end datetimes overlap the slot, regardless of the event's 'date' field."
+}

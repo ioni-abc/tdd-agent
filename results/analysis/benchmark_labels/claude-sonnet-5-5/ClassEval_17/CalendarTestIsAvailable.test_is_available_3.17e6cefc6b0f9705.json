@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test checks a query slot that lies inside an existing event's time range, so the calendar is not available; a programmer following \"available for a given time slot\" would return False.",
+  "missing": "none"
+}

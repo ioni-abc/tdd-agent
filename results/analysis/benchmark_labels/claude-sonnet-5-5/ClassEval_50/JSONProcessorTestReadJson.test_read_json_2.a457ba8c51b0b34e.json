@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test reads a file that does not exist (nothing was written in setUp) and expects 0, which the docstring explicitly specifies (\"return 0 if the file does not exist\").",
+  "missing": "none"
+}

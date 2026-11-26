@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own doctest shows \"123-456-7890\" returns True, which is exactly the input and result this test checks, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

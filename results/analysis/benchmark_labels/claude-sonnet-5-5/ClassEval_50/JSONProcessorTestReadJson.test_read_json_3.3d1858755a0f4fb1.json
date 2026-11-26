@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return -1 if an error occurs during reading, and a file with invalid JSON makes parsing fail, so a programmer following it would return -1.",
+  "missing": "none"
+}

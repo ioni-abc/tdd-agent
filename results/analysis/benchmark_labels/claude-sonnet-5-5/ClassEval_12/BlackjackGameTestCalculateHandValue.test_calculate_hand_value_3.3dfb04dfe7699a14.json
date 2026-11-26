@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The hand 2+3+4+A is 9 plus 11 = 20, which is at most 21, so the Ace stays at 11, exactly as the docstring's rules describe.",
+  "missing": "none"
+}

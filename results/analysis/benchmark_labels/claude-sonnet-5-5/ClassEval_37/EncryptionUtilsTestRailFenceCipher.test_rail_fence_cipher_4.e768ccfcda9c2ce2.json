@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it uses the Rail Fence cipher, and the standard zigzag read-off by rows with characters kept as-is gives the expected output for 2 rails.",
+  "missing": "none"
+}

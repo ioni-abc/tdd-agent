@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says factorial computes the factorial of n, and factorial(3) = 6 follows directly from the standard definition, as the example factorial(4) = 24 also shows.",
+  "missing": "none"
+}

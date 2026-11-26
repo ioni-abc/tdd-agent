@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test input is a binary string of 8-bit groups, and decoding it as UTF-8 gives \"`ello\" (0x60 is a backtick), which is the ordinary result of the docstring's \"convert binary string to utf-8 string\".",
+  "missing": "none"
+}

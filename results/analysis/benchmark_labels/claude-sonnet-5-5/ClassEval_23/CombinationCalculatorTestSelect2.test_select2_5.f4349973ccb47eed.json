@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to generate combinations whose size is the length of resultList, and its example shows this for size 2; for size 4 out of 4 elements, the only combination is ['A','B','C','D'], which follows naturally.",
+  "missing": "none"
+}

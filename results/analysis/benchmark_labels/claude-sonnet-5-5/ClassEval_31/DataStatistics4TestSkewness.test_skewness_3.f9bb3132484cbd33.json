@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"calculate the skewness\" with one example whose value (2.376...) comes from a specific sample-adjusted formula using n/((n-1)(n-2)) and population std. A programmer might use the standard population skewness formula, which would give 0 for [1,2,3] as well, but the formula in the docstring example is not derivable, so the pass depends on the formula chosen.",
+  "missing": "none"
+}

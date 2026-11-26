@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that if current is lower than target the mode is 'heat', otherwise 'cool'; with equal temperatures (25, 25) the current is not lower, so 'cool' follows directly.",
+  "missing": "none"
+}

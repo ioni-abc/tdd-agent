@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says to set the value for the key and never says keys are normalised to camel case, yet the test relies on 'first_Name' and 'first_name' resolving to the same entry.",
+  "missing": "The docstring should say that the key is converted to the map's camel-case form before storing, so that differently cased or underscore variants of the same key refer to one entry."
+}

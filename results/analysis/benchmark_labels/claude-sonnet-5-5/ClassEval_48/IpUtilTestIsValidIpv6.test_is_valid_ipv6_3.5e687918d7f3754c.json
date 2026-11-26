@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The address contains the non-hex characters \"llll\" in one group, so any reasonable IPv6 validity check rejects it, as the docstring's \"valid IPv6 address\" implies.",
+  "missing": "none"
+}

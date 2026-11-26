@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test does an ordinary subtraction of two big numeric strings with a positive result, which is exactly what the docstring describes.",
+  "missing": "none"
+}

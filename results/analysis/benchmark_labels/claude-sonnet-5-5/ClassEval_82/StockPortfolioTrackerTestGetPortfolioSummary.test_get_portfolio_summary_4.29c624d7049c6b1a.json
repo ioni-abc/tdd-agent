@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows total = cash balance + sum of price*quantity and per-stock value = price*quantity, so quantity 0 gives value 0.0 and total 10000.0.",
+  "missing": "none"
+}

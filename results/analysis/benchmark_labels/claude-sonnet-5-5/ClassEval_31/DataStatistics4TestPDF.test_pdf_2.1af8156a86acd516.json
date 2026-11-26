@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the normal-distribution PDF of each data point, and the test checks that for [1,1,1] with mu=1, sigma=1, which gives 1/sqrt(2\u03c0) = 0.3989422804014327 for each point.",
+  "missing": "none"
+}

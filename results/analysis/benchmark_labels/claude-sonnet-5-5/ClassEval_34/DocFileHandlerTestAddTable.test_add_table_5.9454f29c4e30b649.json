@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a table is added with the given data, and the test checks a table with the right rows, columns and cell text, which is the natural result of populating a table from a list of lists.",
+  "missing": "none"
+}

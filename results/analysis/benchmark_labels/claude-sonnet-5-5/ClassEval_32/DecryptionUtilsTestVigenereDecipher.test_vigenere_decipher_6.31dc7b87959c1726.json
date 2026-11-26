@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says how non-alphabetic characters are handled, and a programmer could reasonably shift, drop, or raise an error on digits instead of passing them through unchanged.",
+  "missing": "The docstring should say that non-alphabetic characters are left unchanged in the output and do not advance the key position."
+}

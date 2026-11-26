@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test never adds words, so word_list is empty, and the docstring explicitly says to return '' in that case.",
+  "missing": "none"
+}

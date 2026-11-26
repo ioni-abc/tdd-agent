@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says \"max level is 100\", so a character already at level 100 cannot level up and its level, experience, hp, attack and defense stay unchanged, which is what the test checks.",
+  "missing": "none"
+}

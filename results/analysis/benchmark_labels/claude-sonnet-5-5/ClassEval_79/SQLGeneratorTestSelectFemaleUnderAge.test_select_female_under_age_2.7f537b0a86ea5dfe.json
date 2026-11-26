@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the exact SQL format (`SELECT * FROM table1 WHERE age < 30 AND gender = 'female';`), and the test with age 40 expects the same format with the value substituted.",
+  "missing": "none"
+}

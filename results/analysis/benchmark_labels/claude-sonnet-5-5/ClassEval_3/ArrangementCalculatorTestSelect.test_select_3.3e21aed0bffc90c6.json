@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says select(m) generates arrangements of m items, and its example shows ordered permutations in lexicographic order of input position, which matches this test's expected output for [2, 3, 4] with m=2.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is an ordinary move that neither reaches the food nor hits the body, and the docstring example shows the head advancing by the direction, giving (51,50) with score and length unchanged.",
+  "missing": "none"
+}

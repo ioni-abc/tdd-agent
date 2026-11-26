@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says stop returns True when there is a current song, and the test sets a current song and expects True, which matches.",
+  "missing": "none"
+}

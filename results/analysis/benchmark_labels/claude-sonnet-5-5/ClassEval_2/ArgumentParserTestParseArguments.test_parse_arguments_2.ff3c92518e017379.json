@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test uses a command string with a single leading program token (\"script\"), while the docstring example has two (\"python script.py\"), and the docstring never says how many leading tokens are skipped, so an implementation skipping two would drop \"--verbose\" and fail.",
+  "missing": "The docstring should say that only the first whitespace-separated token (the program name) is skipped, and that every remaining token is parsed as an argument."
+}

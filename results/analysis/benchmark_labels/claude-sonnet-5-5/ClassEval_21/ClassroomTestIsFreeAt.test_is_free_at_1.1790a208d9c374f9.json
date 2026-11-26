@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The check time 11:00 lies clearly after the course ends at 10:00, so it does not conflict with any course and is free, which follows directly from the docstring.",
+  "missing": "none"
+}

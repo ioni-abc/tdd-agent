@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Method mismatch: the test is named and primarily written for search_student_by_name, but is filed under insert_student; it only uses insert_student as setup, whose behaviour the docstring does state.",
+  "missing": "none"
+}

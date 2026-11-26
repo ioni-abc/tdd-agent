@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example uses the same map and shows `game.player_col` is 1, which is exactly what the test asserts.",
+  "missing": "none"
+}

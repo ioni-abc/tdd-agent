@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says \"get all majors in the system\" and returns a list of majors, but never says duplicates are removed, so a programmer could return one entry per student and fail the test with two students sharing a major.",
+  "missing": "The docstring should say that the returned list contains each distinct major only once, in order of first appearance among the students."
+}

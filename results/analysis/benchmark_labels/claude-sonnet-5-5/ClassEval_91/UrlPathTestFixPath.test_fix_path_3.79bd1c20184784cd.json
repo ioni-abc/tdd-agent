@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says leading and trailing slashes are removed, and '/a/b/' becoming 'a/b' follows directly from that, matching the given example.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test mainly exercises `insert_student`, but its `setUp` relies on `create_student_table`, and the docstring lists the fields in the order ID, name, age, gender, grade. That order puts name at index 1, which is what the test checks, so a docstring-following implementation passes.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Page numbers are 1-based and each page holds page_size items, so the last page naturally returns the one remaining item [10], which a programmer would implement by slicing.",
+  "missing": "none"
+}

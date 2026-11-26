@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly lists \"the two positions are not the same\" as a validity condition, so identical positions (0,0),(0,0) must return False, as the test expects.",
+  "missing": "none"
+}

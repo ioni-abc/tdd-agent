@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test adds 'foo' and 'bar' (no slashes) and expects segments to be ['foo', 'bar'], which matches the docstring's example, so fix_path's stripping does not affect this case.",
+  "missing": "none"
+}

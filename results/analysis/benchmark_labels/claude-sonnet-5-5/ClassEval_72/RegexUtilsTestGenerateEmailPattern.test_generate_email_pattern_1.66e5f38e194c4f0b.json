@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example gives the exact regex string to return, and any reasonable email pattern, including that one, matches the simple address used in the test.",
+  "missing": "none"
+}

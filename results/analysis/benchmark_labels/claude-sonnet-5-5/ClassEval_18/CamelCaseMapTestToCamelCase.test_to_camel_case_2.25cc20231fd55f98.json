@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example shows 'first_name' converting to 'firstName', which is exactly what the test checks, so a programmer following it would pass.",
+  "missing": "none"
+}

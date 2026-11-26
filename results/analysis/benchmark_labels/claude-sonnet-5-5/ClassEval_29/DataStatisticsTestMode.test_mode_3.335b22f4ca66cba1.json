@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the return is a float, \"the mode\", but its example returns a list of all tied values; the test expects a list of all tied modes in order of first appearance, which a programmer could reasonably implement differently.",
+  "missing": "The docstring should say that the method returns a list of all values tied for the highest frequency, ordered by first appearance in the data, even when there is only one mode."
+}

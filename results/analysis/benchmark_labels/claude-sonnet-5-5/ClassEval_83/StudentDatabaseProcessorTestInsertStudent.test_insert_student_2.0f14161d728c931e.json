@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test only needs a \"students\" table whose second column is the name, and the docstring lists the fields in order (ID, name, age, gender, grade), so an implementation following it passes.",
+  "missing": "none"
+}

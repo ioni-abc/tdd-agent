@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Accuracy is a standard metric (correct predictions over total), and the test's 3 correct out of 4 gives 0.75, which matches both the standard definition and the docstring example.",
+  "missing": "none"
+}

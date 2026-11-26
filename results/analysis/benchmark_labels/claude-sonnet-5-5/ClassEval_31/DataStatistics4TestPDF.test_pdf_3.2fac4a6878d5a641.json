@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the normal-distribution PDF of each data point given mu and sigma, which the standard formula gives, and the test checks exactly that on a simple case with a symmetric result.",
+  "missing": "none"
+}

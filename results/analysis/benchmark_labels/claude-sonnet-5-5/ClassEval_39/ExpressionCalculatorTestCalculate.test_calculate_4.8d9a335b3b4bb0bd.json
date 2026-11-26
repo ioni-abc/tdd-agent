@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Docstring prose/example mismatch: the text says the input is a \"postfix expression\", but the example and this test pass an infix expression (\"2 + 4 / 4\") and expect standard operator precedence, which postfix evaluation would not give.",
+  "missing": "The docstring should say the input is an infix expression with standard operator precedence (it is converted to postfix internally), not a postfix expression."
+}

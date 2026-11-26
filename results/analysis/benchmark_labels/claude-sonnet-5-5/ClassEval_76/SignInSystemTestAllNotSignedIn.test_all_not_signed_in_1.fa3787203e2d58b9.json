@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return usernames that are not signed in, so when the only user has signed in, a programmer would return an empty list, which matches the test.",
+  "missing": "none"
+}

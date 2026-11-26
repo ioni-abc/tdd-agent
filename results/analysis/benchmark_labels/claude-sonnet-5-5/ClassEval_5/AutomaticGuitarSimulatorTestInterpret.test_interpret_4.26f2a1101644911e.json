@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows splitting a chord letter prefix from the numeric tune, and a single segment \"G63231323\" yields [{'Chord': 'G', 'Tune': '63231323'}], which follows directly from that.",
+  "missing": "none"
+}

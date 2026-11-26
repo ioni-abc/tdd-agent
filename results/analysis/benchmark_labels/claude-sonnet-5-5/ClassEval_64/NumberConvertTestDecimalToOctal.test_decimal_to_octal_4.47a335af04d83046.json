@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the octal representation of a decimal integer as a string, and the example shows no prefix. The test uses an ordinary positive integer whose octal form, 513527, follows directly.",
+  "missing": "none"
+}

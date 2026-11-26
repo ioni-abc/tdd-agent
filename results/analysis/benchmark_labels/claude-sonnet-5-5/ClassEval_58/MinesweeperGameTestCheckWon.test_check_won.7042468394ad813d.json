@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is the docstring's own example: the player map is entirely hidden while only one cell is a mine, so the player has not won and the result is False. Any reasonable reading of \"just mines\" gives False here.",
+  "missing": "none"
+}

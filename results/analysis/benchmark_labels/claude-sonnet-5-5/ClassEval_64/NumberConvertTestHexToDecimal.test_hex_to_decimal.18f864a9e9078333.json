@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert a hex string to its decimal int, and the doctest uses the same example as the test ('a5b7' gives 42423), so any reasonable implementation passes.",
+  "missing": "none"
+}

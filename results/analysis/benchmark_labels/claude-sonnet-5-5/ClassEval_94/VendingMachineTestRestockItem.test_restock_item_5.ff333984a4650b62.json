@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The product exists, so the docstring says to return True, and adding quantity 0 naturally leaves the inventory unchanged, which is what the test expects.",
+  "missing": "none"
+}

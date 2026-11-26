@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the method returns a \"list of tuples\" (rows) and the example uses len(result) = 1, but the reference returns a single tuple via fetchone, and the test indexes user[0] as 'user5' and user[1] as 'pass5', which only works on a single row.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is the docstring's own example, and bilinear interpolation gives 3.0 at (1.5, 1.5) and 7.0 at (2.5, 2.5), which matches the expected [3.0, 7.0].",
+  "missing": "none"
+}

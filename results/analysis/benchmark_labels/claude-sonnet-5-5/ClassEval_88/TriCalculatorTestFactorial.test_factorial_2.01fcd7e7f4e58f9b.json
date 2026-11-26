@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test checks factorial(4) = 24, a normal positive-integer case that follows directly from the standard definition of factorial given in the docstring, with an example for 5.",
+  "missing": "none"
+}

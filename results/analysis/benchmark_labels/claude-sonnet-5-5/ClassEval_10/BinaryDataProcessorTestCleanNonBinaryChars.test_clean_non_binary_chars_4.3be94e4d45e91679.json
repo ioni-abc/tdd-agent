@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test builds an object from a string with no 0 or 1 characters and expects an empty `binary_string`, which is what removing all non-0/1 characters gives; the constructor presumably calls the cleaning method, though the test never calls it directly.",
+  "missing": "none"
+}

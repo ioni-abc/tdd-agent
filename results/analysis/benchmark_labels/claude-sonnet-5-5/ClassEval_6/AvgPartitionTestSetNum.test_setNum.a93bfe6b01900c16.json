@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to compute the size of each block and the remainder of the division, and the doctest shows (2, 0) for the same input as the test, so a programmer would use floor division and modulo of the list length by the partition count.",
+  "missing": "none"
+}

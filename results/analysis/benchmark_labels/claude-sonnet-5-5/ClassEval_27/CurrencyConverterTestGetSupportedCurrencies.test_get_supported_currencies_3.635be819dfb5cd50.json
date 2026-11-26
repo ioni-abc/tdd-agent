@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's example shows the list of currencies, but the method depends on the class's `rates` dictionary, which is not described in this method's docstring, so a programmer writing it independently would need to hardcode the list in a particular order, which the docstring example only loosely implies.",
+  "missing": "The docstring should say that the returned list contains the keys of the converter's rates dictionary, in the order of that dictionary's insertion (USD, EUR, GBP, JPY, CAD, AUD, CNY)."
+}

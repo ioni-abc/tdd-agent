@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes removing punctuation, tokenizing, POS tagging and lemmatizing by part of speech, and the example output ('I', 'be', 'run', ...) mirrors this test's expected output, where \"was\" becomes \"be\" and \"taking\" becomes \"take\".",
+  "missing": "none"
+}

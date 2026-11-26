@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method subtracts two complex numbers, and (-1-2j) - (-3-4j) = 2+2j, which is the standard result and matches the test.",
+  "missing": "none"
+}

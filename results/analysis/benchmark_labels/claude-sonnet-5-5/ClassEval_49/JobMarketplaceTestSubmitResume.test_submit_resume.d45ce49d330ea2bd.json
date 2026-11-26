@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows exactly this call and the resulting resumes list, which is the same input and expected output the test checks.",
+  "missing": "none"
+}

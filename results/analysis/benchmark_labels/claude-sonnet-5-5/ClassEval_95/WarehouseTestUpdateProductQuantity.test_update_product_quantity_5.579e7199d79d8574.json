@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to add the quantity to the product's stock and shows a negative quantity being added (3 + -1 = 2); the test adds -9 to 10 and expects 1, which is the same behaviour.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a successful booking returns \"Booking success.\" and changes the seats value in self.movies. The test books a free seat, expects that message, and checks that the seat value changed to 1.",
+  "missing": "none"
+}

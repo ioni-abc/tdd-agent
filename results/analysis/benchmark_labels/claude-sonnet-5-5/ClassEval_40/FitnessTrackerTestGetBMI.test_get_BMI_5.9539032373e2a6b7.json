@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines BMI as weight divided by the square of height, which the test checks with ordinary inputs, and the reference code computes exactly that.",
+  "missing": "none"
+}

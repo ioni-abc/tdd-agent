@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example is identical to the test's input and expected output, and \"arrangements\" of m items from the list implies ordered selections, which the example shows in lexicographic order.",
+  "missing": "none"
+}

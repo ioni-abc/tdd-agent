@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test depends on an external file and sets a `cookies` attribute that `load_cookies` never reads. The test sets `self.cookies` to a nested dict, but the reference code reads only `cookies_file`, so the expected unwrapped value comes from file content the test never writes.",
+  "missing": "none"
+}

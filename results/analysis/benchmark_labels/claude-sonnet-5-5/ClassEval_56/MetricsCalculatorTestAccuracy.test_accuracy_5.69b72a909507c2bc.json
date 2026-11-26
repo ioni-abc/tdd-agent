@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Accuracy is the fraction of matching labels, which is 1 of 4 = 0.25 here, and this follows from the docstring's description and example.",
+  "missing": "none"
+}

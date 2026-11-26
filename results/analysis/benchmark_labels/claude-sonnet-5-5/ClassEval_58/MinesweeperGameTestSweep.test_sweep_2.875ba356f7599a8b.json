@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's \"False otherwise\" loosely covers a mine hit, but it never says that the score stays unchanged (and the map untouched) when a mine is swept, which the test asserts.",
+  "missing": "The docstring should say that sweeping a mine cell returns False without revealing the cell or incrementing the score, and that the score only increases when a safe cell is revealed."
+}

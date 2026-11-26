@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the email record with its keys (sender, receiver, content, size, time in \"%Y-%m-%d %H:%M:%S\" format, state 'unread') and a True return on success, which is what the test checks; the example prints the record without list brackets, but the class's inbox is a list, so appending the record covers the `inbox[0]` check.",
+  "missing": "none"
+}

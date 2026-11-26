@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes \"mathematical calculation based on the given operands and operator\" with a \"+\" example, and never says that \"%\" is supported or that it means modulo, so a programmer might not implement it.",
+  "missing": "The docstring should list the supported operators (+, -, *, /, %) and state that \"%\" returns the remainder of dividing the first operand by the second."
+}

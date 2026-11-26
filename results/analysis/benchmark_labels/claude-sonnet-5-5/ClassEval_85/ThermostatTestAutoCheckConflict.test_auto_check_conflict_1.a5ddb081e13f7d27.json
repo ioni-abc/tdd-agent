@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Current temperature exceeds target and mode is 'cool', which is consistent, so the docstring's \"True if no conflict\" rule gives True, and its example supports the cool/heat mapping.",
+  "missing": "none"
+}

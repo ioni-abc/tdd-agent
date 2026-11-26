@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example gives the exact pattern, which requires 1-2 whitespace characters between the punctuation and the capital letter, so '?Y' does not match and the result is False.",
+  "missing": "none"
+}

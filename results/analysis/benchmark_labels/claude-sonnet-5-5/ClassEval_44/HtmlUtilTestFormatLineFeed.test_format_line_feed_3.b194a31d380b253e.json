@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says consecutive line breaks are replaced by a single line break, so 'aaa\\n\\n\\nbbb\\n\\n' becomes 'aaa\\nbbb\\n', including the trailing run, which a programmer following the docstring would produce.",
+  "missing": "none"
+}

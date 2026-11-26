@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says it computes the correlation matrix, but for a single-row input (columns of length 1, zero variance) the test expects a 3x3 matrix of None, a degenerate-case convention that is not described.",
+  "missing": "The docstring should state that when a correlation is undefined (e.g., columns with fewer than two samples or zero variance), the corresponding matrix entry is None rather than raising an error or returning NaN."
+}

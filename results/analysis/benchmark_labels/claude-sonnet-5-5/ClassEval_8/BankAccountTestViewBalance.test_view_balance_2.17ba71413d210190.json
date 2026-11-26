@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the account balance, and the test sets the balance to 1000 and checks that view_balance returns it, which is exactly what a programmer would implement.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example uses the same URL and shows the expected output, which includes the query string and fragment, so an implementation following it would pass this test.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each submitted resume is added to the resumes list, so three submissions, including a duplicate, yield three entries in order, matching the test.",
+  "missing": "none"
+}

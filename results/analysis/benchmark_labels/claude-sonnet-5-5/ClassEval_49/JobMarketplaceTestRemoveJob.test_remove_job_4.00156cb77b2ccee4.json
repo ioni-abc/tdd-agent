@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test has duplicate equal job dicts, so it only passes if `remove_job` removes a single (first) matching entry, while an implementation that filters out every equal entry would fail; the docstring does not say which.",
+  "missing": "The docstring should say that when several listings are equal to the given job, only the first matching listing is removed and the others stay."
+}

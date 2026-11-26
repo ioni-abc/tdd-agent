@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the list includes 'a', 'an', 'the' and shows the exact output ['a', 'an', 'the'], which matches the test's expected list and order.",
+  "missing": "none"
+}

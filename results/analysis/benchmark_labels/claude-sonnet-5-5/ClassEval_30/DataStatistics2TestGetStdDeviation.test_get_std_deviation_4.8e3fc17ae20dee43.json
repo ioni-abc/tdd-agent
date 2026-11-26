@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test data [11,14,13,12] has the same spread as the docstring's [1,2,3,4], so its population standard deviation is 1.118, which rounds to 1.12. The docstring example (1.12, not the sample value 1.29) fixes the population convention and the two-decimal rounding, so a programmer following it would pass.",
+  "missing": "none"
+}

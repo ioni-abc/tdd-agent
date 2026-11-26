@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test calls previous_song with no current song set, a case the docstring never describes, so an implementation could raise an error or behave differently instead of returning False.",
+  "missing": "The docstring should say that when no song is currently selected (no current song), previous_song returns False and leaves the state unchanged."
+}

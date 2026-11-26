@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring signature shows where=None as the default, but it never says what query to return when no condition is given; a programmer could reasonably produce \"DELETE FROM items\" or something else, such as a trailing \"WHERE\" or an error.",
+  "missing": "The docstring should say that when where is None or empty, the statement has no WHERE clause and is just \"DELETE FROM\" followed by the table name."
+}

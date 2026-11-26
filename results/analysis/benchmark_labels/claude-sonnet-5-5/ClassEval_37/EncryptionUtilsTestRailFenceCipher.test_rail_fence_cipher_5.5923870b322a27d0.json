@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Encrypting an empty plaintext with the Rail Fence cipher naturally yields an empty string, since there are no characters to rearrange, so any reasonable implementation following the docstring returns \"\".",
+  "missing": "none"
+}

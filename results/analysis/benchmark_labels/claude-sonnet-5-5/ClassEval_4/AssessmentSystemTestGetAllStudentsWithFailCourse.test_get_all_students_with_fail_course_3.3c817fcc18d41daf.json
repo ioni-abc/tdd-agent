@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With no students, no student has a score below 60, so a programmer following the docstring would naturally return an empty list, which is what the test expects.",
+  "missing": "none"
+}

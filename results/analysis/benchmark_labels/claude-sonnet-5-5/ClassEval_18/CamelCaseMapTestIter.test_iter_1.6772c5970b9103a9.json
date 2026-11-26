@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says it returns an iterator over its own data, without saying that it yields the converted camelCase keys in insertion order, which is what the test checks.",
+  "missing": "The docstring should say that iteration yields the stored keys, in their camelCase-converted form, in insertion order."
+}

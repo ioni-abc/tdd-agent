@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the host domain name of the URL, and for \"https://github.com/openai/human-eval\" a programmer would naturally return \"github.com\", matching the test.",
+  "missing": "none"
+}

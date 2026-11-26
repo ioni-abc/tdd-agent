@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "An empty string contains no numeric character references, so the docstring implies it is returned unchanged as an empty string, which is what the test expects.",
+  "missing": "none"
+}

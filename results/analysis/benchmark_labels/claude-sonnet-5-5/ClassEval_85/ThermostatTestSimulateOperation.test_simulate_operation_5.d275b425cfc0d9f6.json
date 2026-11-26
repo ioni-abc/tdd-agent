@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the mode to be 'cool' when current and target temperatures are equal, but the docstring never says which mode auto_set_mode picks in that tie case.",
+  "missing": "The docstring should state that when the current temperature equals the target temperature, auto mode selection sets the mode to 'cool' (heat is chosen only when the current temperature is below the target)."
+}

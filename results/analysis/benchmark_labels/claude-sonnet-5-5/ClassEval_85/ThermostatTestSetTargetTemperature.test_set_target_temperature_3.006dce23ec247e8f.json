@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method sets the target temperature, with an example showing the attribute holds the value passed in, and the test checks exactly that by reading it back through the getter.",
+  "missing": "none"
+}

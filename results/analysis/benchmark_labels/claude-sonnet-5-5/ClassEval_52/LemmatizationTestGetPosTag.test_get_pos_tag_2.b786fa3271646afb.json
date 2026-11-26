@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to remove punctuation, tokenize and tag. Removing all punctuation, apostrophes included, turns the possessive word into one token, which gives the expected 7 tags.",
+  "missing": "none"
+}

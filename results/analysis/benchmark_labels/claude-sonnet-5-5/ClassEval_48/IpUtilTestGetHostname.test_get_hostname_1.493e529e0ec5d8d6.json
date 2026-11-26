@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring example says get_hostname('110.242.68.3') returns 'www.baidu.com', but the test expects None for that same IP (the reference returns None when the reverse lookup fails).",
+  "missing": "none"
+}

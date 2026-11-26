@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"delete the value corresponding to the key\" and its example deletes with the same snake_case key it was set with. The test deletes using the camelCase form 'firstName', so it depends on the key being converted to camelCase before deletion, which the docstring never states.",
+  "missing": "The docstring should say that keys passed to deletion are normalized with the class's camelCase conversion, so a key in either snake_case or camelCase form removes the same entry."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method converts the value using the type found in self.types and gives an example converting '21' with int to 21, which is exactly what the test checks with \"25\" and int.",
+  "missing": "none"
+}

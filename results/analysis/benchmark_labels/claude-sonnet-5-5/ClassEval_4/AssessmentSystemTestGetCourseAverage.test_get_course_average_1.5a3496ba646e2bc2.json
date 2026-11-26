@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test has two students with Physics scores (90 and 80), and the docstring's \"average score of a specific course\" gives 85.0, which any natural implementation returns.",
+  "missing": "none"
+}

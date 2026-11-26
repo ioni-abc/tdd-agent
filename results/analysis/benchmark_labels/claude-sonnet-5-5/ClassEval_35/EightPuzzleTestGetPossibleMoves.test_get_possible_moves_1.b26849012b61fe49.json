@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The blank is in the center, so all four directions are possible, and the docstring's description (plus its example) fits this; the test only checks that returned directions are among the four valid names.",
+  "missing": "none"
+}

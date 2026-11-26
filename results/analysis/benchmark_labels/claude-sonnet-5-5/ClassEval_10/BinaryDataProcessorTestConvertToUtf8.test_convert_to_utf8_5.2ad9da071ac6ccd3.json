@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is an ordinary 8-bit-per-character binary string decoded to UTF-8, which is exactly what the docstring and its example describe.",
+  "missing": "none"
+}

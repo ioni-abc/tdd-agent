@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the total includes cash balance (10000 + 1500 = 11500), so with an empty portfolio the total is just the cash balance, 10000.0, which a programmer would naturally implement.",
+  "missing": "none"
+}

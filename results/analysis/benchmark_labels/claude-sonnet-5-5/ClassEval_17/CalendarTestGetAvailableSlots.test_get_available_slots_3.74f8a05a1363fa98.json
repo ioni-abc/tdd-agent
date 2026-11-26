@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows one-hour slots covering the whole day (the free slot is 23:00\u201300:00 after an event ending at 23:00), so a day with no overlapping events gives 24 hourly slots, and the event on January 2 does not overlap January 1.",
+  "missing": "none"
+}

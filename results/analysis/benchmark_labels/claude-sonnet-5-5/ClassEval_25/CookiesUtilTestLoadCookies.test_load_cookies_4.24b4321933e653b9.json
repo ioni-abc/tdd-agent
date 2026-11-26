@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says `load_cookies` reads the cookies file and returns its data, with an example returning `{'key1': 'value1', 'key2': 'value2'}`. The test's assignment to `self.cookies` is irrelevant, because the result comes from the file contents, which a programmer following the docstring would read and return.",
+  "missing": "none"
+}

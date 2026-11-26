@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Starting at (0,0) and moving down the column, the next cell is empty, so there are not five consecutive same-player symbols and False is the natural result.",
+  "missing": "none"
+}

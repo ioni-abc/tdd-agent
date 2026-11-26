@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test sets a value under a snake_case key and reads it back with the same key, which is exactly what the docstring says (return the value corresponding to the key) and its example shows.",
+  "missing": "none"
+}

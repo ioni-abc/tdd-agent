@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"calculate the skewness\" and does not specify which formula to use, so a programmer could choose the standard population skewness (the third standardized moment) and get a different value than the expected 2.376.",
+  "missing": "The docstring should state the exact skewness formula, namely the sample-adjusted version: the sum of cubed deviations from the mean times n, divided by (n-1)(n-2) times the population standard deviation cubed, and 0 when the standard deviation is zero."
+}

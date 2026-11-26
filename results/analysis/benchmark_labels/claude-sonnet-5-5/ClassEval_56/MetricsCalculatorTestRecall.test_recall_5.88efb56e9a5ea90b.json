@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Recall is the standard TP/(TP+FN) with positive label 1, giving 1/3 here, which matches the test and is consistent with the docstring example.",
+  "missing": "none"
+}

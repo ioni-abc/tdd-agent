@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example \"2023-06-14 19:30:03\" makes the format unambiguous (YYYY-MM-DD HH:MM:SS), which matches the test's strftime format.",
+  "missing": "none"
+}

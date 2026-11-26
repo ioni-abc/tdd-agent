@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test adds two distinct items (1\u00d73 and 2\u00d71) and expects their sum, 5.0, which is exactly the quantity-times-price total the docstring describes.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Subtracting two equal complex numbers gives 0j, which follows directly from the docstring's \"difference of the two complex numbers\", and the doctest shows the same c1 - c2 order.",
+  "missing": "none"
+}

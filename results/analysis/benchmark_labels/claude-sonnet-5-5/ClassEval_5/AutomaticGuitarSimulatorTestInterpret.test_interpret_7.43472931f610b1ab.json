@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says Chord is letters and Tune is numbers, and the \"Em\" example shows multi-letter chords, so splitting \"ABC43231323\" into 'ABC' and '43231323' follows directly.",
+  "missing": "none"
+}

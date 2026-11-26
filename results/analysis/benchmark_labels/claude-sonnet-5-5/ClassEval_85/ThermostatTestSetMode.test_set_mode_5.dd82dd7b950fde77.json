@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the mode parameter accepts only 'heat' or 'cool' and shows setting 'cool' updating the mode, so setting a valid mode like 'heat' and reading it back is the expected behaviour.",
+  "missing": "none"
+}

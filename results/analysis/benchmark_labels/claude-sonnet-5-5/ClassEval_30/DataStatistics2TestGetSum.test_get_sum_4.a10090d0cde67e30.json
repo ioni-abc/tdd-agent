@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to calculate the sum of the data, and 1+2+333+4 = 340, which a straightforward implementation returns and the test expects.",
+  "missing": "none"
+}

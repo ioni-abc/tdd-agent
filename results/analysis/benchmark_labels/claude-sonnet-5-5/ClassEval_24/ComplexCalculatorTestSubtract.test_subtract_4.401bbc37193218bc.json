@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Subtracting complex numbers is standard: (-1+2j) - (-3+4j) = 2-2j, which matches the docstring's \"difference of the two complex numbers\" and the test's expected value.",
+  "missing": "none"
+}

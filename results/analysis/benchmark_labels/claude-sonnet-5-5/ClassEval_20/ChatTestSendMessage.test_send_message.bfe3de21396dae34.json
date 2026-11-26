@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test checks that `chat.users` gets a message record dict with keys sender, receiver, message and timestamp (formatted \"%Y-%m-%d %H:%M:%S\"), appended to both users' lists, but the docstring only specifies the True/False return value.",
+  "missing": "The docstring should say that a successful send appends a dict with 'sender', 'receiver', 'message' and a 'timestamp' string (formatted as \"YYYY-MM-DD HH:MM:SS\") to both the sender's and the receiver's message lists in `self.users`."
+}

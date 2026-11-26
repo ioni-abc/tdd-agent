@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the return is a bool (True if allowed, False otherwise), but for a valid token whose user level is 1 the reference code falls through without returning and gives None, and the test asserts None.",
+  "missing": "none"
+}

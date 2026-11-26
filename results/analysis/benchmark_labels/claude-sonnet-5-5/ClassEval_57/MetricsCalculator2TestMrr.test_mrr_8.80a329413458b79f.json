@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what to return when the ground truth num is 0; a programmer would normally compute the reciprocal rank from the first correct answer (1.0 and 0.5 here), but the test expects 0.0 for each.",
+  "missing": "The docstring should say that when an input's ground truth num is 0, its reciprocal rank (and hence its score) is 0.0 regardless of the actual results."
+}

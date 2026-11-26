@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the input string is returned with only numeric references replaced, so the stray trailing \";\" should stay and give \"CCC;\", but the reference code drops the last characters because of its `pos < length - 2` loop bound and the test expects \"CCC\".",
+  "missing": "none"
+}

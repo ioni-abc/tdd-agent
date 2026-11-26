@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes returning the root element on success; it says nothing about what happens when the file cannot be read or parsed (e.g. an empty filename), whereas the test expects None, and a natural implementation would raise an exception.",
+  "missing": "The docstring should state that if the file cannot be opened or parsed (missing, empty name, or invalid XML), the method returns None instead of raising an error."
+}

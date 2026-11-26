@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test follows standard AP (precision at each correct rank, summed and divided by the ground-truth count), and the docstring's examples, such as 0.41667 for ([1,0,1,0],4), pin down that formula; MAP is then the mean of the APs.",
+  "missing": "none"
+}

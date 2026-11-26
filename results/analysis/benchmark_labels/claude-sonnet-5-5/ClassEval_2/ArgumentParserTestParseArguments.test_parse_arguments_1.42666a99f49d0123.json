@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test uses a command string with a single leading program token, while the docstring example has two (\"python script.py\"), and the docstring never says how many leading tokens are skipped, so an implementation skipping two would fail.",
+  "missing": "The docstring should state that only the first whitespace-separated token (the program name) is discarded and every remaining token is parsed as an argument."
+}

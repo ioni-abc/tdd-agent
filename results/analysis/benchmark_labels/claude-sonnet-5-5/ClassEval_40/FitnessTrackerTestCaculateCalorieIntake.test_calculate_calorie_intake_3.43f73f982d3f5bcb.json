@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test needs the user classified as \"too thin\" (BMR 435.75 \u00d7 1.6 = 697.2), but this docstring never says how fat, thin or normal is determined, so the BMI cut-offs are missing.",
+  "missing": "The docstring should define how the condition is determined: BMI is weight divided by height squared, with sex-specific lower and upper thresholds below which the user is too thin and above which too fat."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says args must be non-negative and even, otherwise ValueError is raised, so a valid list like [2] raises nothing and returns None.",
+  "missing": "none"
+}

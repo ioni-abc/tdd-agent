@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert a binary string to its decimal int, and the test checks a plain conversion of a valid binary string, which any correct implementation handles.",
+  "missing": "none"
+}

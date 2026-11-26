@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each dictionary in the list becomes a row inserted into the table. The test checks that two rows exist and that the first row's age is 17, which follows from inserting the rows in order. The column index of 2 comes from the table layout that `create_table` builds, not from `insert_into_database`.",
+  "missing": "none"
+}

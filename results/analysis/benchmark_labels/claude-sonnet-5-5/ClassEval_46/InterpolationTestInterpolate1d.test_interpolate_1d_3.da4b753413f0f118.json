@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test points 1.5 and 2.5 both fall in the first segment (x from 1 to 6, y from 1 to 7), so ordinary linear interpolation gives 1.6 and 2.8, which matches the expected output.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows fractions for 'Zeroes' and 'Ones' plus the 'Bit length', and the test's values (7/16, 9/16, 16) follow directly from that.",
+  "missing": "none"
+}

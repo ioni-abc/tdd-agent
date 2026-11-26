@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes the successful case (\"If successful, return the host domain name\") and never says what to return when the URL has no \"://\" scheme, so a programmer might return an empty string, the whole string, or raise an error instead of None.",
+  "missing": "The docstring should say that when the URL contains no scheme separator (\"://\") and no host can be extracted, the method returns None."
+}

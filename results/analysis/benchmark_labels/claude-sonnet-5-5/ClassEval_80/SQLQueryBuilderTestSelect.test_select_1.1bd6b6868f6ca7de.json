@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same format (columns joined by \", \", and the where value quoted as age='15'), which the test follows with different values.",
+  "missing": "none"
+}

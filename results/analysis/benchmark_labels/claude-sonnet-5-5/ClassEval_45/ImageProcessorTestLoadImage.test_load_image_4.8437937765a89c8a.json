@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to use PIL's Image to open an image and store it in processor.image; opening a PNG with Image.open yields an image whose format is \"PNG\", so a programmer following the docstring would pass.",
+  "missing": "none"
+}

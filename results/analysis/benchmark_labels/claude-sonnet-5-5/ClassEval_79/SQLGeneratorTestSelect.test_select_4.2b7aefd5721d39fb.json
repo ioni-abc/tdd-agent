@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows fields joined by \", \" and the condition appended after WHERE, so a programmer would produce the expected string; the single-element list holding 'field1, field2' simply passes through the join unchanged, and the condition string is inserted verbatim.",
+  "missing": "none"
+}

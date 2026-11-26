@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example (10000 cash plus a 1500 holding gives 11500) shows the total includes the cash balance, and each entry's value is price times quantity; the test with two stocks (10000 + 3000 = 13000) follows the same rule in the same order.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the remaining number of rooms of the given type, and the triple count is unaffected by booking singles, so 2 follows directly.",
+  "missing": "none"
+}

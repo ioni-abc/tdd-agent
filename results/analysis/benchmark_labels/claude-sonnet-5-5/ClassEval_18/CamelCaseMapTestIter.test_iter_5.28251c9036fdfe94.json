@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "__iter__ just iterates over the stored (already camelCased) keys, which \"own data\" conveys; the key conversion is handled by __setitem__, not by __iter__.",
+  "missing": "none"
+}

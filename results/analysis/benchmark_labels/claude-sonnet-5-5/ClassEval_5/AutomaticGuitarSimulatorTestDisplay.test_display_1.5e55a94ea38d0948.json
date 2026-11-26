@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the exact output format and a return type of str, and the test's expected string matches that format with the given chord and tune.",
+  "missing": "none"
+}

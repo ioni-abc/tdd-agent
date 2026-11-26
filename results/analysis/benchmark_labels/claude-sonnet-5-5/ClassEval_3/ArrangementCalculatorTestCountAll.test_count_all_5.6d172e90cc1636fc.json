@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"arrangements\" with the example 64 for n=4 pins down summing permutations P(n,k) for k=1..n, which gives 325 for n=5.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A valid count (menu has enough) leads to adding the dish, returning True, and decrementing the menu count, all of which the docstring describes.",
+  "missing": "none"
+}

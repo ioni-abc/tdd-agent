@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The check time 09:30 lies strictly inside the 09:00\u201310:00 course, so a programmer following the docstring would return False, matching the test.",
+  "missing": "none"
+}

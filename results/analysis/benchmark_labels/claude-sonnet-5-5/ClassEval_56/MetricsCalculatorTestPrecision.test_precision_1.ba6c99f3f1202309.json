@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest uses the same input and gives 0.5, and standard precision (TP / (TP + FP)) gives 1/2 = 0.5, so a programmer would pass this test.",
+  "missing": "none"
+}

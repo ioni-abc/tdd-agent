@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Page 3 with page size 3 over ten items is an ordinary in-range request, and 1-based numbering together with the docstring example gives [7, 8, 9].",
+  "missing": "none"
+}

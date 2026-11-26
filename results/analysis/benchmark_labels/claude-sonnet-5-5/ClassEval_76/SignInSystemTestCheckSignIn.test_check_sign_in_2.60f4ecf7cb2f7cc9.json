@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False when the user is not signed in, and the test checks a user who was added but never signed in, expecting False.",
+  "missing": "none"
+}

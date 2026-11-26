@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example and return description clearly give splitting letters into Chord and digits into Tune, and the test only checks this return value for a single chord.",
+  "missing": "none"
+}

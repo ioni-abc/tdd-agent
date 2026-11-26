@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows that '/foo/bar/' yields ['foo', 'bar'], and does not say how a path made only of slashes is handled (empty segments dropped, leading/trailing slashes stripped via fix_path), nor that a trailing slash sets a with_end_tag attribute.",
+  "missing": "The docstring should say that leading and trailing slashes are stripped before splitting, that a path with no remaining content yields no segments, and that a path ending in a slash sets the end-tag flag to True."
+}

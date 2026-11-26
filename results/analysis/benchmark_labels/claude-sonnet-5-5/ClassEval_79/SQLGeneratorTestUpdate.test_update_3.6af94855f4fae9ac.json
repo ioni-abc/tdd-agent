@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the exact format (quoted values, \", \" separators, unquoted condition, trailing semicolon), which the test follows with more fields.",
+  "missing": "none"
+}

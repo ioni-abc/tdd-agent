@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"filter based on certain rules and conditions\"; it never mentions JWT validation, token expiry (a year-old date makes the token invalid), the user level threshold, or the exempt path prefixes, so a programmer could not know this request should be rejected.",
+  "missing": "The docstring should say that non-exempt paths require a valid, unexpired JWT in the Authorization header and that the user's level must exceed a threshold, otherwise the request is denied."
+}

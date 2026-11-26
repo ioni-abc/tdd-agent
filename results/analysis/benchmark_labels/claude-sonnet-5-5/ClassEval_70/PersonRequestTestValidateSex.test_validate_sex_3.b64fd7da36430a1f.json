@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the sex is returned unchanged when it is Man, Woman, or UGM, and the test checks that \"Man\" stays \"Man\" after construction through _validate_sex.",
+  "missing": "none"
+}

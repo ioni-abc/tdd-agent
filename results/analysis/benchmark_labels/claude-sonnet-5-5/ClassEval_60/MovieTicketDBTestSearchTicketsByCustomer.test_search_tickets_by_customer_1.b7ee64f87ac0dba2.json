@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test inserts a ticket and reads it back through the search method, and the docstring's \"inserts a new ticket into the tickets table\" with those four fields is enough to pass it. The test is named for the search method, but it still exercises insert_ticket as described.",
+  "missing": "none"
+}

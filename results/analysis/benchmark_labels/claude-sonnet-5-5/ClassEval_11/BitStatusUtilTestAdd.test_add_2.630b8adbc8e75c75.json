@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Adding 0 to 2 yields 2 under both addition and bitwise OR, and 0 is a plausible legal input, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

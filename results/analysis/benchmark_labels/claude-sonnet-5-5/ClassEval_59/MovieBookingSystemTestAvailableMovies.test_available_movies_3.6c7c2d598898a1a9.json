@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say whether a movie must lie entirely inside the time range or merely overlap or start within it, so an overlap or start-time implementation could include the second movie, which starts at the range's end boundary, and fail.",
+  "missing": "State that a movie is available only if both its start and end times fall within the given range (start no earlier than the range start, end no later than the range end), with boundaries inclusive."
+}

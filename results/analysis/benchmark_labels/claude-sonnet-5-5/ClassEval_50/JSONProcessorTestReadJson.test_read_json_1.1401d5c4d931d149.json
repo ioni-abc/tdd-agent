@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test writes a valid JSON file and expects read_json to return the parsed dict, which is exactly what the docstring says for a successful read.",
+  "missing": "none"
+}

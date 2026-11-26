@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows a valid phone number as three digits, three digits, then four digits separated by hyphens, so \"123-456-789\", with only three digits in the last group, is clearly invalid and a programmer would return False.",
+  "missing": "none"
+}

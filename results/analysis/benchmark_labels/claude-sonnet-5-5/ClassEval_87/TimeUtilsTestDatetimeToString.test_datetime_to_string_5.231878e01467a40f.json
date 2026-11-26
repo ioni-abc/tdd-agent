@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example \"2023-06-14 19:30:03\" clearly shows the \"%Y-%m-%d %H:%M:%S\" format that the test checks, so a programmer following it would pass.",
+  "missing": "none"
+}

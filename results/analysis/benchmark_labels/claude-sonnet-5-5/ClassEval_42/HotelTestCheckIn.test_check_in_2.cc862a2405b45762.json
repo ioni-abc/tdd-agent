@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says check_in returns False when the requested room_number exceeds the booked quantity, and a failed check-in naturally leaves booked_rooms unchanged, which is what the test checks.",
+  "missing": "none"
+}

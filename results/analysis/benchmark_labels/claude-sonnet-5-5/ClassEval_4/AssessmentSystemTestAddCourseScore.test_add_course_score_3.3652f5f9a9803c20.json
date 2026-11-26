@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to add a score for a course for a student; a natural implementation sets `courses[course] = score`, so a repeated call overwrites the earlier score and a second course is stored alongside the first.",
+  "missing": "none"
+}

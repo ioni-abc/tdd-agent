@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The cart has 5 distinct products, below the threshold of 10, so the docstring implies no discount, and the expected 0 matches that.",
+  "missing": "none"
+}

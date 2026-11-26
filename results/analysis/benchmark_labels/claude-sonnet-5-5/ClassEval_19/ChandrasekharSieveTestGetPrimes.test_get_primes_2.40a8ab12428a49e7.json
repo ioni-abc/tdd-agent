@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says `get_primes` returns the list of generated primes, and its example shows the primes up to the limit, so returning the stored list gives `[2, 3, 5, 7, 11, 13, 17]` for 18.",
+  "missing": "none"
+}

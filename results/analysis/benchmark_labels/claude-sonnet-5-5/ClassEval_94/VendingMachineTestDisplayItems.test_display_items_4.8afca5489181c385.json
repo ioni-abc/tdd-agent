@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the format 'Coke - $1.25 [10]' for a single item, and the test with quantity 0 follows the same format, so a programmer would produce 'Coke - $1.25 [0]' (the docstring never says zero-quantity items are excluded).",
+  "missing": "none"
+}

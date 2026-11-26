@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says that the content is received and returned when the address is whitelisted, but the test checks that `self.receive_struct` is set to a dict with \"addr\" and \"content\" keys, an attribute and format the docstring never mentions.",
+  "missing": "The docstring should say that on successful receipt the method stores the received information in the `receive_struct` attribute as a dictionary with the address under \"addr\" and the content under \"content\"."
+}

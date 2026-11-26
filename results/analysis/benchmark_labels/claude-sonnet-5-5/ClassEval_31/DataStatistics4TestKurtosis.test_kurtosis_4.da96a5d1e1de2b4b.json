@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"calculate the kurtosis\" and never gives the formula, so the test's value depends on an unstated choice: population (divide by n) excess kurtosis, minus 3, computed in a particular order that gives exact float results.",
+  "missing": "The docstring should say that kurtosis is the population excess kurtosis, i.e. the fourth central moment divided by the fourth power of the population standard deviation (both dividing by n), minus 3, and that the result is compared as an exact float."
+}

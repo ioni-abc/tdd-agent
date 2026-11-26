@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add appends the segment to the list of segments, and the example shows segments becoming ['foo', 'bar']; the test adds 'aaa' and 'bbb' and expects ['aaa', 'bbb'], which follows directly. The fix_path call in the reference code does not change plain alphanumeric segments, so the test does not depend on it.",
+  "missing": "none"
+}

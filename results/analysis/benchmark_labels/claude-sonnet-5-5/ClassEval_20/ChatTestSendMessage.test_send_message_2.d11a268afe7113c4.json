@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that if the sender or receiver is not in the Chat, the method returns False. The test's call returns False for an unknown receiver, and an implementation that returns False without storing anything would leave `users` unchanged, so it passes.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Both positions hold 'a' and are in range and distinct, but the 'b' at (0,1) blocks the direct route and the other 'a' cells only connect (0,2) to column 3, so there is no valid path and False follows from the docstring's path condition.",
+  "missing": "none"
+}

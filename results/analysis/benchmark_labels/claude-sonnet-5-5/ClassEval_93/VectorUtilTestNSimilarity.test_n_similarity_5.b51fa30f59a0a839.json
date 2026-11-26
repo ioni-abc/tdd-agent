@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"cosine similarity between two sets of vectors\" and never states that each set is first averaged into one mean vector before the cosine is taken, which the expected value depends on.",
+  "missing": "State that each list of vectors is reduced to its element-wise mean vector, and the result is the cosine similarity (a single scalar) between those two mean vectors."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says remove_user returns True if the user is in the Chat and otherwise False, so removing a nonexistent user 'Amy' returns False and leaves the users unchanged, which is the natural implementation.",
+  "missing": "none"
+}

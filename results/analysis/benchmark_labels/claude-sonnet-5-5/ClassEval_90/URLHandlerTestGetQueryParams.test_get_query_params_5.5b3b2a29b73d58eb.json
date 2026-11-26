@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses the same URL shape as the docstring example (query with two params and a fragment) and expects the same dict format, so an implementation following the docstring passes.",
+  "missing": "none"
+}

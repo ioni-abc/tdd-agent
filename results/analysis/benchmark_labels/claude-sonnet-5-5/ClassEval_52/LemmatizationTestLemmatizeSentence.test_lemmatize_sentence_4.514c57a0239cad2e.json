@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Removing punctuation, tokenizing, POS-tagging and POS-based lemmatizing yields exactly the expected list, with case preserved as in the docstring example.",
+  "missing": "none"
+}

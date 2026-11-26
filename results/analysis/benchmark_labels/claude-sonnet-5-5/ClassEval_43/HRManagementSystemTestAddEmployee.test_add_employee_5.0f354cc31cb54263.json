@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The return values (True for a new id, False for a duplicate) are stated, but the final assertion checks the internal `employees` dict, whose layout the docstring never describes: keyed by employee id, with inner dicts using the keys 'name', 'position', 'department' and 'salary'.",
+  "missing": "The docstring should say that employees are stored in an `employees` dictionary keyed by employee id, whose value is a dictionary with the keys 'name', 'position', 'department' and 'salary' holding the given values, and that a duplicate id leaves the stored record unchanged."
+}

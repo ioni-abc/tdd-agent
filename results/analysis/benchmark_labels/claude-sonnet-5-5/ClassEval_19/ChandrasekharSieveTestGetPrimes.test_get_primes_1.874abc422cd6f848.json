@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says `get_primes` returns the list of generated primes and gives the same output for n=20 as the test, so returning the stored primes list passes.",
+  "missing": "none"
+}

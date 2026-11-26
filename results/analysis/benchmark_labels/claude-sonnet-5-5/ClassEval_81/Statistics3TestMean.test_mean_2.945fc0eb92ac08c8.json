@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says nothing about an empty list, so a programmer might raise an error, return 0, or return NaN, whereas the test expects None.",
+  "missing": "The docstring should state what the method returns when the input list is empty (for example, that it returns None instead of raising an error)."
+}

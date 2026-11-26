@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"Remove a stock from the portfolio\" with an example of removing the full quantity, and never says that removing more shares than are held fails, returns False, and leaves the portfolio unchanged.",
+  "missing": "The docstring should state that if the portfolio holds fewer shares of the named stock than the requested quantity (or the stock is absent), the removal is rejected, False is returned and the portfolio is not modified."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to set length to 1, position to (SCREEN_WIDTH/2, SCREEN_HEIGHT/2), score to 0, which gives (50.0, 50.0) equal to (50, 50) in the assertion, and the test checks exactly these.",
+  "missing": "none"
+}

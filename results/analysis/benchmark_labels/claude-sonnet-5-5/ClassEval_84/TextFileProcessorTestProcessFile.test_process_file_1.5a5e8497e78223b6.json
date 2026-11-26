@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to remove non-alphabetic characters, write the result back, and return it (its example returns 'nametestage'), so 'Hello, 123 World!' becoming 'HelloWorld' follows directly. The test's mocks of read_file and write_file fit the class's existing helper methods, which the docstring example itself calls.",
+  "missing": "none"
+}

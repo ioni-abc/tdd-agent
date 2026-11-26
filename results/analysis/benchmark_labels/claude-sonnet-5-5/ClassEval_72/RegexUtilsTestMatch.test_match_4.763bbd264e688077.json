@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The text \"123-456-789\" has only three digits in the last group, so it does not fit the pattern under any reasonable reading of \"matches the regular expression\", and the expected False follows directly from the docstring.",
+  "missing": "none"
+}

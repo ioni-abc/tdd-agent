@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects an exact floating-point result (23.000000000000004) from a specific formula order with no rounding, but the docstring gives neither the conversion formula nor any rounding rule.",
+  "missing": "The docstring should specify the exact conversion formula (for example Fahrenheit to Celsius as (F - 32) * 5/9) and state that the result is returned unrounded."
+}

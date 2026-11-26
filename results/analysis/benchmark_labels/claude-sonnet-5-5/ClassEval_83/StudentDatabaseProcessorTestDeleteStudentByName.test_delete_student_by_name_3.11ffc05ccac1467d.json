@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Mismatched test: the test is named test_delete_student_by_name_3 and calls delete_student_by_name, never search_student_by_name, which is the method it is filed under.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows that each employee's dict gains an 'employee_ID' key and the result is a dict keyed by ID, and this test with two employees follows the same pattern.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Starting at level 1 with 0 exp, the docstring's rule (level up at 100 times the current level, carry the overflow forward) gives level 5 with 100 exp left over from 1100, which is what the test and reference code expect.",
+  "missing": "none"
+}

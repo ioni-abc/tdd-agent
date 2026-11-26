@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the binary representation of a positive integer, and the example shows a plain binary string without a prefix; the test's input of 169815 gives '101001011101010111' under the same convention.",
+  "missing": "none"
+}

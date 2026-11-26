@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines MAP as the mean of AP, and its example (`([1,0,1,0],4)` giving 0.41667) shows AP is the sum of precision at each correct rank divided by the ground-truth count, which gives 0.0625 for this test.",
+  "missing": "none"
+}

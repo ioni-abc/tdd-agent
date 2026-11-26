@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "tan(0) in degrees is mathematically 0, and any correct implementation of \"tan of x-degree angle\" returns 0.0 (the reference's rounding does not change this), so the test follows from the docstring.",
+  "missing": "none"
+}

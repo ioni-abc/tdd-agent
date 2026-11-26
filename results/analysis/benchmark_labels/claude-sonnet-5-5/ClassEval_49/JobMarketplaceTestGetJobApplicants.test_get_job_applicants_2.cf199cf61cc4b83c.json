@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the candidates that satisfy the job's requirements via `matches_requirements`, so John, whose skills share nothing with the requirements, is excluded and only Tom is returned, as the test expects.",
+  "missing": "none"
+}

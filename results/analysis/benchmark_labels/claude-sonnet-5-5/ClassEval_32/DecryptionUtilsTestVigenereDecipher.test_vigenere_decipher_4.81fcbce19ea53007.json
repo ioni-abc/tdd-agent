@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"Vigenere cipher\" and gives one example, so the key-cycling and lowercase-shift conventions the test relies on are not spelled out, though the standard algorithm would give 'ryf' here.",
+  "missing": "The docstring should say how the key is applied: each letter is shifted back by the matching key letter (a=0), the key repeats cyclically, and the key index advances only on alphabetic characters, with case preserved and non-letters left unchanged."
+}

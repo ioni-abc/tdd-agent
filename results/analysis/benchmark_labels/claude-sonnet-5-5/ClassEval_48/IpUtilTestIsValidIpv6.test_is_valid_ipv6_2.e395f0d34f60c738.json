@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test input is exactly the docstring's second example, which is explicitly shown to return False, and a programmer would implement standard IPv6 validation in which ':::' is invalid.",
+  "missing": "none"
+}

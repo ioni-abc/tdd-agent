@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never gives the exchange rate table (e.g. how CNY relates to USD), so a programmer cannot derive 10.0 from 64 CNY; the doctest shows the result but not the rates or the formula (amount / from_rate * to_rate with rates relative to a base currency).",
+  "missing": "The docstring should specify the exchange rates available in self.rates and that conversion divides the amount by the source currency's rate and multiplies by the target currency's rate."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the format for a two-field dict, and this test applies the same format to five fields, so a programmer following the example would produce the expected string.",
+  "missing": "none"
+}

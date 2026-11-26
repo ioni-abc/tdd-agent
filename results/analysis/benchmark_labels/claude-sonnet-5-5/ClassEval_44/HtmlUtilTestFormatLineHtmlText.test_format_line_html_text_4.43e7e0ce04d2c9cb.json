@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says code is replaced with -CODE- and shows clean lines, but the test expects consecutive newlines collapsed to one while a leading and a trailing newline are kept, and the docstring never says this.",
+  "missing": "The docstring should say that runs of consecutive line breaks are collapsed into a single newline and that the result is not stripped, so a leading or trailing newline from the input whitespace remains."
+}

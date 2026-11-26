@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to remove the given event from the calendar, and the test removes one of two events and expects the other to remain, which is what a straightforward implementation does.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Shifting each letter back by 2 gives \"UMPJB\" without wrapping, which follows from the docstring's description of shifting each character by an int, with case preserved as is standard for a Caesar cipher.",
+  "missing": "none"
+}

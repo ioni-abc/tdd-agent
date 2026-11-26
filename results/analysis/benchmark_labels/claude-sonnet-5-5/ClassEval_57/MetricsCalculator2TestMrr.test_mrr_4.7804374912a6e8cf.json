@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines MRR as the mean reciprocal rank and its examples show that only the first correct answer counts, which gives 1.0 and 0.25 for the two lists and a mean of 0.625.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The new course (8:30\u20139:30) partially overlaps the existing one (9:00\u201310:00), and the docstring says a time conflict with another course returns False, which the test expects.",
+  "missing": "none"
+}

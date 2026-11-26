@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the list of classes the student has registered, and the example shows John's classes accumulating in order; this test checks that John's list stays separate from Tom's, which follows naturally from per-student registration.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test adds a new item to an empty machine and checks the inventory, which matches the docstring's example exactly; the restock logic in the reference only matters for existing items, which this test does not cover.",
+  "missing": "none"
+}

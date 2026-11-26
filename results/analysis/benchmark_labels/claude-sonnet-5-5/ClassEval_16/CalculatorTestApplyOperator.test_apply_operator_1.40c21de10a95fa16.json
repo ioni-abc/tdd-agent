@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring example returns `([1, -1], ['-'])`, so the used operator '-' stays on the stack, but the test and reference code pop it and leave `['+']`.",
+  "missing": "none"
+}

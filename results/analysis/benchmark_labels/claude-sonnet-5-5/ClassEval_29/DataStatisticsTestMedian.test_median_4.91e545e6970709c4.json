@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The median of the odd-length list is 5, which any implementation following the docstring (including returning 5.0) would produce and pass assertEqual against 5.",
+  "missing": "none"
+}

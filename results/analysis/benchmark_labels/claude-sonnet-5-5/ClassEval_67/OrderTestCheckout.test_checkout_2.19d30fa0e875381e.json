@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says checkout returns False when selected_dishes is empty, and the test calls checkout on a fresh order with no selections and asserts a falsy result.",
+  "missing": "none"
+}

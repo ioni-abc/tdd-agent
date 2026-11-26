@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is the docstring's own example: both positions are in range and different, both hold 'a', and they are adjacent, so a path exists and the result is True, as the docstring's conditions require.",
+  "missing": "none"
+}

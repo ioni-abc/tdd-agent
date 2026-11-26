@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example gives the exact regex, and a programmer who returns that pattern gets False for an address whose domain starts with a dot and has no valid label before the TLD dot.",
+  "missing": "none"
+}

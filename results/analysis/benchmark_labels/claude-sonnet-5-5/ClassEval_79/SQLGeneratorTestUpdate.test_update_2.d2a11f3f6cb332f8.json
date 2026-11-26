@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the exact format (quoted values, comma-separated SET pairs, WHERE clause, trailing semicolon), and this test with three fields follows the same pattern.",
+  "missing": "none"
+}

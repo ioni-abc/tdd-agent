@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says BMI is weight divided by the square of height, which is exactly what the reference computes, and 50/1.8^2 gives the test's expected value.",
+  "missing": "none"
+}

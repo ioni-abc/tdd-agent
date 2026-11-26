@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to compute each student's GPA with get_gpa and return the name of the highest. Using the average of course scores, Bob has 85 against 75 for Alice and Charlie, so Bob is the unambiguous top student.",
+  "missing": "none"
+}

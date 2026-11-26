@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the zero and one proportions as fractions (0.475, 0.525) and the bit length, which is what the reference code returns; here 6/15 = 0.4 and 9/15 = 0.6 with length 15.",
+  "missing": "none"
+}

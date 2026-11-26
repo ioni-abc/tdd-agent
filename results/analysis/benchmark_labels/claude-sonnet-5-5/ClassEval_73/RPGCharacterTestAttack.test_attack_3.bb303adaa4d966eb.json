@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test only needs damage = attack_power minus the defender's defense, which the docstring and its example describe, and the minimum-damage floor is never reached.",
+  "missing": "none"
+}

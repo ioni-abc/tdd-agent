@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says play returns the current song, but the test expects the first playlist item (\"song1\") even though current_song is a different value (\"song3\").",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the index of the rightmost occurrence of the character in the pattern, and in \"ABCABC\" the rightmost \"C\" is at index 5, which is what the test expects.",
+  "missing": "none"
+}

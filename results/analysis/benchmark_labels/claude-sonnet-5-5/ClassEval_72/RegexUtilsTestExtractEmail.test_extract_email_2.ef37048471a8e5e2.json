@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never defines what counts as a valid email address, and the test expects an address with an empty domain label before the dot to be skipped, which a looser but reasonable implementation would not do.",
+  "missing": "The docstring should state the validity rules for an email address, in particular that the domain must contain at least one non-empty label before the final dot and a top-level domain, and that malformed addresses are excluded from the result."
+}

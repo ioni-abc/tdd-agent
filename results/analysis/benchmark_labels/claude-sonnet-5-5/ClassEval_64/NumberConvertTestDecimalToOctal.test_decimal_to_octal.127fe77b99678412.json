@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the octal string of a decimal integer and gives the same example (42423 -> '122667') that the test checks, so a correct implementation passes.",
+  "missing": "none"
+}

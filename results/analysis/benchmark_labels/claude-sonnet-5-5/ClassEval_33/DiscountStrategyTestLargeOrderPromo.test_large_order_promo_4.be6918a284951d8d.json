@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The cart has 1000 distinct products (at least 10), so the docstring's rule gives a 7% discount on the whole order; the total is 1000*10 = 10000, so the discount is 700, which matches the test.",
+  "missing": "none"
+}

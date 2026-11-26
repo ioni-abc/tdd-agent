@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the difference of two numbers as a string, and its example shows a negative result with a '-' prefix; here the second number is larger, and the expected value \"-98753086430975308643\" is the correct difference.",
+  "missing": "none"
+}

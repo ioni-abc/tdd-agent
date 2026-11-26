@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives the value range 1\u20139 but never says how many cards to generate, and the test requires exactly four.",
+  "missing": "The docstring should state that exactly four random numbers are generated and stored as the cards."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to save cookies to the cookies_file and return True on success; the test sets cookies and expects True, which any straightforward implementation (e.g. JSON dump) delivers.",
+  "missing": "none"
+}

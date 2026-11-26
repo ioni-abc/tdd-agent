@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The player busts with 22 and the dealer has 16, so the docstring's \"otherwise the lower value wins\" rule gives 'Dealer wins', matching the test.",
+  "missing": "none"
+}

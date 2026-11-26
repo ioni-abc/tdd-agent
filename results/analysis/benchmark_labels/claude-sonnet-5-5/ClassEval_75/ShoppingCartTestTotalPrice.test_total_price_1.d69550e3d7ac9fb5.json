@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the total is the sum of quantity times price for each item, and the doctest example (1*5 + 2*3 = 11.0) is the same scenario the test checks.",
+  "missing": "none"
+}

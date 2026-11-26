@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's single example only shows thousands, so it does not say how millions are named or that no \"AND\" appears in \"ONE MILLION ONLY\", and a programmer would have to guess the scale words and exact wording.",
+  "missing": "The docstring should specify the scale words used for large numbers (thousand, million, billion, and so on), and that \"AND\" is inserted only after the hundreds part and before the remaining tens or units, with \"ONLY\" appended at the end."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Adding status 2 to current status 0 gives 2 under either bitwise OR or arithmetic addition, and both inputs are legal non-negative ints, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to count word frequencies across all the lists, sort by descending count, and return the top 5. In this test the top five are unambiguous: \"world\" 6, \"hello\" 4, and \"this\", \"is\", \"test\" at 2 each, with \"a\" and \"another\" at 1. Dict equality ignores order, so no tie-breaking rule is needed.",
+  "missing": "none"
+}

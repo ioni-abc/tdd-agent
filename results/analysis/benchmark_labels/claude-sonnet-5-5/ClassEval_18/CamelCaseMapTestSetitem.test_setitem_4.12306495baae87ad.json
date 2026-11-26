@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says that keys are converted to camelCase on set, so a programmer could store 'firstName' and 'first_name' as separate keys and fail this test, which expects them to map to the same entry.",
+  "missing": "The docstring should say that the key is normalized to camelCase before storing, so that keys differing only in snake_case versus camelCase refer to the same entry."
+}

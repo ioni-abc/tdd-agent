@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says calculate returns the value of the expression, so '1+2+3' evaluating to 6 (equal to 6.0) follows directly, as the docstring example '1+2-3' gives 0.0.",
+  "missing": "none"
+}

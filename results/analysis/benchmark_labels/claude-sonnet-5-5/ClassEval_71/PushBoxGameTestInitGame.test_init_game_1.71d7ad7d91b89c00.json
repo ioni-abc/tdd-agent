@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test\u2013method mismatch: the test only checks that `game.map` equals the input map, which is set in the constructor and not by `init_game`, so it does not exercise the documented player/target/box initialization.",
+  "missing": "none"
+}

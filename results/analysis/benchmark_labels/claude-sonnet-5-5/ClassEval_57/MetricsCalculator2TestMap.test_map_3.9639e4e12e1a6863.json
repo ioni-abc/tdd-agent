@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's second example uses the same input and gives the same outputs as the test (0.3333333333333333 and [0.41666666666666663, 0.25]). These values are consistent with standard AP, where precision at each correct rank is summed and divided by the ground truth count, and MAP is the mean of the APs.",
+  "missing": "none"
+}

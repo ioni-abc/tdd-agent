@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test includes an interpolation point outside the data range, which the reference silently omits from the output, and the docstring does not say how such points are handled.",
+  "missing": "The docstring should say that interpolation points outside the range of the data grid are skipped, with no entry added to the result, rather than extrapolated, clamped, or raising an error."
+}

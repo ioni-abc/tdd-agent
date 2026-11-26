@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to count consecutive same-player symbols from the given cell in the given direction and return True for five, and the test's row 5 cols 1 to 5 hold five consecutive 'X' symbols with direction (0,1), so a straightforward implementation returns True.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring mentions a \"given date\" parameter that is not in the signature and never says that upcoming means starting at or after the current system time, so a 2023 event being excluded (returning []) is not derivable from it.",
+  "missing": "The docstring should state that the reference point is the current date and time, and that only events whose start time is at or after it are returned, up to n of them."
+}

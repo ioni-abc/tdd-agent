@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "After the moves, X holds (0,0), (1,1) and (2,0) and O holds (0,1) and (1,0), so no row, column or diagonal is complete, and the docstring says to return None when there is no winner yet.",
+  "missing": "none"
+}

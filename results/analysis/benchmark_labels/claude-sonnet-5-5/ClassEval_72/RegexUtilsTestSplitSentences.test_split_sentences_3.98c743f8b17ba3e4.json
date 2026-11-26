@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects no split after a period when the following word starts lowercase, a boundary condition the docstring never mentions (its example only has capitalized sentence starts).",
+  "missing": "The docstring should state that a sentence boundary is end punctuation followed by whitespace and an uppercase letter, so end punctuation followed by a lowercase-starting word does not cause a split."
+}

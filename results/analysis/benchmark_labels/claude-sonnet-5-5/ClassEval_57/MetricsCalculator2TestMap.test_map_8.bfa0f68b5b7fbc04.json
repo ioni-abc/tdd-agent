@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what AP should be when the ground truth count is 0, and a programmer would likely divide by zero (a numpy warning with nan or inf, or a ZeroDivisionError) instead of returning 0.0 for each entry.",
+  "missing": "The docstring should say that when an entry's ground truth num is 0, its AP is 0.0, and so a list of such entries gives a mean of 0.0 and a per-input list of 0.0 values."
+}

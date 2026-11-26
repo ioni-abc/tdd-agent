@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that sending a dict with addr and content sets self.send_struct to that same dict, which is exactly what the test checks with valid input.",
+  "missing": "none"
+}

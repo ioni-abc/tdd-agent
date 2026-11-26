@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Wrong-method test: test_select_4 is filed under `select` but calls `calc.count(6, 0)`, so it never exercises `select`.",
+  "missing": "none"
+}

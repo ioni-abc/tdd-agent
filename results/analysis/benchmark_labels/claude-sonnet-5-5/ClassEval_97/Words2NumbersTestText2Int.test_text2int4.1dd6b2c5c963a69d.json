@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows a hyphenated number (\"thirty-two\" to \"32\") and says nothing about the connecting word \"and\" inside a number; the reference code treats \"and\" as a zero-valued number word, which is why the result is \"101\".",
+  "missing": "The docstring should say that the connector word \"and\" within a spelled-out number is ignored (adds nothing) and does not break or separate the number being parsed."
+}

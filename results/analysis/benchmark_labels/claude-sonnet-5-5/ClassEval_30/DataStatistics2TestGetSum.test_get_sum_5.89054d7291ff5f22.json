@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to compute the sum of the data, and 1+2+6+4 = 13 matches the test's expectation; a float return would still equal 13.",
+  "missing": "none"
+}

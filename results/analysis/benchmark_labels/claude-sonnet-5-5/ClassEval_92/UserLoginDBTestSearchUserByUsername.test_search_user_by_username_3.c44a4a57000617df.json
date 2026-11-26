@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the method returns a list of tuples (len(result) = 1), but the reference and test expect a single row tuple, indexed directly as user[0] and user[1].",
+  "missing": "none"
+}

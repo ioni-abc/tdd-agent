@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The return values (True, True, False) follow from the docstring, but the last assertion checks `hr_system.employees` as a dict keyed by employee id whose values are dicts with 'name', 'position', 'department' and 'salary'. The docstring never mentions this attribute or its structure.",
+  "missing": "The docstring should say that employees are stored in an `employees` attribute, a dict keyed by employee id whose values are dicts with the keys 'name', 'position', 'department' and 'salary'. It should also say that \"already in the system\" means the id is already a key."
+}

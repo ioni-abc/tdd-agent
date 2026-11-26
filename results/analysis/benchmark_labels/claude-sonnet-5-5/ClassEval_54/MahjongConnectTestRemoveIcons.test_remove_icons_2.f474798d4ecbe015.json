@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to remove the icons at the two given positions, and the example shows board[x][y] being set to ' ', which is exactly what the test checks.",
+  "missing": "none"
+}

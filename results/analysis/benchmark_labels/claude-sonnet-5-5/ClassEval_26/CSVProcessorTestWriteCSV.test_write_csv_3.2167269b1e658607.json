@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test writes a simple list of rows, expects return 1 on success, and reads it back, which follows directly from the docstring and its example.",
+  "missing": "none"
+}

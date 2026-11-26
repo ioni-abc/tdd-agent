@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the dict format {name: {\"price\", \"quantity\"}}, which matches the test's expected output after adding one item.",
+  "missing": "none"
+}

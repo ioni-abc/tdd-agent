@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the value of the expression, so '1+2' giving 3 (equal to 3.0) follows directly from it, and the docstring example shows a float result.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the Taylor expansion of cos(x/180*pi), and with 50 terms at 90 degrees any reasonable implementation converges to about 0, matching the test.",
+  "missing": "none"
+}

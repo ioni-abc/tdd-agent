@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the exact format string, and substituting empty strings for the chord and play tune yields exactly the expected output, so any implementation following the format passes.",
+  "missing": "none"
+}

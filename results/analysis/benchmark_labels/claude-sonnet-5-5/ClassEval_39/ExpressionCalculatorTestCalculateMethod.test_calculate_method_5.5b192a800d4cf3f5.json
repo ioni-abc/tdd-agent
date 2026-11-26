@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to perform the calculation on the operands and operator and return a Decimal, so \"6\" / \"2\" naturally gives 3, which equals Decimal(3.0).",
+  "missing": "none"
+}

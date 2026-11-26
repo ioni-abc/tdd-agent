@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says `get_primes` returns the list of generated primes, and its example shows the primes up to 20, so for n=10 a programmer would return [2, 3, 5, 7], which matches the test.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names the standard Rail Fence cipher and gives an example with 2 rails, and the standard zigzag algorithm gives \"hloel\" for \"hello\" with 2 rails, which matches the test.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says a sentence boundary requires the next sentence to start with an uppercase letter, so a programmer would split after the period before the lowercase word, unlike the expected unsplit output.",
+  "missing": "The docstring should state that a split happens only at sentence-ending punctuation followed by whitespace and an uppercase letter, so punctuation followed by a lowercase word does not split."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says combinations of a specified number of elements are generated recursively, and its example (size 2 from four items, lexicographic order) extends directly to size 3, which gives the expected result in this test.",
+  "missing": "none"
+}

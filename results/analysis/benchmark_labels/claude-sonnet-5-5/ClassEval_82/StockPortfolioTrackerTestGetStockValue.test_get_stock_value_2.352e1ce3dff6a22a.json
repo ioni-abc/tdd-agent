@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The value of a stock is naturally price times quantity, as the docstring example shows (150.0 \u00d7 10 = 1500.0), so a quantity of 0 gives 0.0 under any reasonable implementation.",
+  "missing": "none"
+}

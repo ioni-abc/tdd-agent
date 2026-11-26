@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never gives the input format, only a single example, so a programmer must infer the \"%Y-%m-%d %H:%M:%S\" layout (including non-zero-padded fields) from that one example; the test's input fits the example's pattern, but the format is not stated.",
+  "missing": "The docstring should state the exact expected input string format (year-month-day hour:minute:second, with fields allowed to be unpadded) and that the result is the corresponding datetime."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test searches for a name that exists and expects a list with one matching row whose name field is 'Alice', which follows directly from the docstring's description of returning matching rows as tuples.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the resumes that pass matches_requirements, and the test's single resume has skills identical to the job's requirements, so any reasonable matching rule returns it.",
+  "missing": "none"
+}

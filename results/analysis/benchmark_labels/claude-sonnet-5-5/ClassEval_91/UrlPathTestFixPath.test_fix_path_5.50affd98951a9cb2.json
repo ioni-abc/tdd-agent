@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says leading and trailing slashes are removed, so '/a/' becomes 'a', which matches the test and the reference code.",
+  "missing": "none"
+}

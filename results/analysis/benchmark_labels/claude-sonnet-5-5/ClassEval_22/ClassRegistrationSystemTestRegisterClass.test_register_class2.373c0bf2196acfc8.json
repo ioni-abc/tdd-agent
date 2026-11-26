@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the list of class names the student has registered, and its example shows classes accumulating in registration order, so a third registration returning all three names in order follows directly.",
+  "missing": "none"
+}

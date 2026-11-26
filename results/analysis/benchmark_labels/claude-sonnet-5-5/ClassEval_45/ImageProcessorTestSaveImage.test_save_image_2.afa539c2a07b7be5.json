@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test loads an image and saves it to a path, which is exactly what the docstring says (\"Save image to a path if image has opened\"), and the saved file has the expected size.",
+  "missing": "none"
+}

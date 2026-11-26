@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A document with a single paragraph \"aaa\" should read back as \"aaa\", which any reasonable implementation of \"returns the content as a string\" produces, with no separator ambiguity since there is only one paragraph.",
+  "missing": "none"
+}

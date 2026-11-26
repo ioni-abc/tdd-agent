@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test makes five moves on distinct empty squares, each switching the player and returning True, so the final current player is 'O', which follows directly from the docstring's place-and-switch behaviour.",
+  "missing": "none"
+}

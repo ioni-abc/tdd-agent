@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's only example is \"123456\", which shows hundreds with \"AND\" and a thousand group, but nothing about how an exact thousand with zero lower groups is rendered, such as whether \"AND\" or \"ZERO\" fragments appear. The expected \"ONE THOUSAND ONLY\" depends on the reference's convention of omitting \"AND\" and the zero-group handling.",
+  "missing": "The docstring should state that when the lower groups are all zero, no extra words or \"AND\" are added after the scale word (e.g. just \"<number> THOUSAND ONLY\"), and that \"AND\" appears only between hundreds and a nonzero remainder."
+}

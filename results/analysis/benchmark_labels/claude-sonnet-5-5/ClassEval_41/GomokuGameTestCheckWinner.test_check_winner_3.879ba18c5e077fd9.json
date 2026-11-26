@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "O has five in a row horizontally in row 0 (X's row 5 has a gap), and the docstring says to return the symbol of the player with five in a row.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes the z-score of a normal list and never says what to return when the standard deviation is zero or undefined (e.g. a single-element list), where the reference returns None.",
+  "missing": "The docstring should say that when the standard deviation is zero or cannot be computed (such as a list with only one element), the method returns None instead of a list."
+}

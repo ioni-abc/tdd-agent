@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With two users and only one signed in, \"all users are signed in\" is plainly false, so a programmer following the docstring returns False, which matches the test.",
+  "missing": "none"
+}

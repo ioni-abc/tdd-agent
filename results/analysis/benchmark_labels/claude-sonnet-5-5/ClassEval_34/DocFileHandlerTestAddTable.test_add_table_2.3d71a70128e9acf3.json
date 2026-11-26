@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a table is added with the given data, and the test checks that a 2x2 table with those values appears in the document, which a normal implementation would produce.",
+  "missing": "none"
+}

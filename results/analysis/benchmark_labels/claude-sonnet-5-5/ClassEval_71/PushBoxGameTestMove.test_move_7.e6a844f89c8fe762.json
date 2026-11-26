@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says that pushing a box into a wall is blocked and leaves the player in place, which is what the test expects.",
+  "missing": "The docstring should state that a move is cancelled, leaving the player and box unchanged, when the player would walk into a wall or push a box into a wall or another obstacle."
+}

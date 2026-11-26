@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer would generate a new random position on the screen that is not on the snake, and that satisfies the test's checks of not being in the snake's positions and lying within 0 to 100.",
+  "missing": "none"
+}

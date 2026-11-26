@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The area of an annulus is pi*(R\u00b2-r\u00b2), and with equal radii this is 0, which any correct implementation of the docstring's formula and its example would return.",
+  "missing": "none"
+}

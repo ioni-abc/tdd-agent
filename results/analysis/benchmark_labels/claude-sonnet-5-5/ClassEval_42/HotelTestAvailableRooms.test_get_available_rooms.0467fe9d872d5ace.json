@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the remaining number of rooms of the given type, and the test checks that a hotel with 3 single rooms reports 3, which follows directly from that.",
+  "missing": "none"
+}

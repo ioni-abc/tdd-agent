@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A standard Fahrenheit-to-Celsius conversion of 80 gives 26.67, which is not 27, and the docstring example shows an unrounded float result.",
+  "missing": "none"
+}

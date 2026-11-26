@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the mode must be 'heat' or 'cool' and never says what happens for an invalid mode, but the test expects the method to return False.",
+  "missing": "The docstring should say that when the mode is not one of the allowed values, the method leaves the mode unchanged and returns False."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test adds 5 apples, removes 1, and expects a quantity of 4, which is what \"subtract the specified quantity\" from the item describes, as the docstring example shows with 5 minus 3 giving 2.",
+  "missing": "none"
+}

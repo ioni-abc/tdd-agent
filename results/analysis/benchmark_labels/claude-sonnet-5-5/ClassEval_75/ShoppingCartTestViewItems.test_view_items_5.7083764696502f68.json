@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says view_items returns the current items as a dict, and its example shows the format {\"apple\": {\"price\":..., \"quantity\":...}}, which matches what the test expects after adding one apple.",
+  "missing": "none"
+}

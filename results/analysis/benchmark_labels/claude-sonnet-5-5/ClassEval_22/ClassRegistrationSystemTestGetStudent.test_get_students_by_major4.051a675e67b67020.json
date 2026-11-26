@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to return a list of names of students in the major but does not specify ordering, and the test expects registration (insertion) order with several matches per major.",
+  "missing": "The docstring should state that the returned names appear in the order the students were registered (the order in the stored student list)."
+}

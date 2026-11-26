@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test mismatch: the test never calls `_get_alignment_value`, and it exercises read_text, write_text, add_heading and add_table instead.",
+  "missing": "none"
+}

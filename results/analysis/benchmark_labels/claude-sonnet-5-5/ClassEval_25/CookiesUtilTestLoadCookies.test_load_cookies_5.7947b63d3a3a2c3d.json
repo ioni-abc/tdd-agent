@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says load_cookies reads the cookies_file and returns its data, and the reference does exactly that with json.load, so the test's expected dict is the file contents. The `self.cookies` assignment in the test is irrelevant because the method reads from the file.",
+  "missing": "none"
+}

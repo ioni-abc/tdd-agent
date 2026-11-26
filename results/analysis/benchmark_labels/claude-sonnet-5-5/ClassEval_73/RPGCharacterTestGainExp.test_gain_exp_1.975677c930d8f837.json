@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A new character starts at level 1 with 0 exp, and the docstring says to level up when exp reaches 100 times the current level, so gaining 100 exp gives level 2 with no overflow and 0 exp.",
+  "missing": "none"
+}

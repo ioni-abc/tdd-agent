@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The new course (14:30-15:30) does not overlap the existing one (09:00-10:00), so the docstring's rule of returning True when there is no conflict gives the expected result.",
+  "missing": "none"
+}

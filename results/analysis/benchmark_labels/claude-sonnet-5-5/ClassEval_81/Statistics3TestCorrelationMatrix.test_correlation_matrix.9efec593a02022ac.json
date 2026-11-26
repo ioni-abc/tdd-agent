@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses the same input and expected output as the docstring example, and both rows-as-variables and columns-as-variables readings yield all 1.0 for this data.",
+  "missing": "none"
+}

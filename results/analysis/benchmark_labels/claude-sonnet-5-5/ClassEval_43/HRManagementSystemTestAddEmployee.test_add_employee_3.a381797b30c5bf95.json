@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test asserts the internal `employees` attribute is a dict keyed by employee id with specific inner keys ('name', 'position', 'department', 'salary'), but the docstring only describes the True/False return values.",
+  "missing": "The docstring should say that employees are stored in an `employees` dict keyed by employee id, whose values are dicts with the keys 'name', 'position', 'department' and 'salary'."
+}

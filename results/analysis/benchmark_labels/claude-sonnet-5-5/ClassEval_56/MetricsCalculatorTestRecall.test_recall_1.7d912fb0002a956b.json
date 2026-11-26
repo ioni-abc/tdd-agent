@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example is identical to the test, and the standard definition of recall (TP/(TP+FN)) gives 0.5 for these inputs (TP=1, FN=1), so a programmer following the docstring would pass.",
+  "missing": "none"
+}

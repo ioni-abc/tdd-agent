@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say whether a slot that begins exactly when an existing event ends counts as a conflict, and an inclusive-boundary implementation would return False and fail this test.",
+  "missing": "The docstring should say that time slots are half-open, so a slot that only touches an event at its start or end boundary does not overlap it and the calendar is available."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Stripping leading and trailing slashes from an empty string naturally gives an empty string, and any reasonable implementation (e.g. `path.strip('/')`) returns '' for this input.",
+  "missing": "none"
+}

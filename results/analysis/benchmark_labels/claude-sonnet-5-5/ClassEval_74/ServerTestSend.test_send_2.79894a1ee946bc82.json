@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says an error message string is returned on failure but never says what the message is, nor that a dict missing \"content\" counts as a failure, so a correct implementation could return a different string and fail the exact-match assertion.",
+  "missing": "The docstring should state that a missing \"addr\" or \"content\" key (or a non-dict input) counts as failure, and give the exact error string to return, \"info structure is not correct\"."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring text says length increases by 1 and score by 100 per call, so three calls give length 4 and score 300, matching the test; the doctest's \"score = 10\" is a typo but the prose is explicit.",
+  "missing": "none"
+}

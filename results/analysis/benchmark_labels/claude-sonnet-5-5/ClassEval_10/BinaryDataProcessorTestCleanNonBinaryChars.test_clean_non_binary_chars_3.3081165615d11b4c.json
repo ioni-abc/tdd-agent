@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test never calls `clean_non_binary_chars`; it only constructs the object and checks `binary_string`, so it passes only because the constructor already cleans the string, and the method under test is not exercised.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is the docstring's own example (4 elements into 2 partitions, index 0 gives [1, 2]), which divides evenly and has no remainder, so any implementation that follows the docstring would pass.",
+  "missing": "none"
+}

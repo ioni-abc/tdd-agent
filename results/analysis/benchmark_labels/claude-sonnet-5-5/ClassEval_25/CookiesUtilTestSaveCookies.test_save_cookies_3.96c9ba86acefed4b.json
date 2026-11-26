@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the cookies are saved to cookies_file and True is returned on success; the test sets nested cookies, saves them, and asserts True, which any reasonable implementation would return.",
+  "missing": "none"
+}

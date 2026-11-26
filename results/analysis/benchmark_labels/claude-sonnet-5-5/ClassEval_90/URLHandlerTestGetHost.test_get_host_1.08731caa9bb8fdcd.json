@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses the same URL as the docstring example and expects the host \"www.baidu.com\", which the docstring states directly, so a programmer following it would pass.",
+  "missing": "none"
+}

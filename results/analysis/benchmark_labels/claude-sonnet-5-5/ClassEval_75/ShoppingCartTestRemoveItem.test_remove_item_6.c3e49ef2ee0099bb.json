@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what happens when the item to remove is not in the cart, so a programmer might raise an error, add a negative entry, or do nothing, and only doing nothing passes this test.",
+  "missing": "The docstring should say that removing an item that is not in the cart leaves the cart unchanged and raises no error."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says code is replaced by -CODE- and shows plain text output; it says nothing about list items being prefixed with \"[-]\" and given a trailing period, which the test expects.",
+  "missing": "The docstring should state that each non-empty list item (ul/ol li) is output with a \"[-]\" prefix, and that a period is appended to its text if it does not already end with punctuation."
+}

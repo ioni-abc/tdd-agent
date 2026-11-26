@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says customers with \"over 1000\" points get the discount, implying strictly more than 1000, but the test and reference give the discount at exactly 1000 points.",
+  "missing": "none"
+}

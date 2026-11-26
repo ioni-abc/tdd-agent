@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says factor 0.0 gives a black image and 1.0 the original, which is the PIL Brightness enhancer behaviour; a factor of 0.7 is a natural interpolation, and the test compares against exactly that enhancer.",
+  "missing": "none"
+}

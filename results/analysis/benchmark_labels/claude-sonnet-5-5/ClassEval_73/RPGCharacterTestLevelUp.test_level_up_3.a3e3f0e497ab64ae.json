@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test checks the normal level-up (level+1, exp reset to 0, hp+20, attack+5, defense+5), which the docstring describes directly.",
+  "missing": "none"
+}

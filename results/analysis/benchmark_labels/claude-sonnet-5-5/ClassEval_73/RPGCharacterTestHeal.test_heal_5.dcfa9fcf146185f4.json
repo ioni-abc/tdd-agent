@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says heal adds 10 hp up to a maximum of 100, so hp going from 10 to 20 is exactly what a programmer following it would implement.",
+  "missing": "none"
+}

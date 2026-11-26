@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says \"based on the BMI standard\" but never gives the BMI formula or the male/female thresholds, so a programmer cannot know that BMI 27.04 for a female counts as too fat.",
+  "missing": "The docstring should state the BMI formula (weight divided by height squared) and the normal BMI range for each sex (the lower and upper bounds, with below the range meaning too thin and above it meaning too fat)."
+}

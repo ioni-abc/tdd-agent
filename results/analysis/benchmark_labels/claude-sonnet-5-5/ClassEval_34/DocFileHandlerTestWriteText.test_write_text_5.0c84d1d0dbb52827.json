@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects that writing empty content replaces the file's earlier \"Initial content\", so reading back gives \"\", but the docstring never says whether writing overwrites the document or appends to it.",
+  "missing": "The docstring should say that write_text replaces the whole existing document with a new one containing only the given content, rather than appending to it."
+}

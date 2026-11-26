@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The input is split at each \". \" or \"? \" boundary, and the final sentence ends with \".\" at the end of the string with no trailing space; a programmer following the docstring would produce the expected three sentences, as in the docstring example.",
+  "missing": "none"
+}

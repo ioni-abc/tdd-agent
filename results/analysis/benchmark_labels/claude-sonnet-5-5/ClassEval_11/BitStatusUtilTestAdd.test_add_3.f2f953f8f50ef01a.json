@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Adding status 0 to status 0 yields 0 under either bitwise-OR or arithmetic addition, and the parameters (0, 0) are legal non-negative ints, so any reasonable implementation passes.",
+  "missing": "none"
+}

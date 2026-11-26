@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says check_winner returns None when there is no winner, and an empty board has no five in a row, so the test's expected None follows directly.",
+  "missing": "none"
+}

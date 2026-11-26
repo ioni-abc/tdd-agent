@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A freshly created TicTacToe board is empty, so a programmer following \"check if the board is completely filled\" would return False, and the docstring example shows the same result.",
+  "missing": "none"
+}

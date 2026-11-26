@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says insert_coin adds the amount to the machine and returns the resulting balance, so inserting 2.5 into a new machine returns 2.5, as the docstring example shows for 1.25.",
+  "missing": "none"
+}

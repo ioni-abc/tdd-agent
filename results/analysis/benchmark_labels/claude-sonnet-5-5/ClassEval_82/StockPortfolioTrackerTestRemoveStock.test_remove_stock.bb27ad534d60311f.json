@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is the same scenario as the docstring example: removing a stock whose quantity equals the held quantity returns True and leaves an empty portfolio.",
+  "missing": "none"
+}

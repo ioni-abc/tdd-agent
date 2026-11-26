@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return whether the text matches the regex; \"1234567890\" has no dashes, so the pattern doesn't match and False is the natural result under any reasonable implementation (re.match, fullmatch, or search).",
+  "missing": "none"
+}

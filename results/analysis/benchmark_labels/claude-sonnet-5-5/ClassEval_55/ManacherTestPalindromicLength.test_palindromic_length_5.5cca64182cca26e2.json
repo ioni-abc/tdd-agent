@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"length of the palindromic substring\" and gives one example. It never says the return value is the number of matching symmetric pairs found by expanding outward from `diff` (the radius in the separator-padded string), stopping at a mismatch or a string boundary, which is what the test's 4 relies on.",
+  "missing": "State that the function counts how many consecutive positions, starting at offset `diff`, have equal characters at `center - d` and `center + d`, and stops at the first mismatch or when either index leaves the string; the count (not the character length of the palindrome) is returned."
+}

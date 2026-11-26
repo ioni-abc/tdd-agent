@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says how to handle a position outside the board (here x=300), and it does not define what counts as a path; the reference returns False only because its search never reaches pos2, while another implementation could index the board and raise an IndexError.",
+  "missing": "The docstring should say that if either position lies outside the board bounds, the method returns False instead of raising an error."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says '/' and '*' outrank '+' and '-', and its doctest gives '+' as 1; the test only needs '+' and '-' to have equal priority, and the docstring's grouping of them implies this.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test mismatch: test_select calls calc.count(4, 2) rather than select, so it does not exercise the select method described in the docstring.",
+  "missing": "none"
+}

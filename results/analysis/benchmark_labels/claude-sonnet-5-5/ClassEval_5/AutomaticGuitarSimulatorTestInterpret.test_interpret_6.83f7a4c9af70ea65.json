@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says that if the input is empty or contains only whitespace, an empty list is returned, and the test passes a single space and expects [].",
+  "missing": "none"
+}

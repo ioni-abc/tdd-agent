@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The name \"ccc\" is non-empty and well under 33 characters, so the docstring implies it is returned unchanged, which is what the test checks via the constructor.",
+  "missing": "none"
+}

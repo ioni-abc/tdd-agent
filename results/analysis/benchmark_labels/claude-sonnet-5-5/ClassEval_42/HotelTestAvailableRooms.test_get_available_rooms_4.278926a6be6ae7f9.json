@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test books single rooms and then asks for the number of double rooms, which are unchanged at 2; the docstring says to return the remaining number of rooms of the requested type, so this follows directly.",
+  "missing": "none"
+}

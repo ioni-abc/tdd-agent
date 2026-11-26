@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is the same case as the docstring example (correlation of [1,2,3] and [4,5,6] is 1.0), and the standard Pearson correlation gives that result.",
+  "missing": "none"
+}

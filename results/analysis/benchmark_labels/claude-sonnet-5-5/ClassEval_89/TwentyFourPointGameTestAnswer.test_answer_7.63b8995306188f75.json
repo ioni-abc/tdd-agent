@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Mismatched test target: the test is filed under get_my_cards but calls game.answer() and never calls get_my_cards, so the docstring (four random numbers from 1 to 9) says nothing about what is checked.",
+  "missing": "none"
+}

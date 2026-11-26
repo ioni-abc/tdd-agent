@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_movie adds a new movie into self.movies, and its example shows a movie appended to the list. A programmer would therefore append each call, so two calls give two entries in insertion order, which is what the test checks.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the exact pattern `\\b\\d{3}-\\d{3}-\\d{4}\\b`, and a programmer returning it gets no match on 'a23-456-7890', because there is no word boundary between 'a' and '2'.",
+  "missing": "none"
+}

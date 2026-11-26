@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "'abab' has two equally long palindromic substrings ('aba' and 'bab'), and the docstring does not say which one to return, while the test expects the earlier one.",
+  "missing": "When several palindromic substrings tie for the longest length, return the one that starts earliest in the string."
+}

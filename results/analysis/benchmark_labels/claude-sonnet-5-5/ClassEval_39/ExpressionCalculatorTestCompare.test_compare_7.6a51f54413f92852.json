@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says to return True when the current operator (\"+\") has higher or equal precedence than the stack-top operator (\"%\"). \"+\" has lower precedence than \"%\", so a programmer following it would return False. The reference code instead returns True when the stack-top operator has higher or equal precedence, and the test expects True.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the deck is a full 52-card standard deck in the format like '10C', 'JD', 'QH', 'KS', so the 10/J/Q/K of every suit must be present.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the exact format (table name, comma-separated fields, quoted values, trailing semicolon), and this test just applies it to three fields.",
+  "missing": "none"
+}

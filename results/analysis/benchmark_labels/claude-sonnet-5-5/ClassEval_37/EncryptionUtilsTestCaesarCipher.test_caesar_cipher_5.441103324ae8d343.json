@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test shifts by 27, which exceeds the alphabet size, and expects wraparound modulo 26, but the docstring never says the alphabet wraps around or that shifts larger than 26 are reduced.",
+  "missing": "The docstring should say that letters wrap around within the 26-letter alphabet (z follows a), so shifts of any size, including more than 26, are taken modulo 26."
+}

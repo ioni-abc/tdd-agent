@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to remove a user from the Chat and return True if the user is present, which is exactly what the test checks; the resulting empty users dict follows directly from \"remove a user\".",
+  "missing": "none"
+}

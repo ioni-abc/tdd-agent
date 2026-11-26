@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With current 30 above target 25, cooling is the appropriate mode, so 'heat' conflicts; the docstring says to return False and adjust the mode automatically, which gives 'cool'.",
+  "missing": "none"
+}

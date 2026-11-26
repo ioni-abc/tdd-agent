@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The cost (1500) exceeds the cash balance (1000), so the docstring's \"False if the cash balance is not enough\" applies, and the unchanged portfolio and balance follow naturally from a failed purchase.",
+  "missing": "none"
+}

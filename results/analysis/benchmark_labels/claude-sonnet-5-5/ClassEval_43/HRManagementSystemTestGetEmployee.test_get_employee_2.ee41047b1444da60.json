@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that if the employee is not in the system, the method returns False, and an empty employees dict with id 1 is just a case of that.",
+  "missing": "none"
+}

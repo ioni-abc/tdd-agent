@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to place the current player's mark, switch the mark, and return a bool for success; the test makes three moves to distinct empty cells, each returning True, and the current player ends as 'O' after an odd number of moves, which follows directly from these rules.",
+  "missing": "none"
+}

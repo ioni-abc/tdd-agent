@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that adding an existing product increases its quantity, and the test adds the same product twice with the same name and expects the quantity to be 20, which follows directly.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Several non-mine cells are still hidden ('-') in the player map, so the player has not won, and the docstring's rule (\"just mines\" left) gives False for this case, as in its own example.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same format as the test, with every value quoted, including the integer age as '14', so a programmer following it would produce the expected \"('Tom', '30')\".",
+  "missing": "none"
+}

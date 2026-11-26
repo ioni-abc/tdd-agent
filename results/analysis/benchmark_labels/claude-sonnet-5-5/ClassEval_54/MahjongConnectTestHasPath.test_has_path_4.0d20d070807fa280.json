@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"check if there is a path between two icons\" and does not define what counts as a path, so a programmer would not know that the reference only follows adjacent cells holding the same icon. In this test, (0,0) is 'a' and (1,1) is 'b'. The reference returns False because it never steps onto a different icon. A typical Mahjong-connect implementation, which allows paths through empty cells with at most two turns, could also return False here, but a plain reachability search over any cells would return True.",
+  "missing": "The docstring should state that a path moves only through orthogonally adjacent cells that hold the same icon as the starting cell, so two cells with different icons are never connected."
+}

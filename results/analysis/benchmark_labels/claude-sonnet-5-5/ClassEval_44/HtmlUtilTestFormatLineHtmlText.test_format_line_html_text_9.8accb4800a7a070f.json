@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the HTML text without code and with -CODE- markers; for a simple paragraph with no code, a programmer would naturally return the paragraph text \"Some sentence here.\" unchanged, which matches the test.",
+  "missing": "none"
+}

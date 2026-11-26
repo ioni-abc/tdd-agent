@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says required arguments are added to the required set and every argument's name and type are stored in the types dict, which is exactly what the test checks, including the default str type.",
+  "missing": "none"
+}

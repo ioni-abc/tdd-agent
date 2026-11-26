@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to set the value for the key to the specified value, and the test sets an existing key to an empty string and reads it back, which follows directly from that.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says transfer moves an amount from the current account to another; transferring the full balance of 500 leaves 0 in account1 and adds 500 to account2's 1000, giving 1500, which follows directly from that description.",
+  "missing": "none"
+}

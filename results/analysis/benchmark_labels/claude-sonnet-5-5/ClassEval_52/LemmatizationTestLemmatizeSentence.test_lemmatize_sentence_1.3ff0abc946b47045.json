@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes removing punctuation, tokenizing, POS tagging, and lemmatizing by part of speech, and its example matches this test exactly, so a programmer following it would produce the expected output.",
+  "missing": "none"
+}

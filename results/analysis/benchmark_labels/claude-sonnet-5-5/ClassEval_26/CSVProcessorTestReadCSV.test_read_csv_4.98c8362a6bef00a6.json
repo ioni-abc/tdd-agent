@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the first row is the title and the rest is data, and the test's file has a one-column title row followed by a data row of different width, so a straightforward csv read returns the expected values.",
+  "missing": "none"
+}

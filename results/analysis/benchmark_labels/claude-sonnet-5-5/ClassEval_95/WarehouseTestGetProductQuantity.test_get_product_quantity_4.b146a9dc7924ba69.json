@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test adds product 1 with quantity 100 and expects get_product_quantity(1) to return 100, which is exactly the documented behavior of returning the quantity when the product_id is in inventory.",
+  "missing": "none"
+}

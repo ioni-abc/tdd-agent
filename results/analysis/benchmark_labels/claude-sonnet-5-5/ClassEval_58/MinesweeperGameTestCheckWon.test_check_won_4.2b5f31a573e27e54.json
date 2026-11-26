@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"if there are just mines in the player map, return True\", which does not say that unrevealed '-' cells must be checked against the hidden mine map, so the player has won when every unrevealed cell is a mine and every non-mine cell is revealed.",
+  "missing": "The docstring should say that '-' marks an unrevealed cell, and that the player has won exactly when no '-' cell sits at a non-mine position of the game's hidden mine map. Any revealed cell, whatever its value, counts as revealed."
+}

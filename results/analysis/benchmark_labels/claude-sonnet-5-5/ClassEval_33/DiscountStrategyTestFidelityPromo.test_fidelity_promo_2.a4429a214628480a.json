@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses 800 fidelity points, below the 1000 threshold, so the docstring implies no discount and the expected 0 follows; the boundary at exactly 1000 is not exercised here.",
+  "missing": "none"
+}

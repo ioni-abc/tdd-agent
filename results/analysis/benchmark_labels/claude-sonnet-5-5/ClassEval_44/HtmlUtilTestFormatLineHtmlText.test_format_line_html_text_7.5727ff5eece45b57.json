@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes replacing code with -CODE- and gives a paragraph example; it never says list items get a \"[-]\" prefix, so a programmer would likely output \"Item 1!\" rather than \"[-]Item 1!\".",
+  "missing": "The docstring should say that each non-empty list item (in ul/ol) is prefixed with \"[-]\", and that a period is appended if the item text does not already end in punctuation."
+}

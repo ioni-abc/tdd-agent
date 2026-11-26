@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example output is a `dict_keyiterator` over the object's own data, so a programmer would return `iter(self._data)`, and the camelCase keys come from `__setitem__` storing them that way.",
+  "missing": "none"
+}

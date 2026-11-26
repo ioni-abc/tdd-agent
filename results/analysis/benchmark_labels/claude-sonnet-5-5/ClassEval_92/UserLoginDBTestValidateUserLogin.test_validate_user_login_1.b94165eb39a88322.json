@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test inserts a user and validates the correct credentials, expecting True, which is exactly what the docstring says (user is in the database and the password is correct) and what its example shows.",
+  "missing": "none"
+}

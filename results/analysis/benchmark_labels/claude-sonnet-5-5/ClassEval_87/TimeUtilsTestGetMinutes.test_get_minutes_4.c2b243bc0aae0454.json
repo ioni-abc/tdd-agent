@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test gives two times on the same day that are four hours apart, so the expected 240 minutes follows directly from the docstring's \"minutes between two times\" and matches the 60-minute example.",
+  "missing": "none"
+}

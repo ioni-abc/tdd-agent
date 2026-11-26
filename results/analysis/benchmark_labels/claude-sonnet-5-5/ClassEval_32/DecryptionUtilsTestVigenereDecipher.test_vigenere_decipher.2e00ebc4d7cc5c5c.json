@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is the same as the docstring's doctest, and 'ifmmp' with key 'key' gives 'ybocl' under standard Vigenere decryption (subtract the repeating key letters mod 26), which the reference code implements.",
+  "missing": "none"
+}

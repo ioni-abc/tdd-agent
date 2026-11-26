@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what to return for invalid input such as a negative n, while the test expects False, which a programmer could not guess from the docstring.",
+  "missing": "The docstring should state that when n is negative (outside the valid range), the function returns False instead of a number."
+}

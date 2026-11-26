@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives the BMR formulas and the multipliers (1.2, 1.4, 1.6) but never says how \"too fat\", \"too thin\" or \"normal\" is decided, and this test (BMI about 20.3, male) only gives 708.05 if it counts as normal and gets 1.4.",
+  "missing": "The docstring should state how the user's condition is determined, including the formula and the sex-specific cutoffs that separate too thin, normal and too fat."
+}

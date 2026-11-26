@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the default quantity is 1, and the test adds an item without a quantity and expects a quantity of 1 stored under the item's price and quantity dictionary, matching the docstring's example format.",
+  "missing": "none"
+}

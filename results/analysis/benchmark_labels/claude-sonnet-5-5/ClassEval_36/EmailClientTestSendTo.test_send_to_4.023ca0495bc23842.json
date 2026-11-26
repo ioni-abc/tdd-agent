@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring example shows `receiver.inbox` as a single dict, but the test and reference code expect `inbox` to be a list with the email dict appended to it.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Removing the status 6 from the current status 6 yields 0 under the docstring's \"remove the specified status\" semantics, which any bitwise implementation (clearing bits) gives, matching the example 6,2 -> 4.",
+  "missing": "none"
+}

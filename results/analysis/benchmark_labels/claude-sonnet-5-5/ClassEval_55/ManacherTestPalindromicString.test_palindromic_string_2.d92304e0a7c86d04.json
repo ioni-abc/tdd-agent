@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The input 'ababax' has a unique longest palindromic substring 'ababa', which is exactly what the docstring's description and its similar example ('ababaxse' -> 'ababa') specify.",
+  "missing": "none"
+}

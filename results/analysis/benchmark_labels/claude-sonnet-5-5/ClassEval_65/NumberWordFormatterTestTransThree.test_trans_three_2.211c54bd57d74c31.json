@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only gives an example with a nonzero tens/units part (\"ONE HUNDRED AND TWENTY THREE\"), so a programmer would not know that a round hundred like \"900\" should be \"NINE HUNDRED\" with no trailing \"AND\" or zero words.",
+  "missing": "The docstring should say that when the last two digits are zero, the result is just the hundreds word followed by \"HUNDRED\", omitting \"AND\" and any words for the zero part."
+}

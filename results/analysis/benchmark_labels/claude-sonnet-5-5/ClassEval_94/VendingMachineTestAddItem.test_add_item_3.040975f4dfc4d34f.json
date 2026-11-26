@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Adding two distinct products and storing each as name -> {'price', 'quantity'} follows directly from the docstring's description and example.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring refers to a \"given date\" parameter that the signature lacks and never says that \"upcoming\" means events whose start_time is at or after the current system time, so a programmer would not know that a past event is excluded.",
+  "missing": "The docstring should state that upcoming events are those whose start_time is not earlier than the current date and time, that events are taken in stored order, and that fewer than n (or none) are returned if not enough qualify."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows adding a student creates a dict entry keyed by name with name, grade, major and empty courses, and the test just adds two students in the same way.",
+  "missing": "none"
+}

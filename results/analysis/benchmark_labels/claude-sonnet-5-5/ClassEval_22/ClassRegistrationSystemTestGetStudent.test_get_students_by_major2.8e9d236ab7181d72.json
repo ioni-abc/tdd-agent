@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Filtering students by major and returning their names in stored order, with an empty list when none match, is the natural implementation of the docstring.",
+  "missing": "none"
+}

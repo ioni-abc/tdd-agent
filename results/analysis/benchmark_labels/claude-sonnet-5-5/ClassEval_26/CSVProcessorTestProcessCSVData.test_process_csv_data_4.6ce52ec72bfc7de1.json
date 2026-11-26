@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring and its example say to keep the full title, keep only the Nth column uppercased, and write it to a file with the `_process` suffix. With a single data row, a natural implementation produces the expected title and `['LOW']`, and returns 1.",
+  "missing": "none"
+}

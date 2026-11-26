@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example gives 1.12 for [1, 2, 3, 4], which is the population standard deviation (the sample version would be about 1.29). The test uses the same values in a different order, so it expects the same 1.12, and a programmer following the example would pass.",
+  "missing": "none"
+}

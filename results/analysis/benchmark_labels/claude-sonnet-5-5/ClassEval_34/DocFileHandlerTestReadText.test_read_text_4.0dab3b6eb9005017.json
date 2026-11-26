@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test has a single paragraph, so the expected text is just the document's content, which python-docx returns unchanged, and no paragraph-joining convention is exercised.",
+  "missing": "none"
+}

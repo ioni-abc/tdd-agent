@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The example (n=4 gives 15) implies the count of non-empty combinations, 2^n - 1, which gives 0 for n=0 as the test expects.",
+  "missing": "none"
+}

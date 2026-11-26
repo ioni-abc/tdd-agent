@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The cos Taylor expansion at x=0 gives 1.0 for any order, so a programmer implementing the docstring would pass this test regardless of the exact term-count convention.",
+  "missing": "none"
+}

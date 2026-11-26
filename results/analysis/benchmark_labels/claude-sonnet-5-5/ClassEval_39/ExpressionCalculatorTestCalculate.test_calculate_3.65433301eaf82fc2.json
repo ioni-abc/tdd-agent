@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example shows an infix expression \"2 + 3 * 4\" evaluated to 14.0, and \"2 * 3 * 4\" is a simple infix expression with a straightforward value of 24.0, which follows from the example's behavior.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says it returns a \"list of data\", but the test expects a list of tuples (one per row, as openpyxl's values_only yields), and a programmer could reasonably return a list of lists.",
+  "missing": "The docstring should state that the result is a list with one tuple per row (cell values in order, from the active sheet), not lists of values."
+}

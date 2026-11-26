@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to add the dish only if the dish count is valid and to change the menu count only on success, so requesting more than the available stock should return False and leave the menu and selected dishes unchanged.",
+  "missing": "none"
+}

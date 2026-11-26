@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The map has one box not on the target, so the docstring's rule (won only when all boxes are on targets, otherwise False) gives False, which is what the test expects.",
+  "missing": "none"
+}

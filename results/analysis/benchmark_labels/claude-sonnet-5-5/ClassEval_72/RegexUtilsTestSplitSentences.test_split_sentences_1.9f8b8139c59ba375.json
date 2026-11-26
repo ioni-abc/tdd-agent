@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is the docstring's own example, and the described behavior (strip punctuation from all sentences except the last) gives exactly ['Aaa', 'Bbbb', 'Ccc!'].",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the exact output format for a range query, and the test (50, 60) follows the same format with different numbers.",
+  "missing": "none"
+}

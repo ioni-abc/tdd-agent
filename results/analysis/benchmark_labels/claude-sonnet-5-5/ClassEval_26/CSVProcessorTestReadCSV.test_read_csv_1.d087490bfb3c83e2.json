@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the first row is the title and the rest is data, and the example output matches what the test checks, so a programmer following it would pass.",
+  "missing": "none"
+}

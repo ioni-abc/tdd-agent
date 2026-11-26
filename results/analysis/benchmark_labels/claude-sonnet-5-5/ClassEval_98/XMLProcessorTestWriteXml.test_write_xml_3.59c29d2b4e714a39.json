@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test sets the root, writes it to a file, expects True, and checks the written file contains the same data, which is what the docstring describes as a successful write.",
+  "missing": "none"
+}

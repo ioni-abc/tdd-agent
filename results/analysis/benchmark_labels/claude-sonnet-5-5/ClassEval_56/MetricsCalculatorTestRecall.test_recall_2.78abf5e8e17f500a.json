@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Recall is the standard TP/(TP+FN) with 1 as the positive class, which gives 1/(1+1)=0.5 for this input, and the docstring example is consistent with that.",
+  "missing": "none"
+}

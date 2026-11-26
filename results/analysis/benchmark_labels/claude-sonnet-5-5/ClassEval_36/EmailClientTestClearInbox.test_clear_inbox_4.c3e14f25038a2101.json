@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With capacity 50 and 45 already used, fitting a size-45 email requires used space of at most 5. Deleting the oldest emails (10, then 20, then 15) empties the inbox, so the expected `[]` follows from the docstring, and the reference's \"freed space \u2265 size\" logic gives the same result here.",
+  "missing": "none"
+}

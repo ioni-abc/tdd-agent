@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return True if the current status contains the specified status, and a status equal to the specified one trivially contains it, so has(6, 6) returning True follows from the docstring.",
+  "missing": "none"
+}

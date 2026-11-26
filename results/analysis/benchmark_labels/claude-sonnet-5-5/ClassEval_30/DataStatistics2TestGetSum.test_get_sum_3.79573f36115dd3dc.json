@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to calculate the sum of the data, and the test sums [1, 2, 33, 4] to 40, which any straightforward implementation returns.",
+  "missing": "none"
+}

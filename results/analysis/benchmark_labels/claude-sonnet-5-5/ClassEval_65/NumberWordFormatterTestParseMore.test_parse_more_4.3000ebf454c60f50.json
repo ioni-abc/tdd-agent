@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example maps index 1 to \"THOUSAND\" and lists the magnitudes in order (thousand, million, billion), so index 3 naturally gives \"BILLION\", which matches the test and the reference code.",
+  "missing": "none"
+}

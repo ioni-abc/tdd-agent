@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Mismatched test target: the test is named test_delete_ticket_2 and mainly exercises delete_ticket, while it is filed under search_tickets_by_customer; the search calls it makes only serve as setup and verification.",
+  "missing": "none"
+}

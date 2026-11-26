@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The reference finds a path only through adjacent cells holding the same icon as the start, but the docstring does not say what cells a path may cross, so an implementation using empty cells (the usual Mahjong connect rule) would return False here.",
+  "missing": "The docstring should say that a path is a sequence of orthogonally adjacent cells all containing the same icon as the start position, and that the path may not pass through other icons."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The input has sentences ending in \".\" and \"?\" followed by a space, and the docstring's rule directly yields the expected two sentences, just like the doctest example.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring lists '/' among the operator characters, so is_operator(\"/\") should return True, which is what the test asserts.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows adding \"apple\" with price 1 and quantity 5 producing {\"apple\":{\"price\":1,\"quantity\":5}}, which is exactly what the test checks on a fresh cart.",
+  "missing": "none"
+}

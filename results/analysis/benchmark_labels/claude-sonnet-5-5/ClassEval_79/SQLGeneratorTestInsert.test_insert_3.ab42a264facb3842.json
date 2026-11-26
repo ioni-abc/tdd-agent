@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the format for two fields, and this test with four string fields follows the same pattern of comma-separated keys and single-quoted values, so a programmer would produce the expected output.",
+  "missing": "none"
+}

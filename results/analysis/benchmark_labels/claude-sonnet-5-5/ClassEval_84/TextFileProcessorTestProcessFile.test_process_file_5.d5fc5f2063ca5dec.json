@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes reading, filtering non-alphabetic characters, overwriting the file and returning the filtered string, which is what the test checks via the class's read_file and write_file helpers.",
+  "missing": "none"
+}

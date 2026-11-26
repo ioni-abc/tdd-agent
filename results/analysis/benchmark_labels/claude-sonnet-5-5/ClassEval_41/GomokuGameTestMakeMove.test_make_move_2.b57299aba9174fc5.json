@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test's valid move, repeated move returning False, and unchanged board all follow from the docstring and its example; only the starting player 'X' is implied rather than stated.",
+  "missing": "none"
+}

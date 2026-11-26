@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each posted job is added to job_listings, with the dict format shown in the example, so appending all three postings (including the duplicate) is the natural implementation.",
+  "missing": "none"
+}

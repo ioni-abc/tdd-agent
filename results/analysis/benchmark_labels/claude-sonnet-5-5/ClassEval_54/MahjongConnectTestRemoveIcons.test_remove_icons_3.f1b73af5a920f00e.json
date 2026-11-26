@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says remove_icons removes the icons at the two given positions, and its example shows both cells being replaced by ' '. The test does the same for (1,1) and (0,1), and a programmer following the docstring would get the expected board.",
+  "missing": "none"
+}

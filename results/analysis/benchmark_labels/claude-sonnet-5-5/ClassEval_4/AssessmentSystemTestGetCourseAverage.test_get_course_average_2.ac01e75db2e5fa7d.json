@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test includes a student whose Physics score is None and expects it to be skipped, but the docstring never says how None (missing) scores are treated; an implementation that counts None or fails on it would not return 85.",
+  "missing": "The docstring should say that students whose score for the course is None are ignored when computing the average, and that None is returned if no valid scores exist."
+}

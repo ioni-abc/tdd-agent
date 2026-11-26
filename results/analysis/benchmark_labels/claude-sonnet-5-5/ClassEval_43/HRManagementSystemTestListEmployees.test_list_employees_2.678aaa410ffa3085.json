@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns a dict of all employees, so with no employees a programmer would naturally return an empty dict, which is what the test expects.",
+  "missing": "none"
+}

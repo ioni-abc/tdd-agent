@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring lists the operator set, so \"5\" is not in it and a programmer would return False, which is what the test expects.",
+  "missing": "none"
+}

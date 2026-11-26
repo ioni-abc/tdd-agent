@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the \"YYYY-MM-DD HH:MM:SS\" zero-padded format, and the test checks the same format with only the day changed, so a programmer following the example would pass.",
+  "missing": "none"
+}

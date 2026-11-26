@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With no users, a list of usernames that are not signed in is naturally an empty list, which follows directly from the docstring's description and return type list[str].",
+  "missing": "none"
+}

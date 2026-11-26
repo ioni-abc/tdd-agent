@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test calls switch_song with a non-empty playlist but no current song selected, and the docstring only says False when there is no next song, not what happens when nothing is playing.",
+  "missing": "The docstring should say that if no song is currently selected/playing, switching returns False and does not start the playlist."
+}

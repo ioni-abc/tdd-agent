@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test expects standard cosine similarity values for ordinary nonzero vectors, which matches the method name and the docstring's example output.",
+  "missing": "none"
+}

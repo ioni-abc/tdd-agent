@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test registers a new student and expects 1, which the docstring directly states (return 1 if the student is not already registered, after adding them to the students list).",
+  "missing": "none"
+}

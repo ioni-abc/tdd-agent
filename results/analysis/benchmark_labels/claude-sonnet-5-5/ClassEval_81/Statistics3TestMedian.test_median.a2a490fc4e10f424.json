@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example gives the median of [1, 2, 3, 4] as 2.5, which is exactly what the test checks, and the standard median definition gives the same value.",
+  "missing": "none"
+}

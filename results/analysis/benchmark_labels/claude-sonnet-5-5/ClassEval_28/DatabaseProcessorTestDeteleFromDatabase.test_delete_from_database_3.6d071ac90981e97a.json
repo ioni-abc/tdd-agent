@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test deletes the rows named 'John' and 'Alice' one at a time and then expects the table to be empty, which follows directly from \"delete rows with a matching name\".",
+  "missing": "none"
+}

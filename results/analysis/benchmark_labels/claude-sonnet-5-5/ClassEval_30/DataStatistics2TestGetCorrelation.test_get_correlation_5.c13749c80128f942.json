@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"Calculate correlation\" with a float return, so a programmer cannot tell that a single data list should yield the self-correlation via np.corrcoef (rowvar=False), which for 1-D data gives 1.0 (or a numpy scalar/matrix).",
+  "missing": "The docstring should say what is correlated (e.g., the data series against itself, or against its index) and what return value results for a single 1-D list, including whether it is a scalar or a matrix."
+}

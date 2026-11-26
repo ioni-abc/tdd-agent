@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test covers a two-hour difference on the same day, and the docstring's description (minutes between two times) and its example (a one-hour gap giving 60) lead directly to 120.",
+  "missing": "none"
+}

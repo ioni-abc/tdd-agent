@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says \"total value of the portfolio\" without saying that cash balance is included. Only the doctest example (10000 cash + 1500 stock = 11500) hints at it. This test, with quantity 0, expects 10000.0, so it depends on cash being counted, which the prose never states.",
+  "missing": "The docstring should state that the total value is the cash balance plus the sum of price times quantity for every stock in the portfolio."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the position in the text of the first mismatch. At currentPos 3 the window is \"ABA\" against the pattern \"ABC\", and the only mismatch is at pattern index 2, which is text position 5. A left-to-right scan and the reference's right-to-left scan both give 5, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

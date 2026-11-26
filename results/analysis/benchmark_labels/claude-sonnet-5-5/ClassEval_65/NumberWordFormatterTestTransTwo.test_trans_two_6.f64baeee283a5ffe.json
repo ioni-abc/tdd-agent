@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Converting the two-digit number \"80\" into words naturally yields \"EIGHTY\", which follows from the docstring and its \"TWENTY THREE\" example, with no trailing zero word.",
+  "missing": "none"
+}

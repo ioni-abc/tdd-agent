@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the function counting matching expansion steps from `diff` outward, and when the expansion reaches the end of the string it returns 0, so this test (right index out of range) expects 0.",
+  "missing": "none"
+}

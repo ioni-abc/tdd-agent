@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the remaining number of rooms of the type, so after all 3 single rooms are booked the result of 0 follows directly.",
+  "missing": "none"
+}

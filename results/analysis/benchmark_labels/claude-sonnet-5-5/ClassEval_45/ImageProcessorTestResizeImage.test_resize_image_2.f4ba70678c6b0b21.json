@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to resize the image to the given width and height, and a straightforward implementation (PIL resize) keeps the RGB mode, so the test's assertion passes.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test demands an exact floating-point value (0.9999999999999998) produced only by the reference's specific operation order, while the mathematically correct result is 1.0, so a correct implementation using another formula could fail.",
+  "missing": "The docstring should specify the exact computation (sum of products of deviations divided by the product of the separately computed square roots of the sums of squared deviations) or state that results are compared within a floating-point tolerance."
+}

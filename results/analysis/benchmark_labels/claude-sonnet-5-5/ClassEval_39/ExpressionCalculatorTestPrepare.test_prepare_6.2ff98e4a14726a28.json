@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "An empty infix expression has no operands or operators, so a programmer following the docstring would naturally leave the postfix stack empty, which is what the test expects.",
+  "missing": "none"
+}

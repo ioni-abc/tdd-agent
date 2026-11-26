@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test passes a token built as the user's name plus today's date, which is the same form as the docstring example, and asserts only that the result is not None. The docstring says valid-token input returns the user information, so a programmer following it would pass.",
+  "missing": "none"
+}

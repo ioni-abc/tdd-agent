@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "After the moves, the box has been pushed onto the target cell, and the docstring says `check_win` returns True when all boxes are on targets, so a programmer following it would pass.",
+  "missing": "none"
+}

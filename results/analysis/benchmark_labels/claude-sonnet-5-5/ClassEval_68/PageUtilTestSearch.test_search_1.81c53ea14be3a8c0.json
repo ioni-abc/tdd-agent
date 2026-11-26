@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to find items that \"contain\" the keyword, so a substring match on the item's string form returns [1, 10] for \"1\". The docstring example (page size 1, one result, one page) points to total_pages being the ceiling of results divided by page size, which gives 1 here.",
+  "missing": "none"
+}

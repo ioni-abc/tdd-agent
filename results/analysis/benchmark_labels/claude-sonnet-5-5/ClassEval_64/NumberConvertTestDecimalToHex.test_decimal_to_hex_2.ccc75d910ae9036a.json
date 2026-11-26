@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert a decimal integer to hex, and its example shows lowercase output without a \"0x\" prefix; this test (21271 -> '5317') has only digits, so any correct hex conversion gives the expected result.",
+  "missing": "none"
+}

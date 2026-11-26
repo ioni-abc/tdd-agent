@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the title kept whole and the capitalized Nth-column value written as a single data row, so taking index 4 of the data row gives `['ABC']` and a success return of 1, as the test expects.",
+  "missing": "none"
+}

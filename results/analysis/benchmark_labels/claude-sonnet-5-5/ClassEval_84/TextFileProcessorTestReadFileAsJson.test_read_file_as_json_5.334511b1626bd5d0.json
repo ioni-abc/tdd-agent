@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the file is read as JSON and returns str/int/float etc. according to the content, so a file containing `\"bbb\"` yields the string 'bbb'.",
+  "missing": "none"
+}

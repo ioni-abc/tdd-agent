@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to compute the circle's area from self.radius, so a radius of 0 gives area 0 under the standard formula pi*r^2, and any straightforward implementation passes.",
+  "missing": "none"
+}

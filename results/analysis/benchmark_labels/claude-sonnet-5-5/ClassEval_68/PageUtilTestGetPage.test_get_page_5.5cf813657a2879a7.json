@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what get_page returns for an out-of-range page number such as 0, and a programmer could raise an error, return None, or clamp to the first page instead of returning an empty list.",
+  "missing": "The docstring should say that a page number below 1 or above the total number of pages gives an empty list."
+}

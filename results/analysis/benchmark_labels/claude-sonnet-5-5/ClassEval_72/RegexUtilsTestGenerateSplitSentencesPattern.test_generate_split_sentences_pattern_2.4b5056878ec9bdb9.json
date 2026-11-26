@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest gives the exact pattern string, and returning it makes the test's match on '! Y' succeed.",
+  "missing": "none"
+}

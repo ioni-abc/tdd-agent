@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what happens when the combination size is zero (an empty resultList), and the test expects exactly one empty combination `[[]]`, which is a convention the docstring does not state.",
+  "missing": "The docstring should say that when the working list has length zero, exactly one empty combination is produced, so the result list contains a single empty list."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to remove the icons at the two given positions, and its example shows both cells replaced with ' '; the test does the same for (3,0) and (2,0), so a programmer following it would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to compute the operation on the operands and return a Decimal, so dividing \"3\" by \"3\" giving 1 follows directly.",
+  "missing": "none"
+}

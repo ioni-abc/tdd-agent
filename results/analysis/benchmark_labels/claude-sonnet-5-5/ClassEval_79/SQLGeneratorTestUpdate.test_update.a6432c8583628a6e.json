@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows exactly the input and output the test checks, including quoting of values, comma separation, the WHERE clause and the trailing semicolon, so a programmer following it would pass.",
+  "missing": "none"
+}

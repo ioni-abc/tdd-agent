@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the current time as '%H:%M:%S', and the test only checks that the result equals the instance's datetime formatted that way, which a programmer following the docstring would produce.",
+  "missing": "none"
+}

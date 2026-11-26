@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The factorial of 1 is 1 by the standard mathematical definition, and the docstring's \"factorial of a given number\" covers it, so any correct implementation passes.",
+  "missing": "none"
+}

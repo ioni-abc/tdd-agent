@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the standard deviation rounded to two decimals, and its example (1.12 for [1,2,3,4]) matches the population formula, which the reference uses. For [1,2,203,4] the population standard deviation is \u221a7551.25 \u2248 86.9, which matches the test.",
+  "missing": "none"
+}

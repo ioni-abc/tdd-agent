@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test asserts that sweeping a safe cell increments the score by 1, but the docstring never mentions a score or that sweep updates it.",
+  "missing": "The docstring should say that each successful sweep of a non-mine cell increases the game's score by one."
+}

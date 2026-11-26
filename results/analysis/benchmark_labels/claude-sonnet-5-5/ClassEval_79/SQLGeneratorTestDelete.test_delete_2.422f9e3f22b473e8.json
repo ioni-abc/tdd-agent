@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the exact format 'DELETE FROM table1 WHERE <condition>;', and this test simply passes a longer condition string through that same format.",
+  "missing": "none"
+}

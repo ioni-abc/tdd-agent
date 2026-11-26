@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"Calculate correlation\" with a float return, and does not say what is correlated; the reference calls np.corrcoef on a 1-D list, which returns the scalar 1.0 (the correlation of the data with itself), so the test's 1.0 follows from that convention rather than from anything stated.",
+  "missing": "The docstring should say that the correlation is computed on the single data series using the standard correlation coefficient (np.corrcoef-style, which gives 1.0 for a lone series), and that the result is returned as a scalar float."
+}

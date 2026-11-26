@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The player's hand is worth 11 and the dealer's is worth 22, so the \"otherwise\" rule (lower value wins) gives 'Player wins', which matches the test and the reference code.",
+  "missing": "none"
+}

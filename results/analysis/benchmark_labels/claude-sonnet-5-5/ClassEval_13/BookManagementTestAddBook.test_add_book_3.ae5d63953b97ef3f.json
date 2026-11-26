@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Adding books with a default quantity of 1 and then 2 more to the same title naturally yields a total of 3, which follows from \"add one or several books\" and the stated default.",
+  "missing": "none"
+}

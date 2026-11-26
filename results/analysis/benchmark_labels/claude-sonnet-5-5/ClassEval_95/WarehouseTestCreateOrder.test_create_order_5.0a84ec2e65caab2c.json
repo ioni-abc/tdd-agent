@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test adds a product with enough stock, creates an order, and checks that self.orders holds the entry with product_id, quantity and the default 'Shipped' status, all of which the docstring and its example describe.",
+  "missing": "none"
+}

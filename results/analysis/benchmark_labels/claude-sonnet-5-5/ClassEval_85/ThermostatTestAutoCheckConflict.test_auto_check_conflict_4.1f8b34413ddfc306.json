@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With current below target and mode 'cool', there is a conflict, so the docstring says to return False and adjust the mode to 'heat', as its own example shows.",
+  "missing": "none"
+}

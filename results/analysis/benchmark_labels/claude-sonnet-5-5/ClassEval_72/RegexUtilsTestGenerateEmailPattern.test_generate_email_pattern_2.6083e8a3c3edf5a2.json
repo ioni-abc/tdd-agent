@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for a regex that matches email addresses and shows the exact pattern, which requires an \"@\", so a string without \"@\" cannot match.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the sector area from radius and angle, and the example shows angle in radians (pi gives 2\u03c0 for r=2, i.e. r\u00b2\u03b8/2), so a programmer would return 0 for angle 0, which matches the test.",
+  "missing": "none"
+}

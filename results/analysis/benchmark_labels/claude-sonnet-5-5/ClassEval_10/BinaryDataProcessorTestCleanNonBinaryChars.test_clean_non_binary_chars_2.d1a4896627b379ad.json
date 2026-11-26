@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test never calls `clean_non_binary_chars`; it only constructs the object and reads `binary_string`, so it passes only because `__init__` already cleans the string, and the cleaning it expects is consistent with the docstring.",
+  "missing": "none"
+}

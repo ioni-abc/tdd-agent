@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test checks that the new food position is not on the snake and lies within the screen, which follows from the docstring's \"don't place it on the snake\" and the natural reading of a position on the screen.",
+  "missing": "none"
+}

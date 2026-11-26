@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example shows that '256.0.0.0' returns False, and the test checks exactly that case, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method removes the employee and returns True if the id is present, otherwise False, so removing ids 1 and 2 gives True, repeating them gives False, and `employees` ends up empty.",
+  "missing": "none"
+}

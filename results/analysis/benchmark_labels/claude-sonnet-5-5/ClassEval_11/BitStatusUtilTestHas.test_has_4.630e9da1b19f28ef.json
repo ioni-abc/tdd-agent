@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"contains the specified status\" without defining containment as a bitwise subset check, so has(8, 6) is ambiguous (a programmer might use \"any bit overlap\" or equality, and 8 & 6 = 0 would give False under either, but the subset semantics is not stated).",
+  "missing": "none"
+}

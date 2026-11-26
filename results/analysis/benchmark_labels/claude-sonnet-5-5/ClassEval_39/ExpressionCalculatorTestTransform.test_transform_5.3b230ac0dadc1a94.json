@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows whitespace removal (\"2 + 3 * 4\" to \"2+3*4\") and says nothing about turning unary minus signs into '~', which this test expects.",
+  "missing": "The docstring should say that a '-' acting as a unary minus (at the start of the expression or right after an operator or an opening parenthesis) is replaced by '~' in the output."
+}

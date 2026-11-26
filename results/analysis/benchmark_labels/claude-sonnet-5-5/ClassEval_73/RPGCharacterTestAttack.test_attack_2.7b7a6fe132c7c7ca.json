@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Damage is attack power minus defense (15-10=5), giving hp 95, which follows from the docstring's description and example without touching the minimum-damage edge case.",
+  "missing": "none"
+}

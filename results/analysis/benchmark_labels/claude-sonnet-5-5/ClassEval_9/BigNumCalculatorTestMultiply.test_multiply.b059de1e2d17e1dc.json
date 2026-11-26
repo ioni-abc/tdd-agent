@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says multiply returns the product of two big numbers as a string, and the test checks exactly the doctest example with an ordinary correct product.",
+  "missing": "none"
+}

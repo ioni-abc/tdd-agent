@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the blank tile's possible moves, and the blank (0) in this test's state is at row 1, column 2. The valid moves are therefore up, down and left, which is exactly what the test accepts, and its membership check ignores order.",
+  "missing": "none"
+}

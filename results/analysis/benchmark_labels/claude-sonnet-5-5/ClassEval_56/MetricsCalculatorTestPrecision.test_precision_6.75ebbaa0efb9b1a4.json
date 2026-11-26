@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test predicts no positives, so precision is 0/0; the docstring doesn't say what to return, and the reference returns 0.0 where an implementation might raise ZeroDivisionError or return NaN.",
+  "missing": "The docstring should say that when there are no predicted positives (true positives plus false positives equal zero), precision returns 0.0 rather than raising an error."
+}

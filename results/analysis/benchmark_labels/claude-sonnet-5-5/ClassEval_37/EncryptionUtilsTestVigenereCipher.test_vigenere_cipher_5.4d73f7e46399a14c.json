@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Encrypting an empty string naturally yields an empty string under any reasonable implementation of the Vigenere cipher, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The standard deviation of identical values [1, 1] is 0.0 under either the sample or the population formula, so any reasonable implementation passes, and the docstring example fixes the sample formula anyway.",
+  "missing": "none"
+}

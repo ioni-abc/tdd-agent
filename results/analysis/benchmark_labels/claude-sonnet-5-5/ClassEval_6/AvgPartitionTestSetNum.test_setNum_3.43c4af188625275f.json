@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to compute the block size and the remainder of the division, which is integer division and modulo; for 5 items in 3 blocks that gives (1, 2).",
+  "missing": "none"
+}

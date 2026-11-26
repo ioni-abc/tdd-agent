@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Both query points lie within the first segment (x from 1 to 6), so ordinary linear interpolation between the first two data points gives 1.1 and 1.3, matching the test.",
+  "missing": "none"
+}

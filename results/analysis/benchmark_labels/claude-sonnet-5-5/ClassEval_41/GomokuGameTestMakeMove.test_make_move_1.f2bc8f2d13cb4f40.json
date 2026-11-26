@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a valid move places the current player's symbol and returns True, which is exactly what the test checks, with the initial player coming from the class state.",
+  "missing": "none"
+}

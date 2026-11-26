@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test asserts exact float equality with a rounding-error value (0.9999999999999998) that only appears if the Pearson formula is computed in the reference's specific operation order, so other correct implementations might return 1.0 and fail.",
+  "missing": "The docstring should specify the exact computation procedure (the order of floating-point operations for the Pearson formula) or state that results are compared with a tolerance rather than exact equality."
+}

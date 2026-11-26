@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test input is exactly the docstring example, where decimal numeric character references are converted to the matching characters, and the reference code returns \"ABC\" for it.",
+  "missing": "none"
+}

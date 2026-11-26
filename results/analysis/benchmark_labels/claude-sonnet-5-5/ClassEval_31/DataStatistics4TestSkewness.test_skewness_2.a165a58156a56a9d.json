@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only gives the skewness of [1, 2, 5] and does not say what to return for constant data, where the standard deviation is zero and the usual formula divides by zero. The reference code returns 0 in that case, which a programmer could not infer from the docstring.",
+  "missing": "The docstring should say that when the data has zero standard deviation (all values equal), the function returns 0 instead of raising an error or returning NaN. It should also say that the sample-adjusted formula with the n/((n-1)(n-2)) factor and population standard deviation is used."
+}

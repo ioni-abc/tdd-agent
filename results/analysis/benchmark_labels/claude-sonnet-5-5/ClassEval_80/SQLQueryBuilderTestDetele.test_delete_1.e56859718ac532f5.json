@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the exact format (DELETE FROM table WHERE key='value'), and this test with a single condition follows directly from it.",
+  "missing": "none"
+}

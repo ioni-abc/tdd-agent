@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says prepare converts an infix expression to postfix, and its example (\"2+3*4\" giving ['2','3','4','*','+']) shows standard shunting-yard behaviour; for \"(2+3)*4\" the standard conversion gives ['2','3','+','4','*'], which the test expects.",
+  "missing": "none"
+}

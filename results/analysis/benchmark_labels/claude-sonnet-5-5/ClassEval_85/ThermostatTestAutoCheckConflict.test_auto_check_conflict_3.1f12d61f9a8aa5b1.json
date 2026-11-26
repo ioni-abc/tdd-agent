@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With current below target, 'heat' is the consistent mode, and the docstring's example shows that pairing, so returning True follows from the docstring.",
+  "missing": "none"
+}

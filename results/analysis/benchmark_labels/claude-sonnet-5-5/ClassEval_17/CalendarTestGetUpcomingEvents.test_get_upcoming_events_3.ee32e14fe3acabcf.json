@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says \"upcoming events from a given date\" but the method takes no date parameter, and it never says that \"upcoming\" means start_time at or after the current system time, so the test's empty result for a past 2023 event cannot be derived from it.",
+  "missing": "The docstring should say that upcoming events are those whose start_time is at or after the current datetime (now), and that the result is the first n such events in stored order."
+}

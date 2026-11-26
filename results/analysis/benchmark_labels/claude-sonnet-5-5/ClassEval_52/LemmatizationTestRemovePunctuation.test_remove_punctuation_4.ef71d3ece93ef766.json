@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says all punctuation is removed and the output is the sentence without punctuation, so removing the dots and keeping the trailing space (no stripping) follows naturally.",
+  "missing": "none"
+}

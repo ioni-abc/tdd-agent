@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that adding a new user returns True and leaves `self.users = {'John': []}`, which is exactly what the test checks.",
+  "missing": "none"
+}

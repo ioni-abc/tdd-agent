@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example uses the same input [1, 2, 3] and output 1.0, which is only consistent with the sample standard deviation (n-1), so the test follows from the docstring.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test also asserts that the score attribute increases by one after a safe sweep, but the docstring never mentions any score update, so an implementation following it could fail that assertion.",
+  "missing": "The docstring should say that each successful sweep of a non-mine position increments the game's score attribute by one."
+}

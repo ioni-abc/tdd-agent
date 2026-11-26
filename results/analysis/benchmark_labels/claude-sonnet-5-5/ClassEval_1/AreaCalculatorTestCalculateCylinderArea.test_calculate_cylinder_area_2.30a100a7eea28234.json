@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"area of cylinder\" without specifying whether this is total surface area (including both circular bases) or lateral area; the test with height 0 expects 2\u03c0r\u00b2 (\u224825.13), which only holds for the total surface area formula.",
+  "missing": "The docstring should state that the area is the total surface area of the cylinder, including both circular end caps plus the lateral surface (2\u03c0r(r+h))."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to compute the average rounded to two decimal places, so the mean of [1..6] is 3.5, which equals 3.50 and matches the test.",
+  "missing": "none"
+}

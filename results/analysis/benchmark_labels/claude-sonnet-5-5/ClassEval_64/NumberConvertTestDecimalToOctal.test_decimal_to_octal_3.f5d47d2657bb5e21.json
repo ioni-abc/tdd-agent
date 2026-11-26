@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is a standard positive-integer conversion to an octal string without a prefix, which matches the docstring's description and its example.",
+  "missing": "none"
+}

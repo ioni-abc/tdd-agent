@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the board is built from the given size and icons, so every cell must be one of the given icons; a 1x1 board built that way passes this test whether the fill is cyclic or random.",
+  "missing": "none"
+}

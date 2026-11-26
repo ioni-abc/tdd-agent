@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says decimal numeric character references are replaced with their Unicode characters, so \"&#66;&#66;&#66;\" gives \"BBB\". The reference code gives the same result.",
+  "missing": "none"
+}

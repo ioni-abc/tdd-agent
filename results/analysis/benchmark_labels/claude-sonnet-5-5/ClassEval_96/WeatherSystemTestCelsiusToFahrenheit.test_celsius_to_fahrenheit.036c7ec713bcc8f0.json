@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for a Celsius-to-Fahrenheit conversion and gives the 27 \u2192 80.6 example, which matches the standard formula F = C*9/5 + 32 used by the reference.",
+  "missing": "none"
+}

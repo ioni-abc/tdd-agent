@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method inserts coins and returns the balance afterward; on a fresh machine, inserting 1.25 returns 1.25, which matches the docstring example and the test.",
+  "missing": "none"
+}

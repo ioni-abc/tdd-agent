@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the employee is removed and True is returned when the employee exists, which is exactly what the test checks (True returned, employee 1 deleted, employee 2 kept).",
+  "missing": "none"
+}

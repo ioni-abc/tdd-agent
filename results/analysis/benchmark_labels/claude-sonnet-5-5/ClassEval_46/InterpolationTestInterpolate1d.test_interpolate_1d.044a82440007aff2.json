@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is the same as the docstring example, linear interpolation of points inside the data range, and any standard linear interpolation returns [1.5, 2.5].",
+  "missing": "none"
+}

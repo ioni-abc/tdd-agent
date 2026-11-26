@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The input has mismatched brackets (\"{\" closed by \"]\"), which any standard notion of balanced brackets treats as unbalanced, so False follows from the docstring.",
+  "missing": "none"
+}

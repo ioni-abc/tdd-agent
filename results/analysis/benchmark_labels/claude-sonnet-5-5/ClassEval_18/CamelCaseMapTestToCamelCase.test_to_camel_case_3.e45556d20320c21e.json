@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example converts 'first_name' to 'firstName', and the test's 'last_name' to 'lastName' is the same simple snake_case-to-camelCase conversion, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the purchase fails when the product is out of stock and that the method returns False otherwise; the test sets quantity to 0, expects False, and expects the inventory to be unchanged, which a straightforward implementation satisfies.",
+  "missing": "none"
+}

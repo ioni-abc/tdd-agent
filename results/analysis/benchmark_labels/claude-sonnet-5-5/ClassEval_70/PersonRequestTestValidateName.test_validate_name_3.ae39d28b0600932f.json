@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a name is set to None only if it is empty or longer than 33 characters, so a valid name like \"aaa\" is returned unchanged, which is what the test checks.",
+  "missing": "none"
+}

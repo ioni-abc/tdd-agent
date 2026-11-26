@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not specify the 1-degree-per-step increment or that the temperature overshoots the target (ending at 19.7) rather than stopping exactly at it, which the test asserts.",
+  "missing": "The docstring should state that each time unit changes the temperature by exactly 1 degree, the loop continues until the target is reached or passed, and the final current temperature is left at the overshot value rather than clamped to the target."
+}

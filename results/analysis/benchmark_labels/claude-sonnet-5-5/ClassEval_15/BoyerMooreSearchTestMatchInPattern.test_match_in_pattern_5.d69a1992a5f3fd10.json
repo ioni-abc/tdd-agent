@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes the rightmost occurrence and never says what is returned when the character is absent from the pattern, but the test expects -1.",
+  "missing": "The docstring should say that when the character does not appear in the pattern, the method returns the integer -1."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says cos takes an angle in degrees, and cos(30\u00b0) = 0.8660254038 is the standard value, so a correct implementation passes under assertAlmostEqual.",
+  "missing": "none"
+}

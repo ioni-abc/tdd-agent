@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to append the word to self.word_list, and the test checks that repeated words are appended in order, including duplicates, which is exactly what append does.",
+  "missing": "none"
+}

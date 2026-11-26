@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows `_calculate(\"2\", \"3\", \"+\")` returning 5.0, and says the result is a decimal.Decimal; the test checks exactly this case, and Decimal(5.0) equals Decimal(\"5\").",
+  "missing": "none"
+}

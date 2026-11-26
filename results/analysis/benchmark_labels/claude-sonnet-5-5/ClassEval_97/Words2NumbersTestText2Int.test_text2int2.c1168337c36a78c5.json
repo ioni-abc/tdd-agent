@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows a hyphenated two-word number (\"thirty-two\" \u2192 \"32\") and never says how the connector word \"and\" is treated, while the reference code gives it a zero value so it is absorbed into the number. A programmer who treats \"and\" as an ordinary non-number word would return \"100 and 23\" instead of \"123\".",
+  "missing": "The docstring should say that the connector word \"and\" between number words is ignored and merged into the surrounding number, so that a spoken-style number converts to a single integer string."
+}

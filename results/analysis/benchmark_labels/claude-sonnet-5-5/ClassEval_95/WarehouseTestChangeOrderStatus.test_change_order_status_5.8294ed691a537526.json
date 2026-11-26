@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False only if order_id is not in self.orders, and the test calls it with a missing order on an empty warehouse and expects a falsy result.",
+  "missing": "none"
+}

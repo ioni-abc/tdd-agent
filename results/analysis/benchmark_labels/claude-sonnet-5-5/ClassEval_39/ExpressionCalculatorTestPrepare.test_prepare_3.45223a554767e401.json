@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows \"2+3*4\" giving ['2','3','4','*','+'], which is standard infix-to-postfix with normal precedence; \"2-3*4\" follows the same rule, giving ['2','3','4','*','-'].",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the usernames that are not signed in, so after \"user1\" signs in, only \"aaa\" is returned, and a programmer following the docstring would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to remove the course only if it is in the list, so removing a course that is absent leaves the list unchanged and the course remains absent, which the test checks.",
+  "missing": "none"
+}

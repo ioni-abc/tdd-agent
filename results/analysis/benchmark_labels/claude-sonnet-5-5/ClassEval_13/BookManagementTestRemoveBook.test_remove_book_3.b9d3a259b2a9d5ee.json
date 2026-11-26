@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to raise on invalid input, and removing a title not in the inventory is a clear case of invalid input, so raising an exception matches the test.",
+  "missing": "none"
+}

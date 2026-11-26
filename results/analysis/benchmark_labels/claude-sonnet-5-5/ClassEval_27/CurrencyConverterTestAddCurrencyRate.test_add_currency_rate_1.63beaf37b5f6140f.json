@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to add a new currency with its rate (and the example shows `self.rates['KRW'] = 1308.84`), so adding a new currency and checking `cc.rates['KRW']` is directly implied.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says leading and trailing slashes are removed, so '/111/222/' becoming '111/222' follows directly, and the example in the docstring is the same case.",
+  "missing": "none"
+}

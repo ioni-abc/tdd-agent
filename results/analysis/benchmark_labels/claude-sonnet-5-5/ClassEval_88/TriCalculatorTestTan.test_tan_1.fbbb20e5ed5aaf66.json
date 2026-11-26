@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example is `tan(45)` returning `1.0`, which is exactly what the test checks, so a programmer who follows the example would match it (rounding away floating-point noise if needed).",
+  "missing": "none"
+}

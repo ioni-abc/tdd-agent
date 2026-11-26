@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says True when the current operator has higher or equal precedence, so \"/\" against \"+\" should be True, but the reference code computes peek >= cur and the test expects False.",
+  "missing": "none"
+}

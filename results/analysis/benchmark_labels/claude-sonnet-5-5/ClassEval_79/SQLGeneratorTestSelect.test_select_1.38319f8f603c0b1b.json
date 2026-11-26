@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the same format, \"SELECT fields FROM table WHERE condition;\", and this test with a single field and a condition follows it exactly.",
+  "missing": "none"
+}

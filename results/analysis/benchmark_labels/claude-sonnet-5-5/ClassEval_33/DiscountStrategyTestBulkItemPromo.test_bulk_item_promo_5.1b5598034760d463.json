@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that items with quantity of 20 or more get a 10% discount, so only the first product qualifies and the discount is 30.0, as the test expects.",
+  "missing": "none"
+}

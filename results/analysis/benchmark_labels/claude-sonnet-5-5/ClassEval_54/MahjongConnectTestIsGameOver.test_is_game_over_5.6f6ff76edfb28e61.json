@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the game is over when there are no more icons on the board, so a board with one icon remaining should return False, which the test checks.",
+  "missing": "none"
+}

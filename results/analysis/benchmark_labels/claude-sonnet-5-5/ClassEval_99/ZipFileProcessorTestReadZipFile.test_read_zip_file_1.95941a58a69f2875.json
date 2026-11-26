@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"open file object\" and does not say it must be a ZipFile opened in read mode, so a plain file object from open() would fail the test's `.filename` and `.mode == 'r'` checks.",
+  "missing": "The docstring should say the returned object is a zipfile.ZipFile opened in read mode ('r') on the processor's file path."
+}

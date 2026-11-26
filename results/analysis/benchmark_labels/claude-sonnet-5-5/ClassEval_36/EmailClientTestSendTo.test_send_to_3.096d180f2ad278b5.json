@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return False when the receiver's mailbox is full, and the receiver here already holds 50 of its 50 capacity, so a plain implementation returns False and leaves the receiver's inbox untouched, as the test expects.",
+  "missing": "none"
+}

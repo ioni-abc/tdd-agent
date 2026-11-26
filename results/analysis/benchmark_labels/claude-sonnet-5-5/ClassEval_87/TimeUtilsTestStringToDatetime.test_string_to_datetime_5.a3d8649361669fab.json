@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never states the input string format, and its single example (\"2001-7-18 1:1:1\") only hints at a year-month-day hour:minute:second layout with unpadded fields, so a programmer has to guess the format string, even though this test's input follows the same pattern as the example.",
+  "missing": "The docstring should state the exact input format expected, namely \"year-month-day hour:minute:second\" with numeric fields that may omit zero padding."
+}

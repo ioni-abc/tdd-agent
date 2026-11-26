@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Out-of-domain test input: the test sets the mode to 'test', which the docstring says is not allowed (only 'heat' or 'cool'), though get_mode just returns the stored value so an implementation following it would still pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With an empty list of strings there are no strings to process, so any reasonable implementation of \"remove stop words from the list of strings\" returns an empty list, which is what the test expects.",
+  "missing": "none"
+}

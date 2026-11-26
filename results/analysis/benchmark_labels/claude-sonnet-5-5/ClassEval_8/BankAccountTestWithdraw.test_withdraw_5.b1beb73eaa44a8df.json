@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Withdrawing exactly the balance is not \"greater than the balance\", so no error is raised, the balance drops to 0, and the method returns 0, which follows directly from the docstring.",
+  "missing": "none"
+}

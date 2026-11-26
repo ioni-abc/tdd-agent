@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the output format, with string-quoted values (including the integer 15 rendered as '15') and a WHERE clause, and this test follows the same format with a single data key and a single where key.",
+  "missing": "none"
+}

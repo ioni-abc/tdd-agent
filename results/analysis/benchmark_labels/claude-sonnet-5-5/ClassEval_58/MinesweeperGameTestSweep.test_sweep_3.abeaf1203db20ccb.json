@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says sweep returns True when the player has won, but it never defines the win condition (every non-mine cell revealed) and never mentions that a successful sweep increments `score` by 1, which the test asserts.",
+  "missing": "The docstring should say that each safe sweep reveals the cell and adds one to the score, and that the player wins when every non-mine cell has been revealed."
+}

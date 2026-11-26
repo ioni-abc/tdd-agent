@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows a string in the form \"2001-7-18 1:1:1\" converting to a datetime, and this test uses the same format with a different day, so a programmer following the example would produce the expected result.",
+  "missing": "none"
+}

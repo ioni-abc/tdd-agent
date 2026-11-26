@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says read_xml reads the XML file and returns the root element, and the test writes a valid XML file, calls read_xml, and checks that the returned root contains the expected child items.",
+  "missing": "none"
+}

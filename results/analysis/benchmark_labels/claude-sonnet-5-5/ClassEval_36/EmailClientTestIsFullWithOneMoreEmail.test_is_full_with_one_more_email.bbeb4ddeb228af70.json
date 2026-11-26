@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test adds a size of 10 to an empty box with capacity 50, so the box is clearly not full and any reasonable implementation of \"full after adding\" returns False.",
+  "missing": "none"
+}

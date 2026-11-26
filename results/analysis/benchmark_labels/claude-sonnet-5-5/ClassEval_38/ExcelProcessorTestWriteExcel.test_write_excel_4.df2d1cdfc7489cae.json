@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Writing a list of row tuples to an xlsx file and returning 1 follows directly from the docstring and its example, and the test checks just that, plus a read-back of the rows.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says \"get all majors\" and returns a list, but never says duplicates are removed or that order follows first appearance; this test has duplicate majors and expects a deduplicated list in first-appearance order, so a correct implementation (e.g. one returning every student's major, or a sorted or set-based result) could fail.",
+  "missing": "The returned list should contain each distinct major only once, in the order each major first appears among the students."
+}

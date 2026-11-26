@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Both movies lie entirely inside 16:00\u201323:00, so any reasonable interpretation of \"available within the time range\" (containment or overlap) returns both in insertion order.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to use PIL's Image to open an image and store it in `processor.image`, so a programmer following it would use `Image.open(image_path)`, whose `filename` equals the path given.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the cookies are saved to the cookies_file and True is returned on success, and this test saves a nested dict and expects True, which any straightforward implementation (such as a JSON dump) satisfies.",
+  "missing": "none"
+}

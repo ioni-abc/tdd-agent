@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says input is valid only if it contains only words convertible into numbers, and \"eleventy\" is not a valid number word, so False is the expected result.",
+  "missing": "none"
+}

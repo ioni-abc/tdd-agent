@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns None when opening fails, and an empty file name cannot be opened as a zip file, so a programmer following it would return None and pass.",
+  "missing": "none"
+}

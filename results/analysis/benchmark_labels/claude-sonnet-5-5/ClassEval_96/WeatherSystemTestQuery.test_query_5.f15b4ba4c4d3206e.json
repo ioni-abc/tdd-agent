@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to convert units but not how, so the test's exact float value (26.999999999999996) depends on the reference's specific formula and operation order, and an equivalent formula could give a different float.",
+  "missing": "The docstring should specify the exact conversion formula (for example (F - 32) * 5 / 9) and say that the result is returned unrounded, or that comparisons should allow for floating-point tolerance."
+}

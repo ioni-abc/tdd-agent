@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows adding a new product, and does not say what happens when the same item is added again; the test expects quantities to be summed, while a programmer could just as well overwrite the entry.",
+  "missing": "The docstring should say that adding an item whose name already exists in the inventory increases its stored quantity by the added amount instead of replacing the entry."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes performing the mathematical operation on the operands with the given operator, so \"-\" naturally means first minus second, giving 1, which matches the Decimal result type.",
+  "missing": "none"
+}

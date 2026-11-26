@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Mismatched test target: test_select_3 is filed under `select` but calls `calc.count(6, 6)`, so it never exercises `select`, and the docstring of `select` says nothing about `count`.",
+  "missing": "none"
+}

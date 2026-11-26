@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test passes a one-element list holding the string 'field1, field2'; a join of that list gives \"field1, field2\", so the output matches the docstring's rule of joining the fields with commas and appending WHERE and the condition.",
+  "missing": "none"
+}

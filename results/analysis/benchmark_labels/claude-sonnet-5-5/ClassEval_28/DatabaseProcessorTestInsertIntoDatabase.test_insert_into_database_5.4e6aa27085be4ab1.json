@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each dictionary in the list is a row to insert into the named table, and any reasonable implementation, generic or name/age-specific, would store both rows in order so the test passes.",
+  "missing": "none"
+}

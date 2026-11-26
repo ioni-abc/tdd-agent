@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says which exchange rates are used, so a programmer cannot know that USD to CAD at 64 should give 78.72; this depends on the hidden rates table in the class (the example only shows CNY to USD).",
+  "missing": "The docstring should list the supported currencies and their exchange rates (the rate table, relative to a base currency) and state that conversion divides by the source rate and multiplies by the target rate."
+}

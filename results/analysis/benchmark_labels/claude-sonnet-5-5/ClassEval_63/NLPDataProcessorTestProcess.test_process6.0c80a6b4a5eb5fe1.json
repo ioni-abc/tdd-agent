@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Wrong-method target: the test is filed under `process` but calls `process_data`, a different method whose output (a list of word lists, one per input string) is not what `process` returns (a top-5 frequency dict).",
+  "missing": "none"
+}

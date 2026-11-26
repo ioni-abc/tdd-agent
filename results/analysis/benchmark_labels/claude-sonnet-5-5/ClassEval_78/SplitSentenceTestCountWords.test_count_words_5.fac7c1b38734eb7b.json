@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says numbers are not counted as words, so the token \"111\" is excluded and \"abc def 111\" gives 2, which matches the test and the reference code.",
+  "missing": "none"
+}

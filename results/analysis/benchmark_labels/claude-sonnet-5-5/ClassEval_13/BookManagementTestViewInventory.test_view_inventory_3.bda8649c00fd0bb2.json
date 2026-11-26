@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test mismatch: it never calls view_inventory (it reads the .inventory attribute) and really exercises add_book's default quantity of 1, which view_inventory's docstring doesn't cover.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to count words across all lists and return the top 5 by descending frequency, which yields exactly the expected dictionary; the tie among the three words with count 2 does not matter because dict equality ignores order, and there is no tie at the cutoff (count 2 vs. 1).",
+  "missing": "none"
+}

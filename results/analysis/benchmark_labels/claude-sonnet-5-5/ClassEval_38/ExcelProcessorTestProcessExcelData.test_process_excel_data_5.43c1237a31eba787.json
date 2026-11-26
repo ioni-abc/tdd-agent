@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says to change the specified column to uppercase (in place), but the reference and test keep the original column and append an uppercased copy as a new last column.",
+  "missing": "none"
+}

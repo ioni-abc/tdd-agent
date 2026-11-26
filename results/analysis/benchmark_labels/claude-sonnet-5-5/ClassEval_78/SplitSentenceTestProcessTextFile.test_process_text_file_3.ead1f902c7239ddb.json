@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The expected 5 depends on two conventions the docstring never mentions: \"Mr.\" is not treated as a sentence end, and tokens made only of digits are not counted as words (otherwise the second sentence would have 7 words).",
+  "missing": "The docstring should say that a period after a title abbreviation does not end a sentence, and that words are counted only from alphabetic characters, so numeric tokens and punctuation are not counted."
+}

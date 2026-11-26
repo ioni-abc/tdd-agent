@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines MAP as the mean of average precision, with ground truth num as the total number of relevant items. Its example for this exact input shows `0.41666666666666663, [0.41666666666666663]`, which matches the test, and a programmer can reproduce it by averaging precision at each hit and dividing by the ground truth num.",
+  "missing": "none"
+}

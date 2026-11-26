@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that when the requested number exceeds the remaining rooms but some remain, the method returns the remaining quantity. The test requests 3 with 1 left and expects 1. It expects the failed booking to leave booked_rooms and available_rooms unchanged, which matches the docstring's \"fail to book otherwise\".",
+  "missing": "none"
+}

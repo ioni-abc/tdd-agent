@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to remove every non-bracket character, and square, round and curly brackets are all ordinary brackets, so \"[a](b){c}\" becomes \"[](){}\" as the test expects.",
+  "missing": "none"
+}

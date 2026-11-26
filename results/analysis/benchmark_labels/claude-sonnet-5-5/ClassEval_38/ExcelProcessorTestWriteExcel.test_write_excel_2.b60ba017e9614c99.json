@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the data is written to the Excel file and 1 is returned on success, and the test checks exactly that: a return of 1, the file existing, and the data reading back as the same rows.",
+  "missing": "none"
+}

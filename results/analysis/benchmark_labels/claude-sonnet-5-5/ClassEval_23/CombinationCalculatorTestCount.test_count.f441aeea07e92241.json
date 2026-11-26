@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test checks count(4, 2) == 6, which is the standard binomial coefficient and matches the docstring's example exactly.",
+  "missing": "none"
+}

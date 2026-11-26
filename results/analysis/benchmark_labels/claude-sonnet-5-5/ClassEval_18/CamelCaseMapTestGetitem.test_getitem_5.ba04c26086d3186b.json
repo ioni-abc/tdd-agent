@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says __getitem__ returns the value for the key, with an example using the same snake_case key; it never says the lookup key is converted to camel case, so a lookup with 'firstName' after setting 'first_name' is not covered.",
+  "missing": "The docstring should say that keys are normalized to camel case on both set and get, so lookups with either snake_case or camelCase forms of the same key return the same value."
+}

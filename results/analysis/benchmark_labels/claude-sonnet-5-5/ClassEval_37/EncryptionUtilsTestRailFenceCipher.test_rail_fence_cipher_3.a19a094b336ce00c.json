@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names the standard Rail Fence cipher and its example (\"abc\", 2 -> \"acb\") shows the zigzag with rows read top to bottom, and the test's \"AbCdEfG\" with 2 rails gives \"ACEGbdf\" under that standard algorithm.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows add_movie appending a dict with name, price, datetime times parsed from 'HH:MM' (year 1900), and an n*n zero seat array, which is exactly what the test checks.",
+  "missing": "none"
+}

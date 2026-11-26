@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says __len__ returns the length of the data, so an empty map naturally has length 0, which any reasonable implementation would return.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring requires BFS, which returns a shortest path. From this start the only 2-move solution is blank down, then blank right, and the docstring example shows that \"right\" means the blank moves right, so the expected ['down', 'right'] follows.",
+  "missing": "none"
+}

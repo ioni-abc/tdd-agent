@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the return is a float, but its example returns a list of all modes, and it never says that a single mode is still returned as a one-element list, which is what the test expects ([4]).",
+  "missing": "The docstring should say that the method always returns a list of all values with the highest frequency, so a unique mode comes back as a one-element list rather than a bare number."
+}

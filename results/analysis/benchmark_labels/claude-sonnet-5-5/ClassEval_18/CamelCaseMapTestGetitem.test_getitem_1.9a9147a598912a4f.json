@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test mirrors the docstring example (set 'first_name', get 'first_name' returns 'John'), which any consistent implementation satisfies.",
+  "missing": "none"
+}

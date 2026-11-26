@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Vacuous test: it calls map(1) inside a bare try/except that swallows every outcome, so it asserts nothing and passes whatever the implementation does.",
+  "missing": "none"
+}

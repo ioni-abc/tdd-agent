@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example uses the same input \"10.10.10.10\" and shows the same expected output \"00001010.00001010.00001010.00001010\", so the test checks exactly the documented behaviour.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "With no positive predictions and no positive true labels, precision and recall are 0/0 and the F1 is undefined, and the docstring does not say to return 0.0 here, so a correct implementation could raise ZeroDivisionError or return nan or 1.0.",
+  "missing": "The docstring should say that when precision and recall are both zero or undefined, because there are no positive predictions and no positive true labels, f1_score returns 0.0 instead of dividing by zero."
+}

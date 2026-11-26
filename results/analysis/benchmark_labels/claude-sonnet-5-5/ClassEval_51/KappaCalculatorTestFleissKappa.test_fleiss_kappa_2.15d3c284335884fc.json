@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "In this test the first row sums to 15 while n is 14, so the row totals are inconsistent with the rater count. The reference code divides the category totals by the sum of all matrix entries, whereas the standard Fleiss formula divides by N*n, and the docstring does not say which to use.",
+  "missing": "The docstring should say how to compute category proportions when row sums differ from the stated number of raters, for example by normalizing with the total of all matrix entries rather than N times n."
+}

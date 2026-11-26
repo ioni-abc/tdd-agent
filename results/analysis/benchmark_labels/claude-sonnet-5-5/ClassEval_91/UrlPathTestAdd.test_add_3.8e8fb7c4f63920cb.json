@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Appending '123' to the segments list yields ['123'], which follows directly from the docstring; the path-fixing step in the reference does not change this input.",
+  "missing": "none"
+}

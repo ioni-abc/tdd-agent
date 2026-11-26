@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is a standard 8-bit-per-character decoding (h, %, l, l, o), which follows directly from the docstring's description and example.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a phone number that is not an 11-digit number is set to None, and \"12345\" has only 5 digits, so the test's expectation of None follows directly.",
+  "missing": "none"
+}

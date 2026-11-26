@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Resizing a loaded image to the target size naturally keeps the RGB mode, and any reasonable implementation (e.g. PIL's resize) would pass this check.",
+  "missing": "none"
+}

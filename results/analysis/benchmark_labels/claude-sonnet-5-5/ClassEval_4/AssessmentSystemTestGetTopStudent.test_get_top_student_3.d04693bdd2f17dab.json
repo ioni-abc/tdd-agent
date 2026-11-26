@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what get_top_student returns when there are no students (or none with a positive GPA), and the test expects None; an implementation could reasonably raise an error, return an empty string, or return something else.",
+  "missing": "The docstring should state that when there are no students (or no student has a GPA above zero), the method returns None."
+}

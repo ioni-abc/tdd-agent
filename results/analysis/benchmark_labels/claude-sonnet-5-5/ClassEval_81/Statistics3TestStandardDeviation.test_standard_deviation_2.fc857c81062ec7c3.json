@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Standard deviation of identical values is 0.0 under both the sample and population formulas, so any correct implementation passes regardless of the n-1 detail.",
+  "missing": "none"
+}

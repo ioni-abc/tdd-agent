@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to generate the primes up to the limit, and for a limit of 10 the primes 2, 3, 5 and 7 follow directly; the \"Chandrasekhar sieve\" name is odd but any correct prime generation yields this result.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test sits exactly at the boundary (occupied plus size equals capacity), and the docstring never says whether exactly filling the box counts as full, so \">=\" is a plausible reading that would fail.",
+  "missing": "The docstring should say that the box counts as full only when the total occupied size after adding the email strictly exceeds capacity, so reaching capacity exactly is not full."
+}

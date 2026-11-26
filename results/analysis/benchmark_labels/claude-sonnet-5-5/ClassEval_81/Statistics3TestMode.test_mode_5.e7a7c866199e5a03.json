@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that it returns \"the mode of the given list, list\" and shows a single-mode example, so it never says that a tie returns every tied value, nor in what order.",
+  "missing": "When several values share the highest frequency, return all of them in a list, ordered by first appearance in the input."
+}

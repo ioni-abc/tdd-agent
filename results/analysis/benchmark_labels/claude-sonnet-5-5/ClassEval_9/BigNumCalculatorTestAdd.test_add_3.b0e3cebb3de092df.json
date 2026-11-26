@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test adds two positive decimal integer strings of different lengths, and the docstring's \"adds two big numbers\" with string input and output fully determines the sum (123456789012345678934 + 98765432109876543210 = 222222221122222222144).",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Mismatched test target: the test calls `game.answer`, not `get_my_cards`, so the docstring for `get_my_cards` says nothing about what it checks.",
+  "missing": "none"
+}

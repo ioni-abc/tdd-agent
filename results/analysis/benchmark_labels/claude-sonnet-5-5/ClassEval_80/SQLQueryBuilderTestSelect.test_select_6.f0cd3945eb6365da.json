@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's signature and example show a column list joined by \", \" and the where clause being optional, so a single-column list with no where yields \"SELECT name FROM users\", which the test expects.",
+  "missing": "none"
+}

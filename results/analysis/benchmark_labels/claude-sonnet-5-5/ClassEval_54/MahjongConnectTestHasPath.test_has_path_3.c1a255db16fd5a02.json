@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never defines what a path is, and the reference treats it as a chain of orthogonally adjacent cells with the same icon, so an implementation using a different path rule (e.g., through empty cells) would fail.",
+  "missing": "The docstring should state that a path is a sequence of orthogonally adjacent cells that all hold the same icon as the starting position, and that the path may travel through such cells to reach the target."
+}

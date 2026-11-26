@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring and method name say to get the target temperature, which is what the test checks; the \":return self.current_temperature\" line is a minor typo that does not change the expected behaviour.",
+  "missing": "none"
+}

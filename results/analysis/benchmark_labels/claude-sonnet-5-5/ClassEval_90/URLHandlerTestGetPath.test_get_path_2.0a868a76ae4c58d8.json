@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the path including the query string and fragment, and this test checks the same behavior with a URL that has a query string and no fragment, which an implementer following the example would return correctly.",
+  "missing": "none"
+}

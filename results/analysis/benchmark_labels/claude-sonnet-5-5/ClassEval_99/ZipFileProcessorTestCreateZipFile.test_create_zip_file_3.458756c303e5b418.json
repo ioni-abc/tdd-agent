@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to compress the listed files into a zip at the given output path and return True on success; this test creates a valid file, calls the method, and expects True and that the zip exists, which is what a straightforward implementation does.",
+  "missing": "none"
+}

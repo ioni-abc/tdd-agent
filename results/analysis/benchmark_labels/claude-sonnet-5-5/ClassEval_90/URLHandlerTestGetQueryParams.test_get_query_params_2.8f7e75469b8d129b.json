@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test parses a plain query string with an empty trailing fragment into a dict, which is the behaviour the docstring and its example describe.",
+  "missing": "none"
+}

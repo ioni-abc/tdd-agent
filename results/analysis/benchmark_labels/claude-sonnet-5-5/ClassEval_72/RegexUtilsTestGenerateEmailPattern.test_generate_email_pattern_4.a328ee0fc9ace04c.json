@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example output gives the exact regex, and a programmer who returns it gets a pattern that does not match 'iustd87t2euhifg@.' (no domain label or TLD after the '@'), so the test's False result follows.",
+  "missing": "none"
+}

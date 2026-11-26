@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the input value otherwise when conversion does not succeed, so a failed int(\"twenty-five\") conversion returns the original string.",
+  "missing": "none"
+}

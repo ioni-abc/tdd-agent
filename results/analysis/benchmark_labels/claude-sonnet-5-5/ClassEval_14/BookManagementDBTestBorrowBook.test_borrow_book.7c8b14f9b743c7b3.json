@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the book is \"marked as borrowed\" and does not specify that this means setting the `available` column to 0, which is what the test checks.",
+  "missing": "The docstring should state how a borrowed book is represented in the database, i.e. that borrowing sets the book's availability column to the falsy value 0."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says damage is offset by the defense value, and its example (attack 10 against defense 2 gives 92 hp) shows plain subtraction. The test follows the same rule: 20 \u2212 5 = 15 damage, so hp goes from 100 to 85. The reference code's minimum damage of 1 is not exercised here.",
+  "missing": "none"
+}

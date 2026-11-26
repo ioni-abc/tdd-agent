@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the deck holds 52 cards in the format like 'AS', '2S', with Jokers removed, so every rank+suit combination for ranks A and 2-9 across the four suits must be present; the test checks exactly this.",
+  "missing": "none"
+}

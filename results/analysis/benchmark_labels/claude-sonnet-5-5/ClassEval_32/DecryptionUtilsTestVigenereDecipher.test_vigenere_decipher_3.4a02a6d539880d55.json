@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the text is deciphered with the Vigenere cipher, but the test feeds mixed-case input and expects each letter's case to be preserved in the output, which a programmer could reasonably handle differently (for example by lowercasing or uppercasing everything).",
+  "missing": "The docstring should say that the case of each letter in the ciphertext is preserved in the plaintext, with the shift taken from the key letter regardless of its case."
+}

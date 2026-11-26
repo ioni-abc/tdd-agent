@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is an ordinary octal string converted to its decimal int value, which is exactly what the docstring describes.",
+  "missing": "none"
+}

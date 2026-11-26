@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "After booking all 3 single rooms, the request for 100 exceeds the remaining quantity of zero, and the docstring says to return False in that case.",
+  "missing": "none"
+}

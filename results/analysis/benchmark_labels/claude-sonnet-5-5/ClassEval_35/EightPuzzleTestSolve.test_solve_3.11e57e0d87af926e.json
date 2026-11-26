@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects one specific path among several equally short BFS solutions, and which one is returned depends on the order in which get_possible_moves lists directions, which the docstring does not specify.",
+  "missing": "The docstring should specify the order in which possible moves are generated and explored (the direction priority), so that ties between equally short solutions are broken the same way."
+}

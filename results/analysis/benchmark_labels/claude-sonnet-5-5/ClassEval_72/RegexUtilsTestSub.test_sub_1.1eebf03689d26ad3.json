@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says every substring matched by the regex is replaced with the given string, and the test's expected output follows directly from replacing all three phone numbers, as the docstring example shows.",
+  "missing": "none"
+}

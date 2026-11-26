@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says it computes the z-score of a list, so for constant input (standard deviation zero) a programmer could raise ZeroDivisionError, return NaN values, or return zeros, and nothing points to returning None.",
+  "missing": "The docstring should say that when the standard deviation is zero (for example, all elements equal) the method returns None instead of a list."
+}

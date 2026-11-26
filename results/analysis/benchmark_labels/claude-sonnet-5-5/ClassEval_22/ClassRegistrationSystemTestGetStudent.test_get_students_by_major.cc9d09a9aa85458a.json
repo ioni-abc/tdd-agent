@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return all students in the major as a list of names, and the natural implementation iterates students in registration order, giving [\"John\", \"Bob\"].",
+  "missing": "none"
+}

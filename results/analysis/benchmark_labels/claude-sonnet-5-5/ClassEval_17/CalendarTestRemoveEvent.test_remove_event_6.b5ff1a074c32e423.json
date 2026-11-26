@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows removing an event that exists and does not say what happens when the event is absent, so an implementation that raises ValueError would fail this test.",
+  "missing": "The docstring should state that removing an event that is not in the calendar does nothing and raises no error."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The top '+' operator is applied to the top two operands (2+3=5), leaving [1,5] and ['+'], which matches the docstring's description and example.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to get the target temperature, which the method name also says. The test returns 25 for the target, and its current temperature is also 25, so the stray \":return self.current_temperature\" line in the docstring cannot change the result.",
+  "missing": "none"
+}

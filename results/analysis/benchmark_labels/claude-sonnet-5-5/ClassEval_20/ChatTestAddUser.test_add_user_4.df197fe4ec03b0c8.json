@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that adding a user who is not yet in the Chat returns True, and the docstring example shows the users dict being updated with the new name mapped to an empty list, so the test's expectations (True and the new entry with an empty list) follow from it.",
+  "missing": "none"
+}

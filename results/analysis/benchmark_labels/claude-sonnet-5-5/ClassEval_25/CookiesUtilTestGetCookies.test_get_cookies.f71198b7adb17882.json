@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says cookies are taken from the response and saved, and its example shows `cookies_util.cookies` equal to the response's 'cookies' dict, which is exactly what the test asserts.",
+  "missing": "none"
+}

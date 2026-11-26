@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that \"data in XML elements\" is modified, without saying that the text of 'item' elements is converted to uppercase, which is what the test checks.",
+  "missing": "The docstring should say which elements are modified and how, namely that the text of every element with the given tag is converted to uppercase before the file is written."
+}

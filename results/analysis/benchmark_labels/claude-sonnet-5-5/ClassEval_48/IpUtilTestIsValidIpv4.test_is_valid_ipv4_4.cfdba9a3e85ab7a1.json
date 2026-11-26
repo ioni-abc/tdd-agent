@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A string with a non-numeric octet like 'abc' is plainly not a valid IPv4 address, so any reasonable implementation of \"check if valid IPv4\" returns False, matching the test.",
+  "missing": "none"
+}

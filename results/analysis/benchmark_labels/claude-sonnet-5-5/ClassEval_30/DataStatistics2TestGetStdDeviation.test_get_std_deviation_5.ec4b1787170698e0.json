@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (data [1, 2, 3, 4] giving 1.12) only fits the population standard deviation, since the sample version would give about 1.29. This test's data gives about 1.118, which rounds to 1.12 under the same rule, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

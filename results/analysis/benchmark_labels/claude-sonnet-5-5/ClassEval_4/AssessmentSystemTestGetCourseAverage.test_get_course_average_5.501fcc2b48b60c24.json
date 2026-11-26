@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Only Alice has a Mathematics score (90), so the average of that course is 90, which follows directly from the docstring's \"average score of a specific course\".",
+  "missing": "none"
+}

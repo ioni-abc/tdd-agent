@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the candidates that meet the job's requirements by calling matches_requirements, and this test only checks that the non-matching resume is filtered out and the matching one is returned.",
+  "missing": "none"
+}

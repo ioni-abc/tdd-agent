@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_book stores the title and author with availability set to 1, and the test checks exactly those three values on the first inserted row.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test checks ordinary complex division, which \"Divides two complex numbers\" specifies; any correct implementation yields -1+0j (and -0.0 equals 0.0 in the comparison).",
+  "missing": "none"
+}

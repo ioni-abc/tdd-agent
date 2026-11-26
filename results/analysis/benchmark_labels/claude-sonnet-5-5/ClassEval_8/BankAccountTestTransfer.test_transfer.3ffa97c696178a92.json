@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says transfer moves an amount from the current account to another, and the example shows balances decreasing and increasing accordingly; the test's ordinary case (800 and 1000, transfer 300) gives 500 and 1300, which follows directly.",
+  "missing": "none"
+}

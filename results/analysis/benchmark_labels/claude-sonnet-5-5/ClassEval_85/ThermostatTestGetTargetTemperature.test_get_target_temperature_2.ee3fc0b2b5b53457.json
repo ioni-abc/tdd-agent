@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method gets the target temperature, and the test expects the target temperature (25) to be returned, which matches the reference code.",
+  "missing": "none"
+}

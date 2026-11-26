@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test gives X the main diagonal, and the docstring says to check diagonals and return the winner's mark, which is 'X'.",
+  "missing": "none"
+}

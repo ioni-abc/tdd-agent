@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert Fahrenheit to Celsius, and any correct implementation of the standard formula gives about 26.67 for 80\u00b0F, which is not 23, so the assertNotEqual passes.",
+  "missing": "none"
+}

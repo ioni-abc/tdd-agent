@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes a successful transfer and says nothing about what happens when the amount exceeds the balance, so the ValueError with the message \"Insufficient balance.\" is not derivable from it.",
+  "missing": "The docstring should say that if the amount is larger than the sender's balance, the method raises a ValueError with a specific message and leaves both balances unchanged."
+}

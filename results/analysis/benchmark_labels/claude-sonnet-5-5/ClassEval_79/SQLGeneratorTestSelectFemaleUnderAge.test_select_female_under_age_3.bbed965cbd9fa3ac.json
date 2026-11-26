@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the exact output format, and the test with age 20 follows the same pattern as the example with age 30.",
+  "missing": "none"
+}

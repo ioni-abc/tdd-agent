@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "cos(0) of a 0-degree angle is 1 by standard math, and a programmer using math.cos(radians(0)) would return 1.0, which equals the test's expected value.",
+  "missing": "none"
+}

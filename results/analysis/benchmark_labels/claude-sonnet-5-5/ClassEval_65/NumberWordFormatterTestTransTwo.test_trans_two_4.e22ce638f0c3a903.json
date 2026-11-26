@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers only a normal two-digit number like \"23\", so a programmer would not know that \"00\" should return an empty string; \"ZERO\" is an equally plausible output.",
+  "missing": "The docstring should state what is returned when the input is zero or has a leading zero (for example, \"00\" gives an empty string, and \"05\" gives only the word for the last digit)."
+}

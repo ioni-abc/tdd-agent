@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the format for a two-field dict (fields joined by \", \", values quoted in single quotes, trailing semicolon), and this test with six string fields follows the same pattern.",
+  "missing": "none"
+}

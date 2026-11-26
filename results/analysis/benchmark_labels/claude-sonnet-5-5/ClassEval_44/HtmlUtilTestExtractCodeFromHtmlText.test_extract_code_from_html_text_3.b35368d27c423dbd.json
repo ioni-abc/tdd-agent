@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows extracting the text of each `<pre>` element (including nested `<code>`) with its original whitespace, and this test follows the same pattern with only a changed number.",
+  "missing": "none"
+}

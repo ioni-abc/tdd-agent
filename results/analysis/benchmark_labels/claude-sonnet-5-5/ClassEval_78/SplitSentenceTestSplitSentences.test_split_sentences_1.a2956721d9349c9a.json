@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test input is the same as the docstring example, and it only needs splitting after '.' or '?' followed by a space, which the docstring states directly.",
+  "missing": "none"
+}

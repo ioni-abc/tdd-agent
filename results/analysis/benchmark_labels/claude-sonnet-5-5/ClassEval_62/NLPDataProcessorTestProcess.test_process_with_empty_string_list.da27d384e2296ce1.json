@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With an empty input list, a programmer following the docstring would remove stop words from each string and return one word list per string, so an empty input naturally gives [].",
+  "missing": "none"
+}

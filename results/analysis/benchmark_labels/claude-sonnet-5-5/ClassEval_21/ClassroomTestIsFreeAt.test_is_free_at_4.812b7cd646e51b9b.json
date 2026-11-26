@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test checks a time well outside the course's interval (14:00 vs 09:00-10:00), so the docstring's \"True if no conflict\" clearly gives True, with no boundary or format ambiguity involved.",
+  "missing": "none"
+}

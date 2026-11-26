@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The total of an empty cart is naturally 0 under \"calculate the total cost of items\", and 0 == 0.0 in the assertion, so any reasonable implementation passes.",
+  "missing": "none"
+}

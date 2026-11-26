@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test multiplies two decimal strings of different lengths and expects their exact product as a string, which is what the docstring describes (multiply two big numbers, str in, str out). The expected value looks right: it has the correct magnitude and the last three digits match 934\u00d7543.",
+  "missing": "none"
+}

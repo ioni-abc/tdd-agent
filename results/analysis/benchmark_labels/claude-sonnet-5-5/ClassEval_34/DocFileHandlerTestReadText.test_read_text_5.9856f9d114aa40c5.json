@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A document containing a single empty paragraph has content that is the empty string, so any sensible implementation, whether joining paragraphs with newlines or concatenating them, returns \"\" and passes.",
+  "missing": "none"
+}

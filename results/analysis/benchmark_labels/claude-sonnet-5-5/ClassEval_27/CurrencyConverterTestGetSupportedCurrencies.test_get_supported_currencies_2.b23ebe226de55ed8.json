@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the exact list of seven currencies in the same order the test expects, and returning the keys of the rates dictionary produces it.",
+  "missing": "none"
+}

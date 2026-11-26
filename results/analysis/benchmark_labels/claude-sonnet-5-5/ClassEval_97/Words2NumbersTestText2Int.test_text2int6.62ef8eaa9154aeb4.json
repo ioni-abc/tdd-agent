@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows \"thirty-two\" -> \"32\" and says nothing about ordinal words like \"sixty-ninth\" being converted to plain cardinal digits (169), or about large scale words such as \"million\" and how they combine.",
+  "missing": "The docstring should say that ordinal words (e.g. \"-th\" forms) are converted to the same integer as their cardinal form, with no suffix kept, and that scale words like hundred and million combine multiplicatively and additively into a single number."
+}

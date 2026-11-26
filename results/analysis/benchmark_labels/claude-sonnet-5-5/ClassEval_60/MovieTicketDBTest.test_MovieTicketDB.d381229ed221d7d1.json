@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the ticket with the given ID is deleted from the \"tickets\" table, and the test checks exactly that by confirming the customer's search returns no tickets after deletion.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the total size of the emails in the box, and summing the two emails' sizes gives 50, which a programmer would naturally implement.",
+  "missing": "none"
+}

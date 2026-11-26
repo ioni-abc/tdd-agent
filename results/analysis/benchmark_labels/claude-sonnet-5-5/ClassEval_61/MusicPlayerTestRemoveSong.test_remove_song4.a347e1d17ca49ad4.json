@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test removes an existing song from a playlist and checks the remaining list, which is exactly what the docstring says and its example shows.",
+  "missing": "none"
+}

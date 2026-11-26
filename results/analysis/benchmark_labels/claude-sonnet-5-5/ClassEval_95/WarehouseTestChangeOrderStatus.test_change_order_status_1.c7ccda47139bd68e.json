@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the order's status is changed when order_id exists, and its example shows the same dict structure the test asserts.",
+  "missing": "none"
+}

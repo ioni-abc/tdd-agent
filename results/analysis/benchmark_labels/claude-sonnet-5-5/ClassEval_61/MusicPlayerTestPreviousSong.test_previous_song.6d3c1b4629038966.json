@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test sets the current song to the second of three songs and expects True from previous_song, which is exactly what the docstring says and what its example shows.",
+  "missing": "none"
+}

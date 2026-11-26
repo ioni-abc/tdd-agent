@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to generate the primes up to the limit, and there are no primes up to 1, so the empty list follows directly from the definition of a prime.",
+  "missing": "none"
+}

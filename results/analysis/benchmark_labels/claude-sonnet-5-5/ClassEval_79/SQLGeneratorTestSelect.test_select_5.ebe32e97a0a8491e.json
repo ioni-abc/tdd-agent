@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the condition is a string expression inserted after WHERE, and the example shows the format, so a programmer would place the condition string unchanged after WHERE, which gives this output even though the condition contains commas.",
+  "missing": "none"
+}

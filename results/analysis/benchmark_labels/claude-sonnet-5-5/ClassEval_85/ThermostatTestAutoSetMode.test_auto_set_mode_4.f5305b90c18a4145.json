@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses current 20 < target 25, so the docstring's rule (\"lower than target \u2192 heat\") gives 'heat', matching the test and the reference code.",
+  "missing": "none"
+}

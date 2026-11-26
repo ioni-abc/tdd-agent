@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows `get_messages('Mary')` returning `[]` for a user not in `chat.users`, which is exactly what the test checks.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "view_balance simply returns the account balance, which is what the docstring says; the initial value of 0 comes from the constructor, not from this method.",
+  "missing": "none"
+}

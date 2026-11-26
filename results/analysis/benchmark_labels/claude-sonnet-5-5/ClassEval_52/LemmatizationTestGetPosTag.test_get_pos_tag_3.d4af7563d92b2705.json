@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says punctuation is removed before tokenizing and tagging, and an apostrophe is punctuation, so \"dog's\" becomes \"dogs\" and is tagged as a plural noun, which gives the expected tags.",
+  "missing": "none"
+}

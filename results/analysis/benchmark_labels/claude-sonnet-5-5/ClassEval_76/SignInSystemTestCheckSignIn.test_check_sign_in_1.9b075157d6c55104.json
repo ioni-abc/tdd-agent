@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test adds a user, signs them in, and expects check_sign_in to return True, which is exactly what the docstring states (True if the user is signed in) and its example shows.",
+  "missing": "none"
+}

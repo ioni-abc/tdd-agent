@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says divide returns the quotient of two complex numbers and gives the identical example, (1+2j)/(3+4j) = (0.44+0.08j), which the test checks, so a standard implementation such as c1/c2 passes.",
+  "missing": "none"
+}

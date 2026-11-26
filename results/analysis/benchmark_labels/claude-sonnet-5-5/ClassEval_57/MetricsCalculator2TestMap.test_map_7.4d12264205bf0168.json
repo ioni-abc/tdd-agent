@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what map returns for an empty input list; the reference returns (0.0, [0.0]), and a programmer could reasonably return an empty list, raise an error, or return NaN from the mean.",
+  "missing": "The docstring should state that an empty input returns a MAP of 0.0 together with a per-input list containing a single 0.0."
+}

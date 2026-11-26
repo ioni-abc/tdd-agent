@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly lists that positions must be within the game board range, so a negative coordinate like -1 must return False, which the test expects.",
+  "missing": "none"
+}

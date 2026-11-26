@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a new user returns True, and its example shows users stored as a name mapped to an empty list, which is exactly what the test checks.",
+  "missing": "none"
+}

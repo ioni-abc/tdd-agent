@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the method returns a list of tuples (all matching rows, with len(result) = 1 in the example), but the reference returns a single tuple from fetchone, and the test indexes user[0] as the username and user[1] as the password.",
+  "missing": "none"
+}

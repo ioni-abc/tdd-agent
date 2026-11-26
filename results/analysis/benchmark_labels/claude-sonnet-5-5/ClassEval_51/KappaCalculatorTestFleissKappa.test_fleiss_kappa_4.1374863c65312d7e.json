@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "One row of the test matrix sums to 15 although n is 14 raters, and the docstring does not say how to handle that. The reference code takes the category proportions from the actual sum of all entries and uses the given n in the per-row agreement, whereas a standard implementation would use N*n as the total and get a different value.",
+  "missing": "The docstring should say that when row sums do not equal n, category proportions are computed from the actual total of all matrix entries (not N*n), and per-row agreement still uses the supplied n."
+}

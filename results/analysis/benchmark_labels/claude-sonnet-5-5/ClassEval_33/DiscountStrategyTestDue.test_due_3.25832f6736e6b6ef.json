@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "due() returns the total minus the promotion's discount, which is what the test checks; the BulkItemPromo discount itself is computed by the promotion method, not by due().",
+  "missing": "none"
+}

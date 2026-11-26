@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows values wrapped in single quotes, including the numeric age='15', so a float 1.0 rendering as '1.0' follows from the same str-formatting convention.",
+  "missing": "none"
+}

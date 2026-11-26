@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows 'batman' (lowercase) returning 'Movie not found.' when only 'Batman' exists, and the test additionally checks that the seat remains unchanged, which follows from the docstring saying seats change only on successful booking.",
+  "missing": "none"
+}

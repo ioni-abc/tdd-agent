@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method removes an employee and returns True if the employee exists, so removing ids 1 and 2 returns True and leaves an empty dict, which a straightforward implementation would produce.",
+  "missing": "none"
+}

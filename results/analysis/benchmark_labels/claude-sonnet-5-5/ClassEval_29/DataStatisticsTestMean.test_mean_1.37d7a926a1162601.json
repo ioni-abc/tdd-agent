@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the average rounded to two decimals, and the test's mean of [1,2,3,4,5] is 3.0, which equals 3.00 as a float, so any faithful implementation passes.",
+  "missing": "none"
+}

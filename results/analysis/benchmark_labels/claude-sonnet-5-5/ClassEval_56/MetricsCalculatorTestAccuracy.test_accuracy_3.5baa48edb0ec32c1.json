@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Accuracy is a standard metric (correct predictions divided by total), and the test's predicted [1,1,0,1] vs true [1,0,0,1] has 3 of 4 matching, giving 0.75, which any standard implementation produces and which is consistent with the docstring example.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test adds a product with quantity 5 and expects get_product_quantity to return 5, which is exactly what the docstring says for a product_id present in inventory.",
+  "missing": "none"
+}

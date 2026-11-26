@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test's final call, evaluate_expression('4*3+6+6'), must return True because the expression evaluates to 24, which is exactly what the docstring specifies; the other calls in the test (get_my_cards, answer) test other methods but don't affect this method's spec.",
+  "missing": "none"
+}

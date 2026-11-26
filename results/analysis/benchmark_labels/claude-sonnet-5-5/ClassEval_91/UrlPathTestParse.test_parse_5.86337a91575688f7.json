@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows leading and trailing slashes are dropped, giving ['foo', 'bar'], and with_end_tag stays at its default False for a path with no trailing slash.",
+  "missing": "none"
+}

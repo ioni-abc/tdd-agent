@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method computes the factorial of a number, and factorial(2) = 2 follows directly from that standard definition, so a programmer following it would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the current time formatted as '%H:%M:%S', and the test checks exactly that against the instance's datetime formatted the same way. The `datetime` attribute is set in the class's `__init__`, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

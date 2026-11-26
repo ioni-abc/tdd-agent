@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The total is the sum over ordered dishes of price \u00d7 count \u00d7 sales, which gives 36 + 64 = 100, matching the docstring's description and example.",
+  "missing": "none"
+}

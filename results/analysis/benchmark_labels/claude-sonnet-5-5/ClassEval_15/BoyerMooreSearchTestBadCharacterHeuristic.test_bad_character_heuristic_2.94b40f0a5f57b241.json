@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return all positions where the pattern occurs in the text; \"ABC\" does not occur in \"ABAABA\", so an empty list is the natural result.",
+  "missing": "none"
+}

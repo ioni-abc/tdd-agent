@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "\"script --name=John\" supplies `name`, and `age` is explicitly not required, so no required argument is missing. The docstring says this case returns `(True, None)`.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False when the write is unsuccessful, and writing to an empty file name with no loaded XML data (root is None) is an unsuccessful write, so a programmer would return False.",
+  "missing": "none"
+}

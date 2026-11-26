@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names the normal distribution PDF, which is a standard formula, and the doctest gives the exact expected output for the same input as the test.",
+  "missing": "none"
+}

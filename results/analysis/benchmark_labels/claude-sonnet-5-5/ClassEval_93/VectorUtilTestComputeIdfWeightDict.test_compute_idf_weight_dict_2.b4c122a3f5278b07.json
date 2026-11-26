@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring formula, though missing parentheses, is clarified by the doctest as log((total_num+1)/(count+1)), which gives this test's expected values.",
+  "missing": "none"
+}

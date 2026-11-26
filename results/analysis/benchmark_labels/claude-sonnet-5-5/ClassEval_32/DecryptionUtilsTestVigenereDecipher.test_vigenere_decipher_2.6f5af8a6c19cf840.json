@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"Vigenere cipher\" and gives one example, so the standard algorithm would plausibly produce 'hello' here; however, the details (key lowercased, key index advancing only on letters, case preservation, non-letters passed through) are not specified. The test input is all lowercase letters, so most of those details don't matter, and a standard Vigenere decipher with key 'key' gives 'hello' for 'rijvs'.",
+  "missing": "none"
+}

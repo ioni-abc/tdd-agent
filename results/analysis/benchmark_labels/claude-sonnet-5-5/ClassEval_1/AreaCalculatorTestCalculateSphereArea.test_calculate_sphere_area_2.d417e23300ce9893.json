@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Wrong method tested: the test is named for calculate_sphere_area but calls calculate_circle_area (expecting about 19.63, the area of a circle with radius 2.5), so it does not exercise the sphere method it is filed under.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The X marks at (0,2), (1,1), (2,0) form a diagonal, and the docstring says diagonals are checked and the winner's mark is returned.",
+  "missing": "none"
+}

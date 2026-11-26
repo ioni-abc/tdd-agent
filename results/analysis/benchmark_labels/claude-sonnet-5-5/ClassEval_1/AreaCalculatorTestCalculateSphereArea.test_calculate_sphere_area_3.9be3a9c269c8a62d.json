@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Wrong method called: the test is filed under calculate_sphere_area but calls calculate_circle_area, and its expected value (pi*r^2) is the circle area, so it never exercises the sphere method described in the docstring.",
+  "missing": "none"
+}

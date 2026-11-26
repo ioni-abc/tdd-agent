@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says to delete the value for the key, but the test deletes with `'first_Name'` and expects it to remove the entry stored under `'first_name'`, which depends on a key-conversion rule the docstring never mentions.",
+  "missing": "The docstring should say that the key is first converted to the map's canonical camelCase form, so differently written but equivalent keys (such as underscore-separated words with varying capitalization) refer to the same entry."
+}

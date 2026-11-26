@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says to remove all stop words, but the reference code mutates the list while iterating over it, so adjacent stop words are skipped and the test expects 'is' to remain even though it is in the stop list.",
+  "missing": "none"
+}

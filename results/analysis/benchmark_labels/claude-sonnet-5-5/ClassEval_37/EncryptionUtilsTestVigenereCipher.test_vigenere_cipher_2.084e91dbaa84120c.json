@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses lowercase letters only, so standard Vigen\u00e8re with a repeating key gives \"rijvs\", and the docstring example (\"abc\" \u2192 \"kfa\" with key \"key\") shows the same convention.",
+  "missing": "none"
+}

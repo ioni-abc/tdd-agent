@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what to return when N is out of range for the columns, and the test expects the bare integer 0 instead of the documented (int, str) tuple.",
+  "missing": "The docstring should say that when the column number N does not exist in the file (or the file cannot be read), the method returns the integer 0 rather than a (success, file name) tuple."
+}

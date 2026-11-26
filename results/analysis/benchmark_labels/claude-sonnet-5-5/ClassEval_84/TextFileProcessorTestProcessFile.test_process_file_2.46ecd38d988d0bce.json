@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to filter out non-alphabetic characters, overwrite the file, and return the filtered string, which is exactly what the test checks with 'Hello, abc World!' becoming 'HelloabcWorld'.",
+  "missing": "none"
+}

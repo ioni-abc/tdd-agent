@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The sine of 0 degrees is 0.0, which any implementation following the docstring returns, so the rounding in the reference does not matter here.",
+  "missing": "none"
+}

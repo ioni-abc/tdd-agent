@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example output \"2023-06-14 19:30:03\" shows the \"%Y-%m-%d %H:%M:%S\" format, and the test checks exactly that format on the instance's own datetime.",
+  "missing": "none"
+}

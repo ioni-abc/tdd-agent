@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says \"from a given date\" and lists a `date` parameter, but the signature takes only `num_events`, so it never says that the cutoff is the current system time or that events are compared by `start_time`; the test needs past events skipped.",
+  "missing": "The docstring should state that upcoming events are those whose start time is at or after the current date and time, that earlier events are skipped, and that at most n of the remaining events are returned in list order."
+}

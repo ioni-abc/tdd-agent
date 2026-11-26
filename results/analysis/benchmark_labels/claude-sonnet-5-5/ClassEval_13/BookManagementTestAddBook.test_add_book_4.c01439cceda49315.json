@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Adding a new title with quantity 2 to an empty inventory yields {\"book1\": 2}, which follows directly from \"add one or several books\" with the quantity parameter.",
+  "missing": "none"
+}

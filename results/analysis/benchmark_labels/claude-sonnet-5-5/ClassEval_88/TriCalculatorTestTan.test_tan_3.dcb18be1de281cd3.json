@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the tangent of a 30-degree angle, which is about 0.57735, and assertAlmostEqual tolerates small rounding differences, so any correct implementation passes.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows \"123-456-7890\" as valid and never defines the valid phone format, so a programmer could reasonably accept a plain 10-digit string like \"1234567890\", while the reference pattern (dashes required) rejects it.",
+  "missing": "The docstring should specify the exact valid phone number format, namely that it must be three digits, a dash, three digits, a dash, and four digits, and that numbers without the dashes are invalid."
+}

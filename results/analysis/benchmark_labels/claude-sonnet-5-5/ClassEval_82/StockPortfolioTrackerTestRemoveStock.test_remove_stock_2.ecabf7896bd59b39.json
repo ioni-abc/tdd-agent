@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Removing a stock that exactly matches an entry in the portfolio, as this test does, is what the docstring example shows: it returns True and the entry is removed, leaving the other stock untouched.",
+  "missing": "none"
+}

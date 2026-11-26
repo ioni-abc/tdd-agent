@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says that an empty vending machine returns False, and the test checks exactly that on a fresh VendingMachine whose inventory is empty (as the docstring's first example also shows).",
+  "missing": "none"
+}

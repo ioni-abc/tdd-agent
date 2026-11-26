@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only promises the current song or False, so a programmer would not know that an empty playlist with a set current_song should give None (the reference falls through implicitly).",
+  "missing": "The docstring should say what play returns when the playlist is empty, even if a current song is set (for example, None rather than False or the current song)."
+}

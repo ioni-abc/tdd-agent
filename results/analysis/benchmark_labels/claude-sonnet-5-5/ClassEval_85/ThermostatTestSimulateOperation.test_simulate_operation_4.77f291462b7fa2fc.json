@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The return value of 0 follows naturally from the docstring, but the test also asserts that the mode is 'cool' when current and target temperatures are equal, and that tie-break lives in auto_set_mode, which this docstring does not describe.",
+  "missing": "The docstring should say how auto_set_mode chooses the mode when the current temperature equals the target (it picks cooling, not heating), so the mode left after the simulation is determined."
+}

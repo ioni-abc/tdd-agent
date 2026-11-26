@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method multiplies two complex numbers, and the test checks standard complex multiplication, (1+2j)*(3+4j) = -5+10j, which matches the docstring's own example.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Standard Vigenere decryption with the repeating key 'key' yields 'ryfqw' for 'bcdaa', consistent with the docstring's example and description.",
+  "missing": "none"
+}

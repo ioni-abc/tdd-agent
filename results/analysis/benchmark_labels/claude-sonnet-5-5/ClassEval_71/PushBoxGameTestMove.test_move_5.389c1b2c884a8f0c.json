@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test moves the player up into a wall and expects the position to stay unchanged, but the docstring never says that walls block movement.",
+  "missing": "The docstring should say that a move into a wall cell is ignored, so the player stays where they are and the game is not won."
+}

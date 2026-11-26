@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to compute the total cost of the cart items, and its example (14 \u00d7 23.5 = 329.0) shows quantity times price summed; this test (1\u00d720 + 5\u00d710 = 70.0) follows the same rule.",
+  "missing": "none"
+}

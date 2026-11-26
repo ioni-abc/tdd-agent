@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the expression is \"transformed to a format suitable for conversion\" and shows whitespace removal; it never mentions that a leading '~' (unary minus marker) followed by '(' is rewritten as \"0-(...)\", which the reference does.",
+  "missing": "The docstring should specify that unary minus is marked with '~' and that a leading unary minus before a parenthesis is rewritten as \"0-\" followed by the expression (with whitespace removed)."
+}

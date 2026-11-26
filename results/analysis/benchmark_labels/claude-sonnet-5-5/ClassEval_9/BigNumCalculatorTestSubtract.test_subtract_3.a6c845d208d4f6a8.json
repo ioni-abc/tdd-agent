@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test subtracts a smaller number from a larger one and expects the correct decimal difference as a string, which follows directly from \"subtracts two big numbers\" returning a str.",
+  "missing": "none"
+}

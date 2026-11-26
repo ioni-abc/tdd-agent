@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies cosine similarity between two vectors and gives the same example (1,1) vs (1,0) giving 0.7071..., which the test checks and any correct cosine implementation would satisfy.",
+  "missing": "none"
+}

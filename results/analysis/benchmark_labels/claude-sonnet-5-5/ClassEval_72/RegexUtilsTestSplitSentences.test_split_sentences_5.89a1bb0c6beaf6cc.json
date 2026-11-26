@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Sentences end at \". \", \"? \" or \"! \"; the comma is not a sentence delimiter, so \"Aaa, Bbbb\" stays intact and the final \"!\" is kept, as the docstring example shows.",
+  "missing": "none"
+}

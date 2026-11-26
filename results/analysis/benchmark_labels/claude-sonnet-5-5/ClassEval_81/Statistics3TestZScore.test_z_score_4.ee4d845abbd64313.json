@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example ([1,2,3,4] giving \u00b11.1619 and \u00b10.3873) only works with the sample standard deviation (n-1), and this test's expected values follow the same convention, so a programmer who checks the example would pass.",
+  "missing": "none"
+}

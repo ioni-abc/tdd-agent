@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's return line says to return False when the address is not in the whitelist, which is exactly what the test checks.",
+  "missing": "none"
+}

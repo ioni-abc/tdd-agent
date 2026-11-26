@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test takes the median of an odd-length list, [2, 5, 1, 3, 4], and expects 3. The docstring example gives 3.00 for this same input, and 3 == 3.00 in Python, so an implementation following the docstring passes.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test calls mrr(1) inside a bare try/except that swallows any exception, so it passes whatever the implementation does, including raising or returning a value, and the docstring's requirement of a tuple or list input is not contradicted.",
+  "missing": "none"
+}

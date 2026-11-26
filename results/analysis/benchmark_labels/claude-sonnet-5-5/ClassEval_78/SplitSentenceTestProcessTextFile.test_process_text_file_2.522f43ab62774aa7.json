@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects \"Mr. Smith is a teacher.\" to count as one five-word sentence, so the period after \"Mr\" must not end a sentence, but the docstring never mentions abbreviations; a plain split on \". \" and \"? \" would give 4 and fail.",
+  "missing": "The docstring should say that a period after a title or abbreviation (such as a capitalized short word like \"Mr.\") does not end a sentence, and state how sentence boundaries are detected."
+}

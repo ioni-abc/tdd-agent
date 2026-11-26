@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With radius 0 the sector area is 0 under any reasonable reading of \"area of sector based on self.radius and angle\", and the docstring example shows the angle is in radians, so the test's expected value of 0 follows directly.",
+  "missing": "none"
+}

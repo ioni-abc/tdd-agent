@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses the same input and expected output as the docstring example, which fixes the standard-deviation convention (the sample form, n-1) that a programmer would need to match.",
+  "missing": "none"
+}

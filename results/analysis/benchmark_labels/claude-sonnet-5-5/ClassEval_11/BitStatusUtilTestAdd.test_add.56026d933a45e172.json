@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example `add(2,4)` returns 6 matches the test exactly, and adding a status is naturally implemented as bitwise OR (or sum, which gives the same result here).",
+  "missing": "none"
+}

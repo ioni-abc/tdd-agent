@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says nothing about what happens when product_id is not in the inventory; the test expects a silent no-op leaving the inventory empty, while a programmer might reasonably raise an error or create a new entry.",
+  "missing": "The docstring should state that if the product_id does not exist in the inventory, the call does nothing and the inventory is left unchanged (no error, no new entry)."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test removes spaces from \"1 + 3 * 4\" to get \"1+3*4\", which matches the docstring's example of \"2 + 3 * 4\" becoming \"2+3*4\", so a programmer following the example would pass.",
+  "missing": "none"
+}

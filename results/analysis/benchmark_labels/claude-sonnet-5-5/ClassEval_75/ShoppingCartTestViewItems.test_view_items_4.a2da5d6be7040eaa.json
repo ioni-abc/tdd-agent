@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says view_items returns the current shopping list items as a dict, and its example shows the structure {\"apple\":{\"price\":1, \"quantity\":2}}, which matches what the test expects after adding one item.",
+  "missing": "none"
+}

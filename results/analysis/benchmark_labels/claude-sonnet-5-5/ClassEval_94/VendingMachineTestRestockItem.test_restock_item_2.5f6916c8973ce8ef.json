@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says restocking applies to products already in the machine and returns False otherwise, so a missing item gives False and leaves the inventory unchanged, as the test expects.",
+  "missing": "none"
+}

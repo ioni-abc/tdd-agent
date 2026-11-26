@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The expression \"[a(b){c}\" has an unclosed '[' so its brackets are not balanced, and a programmer following \"checks if the expression has balanced brackets\" would return False.",
+  "missing": "none"
+}

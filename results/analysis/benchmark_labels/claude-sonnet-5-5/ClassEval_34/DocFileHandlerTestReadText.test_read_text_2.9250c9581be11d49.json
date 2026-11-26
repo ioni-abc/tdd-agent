@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With a single paragraph \"111\", returning the document's text as a string gives \"111\" under any reasonable implementation, so the docstring covers it.",
+  "missing": "none"
+}

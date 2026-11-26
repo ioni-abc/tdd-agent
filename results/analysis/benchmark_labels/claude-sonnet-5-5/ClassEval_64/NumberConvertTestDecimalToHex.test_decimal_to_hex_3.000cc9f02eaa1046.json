@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows a lowercase hex string without a prefix, and this test (84907 -> '14bab') follows the same convention with an ordinary positive integer.",
+  "missing": "none"
+}

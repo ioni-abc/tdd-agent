@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Invalid test input: the first row sums to 15 while n says there are 14 raters, so the expected value depends on the reference code taking the category proportions from the actual matrix total rather than from N*n, which the docstring never specifies.",
+  "missing": "none"
+}

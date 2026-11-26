@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the inbox to stay unchanged when the receiver's address is an empty string, a guard in the reference code (`len(self.addr) == 0`) that the docstring never mentions; following the docstring alone, the oldest emails would be deleted until enough space is freed.",
+  "missing": "The docstring should say that if the client's email address is empty, clear_inbox does nothing and leaves the inbox unchanged."
+}

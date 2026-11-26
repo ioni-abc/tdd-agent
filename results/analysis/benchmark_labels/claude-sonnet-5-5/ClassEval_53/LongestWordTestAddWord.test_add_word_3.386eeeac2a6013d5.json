@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to append the input word to self.word_list, and the test adds three words and checks they appear in order, which is exactly what append does.",
+  "missing": "none"
+}

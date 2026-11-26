@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test only sets a value and reads it back with the same key, which is exactly what the docstring's \"set the value corresponding to the key\" describes, with no dependence on key conversion.",
+  "missing": "none"
+}

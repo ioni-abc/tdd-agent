@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says a stock is added to the portfolio, so a programmer would append a second entry for a duplicate name, but the test expects the quantities to be merged into the existing entry.",
+  "missing": "The docstring should say that when a stock with the same name is already in the portfolio, its quantity is increased by the added quantity instead of a new entry being appended."
+}

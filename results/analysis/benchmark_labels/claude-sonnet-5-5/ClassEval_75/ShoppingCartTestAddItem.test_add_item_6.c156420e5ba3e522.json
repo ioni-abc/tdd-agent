@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring doesn't say what happens when the same item is added twice; a programmer might reasonably accumulate the quantity (giving 10), whereas the reference overwrites the entry.",
+  "missing": "The docstring should specify that adding an item already in the cart replaces the existing price and quantity rather than adding to the existing quantity."
+}

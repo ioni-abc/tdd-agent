@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows every field (current_page, per_page, total_pages, total_items, has_previous, has_next, data) for a valid page, and the test checks the same kind of valid middle page, where the values follow naturally from the data and page size.",
+  "missing": "none"
+}

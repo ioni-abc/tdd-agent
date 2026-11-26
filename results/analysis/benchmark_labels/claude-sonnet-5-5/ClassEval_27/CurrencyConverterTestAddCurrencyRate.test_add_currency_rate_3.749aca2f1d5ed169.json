@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a new currency is added with its rate (and the example shows self.rates['KRW'] = 1308.84), so adding 'bbb' with rate 2.0 and finding it in rates matches the described behavior.",
+  "missing": "none"
+}

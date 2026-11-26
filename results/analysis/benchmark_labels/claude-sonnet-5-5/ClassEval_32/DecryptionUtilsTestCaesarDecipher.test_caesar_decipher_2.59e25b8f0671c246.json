@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A Caesar cipher by definition rotates cyclically through the 26-letter alphabet, so a shift of 27 behaves like 1, matching the expected output.",
+  "missing": "none"
+}

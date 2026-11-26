@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a valid IP returns the list of the four dot-separated parts, and its example shows string elements [\"10\", \"10\", \"10\", \"10\"], which matches the test.",
+  "missing": "none"
+}

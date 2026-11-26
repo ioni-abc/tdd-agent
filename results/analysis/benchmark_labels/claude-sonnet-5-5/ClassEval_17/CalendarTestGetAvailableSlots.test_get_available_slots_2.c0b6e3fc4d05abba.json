@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says whether the result is fixed-length one-hour slots or maximal free intervals, and its single example fits both readings, so an implementation that returns free gaps would give 2 slots for this test, not 23.",
+  "missing": "The docstring should say that the day is divided into consecutive fixed one-hour slots starting at midnight, and that each slot with no overlapping event is returned separately (slots that only touch an event's boundary count as available)."
+}

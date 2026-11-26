@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example shows `mrr(([1, 0, 1, 0], 4))` returning `1.0, [1.0]`, and the test checks exactly that case, where the first correct answer is at rank 1, so the reciprocal rank is 1.0.",
+  "missing": "none"
+}

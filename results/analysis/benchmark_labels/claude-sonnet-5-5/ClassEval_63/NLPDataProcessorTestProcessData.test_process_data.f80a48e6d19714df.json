@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's keep-letters-and-spaces, lowercase, split steps give exactly the expected output for both inputs, which contain only letters, spaces and punctuation.",
+  "missing": "none"
+}

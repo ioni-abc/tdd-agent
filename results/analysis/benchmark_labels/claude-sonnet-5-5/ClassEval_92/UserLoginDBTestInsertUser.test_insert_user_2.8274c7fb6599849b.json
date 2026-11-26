@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method inserts a new user into the \"users\" table, and the test inserts a user and finds it with the username and password stored as given.",
+  "missing": "none"
+}

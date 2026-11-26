@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A student with no courses has no score below 60, so by the docstring (\"any score below 60\") they are not included, and the result is an empty list.",
+  "missing": "none"
+}

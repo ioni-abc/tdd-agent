@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test (text \"AAAA\", pattern \"ABC\") expects 2, which only follows from scanning the pattern right to left (C vs A mismatches first), while a left-to-right \"first dismatch\" would give 1; the docstring's example gives 2 either way.",
+  "missing": "The docstring should say that the pattern is compared against the text from its last character backwards, and that the returned position is the text index of the first mismatch found in that order."
+}

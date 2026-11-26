@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring examples fix AP as the sum of precision at each hit position divided by the ground truth count, and the test's values (0.75, 0.0625, mean 0.40625) follow from that formula and the list-input format.",
+  "missing": "none"
+}

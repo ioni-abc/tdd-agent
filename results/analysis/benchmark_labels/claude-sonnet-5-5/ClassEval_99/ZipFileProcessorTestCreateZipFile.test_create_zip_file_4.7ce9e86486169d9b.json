@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the file list is compressed into a zip at the given output path and returns True on success, which is exactly what this test checks with a valid file and a `.zip` output path.",
+  "missing": "none"
+}

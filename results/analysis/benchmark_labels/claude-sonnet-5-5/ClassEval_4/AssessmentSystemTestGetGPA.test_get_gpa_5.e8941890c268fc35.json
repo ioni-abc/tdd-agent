@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The student exists and has one course grade, so the docstring says to return the average, which is 90.0 and matches the test.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Spiderman (20:00\u201322:30) lies fully within 20:00\u201323:00, and Batman (17:05\u201319:25) starts before the range, so any reasonable reading of \"available within the time range\" yields ['Spiderman'].",
+  "missing": "none"
+}

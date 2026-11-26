@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example output \"2023-06-14 19:30:03\" unambiguously shows the \"%Y-%m-%d %H:%M:%S\" format that the test checks.",
+  "missing": "none"
+}

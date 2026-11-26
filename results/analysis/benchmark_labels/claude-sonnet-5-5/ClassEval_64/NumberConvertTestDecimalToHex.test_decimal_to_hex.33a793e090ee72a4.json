@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses the exact input and output from the docstring example (42423 -> 'a5b7'), which fixes the lowercase, no-prefix format.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test adds a new product to an empty inventory, which the docstring describes (\"just add new product to dict otherwise\") and the example shows the resulting dict format.",
+  "missing": "none"
+}

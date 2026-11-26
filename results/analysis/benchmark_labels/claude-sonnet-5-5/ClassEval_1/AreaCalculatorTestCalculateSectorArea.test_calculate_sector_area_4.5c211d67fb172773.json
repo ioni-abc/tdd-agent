@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (radius 2, angle \u03c0 gives 2\u03c0) implies the standard radian formula r\u00b2\u00b7\u03b8/2, and the test's 2\u03c0 case gives 4\u03c0 \u2248 12.566, which matches.",
+  "missing": "none"
+}

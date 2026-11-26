@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The requested count (6) is within the menu stock (7), so the docstring's rule of adding the dish, returning True and decrementing the menu count gives exactly what the test checks.",
+  "missing": "none"
+}

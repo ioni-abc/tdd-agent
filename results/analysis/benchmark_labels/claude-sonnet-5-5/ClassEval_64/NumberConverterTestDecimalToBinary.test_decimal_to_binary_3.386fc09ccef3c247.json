@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test converts an ordinary positive integer to its plain binary string, which is what the docstring and its example describe.",
+  "missing": "none"
+}

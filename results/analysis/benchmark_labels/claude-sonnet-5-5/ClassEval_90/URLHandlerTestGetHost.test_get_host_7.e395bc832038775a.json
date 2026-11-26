@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the host domain name of the URL, and for \"https://bbb.com\" with no path the host is \"bbb.com\", which any reasonable implementation returns.",
+  "missing": "none"
+}

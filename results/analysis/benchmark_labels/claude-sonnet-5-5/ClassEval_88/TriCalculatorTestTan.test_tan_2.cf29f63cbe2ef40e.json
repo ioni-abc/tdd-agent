@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says to compute the tangent of an angle in degrees, so a programmer would not know that tan(90), where the tangent is undefined, should return False; they might return a huge float, infinity, NaN, or raise an error.",
+  "missing": "The docstring should say that when the tangent is undefined (the cosine of the angle is zero, such as at 90 degrees), the method returns False instead of a number."
+}

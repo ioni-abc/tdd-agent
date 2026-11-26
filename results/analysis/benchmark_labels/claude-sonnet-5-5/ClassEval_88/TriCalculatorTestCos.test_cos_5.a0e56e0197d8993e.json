@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to compute the cosine of an x-degree angle, and cos(45\u00b0) \u2248 0.7071067812 is the correct value, which assertAlmostEqual (7 decimal places) accepts for any accurate implementation such as math.cos(math.radians(x)).",
+  "missing": "none"
+}

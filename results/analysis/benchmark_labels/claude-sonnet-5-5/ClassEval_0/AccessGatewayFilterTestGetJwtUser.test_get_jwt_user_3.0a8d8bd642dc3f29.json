@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the user information when the token is valid, and the test uses a token with today's date, which a programmer would treat as valid and return a non-None result.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Converting a number to words with \"ONLY\" appended, as the docstring's example shows, naturally yields \"ONE MILLION ONLY\" for 1000000 using standard English scale words.",
+  "missing": "none"
+}

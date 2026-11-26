@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (`[1, 2, 3, 4]` gives 1.25) only fits population variance, since sample variance would be about 1.67. The test data has the same spread and also gives 1.25 under population variance rounded to two decimals, so a programmer following the docstring passes.",
+  "missing": "none"
+}

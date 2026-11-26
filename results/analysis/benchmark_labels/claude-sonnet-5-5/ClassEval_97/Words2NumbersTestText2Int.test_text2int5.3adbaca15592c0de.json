@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows \"thirty-two\" \u2192 \"32\", so it never says how filler words like \"and\" are treated, and a programmer could reasonably output \"1000000 and 11\" instead of \"1000011\".",
+  "missing": "The docstring should say that the connecting word \"and\" inside a number phrase is ignored and does not split the number, so the words around it combine into a single integer."
+}

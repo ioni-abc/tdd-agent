@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say whether the columns or the rows of the input are the variables, and the test's 2x3 input only passes if columns are treated as variables (giving a 3x3 result), while the common row-as-variable convention would give 2x2.",
+  "missing": "The docstring should say that each column of the input list is one variable, so the output has one row and one column per column of the input, and entry (i, j) is the correlation between column i and column j."
+}

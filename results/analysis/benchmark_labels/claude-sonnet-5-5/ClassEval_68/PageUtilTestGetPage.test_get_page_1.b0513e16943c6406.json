@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Fetching page 1 of data with page size 3 returns the first three items, which follows directly from the docstring's \"retrieve a specific page\" and the example showing page 1 with size 1 returning [1].",
+  "missing": "none"
+}

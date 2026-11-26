@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring's own example (70 kg, 1.8 m, age 20, male) returns 986.0, which is BMR*1.6, so it treats that person as \"too thin\". The reference code, via condition_judge, treats the same height, weight and age as normal (BMR*1.4), and this test expects 450.25*1.4 = 630.35 for the female case, so following the example would give 720.4 and fail.",
+  "missing": "none"
+}

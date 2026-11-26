@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example (radius 2, angle pi giving 2*pi) fixes the radian-based formula r^2*angle/2, which gives about 3.534 for this test and matches the expected value.",
+  "missing": "none"
+}

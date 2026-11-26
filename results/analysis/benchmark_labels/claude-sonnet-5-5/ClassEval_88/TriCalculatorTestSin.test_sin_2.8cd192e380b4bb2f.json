@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies the sine of an angle in degrees, and sin(60) \u2248 0.8660254 matches the expected value within assertAlmostEqual's tolerance.",
+  "missing": "none"
+}

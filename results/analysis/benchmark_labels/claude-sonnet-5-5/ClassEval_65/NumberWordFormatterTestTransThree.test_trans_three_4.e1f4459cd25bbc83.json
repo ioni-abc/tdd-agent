@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows a full three-digit input like \"123\"; for a leading zero such as \"001\" a programmer could reasonably output \"ZERO HUNDRED AND ONE\" or \"ONE\", and the docstring does not say which.",
+  "missing": "The docstring should state that when the hundreds digit is zero, the hundreds part is omitted and only the remaining two digits are converted to words, with no \"HUNDRED\" or \"AND\"."
+}

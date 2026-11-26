@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is identical to the docstring example, and the standard Vigenere cipher on \"abc\" with key \"key\" gives \"kfa\".",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to save the opened image to the given path, and the test loads an image, saves it, and checks that the saved file exists at that path with the matching filename.",
+  "missing": "none"
+}

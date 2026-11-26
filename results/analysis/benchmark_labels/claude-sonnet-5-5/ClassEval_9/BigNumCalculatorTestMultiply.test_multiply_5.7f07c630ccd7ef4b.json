@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test multiplies two ordinary positive digit strings and expects the string product, which is exactly what the docstring describes (\"Multiplies two big numbers\", returns str).",
+  "missing": "none"
+}

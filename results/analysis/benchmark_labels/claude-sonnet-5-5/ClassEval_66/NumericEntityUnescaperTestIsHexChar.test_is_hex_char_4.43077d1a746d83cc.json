@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "'X' is not a hexadecimal digit (valid ones are 0-9, a-f, A-F), so the docstring's description of a hexadecimal digit yields False, matching the test.",
+  "missing": "none"
+}

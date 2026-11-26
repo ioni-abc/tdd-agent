@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the existing document to be replaced, so `read_text` returns only the new content. The docstring says only \"writes the specified content to a Word document\" and does not say whether existing content is overwritten or appended to, so an implementation that appends to the existing file would fail.",
+  "missing": "The docstring should say that writing creates a new document that replaces any existing content in the file, rather than appending to it."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the coordinate of the 0 element, and its own example gives (2, 1) for the same state the test uses, so row then column is clear.",
+  "missing": "none"
+}

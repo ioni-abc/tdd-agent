@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Wrong-method test: test_select_2 calls calc.count(5, 3) rather than select, so it does not exercise the documented select method at all.",
+  "missing": "none"
+}

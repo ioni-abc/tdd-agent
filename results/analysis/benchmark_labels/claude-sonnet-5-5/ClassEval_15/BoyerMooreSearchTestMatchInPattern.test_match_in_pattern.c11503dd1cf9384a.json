@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The rightmost \"A\" in pattern \"AB\" is at index 0, which is exactly what the docstring describes and the test expects.",
+  "missing": "none"
+}

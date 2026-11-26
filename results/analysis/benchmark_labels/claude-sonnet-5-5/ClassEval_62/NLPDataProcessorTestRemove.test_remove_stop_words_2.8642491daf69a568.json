@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's return line says \"a list of words\" (suggesting flat output), and its only example is for a different method, so the nested per-string result `[[], [], []]` is not clearly specified.",
+  "missing": "The docstring should say the result is a list with one entry per input string, each entry being the list of that string's whitespace-split words that are not stop words (keeping an empty list when all words are removed)."
+}

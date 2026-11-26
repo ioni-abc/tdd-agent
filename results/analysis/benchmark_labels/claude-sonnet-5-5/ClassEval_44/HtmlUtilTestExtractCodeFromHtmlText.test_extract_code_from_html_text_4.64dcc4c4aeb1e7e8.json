@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example has the same structure (a `<pre>` block and a `<pre><code>` block) and gives an expected output that preserves the original whitespace, which is what this test checks.",
+  "missing": "none"
+}

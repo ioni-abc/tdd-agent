@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that substrings matching the regex are replaced, so text with no match is returned unchanged, which is what a programmer would implement and what the test expects.",
+  "missing": "none"
+}

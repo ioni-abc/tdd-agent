@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test uses mixed-case plaintext and expects each letter's case to be preserved, but the docstring only shows a lowercase example and says nothing about how uppercase letters are handled.",
+  "missing": "The docstring should state that uppercase and lowercase letters are both shifted, and that each letter in the output keeps the case of the corresponding plaintext letter."
+}

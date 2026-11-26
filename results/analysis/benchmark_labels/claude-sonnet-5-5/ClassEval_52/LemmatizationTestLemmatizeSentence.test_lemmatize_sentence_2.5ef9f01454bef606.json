@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says punctuation is removed but not which characters count or how (the apostrophe in \"Cantanco's\" is deleted without a space, giving \"Cantancos\"), and it doesn't specify the POS-to-lemmatizer mapping (e.g. nouns left unchanged, so \"beating\" stays as is while \"had\" becomes \"have\").",
+  "missing": "The docstring should say that punctuation removal deletes every punctuation character, including apostrophes, without inserting a space (so contractions and possessives merge into one token), and that only verbs, adjectives and adverbs are lemmatized with their matching POS while all other words use the default noun lemmatization."
+}

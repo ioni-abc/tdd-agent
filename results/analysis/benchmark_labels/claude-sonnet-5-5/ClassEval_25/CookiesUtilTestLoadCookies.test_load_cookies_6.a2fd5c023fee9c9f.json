@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what load_cookies returns when the cookies file is missing or unreadable (here an empty path), whereas the reference returns {} by catching FileNotFoundError; an implementation that raises the exception would fail the test.",
+  "missing": "The docstring should say that if the cookies file does not exist or cannot be found, the method returns an empty dict instead of raising an error."
+}

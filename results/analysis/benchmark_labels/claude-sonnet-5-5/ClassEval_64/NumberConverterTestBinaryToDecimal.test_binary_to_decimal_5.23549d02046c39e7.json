@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert a binary string to its decimal int, and the test passes an ordinary binary string and expects the correct decimal value (1010010111010110111 in binary = 339639).",
+  "missing": "none"
+}

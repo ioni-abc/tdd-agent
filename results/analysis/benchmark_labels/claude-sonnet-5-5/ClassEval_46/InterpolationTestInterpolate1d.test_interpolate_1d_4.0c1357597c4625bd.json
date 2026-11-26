@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test passes unsorted x values, and the expected result only follows if consecutive points in the given order are used as segments, which the docstring doesn't specify (sorting x first would give a different answer).",
+  "missing": "The docstring should say whether x must be sorted or whether the points are used in the given order as consecutive segments without sorting, with each interpolation point taken from the first segment that contains it."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to check the menu and add the dish only if the count is valid, but it does not say what happens when the dish is not on the menu (or when the dict is empty); the reference code adds it anyway and returns True, whereas a programmer could reasonably return False.",
+  "missing": "The docstring should state what to do when the dish is not found in the menu (e.g., whether it is added to the selected dishes and True is returned, or rejected with False), including for a dish dict missing the expected keys."
+}

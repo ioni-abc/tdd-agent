@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what query returns when the system's city is missing from weather_list, and a programmer could reasonably return None, raise an error, or return an empty tuple instead of False.",
+  "missing": "The docstring should state that when the system's city is not a key in the weather dictionary, query returns False."
+}

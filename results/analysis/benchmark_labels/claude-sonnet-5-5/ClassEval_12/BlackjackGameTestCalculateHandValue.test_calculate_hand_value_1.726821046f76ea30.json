@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The hand of 2, 3, 4 and 5 contains only digit cards, so the docstring's rule that a digit card adds its value gives 14 with no aces or face cards involved.",
+  "missing": "none"
+}

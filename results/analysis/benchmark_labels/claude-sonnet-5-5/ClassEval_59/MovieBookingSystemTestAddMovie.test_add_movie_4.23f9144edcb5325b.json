@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows add_movie storing name, price, datetime-parsed start and end times (1900-01-01 date), and an n\u00d7n zeros seat array, which is exactly what the test checks.",
+  "missing": "none"
+}

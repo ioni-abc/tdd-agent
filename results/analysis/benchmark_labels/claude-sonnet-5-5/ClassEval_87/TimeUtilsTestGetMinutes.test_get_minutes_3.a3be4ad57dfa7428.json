@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test computes the minutes between two times on the same day, 3 hours apart, which gives 180; this follows directly from the docstring and its example, with no edge case involved.",
+  "missing": "none"
+}

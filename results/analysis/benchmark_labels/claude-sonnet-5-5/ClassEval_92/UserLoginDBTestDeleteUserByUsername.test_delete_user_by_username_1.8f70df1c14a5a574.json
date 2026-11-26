@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method deletes a user from the \"users\" table by username, and the test inserts a user, deletes it, and checks that searching for it returns None, which is the expected effect of deletion.",
+  "missing": "none"
+}

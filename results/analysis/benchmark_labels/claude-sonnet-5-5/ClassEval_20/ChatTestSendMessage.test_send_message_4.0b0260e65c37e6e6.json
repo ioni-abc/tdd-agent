@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that if the sender or the receiver is not in the Chat, the method returns False; here neither is present, so False is expected. The check that users is unchanged follows naturally from a failed send that stores nothing.",
+  "missing": "none"
+}

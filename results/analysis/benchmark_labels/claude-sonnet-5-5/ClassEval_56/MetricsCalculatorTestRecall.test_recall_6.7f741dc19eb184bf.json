@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test has no positive true labels, so recall's denominator (TP+FN) is zero. The docstring only says \"Calculate recall\" and does not say what to return in that case, so a programmer could raise an error, return NaN, or return 0.0.",
+  "missing": "The docstring should state that when there are no actual positive instances in the true labels (so recall's denominator is zero), the method returns 0.0 instead of raising an error or returning NaN."
+}

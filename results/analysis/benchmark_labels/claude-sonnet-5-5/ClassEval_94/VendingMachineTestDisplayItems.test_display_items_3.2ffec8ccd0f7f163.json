@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says it returns \"a list of the products ... str\" and only shows a single-item example, so it never specifies how multiple items are separated (newline-joined in the reference); a programmer might use a comma, a space, or return a real list.",
+  "missing": "The docstring should state that when there are several products, each product's line is joined into one string separated by a newline character, in inventory order."
+}

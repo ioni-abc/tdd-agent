@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Removing bit 4 from status 6 (binary 110) clears that bit and gives 2, which is what \"remove the specified status from the current status\" means and matches the docstring example for removal.",
+  "missing": "none"
+}

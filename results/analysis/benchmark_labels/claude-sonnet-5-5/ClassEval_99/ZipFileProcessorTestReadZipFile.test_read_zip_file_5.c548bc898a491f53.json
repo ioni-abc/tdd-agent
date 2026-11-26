@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that an \"open file object\" is returned, but the test checks that its `.filename` equals the zip name and that its `.mode` is `'r'`. This holds only if the implementation returns a `zipfile.ZipFile` opened in read mode, which the docstring never states.",
+  "missing": "The docstring should say that the method returns a `zipfile.ZipFile` object opened in read mode ('r') on the processor's file path, so that its filename and mode attributes reflect that."
+}

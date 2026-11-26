@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows adding a new product to the inventory, but the test adds the same item name twice and expects the quantities to be summed, a behaviour the docstring never mentions.",
+  "missing": "The docstring should say that adding a product whose name is already in the inventory increases its existing quantity by the added amount instead of replacing the entry."
+}

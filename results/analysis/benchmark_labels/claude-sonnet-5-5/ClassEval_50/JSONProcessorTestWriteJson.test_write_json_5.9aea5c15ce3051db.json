@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return -1 if an error occurs during writing, and an empty file path makes open() raise an error, so a programmer would return -1 here.",
+  "missing": "none"
+}

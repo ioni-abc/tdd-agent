@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says to compute the cosine of an angle in degrees, but a naive `math.cos(math.radians(90))` returns about 6.1e-17, which fails `assertEqual(..., 0.0)`, and the reference passes only because it rounds to 10 decimals.",
+  "missing": "The docstring should say the result is rounded to a fixed number of decimal places (10), so values that are mathematically exact, such as zero, come out exactly."
+}

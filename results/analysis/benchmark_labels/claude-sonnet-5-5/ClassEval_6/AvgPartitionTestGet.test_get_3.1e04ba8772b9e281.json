@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring mentions a block size and a remainder but never says how the remainder is distributed (the first `remainder` partitions each get one extra element), so a programmer could give the extra element to the last partition and fail on the 5-element, 2-partition case.",
+  "missing": "When the list length does not divide evenly, the leftover elements go one each to the earliest partitions, so the first `remainder` partitions are one element longer than the rest."
+}

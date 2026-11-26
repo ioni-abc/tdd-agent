@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns all positions where the pattern occurs in the text; \"ABAC\" occurs only at index 0 in \"ABACABA\", so [0] is what any correct implementation returns.",
+  "missing": "none"
+}

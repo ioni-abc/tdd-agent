@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test withdraws two resumes in turn, each present in the list, and the docstring says withdrawing removes the given resume from the resumes list, so both removals empty it.",
+  "missing": "none"
+}

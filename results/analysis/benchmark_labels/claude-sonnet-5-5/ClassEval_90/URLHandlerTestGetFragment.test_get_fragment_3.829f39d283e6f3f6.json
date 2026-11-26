@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The URL contains a '#' followed by \"aaa\", and the docstring says to return the fragment after '#', so any straightforward implementation returns \"aaa\".",
+  "missing": "none"
+}

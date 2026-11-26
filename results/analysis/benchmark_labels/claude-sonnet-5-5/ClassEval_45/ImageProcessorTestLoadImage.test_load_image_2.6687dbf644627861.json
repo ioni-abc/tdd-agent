@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to open an image with PIL's Image and the example shows it stored in `processor.image`, so a programmer would implement `self.image = Image.open(path)`, and the test's size check follows from that.",
+  "missing": "none"
+}

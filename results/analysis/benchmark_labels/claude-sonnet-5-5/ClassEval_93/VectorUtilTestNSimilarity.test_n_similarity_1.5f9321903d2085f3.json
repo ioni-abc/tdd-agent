@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"cosine similarity between two sets of vectors\". It never says each set is first reduced to its mean vector and one scalar cosine is computed between the two means, which is what the reference does and the test relies on. A pairwise cosine matrix is an equally natural reading, and it would fail on the zero vector in this test.",
+  "missing": "The docstring should say that each list is averaged element-wise into one mean vector and that the result is the single cosine similarity between those two mean vectors, not pairwise similarities."
+}

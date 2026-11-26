@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_path returns the resource address, the third part of the URL, and its example shows the path with query and fragment; for a plain URL with a path, \"/aaa/human-eval\" is the natural result.",
+  "missing": "none"
+}

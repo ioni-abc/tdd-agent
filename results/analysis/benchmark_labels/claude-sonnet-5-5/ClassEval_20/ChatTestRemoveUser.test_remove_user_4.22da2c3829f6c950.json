@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says remove_user removes the user and returns True if the user is in the Chat, and the test removes two existing users, each returning True, leaving an empty dict.",
+  "missing": "none"
+}

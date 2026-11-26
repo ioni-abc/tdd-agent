@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to compute the size of each block and the remainder of the division, which for 5 items in 4 blocks is integer quotient 1 and remainder 1, matching the test.",
+  "missing": "none"
+}

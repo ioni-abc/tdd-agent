@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's only example (2 and 4 gives 6) fits both arithmetic addition and bitwise OR, but the test with overlapping bits (2, 2) expects 2, which only OR produces.",
+  "missing": "The docstring should say that adding a status means setting its bits with a bitwise OR, so adding a status that is already set leaves the value unchanged."
+}

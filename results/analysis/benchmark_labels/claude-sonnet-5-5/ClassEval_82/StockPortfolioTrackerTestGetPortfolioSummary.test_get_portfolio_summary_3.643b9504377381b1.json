@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the total as cash balance plus stock values, so with an empty portfolio a programmer would naturally return the cash balance and an empty list, which is what the test expects.",
+  "missing": "none"
+}

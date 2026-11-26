@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "At the end both X (six in a row on row 5) and O (five in a row on row 0) have winning lines, and the docstring does not say which symbol is returned, so 'O' only comes from the reference's top-to-bottom, left-to-right scan order.",
+  "missing": "The docstring should say what is returned when more than one player has five in a row, for example that the board is scanned row by row from the top-left and the first winning line found decides the result."
+}

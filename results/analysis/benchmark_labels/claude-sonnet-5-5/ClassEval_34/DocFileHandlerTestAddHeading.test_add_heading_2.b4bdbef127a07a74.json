@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_heading adds a heading with the given text to the Word document, and the test adds a heading with the default level and checks that a heading-styled paragraph with that text exists in the saved file.",
+  "missing": "none"
+}

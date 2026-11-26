@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert a hex string to its decimal int, and '53a77' is an ordinary hex string whose value is 342647.",
+  "missing": "none"
+}

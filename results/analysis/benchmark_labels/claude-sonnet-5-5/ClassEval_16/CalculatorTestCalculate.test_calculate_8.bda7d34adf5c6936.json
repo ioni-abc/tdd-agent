@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say how unrecognised characters such as '?' are handled, and the test expects them to be silently ignored (giving 3), while a programmer could reasonably return None for an invalid expression.",
+  "missing": "The docstring should state that characters that are not digits, decimal points, operators or parentheses are ignored rather than treated as errors."
+}

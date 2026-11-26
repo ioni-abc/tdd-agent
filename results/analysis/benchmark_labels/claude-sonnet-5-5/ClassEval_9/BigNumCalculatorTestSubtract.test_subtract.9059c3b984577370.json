@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is the docstring's own example: subtracting a larger number from a smaller one gives a negative result as a string, which a programmer would implement naturally.",
+  "missing": "none"
+}

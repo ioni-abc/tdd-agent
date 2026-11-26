@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test includes a student with no course scores, whose GPA is None, and the docstring does not say how such students are treated when finding the highest GPA.",
+  "missing": "The docstring should say that students with no course scores (no GPA available) are ignored when determining the top student."
+}

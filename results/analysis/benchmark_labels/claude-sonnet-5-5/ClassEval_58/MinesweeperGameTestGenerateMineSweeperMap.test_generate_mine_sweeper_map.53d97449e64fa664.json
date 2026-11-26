@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Indirect attribute check: the test never calls generate_mine_sweeper_map and instead reads the `minesweeper_map` attribute that `__init__` populates, so it exercises the constructor rather than the documented method.",
+  "missing": "none"
+}

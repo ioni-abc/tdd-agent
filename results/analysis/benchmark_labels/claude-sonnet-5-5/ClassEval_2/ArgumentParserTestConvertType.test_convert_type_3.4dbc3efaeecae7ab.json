@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the value is converted using the type in self.types and gives an example converting '21' to 21 with int, which is the same behaviour this test checks with \"age\" and \"25\".",
+  "missing": "none"
+}

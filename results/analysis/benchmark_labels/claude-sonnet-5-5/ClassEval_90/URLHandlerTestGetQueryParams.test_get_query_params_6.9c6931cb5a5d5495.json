@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects {} for a query consisting only of an empty segment, which depends on silently skipping pairs that are not of the form key=value; the docstring never says how to treat such pairs.",
+  "missing": "The docstring should say that query segments that are empty or lack a key=value form are ignored, so a query with no valid pairs returns an empty dict."
+}

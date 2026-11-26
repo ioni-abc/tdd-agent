@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test only checks that the food position is not on the snake and lies within the 0\u2013100 screen range, which any implementation of \"randomly generate a new food position not on the snake\" would satisfy (the reference code even leaves (40,40) unchanged because it is not on the snake).",
+  "missing": "none"
+}

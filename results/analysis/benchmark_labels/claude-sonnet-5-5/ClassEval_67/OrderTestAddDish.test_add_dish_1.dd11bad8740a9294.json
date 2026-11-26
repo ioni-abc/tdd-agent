@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test adds a dish with a valid count, expecting True, a decremented menu count, and the dish appended to selected_dishes, all of which follow from the docstring's description of a successful add.",
+  "missing": "none"
+}

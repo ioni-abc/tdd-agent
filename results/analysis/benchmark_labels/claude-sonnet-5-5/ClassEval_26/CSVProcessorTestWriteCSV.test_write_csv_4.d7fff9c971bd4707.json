@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to write data to a CSV file and return 1 on success, and the test writes a simple 2-row list, expects 1, and reads it back correctly.",
+  "missing": "none"
+}

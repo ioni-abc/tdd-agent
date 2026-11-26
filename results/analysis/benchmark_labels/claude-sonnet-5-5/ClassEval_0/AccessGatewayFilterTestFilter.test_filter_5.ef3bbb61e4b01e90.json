@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"filter based on certain rules and conditions\" and gives a '/login' example, so it never states that a request with a valid JWT and user level above 2 is allowed, nor the token format or the level threshold.",
+  "missing": "The docstring should say that a request to a non-exempt path is allowed only if its Authorization header holds a valid JWT (user name plus date-based token) for a user whose level is above 2, and is otherwise rejected."
+}

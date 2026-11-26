@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"cosine similarity between two sets of vectors\". The reference first averages each list into one mean vector and then takes the cosine of the two means, which the docstring never states, and a pairwise or other aggregation would give different values.",
+  "missing": "The docstring should say that each list of vectors is first reduced to its element-wise mean vector, and that the result is the single cosine similarity between those two mean vectors."
+}

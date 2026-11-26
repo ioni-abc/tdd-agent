@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says deposit increases the balance and returns the current balance, so two deposits of 1000 from an initial balance of 0 return 2000; BankAccount() defaulting to balance 0 is a constructor matter, not part of this method's behaviour.",
+  "missing": "none"
+}

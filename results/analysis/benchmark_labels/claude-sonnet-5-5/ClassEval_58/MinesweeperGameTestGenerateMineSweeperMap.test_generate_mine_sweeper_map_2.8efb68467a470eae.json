@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test only checks that the map has n rows and exactly k mines, both of which the docstring states (n*n board, k mines marked 'X').",
+  "missing": "none"
+}

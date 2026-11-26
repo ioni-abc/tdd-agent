@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to find the coordinate of the 0 element and returns (row, col), as shown by the example (2, 1); the test with 0 at row 1, column 1 returns (1, 1), consistent with this.",
+  "missing": "none"
+}

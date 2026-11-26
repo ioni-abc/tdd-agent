@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the median of a list and its example (even-length list giving the mean of the two middle values) shows the convention, so the median of [1..8] being 4.5 follows directly.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test replays the docstring's example sequence, which shows the push mechanic and a final True on winning, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

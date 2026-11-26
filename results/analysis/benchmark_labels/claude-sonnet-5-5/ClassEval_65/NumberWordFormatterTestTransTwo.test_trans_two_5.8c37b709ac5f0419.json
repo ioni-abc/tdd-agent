@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers only a two-digit number such as \"23\", but this test passes \"01\" with a leading zero and expects \"ONE\"; a programmer could reasonably return \"ZERO ONE\" or something else.",
+  "missing": "The docstring should say how a two-digit string with a leading zero is handled: the zero tens digit is dropped and only the ones digit's word is returned."
+}

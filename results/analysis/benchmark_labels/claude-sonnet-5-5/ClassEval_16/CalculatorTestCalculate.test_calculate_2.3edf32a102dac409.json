@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the value of an expression, and '1+2*3' evaluates to 7 under standard arithmetic precedence, which any implementation would follow; 7 == 7.0 in the assertion.",
+  "missing": "none"
+}

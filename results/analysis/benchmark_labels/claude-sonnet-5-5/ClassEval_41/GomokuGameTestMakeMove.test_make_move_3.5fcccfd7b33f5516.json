@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test checks that a valid move places the current player's symbol and switches the player, which the docstring explicitly describes; the starting player and board layout come from the class context.",
+  "missing": "none"
+}

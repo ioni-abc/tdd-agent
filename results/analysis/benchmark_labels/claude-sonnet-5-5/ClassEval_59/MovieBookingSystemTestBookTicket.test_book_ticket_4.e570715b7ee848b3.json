@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Booking two free seats in an existing movie should return \"Booking success.\" and mark those seats as booked, which the docstring says (\"Change the seats value in self.movies if book successfully\").",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the exact output format 'Coke - $1.25 [10]' for a single-item inventory, which is precisely what this test checks, so a programmer following it would pass.",
+  "missing": "none"
+}

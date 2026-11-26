@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows a list of row tuples to be written to the file, and the return value of 1 on success; the test checks exactly this, plus a round trip through read_excel.",
+  "missing": "none"
+}

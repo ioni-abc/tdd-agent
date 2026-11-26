@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The player's hand totals 10 and the dealer's AS+JS totals 21, so both are at most 21 and the dealer is closer to 21, which the docstring's rule says means 'Dealer wins'.",
+  "missing": "none"
+}

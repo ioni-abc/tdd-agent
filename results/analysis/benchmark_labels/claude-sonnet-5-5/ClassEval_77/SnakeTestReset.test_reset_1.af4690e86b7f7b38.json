@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to set length to 1, the head position to (SCREEN_WIDTH/2, SCREEN_HEIGHT/2), and the score to 0. With a 100x100 screen, the position is (50.0, 50.0), which equals (50, 50) in Python, so the test passes.",
+  "missing": "none"
+}

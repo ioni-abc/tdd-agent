@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows \"2+3*4\" yielding ['2','3','4','*','+'], and this test applies the same operator-precedence conversion to \"1+3*4\", so a programmer following the example would pass.",
+  "missing": "none"
+}

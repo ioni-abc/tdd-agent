@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Accumulating inserted amounts into the balance is the natural reading of \"balance after the coins are inserted\", so two insertions of 1.25 give 2.50.",
+  "missing": "none"
+}

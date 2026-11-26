@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "An address containing non-hexadecimal characters such as 'l' is not a valid IPv6 address, so the docstring's \"valid IPv6 address\" requirement leads any reasonable implementation to return False.",
+  "missing": "none"
+}

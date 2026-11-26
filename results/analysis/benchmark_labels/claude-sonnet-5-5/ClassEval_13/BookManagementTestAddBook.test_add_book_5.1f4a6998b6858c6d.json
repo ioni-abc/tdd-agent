@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Adding books with default quantity 1 to an existing title naturally increments the count (2+1=3), which follows from \"add one or several books\" and the stated default.",
+  "missing": "none"
+}

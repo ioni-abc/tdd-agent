@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses the exact example from the docstring, and the docstring describes removing punctuation, tokenizing, and returning the POS tags, which a programmer would implement with NLTK's tokenizer and tagger to get the expected list.",
+  "missing": "none"
+}

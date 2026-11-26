@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test expects the rightmost index of \"B\" in pattern \"ABAB\", which is 3, exactly as the docstring describes.",
+  "missing": "none"
+}

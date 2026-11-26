@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to compute the normal-distribution PDF for each data point, which is the standard formula the reference uses, so a correct implementation yields the expected list for mu=1, sigma=2.",
+  "missing": "none"
+}

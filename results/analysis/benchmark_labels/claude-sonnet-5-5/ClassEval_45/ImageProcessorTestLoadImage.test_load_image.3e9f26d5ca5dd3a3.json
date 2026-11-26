@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to use PIL's Image to open an image and the example shows `processor.image` holding the opened image; the test only checks that `processor.image` is not None after loading, which follows directly.",
+  "missing": "none"
+}

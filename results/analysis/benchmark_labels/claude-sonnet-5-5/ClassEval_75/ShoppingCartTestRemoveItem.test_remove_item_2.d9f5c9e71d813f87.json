@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The signature gives quantity a default of 1, and the docstring says to subtract the quantity from the item, so removing \"apple\" once from 5 leaves 4, which is what the test expects.",
+  "missing": "none"
+}

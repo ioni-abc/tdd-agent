@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return None when the student has no course grades, and the test checks exactly that case: a student in the system with an empty courses dict returns None.",
+  "missing": "none"
+}

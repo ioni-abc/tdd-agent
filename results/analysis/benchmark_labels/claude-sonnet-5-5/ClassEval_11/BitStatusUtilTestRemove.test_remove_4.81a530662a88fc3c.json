@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Removing a status that is not present in the current status should leave it unchanged, and 8 has no bits in common with 6, so the expected result 8 follows from \"remove\"; the parameters 8 and 6 are also valid.",
+  "missing": "none"
+}

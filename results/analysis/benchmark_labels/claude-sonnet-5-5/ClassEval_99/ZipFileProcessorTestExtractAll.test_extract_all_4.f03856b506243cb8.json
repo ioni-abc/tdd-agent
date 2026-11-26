@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says all files in the zip are extracted to the given path and True is returned on success, and the test checks exactly this: a valid zip is extracted to a new directory, returns True, and the file exists there.",
+  "missing": "none"
+}

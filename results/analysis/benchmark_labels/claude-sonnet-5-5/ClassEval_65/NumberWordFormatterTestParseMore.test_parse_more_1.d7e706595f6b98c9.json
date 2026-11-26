@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows that index 1 maps to \"THOUSAND\" and never says what index 0 returns, so a programmer could not know it is an empty string.",
+  "missing": "The docstring should say that index 0 (no magnitude suffix) returns an empty string, and that indices 1, 2 and 3 return THOUSAND, MILLION and BILLION respectively."
+}

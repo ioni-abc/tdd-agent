@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert a binary string to its decimal integer, and the test's input '1010010110110111' maps to 42423 under standard base-2 conversion, which matches the docstring example.",
+  "missing": "none"
+}

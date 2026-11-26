@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is identical to the docstring's example (text \"ABAABA\", pattern \"ABC\", position 0, result 2). The only mismatch is at index 2, so a left-to-right scan and the reference's right-to-left scan both return 2.",
+  "missing": "none"
+}

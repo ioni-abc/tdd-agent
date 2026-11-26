@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say whether a box that reaches exactly its capacity after the addition counts as full, and the reference treats only exceeding capacity as full.",
+  "missing": "State that the box counts as full only when the occupied size plus the new email's size is strictly greater than the capacity, so an exact fit is not full."
+}

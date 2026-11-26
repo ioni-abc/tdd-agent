@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes the successful case, saying nothing about what get_path returns when the URL has no scheme or no path, so a programmer could return an empty string, raise an error, or return None.",
+  "missing": "The docstring should state what get_path returns when the URL contains no resource part (for example, no \"://\" separator or no \"/\" after the host), such as returning None."
+}

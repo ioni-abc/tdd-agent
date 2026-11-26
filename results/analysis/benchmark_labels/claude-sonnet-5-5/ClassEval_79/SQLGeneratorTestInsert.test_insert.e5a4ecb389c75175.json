@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows exactly the output format (INSERT INTO table (fields) VALUES ('v1', 'v2');) with comma-space separators, quoted values, and trailing semicolon, which the test matches.",
+  "missing": "none"
+}

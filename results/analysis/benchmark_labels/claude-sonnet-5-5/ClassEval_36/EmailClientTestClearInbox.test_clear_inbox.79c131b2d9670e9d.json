@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Deleting the oldest emails until the 50-capacity box has room for 30 removes the 10 and 20 emails (free space 5, then 15, then 35), leaving [{'size': 15}], which is what the test expects.",
+  "missing": "none"
+}

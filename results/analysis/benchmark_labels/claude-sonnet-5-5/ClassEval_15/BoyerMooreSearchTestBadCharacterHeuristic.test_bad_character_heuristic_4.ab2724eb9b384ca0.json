@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for all positions of the pattern in the text, and ABA occurs in ABACABA at exactly 0 and 4, matching the test.",
+  "missing": "none"
+}

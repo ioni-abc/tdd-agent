@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The queried slot lies fully inside an existing event, so the calendar is plainly not available and False follows from the docstring's meaning of availability.",
+  "missing": "none"
+}

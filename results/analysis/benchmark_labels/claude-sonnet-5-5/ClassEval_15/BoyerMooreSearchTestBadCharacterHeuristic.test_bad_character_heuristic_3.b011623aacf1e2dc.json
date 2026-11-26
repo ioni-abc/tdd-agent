@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says it finds all occurrences of the pattern, and does not say what happens for an empty pattern; the test expects an empty pattern to match at every index from 0 through the text length, inclusive (7 positions for a 6-character text).",
+  "missing": "The docstring should say how an empty pattern is handled: it matches at every position from 0 up to and including the text length, so the result lists all of those positions."
+}

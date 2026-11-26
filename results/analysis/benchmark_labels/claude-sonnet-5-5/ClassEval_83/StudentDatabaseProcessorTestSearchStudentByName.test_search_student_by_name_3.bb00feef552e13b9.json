@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test targets another method: it is named and asserts for search_student_by_name, and uses insert_student only as setup, so it does not really check insert_student's documented behaviour.",
+  "missing": "none"
+}

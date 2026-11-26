@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says it returns True whenever the employee exists, but the test passes an unknown key ('Name') for an existing employee and expects False, so the reference code rejects unknown keys.",
+  "missing": "none"
+}

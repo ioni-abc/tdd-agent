@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Mismatched test: it never calls clean_non_binary_chars, only constructs the object and checks that binary_string equals the input, so it does not exercise the documented method.",
+  "missing": "none"
+}

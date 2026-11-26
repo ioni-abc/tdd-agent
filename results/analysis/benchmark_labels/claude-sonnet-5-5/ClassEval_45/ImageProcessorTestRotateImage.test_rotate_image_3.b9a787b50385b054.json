@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the image is rotated by `degrees` and does not give the direction, but the test expects PIL's counter-clockwise convention (`rotate(270)` with default arguments), so a clockwise implementation would fail.",
+  "missing": "The docstring should state that positive degrees rotate the image counter-clockwise, keeping the original canvas size without expanding it."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows \"23\" converting to \"TWENTY THREE\", which is exactly what the test checks, so a programmer following it would pass.",
+  "missing": "none"
+}

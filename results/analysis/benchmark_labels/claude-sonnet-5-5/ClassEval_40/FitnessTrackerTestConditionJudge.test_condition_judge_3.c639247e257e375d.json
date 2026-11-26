@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A BMI of about 17.9 is too thin under any reasonable BMI standard, so the expected -1 follows from the docstring's \"too thin returns -1\" rule.",
+  "missing": "none"
+}

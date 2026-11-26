@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that required arguments are added to the required set (so non-required ones are not) and that each argument's name and type are stored in types, with defaults of required=False and arg_type=str, which is exactly what this test checks.",
+  "missing": "none"
+}

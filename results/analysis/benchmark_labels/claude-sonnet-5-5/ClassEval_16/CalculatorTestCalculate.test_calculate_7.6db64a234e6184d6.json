@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"if successful, returns the value; otherwise None\" without defining what counts as failure, so an empty expression could reasonably be treated as an error returning None, or as 0, or raise an exception.",
+  "missing": "The docstring should state that an empty (or whitespace-only) expression string, which contains no operands, returns None."
+}

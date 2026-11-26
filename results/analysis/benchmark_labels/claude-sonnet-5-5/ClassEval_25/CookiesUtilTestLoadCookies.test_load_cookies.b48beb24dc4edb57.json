@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method loads the cookies from the file and returns them as a dict, and its example uses a `.json` file and shows the same dict the test expects, so an implementation that reads the JSON file would pass.",
+  "missing": "none"
+}

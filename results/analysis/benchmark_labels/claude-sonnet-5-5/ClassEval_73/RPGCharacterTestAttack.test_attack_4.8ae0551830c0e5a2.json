@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Damage is attack power minus the defender's defense, as the docstring example shows (10-2=8), so two hits of 15 leave 70 hp.",
+  "missing": "none"
+}

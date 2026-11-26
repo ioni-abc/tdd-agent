@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to compute the minimum value in the data, and the test expects -3 from [0, -1, -3, 2], which is the minimum of that list.",
+  "missing": "none"
+}

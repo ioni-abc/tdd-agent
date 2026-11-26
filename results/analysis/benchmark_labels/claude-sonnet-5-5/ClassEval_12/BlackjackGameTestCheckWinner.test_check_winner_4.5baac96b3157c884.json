@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The player's hand totals 22 and the dealer's totals 23, so both are over 21. The docstring's \"otherwise, the lower hand value wins\" rule gives 'Player wins', which matches the test and the reference code.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Ordering exactly the available stock counts as adequate, so the docstring implies the order is created with status 'Shipped', which is what the test expects.",
+  "missing": "none"
+}

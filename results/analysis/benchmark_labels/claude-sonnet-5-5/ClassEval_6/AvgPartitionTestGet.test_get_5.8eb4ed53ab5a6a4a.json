@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring mentions a block size and a remainder but never says how the remainder is distributed, so a programmer cannot tell that the first blocks get one extra element each (5 items into 3 partitions gives [1,2], [3,4], [5]).",
+  "missing": "The docstring should say that when the list does not divide evenly, the remainder elements are spread one each across the first blocks, so earlier blocks are one element larger than later ones."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert the key string to camel case and gives 'first_name' -> 'firstName', so 'last_name' -> 'lastName' follows directly from the same rule.",
+  "missing": "none"
+}

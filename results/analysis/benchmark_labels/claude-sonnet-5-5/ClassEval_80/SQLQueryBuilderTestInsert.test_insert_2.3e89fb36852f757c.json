@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the same format (keys joined by \", \", all values quoted as strings, including integers), and this test follows that pattern exactly with different inputs.",
+  "missing": "none"
+}

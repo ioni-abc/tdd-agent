@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test checks a standard, fully-specified IPv6 address, which is the same as the first docstring example and returns True under any reasonable validity check.",
+  "missing": "none"
+}

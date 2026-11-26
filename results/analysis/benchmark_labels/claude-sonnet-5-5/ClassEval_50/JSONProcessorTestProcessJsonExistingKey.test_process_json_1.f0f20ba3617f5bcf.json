@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says process_json removes the specified key from the JSON file and writes the modified data back, and the test checks exactly that for an existing key.",
+  "missing": "none"
+}

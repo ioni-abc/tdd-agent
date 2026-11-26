@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows all values quoted as strings (including the integer 14 rendered as '14'), so a float 1.0 would follow the same pattern and become '1.0' via str formatting.",
+  "missing": "none"
+}

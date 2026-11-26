@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to remove all punctuation from the sentence, and the test's input (\"?\" and \"...\") yields exactly the string with those characters removed, with spaces left untouched, matching the docstring's example.",
+  "missing": "none"
+}

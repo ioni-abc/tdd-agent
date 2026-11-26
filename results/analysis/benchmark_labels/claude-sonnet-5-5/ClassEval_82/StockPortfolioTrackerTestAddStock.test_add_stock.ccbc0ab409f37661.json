@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test adds one stock to an empty portfolio and expects it to appear in the list, which is exactly what the docstring and its example show.",
+  "missing": "none"
+}

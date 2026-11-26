@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test reads columns by index, and the docstring lists the fields in the same order (ID, movie, theater, seat, customer), so following it yields a passing implementation.",
+  "missing": "none"
+}

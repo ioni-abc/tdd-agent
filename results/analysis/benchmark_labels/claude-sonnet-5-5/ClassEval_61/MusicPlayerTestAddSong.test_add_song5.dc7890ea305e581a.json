@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "\"Adds a song to the playlist\" with the example showing a single add naturally implies appending, so adding five songs yields them in insertion order, which a programmer would implement.",
+  "missing": "none"
+}

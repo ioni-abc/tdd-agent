@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says count computes permutations of m items chosen from n, so count(7, 3) = 7*6*5 = 210, which matches the test.",
+  "missing": "none"
+}

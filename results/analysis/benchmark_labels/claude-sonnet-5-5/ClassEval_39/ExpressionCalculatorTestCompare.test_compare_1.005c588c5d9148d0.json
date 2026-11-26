@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says compare returns True if the current operator has higher or equal precedence than the top of the stack, and \"+\" and \"-\" have equal precedence, so True is expected; the docstring example is the same call.",
+  "missing": "none"
+}

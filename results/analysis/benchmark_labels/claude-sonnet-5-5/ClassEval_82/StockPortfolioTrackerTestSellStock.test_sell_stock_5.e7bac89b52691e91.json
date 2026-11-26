@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says selling removes the stock from the portfolio and adds cash to the balance, returning True. Selling all 20 AAPL shares at 150 removes that entry and raises cash from 10000 to 13000, as the test expects.",
+  "missing": "none"
+}

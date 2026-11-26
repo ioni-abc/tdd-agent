@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes the number of combinations of m elements from n, and C(6,0) = 1 follows from the standard mathematical definition, so a programmer implementing it would return 1.",
+  "missing": "none"
+}

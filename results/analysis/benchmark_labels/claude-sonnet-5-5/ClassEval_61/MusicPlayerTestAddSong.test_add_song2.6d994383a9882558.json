@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says a song is added to the playlist, but not where a second song goes, so inserting at the front would also fit the docstring while this test expects appending at the end.",
+  "missing": "The docstring should say that new songs are appended to the end of the playlist, so earlier songs keep their order."
+}

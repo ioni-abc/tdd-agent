@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to compute the total cost of the cart items, and the example shows quantity times price summed; the test with two items (10*20 + 5*10 = 250.0) follows directly from this.",
+  "missing": "none"
+}

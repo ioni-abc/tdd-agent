@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says it returns False when unsuccessful but never says what makes the update fail, so a programmer could just add or overwrite an unknown currency and return None, failing this test.",
+  "missing": "The docstring should say that the update fails and returns False when the currency is not already in the rates dictionary, so unknown currencies are not added."
+}

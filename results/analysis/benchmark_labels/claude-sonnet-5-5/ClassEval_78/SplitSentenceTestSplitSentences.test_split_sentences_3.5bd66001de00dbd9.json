@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Only the \"? \" after \"A.B.C.\" is followed by a space, so splitting on . or ? followed by a space (excluding Mr.-style abbreviations) gives the expected result.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says that the book table is created if it does not exist, with no mention of the table name, column names, their order, or types, yet the test checks that the columns are exactly id, title, author, available in that order.",
+  "missing": "The docstring should specify the table name and its exact columns in order (an integer primary key id, text title, text author, and an integer availability flag), using these names."
+}

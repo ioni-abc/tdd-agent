@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert Celsius to Fahrenheit, and its example shows 27 giving 80.6, so any correct implementation returns something other than 23 and passes the assertNotEqual.",
+  "missing": "none"
+}

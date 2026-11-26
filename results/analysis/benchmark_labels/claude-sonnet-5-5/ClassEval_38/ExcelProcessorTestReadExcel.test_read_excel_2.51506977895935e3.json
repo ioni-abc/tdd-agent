@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says it returns a \"list of data\", but the test expects a list of tuples, one per row, as openpyxl's iter_rows(values_only=True) produces, and a programmer could return lists of lists and fail the equality check.",
+  "missing": "The docstring should say that the return value is a list with one tuple per row, covering all rows of the active sheet in order, including the header row."
+}

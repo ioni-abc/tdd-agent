@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With an empty playlist and no current song, there is no previous song, so the docstring's \"False if there was no previous song\" covers this case and a programmer would return False.",
+  "missing": "none"
+}

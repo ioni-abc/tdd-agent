@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says eating increases length by 1 and score by 100, so four calls give length 5 and score 400, matching the test (the doctest's \"score = 10\" is a typo but the prose is clear).",
+  "missing": "none"
+}

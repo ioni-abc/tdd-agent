@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows one inner list of words per input string, and a string consisting only of a stop word naturally gives an empty inner list, while 'This' is not a stop word and stays.",
+  "missing": "none"
+}

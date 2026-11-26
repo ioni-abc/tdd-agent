@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test expects standard cosine similarity values, which the function name and docstring example both indicate, so a normal implementation passes despite the loose \"distance\" wording.",
+  "missing": "none"
+}

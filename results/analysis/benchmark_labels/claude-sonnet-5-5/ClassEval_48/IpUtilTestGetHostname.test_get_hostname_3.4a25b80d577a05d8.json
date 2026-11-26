@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test expects the hostname returned from the reverse lookup, which matches the docstring's \"return the hostname associated with the IP address\", and the natural implementation uses socket.gethostbyaddr.",
+  "missing": "none"
+}

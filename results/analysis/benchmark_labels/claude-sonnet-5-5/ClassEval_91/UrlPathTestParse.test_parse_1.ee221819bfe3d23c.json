@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test asserts that with_end_tag becomes True for a path ending in '/', but the docstring only describes the segments list and never mentions this attribute or its behavior.",
+  "missing": "The docstring should say that parse sets a boolean flag recording whether the path ended with a trailing slash (True if it did), and name that attribute."
+}

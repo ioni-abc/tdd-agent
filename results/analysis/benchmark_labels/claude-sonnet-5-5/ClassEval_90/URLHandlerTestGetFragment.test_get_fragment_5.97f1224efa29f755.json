@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses a URL with a fragment after '#' and expects that fragment, which is exactly what the docstring describes and demonstrates.",
+  "missing": "none"
+}

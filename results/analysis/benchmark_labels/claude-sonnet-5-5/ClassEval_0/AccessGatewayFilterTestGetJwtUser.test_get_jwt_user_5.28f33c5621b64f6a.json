@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says None is returned if the token is \"valid, None otherwise\", without defining validity; the test expects a token dated 5 days ago to be rejected, and the 3-day expiry threshold is never mentioned.",
+  "missing": "The docstring should say that a JWT whose embedded date is at least a fixed number of days (three) before today is expired and yields None, and that the date follows the user name in the JWT string in YYYY-MM-DD format."
+}

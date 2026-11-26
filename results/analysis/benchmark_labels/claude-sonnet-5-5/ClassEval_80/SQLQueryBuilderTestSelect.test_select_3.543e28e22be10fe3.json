@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the format \"col1, col2 FROM table1 WHERE age='15'\", where values are quoted; a float 1.0 formatted as '1.0' follows naturally from the same string formatting.",
+  "missing": "none"
+}

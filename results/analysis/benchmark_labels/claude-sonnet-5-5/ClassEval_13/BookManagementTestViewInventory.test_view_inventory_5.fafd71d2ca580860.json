@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test mismatch: it is filed under view_inventory but never calls it, instead reading the inventory attribute after add_book/remove_book calls, so it really checks that remove_book deletes titles whose quantity reaches zero.",
+  "missing": "none"
+}

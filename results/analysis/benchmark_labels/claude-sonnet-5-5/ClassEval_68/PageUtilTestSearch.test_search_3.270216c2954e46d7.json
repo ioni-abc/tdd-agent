@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the keys keyword, total_results, total_pages and results, and a natural implementation gives the expected output here. Item 3 is the only match under either substring or equality matching, and one result at page size 3 gives one page.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method creates a deck of 52 cards, and the test only checks that the deck has length 52, which any implementation following the docstring would satisfy.",
+  "missing": "none"
+}

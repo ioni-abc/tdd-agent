@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example is identical to the test, showing that removing the icons at (0,0) and (1,0) replaces them with ' ' on the board, so a programmer following it would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the stock's value from price and quantity, and its example (150.0 * 10 = 1500.0) shows price times quantity, so 150.0 * 2 = 300.0 follows directly.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test depends on `create_student_table` only through `setUp`, and it needs a \"students\" table with columns in the order ID, name, age, gender, grade so that `result[0][1]` is the name. The docstring lists the fields in exactly that order, so a programmer following it would pass.",
+  "missing": "none"
+}

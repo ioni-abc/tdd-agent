@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the mode parameter accepts only 'heat' or 'cool', and the example shows set_mode('cool') setting the mode. The test sets the valid mode 'heat' and checks that it is stored, which a programmer would implement as written. The summary line \"Get the current work mode\" is a copy error, but the parameter description and the example make the intent clear.",
+  "missing": "none"
+}

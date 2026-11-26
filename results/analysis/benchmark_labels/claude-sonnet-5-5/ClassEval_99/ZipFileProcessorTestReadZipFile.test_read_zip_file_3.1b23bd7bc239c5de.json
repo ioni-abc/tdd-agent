@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a successful call returns the open file object, and a ZipFile opened read-only on the given path satisfies the filename and mode checks.",
+  "missing": "none"
+}

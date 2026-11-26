@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Each string is split into words and only the exact words 'a', 'an', 'the' are removed; 'aa' is not a stop word, so the output keeps all words in per-string lists as the docstring example implies.",
+  "missing": "none"
+}

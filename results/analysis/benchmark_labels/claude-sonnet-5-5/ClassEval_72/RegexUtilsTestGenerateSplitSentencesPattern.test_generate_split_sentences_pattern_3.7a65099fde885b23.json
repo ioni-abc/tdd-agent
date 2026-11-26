@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest gives the exact pattern string `[.!?][\\s]{1,2}(?=[A-Z])`, so returning it yields a pattern that requires an uppercase letter after the whitespace and therefore does not match `'? '`.",
+  "missing": "none"
+}

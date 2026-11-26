@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for Cohen's kappa of a k\u00d7k matrix, which is a standard formula, and applying it to this matrix gives about 0.1947, matching the test's expected value.",
+  "missing": "none"
+}

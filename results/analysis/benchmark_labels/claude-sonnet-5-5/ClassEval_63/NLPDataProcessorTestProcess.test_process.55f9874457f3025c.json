@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "Six words tie at frequency 2 and only five can be kept, so the expected result depends on a tie-breaking rule the docstring never gives (the reference keeps first-occurrence order).",
+  "missing": "When several words have equal frequency, order them by their first appearance in the text, and keep the first five of that order."
+}

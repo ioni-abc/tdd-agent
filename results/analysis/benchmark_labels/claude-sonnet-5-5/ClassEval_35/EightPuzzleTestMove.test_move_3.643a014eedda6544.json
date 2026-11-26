@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the blank swapping with its left neighbor for 'left', which is exactly what this test checks from a center position.",
+  "missing": "none"
+}

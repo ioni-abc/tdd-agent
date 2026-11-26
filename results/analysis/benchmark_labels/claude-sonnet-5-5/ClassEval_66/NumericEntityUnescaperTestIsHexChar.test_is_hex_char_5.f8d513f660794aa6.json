@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "'Z' is not a hexadecimal digit, so a programmer following the docstring would return False, which matches the test and the reference code.",
+  "missing": "none"
+}

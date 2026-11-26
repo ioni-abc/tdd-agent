@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test only asserts that the song is removed from the playlist, which is exactly what the docstring says; the stop-on-current-song side effect is not asserted.",
+  "missing": "none"
+}

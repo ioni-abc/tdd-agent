@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what happens when a currency code is unsupported, but the test expects a falsy return (the reference returns False), which a programmer could not guess; raising an exception or returning None are equally plausible.",
+  "missing": "The docstring should say that when either the source or target currency is not among the supported currencies, the method returns False."
+}

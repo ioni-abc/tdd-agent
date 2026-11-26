@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test finds a single direct-child 'item' element and expects a one-element list with its text, which follows directly from \"finds the XML elements with the specified name\" returning a list.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example deletes a key and shows it is no longer in the map, which matches this test exactly, with only the stored value differing.",
+  "missing": "none"
+}

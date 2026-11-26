@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the current date as \"%Y-%m-%d\", and an implementation using the current time gives the same string as the test's `timeutils.datetime.strftime(\"%Y-%m-%d\")`, barring a midnight rollover between the two calls.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With no matching items, the natural implementation returns the keyword, 0 results, 0 pages (ceil of 0 divided by page size), and an empty list, which matches the test.",
+  "missing": "none"
+}

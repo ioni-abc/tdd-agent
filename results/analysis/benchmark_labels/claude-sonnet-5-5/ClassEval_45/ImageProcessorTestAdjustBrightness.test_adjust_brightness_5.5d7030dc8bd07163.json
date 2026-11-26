@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes brightness scaling with 0.0 as black and 1.0 as the original, so a standard implementation (ImageEnhance.Brightness) passes, and a white image stays white at 1.5 anyway.",
+  "missing": "none"
+}

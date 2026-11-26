@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what kurtosis returns for constant data, where the standard deviation is zero, and the test expects NaN, which a programmer could not infer (they might raise ZeroDivisionError or return 0).",
+  "missing": "The docstring should say that when all data values are identical (zero variance), the kurtosis is undefined and the method returns NaN rather than raising an error or returning a number."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The playlist is non-empty but current_song is unset (None), and the docstring says to return False when there is no current song, which matches the test's expected False.",
+  "missing": "none"
+}

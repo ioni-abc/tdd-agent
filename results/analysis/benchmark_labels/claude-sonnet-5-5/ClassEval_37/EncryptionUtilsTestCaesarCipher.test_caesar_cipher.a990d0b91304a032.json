@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test checks \"abc\" shifted by 1 gives \"bcd\", which is exactly the docstring's example and the basic Caesar cipher behaviour, so any reasonable implementation passes.",
+  "missing": "none"
+}

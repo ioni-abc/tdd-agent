@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says show('receive') returns the corresponding struct, which is the dict stored by recv, and that is what the test asserts.",
+  "missing": "none"
+}

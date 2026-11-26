@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says due() returns the total after applying the discount, and the test checks exactly that: 250 minus the fidelity discount, consistent with the docstring's example.",
+  "missing": "none"
+}

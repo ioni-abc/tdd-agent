@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test starts from level 3 and expects level 4, experience 0, hp up by 20, and attack and defense up by 5. The docstring states each of these, and the level cap of 100 is not reached.",
+  "missing": "none"
+}

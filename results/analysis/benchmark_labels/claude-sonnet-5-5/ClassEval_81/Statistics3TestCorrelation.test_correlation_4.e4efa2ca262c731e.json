@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says it computes the correlation, so for constant lists (zero variance, undefined correlation) a programmer could raise ZeroDivisionError, return nan, or return 0, while the test expects None.",
+  "missing": "The docstring should say that when either list has zero variance (so the correlation is undefined), the method returns None."
+}

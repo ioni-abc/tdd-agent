@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test builds a root with two direct `item` children and expects `find_element('item')` to return both in document order, which matches the docstring's \"finds the XML elements with the specified name\" and its example listing apple and banana.",
+  "missing": "none"
+}

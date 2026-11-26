@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives only one valid example (\"123-456-7890\") and never defines what a valid phone number is, so a programmer would not know that a letter in the first position must make it invalid, or what format is required.",
+  "missing": "The docstring should define the valid phone number format (three digits, a hyphen, three digits, a hyphen, four digits) and say that any string with non-digit characters in the digit positions or a different layout is invalid."
+}

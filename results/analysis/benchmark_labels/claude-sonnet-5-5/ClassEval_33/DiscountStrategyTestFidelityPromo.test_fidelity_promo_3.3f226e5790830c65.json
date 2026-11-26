@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses a customer with 0 fidelity points, which is below the \"over 1000\" threshold, so the docstring implies no discount (0), matching the expected value.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "view_book_quantity just returns the stored quantity for an existing title, which the docstring states; the expected 1 follows from remove_book's subtraction.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The formula is written without parentheses, but the intent is log((total_num+1)/(count+1)), and the doctest example, which matches the test, confirms this natural-log formula.",
+  "missing": "none"
+}

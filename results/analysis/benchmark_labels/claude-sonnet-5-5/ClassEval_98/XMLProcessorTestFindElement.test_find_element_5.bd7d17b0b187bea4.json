@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to find elements with the given name and return them as a list; the test has three direct 'item' children and checks that all three are returned in document order, which a natural implementation does.",
+  "missing": "none"
+}

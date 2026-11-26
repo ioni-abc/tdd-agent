@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects True for a phrase containing the filler word \"and\", but the docstring only says the words must be \"words representing numbers\" and never says connector words like \"and\" are accepted.",
+  "missing": "The docstring should say which non-numeric connector words (such as \"and\") count as valid, and that hyphens are treated as spaces."
+}

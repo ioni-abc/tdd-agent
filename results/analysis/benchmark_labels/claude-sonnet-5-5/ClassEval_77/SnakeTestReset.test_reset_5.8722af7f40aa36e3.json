@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says reset sets length to 1, the head position to (SCREEN_WIDTH/2, SCREEN_HEIGHT/2), and score to 0, which for a 100x100 screen gives (50, 50) as the test expects (50.0 equals 50 in Python).",
+  "missing": "none"
+}

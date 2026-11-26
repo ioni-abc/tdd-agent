@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only specifies the True/False return value, but the test also checks that `employees` is a dict keyed by employee id, with each value a dict holding the name, position, department and salary fields.",
+  "missing": "The docstring should say that employees are stored in the `employees` attribute, a dict keyed by employee id, where each value is a dict with the keys 'name', 'position', 'department' and 'salary'."
+}

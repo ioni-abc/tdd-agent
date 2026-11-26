@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows exactly the expected output for age 30, \"SELECT * FROM table1 WHERE age < 30 AND gender = 'female';\", which matches the test and the reference code.",
+  "missing": "none"
+}

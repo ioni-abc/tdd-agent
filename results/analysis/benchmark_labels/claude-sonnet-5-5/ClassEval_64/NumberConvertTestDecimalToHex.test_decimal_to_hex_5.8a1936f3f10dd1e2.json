@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows lowercase hex without a '0x' prefix for a positive integer, and this test (339639 -> '52eb7') follows the same convention, so a programmer following the example would pass.",
+  "missing": "none"
+}

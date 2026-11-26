@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The input contains non-hex characters ('llll') in a group, so any reasonable IPv6 validity check, including the one the docstring asks for, returns False.",
+  "missing": "none"
+}

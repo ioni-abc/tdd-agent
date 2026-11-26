@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says requests are filtered by \"certain rules and conditions\", so nothing tells a programmer that a path like `/api/data` is allowed without any token, which the reference does through its prefix check.",
+  "missing": "The docstring should list which path prefixes are always allowed without authentication, and say that other paths need a valid JWT whose user level is above a given threshold."
+}

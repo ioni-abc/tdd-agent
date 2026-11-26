@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Damage is attack power minus defense (20-5=15 per hit), and three hits take hp from 100 to 55, which follows from the docstring's \"offset the defense value\" and its example.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the board is n*n and '-' marks unknown positions, so a 4x4 grid of '-' is exactly what a programmer would produce for n=4.",
+  "missing": "none"
+}

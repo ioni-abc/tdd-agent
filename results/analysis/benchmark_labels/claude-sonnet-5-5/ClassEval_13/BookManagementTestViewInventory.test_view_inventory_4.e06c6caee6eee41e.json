@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test/method mismatch: the test never calls view_inventory but reads the `inventory` attribute directly, and it actually exercises add_book's default quantity and remove_book's deletion of a key when its count reaches zero.",
+  "missing": "none"
+}

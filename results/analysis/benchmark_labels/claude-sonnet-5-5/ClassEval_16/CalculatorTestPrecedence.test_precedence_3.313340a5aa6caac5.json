@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says '/' and '*' have higher priority than '+' and '-', so precedence('+') and precedence('/') must differ, which is all the test asserts.",
+  "missing": "none"
+}

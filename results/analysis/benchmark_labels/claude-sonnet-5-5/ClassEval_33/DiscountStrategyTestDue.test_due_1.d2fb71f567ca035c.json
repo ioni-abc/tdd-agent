@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test creates the order without any promotion, but the docstring only shows a promotion case and never says what due() returns when no promotion is set.",
+  "missing": "The docstring should say that when no promotion is configured, no discount applies and due() returns the full cart total."
+}

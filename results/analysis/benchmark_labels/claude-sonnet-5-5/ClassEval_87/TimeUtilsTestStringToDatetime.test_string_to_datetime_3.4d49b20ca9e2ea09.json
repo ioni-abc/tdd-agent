@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only gives one example and never states the input format, such as \"%Y-%m-%d %H:%M:%S\" with non-zero-padded fields, so a programmer has to infer the format from that single example.",
+  "missing": "The docstring should state the exact input string format (year-month-day hour:minute:second, separated by dashes, a space and colons), and that fields without zero padding are accepted."
+}

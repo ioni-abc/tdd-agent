@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example adds two users and expects both in the not-signed-in list in insertion order, which is exactly what this test checks.",
+  "missing": "none"
+}

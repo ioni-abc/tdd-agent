@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses the same input and output as the docstring example, converting 8-bit groups of a binary string to ASCII characters, which the docstring's description and example specify.",
+  "missing": "none"
+}

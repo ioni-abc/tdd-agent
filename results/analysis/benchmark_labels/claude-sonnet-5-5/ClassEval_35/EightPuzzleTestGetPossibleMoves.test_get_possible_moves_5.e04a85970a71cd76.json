@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the directions are those in which the blank (0) can move without leaving the 3x3 grid, and for the test's blank at row 1, column 0 that gives up, down and right. The test only checks that each returned direction is in that set, so it does not depend on order.",
+  "missing": "none"
+}

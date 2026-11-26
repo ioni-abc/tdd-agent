@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives the BMR formulas and the multipliers 1.2, 1.6 and 1.4 for fat, thin and normal. It never says how \"too fat\", \"too thin\" or \"normal\" is decided, and this test (female, 80 kg, 1.72 m) needs the fat multiplier, which depends on that undefined rule.",
+  "missing": "The docstring should say how the condition is determined: compute BMI as weight divided by height squared, and compare it to sex-specific lower and upper thresholds (give the actual numbers), where above the upper means too fat and below the lower means too thin."
+}

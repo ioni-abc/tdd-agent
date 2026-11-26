@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the median of a list, and for an odd-length list the median is the middle element (4 here), which any standard implementation returns.",
+  "missing": "none"
+}

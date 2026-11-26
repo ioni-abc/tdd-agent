@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (\"2 + 3 * 4\" becomes \"2+3*4\") shows that whitespace is removed, and the test applies the same behaviour to \"2 + 3 / 4\", where no special handling such as unary minus is involved.",
+  "missing": "none"
+}

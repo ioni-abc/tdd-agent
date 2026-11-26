@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to compute the circle's area from self.radius and shows 12.566... for radius 2, which matches pi*r^2, and the test accepts that value within a 0.01 tolerance.",
+  "missing": "none"
+}

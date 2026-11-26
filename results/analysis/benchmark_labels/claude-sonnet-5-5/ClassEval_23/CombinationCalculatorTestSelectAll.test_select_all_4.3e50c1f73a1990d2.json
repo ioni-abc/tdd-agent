@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows combinations of sizes 1 through n with no empty combination, so for an empty list the natural result is an empty list, which matches the test.",
+  "missing": "none"
+}

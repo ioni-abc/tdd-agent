@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that the letters become Chord and the digits become Tune, and a single segment \"Em43231323\" splits into 'Em' and '43231323' under that rule, so the test is covered.",
+  "missing": "none"
+}

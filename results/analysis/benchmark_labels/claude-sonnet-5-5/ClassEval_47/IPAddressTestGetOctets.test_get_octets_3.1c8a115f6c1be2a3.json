@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A negative octet makes the address invalid under the standard IPv4 notion, so the docstring's \"otherwise, an empty list is returned\" applies.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test uses exact float equality on a value whose last digits depend on the specific order of floating-point operations, which the docstring does not specify, so a mathematically correct Pearson implementation could return a slightly different float.",
+  "missing": "The docstring should specify the exact computation (deviations from the means, the sum of their products divided by the product of the two separately computed square roots of the sums of squared deviations) or say that results are compared only approximately."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The player map still has unrevealed '-' cells on non-mine squares, so the game is not won, and any reasonable reading of the docstring returns False here.",
+  "missing": "none"
+}

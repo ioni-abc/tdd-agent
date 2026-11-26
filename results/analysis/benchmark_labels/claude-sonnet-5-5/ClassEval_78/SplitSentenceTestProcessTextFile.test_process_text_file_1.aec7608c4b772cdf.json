@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the number of words in the longest sentence, and the example input gives 4 (the sentence \"cccc ccccccc cc ccc\" has 4 words), which a programmer would naturally compute.",
+  "missing": "none"
+}

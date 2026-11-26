@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test calls check_in for a room type that exists in booked_rooms but where the named guest has no booking, and expects a falsy result with no state change; the docstring only lists \"type not in booked_rooms\" or \"number too high\" as False cases, so this case is not covered (the reference quietly returns None).",
+  "missing": "The docstring should say what check_in does when the room type has bookings but the given person has none under it: it should leave booked_rooms unchanged and return False (or otherwise not raise an error)."
+}

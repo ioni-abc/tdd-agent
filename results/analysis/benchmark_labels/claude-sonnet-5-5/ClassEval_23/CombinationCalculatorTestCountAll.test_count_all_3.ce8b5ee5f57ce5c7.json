@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says results above 2^63-1 return float(\"inf\"), so n=65 should give inf, but the test and reference code expect False.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the blank moving left when given 'left', and this test has the blank moving up for 'up', swapping with the tile above it, which is consistent with that example.",
+  "missing": "none"
+}

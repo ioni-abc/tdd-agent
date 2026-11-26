@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test's outcome depends on `remove_item` with a removal quantity larger than the stock, and the expected 8.0 cannot be derived from the `total_price` docstring (quantity \u00d7 price summed gives 11 before removal and nothing reaches 8).",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses the docstring's own example, and Fleiss' kappa is a standard, well-defined statistic, so a programmer following the docstring would compute the expected value.",
+  "missing": "none"
+}

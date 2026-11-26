@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "After cleaning, six words each occur twice, so which five survive the top-5 cut depends on how ties are broken, and the docstring never specifies that; the test expects the first five in order of first appearance, which a stable sort gives.",
+  "missing": "The docstring should say that words with equal frequency keep the order in which they first appeared in the input (a stable sort), so that ties at the top-5 cutoff are resolved by first occurrence."
+}

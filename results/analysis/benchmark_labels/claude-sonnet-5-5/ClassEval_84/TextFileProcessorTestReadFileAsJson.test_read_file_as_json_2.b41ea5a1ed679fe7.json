@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the file is read as JSON and returns str/int/float etc. according to the file content, so file content '12345' yields the int 12345, which a standard json.load implementation would return.",
+  "missing": "none"
+}

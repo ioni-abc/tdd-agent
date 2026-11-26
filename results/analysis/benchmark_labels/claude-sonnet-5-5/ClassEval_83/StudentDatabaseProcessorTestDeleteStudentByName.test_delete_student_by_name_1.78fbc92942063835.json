@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Method mismatch: the test is named test_delete_student_by_name_1 and exercises delete_student_by_name, not search_student_by_name, which is the method the docstring describes, so the test does not check the documented search behaviour.",
+  "missing": "none"
+}

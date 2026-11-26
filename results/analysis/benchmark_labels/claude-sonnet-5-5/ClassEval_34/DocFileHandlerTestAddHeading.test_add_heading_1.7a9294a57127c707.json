@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method adds a heading with the given text to the Word document, and the test checks that a heading paragraph with that text appears in the saved file.",
+  "missing": "none"
+}

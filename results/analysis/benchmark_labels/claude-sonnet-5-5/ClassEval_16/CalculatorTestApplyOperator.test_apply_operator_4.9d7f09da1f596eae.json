@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test relies on '^' meaning exponentiation (2^3=8), but this docstring never says what '^' does, and a Python programmer could read it as bitwise XOR, giving 1.",
+  "missing": "The docstring should say which operation each operator symbol performs, in particular that '^' means raising the left operand to the power of the right operand."
+}

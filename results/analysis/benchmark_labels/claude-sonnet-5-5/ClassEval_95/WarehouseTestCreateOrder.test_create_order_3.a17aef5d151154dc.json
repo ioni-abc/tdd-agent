@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Ordering exactly the available quantity is adequate stock, so the docstring implies the order is stored with status 'Shipped' in the same format as its example.",
+  "missing": "none"
+}

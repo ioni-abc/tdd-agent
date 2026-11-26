@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With a single paragraph, the document's content is simply that paragraph's text, so any implementation that reads the document and returns its text returns the expected string.",
+  "missing": "none"
+}

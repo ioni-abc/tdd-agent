@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what happens when the student name is not in self.students, and the test expects the call to be silently ignored, leaving other students unchanged.",
+  "missing": "The docstring should say that if the named student does not exist, the call does nothing: no error is raised and no student or course is added or changed."
+}

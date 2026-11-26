@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The annulus area is pi*(outer\u00b2 - inner\u00b2), which the docstring's description and example imply; for inner 1 and outer 3 that gives 8\u03c0 \u2248 25.13, matching the test. The constructor's radius argument is irrelevant to this method.",
+  "missing": "none"
+}

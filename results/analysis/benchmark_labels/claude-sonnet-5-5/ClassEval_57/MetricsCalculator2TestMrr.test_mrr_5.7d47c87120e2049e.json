@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines MRR as the mean reciprocal rank, and its examples (first correct at rank 1 gives 1.0, at rank 2 gives 0.5, mean 0.75) match this test's expected values.",
+  "missing": "none"
+}

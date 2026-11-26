@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes counting permutations of m items chosen from n and gives the example count(5, 3) = 60, which is exactly what the test checks.",
+  "missing": "none"
+}

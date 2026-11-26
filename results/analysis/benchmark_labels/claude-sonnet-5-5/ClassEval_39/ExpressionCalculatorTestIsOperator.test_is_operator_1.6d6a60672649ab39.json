@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring lists '+' among the operators and shows an example returning True for it, which is exactly what the test checks.",
+  "missing": "none"
+}

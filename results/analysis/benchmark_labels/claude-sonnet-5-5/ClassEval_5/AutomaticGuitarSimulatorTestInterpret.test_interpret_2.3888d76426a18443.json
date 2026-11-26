@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows a chord letter followed by numeric tune being split into 'Chord' and 'Tune', and this single-segment input follows the same pattern, so a programmer would produce the expected output.",
+  "missing": "none"
+}

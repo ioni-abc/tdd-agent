@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The BFS description starts from the initial state and stops when the goal is reached, and the return type is a list, so an already-solved puzzle naturally yields an empty path list.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring calls the input a \"postfix expression\", but the test (and its own example) passes an infix expression, \"2 + 3 * 4\", and the reference code first converts it from infix to postfix, so the prose and the expected behaviour disagree.",
+  "missing": "The docstring should say the input is an infix expression with standard operator precedence, which is converted to postfix internally, rather than saying it is already postfix."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says whether adding an identical event a second time appends a duplicate or is ignored, and the test expects both copies to be kept.",
+  "missing": "The docstring should say that every added event is appended to the events list, even if an identical event is already present (duplicates are not rejected)."
+}

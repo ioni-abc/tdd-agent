@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test matches the docstring example exactly (one hour apart gives 60 minutes), so any reasonable implementation of \"minutes between two times\" would return 60.",
+  "missing": "none"
+}

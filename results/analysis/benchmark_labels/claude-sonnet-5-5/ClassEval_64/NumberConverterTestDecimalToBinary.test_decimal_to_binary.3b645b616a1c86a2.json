@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the binary representation of an integer, and its example (42423 -> '1010010110110111') is exactly the case the test checks, so a programmer would pass.",
+  "missing": "none"
+}

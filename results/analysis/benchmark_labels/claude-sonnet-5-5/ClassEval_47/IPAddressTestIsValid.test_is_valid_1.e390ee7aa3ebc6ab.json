@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "\"10.10.10.10\" is four decimal numbers separated by dots, each between 0 and 255, and the docstring's own example shows it returns True.",
+  "missing": "none"
+}

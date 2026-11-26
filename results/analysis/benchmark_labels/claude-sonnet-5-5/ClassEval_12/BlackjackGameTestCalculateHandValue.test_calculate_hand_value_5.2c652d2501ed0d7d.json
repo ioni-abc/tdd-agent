@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule of downgrading Aces one at a time until the total is at most 21 or all are 1 gives 10+10+1+1+1=23, which matches the test.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method computes the factorial of a number, and 5! = 120 follows directly from that definition, as the doctest for 4 shows.",
+  "missing": "none"
+}

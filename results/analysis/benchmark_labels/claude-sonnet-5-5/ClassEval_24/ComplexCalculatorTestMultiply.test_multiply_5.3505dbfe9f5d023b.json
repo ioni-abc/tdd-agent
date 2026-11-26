@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test expects the ordinary complex product (3-4j), which is exactly what \"multiplies two complex numbers\" means.",
+  "missing": "none"
+}

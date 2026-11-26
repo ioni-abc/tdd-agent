@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to compute the sine of an angle in degrees, and sin(90) = 1.0 follows directly, with a standard implementation returning exactly 1.0.",
+  "missing": "none"
+}

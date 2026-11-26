@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the current date as \"%Y-%m-%d\", and the test compares the result with the instance's datetime formatted that way, so any implementation that returns the current date in that format passes.",
+  "missing": "none"
+}

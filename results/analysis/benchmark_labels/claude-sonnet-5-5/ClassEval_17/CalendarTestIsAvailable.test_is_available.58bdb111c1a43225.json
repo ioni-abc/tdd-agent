@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses the identical time slot as the existing event, which the docstring's own example shows returns False, and any sensible reading of \"available\" gives False for a fully overlapping slot.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that preparing \"2+3*4\" gives postfix_stack = ['2', '3', '4', '*', '+'], which is exactly what the test checks, and standard infix-to-postfix precedence yields it.",
+  "missing": "none"
+}

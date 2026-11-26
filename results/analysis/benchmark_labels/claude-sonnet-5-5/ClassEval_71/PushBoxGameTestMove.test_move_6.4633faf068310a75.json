@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring defines only 'w','s','a','d' and never says what happens with any other direction input, whereas the test expects an invalid key to be ignored without error and without ending the game.",
+  "missing": "The docstring should say that an unrecognised direction character is ignored, leaving the player, boxes and game state unchanged, with no error raised."
+}

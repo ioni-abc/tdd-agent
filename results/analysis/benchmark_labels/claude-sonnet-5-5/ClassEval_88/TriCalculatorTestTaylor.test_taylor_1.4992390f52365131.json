@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to compute the n-order Taylor expansion of cos(x/180*pi), and for x=60 and n=50 this converges to 0.5, which the test checks with assertAlmostEqual; with 50 terms, any reasonable interpretation (n terms or n+1 terms) gives approximately 0.5.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "`show(\"send\")` is documented to return the send struct, and the test checks that it returns the struct that `send` stored, which is what the docstring describes.",
+  "missing": "none"
+}

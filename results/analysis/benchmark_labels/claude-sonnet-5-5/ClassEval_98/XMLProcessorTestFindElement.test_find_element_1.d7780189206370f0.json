@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return all elements with the given name, and its example shows three `item` elements under the root. Both `findall` and `iter` return those three elements in document order, so any reasonable implementation passes.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the default quantity is 1, so adding an item with no quantity gives a quantity of 1, and the example shows the dict structure that the test expects.",
+  "missing": "none"
+}

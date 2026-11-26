@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows exactly the list ['USD','EUR','GBP','JPY','CAD','AUD','CNY'] in that order, which matches what the test asserts.",
+  "missing": "none"
+}

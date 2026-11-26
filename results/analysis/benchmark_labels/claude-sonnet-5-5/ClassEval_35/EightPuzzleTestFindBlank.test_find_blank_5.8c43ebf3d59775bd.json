@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test passes a state with no 0 element and expects None, but the docstring only describes the case where a blank exists, so a programmer could raise an error or return another sentinel value.",
+  "missing": "The docstring should say what is returned when the state contains no blank (0) element, for example that the method returns None."
+}

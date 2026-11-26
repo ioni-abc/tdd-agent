@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what happens when the info dict is malformed (e.g. missing \"content\"), but the test expects -1 and an unchanged empty receive_struct.",
+  "missing": "The docstring should say that if the input is not a dict or lacks the \"addr\" or \"content\" key, the method returns -1 and stores nothing."
+}

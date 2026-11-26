@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say what is correlated; the test expects 1.0 for non-monotonic data, which only holds if the data is correlated with itself (np.corrcoef on 1-D data), whereas other readings, such as correlation with the index, would give a different value.",
+  "missing": "The docstring should say that the correlation is computed with numpy's corrcoef on the stored data as a whole (so a single 1-D list yields 1.0, its correlation with itself), and not between the values and their positions or between successive elements."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that if the sender or receiver is not in the Chat, it returns False; 'Amy' is in neither, so False is expected, and a programmer would naturally leave users unchanged when refusing to send.",
+  "missing": "none"
+}

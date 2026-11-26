@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is identical to the docstring's example, which fixes the expected output of 2 for these inputs, so an implementer following it would pass.",
+  "missing": "none"
+}

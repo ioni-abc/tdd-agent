@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test queries the exact date of the sole event (both at midnight) and expects it back, which matches \"get all events on a given date\" under any reasonable implementation.",
+  "missing": "none"
+}

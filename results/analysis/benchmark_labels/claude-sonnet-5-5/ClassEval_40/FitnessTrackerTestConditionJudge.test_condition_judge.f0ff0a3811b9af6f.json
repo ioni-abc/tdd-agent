@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring refers to \"the BMI standard\" without giving the BMI formula or the sex-specific normal ranges, so a programmer cannot tell that a female with BMI about 13.9 counts as too thin.",
+  "missing": "The docstring should give the BMI formula (weight divided by height squared) and the normal BMI range for each sex, and say that a BMI below the lower bound returns -1 and above the upper bound returns 1."
+}

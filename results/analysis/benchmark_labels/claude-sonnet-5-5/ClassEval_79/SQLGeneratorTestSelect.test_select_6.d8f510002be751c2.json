@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the \"SELECT fields FROM table WHERE cond;\" format, and with no condition the WHERE clause is naturally omitted, giving \"SELECT field1 FROM table1;\".",
+  "missing": "none"
+}

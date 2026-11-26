@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses a plain expression with correctly matched and ordered bracket pairs of all three types, and any reasonable implementation of \"balanced brackets\" returns True, as the docstring says.",
+  "missing": "none"
+}

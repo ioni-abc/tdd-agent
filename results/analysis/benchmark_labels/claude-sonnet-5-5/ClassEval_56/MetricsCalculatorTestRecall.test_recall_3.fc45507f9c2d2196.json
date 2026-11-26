@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Recall is a standard metric (TP / (TP + FN)), and for predicted [1,1,0,1] against true [1,0,0,1] there are 2 true positives and 0 false negatives, so 1.0 follows directly from the definition and matches the docstring example's convention.",
+  "missing": "none"
+}

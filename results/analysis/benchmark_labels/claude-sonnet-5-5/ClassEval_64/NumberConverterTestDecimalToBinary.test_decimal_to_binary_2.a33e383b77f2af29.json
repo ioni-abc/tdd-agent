@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the binary string of an integer and its example shows the plain format without a prefix, which matches this test's expected value for a positive integer.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the mean is accurate to two digits after the decimal separator, so 33/7 = 4.714... rounds to 4.71, which is what the test expects.",
+  "missing": "none"
+}

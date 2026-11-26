@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says 'd' moves the player right, so the player goes from column 1 to column 2 in the same row, and the game is not won, which matches the return value False in the examples.",
+  "missing": "none"
+}

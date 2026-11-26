@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Wrong-method target: the test is `test_insert_ticket_3`, which exercises `insert_ticket` and `search_tickets_by_customer` and only relies on `create_table` through the constructor, so it is not a test of `create_table` itself.",
+  "missing": "none"
+}

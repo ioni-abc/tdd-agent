@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the deck holds 52 cards in random order, with Jokers removed and the format 'AS', '2S', and so on. A programmer would therefore include every rank 'A' and '2' to '9' in each of the four suits S, C, D and H, which is what the test checks. The test reads the deck from the constructor rather than calling create_deck directly, but the constructor presumably builds the deck with create_deck, so this is not a real inconsistency.",
+  "missing": "none"
+}

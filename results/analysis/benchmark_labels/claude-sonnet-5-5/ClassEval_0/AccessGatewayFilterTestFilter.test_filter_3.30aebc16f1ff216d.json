@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says requests are filtered \"based on certain rules and conditions\" and gives a '/login' example, so it never says that paths merely starting with a prefix such as '/login' are allowed without a token.",
+  "missing": "The docstring should say that requests whose path begins with any of the allowed prefixes (such as the login path) are allowed without authentication, and that other requests need a valid JWT whose user level is above a threshold."
+}

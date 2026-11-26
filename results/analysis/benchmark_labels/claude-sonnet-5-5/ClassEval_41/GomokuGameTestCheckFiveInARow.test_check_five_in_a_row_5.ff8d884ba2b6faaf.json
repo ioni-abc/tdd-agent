@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "From (5,5) going down the column the next cell is empty, so there are not five consecutive same-player symbols and False follows directly from the docstring.",
+  "missing": "none"
+}

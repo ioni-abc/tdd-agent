@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test follows the same path as the docstring example: with center 2 and diff 1, the left side hits the string boundary after two matching expansions, so the result is 2, and the right-hand text beyond the palindrome does not change this.",
+  "missing": "none"
+}

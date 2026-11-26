@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives the value range of 1 to 9 but never says how many cards to generate, while the test requires exactly four.",
+  "missing": "The docstring should say how many random cards are generated (a fixed count of four, stored in the nums list)."
+}

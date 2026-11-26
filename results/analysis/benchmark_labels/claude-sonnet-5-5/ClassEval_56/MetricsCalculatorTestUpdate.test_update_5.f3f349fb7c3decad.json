@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With the standard confusion-matrix meaning of the four counts, which the docstring example confirms, the pairs give TP=1, FP=1, FN=2, TN=0, as the test expects.",
+  "missing": "none"
+}

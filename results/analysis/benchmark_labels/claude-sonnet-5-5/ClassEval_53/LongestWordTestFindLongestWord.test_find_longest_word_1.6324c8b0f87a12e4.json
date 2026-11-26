@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "With word list ['a'], the sentence's words are I, am, a, student, so a case-sensitive implementation returns 'a', matching the test.",
+  "missing": "none"
+}

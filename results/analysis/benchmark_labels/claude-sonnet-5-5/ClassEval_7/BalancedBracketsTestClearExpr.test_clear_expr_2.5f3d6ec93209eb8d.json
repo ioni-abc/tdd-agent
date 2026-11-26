@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "\"Brackets\" naturally covers round and curly brackets, so removing everything else from \"a(b){c}\" gives \"(){}\" in original order.",
+  "missing": "none"
+}

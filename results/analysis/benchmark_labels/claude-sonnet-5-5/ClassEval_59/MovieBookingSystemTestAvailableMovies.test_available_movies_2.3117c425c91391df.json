@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "No movie falls in or overlaps the 23:00\u201323:59 window, so \"available movies within the time range\" yields an empty list under any reasonable interpretation of \"within\".",
+  "missing": "none"
+}

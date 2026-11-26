@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each dictionary becomes a row inserted into the table, and the test checks that two rows exist and that the first row's age is 16. The `result[0][2]` index depends on the table layout from `create_table`, not on how the insert method behaves, so an implementation that maps the dictionary keys to columns passes.",
+  "missing": "none"
+}

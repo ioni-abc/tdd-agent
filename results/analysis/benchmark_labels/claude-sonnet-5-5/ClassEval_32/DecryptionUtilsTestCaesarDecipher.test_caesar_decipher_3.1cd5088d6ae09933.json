@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A shift of 0 means decryption leaves the text unchanged, which follows directly from the Caesar cipher description, so any correct implementation returns 'bcd'.",
+  "missing": "none"
+}

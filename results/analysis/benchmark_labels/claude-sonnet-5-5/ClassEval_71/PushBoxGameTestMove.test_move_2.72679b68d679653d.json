@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test moves the player left into a wall and expects the position to stay unchanged, but the docstring never says that walls block movement.",
+  "missing": "The docstring should say that a move into a wall cell ('#') is ignored and the player stays in place, and that the game-over flag remains False unless the win condition is met."
+}

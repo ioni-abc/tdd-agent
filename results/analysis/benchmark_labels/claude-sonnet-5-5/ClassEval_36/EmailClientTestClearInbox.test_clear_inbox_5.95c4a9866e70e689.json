@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The receiver's capacity is 50 and the inbox holds 45, so only 5 is free and 10 is needed; deleting the oldest email (size 10) frees enough space and leaves [20, 15], which is what the docstring describes and the test expects.",
+  "missing": "none"
+}

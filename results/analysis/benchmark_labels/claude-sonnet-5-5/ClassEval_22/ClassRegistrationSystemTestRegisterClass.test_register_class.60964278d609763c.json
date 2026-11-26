@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says register_class returns the list of class names the student has registered, so registering \"CS101\" for a new student \"John\" should return [\"CS101\"], which is what the test checks.",
+  "missing": "none"
+}

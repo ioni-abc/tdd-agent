@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what to return when no hostname can be resolved (the second example shows no output), but the test expects None, which comes from the reference code catching socket.herror.",
+  "missing": "The docstring should say that when the IP address has no resolvable hostname (a lookup error), the method returns None instead of raising an exception."
+}

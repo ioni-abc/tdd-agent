@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test converts an ordinary binary string to its integer value (0xA5D7 = 42455), which is exactly what the docstring describes.",
+  "missing": "none"
+}

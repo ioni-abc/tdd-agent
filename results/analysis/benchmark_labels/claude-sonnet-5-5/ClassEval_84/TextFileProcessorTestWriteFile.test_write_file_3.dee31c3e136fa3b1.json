@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to write the content into self.file_path and overwrite if it exists, and the test writes the string 'aaa' and reads back exactly that from the file.",
+  "missing": "none"
+}

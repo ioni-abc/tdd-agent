@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says how equal current and target temperatures relate to the modes, and the reference treats equality as a 'heat' case (returning False for 'cool') while leaving the mode unchanged.",
+  "missing": "State that when the current temperature equals the target temperature, the mode 'heat' counts as consistent and any other mode counts as a conflict (return False), with the mode then being reset by the automatic mode-setting rule."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects a leading and a trailing newline around the output, which comes from the reference's collapsing of repeated newlines into one without stripping, while the docstring's example output shows no surrounding newlines and says nothing about whitespace handling.",
+  "missing": "The docstring should say how line breaks and surrounding whitespace in the output are handled: runs of newlines collapse to a single newline, and leading and trailing newlines are kept rather than stripped."
+}

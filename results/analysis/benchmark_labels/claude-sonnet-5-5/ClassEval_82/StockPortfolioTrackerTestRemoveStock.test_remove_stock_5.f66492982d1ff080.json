@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Removing a stock from the portfolio and returning True, with the stock gone from the list, follows directly from the docstring's example and description, and this test only adds a second, unrelated stock that stays in place.",
+  "missing": "none"
+}

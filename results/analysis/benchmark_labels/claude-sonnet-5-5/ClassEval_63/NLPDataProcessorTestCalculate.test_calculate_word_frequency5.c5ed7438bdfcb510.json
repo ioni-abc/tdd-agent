@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "Three words ('this', 'is', 'a') tie at frequency 4 for the last two places in the top 5, and the docstring gives no tie-breaking rule, so the expected set depends on the reference's stable sort by first occurrence.",
+  "missing": "When several words have the same frequency, order them by first appearance in the input (stable ordering), and apply this order when deciding which tied words make the top 5."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test needs a specific CNY-to-GBP rate, but the docstring gives no rate table; its only example covers CNY to USD, so the GBP rate cannot be derived.",
+  "missing": "The docstring should list the supported currencies and their exchange rates relative to the base currency, and say how conversion is computed from them."
+}

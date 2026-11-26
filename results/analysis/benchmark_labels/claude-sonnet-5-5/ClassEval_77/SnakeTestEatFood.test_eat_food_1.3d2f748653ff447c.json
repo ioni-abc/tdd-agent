@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring prose says length increases by 1 and score by 100, which is exactly what the test checks (the example's \"score = 10\" is a typo that conflicts with the prose).",
+  "missing": "none"
+}

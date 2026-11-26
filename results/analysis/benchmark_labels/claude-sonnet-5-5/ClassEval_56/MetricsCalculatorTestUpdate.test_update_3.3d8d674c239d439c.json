@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows how each (predicted, true) pair maps to TP, FP, FN, or TN, and this test applies the same mapping to ordinary 0/1 inputs, giving (2, 1, 0, 1).",
+  "missing": "none"
+}

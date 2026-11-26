@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's Ace rule (11 becomes 1 when the total exceeds 21) gives 10+10+4+1 = 25, which matches the test and the reference code.",
+  "missing": "none"
+}

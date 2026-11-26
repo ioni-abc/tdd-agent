@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test inserts a ticket, finds it by customer name, deletes it, and searches again; a straightforward implementation of search_tickets_by_customer (exact name match) returns 1 and then 0, as the docstring example suggests.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring shows only a decimal example and never mentions hexadecimal references or the uppercase 'X' prefix that this test expects to be decoded.",
+  "missing": "The docstring should say that hexadecimal numeric references are also decoded, with the prefix \"x\" accepted in either lowercase or uppercase."
+}

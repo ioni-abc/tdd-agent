@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the board is n*n with k mines, so n=3 and k=0 give 3 rows and no 'X' cells, which is what the test checks via the constructor-generated map.",
+  "missing": "none"
+}

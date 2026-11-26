@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only specifies returning 0 for a missing file or missing key, not for an existing but empty (invalid JSON) file, which an implementation might handle by raising an exception.",
+  "missing": "The docstring should state that if the file exists but its content cannot be parsed as JSON (e.g. it is empty), the method returns 0 rather than raising an error."
+}

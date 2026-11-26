@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test fetches an existing employee by id and expects the stored information back, which the docstring states directly and shows in its example.",
+  "missing": "none"
+}

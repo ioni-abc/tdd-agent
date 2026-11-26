@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Booking an already-booked seat returns \"Booking failed.\", as the docstring says, and the seat staying booked (1) is consistent with the earlier successful booking, which the docstring says changes the seats value.",
+  "missing": "none"
+}

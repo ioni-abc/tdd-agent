@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says that when the head does not hit the body, \"its own length plus one\", which suggests the length grows on every ordinary move. The test and reference code leave the length unchanged (1) when no food is eaten and there is no collision.",
+  "missing": "none"
+}

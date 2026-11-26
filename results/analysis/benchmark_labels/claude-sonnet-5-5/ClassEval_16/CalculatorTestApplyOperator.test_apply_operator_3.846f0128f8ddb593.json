@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Faulty docstring example: it shows the result [1, -1] (the '-' applied) but leaves '-' in the operator stack, whereas the code and test remove the used operator and leave '+'.",
+  "missing": "none"
+}

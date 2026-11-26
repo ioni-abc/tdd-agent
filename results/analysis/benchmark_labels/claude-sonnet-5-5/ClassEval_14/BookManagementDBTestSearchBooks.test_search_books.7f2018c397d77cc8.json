@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says all books are returned as tuples, and its example shows the (id, title, author, availability) layout that the test checks, so a plain SELECT of all rows passes.",
+  "missing": "none"
+}

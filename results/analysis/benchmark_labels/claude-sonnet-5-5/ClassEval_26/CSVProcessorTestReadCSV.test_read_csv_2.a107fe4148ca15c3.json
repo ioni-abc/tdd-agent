@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the first row is the title and the rest is data, and the test writes a one-field header row followed by one data row, which the reference code returns as expected.",
+  "missing": "none"
+}

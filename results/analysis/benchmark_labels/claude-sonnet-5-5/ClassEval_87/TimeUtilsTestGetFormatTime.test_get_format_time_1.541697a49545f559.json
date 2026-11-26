@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the exact input and output format (\"2001-07-18 01:01:01\"), which is identical to the test's case, so a programmer following it would pass.",
+  "missing": "none"
+}

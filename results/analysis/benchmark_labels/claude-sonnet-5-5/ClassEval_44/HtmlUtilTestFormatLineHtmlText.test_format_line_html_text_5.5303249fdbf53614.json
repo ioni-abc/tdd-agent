@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers replacing code with -CODE- and extracting the text, but this test also expects a leading and a trailing newline in the result, and the docstring's example output shows neither.",
+  "missing": "The docstring should say how whitespace is handled: runs of consecutive newlines collapse into a single newline, and the newlines around the text are kept rather than stripped from the start and end of the result."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a new currency is added with its rate and the method returns None on success. The test adds a new currency 'aaa' and checks that its rate is stored, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes converting a three-digit number and shows an example with a nonzero hundreds digit, so it doesn't say what to do with leading zeros, such as omitting \"ZERO HUNDRED\" and returning only the words for the remaining digits.",
+  "missing": "The docstring should say that when the hundreds digit is zero, no hundreds part is output and the result is just the words for the remaining two-digit part (with leading zeros dropped)."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Mismatched test target: the test is filed under get_my_cards but calls game.answer('4*3+6+6') and never calls get_my_cards, so the docstring says nothing about what it checks. It also depends on the game's internal state (self.nums, set up by the constructor), which the docstring does not describe.",
+  "missing": "none"
+}

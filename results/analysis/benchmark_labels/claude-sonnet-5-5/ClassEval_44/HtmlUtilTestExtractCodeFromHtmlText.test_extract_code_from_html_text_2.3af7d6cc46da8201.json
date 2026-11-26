@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is essentially the docstring example (two `<pre>` blocks, one containing `<code>`, whitespace preserved), so a programmer following the example would produce the expected output.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says __len__ returns the length of the object's data, and the example shows 3 items giving 3, so one item giving 1 follows directly.",
+  "missing": "none"
+}

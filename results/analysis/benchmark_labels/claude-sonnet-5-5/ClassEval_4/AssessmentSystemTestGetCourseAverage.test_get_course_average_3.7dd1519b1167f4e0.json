@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return None if nobody has records for the course, and the test queries a course no student has, expecting None.",
+  "missing": "none"
+}

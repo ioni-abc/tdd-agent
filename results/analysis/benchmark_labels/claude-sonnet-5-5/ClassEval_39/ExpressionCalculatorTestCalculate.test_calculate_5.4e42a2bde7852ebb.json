@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The docstring calls the input a \"postfix expression\", but both its example and this test use infix notation, here with parentheses, so the description and the usage do not fit.",
+  "missing": "none"
+}

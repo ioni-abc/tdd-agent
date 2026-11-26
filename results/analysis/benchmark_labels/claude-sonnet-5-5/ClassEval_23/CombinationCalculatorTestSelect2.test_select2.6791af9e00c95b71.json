@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring includes a doctest with identical inputs and output, and the description of generating combinations of a size set by the resultList length matches the test, so a programmer following it would pass.",
+  "missing": "none"
+}

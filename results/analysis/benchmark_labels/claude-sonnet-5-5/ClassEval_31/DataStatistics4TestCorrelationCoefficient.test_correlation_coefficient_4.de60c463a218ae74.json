@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test expects the standard Pearson correlation coefficient for ordinary inputs, which is what \"correlation coefficient\" of two lists means and what the docstring example reflects.",
+  "missing": "none"
+}

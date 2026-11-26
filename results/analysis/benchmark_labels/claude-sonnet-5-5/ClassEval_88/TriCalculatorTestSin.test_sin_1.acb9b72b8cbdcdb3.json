@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring example shows `sin(30)` giving `0.5`, but a plain degrees-to-radians `math.sin` returns `0.49999999999999994`, which fails `assertEqual`; the reference only passes because it rounds to 10 decimal places.",
+  "missing": "The docstring should say that the result is rounded to a fixed number of decimal places (10), so floating-point error does not change the returned value."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test checks the standard cosine similarity between a vector and each row of a list, which the method name and docstring example describe, and the reference computes it the usual way.",
+  "missing": "none"
+}

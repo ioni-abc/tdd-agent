@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test has a unique class with the highest enrollment (Data Structures, 3), which is exactly what the docstring describes, so any correct implementation passes.",
+  "missing": "none"
+}

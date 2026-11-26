@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says set_city sets the city, so after setting 'Shanghai' the city is no longer 'New York', which is what the test asserts.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to add a course score for a student in self.students, and the test adds a score for an existing student and checks it is stored under the course name, which matches the docstring's example.",
+  "missing": "none"
+}
