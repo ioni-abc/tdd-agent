@@ -23,6 +23,20 @@ Matches the prototype on 3.8 (96/100, failing 17, 48, 51, 58) apart from 31 and 
 | 2 | 5 | packages installed at latest versions: 51 broke on NumPy 2 (`np.mat` removed), 69 lacked `reportlab` |
 | 3 | 4 | `numpy<2`, `pandas<3`, `reportlab` (ADR 010) |
 
+## Which classes fail, and is it always the same five?
+
+The first run (5 Nov) gave 96/100, failing 17, 31, 48 and 51. A later rerun of the saved reference run on the original data (`results/reference/benchmark_original/`) gives **95/100**: the same four **plus 58**. ClassEval_58 is flaky: its reference solution can put two mines on one cell, so it passes on some runs and fails on others (47 failures in 200 runs, see `benchmark-fixes.md`). So the broken set is five classes: 17, 31, 48, 51 and 58.
+
+## Why 157 tests pass on empty skeletons
+
+The skeleton run (`results/reference/skeleton_original/`) passes 157 of 2124 tests, and no class. A skeleton method has no body, so it returns `None`; a test passes when it expects `None` or something falsy, or only checks what `__init__` sets.
+
+- ClassEval_21 `test_check_course_conflict_2` ends with `assertFalse(result)`, and `None` is falsy.
+- ClassEval_36 `test_clear_inbox_2` expects `None` back and the inbox unchanged.
+- Most affected: ClassEval_21 (12 of 24 tests pass), ClassEval_77 (11 of 21), ClassEval_36 (9 of 26).
+- About 7% of the tests cannot tell empty code from a correct implementation.
+- 2124 instead of 2196 tests: ClassEval_22, 43 and 46 run zero tests because their skeletons have a syntax error (57 tests). The other 15 missing tests are not traced yet.
+
 ## Reading the output
 
 | Pattern | Meaning |
