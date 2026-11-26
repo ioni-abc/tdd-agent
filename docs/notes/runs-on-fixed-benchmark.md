@@ -15,9 +15,10 @@ The earlier runs (baseline 48/100; TDD v1 96/100, before the skeleton fix) are k
 | Run folder | `results/experiments/baseline_2026-11-19T14-38-59` | `results/experiments/tdd_2026-11-19T14-38-58` |
 
 ## Why TDD agent v1 fails its three classes
-- **ClassEval_49: 30/36, the 6 errored tests are exactly its hidden tests.** The agent sees tests only through the per-method copies (`methods_info[i]["test_code"]`); 4.9% of the tests (107 of 2196) are in no copy. See `classeval-tests.md`.
-- **ClassEval_25: 18/19.** `test_set_cookies` errors with `AttributeError: 'CookiesUtil' object has no attribute 'set_cookies'`: the agent's class has no such method.
-- **ClassEval_31: 0/21.** All 21 tests error with `NameError: name 'DataStatistics4' is not defined`.
+- **ClassEval_49: 30/36. The benchmark's skeleton omits a method.** `matches_requirements` is in `task["solution_code"]` and in the tests (class `JobMarketplaceTestMatchesRequirements`) but not in `task["skeleton"]` or in any `methods_info[i]`. The agent never sees its docstring or its 6 tests, and the 6 errored tests are exactly those. No agent that follows the skeleton can know the method exists. See `classeval-tests.md`.
+- **ClassEval_25: 18/19. Same defect.** `set_cookies` is in `task["solution_code"]` and called by `test_set_cookies`, but it is in neither `task["skeleton"]` nor `methods_info`. The test errors with `AttributeError: 'CookiesUtil' object has no attribute 'set_cookies'` because the agent, following the skeleton, never wrote the method.
+- **ClassEval_31: 0/21. An agent failure, not a benchmark one.** The agent's final code file is empty, so the tests fail with `NameError: name 'DataStatistics4' is not defined`. The last reply came back empty after using all 8000 output tokens (`stop_reason: max_tokens`); 7 of the task's 13 calls hit that limit. The agent stored the empty reply as the class, replacing the working code of the first method. Keeping the previous code when a reply is empty would avoid it.
+- These are the only tasks in the benchmark whose `task["solution_code"]` has a method that `task["skeleton"]` lacks (besides 22, 43 and 46, whose skeletons do not parse).
 
 The baseline's 49 failing classes were not analysed class by class; the failure analysis was done on the `tdd-own` run (see `results-of-insception-run-for-inconsistencies.md` for the per-test labels and the re-score on `stated` tests).
 
