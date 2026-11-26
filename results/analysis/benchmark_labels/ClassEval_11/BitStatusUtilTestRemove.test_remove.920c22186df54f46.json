@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says remove should take the specified status out of the current status, and its example `remove(6,2)` returns `4`, which is exactly what the test asserts.",
+  "missing": "none"
+}

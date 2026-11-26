@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the factorial of the given number, so a programmer would implement the standard product and return 1 for input 1, which is what the test checks.",
+  "missing": "none"
+}

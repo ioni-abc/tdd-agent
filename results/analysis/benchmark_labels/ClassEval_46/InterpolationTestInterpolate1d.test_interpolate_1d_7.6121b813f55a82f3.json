@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what happens when the data lists are empty or when interpolation points fall outside the x-range, so a correct implementation could raise an error or return something else instead of the empty list the test expects.",
+  "missing": "The docstring should state that interpolation points not lying within the range of x (including when x has fewer than two points or is empty) are left out of the returned list, so the result is an empty list when nothing can be interpolated."
+}

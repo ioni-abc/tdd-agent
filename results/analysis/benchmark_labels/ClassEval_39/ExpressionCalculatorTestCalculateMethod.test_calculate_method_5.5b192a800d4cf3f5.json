@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method performs the mathematical calculation on the two string operands with the given operator and returns a Decimal, so a programmer would compute 6 divided by 2 as 3, which equals Decimal(3.0).",
+  "missing": "none"
+}

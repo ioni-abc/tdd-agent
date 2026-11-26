@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to remove the specified status from the current status but never says what happens when that status is not currently set, which is the case this test checks (expects the input unchanged), so a naive XOR would return a different value.",
+  "missing": "If the specified status bit is not set in the current status, the method must return the current status unchanged instead of toggling that bit."
+}

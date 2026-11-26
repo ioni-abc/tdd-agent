@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a successful call returns an open file object, which is what the test checks; ZipFile's default mode is 'r', so a natural implementation passes the mode assertion too.",
+  "missing": "none"
+}

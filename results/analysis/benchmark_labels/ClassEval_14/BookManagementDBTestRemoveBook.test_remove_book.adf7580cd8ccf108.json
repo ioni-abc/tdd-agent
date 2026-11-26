@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says remove_book deletes the book with the given ID from the database, which is exactly what the test checks by confirming no row with id=1 remains afterward.",
+  "missing": "none"
+}

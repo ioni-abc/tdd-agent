@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the sum of the data and gives the example `[1, 2, 3, 4]` \u2192 `10`, which is exactly what the test checks, and `assertEqual` accepts either int or float.",
+  "missing": "none"
+}

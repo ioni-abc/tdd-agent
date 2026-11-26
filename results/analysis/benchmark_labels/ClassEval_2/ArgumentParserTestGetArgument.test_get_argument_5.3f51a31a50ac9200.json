@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the value stored under the given key in the arguments dictionary, and the test sets a dictionary containing \"option\": \"value\" and checks that get_argument(\"option\") returns \"value\", which a programmer following the docstring would pass.",
+  "missing": "none"
+}

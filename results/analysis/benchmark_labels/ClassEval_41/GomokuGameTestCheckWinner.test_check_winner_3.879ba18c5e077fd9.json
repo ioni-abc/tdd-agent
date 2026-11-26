@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the symbol of a player with five in a row in any direction, and this test has O completing five in a row horizontally while X's stones are broken by a gap, so a correct implementation passes.",
+  "missing": "none"
+}

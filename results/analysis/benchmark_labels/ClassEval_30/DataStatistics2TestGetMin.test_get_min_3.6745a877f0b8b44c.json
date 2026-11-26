@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_min calculates the minimum value in the data, and the test checks that with a list containing negative numbers the minimum (-3) is returned, which a programmer would naturally implement.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring requires four decimal digits separated by '.' with each value at least 0, so a programmer would reject \"-1\" as an octet and return False.",
+  "missing": "none"
+}

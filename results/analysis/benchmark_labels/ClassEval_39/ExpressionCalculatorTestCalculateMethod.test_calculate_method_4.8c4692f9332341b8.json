@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method takes two operands and an operator and returns a decimal.Decimal, so a programmer would implement Decimal division and get 1 for 3 / 3, which equals Decimal(1.0).",
+  "missing": "none"
+}

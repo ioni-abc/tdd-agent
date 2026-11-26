@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says BMI is weight divided by the square of height, which is exactly the computation the test checks with height 1.72 and weight 60.",
+  "missing": "none"
+}

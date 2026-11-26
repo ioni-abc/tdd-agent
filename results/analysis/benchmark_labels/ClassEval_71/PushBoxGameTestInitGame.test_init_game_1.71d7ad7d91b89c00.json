@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test only checks that the constructor stores the map as `self.map`, which is not what `init_game` is documented to do (set player, target and box positions), so the test is filed under the wrong method.",
+  "missing": "none"
+}

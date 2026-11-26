@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says adding two complex numbers returns their component-wise sum, so a programmer would compute (-1+2j)+(-3+4j) = (-4+6j), which is what the test expects.",
+  "missing": "none"
+}

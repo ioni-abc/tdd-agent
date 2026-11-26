@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method inserts coins and returns the machine's balance afterward, so a programmer would keep a running total that accumulates across calls, which is what the test checks after two insertions of 1.25.",
+  "missing": "none"
+}

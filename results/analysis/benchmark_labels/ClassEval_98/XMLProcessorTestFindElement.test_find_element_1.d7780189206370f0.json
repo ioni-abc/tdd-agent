@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says find_element returns a list of the XML elements with the given name, and its example shows the three items in order, which is exactly what the test checks.",
+  "missing": "none"
+}

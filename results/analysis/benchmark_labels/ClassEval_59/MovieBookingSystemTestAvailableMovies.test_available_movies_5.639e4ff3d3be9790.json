@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return movies available within the given time range, and a programmer would naturally keep only movies whose showtimes fall inside that range, which gives ['Spiderman'] here.",
+  "missing": "none"
+}

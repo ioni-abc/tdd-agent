@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the board is n*n with k cells marked 'X' for mines, so a correct implementation yields 3 rows and exactly one 'X' for (3, 1), which is what the test checks.",
+  "missing": "none"
+}

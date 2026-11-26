@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer reading that the pattern matches the middle of two sentences would write a sentence-boundary pattern (sentence-ending punctuation, whitespace, then an uppercase letter), which matches '? Y', so the test's expectation follows from the docstring.",
+  "missing": "none"
+}

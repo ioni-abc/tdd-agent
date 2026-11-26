@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a valid dish is added to the selected dishes, the menu count is decremented, and True is returned, which is what this test checks for an in-stock dish.",
+  "missing": "none"
+}

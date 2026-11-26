@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method computes the n-order Taylor expansion of cos(x/180\u00b7\u03c0), so at x=0 a programmer would correctly return 1.0, which is what the test checks.",
+  "missing": "none"
+}

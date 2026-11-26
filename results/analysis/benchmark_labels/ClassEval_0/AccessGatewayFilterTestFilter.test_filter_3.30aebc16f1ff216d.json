@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"certain rules and conditions\", so a programmer cannot tell that this GET path is allowed, and an implementation that checks tokens or user levels for every non-login path would return False and fail the test.",
+  "missing": "The docstring should state which request paths are exempt from authentication (for example, any path beginning with a listed prefix returns True without a token) and the token and user-level requirement that applies to all other paths."
+}

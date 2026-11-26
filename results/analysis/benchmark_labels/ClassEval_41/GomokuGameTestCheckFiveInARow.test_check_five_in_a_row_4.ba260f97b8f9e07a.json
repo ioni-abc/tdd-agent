@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True only when five consecutive symbols of the same player run from the given cell in the given direction, so a programmer would return False when the next cell in that direction is empty, which matches the expected False.",
+  "missing": "none"
+}

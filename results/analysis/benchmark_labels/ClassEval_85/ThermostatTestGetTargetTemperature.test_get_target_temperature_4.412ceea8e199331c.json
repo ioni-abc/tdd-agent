@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method gets the target temperature, so a programmer would return the target attribute and get 25, which matches the test, even though the `:return` line mistakenly names `current_temperature`.",
+  "missing": "none"
+}

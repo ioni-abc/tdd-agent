@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says create_order returns False when the requested quantity is not adequate, and the test orders 15 of a product with only 10 in stock and expects False, which a programmer following the docstring would pass.",
+  "missing": "none"
+}

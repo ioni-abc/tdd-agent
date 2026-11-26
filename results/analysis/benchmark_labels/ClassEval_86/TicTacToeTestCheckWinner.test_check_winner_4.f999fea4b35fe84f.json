@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a winner is found in rows, columns and diagonals and that the mark ('X' or 'O') is returned, so a programmer would detect X's anti-diagonal (0,2),(1,1),(2,0) and return 'X', which is what the test expects.",
+  "missing": "none"
+}

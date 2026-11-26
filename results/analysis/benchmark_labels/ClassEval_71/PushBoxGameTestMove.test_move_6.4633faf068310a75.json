@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test passes an invalid direction ('?') and expects the game to remain not over with no error, but the docstring only lists 'w', 's', 'a', 'd' and never says what happens for any other input.",
+  "missing": "The docstring should state what happens when the direction is not one of 'w', 's', 'a', or 'd': for example, that the player does not move, no exception is raised, and the game is not won by that call."
+}

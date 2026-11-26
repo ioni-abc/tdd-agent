@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method saves the cookies and returns True on success, and the test only checks that a successful save with a larger, nested cookie dict returns True, which a programmer following the docstring would satisfy.",
+  "missing": "none"
+}

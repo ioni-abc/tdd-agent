@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines factorial as the product of the integers up to n and gives factorial(4) = 24, so a programmer would compute 3! = 6 and pass the test.",
+  "missing": "none"
+}

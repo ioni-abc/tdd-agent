@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example calls `BoyerMooreSearch(\"ABAABA\", \"ABC\")` and `mismatch_in_text(0)` and expects 2, which is exactly what this test checks.",
+  "missing": "none"
+}

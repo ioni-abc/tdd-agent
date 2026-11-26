@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's first example shows that a single (flags, total) tuple returns the AP value 0.41666... together with the one-element list [0.41666...], which is exactly what this test checks.",
+  "missing": "none"
+}

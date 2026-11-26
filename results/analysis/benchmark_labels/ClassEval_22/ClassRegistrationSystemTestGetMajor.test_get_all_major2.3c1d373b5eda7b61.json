@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"get all majors in the system,\" so a programmer could reasonably return duplicates or use a different order, while the test expects each major once in first-appearance order.",
+  "missing": "The docstring should say that each major appears only once in the result, and that majors are listed in the order they first appear in the students list."
+}

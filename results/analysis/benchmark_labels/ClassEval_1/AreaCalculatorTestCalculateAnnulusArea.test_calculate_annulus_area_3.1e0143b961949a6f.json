@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer following the docstring would implement the annulus formula pi times (outer squared minus inner squared), which gives pi for a zero inner radius and outer radius of 1, matching the test's expected value within its tolerance.",
+  "missing": "none"
+}

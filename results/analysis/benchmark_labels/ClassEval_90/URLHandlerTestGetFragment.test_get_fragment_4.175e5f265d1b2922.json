@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_fragment returns the text after '#' in the URL, and the test checks a URL with \"#bbb\" expecting \"bbb\", which a programmer following the docstring would produce.",
+  "missing": "none"
+}

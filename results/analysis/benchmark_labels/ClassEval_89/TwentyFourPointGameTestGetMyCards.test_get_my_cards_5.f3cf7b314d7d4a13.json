@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only to generate random numbers from 1 to 9, so a correct implementation could produce any count of cards, while the test requires exactly four.",
+  "missing": "The docstring should state how many numbers to generate (here, exactly four) and that each one is an integer from 1 to 9 inclusive."
+}

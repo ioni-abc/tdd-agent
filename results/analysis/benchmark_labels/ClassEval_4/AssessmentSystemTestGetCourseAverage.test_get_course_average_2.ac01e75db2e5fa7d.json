@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the average covers students who \"have score of this course,\" and Charlie's None is not a score, so a programmer would exclude it and average only Bob's 85 to get 85.",
+  "missing": "none"
+}

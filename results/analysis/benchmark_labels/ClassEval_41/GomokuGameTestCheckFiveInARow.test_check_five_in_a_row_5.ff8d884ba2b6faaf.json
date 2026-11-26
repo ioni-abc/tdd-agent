@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method counts consecutive same-player symbols starting from the given cell in the (dx, dy) direction and returns True only for five, so a programmer would return False when the next cell in that direction is empty.",
+  "missing": "none"
+}

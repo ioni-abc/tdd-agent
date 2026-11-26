@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says insert_coin returns the machine's balance after the coins are added, and its example shows a new machine returning 1.25 after inserting 1.25, which is exactly what the test checks.",
+  "missing": "none"
+}

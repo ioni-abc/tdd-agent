@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says mode returns a list and gives the example `[1, 2, 3, 3]` yielding `[3]`, which is exactly the case the test checks.",
+  "missing": "none"
+}

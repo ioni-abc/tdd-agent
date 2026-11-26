@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for \"the value of a given expression\", which a programmer would read as standard arithmetic with usual operator precedence, so `1+2*3` should give 7.",
+  "missing": "none"
+}

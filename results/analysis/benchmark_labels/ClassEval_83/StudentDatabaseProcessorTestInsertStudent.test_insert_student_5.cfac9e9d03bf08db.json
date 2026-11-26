@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test-target mismatch: the test's body exercises `insert_student` (inserting a row and querying it back), while the docstring covers only creating the table, so the test does not check `create_student_table`.",
+  "missing": "none"
+}

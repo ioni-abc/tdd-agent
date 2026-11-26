@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that the value is set for the key, so a programmer would store 'firstName' as a separate entry, but the test expects it to update 'first_name' because the class normalizes keys.",
+  "missing": "The docstring should say that keys are normalized (for example, camelCase keys are converted to snake_case) before storing, so that differently-spelled keys that map to the same normalized name refer to the same entry."
+}

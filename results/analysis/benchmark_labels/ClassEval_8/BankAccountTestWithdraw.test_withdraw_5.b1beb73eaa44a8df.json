@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says only amounts greater than the balance raise an error and that the current balance is returned, so a programmer would correctly return 0 when withdrawing the full balance.",
+  "missing": "none"
+}

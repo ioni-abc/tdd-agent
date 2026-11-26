@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"at least 1 and at most n items\" wording plus the example count_all(4) = 64 pins down the sum of ordered arrangements P(n,k) for k=1..n, which gives 15 for n=3, matching the test.",
+  "missing": "none"
+}

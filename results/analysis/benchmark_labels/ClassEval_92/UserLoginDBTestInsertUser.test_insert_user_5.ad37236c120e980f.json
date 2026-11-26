@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says insert_user adds a user with the given username and password to the \"users\" table, which is what the test checks through a follow-up lookup, so a programmer following it would pass.",
+  "missing": "none"
+}

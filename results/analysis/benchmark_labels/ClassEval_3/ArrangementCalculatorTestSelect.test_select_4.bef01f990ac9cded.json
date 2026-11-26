@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to select m items as arrangements, and its example shows ordered pairs (e.g. [2, 1] alongside [1, 2]), so a programmer would produce [[1, 2], [2, 1]] for two items.",
+  "missing": "none"
+}

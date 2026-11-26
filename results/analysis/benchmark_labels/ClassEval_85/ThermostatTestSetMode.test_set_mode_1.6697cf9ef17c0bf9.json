@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that calling set_mode('cool') makes the current mode 'cool', which is the behaviour this test checks, even though it verifies it through get_mode rather than the mode attribute the docstring example uses.",
+  "missing": "none"
+}

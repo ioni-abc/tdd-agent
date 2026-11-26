@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says withdraw decreases the balance and returns the current balance, so a programmer following it would return 800 for a balance of 1000 minus 200.",
+  "missing": "none"
+}

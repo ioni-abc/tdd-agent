@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_sum computes the sum of the data, and the test checks that the sum of a list of four integers is returned, which a straightforward sum satisfies (a float result also compares equal to 210).",
+  "missing": "none"
+}

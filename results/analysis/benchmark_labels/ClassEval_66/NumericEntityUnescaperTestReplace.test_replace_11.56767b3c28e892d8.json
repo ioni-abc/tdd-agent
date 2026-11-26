@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects an invalid decimal reference like \"&#c1d;\" to make the method return only the output accumulated before it, dropping everything after, but the docstring says nothing about malformed references, so a programmer would likely keep the bad text or continue past it.",
+  "missing": "The docstring should specify what happens to a numeric reference whose body is not valid for its base (e.g. letters in a decimal reference): whether it is copied through literally, skipped, or whether processing stops and the rest of the string is discarded."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method multiplies two numeric strings and returns the product as a string, which is exactly what this test checks with no special convention needed.",
+  "missing": "none"
+}

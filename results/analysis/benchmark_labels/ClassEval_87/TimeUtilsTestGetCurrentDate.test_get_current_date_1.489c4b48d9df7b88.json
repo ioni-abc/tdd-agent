@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to return the current date in \"%Y-%m-%d\" format, but the test expects the value to come from the instance's own `datetime` attribute, which a programmer following the docstring might not use.",
+  "missing": "The docstring should say the date is taken from the object's stored `datetime` attribute (not from a fresh system clock call) and formatted with that attribute's `strftime`."
+}

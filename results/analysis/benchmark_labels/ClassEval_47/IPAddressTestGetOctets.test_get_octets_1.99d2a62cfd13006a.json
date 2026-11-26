@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a valid IP address returns the four dot-separated numbers as a list, and its example shows that list as quoted strings for \"10.10.10.10\", which is exactly what the test checks.",
+  "missing": "none"
+}

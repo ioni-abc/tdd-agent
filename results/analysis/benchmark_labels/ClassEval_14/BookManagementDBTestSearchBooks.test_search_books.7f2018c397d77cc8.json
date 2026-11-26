@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects books in insertion order and a fourth field equal to 1 for newly added books, but the docstring only gives one example row and says nothing about ordering or how those fields are set.",
+  "missing": "The docstring should state the order in which rows are returned (e.g., insertion order) and what each tuple field means, including the default value a newly added record gets for each field."
+}

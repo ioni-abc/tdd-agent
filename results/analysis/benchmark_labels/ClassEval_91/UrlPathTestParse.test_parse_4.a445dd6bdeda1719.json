@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring states the segment splitting, but it never mentions the `with_end_tag` attribute that the test asserts is False, so a correct implementation could set it differently and still pass the docstring.",
+  "missing": "The docstring should state how the `with_end_tag` attribute is set, including its default value and what input (such as a trailing separator) makes it True."
+}

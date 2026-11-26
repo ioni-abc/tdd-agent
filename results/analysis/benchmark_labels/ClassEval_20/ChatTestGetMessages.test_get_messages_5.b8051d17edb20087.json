@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example shows that asking for a user with no messages (`'Mary'`) returns `[]`, so a programmer following it would return an empty list for the unknown user `'Amy'` and pass.",
+  "missing": "none"
+}

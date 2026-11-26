@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies adding two decimal digit strings and returning the sum as a string, and its example is the same input and expected output the test checks, so a correct implementation would pass.",
+  "missing": "none"
+}

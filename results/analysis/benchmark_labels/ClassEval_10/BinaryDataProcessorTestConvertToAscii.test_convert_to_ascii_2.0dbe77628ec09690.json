@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert the binary string to an ASCII string, and a programmer would split it into 8-bit groups and decode each as a character, which yields \"h%llo\" for this input.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives no rule for which requests are allowed, so a programmer could not know that a GET to `/api/data` with no token should return True, while the reference relies on a hidden path-prefix whitelist.",
+  "missing": "The docstring should list which path prefixes bypass authentication (the whitelist that `is_start_with` checks) and state that all other requests need a valid JWT whose user level is above a stated threshold, with the result False otherwise."
+}

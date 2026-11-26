@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to keep only the Nth column of each data row, capitalize it, and write the original title with the new data to a `_process` file, which yields the title `['a','b','c','d']` and the single value `'ABC'` the test expects.",
+  "missing": "none"
+}

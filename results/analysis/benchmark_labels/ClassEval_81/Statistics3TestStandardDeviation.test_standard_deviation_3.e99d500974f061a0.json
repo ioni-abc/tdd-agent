@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines standard deviation of a list, and any correct implementation gives 0.0 for two identical values, so a programmer following it would pass this test.",
+  "missing": "none"
+}

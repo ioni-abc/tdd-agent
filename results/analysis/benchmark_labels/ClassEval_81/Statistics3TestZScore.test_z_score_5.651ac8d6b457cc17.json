@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring describes only the normal z-score computation and says nothing about a constant list, where the standard deviation is zero and the expected result is None rather than a division by zero.",
+  "missing": "The docstring should state what is returned when the standard deviation is zero (for example, when all values in the list are identical), namely None instead of attempting the division."
+}

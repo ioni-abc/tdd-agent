@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says numeric character references are replaced with their Unicode characters, and its example shows decimal references like `&#65;` becoming letters, so a programmer would produce \"BBB\" for three `&#66;` references.",
+  "missing": "none"
+}

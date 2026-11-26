@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example output \"2023-06-14 19:30:03\" shows the exact `YYYY-MM-DD HH:MM:SS` format the test checks, so a programmer following it would produce the expected string.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test passes a zero vector and expects a similarity of 0.0, but the docstring only gives the cosine formula, which is undefined when a norm is zero, so a programmer would likely divide by zero and return NaN.",
+  "missing": "The docstring should say that if either input vector has zero norm, the function returns 0 instead of dividing by zero."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says results above 2^63-1 should return float(\"inf\"), but the test and reference code return False for an out-of-range input whose true count also exceeds that limit.",
+  "missing": "The docstring should state that inputs outside the supported range (negative, or too large for the result to fit the limit) return False, and say which of the two sentinel values applies to which case."
+}

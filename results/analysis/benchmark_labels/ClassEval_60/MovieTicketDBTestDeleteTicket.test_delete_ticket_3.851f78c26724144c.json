@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test depends on the first column of each returned row being the ticket id, which the docstring never says. It only says the method returns the matching rows from the \"tickets\" table.",
+  "missing": "The docstring should state the column layout of each returned row, including which field comes first and that it is the unique ticket id, so callers can rely on it."
+}

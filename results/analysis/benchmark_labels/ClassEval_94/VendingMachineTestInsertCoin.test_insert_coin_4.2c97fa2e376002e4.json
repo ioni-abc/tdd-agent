@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer following the docstring would add the amount to the machine's existing balance and return the new total, which is what this test checks: three insertions onto a preset balance of 1.25 give 5.0.",
+  "missing": "none"
+}

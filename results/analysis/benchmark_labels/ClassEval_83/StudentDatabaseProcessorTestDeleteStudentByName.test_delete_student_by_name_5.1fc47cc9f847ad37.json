@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test is filed under search_student_by_name but actually calls delete_student_by_name and checks that the row is gone, so it does not test the method it is attached to.",
+  "missing": "none"
+}

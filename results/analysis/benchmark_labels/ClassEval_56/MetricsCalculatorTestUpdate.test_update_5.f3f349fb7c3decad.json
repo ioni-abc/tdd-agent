@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example gives the standard confusion-matrix mapping (predicted 1 with true 1 is a true positive, predicted 1 with true 0 is a false positive, and so on), which a programmer would apply to this test's input and produce (1, 1, 2, 0).",
+  "missing": "none"
+}

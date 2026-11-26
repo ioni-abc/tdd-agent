@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return 0 when the key does not exist, and a programmer following that would leave the file unchanged, so the test's check that the stored data is unchanged would pass.",
+  "missing": "none"
+}

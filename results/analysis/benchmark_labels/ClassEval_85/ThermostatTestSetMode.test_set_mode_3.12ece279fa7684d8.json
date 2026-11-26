@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says `mode` accepts `'heat'` or `'cool'` and gives an example of setting it, so a programmer following it would set the mode to `'heat'` and pass, with `get_mode` simply returning that stored value.",
+  "missing": "none"
+}

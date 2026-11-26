@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the current player's symbol is placed but never says that X moves first or that the board starts as empty cells, so a correct implementation could start with O or use another empty marker and fail the test's expected board.",
+  "missing": "The docstring should state which player's symbol is the initial current player and what value an empty cell holds on a new board."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that the `cookies` attribute is set to the value under the `'cookies'` key of the response, and a programmer following that would ignore the other keys, so the test's expected value follows.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer reading \"accurate to two digits after the Decimal separator\" would compute the arithmetic mean and round it to two decimals, giving 4.17 for this input, which is what the test expects.",
+  "missing": "none"
+}

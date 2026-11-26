@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says parse_arguments returns (True, None) when no required argument is missing, and the test's case (only the required \"name\" supplied, \"age\" added without required=True) follows that rule.",
+  "missing": "none"
+}

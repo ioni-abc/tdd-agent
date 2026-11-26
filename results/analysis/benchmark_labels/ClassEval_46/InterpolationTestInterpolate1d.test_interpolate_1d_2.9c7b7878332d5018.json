@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"linear interpolation\" over lists, so a programmer could sort x, use a library routine like np.interp, or pick a different segment when x is unsorted, and then fail this test, which expects the first segment in the given order to be used.",
+  "missing": "The docstring should state whether x must be sorted in increasing order, and if not, which segment is used to interpolate a point when several segments contain it (for example, the first one in the given order), and what happens to query points that fall outside the range of x (for example, whether they are omitted from the output)."
+}

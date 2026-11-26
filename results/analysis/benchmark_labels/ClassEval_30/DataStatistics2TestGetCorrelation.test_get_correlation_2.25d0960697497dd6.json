@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's only example uses [1, 2, 3, 4], which is perfectly linear, so a programmer could plausibly compute correlation against index positions and get 1.0 there, but that would give a different value for the test's non-linear data [1, 2, 203, 4], which expects 1.0.",
+  "missing": "The docstring should say what the correlation is taken between when the object holds a single 1-D series (for example, that the series is correlated with itself and so always returns 1.0, versus correlating it with positional indices)."
+}

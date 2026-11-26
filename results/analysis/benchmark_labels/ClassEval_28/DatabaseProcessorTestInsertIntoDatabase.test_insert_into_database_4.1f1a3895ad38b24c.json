@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test checks that the stored age lands in the third column of the fetched row, which depends on the table layout created by `create_table` (an id column ahead of name and age), and the docstring never describes the stored row layout or column order.",
+  "missing": "The docstring should state the column layout of the target table, including any auto-generated columns and their position, and that each dict's keys map to the table's named columns, so an implementation can match the expected stored row structure."
+}

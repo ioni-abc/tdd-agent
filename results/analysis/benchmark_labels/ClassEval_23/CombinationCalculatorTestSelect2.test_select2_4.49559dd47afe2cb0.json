@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring describes recursive generation of fixed-size combinations but never says what happens when the requested size is zero, while the test expects a single empty combination `[[]]`, which a correct implementation could plausibly miss by returning nothing.",
+  "missing": "The docstring should say what happens when the combination size is zero, for example whether a single empty combination is appended to the result list or nothing is added."
+}

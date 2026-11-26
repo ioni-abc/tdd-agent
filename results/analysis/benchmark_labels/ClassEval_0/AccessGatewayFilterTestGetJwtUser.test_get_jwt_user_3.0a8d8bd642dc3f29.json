@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to return user information \"if the token is valid\" without defining validity, so a programmer could not know that this token format (the user name followed by today's date) is accepted and should not be rejected.",
+  "missing": "The docstring should state how token validity is determined, including the required format of the JWT string (the user name followed by a date) and the expiry rule (how old a date may be before the token is treated as invalid)."
+}

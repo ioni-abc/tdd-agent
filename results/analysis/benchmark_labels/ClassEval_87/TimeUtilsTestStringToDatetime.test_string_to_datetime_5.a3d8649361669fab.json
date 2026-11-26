@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example `\"2001-7-18 1:1:1\"` returns `2001-07-18 01:01:01`, which shows the same unpadded month, day and hour format the test uses, so a programmer following it would parse the test input to the expected datetime.",
+  "missing": "none"
+}

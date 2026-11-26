@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows view_items returning a dict keyed by item name with \"price\" and \"quantity\" fields, and the add_item argument order is implied by that example, so a programmer following it would produce the expected structure for a single added item.",
+  "missing": "none"
+}

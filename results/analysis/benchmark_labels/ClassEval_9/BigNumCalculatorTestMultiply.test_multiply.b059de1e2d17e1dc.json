@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it multiplies two big numbers passed as strings and returns the product as a string, and its example is this exact input and output, so a programmer following it would pass.",
+  "missing": "none"
+}

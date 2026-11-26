@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says sentences end with \".\" or \"?\" followed by a space, and explicitly notes that \"Mr.\" ends with a period but is not a sentence end, so a programmer would keep \"Mr. Smith?\" together and split after \"?\".",
+  "missing": "none"
+}

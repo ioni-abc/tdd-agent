@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says has_path returns True when there is a path between the two icons, and this test expects True for two matching icons joined by a straight run of same-icon cells, which a reasonable implementation of that description returns.",
+  "missing": "none"
+}

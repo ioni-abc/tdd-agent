@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says check_out adds the room number to available_rooms, but it never says whether booked_rooms should change, and the test asserts booked_rooms stays exactly the same, so a programmer who also updates booked_rooms would fail.",
+  "missing": "The docstring should state whether the method touches any other state, such as the booked_rooms record, and if it does not, that only available_rooms is changed."
+}

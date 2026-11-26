@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the count as the sum of arrangements choosing 1 to n items, and its example (n=4 gives 64) confirms the permutation sum, so a programmer would compute 1 for n=1 as the test expects.",
+  "missing": "none"
+}

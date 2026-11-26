@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method generates combinations with a specified number of elements, and the example's pre-sized `[None] * 2` shows the size comes from `resultList`, so a programmer would produce all 3-element combinations of the four items in order, as the test expects.",
+  "missing": "none"
+}

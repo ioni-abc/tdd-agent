@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives the multipliers for \"too fat\", \"too thin\" and \"normal\" but never says how a user is classified into one of those conditions, so a correct implementation could pick the wrong multiplier and fail this test.",
+  "missing": "The docstring should state the exact criterion (for example, the BMI thresholds, with the formula and cutoff values) that decides whether a user counts as too fat, too thin, or normal."
+}

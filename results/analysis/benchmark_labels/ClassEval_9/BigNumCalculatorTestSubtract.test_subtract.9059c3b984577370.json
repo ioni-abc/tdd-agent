@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest uses the same inputs and the same expected string \"-86419753208641975320\", so a programmer following it would produce the tested result.",
+  "missing": "none"
+}

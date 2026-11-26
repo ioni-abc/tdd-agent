@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False when the purchase is not successful, and this test checks that a purchase with insufficient balance returns False, which a programmer following the docstring would produce.",
+  "missing": "none"
+}

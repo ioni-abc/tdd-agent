@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example uses the same inputs and expected value (0.5) as this test, and a programmer computing the harmonic mean of precision and recall would get that result.",
+  "missing": "none"
+}

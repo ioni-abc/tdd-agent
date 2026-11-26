@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the value of the given arithmetic expression, so a programmer would evaluate '1+2+3' to 6, and the float 6.0 equals 6 under assertEqual.",
+  "missing": "none"
+}

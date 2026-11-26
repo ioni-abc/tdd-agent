@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring's example says `get_hostname('110.242.68.3')` returns `'www.baidu.com'`, but the test expects `None` for that same input, so a programmer following the docstring would return a hostname and fail.",
+  "missing": "The docstring should state that when reverse DNS lookup fails for an address (no PTR record or lookup error), the function returns None, and that its result depends on the resolver available at runtime rather than being fixed."
+}

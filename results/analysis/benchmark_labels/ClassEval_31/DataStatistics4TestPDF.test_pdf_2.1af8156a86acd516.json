@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the normal PDF and an example that fixes the formula, so a programmer would compute 1/(sigma*sqrt(2*pi)) at x equal to mu, which is exactly what the test expects.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's only example has a single mode, so it does not say whether tied modes should all be returned or in what order, and the test expects both values in first-appearance order.",
+  "missing": "When several values share the highest frequency, the function should return all of them in a list, ordered by their first appearance in the input."
+}

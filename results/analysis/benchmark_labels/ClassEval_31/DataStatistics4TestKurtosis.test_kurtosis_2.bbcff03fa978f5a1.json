@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives only the general kurtosis definition and a sample value, so a programmer would not know that a constant dataset (zero standard deviation) should return NaN rather than raising a division error.",
+  "missing": "The docstring should state what is returned when all values are identical (zero variance), for example that it returns NaN instead of raising a division-by-zero error."
+}

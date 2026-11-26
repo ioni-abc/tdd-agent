@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test checks that the constructor stores the board size and icons as attributes named `BOARD_SIZE` and `ICONS`, and the docstring never names these attributes, so a correct implementation using other names would fail.",
+  "missing": "The docstring should name the instance attributes that hold the board size and the icon list (and state that the board cells are drawn from those icons), so an implementation knows which attribute names to store."
+}

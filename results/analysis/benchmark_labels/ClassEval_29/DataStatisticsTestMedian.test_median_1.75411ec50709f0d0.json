@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example is the same odd-length list with median 3, and it shows the result as 3.00, which equals the test's expected 3 under assertEqual.",
+  "missing": "none"
+}

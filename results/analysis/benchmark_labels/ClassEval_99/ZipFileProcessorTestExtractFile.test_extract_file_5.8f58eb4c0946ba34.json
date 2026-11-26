@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says extract_file places the named file from the zip into the given output path and returns True on success, which is exactly what the test checks (True returned and the file present in the output directory).",
+  "missing": "none"
+}

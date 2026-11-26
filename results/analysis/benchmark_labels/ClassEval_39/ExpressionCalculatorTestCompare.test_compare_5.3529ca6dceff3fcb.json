@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the result is True when the current operator has higher or equal precedence, so \"/\" over \"+\" should return True, but the test and reference code expect False.",
+  "missing": "none"
+}

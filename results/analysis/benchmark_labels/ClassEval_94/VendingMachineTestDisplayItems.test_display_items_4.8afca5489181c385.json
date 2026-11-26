@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says products are listed when the machine is non-empty, but it does not say whether a product with zero stock is still shown, so a programmer could reasonably filter it out and fail this test.",
+  "missing": "The docstring should state whether products whose quantity is zero (sold out) are still listed, and in what form their quantity appears."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the zero and one values as fractions summing to 1 (0.475 and 0.525 for 40 bits), so a programmer following it would compute count divided by length and return the same floats the test expects.",
+  "missing": "none"
+}

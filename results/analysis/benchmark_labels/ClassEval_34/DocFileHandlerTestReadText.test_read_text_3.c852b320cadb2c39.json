@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the document's content as a string, and the test checks that a document with one paragraph of text returns exactly that text, which any reasonable extraction would produce.",
+  "missing": "none"
+}

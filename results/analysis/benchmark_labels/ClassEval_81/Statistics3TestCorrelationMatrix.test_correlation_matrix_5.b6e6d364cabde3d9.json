@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the correlation matrix of the input, and a programmer computing the pairwise column correlations would get all 1.0 here, which is what the test expects.",
+  "missing": "none"
+}

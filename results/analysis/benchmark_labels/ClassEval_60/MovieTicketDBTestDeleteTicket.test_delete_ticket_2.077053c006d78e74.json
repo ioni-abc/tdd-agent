@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the rows from \"tickets\" whose customer name matches, and the test checks exactly that: one match before deletion and none after, which follows from the same rule once the row is gone.",
+  "missing": "none"
+}

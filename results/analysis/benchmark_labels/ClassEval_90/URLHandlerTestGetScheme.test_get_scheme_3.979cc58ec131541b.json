@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_scheme returns the scheme of the URL and gives an https example, so a programmer would return the text before \"://\", which is what this test expects.",
+  "missing": "none"
+}

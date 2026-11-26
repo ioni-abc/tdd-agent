@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True only when the text matches the regular expression and False otherwise, so a programmer would return False here because \"123-456-789\" lacks the required four-digit final group.",
+  "missing": "none"
+}

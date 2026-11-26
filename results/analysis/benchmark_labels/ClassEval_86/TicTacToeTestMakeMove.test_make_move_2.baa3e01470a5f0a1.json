@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the method returns whether the move succeeded but never says that a move onto an occupied cell fails, or that a failed move leaves the current player unchanged, which is what the test checks.",
+  "missing": "The docstring should say that a move to a cell that is already occupied returns False, leaves the board unchanged, and does not switch the current player, while a move to an empty cell returns True and switches the player."
+}

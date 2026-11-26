@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the count as arrangements choosing between 1 and n items from n, and its example `count_all(4)` returns 64, which is the sum of permutations P(4,1)+...+P(4,4) that the test checks.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows a column list joined with commas and a dict condition rendered as `key='value'`, which a programmer would apply to the single-column, single-condition, integer-value case in this test, giving `age='30'`.",
+  "missing": "none"
+}

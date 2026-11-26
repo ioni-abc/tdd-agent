@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer reading \"returns the content of the Word document as a string\" would extract the document's paragraph text, and this single-paragraph test expects exactly that text, so the docstring covers the behaviour being checked.",
+  "missing": "none"
+}

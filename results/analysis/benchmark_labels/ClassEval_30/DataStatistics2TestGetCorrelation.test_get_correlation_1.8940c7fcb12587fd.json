@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest shows that a two-series-free input of `[1, 2, 3, 4]` yields `1.0` from `get_correlation`, which is exactly what the test checks.",
+  "missing": "none"
+}

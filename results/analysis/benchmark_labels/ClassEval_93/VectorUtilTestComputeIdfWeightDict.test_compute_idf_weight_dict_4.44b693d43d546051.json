@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's formula and its example (log((2+1)/(0.1+1)) \u2248 1.0033) both match the test's expected values for counts 0.4 and 0.5, so a programmer following it would pass.",
+  "missing": "none"
+}

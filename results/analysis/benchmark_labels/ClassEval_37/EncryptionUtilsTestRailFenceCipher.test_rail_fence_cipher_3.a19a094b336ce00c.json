@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names the Rail Fence cipher and its example (\"abc\", 2 gives 'acb') shows the zigzag-then-read-by-rail convention, so a programmer would produce \"ACEGbdf\" for this input with two rails.",
+  "missing": "none"
+}

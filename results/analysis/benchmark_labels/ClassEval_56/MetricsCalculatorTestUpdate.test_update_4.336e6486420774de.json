@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer applying the standard confusion-matrix meaning of the four counters (predicted 1 with true 1 is a true positive, predicted 1 with true 0 is a false positive, and so on) would produce the test's expected (2, 0, 1, 1).",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same input and the same output the test checks: a dict keyed by employee ID whose values include an added `employee_ID` field alongside the original fields.",
+  "missing": "none"
+}

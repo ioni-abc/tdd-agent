@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a move is invalid when either position falls outside the game board range, so a programmer following it would return False for the out-of-range first position in this test.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to remove the specified status from the current status, so removing a status that is fully present (6 from 6) should leave 0, which is what the test expects.",
+  "missing": "none"
+}

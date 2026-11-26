@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to split on sentence punctuation, so a programmer would split \"Aaa. bbbb, Ccc!\" after \"Aaa\", but the test expects no split because the next word is lowercase.",
+  "missing": "The docstring should say whether a sentence boundary is recognised only when the following text starts with an uppercase letter, and what happens to punctuation-separated text that does not meet that condition."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it generates combinations with a specified number of elements, and its example shows that this number comes from the length of `resultList`, so a programmer would produce the single full-size combination `['A', 'B', 'C', 'D']` when the list has length 4.",
+  "missing": "none"
+}

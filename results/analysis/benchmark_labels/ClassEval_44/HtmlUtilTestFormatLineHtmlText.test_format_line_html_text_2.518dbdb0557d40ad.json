@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's example shows the general shape of the output, but it does not specify the exact whitespace and newline handling the test asserts, so a reasonable implementation could differ in leading or trailing line breaks.",
+  "missing": "The docstring should state how line breaks and blank lines are handled in the returned text (including leading and trailing newlines), and what punctuation is added to text blocks that lack ending punctuation, especially when they are followed by a code block."
+}

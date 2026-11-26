@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True when the user is signed in, which is exactly what the test checks after adding and signing in a user.",
+  "missing": "none"
+}

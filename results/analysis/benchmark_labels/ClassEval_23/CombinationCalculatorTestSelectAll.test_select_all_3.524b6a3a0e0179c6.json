@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for all combinations of the data elements and gives a four-element example ordered by size and then lexicographically, which is exactly what the three-element test expects.",
+  "missing": "none"
+}

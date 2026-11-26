@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to use BFS and return a path, but it does not say in what order candidate moves are tried, so a correct BFS could return a different equally short solution than the one the test expects.",
+  "missing": "The docstring should specify the order in which the possible moves from each state are generated and enqueued, since that order determines which of several equal-length shortest solutions is returned."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test's core check, that the new food is not on the snake, matches the docstring, but it also requires the food to lie within the screen bounds (0 to 100), which the docstring never mentions.",
+  "missing": "The docstring should state that the new food position must be a grid-aligned coordinate inside the screen area, so that a random position anywhere in the screen's block grid is valid, in addition to not overlapping the snake."
+}

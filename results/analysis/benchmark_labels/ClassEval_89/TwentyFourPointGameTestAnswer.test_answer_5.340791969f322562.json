@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test calls `game.answer('abc')` and checks for a falsy result, but the docstring documents `get_my_cards`, which returns four random numbers and never mentions `answer`.",
+  "missing": "none"
+}

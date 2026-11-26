@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says consecutive line breaks are replaced with a single line break, which a programmer would implement as collapsing each run of newlines to one, producing the expected output here.",
+  "missing": "none"
+}

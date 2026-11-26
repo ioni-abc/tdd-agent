@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the method returns a list of str moves but never says what to return when no path to the goal exists, which is the case this test checks (an all-zero board expecting None).",
+  "missing": "The docstring should state the return value when the search exhausts all reachable states without reaching the goal, for example that it returns None when no solution exists."
+}

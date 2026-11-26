@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_user returns True when a new user is added to an empty or non-existing set, so a programmer following it would return True for a first-time username and pass this test.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the standard deviation rounded to two decimal places, and its example ([1, 2, 3, 4] giving 1.12) matches the population formula, so a programmer following it would produce 1.12 for [1, 4, 3, 2] as well.",
+  "missing": "none"
+}

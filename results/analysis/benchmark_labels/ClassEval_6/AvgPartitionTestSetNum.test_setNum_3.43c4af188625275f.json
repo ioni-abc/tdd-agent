@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says \"size of each block\" but never defines whether `limit` is the number of blocks or the block size, and the test's expected `(1, 2)` only follows if `limit` is the number of blocks.",
+  "missing": "The docstring should state what the constructor's second argument means (number of blocks or maximum block size) and that the returned size is the floor of length divided by that value, so a programmer can pick the intended reading."
+}

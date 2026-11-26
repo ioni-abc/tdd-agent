@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to keep the Nth column, capitalize it, and save it to a `_process` file returning 1, and its example shows `hElLo` becoming `HELLO`, which matches the test's expected uppercase `ME` for column 2.",
+  "missing": "none"
+}

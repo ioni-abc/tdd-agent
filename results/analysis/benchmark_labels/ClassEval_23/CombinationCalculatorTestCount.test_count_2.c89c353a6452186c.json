@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines count(n, m) as the number of combinations of m elements chosen from n, so a programmer implementing the standard binomial coefficient would get C(5,3)=10 and pass.",
+  "missing": "none"
+}

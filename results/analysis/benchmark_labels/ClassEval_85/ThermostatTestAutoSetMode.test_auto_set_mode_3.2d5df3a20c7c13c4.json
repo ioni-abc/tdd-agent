@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the mode becomes 'cool' whenever the current temperature is not lower than the target, and this test's current temperature (25) is above its target (20), so a programmer following the docstring gets 'cool' and passes.",
+  "missing": "none"
+}

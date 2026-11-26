@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives only the basic linear-interpolation idea, so a programmer who sorts the x-data first would get different values (about 2.33 and 3.67) from the test's expected [2.2, 3.4], which comes from scanning the segments in the order given.",
+  "missing": "The docstring should say whether the x-values must be sorted, and if they are not, which segment is used for each query point, and that query points outside the data range are omitted from the output."
+}

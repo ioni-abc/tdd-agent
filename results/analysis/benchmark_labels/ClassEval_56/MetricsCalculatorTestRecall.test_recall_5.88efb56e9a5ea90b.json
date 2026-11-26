@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines recall as the fraction of true positives among actual positives, and this test's inputs give one true positive and two false negatives, so a programmer following it would return 1/3.",
+  "missing": "none"
+}

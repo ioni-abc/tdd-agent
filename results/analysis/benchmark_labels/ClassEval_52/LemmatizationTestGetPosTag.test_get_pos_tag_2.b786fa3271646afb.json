@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says punctuation is removed before tokenizing and tagging, so a programmer following it would strip the apostrophe and comma and return one tag per remaining word, which matches the expected seven tags.",
+  "missing": "none"
+}

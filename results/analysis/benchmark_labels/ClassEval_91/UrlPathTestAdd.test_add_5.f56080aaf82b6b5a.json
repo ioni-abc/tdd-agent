@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says `add` appends the segment to `segments`, and the test adds a plain segment and checks that it is the only item in the list, which a programmer following the docstring would produce.",
+  "missing": "none"
+}

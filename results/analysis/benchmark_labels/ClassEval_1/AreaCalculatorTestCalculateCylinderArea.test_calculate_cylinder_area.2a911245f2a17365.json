@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (radius 2, height 3 gives 62.83) fixes the formula as total surface area 2\u03c0r(r+h), so a programmer following it would return about 50.265 for height 2 and pass the test's delta of 0.01.",
+  "missing": "none"
+}

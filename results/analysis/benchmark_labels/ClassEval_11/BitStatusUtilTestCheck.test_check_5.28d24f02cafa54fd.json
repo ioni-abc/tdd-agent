@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that non-even arguments must raise ValueError, and the test passes a list containing odd values, so a correct implementation would raise.",
+  "missing": "none"
+}

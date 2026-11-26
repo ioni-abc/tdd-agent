@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly gives '256.0.0.0' as an example returning False, and a programmer checking IPv4 validity by octet range would correctly reject it, matching the test.",
+  "missing": "none"
+}

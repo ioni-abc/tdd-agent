@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to count words across all lists, sort by frequency in descending order, and return the top 5, which is exactly what this test checks, and the tied words at count 2 all fit within the top 5, so no tie-breaking rule is needed.",
+  "missing": "none"
+}

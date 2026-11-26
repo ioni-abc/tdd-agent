@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the name of the student with the highest gpa computed by get_gpa, and the test checks exactly that by expecting the student with the higher course score to be returned.",
+  "missing": "none"
+}

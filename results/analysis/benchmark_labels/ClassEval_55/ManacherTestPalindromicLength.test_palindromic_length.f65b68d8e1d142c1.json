@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest calls `palindromic_length(2, 1, 'a|b|a|b|a')` and expects `2`, which is the same call and expected value the test checks, and the reference code produces 2 for it.",
+  "missing": "none"
+}

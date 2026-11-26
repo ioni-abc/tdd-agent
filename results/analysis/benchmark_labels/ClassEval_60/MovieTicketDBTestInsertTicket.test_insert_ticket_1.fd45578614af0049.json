@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test is filed under create_table but only exercises insert_ticket and search_tickets_by_customer, and it never checks that create_table creates the table.",
+  "missing": "none"
+}

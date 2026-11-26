@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_gpa returns the average of a student's course grades as a float, so a student with one course scoring 90 should yield 90.0, which is what the test checks.",
+  "missing": "none"
+}

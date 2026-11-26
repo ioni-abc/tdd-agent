@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names the standard Rail Fence cipher and its example (`\"abc\"`, 2 rails \u2192 `'acb'`) shows the zigzag-then-read-rail-by-rail convention, so a programmer implementing the standard cipher would produce this test's expected output.",
+  "missing": "none"
+}

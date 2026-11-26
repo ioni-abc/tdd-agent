@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method converts a key string to camel case and gives the `first_name` to `firstName` example, so a programmer would produce `eeeFff` for `eee_fff`.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says adding a new product_id creates an entry with name and quantity in the inventory dict, which is exactly what this test checks after adding product 1 to an empty warehouse.",
+  "missing": "none"
+}

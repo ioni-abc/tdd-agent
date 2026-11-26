@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes the rule this test checks: experience overflows past each level-up threshold of 100 times the current level and carries into the next level-up, so a programmer following it would reach level 3 with 100 exp from a starting level of 1.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what happens when the expansion reaches or passes the string boundary, so a naive implementation that indexes with negative indices would wrongly compare characters and return a nonzero length, while the test expects 0.",
+  "missing": "The docstring should state that the recursion returns 0 as soon as the left or right expansion index falls outside the string (below 0 or at/after the string length), or when the characters at the two indices differ, and that out-of-range indices are never compared."
+}

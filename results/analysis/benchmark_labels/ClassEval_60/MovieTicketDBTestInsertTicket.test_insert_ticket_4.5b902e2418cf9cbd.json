@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test exercises `insert_ticket` and `search_tickets_by_customer`, but it is filed under `create_table`, whose docstring only covers creating the table.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False when the new course's time conflicts with any existing course, and this test's partially overlapping times are a clear conflict under that rule, so a programmer following it would return False.",
+  "missing": "none"
+}

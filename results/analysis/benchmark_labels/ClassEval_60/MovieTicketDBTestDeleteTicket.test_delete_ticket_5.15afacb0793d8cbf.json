@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the method returns matching rows, but it does not say that each row's first column is the record's id, which the test depends on to call delete_ticket.",
+  "missing": "The docstring should state the column layout of the returned rows, including that the first column is the record's unique identifier, so callers can use it to address that record."
+}

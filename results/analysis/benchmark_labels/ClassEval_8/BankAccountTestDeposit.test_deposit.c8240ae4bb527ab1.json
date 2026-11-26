@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says deposit adds the amount to the balance and returns the current balance, so depositing 1000 into a fresh account should return 1000, which the test checks.",
+  "missing": "none"
+}

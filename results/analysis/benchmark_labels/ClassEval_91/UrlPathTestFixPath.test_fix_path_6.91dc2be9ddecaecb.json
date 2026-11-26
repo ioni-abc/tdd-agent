@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer implementing \"remove leading and trailing slashes\" on an empty string would naturally return an empty string, which is what the test expects.",
+  "missing": "none"
+}

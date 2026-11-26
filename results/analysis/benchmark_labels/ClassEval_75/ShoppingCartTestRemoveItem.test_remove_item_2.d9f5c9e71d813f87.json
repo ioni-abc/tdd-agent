@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The signature gives `quantity=1` as the default and the docstring says `quantity` is the amount to subtract, so a programmer would subtract 1 when it is omitted, which is what the test checks.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says code blocks become -CODE- and the other text is kept, but the test's exact expected string depends on line-feed and whitespace normalization that a correct implementation could get differently.",
+  "missing": "The docstring should specify how whitespace and line breaks in the output are formed, including leading or trailing newlines, indentation stripping, and whether each block element becomes its own line."
+}

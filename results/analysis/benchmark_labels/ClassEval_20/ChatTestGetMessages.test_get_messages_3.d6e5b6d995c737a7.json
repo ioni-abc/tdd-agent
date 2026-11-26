@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's second example shows that asking for a user who has no entry in the chat returns an empty list, which is exactly what this test checks for an unknown user.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the cosine of the element-wise means of the two lists, which the docstring never states; it only gives one example whose value happens to match that rule, so a programmer could reasonably average pairwise similarities instead.",
+  "missing": "The docstring should say that each list is first reduced to its element-wise mean vector, and the cosine similarity is then computed between those two mean vectors, rather than averaging pairwise similarities."
+}

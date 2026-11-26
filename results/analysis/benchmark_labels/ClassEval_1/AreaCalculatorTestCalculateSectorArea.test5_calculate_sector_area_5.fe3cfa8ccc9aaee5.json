@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's sector-area behaviour, which the example confirms (radius 2 with angle pi gives 2pi), implies the standard formula, so a radius of 0 gives an area of 0 as the test expects.",
+  "missing": "none"
+}

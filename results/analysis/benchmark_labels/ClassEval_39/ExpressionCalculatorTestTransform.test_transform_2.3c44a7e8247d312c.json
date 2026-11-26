@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example turns \"2 + 3 * 4\" into \"2+3*4\", so a programmer would strip whitespace and keep the operators, which is exactly what the test checks with \"2 + 3 / 4\" giving \"2+3/4\".",
+  "missing": "none"
+}

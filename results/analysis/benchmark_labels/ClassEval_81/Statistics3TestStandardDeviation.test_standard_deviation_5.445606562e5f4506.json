@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the sample standard deviation (divisor n-1, giving 1.3038... rather than the population value of about 1.166), but the docstring never names which divisor to use, and only its one example ([1,2,3] \u2192 1.0) hints at it.",
+  "missing": "The docstring should state the divisor explicitly, e.g. that the result is the sample standard deviation computed with (n-1) in the denominator, and what is returned for lists with fewer than two elements."
+}

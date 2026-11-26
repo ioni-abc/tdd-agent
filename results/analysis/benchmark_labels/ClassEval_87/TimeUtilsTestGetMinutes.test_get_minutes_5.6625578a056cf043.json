@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the number of minutes between two times, and its example (one hour apart gives 60) shows that a five-hour gap should give 300, so a programmer following it would pass.",
+  "missing": "none"
+}

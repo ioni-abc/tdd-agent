@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the input is a postfix expression, but its own example \"2 + 3 * 4\" \u2192 14.0 and this test's \"2 + 4 / 4\" \u2192 3.0 are infix expressions, so a programmer following \"postfix\" would reject or misevaluate this input.",
+  "missing": "The docstring should state whether the input is infix (with operator precedence and parentheses) or postfix, and if infix, it should say that the method converts it to postfix before evaluating."
+}

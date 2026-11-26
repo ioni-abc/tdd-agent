@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to judge by the BMI standard and gives the return codes, but never states the BMI cutoffs for each sex, so a programmer cannot know that a BMI of about 17.9 for a male counts as too thin.",
+  "missing": "The docstring should state the BMI boundaries used for males and for females (the lower and upper limits that separate thin, normal and fat), so that any BMI value can be classified exactly."
+}

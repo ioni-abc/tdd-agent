@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the mean of per-sequence AP values (each sum of hit-position precisions divided by the total ground-truth count), and the docstring never states that formula, so a programmer could easily get 0.40625 wrong.",
+  "missing": "The docstring should state the exact AP formula: for each item, add the precision (correct hits so far divided by position) at every position holding a 1, then divide by the stated total ground-truth count, and the MAP is the mean of those per-item values."
+}

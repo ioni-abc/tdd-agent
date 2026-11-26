@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns whether the user is in the database and the password is correct, so a nonexistent user should yield False, which is what the test asserts.",
+  "missing": "none"
+}

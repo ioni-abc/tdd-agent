@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True only when the URI starts with \"/api\" or \"/login\", so a programmer would return False for \"/abc/data\", which is what the test asserts.",
+  "missing": "none"
+}

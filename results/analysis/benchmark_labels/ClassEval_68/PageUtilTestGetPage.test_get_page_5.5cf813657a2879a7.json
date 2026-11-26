@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring describes fetching a page but says nothing about what happens for a page number below 1, so a programmer could reasonably return something other than an empty list (for example, a negative-index slice) and fail this test.",
+  "missing": "The docstring should state what is returned when the requested page number is out of range (less than 1 or beyond the last page), such as an empty list."
+}

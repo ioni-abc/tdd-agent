@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False whenever saving is not successful, and with an empty cookies filename the write fails, so a programmer following it would return False and pass.",
+  "missing": "none"
+}

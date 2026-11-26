@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test calls `game.answer('4*3+6+6')`, which is not the method under test (`get_my_cards`), and its expected result depends on the random cards, so it cannot be checked against this docstring.",
+  "missing": "none"
+}

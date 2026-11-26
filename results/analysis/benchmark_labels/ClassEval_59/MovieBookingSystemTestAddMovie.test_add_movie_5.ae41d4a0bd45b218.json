@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the movie stored with the given name and price, start and end times converted to datetimes on 1900-01-01, and an n-by-n seats array, which covers every assertion in the test.",
+  "missing": "none"
+}

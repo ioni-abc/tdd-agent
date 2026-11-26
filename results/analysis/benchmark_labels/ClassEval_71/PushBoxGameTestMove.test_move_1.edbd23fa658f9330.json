@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example runs the same sequence of moves (d, s, a, s, d) and shows False for the first four and True for the last, which is exactly what the test asserts.",
+  "missing": "none"
+}

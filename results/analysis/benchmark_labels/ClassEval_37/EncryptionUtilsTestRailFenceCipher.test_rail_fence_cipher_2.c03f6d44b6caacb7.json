@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names the Rail Fence cipher and its example (\"abc\", 2 rails gives \"acb\") pins down the standard zigzag convention, which a programmer would apply to give \"hloel\" for the test input.",
+  "missing": "none"
+}

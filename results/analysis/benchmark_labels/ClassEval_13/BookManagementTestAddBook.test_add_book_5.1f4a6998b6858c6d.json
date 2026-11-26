@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_book adds one or several books to the inventory with a default quantity of 1, so a programmer would accumulate the count when a title is added again, giving the expected 3.",
+  "missing": "none"
+}

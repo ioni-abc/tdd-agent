@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the remainder is accounted for but does not say which blocks receive the extra elements, so a correct implementation that spreads the remainder to the last blocks would return [1] for index 0 and fail this test.",
+  "missing": "The docstring should state that when the list does not divide evenly, the first (remainder) blocks each receive one extra element, and the later blocks get the base size."
+}

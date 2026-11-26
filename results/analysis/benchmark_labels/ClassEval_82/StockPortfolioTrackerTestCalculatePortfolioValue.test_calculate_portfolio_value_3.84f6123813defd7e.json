@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example (cash of 10000.0 plus one holding worth 1500.0 gives 11500.0) shows that the total includes the cash balance, so with no holdings a programmer would return the cash balance, which is what the test expects.",
+  "missing": "none"
+}

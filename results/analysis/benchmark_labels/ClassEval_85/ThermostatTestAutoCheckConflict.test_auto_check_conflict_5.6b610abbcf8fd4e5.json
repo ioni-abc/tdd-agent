@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say how a conflict is judged when the current temperature equals the target, so the test's expectation (return False and leave the mode as 'cool') cannot be derived from it.",
+  "missing": "The docstring should state whether a current temperature equal to the target counts as a conflict for each operating mode, and whether the mode changes in that case."
+}

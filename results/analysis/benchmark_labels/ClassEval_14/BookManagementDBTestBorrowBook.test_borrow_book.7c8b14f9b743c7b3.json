@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the book is \"marked as borrowed in the database\" but does not name the column or value that records this, while the test expects the `available` column to become 0, so a correct implementation using a different representation could fail.",
+  "missing": "The docstring should name the database field that tracks borrowing status and the exact value that means \"borrowed\" (for example, which column is changed and to what value)."
+}

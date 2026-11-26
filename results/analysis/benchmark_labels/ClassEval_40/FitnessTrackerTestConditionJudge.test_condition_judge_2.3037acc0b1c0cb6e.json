@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A female with BMI about 27 is above the upper bound of any standard BMI category, so a programmer following the docstring's \"1 if too fat\" would return 1 and pass.",
+  "missing": "none"
+}

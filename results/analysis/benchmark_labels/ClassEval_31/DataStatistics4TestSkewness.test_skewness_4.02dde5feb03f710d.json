@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example value for [1, 2, 5] pins down the adjusted Fisher-Pearson formula with the (n-1)(n-2) correction and population standard deviation, which is the same convention the test's expected value for [1, 2, 4] relies on.",
+  "missing": "none"
+}

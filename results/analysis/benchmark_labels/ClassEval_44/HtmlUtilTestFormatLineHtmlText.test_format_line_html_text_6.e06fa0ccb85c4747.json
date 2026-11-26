@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives no behaviour for an empty input string, so a correct implementation could return something other than the empty string the test expects.",
+  "missing": "The docstring should state what the method returns when the input HTML is empty or None, such as an empty string."
+}

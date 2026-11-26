@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines f1 as the harmonic mean of precision and recall, and the standard definitions (positive class 1, precision = TP/(TP+FP), recall = TP/(TP+FN)) give 2/3 and 1, so the expected 0.8 follows.",
+  "missing": "none"
+}

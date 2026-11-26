@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test passes an int, which the docstring's requirement that input be a tuple or list excludes, and its bare try/except accepts any outcome, so an implementation following the docstring passes.",
+  "missing": "none"
+}

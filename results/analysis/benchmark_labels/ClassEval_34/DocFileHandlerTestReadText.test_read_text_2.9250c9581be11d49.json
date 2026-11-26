@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says read_text returns the Word document's content as a string, and a programmer would extract the paragraph text, which for a single paragraph \"111\" gives exactly the expected \"111\".",
+  "missing": "none"
+}

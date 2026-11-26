@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns a dict for JSON objects and a str, int, or float otherwise, according to the file content, so a programmer using json parsing would return the decoded string 'aaa' from the quoted JSON file.",
+  "missing": "none"
+}

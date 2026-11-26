@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example converts \"2001-7-18 1:1:1\" to 2001-07-18 01:01:01, which is exactly the input and output this test checks, so a programmer following it would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test calls `game.get_my_cards()`, but the docstring and reference code belong to `_generate_cards`, so the test is not exercising the method whose docstring the agent sees.",
+  "missing": "none"
+}

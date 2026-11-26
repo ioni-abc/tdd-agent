@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring defines cos in degrees and implies cos(90) is 0, but it does not say results are rounded, so a correct floating-point implementation could return a tiny nonzero value like 6e-17 and fail the exact equality check.",
+  "missing": "The docstring should state the output precision, for example that results are rounded to a fixed number of decimal places, so that exact-equality checks on values that are mathematically zero are well defined."
+}

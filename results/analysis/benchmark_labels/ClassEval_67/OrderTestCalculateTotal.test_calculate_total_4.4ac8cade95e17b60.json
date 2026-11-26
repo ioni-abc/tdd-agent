@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to multiply count, price and sales for each ordered dish and return the total, which a programmer would implement as a sum of price \u00d7 count \u00d7 sales over the selected dishes, giving 75 for this test's two dishes.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives no guidance for input with only one row, where the correlation is undefined, so a correct implementation could return a number or an error instead of the None values this test expects.",
+  "missing": "The docstring should say what each correlation entry is when it is undefined, such as when there are fewer than two rows or a column has zero variance, and what value (for example None) should be returned in that case."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring's example shows the snake keeping length 1 and score 10 after moving onto the food, while the test and reference code expect length 2 and score 100 after eating.",
+  "missing": "The docstring should state the exact score gained when the snake eats food and how its length changes, and its example output should match that rule."
+}

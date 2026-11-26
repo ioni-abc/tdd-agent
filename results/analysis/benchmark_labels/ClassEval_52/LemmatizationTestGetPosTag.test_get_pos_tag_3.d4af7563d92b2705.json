@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the possessive apostrophe in \"dog's\" to be removed so the word becomes \"dogs\" (tagged NNS), but the docstring only says \"remove punctuations\" without saying whether apostrophes count or how they are removed.",
+  "missing": "The docstring should state which punctuation characters are removed, including apostrophes in possessives and contractions, and whether the removed character joins the surrounding letters into one word or splits them into separate tokens."
+}

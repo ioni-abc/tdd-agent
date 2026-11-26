@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns \"the remaining number of this type rooms\", so a programmer would subtract booked rooms from the initial count and return 1 after two of three singles are booked.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True when the expression has balanced brackets, and a standard stack-based check on \"[a](b){c}\" (sequential, properly nested pairs with letters in between) gives True, so a programmer following it would pass.",
+  "missing": "none"
+}

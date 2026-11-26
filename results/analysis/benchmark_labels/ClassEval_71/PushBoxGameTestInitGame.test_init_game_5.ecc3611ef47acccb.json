@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example builds the same map and shows `game.targets` as `[(3, 3)]`, so a programmer following it would produce the tested value.",
+  "missing": "none"
+}

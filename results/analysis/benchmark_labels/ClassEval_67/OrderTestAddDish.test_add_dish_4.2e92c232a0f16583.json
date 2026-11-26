@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a dish is added to `selected_dishes` when its count fits the menu, the menu count is then reduced, and the method returns True, which is exactly what the test checks.",
+  "missing": "none"
+}

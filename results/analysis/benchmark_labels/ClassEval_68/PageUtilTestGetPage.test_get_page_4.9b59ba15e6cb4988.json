@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_page returns the data on the specified page, so a programmer would slice the data by page size and naturally return the short remainder [10] for page 4.",
+  "missing": "none"
+}

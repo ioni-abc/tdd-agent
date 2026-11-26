@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows a non-zero-padded input like \"2001-7-18 1:1:1\" returning the corresponding datetime, so a programmer following it would handle this test's input and expected output.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says where the leftover elements go when the list doesn't divide evenly, so a programmer could reasonably put the extra element in the last block and get a different slice than the test's expected [4, 5].",
+  "missing": "When the list length is not divisible by the number of partitions, each of the first remainder-count blocks should receive one extra element, with later blocks getting the base size."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's formula log((total_num+1)/(count+1)) and its example (key1 = 0.1 giving 1.0033) fix the computation, so a programmer following it gets log(3/1.5) = 0.6931 for this test.",
+  "missing": "none"
+}

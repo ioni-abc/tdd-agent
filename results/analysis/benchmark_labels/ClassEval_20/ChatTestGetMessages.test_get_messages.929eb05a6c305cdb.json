@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_messages returns a user's messages as a list of dictionaries with the keys sender, receiver, message and timestamp, which is exactly what the test checks for user 'John' with one stored message.",
+  "missing": "none"
+}

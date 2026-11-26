@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example uses the same URL shape (query string followed by a fragment) and shows the same expected dict, so a programmer following it would return the parsed key-value pairs and pass.",
+  "missing": "none"
+}

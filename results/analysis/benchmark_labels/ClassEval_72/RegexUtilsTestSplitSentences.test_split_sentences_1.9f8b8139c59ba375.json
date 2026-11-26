@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example input \"Aaa. Bbbb? Ccc!\" yields ['Aaa', 'Bbbb', 'Ccc!'], which is exactly the case the test checks, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

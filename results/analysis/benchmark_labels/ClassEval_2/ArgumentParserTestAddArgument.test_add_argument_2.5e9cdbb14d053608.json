@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says arguments are added to the required set only when flagged required (default False), and that every argument's type is stored in the types dictionary with a default of str, so a programmer following it would produce both expected results.",
+  "missing": "none"
+}

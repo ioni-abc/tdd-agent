@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says extract_file returns False when the extraction operation is not successful, and with an empty zip path and empty file name the extraction plainly fails, so a programmer following it would return False.",
+  "missing": "none"
+}

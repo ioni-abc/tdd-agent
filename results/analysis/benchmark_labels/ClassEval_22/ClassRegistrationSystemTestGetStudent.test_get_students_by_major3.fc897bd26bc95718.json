@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the names of all students in the given major, which is exactly what the test checks: it filters by major and returns the matching names, and a natural implementation keeps the stored order.",
+  "missing": "none"
+}

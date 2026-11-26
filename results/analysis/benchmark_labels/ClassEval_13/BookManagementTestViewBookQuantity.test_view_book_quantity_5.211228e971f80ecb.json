@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer following the docstring would return the current stored quantity for the title, which is 1 after adding 3 and removing 2.",
+  "missing": "none"
+}

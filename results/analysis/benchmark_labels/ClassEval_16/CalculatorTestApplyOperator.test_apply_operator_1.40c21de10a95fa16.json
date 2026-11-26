@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring's own example gives the same inputs as the test but returns an operator stack of `['-']`, while the test and reference code both expect `['+']`, since the top operator is popped and only the remaining one stays.",
+  "missing": "The docstring should state that the operator used is removed from the top of the operator stack, so the returned operator stack is the input minus its top element, and its example should show that result."
+}

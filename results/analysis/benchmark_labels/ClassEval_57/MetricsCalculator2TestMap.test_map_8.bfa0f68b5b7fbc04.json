@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what AP a (results, ground-truth count) entry should get when its ground-truth count is zero, so a programmer computing precision over the relevant hits would divide by zero or produce a different value than the test's expected 0.0 per entry.",
+  "missing": "The docstring should state that any entry whose ground-truth total is zero contributes an AP of 0.0 to the per-input list and to the mean, regardless of its result values."
+}

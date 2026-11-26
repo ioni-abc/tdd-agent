@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says findall returns all substrings matching the regex pattern, so a programmer using re.findall would return only the full-format phone number and skip the near-miss \"111-111-111a\", which has only three digits in the last group.",
+  "missing": "none"
+}

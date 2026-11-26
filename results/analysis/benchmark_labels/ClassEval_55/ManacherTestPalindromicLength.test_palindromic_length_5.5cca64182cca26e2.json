@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes a recursive count of how far the palindrome extends from the center, and walking the test's inputs outward (4 matching pairs before the mismatch or edge) gives 4, which a programmer following that description would produce.",
+  "missing": "none"
+}

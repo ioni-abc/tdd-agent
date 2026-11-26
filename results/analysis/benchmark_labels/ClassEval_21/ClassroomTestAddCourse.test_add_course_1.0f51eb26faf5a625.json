@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the course is added to the courses list if it wasn't already there, and the test adds a new course and checks it is present in the list, which a programmer following the docstring would pass.",
+  "missing": "none"
+}

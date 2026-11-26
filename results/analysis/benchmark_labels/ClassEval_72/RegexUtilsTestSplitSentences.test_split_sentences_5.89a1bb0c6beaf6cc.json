@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says sentences are split with their terminal punctuation removed except on the last sentence, which is exactly what this test checks: the `?` is dropped, the final `!` is kept, and the comma stays inside the first sentence.",
+  "missing": "none"
+}

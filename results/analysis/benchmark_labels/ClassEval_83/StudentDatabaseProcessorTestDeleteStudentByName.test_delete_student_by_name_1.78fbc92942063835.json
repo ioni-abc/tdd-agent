@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test-method mismatch: the test is named and filed under search_student_by_name, but it exercises delete_student_by_name and checks that no row remains, which the search docstring never mentions.",
+  "missing": "none"
+}

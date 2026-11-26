@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says each character is shifted but does not say that shifts wrap around the alphabet, so a programmer could implement a shift without wrap-around and fail the test's shift-by-26 expectation.",
+  "missing": "Letters should wrap around within their own case's alphabet (so shifting past the end continues from the start, with shifts taken modulo 26), while non-letter characters are left unchanged and letter case is preserved."
+}

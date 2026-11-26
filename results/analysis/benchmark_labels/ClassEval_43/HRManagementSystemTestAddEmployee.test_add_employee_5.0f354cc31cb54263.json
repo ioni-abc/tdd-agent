@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says that employees are stored in an `employees` attribute keyed by id with a dict of name, position, department and salary, yet the test asserts that exact internal structure, so a correct implementation using a different layout would fail.",
+  "missing": "The docstring should state where and how the employee records are stored (the attribute name, that it is keyed by employee id, and the exact field names of each record) and that \"already in the system\" means the same employee id is already present."
+}

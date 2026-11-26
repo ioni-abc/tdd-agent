@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the player map is an n*n board of '-' for unknown positions, and its example (n=3) matches the test's expected 3x3 grid of '-'.",
+  "missing": "none"
+}

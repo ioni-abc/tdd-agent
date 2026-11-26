@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example and its description of per-page information (current page, per-page size, total pages and items, has_previous/has_next flags, page data) let a programmer derive the expected dict for page 3 of 10 items at 3 per page, including the middle-page previous/next flags and the sliced data.",
+  "missing": "none"
+}

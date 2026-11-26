@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the movie dict with the name, price, start_time and end_time parsed to datetime(1900, 1, 1, H, M), and seats as an n-by-n zero array, which is everything the test asserts.",
+  "missing": "none"
+}

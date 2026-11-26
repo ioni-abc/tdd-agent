@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example, median([1, 2, 3, 4]) returning 2.5, is the same case the test checks, so a programmer following it would pass.",
+  "missing": "none"
+}

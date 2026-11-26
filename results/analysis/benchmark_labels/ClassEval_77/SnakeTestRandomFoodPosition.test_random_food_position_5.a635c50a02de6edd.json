@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring states that the food must not land on the snake, which the test checks, but it does not say the food must fall inside the screen bounds, which the test also asserts.",
+  "missing": "The docstring should state that the new food position must lie within the screen area and be aligned to the block grid (multiples of the block size, from zero up to the screen size minus one block), in addition to avoiding the snake's body."
+}

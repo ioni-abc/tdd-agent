@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example output (about 0.975 for [1,2,3] vs [4,5,6]) is the cosine similarity value, which is what this test checks for [1,1] vs [1,0] and [1,1], even though the return description wrongly says \"cosine distance\".",
+  "missing": "none"
+}

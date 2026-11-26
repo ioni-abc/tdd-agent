@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the first row is the title and the rest is data, which is exactly what the test checks: a one-cell title row followed by one data row.",
+  "missing": "none"
+}

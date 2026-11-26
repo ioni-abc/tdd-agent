@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each call adds 1 to the length and 100 to the score, so five calls from length 1 and score 0 give length 6 and score 500, which is what the test checks.",
+  "missing": "none"
+}

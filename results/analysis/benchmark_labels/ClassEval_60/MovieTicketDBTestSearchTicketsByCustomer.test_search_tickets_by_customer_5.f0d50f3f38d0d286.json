@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that the method inserts a row with the four given values, but the test also depends on how a later search returns that row, with an auto-generated id at index 0 followed by the four values, and nothing in the docstring says so.",
+  "missing": "The docstring should state the layout of stored records as read back by query methods, including any generated id column and its position, so a correct implementation can match what the test indexes."
+}

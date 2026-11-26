@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says is_alive returns True only when hp is larger than 0 and False otherwise, so a hp of 0 must yield False, which is what the test checks.",
+  "missing": "none"
+}

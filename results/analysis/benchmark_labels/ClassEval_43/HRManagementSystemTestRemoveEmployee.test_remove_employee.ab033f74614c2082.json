@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method removes the employee and returns True when they were present, which covers both assertions in the test (the True return and the emptied employees dict).",
+  "missing": "none"
+}

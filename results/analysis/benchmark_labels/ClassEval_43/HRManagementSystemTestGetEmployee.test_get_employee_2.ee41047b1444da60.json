@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that an employee not in the system yields False, and the test checks exactly that case with an empty employee store.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method places the current mark, switches players, and returns a success bool, so a programmer following it would return True and switch from X to O on an empty cell, which is what the test checks.",
+  "missing": "none"
+}

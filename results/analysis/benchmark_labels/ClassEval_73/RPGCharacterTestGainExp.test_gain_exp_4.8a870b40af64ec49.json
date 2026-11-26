@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test depends on the character's starting level and exp, which the docstring never specifies; a programmer reading the docstring could assume the fourth constructor argument sets the level, giving level 10 and no level-up from 300 exp, and fail.",
+  "missing": "The docstring should state what level and exp a newly constructed character starts with, and which constructor argument sets the level, so the level-up threshold calculation has a known starting point."
+}

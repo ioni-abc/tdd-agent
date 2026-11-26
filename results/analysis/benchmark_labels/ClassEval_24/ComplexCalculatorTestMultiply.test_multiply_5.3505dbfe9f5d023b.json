@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method multiplies two complex numbers and returns their product, so standard complex multiplication yields 3-4j, which is what the test expects.",
+  "missing": "none"
+}

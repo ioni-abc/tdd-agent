@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that when the requested count exceeds the remaining rooms and the remaining quantity is zero, the method returns False, which is exactly what this test checks after all singles are booked.",
+  "missing": "none"
+}

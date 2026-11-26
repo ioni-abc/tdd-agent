@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the output as the normal PDF with mean mu and standard deviation sigma, so a programmer would implement the standard Gaussian density, which gives the expected values for sigma=2.",
+  "missing": "none"
+}

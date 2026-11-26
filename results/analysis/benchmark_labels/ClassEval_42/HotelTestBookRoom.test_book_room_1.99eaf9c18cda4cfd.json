@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says booked_rooms is modified but never gives its structure, so a correct implementation could store bookings differently and fail the test's exact `{'single': {'guest 1': 2}}` assertion.",
+  "missing": "The docstring should specify the format of booked_rooms (e.g. a mapping from room type to a mapping from guest name to the number of rooms that guest booked) and that available_rooms for that type is reduced by the number booked."
+}

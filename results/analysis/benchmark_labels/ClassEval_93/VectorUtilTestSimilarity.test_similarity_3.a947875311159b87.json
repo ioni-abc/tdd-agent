@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the output as cosine similarity, and the cosine similarity of a vector with itself is 1.0, so a programmer following it would pass this test.",
+  "missing": "none"
+}

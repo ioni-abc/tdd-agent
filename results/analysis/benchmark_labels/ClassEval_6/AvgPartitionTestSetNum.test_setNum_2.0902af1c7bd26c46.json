@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the block size and the remainder of the division, and its example (4 items split by 2 gives (2, 0)) fixes the quotient-and-remainder meaning, so a programmer would compute len//limit and len%limit and get (2, 1) for 5 items split by 2.",
+  "missing": "none"
+}

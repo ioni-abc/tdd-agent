@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says sentences end with \".\" or \"?\" followed by a space, so a programmer splitting there would produce ['Who is A.B.C.?', 'He is a teacher.'], which is what the test expects.",
+  "missing": "none"
+}

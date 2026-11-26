@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring asks for the current time in `%H:%M:%S` format, but the test compares the result against the instance's stored `datetime` attribute, which the docstring never mentions, so a clock-based implementation could fail.",
+  "missing": "The docstring should say which time source the method uses, such as the instance's stored datetime attribute set at construction or the live system clock, since these can differ."
+}

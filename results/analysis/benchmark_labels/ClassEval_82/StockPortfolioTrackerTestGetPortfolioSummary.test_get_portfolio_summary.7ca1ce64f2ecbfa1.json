@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example uses the same setup (a 10000.0 starting balance, one AAPL holding at 150.0 \u00d7 10) and shows the same return value, (11500.0, [{'name': 'AAPL', 'value': 1500.0}]), so a programmer following it would pass.",
+  "missing": "none"
+}

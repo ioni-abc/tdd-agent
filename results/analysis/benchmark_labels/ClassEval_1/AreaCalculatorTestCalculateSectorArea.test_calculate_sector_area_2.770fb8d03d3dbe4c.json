@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (radius 2, angle pi gives 6.283...) matches the sector-area formula radius\u00b2 \u00d7 angle / 2, which yields pi for the test's radius 2 and angle pi/2, within the 0.01 tolerance.",
+  "missing": "none"
+}

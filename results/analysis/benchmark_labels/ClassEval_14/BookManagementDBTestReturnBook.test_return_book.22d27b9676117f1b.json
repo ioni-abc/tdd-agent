@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that the book is \"marked as returned,\" but the test checks a specific `available` column set to 1, which a programmer could reasonably implement differently (e.g., a separate borrowed flag or deleting a borrow record).",
+  "missing": "The docstring should name the column or field that records the return and the value it must take after a return (for example, which column tracks availability and whether returned books must be set to 1 or 0)."
+}

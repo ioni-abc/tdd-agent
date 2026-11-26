@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the method returns the name of the top student but never says what to return when there are no students, so a correct implementation could return an empty string or raise an error instead of None.",
+  "missing": "The docstring should state the fallback value returned when no student qualifies, such as when the system has no students or no student has a computable GPA."
+}

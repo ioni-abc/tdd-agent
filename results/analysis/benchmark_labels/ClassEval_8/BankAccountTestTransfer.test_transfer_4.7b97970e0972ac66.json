@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says transfer moves a given amount from the current account to the other account, and a programmer would implement that as withdraw then deposit, which yields 0 and 1500 for this case.",
+  "missing": "none"
+}

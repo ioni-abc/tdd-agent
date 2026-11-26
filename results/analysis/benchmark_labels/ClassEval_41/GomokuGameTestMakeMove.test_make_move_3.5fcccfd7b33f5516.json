@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a valid move places the current player's symbol on the board and then switches to the other player, which is exactly what the two consecutive moves and the resulting board check, and a correct implementation following it would pass.",
+  "missing": "none"
+}

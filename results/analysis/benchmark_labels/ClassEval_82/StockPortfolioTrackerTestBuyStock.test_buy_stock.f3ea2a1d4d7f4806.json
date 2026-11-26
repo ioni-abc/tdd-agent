@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says a successful buy adds the stock to the portfolio but never says the cash balance is reduced, which the test checks after a purchase.",
+  "missing": "The docstring should state that a successful purchase deducts the total cost (price multiplied by quantity) from the cash balance, and that a failed purchase leaves the balance unchanged."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the output as the normal-distribution PDF evaluated at each data point, which is exactly what the test checks: mu=2 and sigma=1 give the symmetric values expected for inputs 1, 2, 3.",
+  "missing": "none"
+}

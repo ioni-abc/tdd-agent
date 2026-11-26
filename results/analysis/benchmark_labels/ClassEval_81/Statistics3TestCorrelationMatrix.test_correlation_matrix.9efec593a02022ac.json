@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example uses the same input and expected all-1.0 matrix that the test checks, so a programmer following it would pass.",
+  "missing": "none"
+}

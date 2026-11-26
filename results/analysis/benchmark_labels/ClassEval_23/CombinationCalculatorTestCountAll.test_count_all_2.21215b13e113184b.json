@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives no behaviour for negative inputs, so a programmer following it could raise an error or return a nonsensical count instead of the False the test expects.",
+  "missing": "The docstring should state what the function returns for any input outside the valid range of n (including all negative values and values too large to fit the stated bound), e.g. a specific sentinel such as False."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives only a single-mode example and does not say what to return when several values tie for the highest count, so a programmer could reasonably return only one mode and fail this test that expects all tied values.",
+  "missing": "The docstring should state that when multiple values share the highest frequency, all of them are returned in a list, and specify their order (for example, order of first appearance in the input)."
+}

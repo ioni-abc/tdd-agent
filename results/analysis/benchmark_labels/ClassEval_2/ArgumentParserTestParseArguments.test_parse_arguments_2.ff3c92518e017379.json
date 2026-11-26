@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows flags with no following value (such as `--option1` and a trailing `-option2`) being stored as `True`, which is exactly what this test checks for `--verbose` and `-d`.",
+  "missing": "none"
+}

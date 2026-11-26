@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says sin takes a degree angle and returns a float, so a programmer would compute sin(0\u00b0) = 0.0, which is what the test asserts.",
+  "missing": "none"
+}

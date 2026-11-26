@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says mean returns the average of the list as a float, so a programmer would compute sum divided by length and get 1.0 for a list of identical ones, matching the test.",
+  "missing": "none"
+}

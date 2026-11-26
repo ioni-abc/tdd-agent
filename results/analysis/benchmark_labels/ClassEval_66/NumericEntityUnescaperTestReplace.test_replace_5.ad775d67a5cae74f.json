@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the output is the input with numeric references replaced, so with no references an empty input should return an empty string, which is what the test expects.",
+  "missing": "none"
+}

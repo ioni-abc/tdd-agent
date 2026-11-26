@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"standard deviation\" without specifying the divisor, but the reference uses the sample formula (n-1), so a programmer implementing population standard deviation (n) would get a different value and fail.",
+  "missing": "The docstring should state whether the result is the sample standard deviation (divide by n-1) or the population standard deviation (divide by n), and what is returned when the list has too few elements to compute it."
+}

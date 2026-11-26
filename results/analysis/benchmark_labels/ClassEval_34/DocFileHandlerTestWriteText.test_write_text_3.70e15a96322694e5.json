@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that content is written to the Word document, so it does not say whether this replaces the existing document text, which the test's read-back equality depends on.",
+  "missing": "The docstring should state whether writing replaces all existing text in the file or appends to it, and whether the file is created or overwritten when it already has content."
+}

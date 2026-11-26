@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says is_alive returns True when hp is greater than 0, and the test creates a character with positive hp (100) and asserts True, which a programmer following the docstring would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say the temperature changes by exactly 1 degree per time unit, or that the adjustment overshoots the target, so a correct implementation could pick a different step or stop at a different temperature and fail this test's count of 6 and final temperature of 19.7.",
+  "missing": "The docstring should state that each time step changes the temperature by exactly one degree in the mode's direction, and that the adjustment continues until the temperature has passed the target, so the final temperature can lie beyond it."
+}

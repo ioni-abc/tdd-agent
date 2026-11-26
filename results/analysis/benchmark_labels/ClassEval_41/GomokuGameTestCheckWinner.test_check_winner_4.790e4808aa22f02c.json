@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test has both X and O with five in a row on the board, and it expects 'O', which the reference gets only from its row-major scan order; the docstring says nothing about this case, so a correct implementation that returns 'X' could fail.",
+  "missing": "The docstring should say which symbol to return when both players have five in a row, for example the first winning line found when scanning the board row by row from the top-left, or the player who completed a line most recently."
+}

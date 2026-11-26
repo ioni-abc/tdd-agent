@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the skewness of the data, and any skewness formula yields 0 for the symmetric input [1, 2, 3] (deviations from the mean cancel), so a programmer following it would pass.",
+  "missing": "none"
+}

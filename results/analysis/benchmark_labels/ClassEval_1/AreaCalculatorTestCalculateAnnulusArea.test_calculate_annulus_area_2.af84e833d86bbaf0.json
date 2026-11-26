@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the annulus area from the inner and outer radii, so a programmer applying that formula to equal radii gets zero, which is what the test expects.",
+  "missing": "none"
+}

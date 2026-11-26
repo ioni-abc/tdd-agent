@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method adds a heading with a default level of 1, so a programmer would call the heading API with that level and the test's check that a paragraph with a Heading-style name contains the text would pass.",
+  "missing": "none"
+}

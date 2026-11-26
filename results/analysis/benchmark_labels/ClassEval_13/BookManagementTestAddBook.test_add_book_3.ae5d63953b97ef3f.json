@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_book adds one or several books to the inventory with a quantity defaulting to 1, so a programmer would expect repeated calls to accumulate counts, which is what the test checks.",
+  "missing": "none"
+}

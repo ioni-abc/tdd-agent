@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the table is populated with the given list of lists, so a programmer would build a table with one row per inner list and one column per item, then check that the cell text matches the data, which is what this test asserts.",
+  "missing": "none"
+}

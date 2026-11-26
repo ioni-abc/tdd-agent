@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says that returning False is the result when the room_type isn't in available_room, and failing to book implies no changes, so a programmer following it would return False and leave both dictionaries untouched.",
+  "missing": "none"
+}

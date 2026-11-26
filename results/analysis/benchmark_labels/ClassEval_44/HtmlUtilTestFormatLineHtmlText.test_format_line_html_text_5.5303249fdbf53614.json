@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's example shows the right content (headings and paragraphs kept, each `<pre>` replaced by `-CODE-`), but it does not say how the surrounding blank lines and line breaks should look, and the test expects a leading and trailing newline that a programmer could easily produce differently.",
+  "missing": "The docstring should state the exact line-break and whitespace rules of the output, including whether leading and trailing newlines from the input are kept or stripped and how blank lines between blocks are handled."
+}

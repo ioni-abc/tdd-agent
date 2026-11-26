@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's formula and worked example (2 with count 0.1 gives 1.0033) both match the natural log((total_num+1)/(count+1)) that the test checks with count 0.3, so a programmer following it would pass.",
+  "missing": "none"
+}

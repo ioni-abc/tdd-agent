@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the top operator is applied to the two top operands with the result stored back on the operand stack, so a programmer would pop '^', compute 2^3 = 8, and leave [1, 8] and ['+'], which is what the test expects.",
+  "missing": "none"
+}

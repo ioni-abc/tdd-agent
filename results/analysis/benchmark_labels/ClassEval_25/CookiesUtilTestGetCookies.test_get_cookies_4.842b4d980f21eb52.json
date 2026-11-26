@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that the value under the `'cookies'` key becomes `cookies`, and the test expects the same extraction, with the extra keys in the response ignored.",
+  "missing": "none"
+}

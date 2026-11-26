@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for all email addresses in the text, so a programmer would reasonably return only the well-formed address and skip the strings that lack an \"@\" and a proper structure, which is what the test expects.",
+  "missing": "none"
+}

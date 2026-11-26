@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the blank-position rule for allowed directions and an example with the same state, so a programmer following it would return ['up', 'left', 'right'] and pass the test's subset check.",
+  "missing": "none"
+}

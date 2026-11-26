@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring requires the address to be four decimal digit groups separated by dots, so a non-numeric octet like \"a\" must make it invalid, which is what the test expects.",
+  "missing": "none"
+}

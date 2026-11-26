@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says withdrawing a valid amount decreases the balance and returns the current balance, which is exactly what the test checks (1000 minus 500 returns 500).",
+  "missing": "none"
+}

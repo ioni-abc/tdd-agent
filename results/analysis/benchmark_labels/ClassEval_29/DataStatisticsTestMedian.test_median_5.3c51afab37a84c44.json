@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines median and asks for a two-decimal result, and a programmer would take the standard median of an even-length list (the mean of the two middle values) to give 5.5, which is what the test expects.",
+  "missing": "none"
+}

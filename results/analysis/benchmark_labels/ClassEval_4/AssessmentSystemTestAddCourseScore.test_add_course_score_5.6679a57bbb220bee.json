@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes adding a score for an existing student, so a programmer could reasonably raise an error or create a new entry when the name is unknown, while the test expects the system to be left unchanged.",
+  "missing": "The docstring should say what happens when the given student name is not already in `self.students`, such as whether the call is silently ignored, raises an error, or creates a record."
+}

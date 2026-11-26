@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names the standard Rail Fence cipher, whose zigzag-then-read-by-rail behaviour a programmer would implement, and the test's 3-rail output matches that standard pattern.",
+  "missing": "none"
+}

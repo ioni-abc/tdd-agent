@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes a correlation of two lists and its example returns 1.0 for a perfectly linear pair, so a programmer implementing standard Pearson correlation would get 1.0 for this perfectly linear test input.",
+  "missing": "none"
+}

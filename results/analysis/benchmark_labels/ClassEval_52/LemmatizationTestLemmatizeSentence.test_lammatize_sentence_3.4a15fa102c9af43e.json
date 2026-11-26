@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says punctuation is removed before tokenizing and that words are lemmatized according to their part of speech, which is what the test's expected output (\"dog's\" becoming \"dog\", \"barked\" becoming \"bark\") relies on.",
+  "missing": "none"
+}

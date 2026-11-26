@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the skewness of the data, and for symmetric data (mean 3, deviations -2, 2, 0) the cubed deviations sum to zero, so any correct skewness implementation returns 0.0.",
+  "missing": "none"
+}

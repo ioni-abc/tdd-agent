@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example, `prepare(\"2+3*4\")`, gives `postfix_stack = ['2', '3', '4', '*', '+']`, which is exactly the infix-to-postfix result the test checks.",
+  "missing": "none"
+}

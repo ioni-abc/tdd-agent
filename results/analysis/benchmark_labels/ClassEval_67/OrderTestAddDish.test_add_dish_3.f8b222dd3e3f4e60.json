@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the dish is added only if its count is valid against the menu, the dish is then appended to selected dishes, and the menu count is decremented, which is what the test checks, including the exact-remaining-count boundary and the mismatched price being stored as passed.",
+  "missing": "none"
+}

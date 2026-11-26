@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says leveling up returns experience to zero, adds 20 HP, and adds 5 to attack power and defense, and the test's level 3 to 4, exp 0, HP 100 to 120, attack 20 to 25, and defense 10 to 15 follow directly from those rules.",
+  "missing": "none"
+}

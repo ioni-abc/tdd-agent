@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that the product is returned as a string, so a correct implementation could return the padded or leading-zero form of the product, while the test expects the canonical form \"1\" for zero-padded inputs.",
+  "missing": "The docstring should state whether the result must have leading zeros removed (and that zero is returned as a single \"0\"), and whether inputs with leading zeros are accepted."
+}

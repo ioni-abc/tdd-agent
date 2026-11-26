@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says numeric character references like \"&#65;\" are replaced with their Unicode characters, so a programmer would decode \"&#67;&#67;&#67;\" to \"CCC\", matching the test.",
+  "missing": "none"
+}

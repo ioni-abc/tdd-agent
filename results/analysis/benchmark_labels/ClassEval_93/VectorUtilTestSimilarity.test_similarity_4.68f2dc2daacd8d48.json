@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the method as cosine similarity, and a standard cosine computation on this test's vectors gives 4/(2\u00b7\u221a5) \u2248 0.8944, matching the expected value.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example for [1, 2, 3, 4] yields values that only match the sample standard deviation (n-1 divisor), and the test uses the same convention on [1, 1, 2, 3], so a programmer following the example would pass.",
+  "missing": "none"
+}

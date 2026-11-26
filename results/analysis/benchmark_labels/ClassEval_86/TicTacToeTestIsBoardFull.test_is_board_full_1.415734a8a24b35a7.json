@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer reading \"check if the game board is completely filled\" and the example `ttt.is_board_full()` returning `False` would naturally return False for a freshly created, empty board, which is what the test checks.",
+  "missing": "none"
+}

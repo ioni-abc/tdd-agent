@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that on success the method returns an open file object, and the test only checks that a valid zip yields an open ZipFile opened for reading, which a programmer would naturally implement from that wording.",
+  "missing": "none"
+}

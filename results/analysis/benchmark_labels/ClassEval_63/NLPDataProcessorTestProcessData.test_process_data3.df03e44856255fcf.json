@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method takes a list of strings and returns a list of word lists, so a programmer would loop over the input and return an empty list when given an empty list, which is what the test expects.",
+  "missing": "none"
+}

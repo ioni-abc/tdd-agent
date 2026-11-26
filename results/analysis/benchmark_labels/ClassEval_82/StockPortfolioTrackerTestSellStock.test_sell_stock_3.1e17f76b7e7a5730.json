@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says sell_stock returns False when the quantity of the stock is not enough, and selling a stock that is not held in the portfolio is a case of insufficient quantity, so a programmer following it would return False and leave the portfolio and cash unchanged.",
+  "missing": "none"
+}

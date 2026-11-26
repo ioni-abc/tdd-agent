@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's example pins down population excess kurtosis, but the test's exact float result depends on the order of floating-point operations, which the docstring does not specify, so a correct implementation could return a value that differs in the last digits and fail `assertEqual`.",
+  "missing": "The docstring should state the rounding or precision expected for float results, or that results are compared with a tolerance, so that any correct formula with different floating-point evaluation order is not rejected by exact equality."
+}

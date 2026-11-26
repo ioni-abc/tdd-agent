@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says how a predicted label that is neither 0 nor 1 is handled, but the test expects such pairs to be ignored, so a programmer could reasonably count them as errors or raise an exception instead.",
+  "missing": "The docstring should state that pairs whose predicted or true label is not one of the expected binary values are excluded from both the numerator and the denominator, so the accuracy is computed only over the valid pairs."
+}

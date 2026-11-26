@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says process_json removes the specified key and writes the modified data back to the file, which is exactly what the test checks by reading the file after removing \"key2\" and comparing it to the expected dictionary.",
+  "missing": "none"
+}

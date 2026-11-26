@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example spells out the exact keys and their meanings (current page, per-page size, total pages and items, has_previous/has_next, and the data slice), so a programmer following it would produce this result for page 4 of 10 items with page size 3.",
+  "missing": "none"
+}

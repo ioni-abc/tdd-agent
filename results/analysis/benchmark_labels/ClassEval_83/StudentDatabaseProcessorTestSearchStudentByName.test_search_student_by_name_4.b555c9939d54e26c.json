@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test is filed under insert_student but its real assertions check search_student_by_name's return value (row count and the name at index 1), which the insert docstring does not describe.",
+  "missing": "none"
+}

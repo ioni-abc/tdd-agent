@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to return -1 when there is no mismatch but never says what happens when the pattern extends past the end of the text, which is the case this test checks with an empty text, and the reference code would raise an IndexError here rather than return -1.",
+  "missing": "The docstring should state that when the pattern window runs past the end of the text, the method returns -1 (or specify another defined result) instead of comparing out-of-range characters."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the full key set and the meaning of each field (current page, per-page size, totals, has_previous/has_next, page data), so a programmer would produce the expected dict for page 2 of 10 items at 3 per page.",
+  "missing": "none"
+}

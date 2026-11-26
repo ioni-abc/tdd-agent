@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_binary returns '' when the IP address is invalid, and the test passes a malformed three-octet address with a leading dot, which a programmer would treat as invalid and so expect ''.",
+  "missing": "none"
+}

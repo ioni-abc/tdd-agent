@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the stock is removed from the portfolio, which implies the whole holding goes, but the test sells 9 of 10 shares and expects 1 share to remain with the cash credited for 9 shares.",
+  "missing": "The docstring should state that selling a quantity less than the holding reduces that holding's quantity by the amount sold, and removes the entry only when the full quantity is sold."
+}

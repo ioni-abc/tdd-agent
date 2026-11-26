@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method updates the employee's information and returns True when the employee exists, which is exactly what the test checks: the existing record gets the new salary and the call returns True.",
+  "missing": "none"
+}

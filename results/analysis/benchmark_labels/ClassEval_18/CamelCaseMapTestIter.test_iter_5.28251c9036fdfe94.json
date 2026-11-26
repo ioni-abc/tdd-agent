@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects iteration to yield the camelCased key 'firstName' for an input key 'first_Name', but the docstring only says it returns an iterator and never mentions that keys are converted on assignment, so a faithful implementation of the docstring could yield the raw key.",
+  "missing": "The docstring should state that keys are converted to camelCase when they are stored (underscore-separated segments are merged and each following segment's first letter is capitalized), so that iterating yields the converted keys rather than the originals."
+}

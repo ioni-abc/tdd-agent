@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest shows that mixed-case input like 'hElLo' becomes 'HELLO', so a programmer would uppercase the selected column's values, which yields 'LOW' for the test's 'LoW' at column 3.",
+  "missing": "none"
+}

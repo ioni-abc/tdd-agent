@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says that sweeping a mine leaves the score unchanged, so a correct implementation that increments the score on every sweep would fail the score assertion.",
+  "missing": "The docstring should state that the score only increases when a safe cell is swept, and that sweeping a mine returns False without changing the score."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer following the docstring would multiply price by quantity, which the example confirms, so a zero price gives 0.0 and the test passes.",
+  "missing": "none"
+}

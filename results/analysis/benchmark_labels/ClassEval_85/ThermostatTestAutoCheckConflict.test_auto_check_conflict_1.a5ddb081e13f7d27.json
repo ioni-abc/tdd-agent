@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it returns True when the operating mode does not conflict with the current-versus-target temperature relationship, and a cool mode with the current temperature above the target is not a conflict, so a programmer following it would return True as the test expects.",
+  "missing": "none"
+}

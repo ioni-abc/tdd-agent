@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says to return the account balance, so it does not say that a newly created account starts at zero, which is what the test expects.",
+  "missing": "The docstring should state the starting balance for a newly created account (and what a balance of a new account is when no initial amount is given), so that the expected initial value is specified."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example, a key of \"key\" encrypting \"abc\" to 'kfa', is exactly the case this test checks, and the standard Vigenere rule (shift each letter by the key letter, cycling the key) produces that result.",
+  "missing": "none"
+}

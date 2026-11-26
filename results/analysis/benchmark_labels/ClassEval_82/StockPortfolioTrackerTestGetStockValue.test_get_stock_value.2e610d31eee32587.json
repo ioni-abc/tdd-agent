@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the value is price times quantity returned as a float, and the example with price 150.0 and quantity 10 giving 1500.0 matches the test exactly, so a programmer following it would pass.",
+  "missing": "none"
+}

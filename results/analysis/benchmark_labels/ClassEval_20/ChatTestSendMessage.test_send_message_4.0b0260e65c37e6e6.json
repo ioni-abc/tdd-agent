@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that if the sender or receiver is not in the Chat, the method returns False, which is the behaviour this test checks, and a natural implementation would not alter the user dictionary on that path.",
+  "missing": "none"
+}

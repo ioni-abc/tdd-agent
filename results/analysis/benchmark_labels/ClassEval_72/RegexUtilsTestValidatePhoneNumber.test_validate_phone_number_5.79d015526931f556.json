@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives only one valid example (\"123-456-7890\") and never says which digit grouping is required, so a programmer could reasonably accept \"1234-56-789\" as valid, and the test's expected False depends on a format the docstring does not state.",
+  "missing": "The docstring should specify the exact accepted phone number format (number of digits in each group, allowed separators, and whether other characters or lengths are rejected), so that any input not matching that format is known to return False."
+}

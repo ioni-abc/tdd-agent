@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines tan as the tangent of an x-degree angle, so a programmer would compute tan(0 degrees) = sin(0)/cos(0) = 0.0, which is what the test expects.",
+  "missing": "none"
+}

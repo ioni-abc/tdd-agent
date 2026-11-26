@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects checkout to return the discounted total of 25 and also to decrement the menu counts and clear the selected dishes, but the docstring only describes the return value and never mentions these side effects.",
+  "missing": "The docstring should state that a successful checkout clears the selected dishes and subtracts each ordered quantity from that dish's count in the menu, and that the discount from the sales mapping is applied per dish when computing the total."
+}

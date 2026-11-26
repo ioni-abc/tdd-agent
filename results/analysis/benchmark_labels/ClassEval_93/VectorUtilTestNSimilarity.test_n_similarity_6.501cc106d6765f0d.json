@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test wraps the empty-list call in a bare try/except with no assertion, so any implementation passes whether it raises or returns a value.",
+  "missing": "none"
+}

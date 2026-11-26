@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says search returns items containing the keyword with total results and matching items, and its example shows string-based matching on integers, so a programmer would expect `[3]` with one result for \"3\".",
+  "missing": "none"
+}

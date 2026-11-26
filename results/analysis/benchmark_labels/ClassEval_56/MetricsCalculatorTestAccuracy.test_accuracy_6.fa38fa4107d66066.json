@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives no behaviour for empty inputs, so a programmer computing correct predictions divided by the number of samples would hit a division by zero, while the test expects 0.0.",
+  "missing": "The docstring should state what the function returns when the input lists are empty (for example, 0.0 instead of raising a division-by-zero error)."
+}

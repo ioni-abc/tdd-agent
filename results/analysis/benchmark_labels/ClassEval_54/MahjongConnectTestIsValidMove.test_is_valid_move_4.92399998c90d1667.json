@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring lists \"the two positions are not the same\" as a condition for a valid move, so a programmer would return False when both positions are identical, which is what the test checks.",
+  "missing": "none"
+}

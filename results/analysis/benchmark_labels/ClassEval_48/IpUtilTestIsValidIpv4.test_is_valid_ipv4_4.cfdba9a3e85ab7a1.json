@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True only for a valid IPv4 address and False otherwise, so a programmer would reject a string with a non-numeric octet like this one and return False.",
+  "missing": "none"
+}

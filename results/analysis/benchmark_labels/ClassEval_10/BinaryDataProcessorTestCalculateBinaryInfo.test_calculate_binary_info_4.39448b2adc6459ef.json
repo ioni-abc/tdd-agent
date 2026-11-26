@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same output form (fractions for 'Zeroes' and 'Ones' plus an integer 'Bit length' under those keys), so a programmer following it would return 0.4, 0.6 and 15 for this input.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True or False for whether the text matches the regular expression, so a programmer would return False for a phone-like string that has a non-digit where the final digit should be, and the test expects exactly that.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for all possible moving directions from the current state, and its example (blank in the bottom row gives up/left/right) shows that moves off the board are excluded, so a programmer would produce ['down', 'left', 'right'] for a blank in the top-middle cell, matching the test.",
+  "missing": "none"
+}

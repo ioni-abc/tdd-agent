@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the output as all combinations of selected elements and its example lists only non-empty combinations, so with no input elements a programmer would naturally return an empty list, which is what the test expects.",
+  "missing": "none"
+}

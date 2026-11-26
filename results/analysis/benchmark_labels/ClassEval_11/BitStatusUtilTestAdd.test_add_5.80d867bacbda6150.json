@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's only example (add(2,4) = 6) fits both arithmetic addition and bitwise OR, so a programmer could reasonably implement `states + stat`, which returns 4 for this test where the expected value is 2.",
+  "missing": "The docstring should say explicitly that combining statuses is a bitwise OR of the two integers, so that adding a flag already present leaves the value unchanged rather than summing it."
+}

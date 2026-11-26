@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns a list of all XML elements with the given name, and a programmer implementing that would return the three `item` elements in document order, which is what the test checks.",
+  "missing": "none"
+}

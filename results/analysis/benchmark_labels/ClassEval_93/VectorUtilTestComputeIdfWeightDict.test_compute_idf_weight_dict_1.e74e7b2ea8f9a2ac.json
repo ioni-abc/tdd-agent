@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example uses the same inputs and expected values as the test, and the reference's log((total_num+1)/(count+1)) reproduces them, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

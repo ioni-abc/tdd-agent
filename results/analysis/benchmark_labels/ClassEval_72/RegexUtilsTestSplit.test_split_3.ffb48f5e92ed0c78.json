@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example splits on the same pattern and shows the empty strings at the start and end of the result, so a programmer implementing a regex split would produce the test's expected output.",
+  "missing": "none"
+}

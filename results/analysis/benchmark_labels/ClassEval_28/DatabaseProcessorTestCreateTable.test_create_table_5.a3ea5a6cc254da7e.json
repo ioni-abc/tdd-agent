@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says create_table creates the named table in the database if it doesn't exist, which is exactly what the test checks by querying sqlite_master for the table name.",
+  "missing": "none"
+}

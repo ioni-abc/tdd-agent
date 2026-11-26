@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says an empty phone number should be set to None, and the test passes an empty string and expects None, which a programmer following the docstring would produce.",
+  "missing": "none"
+}

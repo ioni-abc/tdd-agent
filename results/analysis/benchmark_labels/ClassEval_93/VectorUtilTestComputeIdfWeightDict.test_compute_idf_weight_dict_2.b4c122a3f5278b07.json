@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's formula, reinforced by its example (total 2, count 0.1 gives 1.0033), is log((total_num+1)/(count+1)), which yields the test's expected values of log(3/1.2) and log(3/1.5).",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes adding to an existing product, so a programmer could reasonably raise an error or create an entry for an unknown product_id, while the test expects the inventory to stay unchanged.",
+  "missing": "The docstring should say what happens when product_id is not in the inventory, for example that the call is silently ignored and no entry is created or error raised."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the top operator is applied to the two top numbers and the result replaces them, and its example shows the same behaviour with '-', so a programmer would compute 2*3=6, leave [1, 6] and ['+'] as the test expects.",
+  "missing": "none"
+}

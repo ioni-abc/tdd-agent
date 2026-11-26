@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a valid IP is four decimal digit groups separated by '.', each between 0 and 255, and the test checks a well-formed address \"10.10.10.10\" that should return True, which a programmer following the docstring would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that the stock is added to the portfolio, so a programmer would likely append a second AAPL entry, whereas the test expects the purchase to merge into the existing AAPL entry with quantity 20.",
+  "missing": "The docstring should say that buying a stock whose name is already in the portfolio adds its quantity to the existing entry rather than creating a new one, and that cash is reduced by price times quantity."
+}

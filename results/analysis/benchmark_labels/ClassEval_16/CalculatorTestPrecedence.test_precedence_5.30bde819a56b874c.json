@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says '*' has higher priority than '-', so a faithful implementation must give them different values, which is what the test checks.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that adding \"apple\" with price 1 and quantity 5 and then removing 3 leaves `{\"apple\": {\"price\": 1, \"quantity\": 2}}`, so a programmer would return the nested price/quantity dict and this test's expected output follows from that.",
+  "missing": "none"
+}

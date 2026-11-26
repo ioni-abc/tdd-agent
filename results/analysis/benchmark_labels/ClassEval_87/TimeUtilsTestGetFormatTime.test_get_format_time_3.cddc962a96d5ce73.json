@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the exact output format \"YYYY-MM-DD HH:MM:SS\" with zero-padded fields and a worked example, so a programmer following it would produce \"2001-07-16 01:01:01\" for this input.",
+  "missing": "none"
+}

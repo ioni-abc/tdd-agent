@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_course_score adds a course score for a student in self.students, which is exactly what the test checks: a score for an existing student's course is stored and can be read back.",
+  "missing": "none"
+}

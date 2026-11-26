@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that the filter allows or denies based on \"certain rules,\" so nothing tells a programmer that a request to `/api/data` with no token should be allowed, while the reference relies on a hidden path whitelist.",
+  "missing": "The docstring should list which request paths are exempt from authentication (for example, by prefix) and state what a request needs, such as a valid token and a minimum user level, to be allowed when its path is not exempt."
+}

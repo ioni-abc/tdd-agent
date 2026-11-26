@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the function returns a list with one y-value per x_interp point, so an empty x_interp should naturally give an empty list, which is what the test expects.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's example shows `postfix_stack` as a plain list, but the test compares it to a `deque`, so an implementation that stores a list would fail the equality check even if the token order is correct.",
+  "missing": "The docstring should say that `postfix_stack` must be a `deque` of string tokens (and that parenthesised sub-expressions are emitted before the operators that apply to them), since a list with the right tokens would not compare equal."
+}

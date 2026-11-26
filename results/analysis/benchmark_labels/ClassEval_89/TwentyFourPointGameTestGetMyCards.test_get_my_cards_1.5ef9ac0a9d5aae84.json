@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to generate random numbers from 1 to 9 but never says how many, so a programmer could reasonably produce a different count than the four the test expects.",
+  "missing": "The docstring should state exactly how many values are generated per call and where they are stored, so any count or storage location the test checks is specified."
+}

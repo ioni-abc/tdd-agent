@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines multiply as the product of two complex numbers, and a standard complex multiplication yields the test's expected -5-10j for these inputs.",
+  "missing": "none"
+}

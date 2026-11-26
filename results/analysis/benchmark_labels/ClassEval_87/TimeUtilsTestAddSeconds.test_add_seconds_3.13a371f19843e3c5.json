@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says \"the current time\" but not whether that means the instance's stored datetime attribute or the system clock, and the test's expected value depends on the stored attribute.",
+  "missing": "The docstring should say that the base time is the instance's stored datetime value (not the live system clock), and that the result wraps around midnight, formatted as HH:MM:SS."
+}

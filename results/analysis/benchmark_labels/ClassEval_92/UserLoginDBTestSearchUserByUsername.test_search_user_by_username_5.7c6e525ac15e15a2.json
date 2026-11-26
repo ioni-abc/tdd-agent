@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the method returns a list of tuples for all matching rows, while the test and reference code expect a single row tuple (the first match), so a programmer following the docstring would return a list and fail the test's indexing.",
+  "missing": "The docstring should state that the method returns only the first matching row as one tuple, or None when nothing matches, rather than a list of every matching row."
+}

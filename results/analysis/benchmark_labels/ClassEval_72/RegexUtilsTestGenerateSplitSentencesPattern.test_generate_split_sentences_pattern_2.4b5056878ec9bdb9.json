@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that the pattern matches \"the middle characters of two sentences\", so a correct implementation could leave out `!` as a sentence-ending mark or require a different amount of whitespace, and then fail on `'! Y'`.",
+  "missing": "The docstring should list exactly which sentence-ending punctuation marks count, how much whitespace may separate them from the next sentence, and that the next sentence must start with an uppercase letter."
+}

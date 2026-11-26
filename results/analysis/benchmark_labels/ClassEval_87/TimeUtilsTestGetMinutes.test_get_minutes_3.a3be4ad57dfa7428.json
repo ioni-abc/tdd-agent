@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to compute the minutes elapsed between two times and round to the nearest, and its example (one hour gives 60) shows the same plain difference the test checks (3 hours gives 180), so a programmer following it would pass.",
+  "missing": "none"
+}

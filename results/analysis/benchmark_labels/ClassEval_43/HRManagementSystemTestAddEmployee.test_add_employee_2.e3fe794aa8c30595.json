@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the new employee to be stored under its id as a dict with keys 'name', 'position', 'department' and 'salary', but the docstring only says the employee is added and never describes how the record is stored.",
+  "missing": "The docstring should state how each employee record is kept internally, including the container it is stored in, how it is keyed, and the exact field names and structure of the stored value, since tests may inspect that storage directly."
+}

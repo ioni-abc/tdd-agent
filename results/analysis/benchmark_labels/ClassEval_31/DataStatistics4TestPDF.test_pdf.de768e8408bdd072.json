@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest gives the exact expected output for `pdf([1, 2, 3], 1, 1)`, which is the same input and output the test checks, so a programmer following the normal density formula and matching the example would pass.",
+  "missing": "none"
+}

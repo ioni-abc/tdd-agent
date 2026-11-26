@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example parses the query string after \"?\" and before \"#\" into a dict of string key/value pairs, which is exactly what this test checks with different values.",
+  "missing": "none"
+}

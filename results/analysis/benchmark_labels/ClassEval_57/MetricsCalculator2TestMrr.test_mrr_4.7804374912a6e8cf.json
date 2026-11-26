@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines MRR as the mean of reciprocal rank and its example (`[0,1,0,1]` giving 0.5 and the mean 0.75) shows the reciprocal of the position of the first correct answer, so a programmer would compute 1/4 for a first hit at rank 4 and get 0.625 overall.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the DELETE format with a WHERE clause built from key=value pairs quoted with single quotes, which a programmer would follow to produce \"DELETE FROM students WHERE name='Tom'\" for a single condition.",
+  "missing": "none"
+}

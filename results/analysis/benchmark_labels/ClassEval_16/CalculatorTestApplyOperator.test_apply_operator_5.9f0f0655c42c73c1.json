@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the top operator is used on the top two operands and the result replaces them, so a programmer would pop the '+' and the last two numbers (2 and 3), leaving [1, 5] and ['+'], which is what the test expects.",
+  "missing": "none"
+}

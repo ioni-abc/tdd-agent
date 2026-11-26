@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to find the 0 element and return its coordinates as (row, column), and its example confirms that indexing, so a programmer following it would return (1, 1) for the 0 at the centre of the grid.",
+  "missing": "none"
+}

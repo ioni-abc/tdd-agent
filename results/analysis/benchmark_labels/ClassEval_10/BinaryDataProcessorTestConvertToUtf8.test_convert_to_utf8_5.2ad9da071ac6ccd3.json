@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method converts the binary string to a UTF-8 string, so a programmer would split the bits into 8-bit bytes and decode them, which is what the test checks (it decodes to \"kdllo\").",
+  "missing": "none"
+}

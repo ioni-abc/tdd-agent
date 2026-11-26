@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns arrangements of at least 1 and at most all items, and its example shows the same length-ordered output the test expects for [1, 2].",
+  "missing": "none"
+}

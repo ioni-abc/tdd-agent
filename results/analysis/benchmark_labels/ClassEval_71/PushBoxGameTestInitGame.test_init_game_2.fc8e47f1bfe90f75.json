@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says nothing about the game-over flag, so a programmer following it would reasonably set only the player, target, and box positions and could leave `is_game_over` unset or wrong, failing this check.",
+  "missing": "The docstring should state that initialization also resets the game's completion/game-over status to not finished, so that a freshly initialized game reports it has not ended."
+}

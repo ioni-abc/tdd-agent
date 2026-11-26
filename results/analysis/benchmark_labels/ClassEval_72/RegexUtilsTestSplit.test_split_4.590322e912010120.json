@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says split uses regex patterns to split text and return the substrings, which is exactly what re.split does, so a programmer following it would produce the expected list for this input.",
+  "missing": "none"
+}

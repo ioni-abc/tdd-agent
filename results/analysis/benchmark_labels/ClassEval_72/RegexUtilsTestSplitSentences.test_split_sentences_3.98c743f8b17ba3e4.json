@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "A programmer reading the docstring would split at every sentence-ending punctuation mark, giving ['Aaa', 'bbbb', 'Ccc!'], but the test expects no split where a period is followed by a lowercase word, which the docstring never mentions.",
+  "missing": "The docstring should say when a sentence-ending mark counts as a boundary, such as only when the next word starts with an uppercase letter, and that a mark followed by a lowercase word does not end a sentence."
+}

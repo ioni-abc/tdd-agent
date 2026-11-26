@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says MRR is the mean of reciprocal rank, returns the average over the list plus a per-input list, and its example for a two-tuple list gives 0.75 and [1.0, 0.5], which is the behaviour this test checks.",
+  "missing": "none"
+}

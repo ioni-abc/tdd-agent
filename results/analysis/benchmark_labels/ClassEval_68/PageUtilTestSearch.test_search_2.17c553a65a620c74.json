@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says search returns items containing the keyword, and its example with the string \"1\" matching the integer 1 shows the same str-based matching the test relies on for \"2\" matching 2.",
+  "missing": "none"
+}

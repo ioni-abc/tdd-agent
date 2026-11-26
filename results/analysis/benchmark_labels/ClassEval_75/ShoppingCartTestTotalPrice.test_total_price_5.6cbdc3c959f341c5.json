@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the total is the sum of each item's quantity multiplied by its price, which gives 1\u00d73 + 2\u00d71 = 5 and matches the test's expected 5.0.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the student with the highest GPA as computed by get_gpa, so a programmer computing per-student averages of course scores would pick Bob (85) over Charlie (75) and skip Alice, who has no courses.",
+  "missing": "none"
+}

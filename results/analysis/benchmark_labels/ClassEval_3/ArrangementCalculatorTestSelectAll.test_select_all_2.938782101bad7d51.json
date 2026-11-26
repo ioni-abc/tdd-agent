@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the output as all arrangements of 1 up to n items, and its example shows the ordering by length and then by selection order, which the test's [1, 2, 4] case follows exactly.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the board is n*n and that '-' marks unknown cells, so a programmer would produce a 2x2 grid of '-' for n=2 regardless of the mine count, which is what the test expects.",
+  "missing": "none"
+}

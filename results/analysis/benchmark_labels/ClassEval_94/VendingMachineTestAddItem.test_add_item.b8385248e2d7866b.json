@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example adds 'Coke' at 1.25 with quantity 10 to a fresh machine and shows the inventory as {'Coke': {'price': 1.25, 'quantity': 10}}, which is exactly what the test checks.",
+  "missing": "none"
+}

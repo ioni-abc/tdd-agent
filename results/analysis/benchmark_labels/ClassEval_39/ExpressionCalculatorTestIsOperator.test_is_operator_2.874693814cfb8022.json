@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the operator set as {'+', '-', '*', '/', '(', ')', '%'} and says it returns True for a character in that set, so a programmer would return True for \"-\".",
+  "missing": "none"
+}

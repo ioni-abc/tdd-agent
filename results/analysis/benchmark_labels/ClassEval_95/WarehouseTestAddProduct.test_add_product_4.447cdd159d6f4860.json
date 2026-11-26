@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a new product is added to the inventory with its name and quantity, and its example shows exactly the expected dict for a first-time add, so a programmer following it would pass this test.",
+  "missing": "none"
+}

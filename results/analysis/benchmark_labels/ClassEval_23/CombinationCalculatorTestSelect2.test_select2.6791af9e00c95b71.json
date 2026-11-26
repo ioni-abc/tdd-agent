@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example calls `_select(0, [None] * 2, 0, result)` on four elements and shows the same six pairs in lexicographic order that the test asserts, so a programmer following it would pass.",
+  "missing": "none"
+}

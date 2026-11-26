@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the top operator is applied to the two top operands and the result is pushed back, and the test's `/` on 3 and 3 with the remaining `+` follows that rule exactly.",
+  "missing": "none"
+}

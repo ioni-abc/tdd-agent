@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the guest's name is removed from booked_rooms when the check-in quantity equals the booked quantity, which is exactly what this test expects for the double room.",
+  "missing": "none"
+}

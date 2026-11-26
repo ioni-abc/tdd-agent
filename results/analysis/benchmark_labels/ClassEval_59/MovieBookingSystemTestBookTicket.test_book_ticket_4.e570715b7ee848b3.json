@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that booking succeeds, returns \"Booking success.\", and updates the seats in self.movies, which is exactly what this test checks for two free seats.",
+  "missing": "none"
+}

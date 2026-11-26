@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer reading \"calculate the value of a given expression\" would apply standard arithmetic precedence, giving 1 + 6 + 4 = 11, which is what the test expects.",
+  "missing": "none"
+}

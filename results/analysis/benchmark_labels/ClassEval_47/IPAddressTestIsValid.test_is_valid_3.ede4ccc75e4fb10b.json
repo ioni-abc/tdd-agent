@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a valid IP must be four digits separated by '.', so a programmer would correctly return False for the three-octet input \"10.10.10\".",
+  "missing": "none"
+}

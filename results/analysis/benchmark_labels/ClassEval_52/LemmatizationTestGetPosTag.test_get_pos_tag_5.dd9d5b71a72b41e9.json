@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to remove punctuation, tokenize, and return the part-of-speech tag of each word, and the example shows the Penn Treebank-style output, so a programmer following it would produce the same tag list the test expects.",
+  "missing": "none"
+}

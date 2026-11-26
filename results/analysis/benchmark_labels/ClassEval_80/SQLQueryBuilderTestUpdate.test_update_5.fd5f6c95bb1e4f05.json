@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows values wrapped in single quotes as their plain string form (the integer 15 becomes '15'), so a programmer would naturally render the float 1.0 as '1.0' with the same rule.",
+  "missing": "none"
+}

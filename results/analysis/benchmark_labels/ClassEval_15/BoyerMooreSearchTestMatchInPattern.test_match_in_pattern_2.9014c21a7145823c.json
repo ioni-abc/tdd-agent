@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the index of the rightmost occurrence of the character in the pattern, and the test checks exactly that for \"B\" in \"ABAB\", which is index 3.",
+  "missing": "none"
+}

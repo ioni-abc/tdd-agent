@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method converts the input value using the registered type in self.types and returns the converted value, and the example shows '21' becoming 21 for 'arg1' of type int, so a programmer would return int(\"25\") = 25 for the \"age\" key with int type, which matches the test.",
+  "missing": "none"
+}

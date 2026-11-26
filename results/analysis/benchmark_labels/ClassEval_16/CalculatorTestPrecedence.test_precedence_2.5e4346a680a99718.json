@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring refers to \"the priority of '/' and '*'\" as a single shared priority that sits above '+' and '-', so a programmer following it would give '*' and '/' equal values, which is what the test checks.",
+  "missing": "none"
+}

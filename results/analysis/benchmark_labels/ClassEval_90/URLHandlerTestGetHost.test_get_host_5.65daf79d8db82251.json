@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer reading \"host domain name of the URL\" with the example `https://www.baidu.com/...` would extract the text between `://` and the next `/`, which is what the test checks for `https://bbb.com/openai/human-eval`.",
+  "missing": "none"
+}

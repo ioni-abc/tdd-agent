@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to return the top 5 words by frequency, but this test depends on how ties are broken (the tied words 'this', 'is', 'a' at count 2 must resolve to 'this' and 'is'), which the docstring never mentions.",
+  "missing": "When several words have the same frequency and only some fit in the top N, the docstring should say how they are ordered, for example by first appearance in the input."
+}

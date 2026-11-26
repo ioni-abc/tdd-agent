@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer implementing \"replace consecutive line breaks with a single line break\" would naturally leave an empty string unchanged and return '', which is what the test expects.",
+  "missing": "none"
+}

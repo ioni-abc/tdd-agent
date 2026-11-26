@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method writes the data to a CSV file and returns 1 on success, which is what the test checks, and writing rows with a standard CSV writer lets the test's read-back of the header and first row pass.",
+  "missing": "none"
+}

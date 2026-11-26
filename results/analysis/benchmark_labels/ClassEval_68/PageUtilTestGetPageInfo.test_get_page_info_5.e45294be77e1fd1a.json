@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes the return value for a valid page, so a programmer could reasonably return None, raise an error, or return a dict with empty data for an out-of-range page, while the test expects an empty dict.",
+  "missing": "The docstring should say what is returned when the requested page number is outside the valid range (below 1 or above the total number of pages), for example an empty dict."
+}

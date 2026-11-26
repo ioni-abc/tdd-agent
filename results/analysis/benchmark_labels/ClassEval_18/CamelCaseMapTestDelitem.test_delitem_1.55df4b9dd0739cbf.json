@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says deleting a key removes its value, and a programmer following it would only remove that one entry, so the other key still maps to 'Doe' and the test passes.",
+  "missing": "none"
+}

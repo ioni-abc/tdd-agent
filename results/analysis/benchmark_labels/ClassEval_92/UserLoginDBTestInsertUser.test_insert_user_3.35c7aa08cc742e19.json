@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says insert_user adds a row with the given username and password to the \"users\" table, which is exactly what the test relies on before checking the row via search.",
+  "missing": "none"
+}

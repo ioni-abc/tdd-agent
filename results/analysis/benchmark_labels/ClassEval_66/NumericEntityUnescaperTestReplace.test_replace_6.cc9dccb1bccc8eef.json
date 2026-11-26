@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says nothing about how a truncated or incomplete reference (an `&#` with no digits or terminating semicolon) should be handled, so a programmer could reasonably keep the text unchanged and fail the test.",
+  "missing": "The docstring should state whether an incomplete numeric reference at the end of the string, or one lacking digits or a closing semicolon, is kept as literal text or removed, and what the output should be."
+}

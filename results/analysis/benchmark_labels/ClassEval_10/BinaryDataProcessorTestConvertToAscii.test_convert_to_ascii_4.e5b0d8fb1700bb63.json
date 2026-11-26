@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert the binary string to ASCII, and the natural implementation (split into 8-bit groups, map each to a character) yields \"hebo\" for this input, matching the test and reference code.",
+  "missing": "none"
+}

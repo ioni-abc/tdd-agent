@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the regex-matched substring is replaced with the given text, so a programmer using standard regex substitution would leave the non-matching \"789a\" sequence unchanged and produce the expected output.",
+  "missing": "none"
+}

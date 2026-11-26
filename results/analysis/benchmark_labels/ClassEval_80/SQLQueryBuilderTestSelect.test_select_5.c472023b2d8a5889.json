@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same format (a column list joined by commas, and a where dict rendered as `key='value'`), so a programmer following it would produce `SELECT name FROM users WHERE age='30'`.",
+  "missing": "none"
+}

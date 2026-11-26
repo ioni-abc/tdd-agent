@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says adding a new username returns True, and the test's two True returns for distinct new users match that, while the stray `self.users = {'John': []}` line in the docstring hints at the stored structure the final assertion checks.",
+  "missing": "none"
+}

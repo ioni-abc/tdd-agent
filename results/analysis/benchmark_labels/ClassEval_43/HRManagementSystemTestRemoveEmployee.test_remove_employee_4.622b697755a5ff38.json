@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says removing an employee that is present returns True and leaves them removed, which is exactly what the test checks across two successive removals leaving an empty dictionary.",
+  "missing": "none"
+}

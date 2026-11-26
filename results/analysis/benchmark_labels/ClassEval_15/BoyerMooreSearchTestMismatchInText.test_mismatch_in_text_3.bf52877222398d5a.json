@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's example (returning 2 where a left-to-right scan would give 1) implies a right-to-left scan, but the text never says so, so a programmer reading \"first dismatch\" would likely scan left to right and fail this test.",
+  "missing": "The docstring should state that the comparison runs from the last character of the pattern toward the first, and that the returned index is the first mismatch found in that backward order."
+}

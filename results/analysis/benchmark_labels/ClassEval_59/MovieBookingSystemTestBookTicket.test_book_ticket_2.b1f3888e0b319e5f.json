@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that re-booking an already-taken seat returns \"Booking failed.\", and it says self.movies' seats change on successful booking, which covers the test's check that the seat stays at 1.",
+  "missing": "none"
+}

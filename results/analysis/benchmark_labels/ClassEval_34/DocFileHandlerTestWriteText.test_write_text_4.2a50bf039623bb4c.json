@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the write to replace the document's existing \"Initial content\" so that reading it back returns only the new text, but the docstring only says content is written to the document and never says whether existing text is overwritten or appended to.",
+  "missing": "The docstring should state whether writing replaces any text already in the document or appends after it, and what the document contains afterward."
+}

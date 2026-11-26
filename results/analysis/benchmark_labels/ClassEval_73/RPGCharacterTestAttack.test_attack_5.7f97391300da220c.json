@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's formula (damage is attack minus the defender's defense, subtracted from hp) gives 20 - 5 = 15 per hit, so three hits leave 100 - 45 = 55, which is what the test expects.",
+  "missing": "none"
+}

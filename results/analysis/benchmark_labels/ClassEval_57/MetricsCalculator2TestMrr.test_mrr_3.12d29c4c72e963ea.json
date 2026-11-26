@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example `0.75, [1.0, 0.5]` for the list input `[([1, 0, 1, 0], 4), ([0, 1, 0, 1], 4)]` matches the test exactly, and a reciprocal-rank implementation gives 1.0 and 0.5 per entry, averaging to 0.75.",
+  "missing": "none"
+}

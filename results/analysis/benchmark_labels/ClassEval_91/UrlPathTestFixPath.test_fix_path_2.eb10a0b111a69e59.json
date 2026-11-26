@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says fix_path removes leading and trailing slashes, so a programmer would strip '/' from both ends and return 'aaa/bbb' for '/aaa/bbb/', matching the test.",
+  "missing": "none"
+}

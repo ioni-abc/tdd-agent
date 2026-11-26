@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example gives the exact regex, which requires punctuation, then 1\u20132 whitespace characters, then an uppercase letter, so a string with no whitespace after the punctuation should not match.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the pattern should match email addresses, so a programmer would write the usual regex, which rejects \"iustd87t2euhifg@com.\" because nothing follows the final dot to form a top-level domain.",
+  "missing": "none"
+}

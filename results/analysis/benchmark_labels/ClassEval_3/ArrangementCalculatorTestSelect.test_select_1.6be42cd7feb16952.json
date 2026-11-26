@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example for `select(2)` on `[1, 2, 3, 4]` shows the same ordered, non-repeating pairs the test expects, so a programmer following it would produce the tested output.",
+  "missing": "none"
+}

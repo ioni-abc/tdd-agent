@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return -1 when the user is too thin by BMI, and a BMI of about 13.9 is far below any standard lower bound, so a programmer would return -1.",
+  "missing": "none"
+}

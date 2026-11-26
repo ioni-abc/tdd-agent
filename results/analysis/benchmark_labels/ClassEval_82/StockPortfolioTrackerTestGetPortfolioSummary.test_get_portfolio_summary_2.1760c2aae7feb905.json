@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example (cash of 10000 plus one 1500 holding giving a total of 11500) shows that the total includes the starting cash, so a programmer applying that rule to two 1500 holdings would get 13000 and the per-stock list as the test expects.",
+  "missing": "none"
+}

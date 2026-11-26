@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False whenever the expression does not have balanced brackets, and this input has an unclosed \"(\" and a \"{\" closed by \"]\", so a standard stack-matching implementation returns False.",
+  "missing": "none"
+}

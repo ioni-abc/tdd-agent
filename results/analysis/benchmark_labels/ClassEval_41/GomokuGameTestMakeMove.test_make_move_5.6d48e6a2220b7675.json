@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers the valid-move, occupied-cell, and player-switching behaviour, but never says which player moves first, so a correct implementation that starts with 'O' would place the wrong symbol and fail the board assertion.",
+  "missing": "The docstring should state the initial current player and the symbol used for an empty cell, so that a programmer knows which symbol the first valid move places on the board."
+}

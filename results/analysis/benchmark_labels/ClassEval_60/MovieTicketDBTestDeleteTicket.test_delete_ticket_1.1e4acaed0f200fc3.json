@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test is named `test_delete_ticket_1` and exercises `delete_ticket`, while it is filed under `search_tickets_by_customer`, so its main purpose is not the method this docstring describes.",
+  "missing": "none"
+}

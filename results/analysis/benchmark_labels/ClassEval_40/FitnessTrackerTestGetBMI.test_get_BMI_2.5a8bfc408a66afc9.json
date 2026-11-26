@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines BMI as weight divided by the square of height, so a programmer following it would compute 50 / 1.8\u00b2 and match the expected 15.432098765432098.",
+  "missing": "none"
+}

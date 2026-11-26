@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method removes all non-bracket characters and gives the example \"a(b)c\" becoming '()', which is exactly what the test checks.",
+  "missing": "none"
+}

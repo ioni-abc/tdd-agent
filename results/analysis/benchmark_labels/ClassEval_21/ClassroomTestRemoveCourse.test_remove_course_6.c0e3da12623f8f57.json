@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the course is removed from the list if it was there, so a programmer implementing that would leave the list without the course, which is what this test checks even when the course was never added.",
+  "missing": "none"
+}

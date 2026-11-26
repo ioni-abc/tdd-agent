@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method removes punctuation and returns the sentence \"without any punctuation,\" so a programmer would strip the apostrophe in \"dog's\" and the exclamation marks, which is what the test expects.",
+  "missing": "none"
+}

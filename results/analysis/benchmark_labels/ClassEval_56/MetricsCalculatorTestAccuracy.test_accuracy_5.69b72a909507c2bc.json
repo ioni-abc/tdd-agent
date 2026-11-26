@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines accuracy as the fraction of predictions that match the true labels, and the test's inputs give 1 correct out of 4 (0.25), which a programmer following that definition would produce.",
+  "missing": "none"
+}

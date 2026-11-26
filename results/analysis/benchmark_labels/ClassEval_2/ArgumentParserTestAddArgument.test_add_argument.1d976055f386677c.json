@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the argument type is stored in `types` under the argument name, with `str` as the default, which is what the test checks when it expects `str` for the default and `int` for the explicit type.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the game is won only when all boxes are on target positions and returns False otherwise, so a programmer would return False for this map where the single box is not on a target.",
+  "missing": "none"
+}

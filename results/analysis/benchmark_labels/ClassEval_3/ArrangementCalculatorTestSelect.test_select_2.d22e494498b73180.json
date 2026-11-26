@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says select(m) returns arrangements of m items drawn from the data, and its example shows ordered pairs without repetition, so a programmer would produce the same six permutations of [1, 2, 3] taken two at a time.",
+  "missing": "none"
+}

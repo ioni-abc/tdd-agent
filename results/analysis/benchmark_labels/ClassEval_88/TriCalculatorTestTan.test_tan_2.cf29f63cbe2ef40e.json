@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that the method returns a float, so a programmer would compute tan at 90 degrees as a large finite number (cosine is only approximately zero in floating point), not the False the test expects.",
+  "missing": "The docstring should say that when the tangent is undefined (the cosine of the angle is zero), the method returns False, and otherwise returns the value rounded to 10 decimal places."
+}

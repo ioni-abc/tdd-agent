@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test is a delete-by-name check (it calls delete_student_by_name and then verifies the row is gone), but it is filed under search_student_by_name, whose docstring describes searching and returning matching rows.",
+  "missing": "none"
+}

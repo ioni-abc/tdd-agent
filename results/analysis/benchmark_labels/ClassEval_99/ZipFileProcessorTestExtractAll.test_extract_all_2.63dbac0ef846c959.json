@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says extract_all places the zip's contents in the given path and returns True on success, which is exactly what the test checks: a successful extraction returns True and the file appears in the output directory.",
+  "missing": "none"
+}

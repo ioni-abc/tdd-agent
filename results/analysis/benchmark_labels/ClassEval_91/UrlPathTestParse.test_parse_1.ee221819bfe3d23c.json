@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's example shows the segments being split correctly, but it never mentions the `with_end_tag` attribute, which the test also asserts is set when the path ends in a slash, so a correct implementation that omits this flag would fail.",
+  "missing": "The docstring should say how the object's end-tag flag is set: whether a trailing separator in the input path turns it on, and what value it holds otherwise."
+}

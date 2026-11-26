@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method removes punctuation, tokenizes, POS-tags, and lemmatizes verbs, adjectives and adverbs by part of speech, and its example shows \"am\" becoming \"be\" and \"running\" becoming \"run\", so a programmer following it would produce \"be\" for \"was\" and \"take\" for \"taking\".",
+  "missing": "none"
+}

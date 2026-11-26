@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows that 'left' moves the blank block one cell left, so a programmer would also move the blank one cell right here, giving the expected [[2, 3, 4], [5, 1, 0], [6, 8, 7]].",
+  "missing": "none"
+}

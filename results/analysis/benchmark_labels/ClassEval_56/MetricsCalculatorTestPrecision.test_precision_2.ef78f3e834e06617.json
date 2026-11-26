@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example and standard binary precision (true positives over predicted positives, with 1 as the positive class) give 1/3 for this input, which matches the test's expected value.",
+  "missing": "none"
+}

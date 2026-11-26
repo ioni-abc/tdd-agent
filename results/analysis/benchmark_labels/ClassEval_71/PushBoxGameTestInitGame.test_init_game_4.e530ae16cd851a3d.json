@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest shows that after construction with this map, `game.player_row` is 1, which is exactly what the test asserts.",
+  "missing": "none"
+}

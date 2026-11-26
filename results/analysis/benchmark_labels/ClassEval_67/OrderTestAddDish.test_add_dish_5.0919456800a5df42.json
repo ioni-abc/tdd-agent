@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a dish is added to the selected list when its count is available in the menu, and that the menu count is then reduced, which is what the test checks: dish3 with count 5 succeeds, menu count drops from 7 to 2, and the passed dict is appended.",
+  "missing": "none"
+}

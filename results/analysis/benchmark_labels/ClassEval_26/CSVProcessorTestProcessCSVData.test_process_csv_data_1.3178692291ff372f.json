@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example shows the same behaviour the test checks: column 0 is kept, uppercased to 'HELLO', written with the title, and saved as the '_process' file, returning 1.",
+  "missing": "none"
+}

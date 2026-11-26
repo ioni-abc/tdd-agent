@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring shows every value in `data` rendered as a quoted string inside `SET`, and an omitted `where` is the default, so a programmer would naturally produce `price='1.0'` from the float `1.0` via normal string formatting.",
+  "missing": "none"
+}

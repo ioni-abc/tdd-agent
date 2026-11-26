@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_scheme returns the scheme of the URL, and a programmer would take the text before \"://\", which gives \"bbb\" for this non-http scheme.",
+  "missing": "none"
+}

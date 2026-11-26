@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says numbers are not counted as words, so a programmer would count \"abc\" and \"def\" and skip \"111\", giving 2 as the test expects.",
+  "missing": "none"
+}

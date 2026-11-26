@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's example shows `postfix_stack` as a plain list, but the test compares it against a `deque`, so a correct implementation using a list would fail `assertEqual`.",
+  "missing": "The docstring should state the container type of the `postfix_stack` attribute after `prepare` runs (a `deque` of string tokens, not a list), so implementers know which type the equality check requires."
+}

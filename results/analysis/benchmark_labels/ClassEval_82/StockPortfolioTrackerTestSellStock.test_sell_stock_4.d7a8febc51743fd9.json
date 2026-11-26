@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says selling removes the stock from the portfolio, adds the cash to the balance, and returns True on success, which covers everything this test checks (True return, empty portfolio, balance rising by 150 \u00d7 20).",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_host returns the host domain name of the URL, so a programmer would take the text between the scheme and the first slash and return \"bbb.com\" for this trailing-slash URL.",
+  "missing": "none"
+}

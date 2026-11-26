@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the method returns the value for the key, so a programmer would do a plain lookup, which fails when the test reads back 'first_Name' after storing 'first_name' and expects 'John'.",
+  "missing": "The docstring should say that keys are normalized before lookup (for example, converted to camelCase form), so that any key spelling that normalizes to the same form returns the same stored value."
+}

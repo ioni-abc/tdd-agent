@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what happens when the requested quantity exceeds the quantity held, so a programmer could reasonably remove the whole holding and return True, which fails this test expecting False with the portfolio unchanged.",
+  "missing": "The docstring should state the return value and the effect when the requested quantity is larger than the quantity held for that stock, or when no matching stock exists (e.g., return False and leave the portfolio unchanged), and whether a smaller quantity reduces the holding instead of removing it."
+}

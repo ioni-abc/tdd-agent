@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the DELETE format with a WHERE clause of key='value' pairs joined by AND, and the test with a single condition follows that same format, so a programmer following it would produce the expected string.",
+  "missing": "none"
+}

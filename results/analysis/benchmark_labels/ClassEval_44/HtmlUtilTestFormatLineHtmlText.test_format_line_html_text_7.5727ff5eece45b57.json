@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says nothing about list items, so a programmer following it would not know to prefix them with \"[-]\" or to leave the text unchanged when it already ends in punctuation, which is what this test expects.",
+  "missing": "The docstring should state that each list item (li inside ul or ol) is prefixed with \"[-]\", and that a period is appended to its text only when the text does not already end in punctuation."
+}

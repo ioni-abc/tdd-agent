@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says write_file writes the content into self.file_path and overwrites any existing file, so a programmer following it would write '12345' and read it back unchanged, which is what the test checks.",
+  "missing": "none"
+}

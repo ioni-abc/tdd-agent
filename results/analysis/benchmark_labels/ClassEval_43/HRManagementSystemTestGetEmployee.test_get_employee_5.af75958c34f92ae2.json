@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_employee returns the stored employee information when the id exists, and the test checks that two existing ids return their stored records, which a programmer following the docstring would implement.",
+  "missing": "none"
+}

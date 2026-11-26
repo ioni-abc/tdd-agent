@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for standard deviation rounded to two decimals, and its example ([1,2,3,4] giving 1.12) pins the population (ddof=0) convention, so a programmer following it would compute 86.9 for this input.",
+  "missing": "none"
+}

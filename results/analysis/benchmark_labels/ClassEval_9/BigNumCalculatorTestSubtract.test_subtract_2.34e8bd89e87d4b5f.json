@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to subtract the second number from the first and return the difference, so a programmer would compute 123456789012345678922 - 98765432109876543210 and get the expected positive result.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example and the standard definition of precision (true positives over true plus false positives, with label 1 as positive) give 0.5 for this input, so a programmer following the docstring would pass the test.",
+  "missing": "none"
+}

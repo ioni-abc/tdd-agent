@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the player to stay put when moving into a wall, and the docstring never says what happens when a move is blocked, so a correct implementation could move the player anyway.",
+  "missing": "The docstring should state that a move into a wall, or into a box that cannot be pushed, leaves the player's position unchanged, and should name the game-over attribute the test checks."
+}

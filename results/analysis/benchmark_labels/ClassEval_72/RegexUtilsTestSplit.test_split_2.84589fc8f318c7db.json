@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines split as regex splitting with the example showing re.split semantics (empty leading and trailing pieces kept), so a programmer would naturally return the whole text as a single element when the pattern never matches, which is what the test expects.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines count as the number of combinations of m elements chosen from n, so a programmer would compute C(6,6) = 1 and pass this test.",
+  "missing": "none"
+}

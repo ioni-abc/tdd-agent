@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_page returns a specific page of data, and its example with a page size of 1 shows 1-indexed pages of the constructor's page size, so a programmer would slice page 2 of size 3 to get [4, 5, 6].",
+  "missing": "none"
+}

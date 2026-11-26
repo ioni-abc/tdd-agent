@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says check_winner returns the symbol of a player with five in a row horizontally, vertically or diagonally, and this test builds exactly that horizontal five for X and expects 'X'.",
+  "missing": "none"
+}

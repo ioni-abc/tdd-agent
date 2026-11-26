@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for word counts sorted by descending frequency, returned as the top 5, and a programmer following it would produce {'world': 4, 'hello': 3} for this input.",
+  "missing": "none"
+}

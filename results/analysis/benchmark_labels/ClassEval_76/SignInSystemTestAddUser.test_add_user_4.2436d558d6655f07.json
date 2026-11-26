@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_user returns True when the user is added successfully to a system where the user did not already exist, which is exactly what this fresh-system test checks.",
+  "missing": "none"
+}

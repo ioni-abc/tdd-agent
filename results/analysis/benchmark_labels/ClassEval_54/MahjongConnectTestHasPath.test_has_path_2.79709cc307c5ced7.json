@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring defines a path only between two icons and never says whether a position counts as connected to itself, so a correct implementation that only searches outward from pos1 could return False where the test expects True.",
+  "missing": "The docstring should state whether two identical positions (pos1 equal to pos2) are considered connected, and what result to return in that case."
+}

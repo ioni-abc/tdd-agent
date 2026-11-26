@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the user information when the token is valid, and a programmer would treat a token dated today as valid, so returning the user dict would pass the non-None assertion.",
+  "missing": "none"
+}

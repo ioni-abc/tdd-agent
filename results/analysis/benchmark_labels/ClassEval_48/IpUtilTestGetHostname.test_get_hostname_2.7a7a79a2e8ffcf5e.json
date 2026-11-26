@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's second example for '10.0.0.1' has no expected output, so nothing says that an IP with no reverse DNS record should return None, and a programmer could reasonably raise an exception or return an empty string instead.",
+  "missing": "The docstring should state what the function returns when the address has no resolvable hostname, for example None, and whether it raises on lookup failure."
+}

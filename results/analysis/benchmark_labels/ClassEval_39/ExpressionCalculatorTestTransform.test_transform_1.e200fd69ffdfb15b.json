@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest shows \"2 + 3 * 4\" transforming to \"2+3*4\", which is exactly the input and output this test checks, so a programmer following the example would strip the spaces and pass.",
+  "missing": "none"
+}

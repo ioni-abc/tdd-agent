@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes loading cookies from the file, so a programmer would not know that an empty or missing cookies file path should yield an empty dict, and might let the error propagate instead.",
+  "missing": "The docstring should state what is returned when the cookies file does not exist or the path is empty, such as an empty dict instead of an exception."
+}

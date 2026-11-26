@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer following the docstring would compute each holding's value as price times quantity, giving 0.0 for zero shares, and the example's total (10000 cash plus 1500 holdings) implies the total is cash plus holdings, so this test's expectations follow.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the total value of the portfolio, and its example (cash of 10000 plus one holding of 1500 giving 11500) shows that value is cash plus the sum of price times quantity, so a programmer would compute 13000 for two 1500 holdings.",
+  "missing": "none"
+}

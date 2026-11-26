@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the exact format for an insert with a table name and a dict of values, including the doctest showing that values are quoted as strings, so the test's case (table 'users' with name and integer age) is covered by the described behaviour.",
+  "missing": "none"
+}

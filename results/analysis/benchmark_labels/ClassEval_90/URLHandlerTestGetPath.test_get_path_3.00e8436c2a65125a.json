@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_path returns everything after the host, starting at the first slash, and its example shows that convention, so a programmer following it would return \"/openai/human-eval\" for this input.",
+  "missing": "none"
+}

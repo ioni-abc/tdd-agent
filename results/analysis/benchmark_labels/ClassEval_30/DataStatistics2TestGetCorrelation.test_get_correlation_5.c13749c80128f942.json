@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that correlation on a single 1-D data series returns 1.0, which is the same self-correlation case the test checks.",
+  "missing": "none"
+}

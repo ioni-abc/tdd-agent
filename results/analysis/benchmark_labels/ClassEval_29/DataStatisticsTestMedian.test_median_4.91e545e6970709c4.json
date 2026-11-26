@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the median of a group of data and gives an odd-length example returning 3.00, so a programmer would return 5.0 for this seven-element input, which equals the expected 5.",
+  "missing": "none"
+}

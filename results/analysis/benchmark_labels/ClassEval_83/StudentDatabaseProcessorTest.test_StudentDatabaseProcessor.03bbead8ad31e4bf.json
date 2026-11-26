@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method deletes the student with the given name from the students table, which is exactly what the test checks: after deleting \"Charlie\", a query for that name returns no rows.",
+  "missing": "none"
+}

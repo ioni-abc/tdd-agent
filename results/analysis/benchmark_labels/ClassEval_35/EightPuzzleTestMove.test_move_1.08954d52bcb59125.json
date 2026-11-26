@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that 'left' moves the blank tile to the left, which matches the test's 'up' move putting the blank in the row above, so a programmer following it would pass.",
+  "missing": "none"
+}

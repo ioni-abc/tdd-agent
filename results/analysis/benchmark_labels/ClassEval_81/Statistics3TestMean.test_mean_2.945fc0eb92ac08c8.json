@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that the method returns the mean as a float, so a programmer would likely divide by zero on an empty list and fail the test, which expects None.",
+  "missing": "The docstring should state what the function returns when the input sequence has no elements, such as None, 0, or an exception."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names the four counters and gives an example, so a programmer would count predicted/true pairs into the standard confusion-matrix categories, which yields the (1, 2, 1, 0) the test expects.",
+  "missing": "none"
+}

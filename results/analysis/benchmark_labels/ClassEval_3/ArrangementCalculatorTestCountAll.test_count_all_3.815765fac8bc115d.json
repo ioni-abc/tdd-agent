@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the count as arrangements of 1 to n items from n items, and its example (64 for n=4) matches the sum of permutations P(n,k) for k=1..n, so a programmer would compute 4 for n=2 as the test expects.",
+  "missing": "none"
+}

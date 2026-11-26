@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes replacing code blocks with the CODE tag and never mentions how list items are rendered, so a correct implementation could output \"Item 1\" without the \"[-]\" prefix or the added period that the test expects.",
+  "missing": "The docstring should state that each list item (li inside ul or ol) is prefixed with \"[-]\" and gets a trailing period appended unless it already ends in punctuation, and that empty items are skipped."
+}

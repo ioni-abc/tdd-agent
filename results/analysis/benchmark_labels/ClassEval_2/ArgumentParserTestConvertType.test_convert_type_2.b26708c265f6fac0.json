@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the converted value on success and the original input value otherwise, which covers this test's case where int conversion of \"twenty-five\" fails and the original string is returned.",
+  "missing": "none"
+}

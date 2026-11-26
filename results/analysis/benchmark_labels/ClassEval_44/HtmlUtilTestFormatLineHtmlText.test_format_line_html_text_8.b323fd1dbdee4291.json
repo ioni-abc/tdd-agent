@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says nothing about how list items are rendered or how empty list items are handled, so a correct implementation that renders list items differently could return a non-empty string and fail this test.",
+  "missing": "The docstring should describe how list items are formatted (any prefix marker, whether a period is appended) and what output an empty list item or list with no text produces."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines count as the number of combinations of n elements taken m at a time, and the standard binomial coefficient C(6, 0) is 1, so a programmer following it would return 1 and pass.",
+  "missing": "none"
+}

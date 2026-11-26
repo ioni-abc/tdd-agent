@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test exercises `insert_ticket` and `search_tickets_by_customer` and never calls `create_table`, so it is filed under the wrong method and does not test what the `create_table` docstring describes.",
+  "missing": "none"
+}

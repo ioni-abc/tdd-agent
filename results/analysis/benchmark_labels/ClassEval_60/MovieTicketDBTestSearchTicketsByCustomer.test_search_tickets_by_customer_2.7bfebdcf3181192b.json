@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test is named and structured as a search test, and its assertions check the row layout returned by `search_tickets_by_customer`, not the behaviour of `insert_ticket`, which only needs to store the four fields.",
+  "missing": "none"
+}

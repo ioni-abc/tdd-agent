@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Accuracy is the standard fraction of matching predictions, and the docstring's example confirms it, so a programmer would compute 3 correct out of 4 as 0.75 and pass the test.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says add_item adds a product, so a programmer would likely overwrite an existing entry, but the test expects the quantity to accumulate on re-adding an existing item.",
+  "missing": "The docstring should state what happens when the item name already exists: the quantity is added to the existing stock, and the stored price is left unchanged."
+}

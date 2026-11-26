@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that removing a key that does not exist returns 0 and that the file is only rewritten when a key is removed, so a programmer following it leaves the data unchanged, which is what the test checks.",
+  "missing": "none"
+}

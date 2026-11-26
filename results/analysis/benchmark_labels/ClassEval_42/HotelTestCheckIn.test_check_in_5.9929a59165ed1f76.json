@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says check_in returns False when room_number exceeds the booked quantity, and it only removes the name on a successful check-in, so a programmer would leave booked_rooms unchanged on this failed check-in, which is what the test asserts.",
+  "missing": "none"
+}

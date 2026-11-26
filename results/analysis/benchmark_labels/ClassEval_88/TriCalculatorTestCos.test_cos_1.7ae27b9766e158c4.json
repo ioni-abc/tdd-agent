@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says cos takes a degree angle and returns a float, and the example shows 0.5, but a natural implementation using math.cos(math.radians(60)) returns 0.5000000000000001, which fails the exact equality check.",
+  "missing": "The docstring should state the precision of the returned float, for example whether results are rounded to a fixed number of decimal places and what that number is."
+}

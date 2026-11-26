@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says mode accepts 'heat' or 'cool' and that setting it stores the value, so a programmer following it would make `get_mode()` return 'heat' after `set_mode('heat')`, which is what the test checks.",
+  "missing": "none"
+}

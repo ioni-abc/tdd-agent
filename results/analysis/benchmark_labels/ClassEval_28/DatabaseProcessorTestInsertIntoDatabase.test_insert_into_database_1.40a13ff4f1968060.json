@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "A programmer following the docstring would insert each dict's name and age into the table, but the test's assertion on `result[0][2]` depends on the storage layout (an auto-increment id column placed before name and age), which the docstring never mentions.",
+  "missing": "The docstring should state the column layout of stored rows, including any generated id column and its position relative to the inserted fields, and which columns each dictionary key maps to."
+}

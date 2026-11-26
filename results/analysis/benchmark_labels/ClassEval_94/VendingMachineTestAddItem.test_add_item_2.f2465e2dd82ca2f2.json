@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the method adds a product to the inventory, so a programmer could reasonably overwrite the existing entry when the same item is added again, and the test expects the quantity to accumulate instead.",
+  "missing": "When the item name already exists in the inventory, the new quantity must be added to the stored quantity and the stored price kept, rather than the entry being replaced."
+}

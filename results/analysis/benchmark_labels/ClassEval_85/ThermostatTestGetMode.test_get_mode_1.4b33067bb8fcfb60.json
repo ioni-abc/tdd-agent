@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_mode returns the current work mode, restricted to 'heat' or 'cool', so a programmer returning the stored mode would produce 'heat' as the test expects.",
+  "missing": "none"
+}

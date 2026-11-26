@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test is filed under create_student_table but its only assertions exercise insert_student, which the create_student_table docstring never mentions; create_student_table is only called in setUp.",
+  "missing": "none"
+}

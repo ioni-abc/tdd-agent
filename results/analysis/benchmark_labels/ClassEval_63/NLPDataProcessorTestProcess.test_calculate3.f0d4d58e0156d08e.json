@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test calls `calculate_word_frequency` directly with an empty list, but it is filed under `process`, whose docstring describes the full cleaning, splitting and counting pipeline and never mentions that helper.",
+  "missing": "none"
+}

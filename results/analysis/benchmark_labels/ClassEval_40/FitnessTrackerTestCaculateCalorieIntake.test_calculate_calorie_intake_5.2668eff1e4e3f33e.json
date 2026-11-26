@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the \"too fat\" multiplier of 1.2 for a male with BMI about 25.4, but the docstring never says how the fat, thin, or normal condition is determined, so a programmer could easily pick the normal 1.4 branch.",
+  "missing": "The docstring should state the rule that classifies a user as too fat, too thin, or normal (for example the BMI thresholds and how they are computed from height and weight)."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that tracking an order right after creating it returns 'Shipped', which is exactly what this test checks.",
+  "missing": "none"
+}

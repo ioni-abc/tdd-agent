@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the value of the expression, so a programmer would evaluate '1+2' and get 3, which matches the test's assertion (3.0 equals 3).",
+  "missing": "none"
+}

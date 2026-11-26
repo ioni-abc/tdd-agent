@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what is returned when an IP address has no reverse-DNS entry, and the test expects None for such an address, while the docstring's second example shows no output at all.",
+  "missing": "The docstring should state the return value (for example None) when the address has no associated hostname or the lookup fails, rather than leaving it to the reader to infer from a blank example."
+}

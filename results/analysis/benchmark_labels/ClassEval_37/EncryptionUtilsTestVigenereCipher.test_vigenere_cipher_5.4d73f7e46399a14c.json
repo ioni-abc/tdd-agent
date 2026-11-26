@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method encrypts the plaintext and returns the ciphertext, so an empty plaintext should produce an empty ciphertext, which is what the test expects.",
+  "missing": "none"
+}

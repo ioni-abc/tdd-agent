@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say whether numeric tokens count as words or whether an abbreviation period like \"Mr.\" ends a sentence, so a reasonable implementation could produce a different maximum than the expected 5.",
+  "missing": "The docstring should specify what counts as a word (for example, whether pure-number tokens are included) and how sentence boundaries are detected when a period follows an abbreviation or appears inside a token."
+}

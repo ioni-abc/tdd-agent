@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example gives `calculate(\"2 + 3 * 4\")` returning `14.0`, which is exactly what the test checks, so a programmer following the example would pass it even though the prose says \"postfix\".",
+  "missing": "none"
+}

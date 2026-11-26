@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return students who have any score below 60, so a student with no recorded courses has no failing score and a programmer would correctly return an empty list.",
+  "missing": "none"
+}

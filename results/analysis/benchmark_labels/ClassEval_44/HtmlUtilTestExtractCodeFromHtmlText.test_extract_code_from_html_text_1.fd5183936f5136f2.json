@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example uses the same HTML structure and gives the same two extracted code strings, including the preserved indentation, so a programmer following it would produce the expected output.",
+  "missing": "none"
+}

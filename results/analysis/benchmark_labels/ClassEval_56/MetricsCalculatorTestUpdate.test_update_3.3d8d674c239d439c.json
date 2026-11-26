@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that predicted 1 with true 1 counts as a true positive, predicted 1 with true 0 as a false positive, and so on, and the test uses the same convention and accumulates across calls, which the docstring's \"update the number\" wording supports.",
+  "missing": "none"
+}

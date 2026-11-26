@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says write_text writes the given content string to the Word document, so a programmer would write an empty string and read back an empty result, which is what the test asserts.",
+  "missing": "none"
+}

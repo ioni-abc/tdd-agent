@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines divide as ordinary complex division and gives a worked example of that operation, so a programmer implementing standard complex division would produce 0.44-0.08j for this test's inputs.",
+  "missing": "none"
+}

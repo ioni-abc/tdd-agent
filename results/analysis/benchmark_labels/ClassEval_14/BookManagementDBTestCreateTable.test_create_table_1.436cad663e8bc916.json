@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"the book table\" without giving its name, so a correct implementation using a different name would fail the test's lookup in sqlite_master.",
+  "missing": "The docstring should state the exact name and column schema of the table to create, and that the change must be committed so a separate connection can see it."
+}

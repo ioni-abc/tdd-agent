@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a new product is added as a dict with its name and quantity when its id is not yet in the inventory, which is exactly what the test checks for two distinct product ids.",
+  "missing": "none"
+}

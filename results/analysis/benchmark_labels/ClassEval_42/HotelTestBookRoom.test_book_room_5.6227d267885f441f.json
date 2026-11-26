@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring states the partial-availability return value (1 remaining), but it never says how `booked_rooms` should be structured, and this test asserts it is nested as room type \u2192 guest name \u2192 count.",
+  "missing": "The docstring should specify the layout of `booked_rooms` and `available_rooms` after a successful or partial booking, including whether booked entries are keyed by room type and then by guest name, and what value each holds."
+}

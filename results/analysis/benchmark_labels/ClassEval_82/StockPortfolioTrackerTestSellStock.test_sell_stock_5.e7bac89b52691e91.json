@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says selling removes the stock from the portfolio and adds its cash value to the balance, which is what this test checks: the AAPL entry is removed, the MSFT holding remains, and cash rises by price times quantity.",
+  "missing": "none"
+}

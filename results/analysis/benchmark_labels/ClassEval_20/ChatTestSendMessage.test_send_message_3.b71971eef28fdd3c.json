@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that if the sender is not in the Chat the method returns False, and the test checks exactly that case, so a programmer following it would return False and leave the users dict untouched.",
+  "missing": "none"
+}

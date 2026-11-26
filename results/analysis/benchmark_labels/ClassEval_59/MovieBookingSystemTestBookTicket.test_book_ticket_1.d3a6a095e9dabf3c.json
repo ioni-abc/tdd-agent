@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers the success message and says seat values change, but never says that a booked seat is set to the value 1, which is what the test asserts.",
+  "missing": "The docstring should state that each successfully booked seat in the movie's seat grid is set to 1 (and that seats are free at 0), so an implementation that uses a different marker would be visibly wrong."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says select returns arrangements of m items from the data, and its example shows ordered pairs in input order, so a programmer would produce all six ordered 2-element arrangements of [2, 3, 4] in the same order the test expects.",
+  "missing": "none"
+}

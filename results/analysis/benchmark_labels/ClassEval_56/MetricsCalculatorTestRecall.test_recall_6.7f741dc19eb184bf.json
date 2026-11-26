@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring defines recall as true positives over actual positives but says nothing about the case with no actual positives, where a programmer could raise ZeroDivisionError or return NaN instead of the 0.0 the test expects.",
+  "missing": "The docstring should state that when there are no actual positive labels in true_labels (so the denominator is zero), recall returns 0.0."
+}

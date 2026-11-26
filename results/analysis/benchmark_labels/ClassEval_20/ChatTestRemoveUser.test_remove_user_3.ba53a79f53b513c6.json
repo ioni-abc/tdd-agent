@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to remove the user from the Chat and return True when the user is present, which is exactly what the test checks: removing 'John' returns True and leaves only the other user.",
+  "missing": "none"
+}

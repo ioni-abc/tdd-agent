@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes the success case of returning the host, so a programmer could reasonably return the whole string, an empty value, or raise for a URL without a scheme, while the test expects None.",
+  "missing": "The docstring should say what the method returns when the URL has no \"://\" scheme separator, for example that it returns None in that case."
+}

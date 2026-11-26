@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says `__setitem__` sets the value for a key to the specified value, and the test checks exactly that: after overwriting 'first_name' with 'newname', the lookup returns 'newname'.",
+  "missing": "none"
+}

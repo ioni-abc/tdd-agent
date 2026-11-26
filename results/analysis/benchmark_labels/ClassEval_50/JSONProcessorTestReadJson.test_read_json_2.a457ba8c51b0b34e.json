@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test passes a path that does not exist and expects 0, which the docstring explicitly specifies (\"return 0 if the file does not exist\").",
+  "missing": "none"
+}

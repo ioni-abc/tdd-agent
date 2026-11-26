@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method adds a table to the Word document populated with the given list of lists, which is what the test checks: a 3x2 table with the expected cell text, read back from the saved file.",
+  "missing": "none"
+}

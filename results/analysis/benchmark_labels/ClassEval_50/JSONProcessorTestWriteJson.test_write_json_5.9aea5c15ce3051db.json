@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says write_json returns -1 whenever an error occurs during writing, and opening an empty file path fails, so a programmer following the docstring would return -1 and pass.",
+  "missing": "none"
+}

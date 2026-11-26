@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects a query point that lies outside the grid's y-range to be silently dropped from the output, and the docstring says nothing about that, so a correct implementation could return a placeholder or raise instead.",
+  "missing": "The docstring should say what happens to interpolation points that fall outside the range covered by the data grid, for example whether they are omitted from the returned list (so the output can be shorter than the input) or represented some other way."
+}

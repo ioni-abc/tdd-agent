@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's loop, which checks for the goal only after moves are generated, does not say whether an already-solved initial state returns an empty path, so a correct implementation could instead expand moves and return a non-empty path.",
+  "missing": "The docstring should state what `solve` returns when the initial state already equals the goal state, such as an empty list of moves."
+}

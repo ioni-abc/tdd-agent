@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's second doctest shows the exact single-item output the test expects, 'Coke - $1.25 [10]', so a programmer following it would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test checks that a successful checkout reduces each dish's remaining menu count and empties the selected dishes, but the docstring only says it returns the total from calculate_total and never mentions these side effects.",
+  "missing": "After a successful checkout, the docstring should say that each ordered dish's menu count is reduced by the quantity ordered and that the selected dishes list is cleared afterward."
+}

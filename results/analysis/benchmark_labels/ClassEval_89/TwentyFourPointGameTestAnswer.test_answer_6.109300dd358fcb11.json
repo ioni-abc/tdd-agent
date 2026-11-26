@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test is filed under get_my_cards but exercises game.answer, a different method whose behaviour the get_my_cards docstring does not describe.",
+  "missing": "none"
+}

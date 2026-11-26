@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example gives the same input and the exact expected float (0.9999999999999998), so a programmer following it would match the test.",
+  "missing": "none"
+}

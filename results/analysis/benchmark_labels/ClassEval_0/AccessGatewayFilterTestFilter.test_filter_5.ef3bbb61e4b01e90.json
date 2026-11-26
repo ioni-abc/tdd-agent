@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"certain rules and conditions,\" so a programmer cannot know that a non-whitelisted request is allowed when its Authorization header carries a user with a sufficiently high level, which is what this test expects.",
+  "missing": "The docstring should state which request paths bypass authentication and that every other request is allowed only if its authorization header holds a token whose embedded user level exceeds the required threshold, otherwise it is denied."
+}

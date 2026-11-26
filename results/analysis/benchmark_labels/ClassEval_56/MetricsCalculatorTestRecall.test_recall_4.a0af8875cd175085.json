@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines recall as the standard TP/(TP+FN) with label 1 as positive, and the test's inputs give 2 true positives and 1 false negative, so a programmer following it would return 2/3.",
+  "missing": "none"
+}

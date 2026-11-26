@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says read_file returns the same content as read(), i.e. the file's text, which is exactly what the test checks: a str equal to the file's contents.",
+  "missing": "none"
+}

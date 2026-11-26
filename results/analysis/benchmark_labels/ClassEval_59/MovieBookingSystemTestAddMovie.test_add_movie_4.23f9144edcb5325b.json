@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the movie dict with the name, price, datetime start and end times parsed from 'HH:MM' strings, and an n\u00d7n zero seats array, which covers every assertion in the test.",
+  "missing": "none"
+}

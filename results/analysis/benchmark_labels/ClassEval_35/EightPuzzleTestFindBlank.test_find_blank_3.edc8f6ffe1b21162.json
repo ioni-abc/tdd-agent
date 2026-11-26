@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring defines the blank as the 0 element and says it returns coordinates, but it never says what happens when the grid has no 0, which is the case this test checks (expecting None).",
+  "missing": "The docstring should specify the return value when the state contains no 0 element, such as returning None or raising an error."
+}

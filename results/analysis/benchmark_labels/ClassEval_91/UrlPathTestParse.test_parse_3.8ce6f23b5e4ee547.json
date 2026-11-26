@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says segments are populated, so a programmer following it would not know that the `with_end_tag` attribute must be set when the path ends with a slash, which the test checks.",
+  "missing": "The docstring should state that the object's `with_end_tag` flag is set to True when the input path ends with a '/' character, and False otherwise, in addition to describing how segments are produced."
+}

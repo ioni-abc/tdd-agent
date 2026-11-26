@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to keep only alphabetic characters from the file content and write the result back, which is exactly what the test checks (punctuation and spaces removed, result written via write_file).",
+  "missing": "none"
+}

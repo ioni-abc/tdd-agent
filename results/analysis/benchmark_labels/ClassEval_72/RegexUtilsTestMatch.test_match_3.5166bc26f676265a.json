@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example applies the same phone-number pattern to a matching string and expects True, so a programmer following it would return True for this similarly formatted input.",
+  "missing": "none"
+}

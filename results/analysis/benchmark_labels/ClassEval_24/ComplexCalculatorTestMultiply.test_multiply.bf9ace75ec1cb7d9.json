@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says multiply should return the product of two complex numbers and gives the example (1+2j)*(3+4j) \u2192 (-5+10j), which is exactly the case the test checks.",
+  "missing": "none"
+}

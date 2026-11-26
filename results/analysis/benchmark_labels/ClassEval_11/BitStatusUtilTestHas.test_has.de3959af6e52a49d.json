@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says `has` returns True when the current status contains the specified status, and its example `has(6,2)` returns True, which is exactly what the test asserts.",
+  "missing": "none"
+}

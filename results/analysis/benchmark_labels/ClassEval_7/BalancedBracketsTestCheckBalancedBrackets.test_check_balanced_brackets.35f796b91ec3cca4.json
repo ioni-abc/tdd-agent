@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True when the expression has balanced brackets, and its example shows exactly this input returning True, so a standard bracket-matching implementation passes the test.",
+  "missing": "none"
+}

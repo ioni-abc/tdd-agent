@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method gets the thermostat's target temperature, so a programmer would return the target attribute and the test's expected 25 follows from that.",
+  "missing": "none"
+}

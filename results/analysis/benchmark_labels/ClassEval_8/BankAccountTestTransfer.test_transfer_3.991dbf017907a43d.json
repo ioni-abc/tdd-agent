@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says nothing about invalid amounts, so a programmer following it would not know to raise an error for a negative transfer, while the test expects a ValueError with a specific message.",
+  "missing": "The docstring should state that any amount that is negative or otherwise invalid causes a ValueError with the message \"Invalid amount\", and that neither account's balance changes in that case."
+}

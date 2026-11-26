@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example shows that a valid IP like 10.10.10.10 yields the dotted, 8-bit zero-padded binary string, which is exactly what this test asserts.",
+  "missing": "none"
+}

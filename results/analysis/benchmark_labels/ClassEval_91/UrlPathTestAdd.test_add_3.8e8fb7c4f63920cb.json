@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add appends the given segment to the list, and a programmer following it would produce `['123']` for input `'123'`, which is what the test expects.",
+  "missing": "none"
+}

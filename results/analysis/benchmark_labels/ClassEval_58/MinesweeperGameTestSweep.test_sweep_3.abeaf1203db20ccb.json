@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers the return value on a win, but the test also asserts that the `score` attribute increases by one after a safe cell is swept, and the docstring never mentions a score.",
+  "missing": "The docstring should say that each successful sweep of a safe cell increments the game's `score` attribute by one, and that a sweep onto a mine does not change it."
+}

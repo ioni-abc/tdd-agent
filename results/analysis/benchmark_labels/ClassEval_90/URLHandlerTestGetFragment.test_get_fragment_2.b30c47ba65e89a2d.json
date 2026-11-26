@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes the success case (returning the text after '#'), so a programmer would not know that a URL with no '#' should return None; returning an empty string or raising an error would be equally plausible.",
+  "missing": "The docstring should say what is returned when the URL contains no '#' character, for example that it returns None in that case."
+}

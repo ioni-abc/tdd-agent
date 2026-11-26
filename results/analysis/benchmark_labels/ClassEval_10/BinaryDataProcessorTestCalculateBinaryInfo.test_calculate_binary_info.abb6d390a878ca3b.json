@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same input and the same output the test expects (fractions 0.475 and 0.525 and bit length 40), so a programmer following it would return those values.",
+  "missing": "none"
+}

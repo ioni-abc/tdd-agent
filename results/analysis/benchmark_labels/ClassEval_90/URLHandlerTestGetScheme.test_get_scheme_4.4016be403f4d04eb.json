@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_scheme returns the scheme of the URL, and a programmer would take the text before \"://\" as the scheme, which gives \"aaa\" for this test's custom scheme.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the n-order Taylor expansion of cos(x/180*pi), and with n=50 any reasonable truncation of that series gives cos(30\u00b0) \u2248 0.8660254 within assertAlmostEqual's tolerance, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

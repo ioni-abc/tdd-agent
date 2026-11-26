@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says to return the text without code and insert the code marker, so it does not say how paragraph punctuation is handled, and the reference code's rules for adding a period or colon to paragraphs are not described.",
+  "missing": "The docstring should state how terminal punctuation on paragraph text is handled: whether a period is appended when a paragraph lacks trailing punctuation, when a colon is used instead before a code block, and when the text is left unchanged."
+}

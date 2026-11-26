@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the annulus area from inner and outer radius and its example (2, 3) gives 15.70, so a programmer would compute pi times (outer squared minus inner squared), which yields the test's expected 25.13 for inner 1 and outer 3.",
+  "missing": "none"
+}

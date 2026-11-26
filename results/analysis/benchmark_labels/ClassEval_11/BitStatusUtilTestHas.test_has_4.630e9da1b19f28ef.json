@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines `has` as returning True only when the current status contains all bits of the specified status and False otherwise, so a programmer would return False for 8 and 6, which share no bits.",
+  "missing": "none"
+}

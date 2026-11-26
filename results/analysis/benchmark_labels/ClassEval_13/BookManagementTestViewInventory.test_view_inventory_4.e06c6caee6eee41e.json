@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes the inventory as a title-to-quantity dictionary, so a programmer could reasonably keep a title with quantity 0 after all copies are removed, while the test expects that title to be deleted.",
+  "missing": "The docstring should say that when removing copies brings a title's quantity to zero, that title is deleted from the inventory rather than kept with a count of 0."
+}

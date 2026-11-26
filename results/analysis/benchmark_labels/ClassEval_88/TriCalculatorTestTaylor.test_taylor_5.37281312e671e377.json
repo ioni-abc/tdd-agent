@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the method as the n-order Taylor expansion of cos(x/180\u00b7\u03c0), so a programmer implementing that series would get a value matching cos(45\u00b0) to the 7 decimal places checked, since at n=50 the truncation error is negligible.",
+  "missing": "none"
+}

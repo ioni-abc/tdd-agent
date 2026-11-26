@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the check is whether the named person booked the room, but its \"False only if\" clause lists just two failure cases, so it never says what happens when the type exists and the name has no booking under it. The test expects a falsy result with bookings unchanged, which the reference gives by returning None.",
+  "missing": "The docstring should state the outcome when the room type exists but the named person has no booking of that type: the return value (False or None) and that existing bookings stay unchanged."
+}

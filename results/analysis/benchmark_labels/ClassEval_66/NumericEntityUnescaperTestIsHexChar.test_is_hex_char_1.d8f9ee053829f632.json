@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True for a hexadecimal digit, and '0' is a hexadecimal digit, so a programmer following it would return True.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows the trailing-slash example and never mentions the `with_end_tag` attribute, so a programmer following it could not know that `with_end_tag` must stay False for a path without a trailing slash.",
+  "missing": "The docstring should state that `with_end_tag` is set to True only when the input path ends with a '/' and is otherwise False, and that the leading '/' is not part of any segment."
+}

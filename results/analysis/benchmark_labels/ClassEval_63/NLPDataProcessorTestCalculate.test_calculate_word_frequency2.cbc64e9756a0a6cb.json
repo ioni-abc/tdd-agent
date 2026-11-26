@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the top 5 words by frequency in descending order, which is exactly what the test checks: the counts are summed across all sublists and the five highest-count entries are returned.",
+  "missing": "none"
+}

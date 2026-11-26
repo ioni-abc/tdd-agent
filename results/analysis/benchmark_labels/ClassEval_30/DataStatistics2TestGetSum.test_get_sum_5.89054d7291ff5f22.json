@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_sum calculates the sum of the data, and the test checks that summing [1, 2, 6, 4] gives 13, which any programmer following that description would produce.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that restocking an existing product returns True and that the call otherwise behaves as a replenishment, so a programmer following it would add zero to the quantity, leave the inventory unchanged, and return True, which is what the test checks.",
+  "missing": "none"
+}

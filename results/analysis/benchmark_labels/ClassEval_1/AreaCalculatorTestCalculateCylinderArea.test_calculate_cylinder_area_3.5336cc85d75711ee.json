@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the area is based on radius and height, and its example (radius 2, height 3 giving 62.83) pins the total-surface-area formula, which gives 0 for a zero radius at any height, so a programmer following it would pass.",
+  "missing": "none"
+}

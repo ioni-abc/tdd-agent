@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The `:return` line says the method returns `self.current_temperature`, but the test expects the target value (25) and the reference returns `self.target_temperature`.",
+  "missing": "The `:return` description should name the attribute that holds the target value (the one set from the constructor's second argument), not the current temperature."
+}

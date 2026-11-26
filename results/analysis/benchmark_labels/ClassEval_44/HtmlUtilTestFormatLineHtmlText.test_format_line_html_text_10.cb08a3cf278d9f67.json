@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says that paragraph text lacking end punctuation gets a period appended, or that inline code outside a pre/blockquote is kept as plain text, so a faithful implementation could produce different output than this test expects.",
+  "missing": "The docstring should specify the normalization rules: a paragraph whose text does not end in punctuation gets a period (or a colon when the next sibling is a code block), only pre and blockquote elements are replaced by the code marker, and other inline tags are flattened to their text with no added separator."
+}

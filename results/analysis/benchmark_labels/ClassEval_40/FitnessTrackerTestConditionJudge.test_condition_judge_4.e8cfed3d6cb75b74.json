@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says \"based on the BMI standard\" without giving the cutoff values, so a programmer cannot know exactly which BMI band counts as normal for a male user, and the test's expected 0 depends on those values.",
+  "missing": "The docstring should state the BMI thresholds used for the too-thin, normal, and too-fat bands, separately for male and female users, including whether each boundary is inclusive."
+}

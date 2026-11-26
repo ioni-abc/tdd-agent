@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Method mismatch: the test exercises `answer()` (checking an expression against the cards and expecting False), but it is filed under `get_my_cards`, whose docstring only describes generating four random cards.",
+  "missing": "none"
+}

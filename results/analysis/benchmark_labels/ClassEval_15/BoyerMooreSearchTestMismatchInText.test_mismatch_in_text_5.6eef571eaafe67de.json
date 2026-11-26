@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the result as the position of the first mismatch between pattern and text, and the test's expected absolute text index of 5 follows directly from that definition.",
+  "missing": "none"
+}

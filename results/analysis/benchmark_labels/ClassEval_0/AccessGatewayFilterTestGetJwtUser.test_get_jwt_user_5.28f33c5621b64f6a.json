@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the user is returned \"if the token is valid\" but never defines validity, so a programmer would not know that a token whose embedded date is too old must be rejected, and would likely return the token here.",
+  "missing": "The docstring should state that the token carries a date after the user name in a specified format, that tokens whose embedded date is older than a fixed maximum lifetime are invalid and yield None, and what that lifetime is."
+}

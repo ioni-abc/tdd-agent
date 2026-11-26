@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest uses the same input and expected output as the test, so a programmer following the described punctuation removal, POS-based lemmatization, and example would produce the expected list.",
+  "missing": "none"
+}

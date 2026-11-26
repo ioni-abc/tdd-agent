@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"cosine similarity between two sets of vectors\" and does not say the sets are reduced to mean vectors before the cosine is taken, so a programmer could reasonably average pairwise cosines and fail this test's expected 0.9487.",
+  "missing": "The docstring should state how each list is reduced to a single vector before comparison (for example, the element-wise mean of the vectors in each list, then the cosine of those two means)."
+}

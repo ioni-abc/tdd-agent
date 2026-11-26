@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says `__iter__` returns an iterator over the object's data, but the test expects keys in camelCase form (`first_Name` comes back as `firstName`), a conversion the docstring never mentions.",
+  "missing": "The docstring should say that keys are stored and returned in the converted form, e.g. underscore-separated words are joined and capitalised after the first, so iteration yields the converted keys rather than the raw keys as originally assigned."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"Delete the value corresponding to the key,\" so a programmer would look up the key as given, and the test expects `'firstName'` to delete the entry stored under `'first_name'`, which that plain lookup would not do.",
+  "missing": "The docstring should say that keys are normalized to the map's canonical form before lookup, so any key spelling that maps to the same canonical name (for example camelCase versus snake_case) refers to the same entry for deletion."
+}

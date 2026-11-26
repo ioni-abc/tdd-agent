@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the method returns the post-purchase balance but never says that the item's stock quantity is decremented, which the test asserts on the inventory after the call.",
+  "missing": "On a successful purchase, the method must deduct the item's price from the machine's balance and reduce that item's stored quantity by one."
+}

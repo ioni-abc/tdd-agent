@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns all positions where the pattern occurs in the text, and the test checks exactly that for \"AB\" in \"ABAABA\", which has matches at indices 0 and 3.",
+  "missing": "none"
+}

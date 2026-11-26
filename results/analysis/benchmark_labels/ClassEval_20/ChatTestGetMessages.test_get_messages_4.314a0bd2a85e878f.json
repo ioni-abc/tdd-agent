@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example shows that asking for a user with no stored messages returns an empty list, which is exactly what this test checks.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring describes linear interpolation in general, but it does not say whether a query point lying exactly on the grid's last edge is interpolated, so a correct implementation that excludes boundary points would return an empty list instead of [9.0].",
+  "missing": "The docstring should say whether query points lying exactly on the boundary of the data grid are included in the output, and what happens to query points that fall outside the grid (dropped, or given some other value)."
+}

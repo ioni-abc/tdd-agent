@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to round to two decimal places and gives an example, [1, 2, 3, 4] \u2192 1.25, that only matches population variance (dividing by n), so a programmer following it would compute 1.25 for this test's data as well.",
+  "missing": "none"
+}

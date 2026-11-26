@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says clear_expr removes every character that is not a bracket and keeps the brackets in order, so a programmer following it would produce \"(){}\" for \"a(b){c}\".",
+  "missing": "none"
+}

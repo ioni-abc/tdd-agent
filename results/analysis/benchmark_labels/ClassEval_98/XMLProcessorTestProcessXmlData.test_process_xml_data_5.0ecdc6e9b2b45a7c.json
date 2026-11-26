@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the data is \"modified\", so a programmer would not know the test expects every `item` element's text to be converted to uppercase, and a correct implementation could fail.",
+  "missing": "The docstring should state the exact transformation applied to each target element's text (for example, case conversion) and which elements are targeted by tag name."
+}

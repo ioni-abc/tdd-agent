@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says \"UGM\" is a valid sex that should be returned unchanged, so a programmer following it would keep \"UGM\" and pass this test.",
+  "missing": "none"
+}

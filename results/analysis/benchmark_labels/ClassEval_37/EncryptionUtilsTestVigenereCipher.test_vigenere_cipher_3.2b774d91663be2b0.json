@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives only a lowercase example, so a programmer could reasonably lowercase the output, whereas this test expects the case of each input letter to be preserved (A\u2192L, b\u2192p).",
+  "missing": "The docstring should say that each letter keeps its original case in the output, and that non-letter characters pass through unchanged without consuming a key letter."
+}

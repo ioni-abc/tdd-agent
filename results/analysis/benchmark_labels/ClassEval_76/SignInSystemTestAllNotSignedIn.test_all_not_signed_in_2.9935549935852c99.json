@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the usernames not signed in, and its example shows two newly added users returned in insertion order, which is what this test checks.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers the True/False return (keyed on whether the id is already present), but the test also inspects `hr_system.employees` directly, and the docstring never says where employees are stored or in what structure.",
+  "missing": "The docstring should say that each employee is kept in an attribute named `employees`, keyed by employee_id, with a dict holding name, position, department and salary under those exact keys."
+}

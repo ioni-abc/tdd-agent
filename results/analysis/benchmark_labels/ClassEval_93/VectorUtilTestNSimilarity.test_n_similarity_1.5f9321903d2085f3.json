@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says \"cosine similarity between two sets of vectors\" without saying each list is first averaged into one mean vector, so a programmer could compute pairwise or other aggregate similarities and fail this test's expected 1.0.",
+  "missing": "The docstring should state that each list's vectors are averaged element-wise into a single mean vector, and the cosine similarity is computed between those two mean vectors."
+}

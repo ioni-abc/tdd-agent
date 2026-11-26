@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says a conflict includes courses that share a boundary time, and the test's new course starts exactly when the existing one ends, so a programmer following the docstring would return False.",
+  "missing": "none"
+}

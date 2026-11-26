@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to convert by looking up the registered type, but it doesn't say how a bool-typed argument should treat its string input, so a programmer who parses the text as a boolean would return False where the test expects True.",
+  "missing": "The docstring should state that conversion simply calls the registered type on the raw string, so built-in types like bool follow Python's constructor semantics (any non-empty string is truthy) rather than parsing the text."
+}

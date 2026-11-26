@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring describes Pearson correlation returning a float, but the test expects None when either input has zero variance (constant list), which a programmer would not infer and might instead raise a ZeroDivisionError or return NaN.",
+  "missing": "The docstring should state what is returned when either input has zero variance (for example, that the function returns None when the denominator is zero)."
+}

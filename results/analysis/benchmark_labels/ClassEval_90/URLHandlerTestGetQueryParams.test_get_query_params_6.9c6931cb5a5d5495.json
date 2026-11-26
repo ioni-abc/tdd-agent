@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects an empty dict for a query string containing only an empty `&` separator, but the docstring never says how empty or malformed `&`-separated segments are handled, so a reasonable implementation might produce an entry like `{\"\": \"\"}` instead.",
+  "missing": "The docstring should say that query segments lacking a `key=value` form (such as empty segments between `&` separators or segments with no `=`) are skipped, and that an empty query string yields an empty dict."
+}

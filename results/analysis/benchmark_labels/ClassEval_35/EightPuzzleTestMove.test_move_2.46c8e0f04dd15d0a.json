@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that 'left' moves the blank tile left (swapping it with the tile to its left), so a programmer following that convention would produce the expected result for 'down' (blank swaps with the tile below it).",
+  "missing": "none"
+}

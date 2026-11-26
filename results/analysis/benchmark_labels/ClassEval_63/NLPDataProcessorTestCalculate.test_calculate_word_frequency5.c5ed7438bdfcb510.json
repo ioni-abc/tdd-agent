@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring asks for the top 5 words sorted by frequency, but it does not say which words to keep when several words tie at the cutoff, so a correct implementation could pick a different tied word than the test expects.",
+  "missing": "The docstring should state how ties in frequency are broken when the cutoff falls among equal counts (for example, keep the word that first appears earliest in the input)."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the book's quantity and to return 0 for an unknown title, so a programmer would return 0 for a title whose copies were all removed, whether the entry was deleted or kept at zero.",
+  "missing": "none"
+}

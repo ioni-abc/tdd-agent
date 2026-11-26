@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring defines F1 as the harmonic mean of precision and recall but never says which label counts as positive, and the test's expected 0.4 depends on treating label 1 as the positive class, which a programmer could not infer from the symmetric example.",
+  "missing": "The docstring should state which label is treated as the positive class for precision and recall (or whether scores are averaged across classes) so that an implementation with a different convention does not produce a different value."
+}

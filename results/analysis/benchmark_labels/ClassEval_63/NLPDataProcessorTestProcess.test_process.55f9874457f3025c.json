@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring asks for the top 5 entries sorted by frequency, but six words tie at count 2, and the test expects one specific subset of five, which the docstring doesn't determine.",
+  "missing": "The docstring should say how ties in frequency are broken when choosing the top N entries (for example, by alphabetical order or first appearance), so that a correct implementation picks the same words."
+}

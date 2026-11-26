@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to remove the specified status bit from the current status, so a programmer would clear bit 4 from 6 (binary 110) to get 2, which is what the test expects, and the docstring example (6, 2) \u2192 4 confirms the bit-clearing behaviour.",
+  "missing": "none"
+}

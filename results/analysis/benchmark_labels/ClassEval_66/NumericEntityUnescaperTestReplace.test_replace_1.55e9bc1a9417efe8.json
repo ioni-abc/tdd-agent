@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes replacing numeric character references with their Unicode characters, and its example shows the same decimal-entity-to-letters conversion this test checks, so a programmer following it would produce \"ABC\".",
+  "missing": "none"
+}

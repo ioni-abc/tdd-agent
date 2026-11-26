@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says numbers are not counted as words, but it does not say whether a space-separated token that mixes letters and digits (like \"bbb1\") counts, so a correct implementation could go either way and fail this test.",
+  "missing": "The docstring should state how a space-separated token that mixes letters and digits is handled, for example whether its letters are kept as a word with the digits stripped or the whole token is dropped."
+}

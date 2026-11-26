@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that random numbers between 1 and 9 are generated, so a correct implementation could produce a different number of cards than the four this test expects.",
+  "missing": "The docstring should state how many numbers are generated (four cards), since the count is a convention the test depends on and is not implied by \"generate random numbers\"."
+}

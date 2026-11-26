@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the stock value is computed from its price and quantity, so a programmer would multiply them and get 0.0 for zero price and zero quantity, matching the test.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "A programmer following the docstring would keep the stray trailing \";\" and return \"CCC;\", but the reference code silently drops it, so the expected \"CCC\" is not implied by the docstring.",
+  "missing": "The docstring should say whether ordinary characters that follow the last numeric reference (or that are not part of any valid reference) are kept in the output or dropped."
+}

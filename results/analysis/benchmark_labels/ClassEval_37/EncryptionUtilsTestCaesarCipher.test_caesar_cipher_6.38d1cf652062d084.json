@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says each character is shifted but never says that non-letter characters are left unchanged, so a programmer could shift digits too and fail this test.",
+  "missing": "The docstring should say that only alphabetic characters are shifted (wrapping within their own case's alphabet), while all other characters such as digits, spaces and punctuation are copied through unchanged."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to filter out all non-alphabetic characters from the content, so a programmer would return an empty string for input made only of punctuation, digits and spaces, which is what the test expects, and it also says the result is written back to the file.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test adds one paragraph and expects its text back, which any reasonable reading of \"returns the content as a string\" produces, so no separator or format convention is needed.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_item stores the item's price and quantity, and its example shows `{\"apple\":{\"price\":1, \"quantity\":5}}` for `add_item(\"apple\", 1, 5)`, which is exactly what the test checks.",
+  "missing": "none"
+}

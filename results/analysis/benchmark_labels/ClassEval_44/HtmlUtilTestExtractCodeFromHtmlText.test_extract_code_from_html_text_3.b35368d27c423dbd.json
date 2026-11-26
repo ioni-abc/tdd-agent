@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same behaviour the test checks: text inside `<pre>` tags (including `<code>` nested in `<pre>`) is returned as a list of code strings, with whitespace preserved.",
+  "missing": "none"
+}

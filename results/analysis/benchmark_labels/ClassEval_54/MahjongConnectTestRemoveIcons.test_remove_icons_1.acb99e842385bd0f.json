@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says positions are (x, y) tuples but never says x is the row index, so a programmer using the usual Cartesian reading (x as column) would swap the cells and fail this test's expected board.",
+  "missing": "The docstring should state that each position is (row, column), i.e. the first element indexes the outer list of the board, and that a removed cell is set to a single space character ' '."
+}

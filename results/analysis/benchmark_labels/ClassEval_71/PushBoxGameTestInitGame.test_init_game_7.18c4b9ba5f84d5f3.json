@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says init_game sets the positions of targets, but it never says a count of targets is maintained, so an implementation that only records target positions would fail this test.",
+  "missing": "The docstring should state that, in addition to recording target positions, the game keeps a running count attribute holding how many target cells were found during initialization."
+}

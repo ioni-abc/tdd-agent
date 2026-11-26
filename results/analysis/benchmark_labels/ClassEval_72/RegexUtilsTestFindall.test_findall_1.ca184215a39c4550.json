@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says findall returns a list of all matching substrings for a regex pattern, which is exactly what the test checks with a phone-number pattern over a text containing three matches.",
+  "missing": "none"
+}

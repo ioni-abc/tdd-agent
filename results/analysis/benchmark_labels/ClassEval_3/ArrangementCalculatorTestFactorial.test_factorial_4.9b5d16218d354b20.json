@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines factorial as the product of the integers up to n with the example factorial(4)=24, so a programmer implementing the standard definition would return 2 for input 2.",
+  "missing": "none"
+}

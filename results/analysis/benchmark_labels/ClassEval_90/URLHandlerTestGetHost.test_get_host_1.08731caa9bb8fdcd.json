@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example uses the same URL and expects \"www.baidu.com\" as the host domain name, so a programmer following it would return the same value the test checks.",
+  "missing": "none"
+}

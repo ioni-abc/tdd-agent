@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example, rail_fence_cipher(\"abc\", 2) returning 'acb', is the same case the test checks, and a standard zigzag rail-fence implementation produces that output.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the method returns False when a request is not allowed, but the test expects None for a request whose user level is too low, matching the reference code's implicit fall-through.",
+  "missing": "The docstring should state that any request that fails the access conditions returns None (no value) rather than False, and it should specify exactly which conditions lead to that result."
+}

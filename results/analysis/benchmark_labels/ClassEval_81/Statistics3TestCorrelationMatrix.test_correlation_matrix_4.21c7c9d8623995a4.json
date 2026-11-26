@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring asks for a correlation matrix of the list but never says whether rows or columns are the variables, so a row-wise implementation would return a 4x4 matrix and fail this test, whose expected 3x3 output requires column-wise correlation.",
+  "missing": "The docstring should state which dimension holds the variables, for example that each column of the input is one variable and the output is the Pearson correlation between every pair of columns, giving a matrix of size equal to the number of columns."
+}

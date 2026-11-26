@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test is a search test (`test_search_student_by_name_2`) that calls `search_student_by_name` and checks its returned rows, while `insert_student`'s docstring only covers inserting a row and returns None.",
+  "missing": "none"
+}

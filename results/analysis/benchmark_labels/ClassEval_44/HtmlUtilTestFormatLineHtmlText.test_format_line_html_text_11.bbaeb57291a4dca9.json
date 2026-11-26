@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say that paragraphs lacking terminal punctuation get a period appended, or how adjacent block text is joined, so a correct implementation could produce different output for this input.",
+  "missing": "The docstring should state that a paragraph whose text does not end in punctuation gets a period appended, unless the following sibling element contains the code marker, in which case a colon is appended, and it should specify how text from adjacent block elements is joined in the output."
+}

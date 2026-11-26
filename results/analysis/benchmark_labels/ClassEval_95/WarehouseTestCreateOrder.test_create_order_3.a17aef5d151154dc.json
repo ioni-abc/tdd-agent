@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says an order is created and stored in `self.orders` with status 'Shipped' whenever the inventory holds enough quantity, and the test checks exactly that for an order that uses up the full stock.",
+  "missing": "none"
+}

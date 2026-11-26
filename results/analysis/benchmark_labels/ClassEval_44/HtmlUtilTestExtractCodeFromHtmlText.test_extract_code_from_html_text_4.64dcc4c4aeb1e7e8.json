@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example uses the same structure (a plain `<pre>` and a `<pre><code>` block, with the inner text's indentation preserved), so a programmer following it would return the same two strings this test expects.",
+  "missing": "none"
+}

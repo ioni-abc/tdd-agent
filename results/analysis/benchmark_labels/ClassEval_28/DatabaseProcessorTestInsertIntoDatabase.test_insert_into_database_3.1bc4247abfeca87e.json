@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to insert a list of row dictionaries into the named table, and the example uses the same `name` and `age` fields the test inserts, so a programmer following it would store both rows and pass the row-count and age checks.",
+  "missing": "none"
+}

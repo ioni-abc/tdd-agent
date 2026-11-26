@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects a request with an authenticated user of sufficient level to be allowed, but the docstring only says \"certain rules and conditions,\" so a programmer cannot know the authorization rule or where the credentials come from.",
+  "missing": "The docstring should specify the authorization rule: which paths bypass authentication, where the credentials are read from in the request (the header name and structure), and the minimum user level required for a request to be allowed."
+}

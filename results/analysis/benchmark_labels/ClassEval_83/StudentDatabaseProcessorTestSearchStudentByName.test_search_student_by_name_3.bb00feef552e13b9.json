@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test is named and asserts on `search_student_by_name` results after an insert, so it exercises a different method than the `insert_student` docstring describes.",
+  "missing": "none"
+}

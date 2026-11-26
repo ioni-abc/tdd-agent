@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says remove_item subtracts the given quantity from the item's count, so subtracting 4 from an apple count of 5 leaving 1 is what a programmer would implement.",
+  "missing": "none"
+}

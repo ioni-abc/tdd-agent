@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows every value, including an integer, rendered as a quoted string in the form `key='value'`, so a programmer following it would naturally produce `price='1.0'` for the float 1.0 and the test's WHERE clause follows the same pattern.",
+  "missing": "none"
+}

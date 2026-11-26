@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring names only the Pearson correlation, but this test's exact float expectation depends on the reference's specific arithmetic order, so a correct implementation that returns the mathematically exact value could fail the equality check.",
+  "missing": "The docstring should state the exact formula or rounding convention for float outputs (for example, whether results are rounded or computed in a particular order), so that exact-equality checks on float results are implementable from the docstring alone."
+}

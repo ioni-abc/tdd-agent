@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows each employee's record with an added `employee_ID` key and the output keyed by employee ID, which matches the test's multi-employee expectation, and returning an empty result for no employees follows directly from \"all employees' information.\"",
+  "missing": "none"
+}

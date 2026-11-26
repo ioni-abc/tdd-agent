@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test-filing mismatch: the test is named and assertions focus on `search_tickets_by_customer`, while the docstring describes only `insert_ticket`, which the test merely uses as setup.",
+  "missing": "none"
+}

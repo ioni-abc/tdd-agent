@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring requires a valid path between the two positions, and on this board the two 'a' cells sit in disconnected regions blocked by 'b' and 'c' icons, so a programmer checking for a path would correctly return False.",
+  "missing": "none"
+}

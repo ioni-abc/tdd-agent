@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says setting the target temperature to a value makes `target_temperature` equal that value, which is the behaviour this test checks (set to 10, then read back as 10).",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method removes a stock from the portfolio, and its doctest shows it returns True and leaves the portfolio empty, so a programmer would remove the matching entry, return True, and keep the other holdings, as this test checks.",
+  "missing": "none"
+}

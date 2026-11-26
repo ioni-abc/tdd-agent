@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the remaining count for the given room type, and the test checks that a lookup of 'single' on a hotel initialised with 3 singles returns 3, which a programmer following the docstring would produce.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies that each student is stored in `self.students` under its name with the name, grade, major, and an empty courses dict, which is exactly what the test checks for several students added in sequence.",
+  "missing": "none"
+}

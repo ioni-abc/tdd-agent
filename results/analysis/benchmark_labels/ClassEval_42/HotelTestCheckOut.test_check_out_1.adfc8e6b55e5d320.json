@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says check_out adds the given number to that room type's available count, which is what the test checks (3 single plus 1 gives 4), and a programmer would not touch booked_rooms since the docstring never mentions it.",
+  "missing": "none"
+}

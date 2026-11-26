@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True when the expression evaluates to 24, and the test passes '4*3+6+6', which evaluates to 24, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

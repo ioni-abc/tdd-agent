@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True when saving to the cookies file succeeds, and the test only checks that a normal save returns True, which a programmer following the docstring would pass.",
+  "missing": "none"
+}

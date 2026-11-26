@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True for a valid IPv6 address and gives the full eight-group address as a valid example, which is exactly what this test checks.",
+  "missing": "none"
+}

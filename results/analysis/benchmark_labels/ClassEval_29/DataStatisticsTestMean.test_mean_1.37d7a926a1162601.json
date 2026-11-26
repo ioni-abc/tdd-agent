@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the mean is computed and rounded to two decimal places, and its example gives 3.00 for [1, 2, 3, 4, 5], so a programmer following it would return 3.0 and pass the test.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows each employee's entry with an added `employee_ID` key alongside the stored fields, and the test applies that same rule to two employees, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

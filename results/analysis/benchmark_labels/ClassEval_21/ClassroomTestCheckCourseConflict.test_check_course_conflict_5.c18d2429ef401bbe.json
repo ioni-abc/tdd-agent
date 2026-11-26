@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True when the new course does not conflict with any existing course, and this test adds a non-overlapping course and expects True.",
+  "missing": "none"
+}

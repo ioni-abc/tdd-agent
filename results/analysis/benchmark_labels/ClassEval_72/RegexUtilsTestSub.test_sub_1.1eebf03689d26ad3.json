@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says sub replaces regex-matched substrings with the replacement text and gives an example with the same phone-number pattern and expected output, so a programmer following it would pass this test.",
+  "missing": "none"
+}

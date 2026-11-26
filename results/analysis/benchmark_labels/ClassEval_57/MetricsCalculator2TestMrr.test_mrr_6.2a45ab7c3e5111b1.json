@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test calls `mrr(1)` inside a try/except that swallows every exception and makes no assertion, so any implementation passes it and a programmer following the docstring will pass.",
+  "missing": "none"
+}

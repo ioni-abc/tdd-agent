@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines subtract as the difference of two complex numbers and its example gives (1+2j) - (3+4j) = (-2-2j), which matches the test's expected value exactly.",
+  "missing": "none"
+}

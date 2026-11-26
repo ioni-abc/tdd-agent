@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the standard deviation rounded to two decimals and its example ([1, 2, 3, 4] giving 1.12) matches the population standard deviation, so a programmer following it would compute 1.12 for [11, 14, 13, 12], which has the same spread.",
+  "missing": "none"
+}

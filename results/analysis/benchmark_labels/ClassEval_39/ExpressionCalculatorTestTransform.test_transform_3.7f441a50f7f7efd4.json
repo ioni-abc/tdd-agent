@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows that spaces are dropped while binary operators are kept, so a programmer following it would produce \"2-3*4\" for this subtraction case.",
+  "missing": "none"
+}

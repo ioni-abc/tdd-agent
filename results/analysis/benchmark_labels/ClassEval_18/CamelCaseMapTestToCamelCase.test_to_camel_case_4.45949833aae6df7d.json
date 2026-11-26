@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert a snake_case key into camel case, and its example ('first_name' to 'firstName') shows the same pattern the test checks ('ccc_ddd' to 'cccDdd'), so a programmer following it would produce the expected output.",
+  "missing": "none"
+}

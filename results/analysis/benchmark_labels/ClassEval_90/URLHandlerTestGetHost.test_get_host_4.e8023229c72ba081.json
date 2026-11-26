@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer following the docstring would extract the host domain between the scheme and the first path slash, which is what this test checks for an https URL with a path, and the docstring example shows the same pattern.",
+  "missing": "none"
+}

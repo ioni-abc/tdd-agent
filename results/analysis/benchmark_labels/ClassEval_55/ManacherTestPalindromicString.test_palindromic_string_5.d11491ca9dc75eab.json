@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring asks for the longest palindromic substring, but 'abab' has two tied longest palindromes ('aba' and 'bab'), and the test expects 'aba' without the docstring saying which to return.",
+  "missing": "When several palindromic substrings share the maximum length, the docstring should state which one to return, such as the one that appears first in the input."
+}

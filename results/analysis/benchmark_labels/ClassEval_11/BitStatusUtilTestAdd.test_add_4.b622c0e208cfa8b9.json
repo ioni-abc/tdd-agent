@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to add a status to the current status and gives add(2, 4) = 6, so a programmer would return 2 for add(0, 2), which is what the test expects.",
+  "missing": "none"
+}

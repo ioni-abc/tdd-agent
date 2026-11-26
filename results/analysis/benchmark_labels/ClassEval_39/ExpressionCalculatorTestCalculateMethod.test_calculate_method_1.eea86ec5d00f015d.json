@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method takes two numeric strings and an operator and returns a decimal.Decimal result, and the example shows \"2\" + \"3\" giving 5, so a programmer would produce Decimal('5'), which equals Decimal(5.0).",
+  "missing": "none"
+}

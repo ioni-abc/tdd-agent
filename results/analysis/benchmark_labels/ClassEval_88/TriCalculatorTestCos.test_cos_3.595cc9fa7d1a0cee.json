@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says cos takes an angle in degrees and gives cos(60) = 0.5, so a programmer would compute cos(0) = 1.0, which is what the test expects.",
+  "missing": "none"
+}

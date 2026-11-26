@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says parsing returns False with the set of missing required argument names when required arguments are absent, and this test checks exactly that: \"age\" is required and absent, so the result should be False with {\"age\"}.",
+  "missing": "none"
+}

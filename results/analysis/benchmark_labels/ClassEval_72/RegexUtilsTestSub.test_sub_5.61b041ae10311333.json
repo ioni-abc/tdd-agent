@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says sub replaces every substring matched by the regex pattern with the replacement text, so a programmer implementing that would leave the non-matching \"123-456-780\" untouched and replace the two valid phone numbers, which is what the test expects.",
+  "missing": "none"
+}

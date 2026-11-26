@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says delete_user_by_username removes the matching user from the \"users\" table, which is exactly what the test checks: after deleting 'user2', a search for it returns None.",
+  "missing": "none"
+}

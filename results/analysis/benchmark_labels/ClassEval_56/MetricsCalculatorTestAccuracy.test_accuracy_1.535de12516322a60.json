@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example `accuracy([1, 1, 0, 0], [1, 0, 0, 1])` returns 0.5, and a programmer computing the fraction of matching positions would get 2/4 = 0.5, which is exactly what the test expects.",
+  "missing": "none"
+}

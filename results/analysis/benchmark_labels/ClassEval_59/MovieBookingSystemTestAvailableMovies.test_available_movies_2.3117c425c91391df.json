@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return available movies \"within the specified time range\", and this test's window (23:00-23:59) contains no movies under either a containment or an overlap reading, so the expected empty list follows directly.",
+  "missing": "none"
+}

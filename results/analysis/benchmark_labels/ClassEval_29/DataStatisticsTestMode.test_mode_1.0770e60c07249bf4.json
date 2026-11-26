@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example calls `mode([2, 2, 3, 3, 4])` and shows the output `[2, 3]`, which is exactly what the test asserts, so a programmer following the example would pass, even though the `:return:` line wrongly says float.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the books table is created if missing, while the test requires the exact column names and their order (id, title, author, available), which a programmer following the docstring could not know.",
+  "missing": "The docstring should list the table's columns, with their names, types and order, that the created table must contain."
+}

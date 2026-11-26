@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says code blocks become -CODE- and other text is kept, but it doesn't specify the exact whitespace and line-break layout of the output, which is what this test checks.",
+  "missing": "The docstring should state how whitespace and line breaks in the source HTML map to the returned text (including leading and trailing newlines and how blank lines are handled), and how text in paragraphs and list items is punctuated or joined around code markers."
+}

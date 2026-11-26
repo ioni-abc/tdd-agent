@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that an id absent from inventory returns False, and the test checks exactly that for an empty warehouse, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

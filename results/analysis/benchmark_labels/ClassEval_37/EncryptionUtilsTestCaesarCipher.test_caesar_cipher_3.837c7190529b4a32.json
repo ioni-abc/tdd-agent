@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each character of the plaintext is shifted and the result returned, so a programmer's natural implementation of looping over characters would return an empty string for empty input.",
+  "missing": "none"
+}

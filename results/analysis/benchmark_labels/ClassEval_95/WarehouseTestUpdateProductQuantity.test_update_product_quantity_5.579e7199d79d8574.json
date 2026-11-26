@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to add the given quantity to the product's stock, and the example already shows a negative value reducing it, so a programmer would compute 10 + (-9) = 1 and pass the test.",
+  "missing": "none"
+}

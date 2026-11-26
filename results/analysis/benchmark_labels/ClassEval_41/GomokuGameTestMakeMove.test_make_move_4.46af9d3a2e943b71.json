@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers validity, the occupied-cell rejection (via its example), and alternation, but never says which symbol the first move uses, so the test's expectation that X moves first is not stated.",
+  "missing": "The docstring should state which player's symbol is used for the first move of a new game and that the players alternate from there."
+}

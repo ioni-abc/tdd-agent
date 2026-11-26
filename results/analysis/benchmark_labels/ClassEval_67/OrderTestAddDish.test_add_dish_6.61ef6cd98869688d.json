@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what happens when the requested dish is not on the menu, and the test expects a dish with no name or count (an empty dict) to be accepted with True, which a programmer reading \"add if the dish count is valid\" would likely reject.",
+  "missing": "The docstring should state whether a dish whose name does not match any menu entry (including one with missing fields) is accepted or rejected, and what result is returned in each case."
+}

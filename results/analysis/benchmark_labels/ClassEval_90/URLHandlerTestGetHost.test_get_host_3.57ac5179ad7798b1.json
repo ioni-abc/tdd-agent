@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_host returns the host domain name of the URL, so a programmer would extract the text between the scheme and the next slash, which yields \"github.com\" for this test's URL.",
+  "missing": "none"
+}

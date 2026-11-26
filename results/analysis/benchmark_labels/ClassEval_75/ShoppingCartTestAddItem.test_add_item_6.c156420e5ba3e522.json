@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says add_item records the item's price and quantity, so a programmer could reasonably accumulate quantities when the same item is added twice, which would fail this test's expected overwrite.",
+  "missing": "The docstring should state what happens when an item is already in the list, such as whether its price and quantity are replaced or its quantity is added to the existing one."
+}

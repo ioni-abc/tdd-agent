@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the method returns True when both users exist, but the test also expects the message to be stored in both users' lists as a dict with specific keys and a timestamp format, none of which a docstring-following implementation would necessarily produce.",
+  "missing": "The docstring should state that on success the message is appended to the message list of both the sender and the receiver, as a record containing the sender, receiver, message text, and a timestamp formatted as \"YYYY-MM-DD HH:MM:SS\"."
+}

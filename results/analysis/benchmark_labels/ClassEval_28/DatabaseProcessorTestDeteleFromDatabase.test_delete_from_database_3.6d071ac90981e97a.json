@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to delete rows in the named table whose name matches the given name, so a programmer would implement per-name deletion, and calling it once for each name leaves the table empty as the test expects.",
+  "missing": "none"
+}

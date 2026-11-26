@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what happens for an empty input list, so a programmer could reasonably raise an error or return NaN from the mean, and the test expects (0.0, [0.0]).",
+  "missing": "The docstring should state that when the input contains no entries, the function returns a score of 0.0 together with a per-item list containing a single 0.0, rather than raising an error or returning NaN."
+}

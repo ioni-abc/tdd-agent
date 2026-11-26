@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example `skewness([1, 2, 5])` returns 2.3760224064818463, which is the exact value the test asserts, so a programmer matching the documented example would pass.",
+  "missing": "none"
+}

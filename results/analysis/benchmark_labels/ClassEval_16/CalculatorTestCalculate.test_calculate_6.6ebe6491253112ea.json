@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the value of the given expression, and a programmer would evaluate `(1+2)+3` with standard operator precedence and parentheses to get 6, which the test checks.",
+  "missing": "none"
+}

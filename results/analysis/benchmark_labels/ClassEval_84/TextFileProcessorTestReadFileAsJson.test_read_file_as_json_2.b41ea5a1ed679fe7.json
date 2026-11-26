@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns \"str/int/float.. according to the file content\" for non-object JSON, so a programmer would parse the file and return the bare number 12345 as an int, which is what the test checks.",
+  "missing": "none"
+}

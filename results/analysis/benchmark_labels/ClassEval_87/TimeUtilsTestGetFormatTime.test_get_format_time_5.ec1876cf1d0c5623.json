@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same \"YYYY-MM-DD HH:MM:SS\" zero-padded output for the same argument order, so a programmer following it would produce the test's expected string.",
+  "missing": "none"
+}

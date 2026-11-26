@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example pattern `\\b\\d{3}-\\d{3}-\\d{4}\\b` specifies a 3-3-4 digit format, so a programmer would produce a pattern that rejects the 4-2-4 string `'1234-56-7890'`, which is what the test expects.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_heading adds a heading with a default level of 1 and returns True on success, so a programmer would produce a Heading-styled paragraph containing the text, which is what the test checks.",
+  "missing": "none"
+}

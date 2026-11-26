@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test sets `self.cookies` in memory, but `load_cookies` only reads from `cookies_file` and never uses that attribute, so the test's expected value depends on file contents the test does not set up.",
+  "missing": "none"
+}

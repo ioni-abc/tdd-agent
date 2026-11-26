@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to add the status to the current status, and for the zero-and-zero case both addition and bitwise OR give 0, so a programmer following it would pass.",
+  "missing": "none"
+}

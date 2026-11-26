@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example does the same flow (add product, create order, track it) and shows `'Shipped'` as the returned status, so a programmer following it would return that status for this test.",
+  "missing": "none"
+}

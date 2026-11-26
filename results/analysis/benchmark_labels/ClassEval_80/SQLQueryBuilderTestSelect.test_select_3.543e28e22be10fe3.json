@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring shows the column list joined with \", \" and each where value wrapped in single quotes, so a programmer would produce \"price='1.0'\" by formatting the float with its normal string form.",
+  "missing": "none"
+}

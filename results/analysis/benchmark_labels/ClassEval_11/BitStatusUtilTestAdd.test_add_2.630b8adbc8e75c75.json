@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add(states, stat) returns the combined status, and a programmer following the example (2 and 4 give 6) would return 2 when adding 0, which matches the test.",
+  "missing": "none"
+}

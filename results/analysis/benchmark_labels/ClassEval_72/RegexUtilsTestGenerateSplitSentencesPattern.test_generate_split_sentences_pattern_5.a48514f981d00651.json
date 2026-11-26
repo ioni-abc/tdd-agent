@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes the pattern as matching the middle of two sentences, so a programmer could reasonably allow zero whitespace between the punctuation and the capital letter and wrongly match `.Y`, and the test would fail.",
+  "missing": "The docstring should state that a sentence boundary requires between one and two whitespace characters between the terminal punctuation mark (., !, or ?) and the following uppercase letter, so a bare punctuation mark directly followed by a letter does not count."
+}

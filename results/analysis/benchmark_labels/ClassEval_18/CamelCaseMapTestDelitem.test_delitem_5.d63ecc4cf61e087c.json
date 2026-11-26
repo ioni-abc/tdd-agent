@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says `__delitem__` deletes the value for the key, and its example shows the key is no longer `in` the map afterward, which is exactly what the test checks even though it uses an empty-string value.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the average score of the course across students who have a record for it, which is exactly what the test checks (Physics scores 90 and 80 give 85.0), so a programmer following it would pass.",
+  "missing": "none"
+}

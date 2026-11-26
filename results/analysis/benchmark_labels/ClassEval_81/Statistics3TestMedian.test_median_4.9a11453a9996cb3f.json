@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the method as returning the median of the list, so a programmer would return the middle value 4 for the sorted odd-length list [1..7], and the int-versus-float difference does not matter since 4.0 equals 4 under assertEqual.",
+  "missing": "none"
+}

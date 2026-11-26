@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the text without code and put -CODE- where code blocks were, and the test's paragraphs and h1 text already end in periods, so the expected output follows directly from that description.",
+  "missing": "none"
+}

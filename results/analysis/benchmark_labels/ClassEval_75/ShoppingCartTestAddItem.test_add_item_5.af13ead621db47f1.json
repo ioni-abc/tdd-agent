@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the default quantity is 1, and the test calls add_item without a quantity and expects quantity 1 stored alongside the price, which a programmer following the docstring would produce.",
+  "missing": "none"
+}

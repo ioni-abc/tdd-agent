@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the method returns 'Success!' and updates booked_rooms, but it never describes the structure of booked_rooms, which this test checks as a dict nested by room type and then by guest name.",
+  "missing": "The docstring should state the layout of booked_rooms and available_rooms, including that booked_rooms maps each room type to a dict of guest name to number of rooms booked, and that available_rooms maps each room type to its remaining count."
+}

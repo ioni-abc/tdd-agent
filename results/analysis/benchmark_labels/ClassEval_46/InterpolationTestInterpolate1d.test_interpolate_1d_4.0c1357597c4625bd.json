@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test passes an unsorted x-array and expects the first segment in the given order to be used, but a programmer following the docstring would likely assume sorted x and get a different value (for example, 2.33 instead of 1.2).",
+  "missing": "The docstring should state whether x must be sorted in ascending order, and if not, how to choose the segment when x is unsorted (for example, use the first segment in list order that contains the query point)."
+}

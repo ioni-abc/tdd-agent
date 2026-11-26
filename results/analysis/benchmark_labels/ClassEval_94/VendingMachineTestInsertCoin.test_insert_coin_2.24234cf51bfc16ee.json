@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says insert_coin adds the amount and returns the resulting balance, and its doctest shows a fresh machine returning the inserted amount, so a programmer would return 2.5 here.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the ticket is inserted with the four given fields, but the test also depends on an unstated row layout (an id column at index 0, then the four fields in order) and on the shape of what the search method returns, so a correct insert could still fail the index checks.",
+  "missing": "The docstring should state the column layout of stored records, including any auto-generated key and the order of fields, and the format of rows returned when they are read back."
+}

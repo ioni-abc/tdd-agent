@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines F1 as the harmonic mean of precision and recall, and the standard binary definitions with label 1 as positive give 0.4 for this input, matching the test.",
+  "missing": "none"
+}

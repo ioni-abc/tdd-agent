@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says removing an employee returns True if they were present and False otherwise, so a programmer following it would return True on the first removal, False on the repeat, and leave the employee gone from the system.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test is named for and exercises `delete_student_by_name`, but the documented method is `search_student_by_name`, so the test does not check the method whose docstring the agent sees.",
+  "missing": "none"
+}

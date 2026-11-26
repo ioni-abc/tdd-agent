@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring asks for the current date as \"%Y-%m-%d\", but the test expects the value to come from the instance's own `datetime` attribute, which a programmer could bypass by calling the system clock directly.",
+  "missing": "The docstring should say the date must be read from the object's stored `datetime` attribute (the instance's clock), not from the system's current time, so an implementation that bypasses that attribute would be clearly wrong."
+}

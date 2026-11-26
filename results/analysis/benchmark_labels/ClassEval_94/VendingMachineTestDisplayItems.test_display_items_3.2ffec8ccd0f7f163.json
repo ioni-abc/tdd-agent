@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring shows only a single-product output, so a programmer could reasonably join multiple products with a comma, semicolon, or other separator, and the test's newline separator is not specified.",
+  "missing": "The docstring should state how multiple products are separated in the returned string (for example, that each product goes on its own line, joined by newline characters)."
+}

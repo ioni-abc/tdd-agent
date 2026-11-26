@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the method returning the text of each `<pre>` block (including a nested `<code>` block) in order, which is exactly what this test checks, so a programmer following it would pass.",
+  "missing": "none"
+}

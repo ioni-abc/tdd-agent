@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns an iterator and its example shows a `dict_keyiterator`, so a programmer would naturally return an iterator over the stored keys in dict order, which is the insertion order this test checks.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies linear interpolation returning a list of y-values, so a programmer implementing it would produce 1.5 and 2.5 for the two interior points, matching the test.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test calls `_calculate` with an unsupported operator inside a bare `try/except: pass`, so it passes whatever the method does, and a docstring-following implementation cannot fail it.",
+  "missing": "none"
+}

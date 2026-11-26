@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what happens when the requested move is blocked by a wall, so a correct implementation could move the player anyway and fail this test, which expects the player to stay at its starting position after moving 'w' into the top wall.",
+  "missing": "The docstring should state that if the target cell is a wall, or a box that cannot be pushed, the player does not move, and it should say whether the `is_game_over` attribute is updated alongside the return value."
+}

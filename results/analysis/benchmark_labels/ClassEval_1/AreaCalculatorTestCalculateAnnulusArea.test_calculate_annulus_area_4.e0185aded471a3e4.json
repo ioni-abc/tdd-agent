@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the annulus area from inner and outer radii, and the example (2, 3) giving 15.708 (\u03c0\u00b75) shows the formula \u03c0(R\u00b2 \u2212 r\u00b2), so a programmer following it would compute 8\u03c0 \u2248 25.13 for (1, 3) and pass.",
+  "missing": "none"
+}

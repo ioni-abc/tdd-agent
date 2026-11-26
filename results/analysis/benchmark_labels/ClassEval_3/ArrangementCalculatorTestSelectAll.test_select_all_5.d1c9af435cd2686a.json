@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says arrangements select at least 1 and at most all internal items, so with a single item a programmer would correctly return just that one-element arrangement, matching the test.",
+  "missing": "none"
+}

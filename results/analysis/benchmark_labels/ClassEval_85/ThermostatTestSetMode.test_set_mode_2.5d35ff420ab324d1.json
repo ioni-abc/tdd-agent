@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the mode must be 'heat' or 'cool' and never says what happens for other values, so a programmer could reasonably raise an error or return None, and the test expects a falsy return value.",
+  "missing": "The docstring should state what the method returns and whether it changes state when the given mode is not one of the allowed values, for example \"returns False and leaves the current mode unchanged.\""
+}

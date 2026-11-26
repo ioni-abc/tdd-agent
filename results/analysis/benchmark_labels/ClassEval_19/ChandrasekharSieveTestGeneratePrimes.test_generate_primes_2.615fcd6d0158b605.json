@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says primes are generated up to the limit, and its example (limit 20 gives primes through 19) shows the limit is inclusive, so a programmer would return all primes up to 18, which is [2, 3, 5, 7, 11, 13, 17].",
+  "missing": "none"
+}

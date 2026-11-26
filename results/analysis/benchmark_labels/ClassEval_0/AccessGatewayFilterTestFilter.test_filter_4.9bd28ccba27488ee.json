@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects a request to a sub-path of `/login` with no token to be allowed, but the docstring only gives a `/login` example and never says that login-prefixed paths skip the user check, so a programmer could reasonably require authentication for them.",
+  "missing": "The docstring should state which request paths are exempt from the access check (for example, whether a path prefix or only an exact path is whitelisted) and that such requests return True without requiring a token or user level."
+}

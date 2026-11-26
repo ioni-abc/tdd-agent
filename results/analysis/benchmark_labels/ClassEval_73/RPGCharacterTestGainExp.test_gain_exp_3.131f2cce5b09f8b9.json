@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that gaining enough experience levels up at 100 times the current level and that overflow carries into the next level-up, which is exactly what this test checks: 200 points from level 1 gives level 2 with 100 leftover.",
+  "missing": "none"
+}

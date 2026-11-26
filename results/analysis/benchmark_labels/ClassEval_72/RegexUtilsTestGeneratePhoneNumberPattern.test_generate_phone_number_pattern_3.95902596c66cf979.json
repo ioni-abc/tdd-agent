@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that the pattern matches \"phone numbers\" without giving the format, so a programmer could write a different phone pattern that accepts or rejects inputs differently from the expected 3-3-4 dashed format this test checks.",
+  "missing": "The docstring should state the exact digit-group lengths and separators the generated pattern must accept and reject, such as the number of digits in each group and which separator characters are required."
+}

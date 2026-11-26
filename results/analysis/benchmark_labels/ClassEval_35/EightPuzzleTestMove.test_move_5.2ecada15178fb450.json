@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says direction only takes four values but does not say what happens for any other value, while the test passes '???' and expects the board returned unchanged, which a programmer could easily get wrong by raising an error.",
+  "missing": "The docstring should state what the method returns when the direction is not one of the allowed values, for example whether it returns an unchanged copy of the state or raises an error."
+}

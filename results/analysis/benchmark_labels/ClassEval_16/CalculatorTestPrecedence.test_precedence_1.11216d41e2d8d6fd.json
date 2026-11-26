@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring ranks '^' above '/' and '*', and those above '+' and '-', but never says whether '+' and '-' share a priority, so an implementation could give them different values and fail the test.",
+  "missing": "The docstring should state that operators in the same precedence tier return identical values, and name which operators belong to each tier."
+}

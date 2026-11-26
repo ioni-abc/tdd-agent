@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a successful call returns the open file object, and a programmer opening the zip for reading would return a ZipFile whose filename and mode match what the test checks.",
+  "missing": "none"
+}

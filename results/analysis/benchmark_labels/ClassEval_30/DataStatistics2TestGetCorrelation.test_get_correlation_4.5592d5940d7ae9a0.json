@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what the correlation is computed between, so a programmer could plausibly correlate the data against its index or a second series, and the test's expected 1.0 for [11, 14, 13, 12] would then fail, whereas only self-correlation gives 1.0.",
+  "missing": "The docstring should state which variables are correlated when the object holds a single 1-D series (for example, that the series is correlated with itself, giving 1.0 for any non-constant input), rather than leaving it to be inferred from one example."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to extract all email addresses from the text and return them as a list, which is exactly what the test checks with three space-separated addresses.",
+  "missing": "none"
+}

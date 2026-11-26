@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows deleting an exact key, but the test expects a differently cased key to delete the stored entry, which only works if keys are normalized before lookup, and the docstring does not say so.",
+  "missing": "The docstring should state that keys are normalized by the same conversion used on assignment and lookup, so that deleting any key variant that normalizes to the same form removes the stored entry."
+}

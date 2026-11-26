@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the binary string of \"hello\" converting to 'hello' via convert_to_utf8, which is exactly what the test checks, so a programmer following it would implement byte-wise 8-bit decoding to UTF-8 and pass.",
+  "missing": "none"
+}

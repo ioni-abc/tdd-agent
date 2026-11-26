@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example converts the same 40-bit string to 'hello', so a programmer following it would pass this test.",
+  "missing": "none"
+}

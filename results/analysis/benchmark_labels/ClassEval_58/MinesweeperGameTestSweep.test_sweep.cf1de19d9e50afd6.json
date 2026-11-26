@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring describes the returned player map but says nothing about the `score` attribute, which the test asserts is incremented to 1 after a safe sweep, so a correct implementation that doesn't touch the score could fail.",
+  "missing": "The docstring should state that each sweep of a safe (non-mine) cell increments the game's `score` attribute by one, and that sweeping a mine does not change it."
+}

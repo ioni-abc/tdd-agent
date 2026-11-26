@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_user returns True when the user is not already present and adds them, so a fresh system adding a new username should return True, which is what the test checks.",
+  "missing": "none"
+}

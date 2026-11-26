@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test relies on `add_book` using a quantity of 1 when the argument is omitted, but neither this docstring nor its example says what the default is, so a correct implementation could fail.",
+  "missing": "The docstring of the method that adds items should state the default quantity used when the caller omits the count argument, and what value it records in the inventory."
+}

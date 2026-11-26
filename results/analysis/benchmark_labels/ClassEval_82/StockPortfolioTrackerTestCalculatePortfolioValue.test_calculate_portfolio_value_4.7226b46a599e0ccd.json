@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example (10000 cash plus 10 shares at 150 giving 11500) shows that the total is cash plus the sum of price times quantity, so a zero-quantity holding adds nothing and the result is just the cash balance.",
+  "missing": "none"
+}

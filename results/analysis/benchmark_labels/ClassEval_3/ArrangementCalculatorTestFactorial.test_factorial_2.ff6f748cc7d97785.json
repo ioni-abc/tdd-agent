@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the method as the factorial of the input, and the example (factorial(4) = 24) fixes the standard definition, so a programmer would compute 5! = 120 and pass.",
+  "missing": "none"
+}

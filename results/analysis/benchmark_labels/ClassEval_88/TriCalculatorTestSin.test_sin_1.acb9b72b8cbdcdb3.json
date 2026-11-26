@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says sin(30) gives 0.5 and that x is in degrees, but a programmer using the standard floating-point sine would get 0.49999999999999994, so the exact-equality test depends on a rounding convention the docstring never mentions.",
+  "missing": "The docstring should state the output precision, for example that the result is rounded to a fixed number of decimal places (such as 10), so that exact-equality checks on results are predictable."
+}

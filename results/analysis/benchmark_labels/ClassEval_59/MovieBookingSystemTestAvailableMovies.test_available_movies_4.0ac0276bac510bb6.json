@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return movies \"within the specified time range,\" and a programmer would read that as keeping movies whose start and end times both fall inside the range, which gives Batman and Spiderman for 10:00 to 23:00.",
+  "missing": "none"
+}

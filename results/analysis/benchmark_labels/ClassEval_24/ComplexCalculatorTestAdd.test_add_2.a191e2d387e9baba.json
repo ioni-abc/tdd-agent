@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add returns the sum of two complex numbers, and a programmer adding real and imaginary parts component-wise would get (-4-6j) for the negative-valued inputs, matching the test.",
+  "missing": "none"
+}

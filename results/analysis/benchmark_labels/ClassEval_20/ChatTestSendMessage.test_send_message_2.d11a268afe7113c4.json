@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring states that send_message returns False when the receiver is missing, but the test also requires that no message be recorded in any user's history on that failure, and the docstring never says so.",
+  "missing": "When the send fails because the sender or receiver is not in the chat, the method must leave every user's stored message list unchanged."
+}

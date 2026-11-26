@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a move is valid when both positions are on the board, distinct, hold the same icon, and have a valid path, and the test's adjacent same-icon pair meets all of these and expects True.",
+  "missing": "none"
+}

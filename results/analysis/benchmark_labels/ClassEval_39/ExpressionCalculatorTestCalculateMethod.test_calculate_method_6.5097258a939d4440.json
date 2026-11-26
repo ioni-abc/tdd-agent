@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer reading \"perform the mathematical calculation based on the operands and operator\" would implement `%` as the remainder, giving 0 for 6 % 2, which matches the test's expected `Decimal(0.0)`.",
+  "missing": "none"
+}

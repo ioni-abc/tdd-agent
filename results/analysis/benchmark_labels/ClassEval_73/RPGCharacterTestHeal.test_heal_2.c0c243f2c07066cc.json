@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says healing adds 10 hp with a maximum of 100, so a programmer would cap 97 + 10 at 100, which is what the test asserts.",
+  "missing": "none"
+}

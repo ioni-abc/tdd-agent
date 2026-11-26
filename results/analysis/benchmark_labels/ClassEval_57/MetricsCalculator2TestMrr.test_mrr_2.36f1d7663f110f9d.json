@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines MRR as the mean of reciprocal ranks, and its list example (1.0 and 0.5 averaging to 0.75) shows the rank is the position of the first correct answer, so a programmer would produce 1/4 = 0.25 for this single tuple.",
+  "missing": "none"
+}

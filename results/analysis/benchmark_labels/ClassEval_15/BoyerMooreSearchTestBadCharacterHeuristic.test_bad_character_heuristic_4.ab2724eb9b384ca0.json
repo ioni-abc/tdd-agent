@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns all positions where the pattern occurs in the text, and a programmer implementing that would find the matches at 0 and 4 that the test expects.",
+  "missing": "none"
+}

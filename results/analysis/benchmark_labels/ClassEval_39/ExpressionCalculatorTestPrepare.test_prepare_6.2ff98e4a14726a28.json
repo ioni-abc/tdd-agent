@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives no result for an empty expression, and its example shows `postfix_stack` as a list while the test expects an empty `deque`, so a correct implementation using a list could fail the equality check.",
+  "missing": "The docstring should state the container type of `postfix_stack` (a deque, not a list) and what the stack holds after preparing an empty or whitespace-only expression."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the class with the highest enrollment in the major, which a programmer would implement as counting each student's classes across students in that major and returning the most frequent one, and this test expects that.",
+  "missing": "none"
+}

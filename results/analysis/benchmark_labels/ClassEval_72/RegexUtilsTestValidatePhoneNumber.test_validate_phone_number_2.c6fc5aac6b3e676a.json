@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives only \"123-456-7890\" as a valid example, so a programmer would not know whether a ten-digit string without dashes must be rejected, and the test expects False for exactly that input.",
+  "missing": "The docstring should state the exact accepted phone number format, including whether separators such as dashes are required or optional and which digit groupings are valid."
+}

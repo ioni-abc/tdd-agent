@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes string keys and says nothing about non-string input, so a programmer could reasonably raise an error, convert the value to a string, or return it unchanged, and only the last matches the test.",
+  "missing": "The docstring should say that any key that is not a string is returned exactly as given, without conversion or error."
+}

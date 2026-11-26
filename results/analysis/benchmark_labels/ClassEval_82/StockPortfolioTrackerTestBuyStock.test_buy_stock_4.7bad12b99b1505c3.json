@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects a second purchase of a stock already in the portfolio to merge into the existing entry with the combined quantity, but the docstring only says the stock is \"added to the portfolio,\" so a correct implementation that appends a separate entry would fail.",
+  "missing": "The docstring should state that if a stock with the same name is already held, buying more increases that holding's quantity and does not create a second entry."
+}

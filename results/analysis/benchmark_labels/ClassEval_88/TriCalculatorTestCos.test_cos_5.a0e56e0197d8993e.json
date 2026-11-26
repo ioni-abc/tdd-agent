@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says cos takes an x-degree angle and gives the 60-degree example 0.5, so a programmer would compute cos(45\u00b0) \u2248 0.70710678, which matches the test's expected value within assertAlmostEqual's default 7-place tolerance.",
+  "missing": "none"
+}

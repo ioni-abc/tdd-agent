@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring defines the correlation coefficient but says nothing about inputs with zero variance, where the formula divides by zero, so a programmer could raise an error or return NaN instead of the 0 the test expects.",
+  "missing": "The docstring should state what is returned when either input has zero variance (all values identical), for example that the function returns 0 instead of dividing by zero."
+}

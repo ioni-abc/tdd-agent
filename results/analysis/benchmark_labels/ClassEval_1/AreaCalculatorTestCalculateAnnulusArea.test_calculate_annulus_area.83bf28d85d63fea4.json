@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the annulus area as the outer-radius area minus the inner-radius area, and its example (2, 3) gives 5\u03c0, so a programmer would compute \u03c0(3\u00b2 \u2212 1\u00b2) = 8\u03c0 \u2248 25.133 for the test's inputs, which is within the 0.01 tolerance of 25.128.",
+  "missing": "none"
+}

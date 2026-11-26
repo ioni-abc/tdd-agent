@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the first row is the title and the rest is data, which is exactly what the test checks: a one-line header `1234` becomes the title and the following row becomes the data.",
+  "missing": "none"
+}

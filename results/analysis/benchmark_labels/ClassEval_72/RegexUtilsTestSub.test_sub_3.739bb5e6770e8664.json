@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says matches of the regex are replaced with the given string, so a programmer using standard regex substitution would leave the malformed \"123456-7890\" untouched and pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the input is a postfix expression, but its own example \"2 + 3 * 4\" gives 14.0, which is infix evaluation with precedence, and the test's \"2 + 3 + 4\" expecting 9.0 is likewise infix, not valid postfix.",
+  "missing": "The docstring should state the input notation explicitly: if the input is infix with operator precedence, say so and drop \"postfix\"; if it is true postfix (RPN), the examples must be written in that form."
+}

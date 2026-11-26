@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says an invalid IP address should make get_binary return an empty string, and the test checks exactly that for an address with a negative octet.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test checks that the constructor stores the size and icons as `BOARD_SIZE` and `ICONS`, and the docstring never names those attributes, so a correct implementation using other names would fail.",
+  "missing": "The docstring should state that the constructor must store the board size and the icon list in attributes named `BOARD_SIZE` and `ICONS`, and that each cell is chosen at random from those icons."
+}

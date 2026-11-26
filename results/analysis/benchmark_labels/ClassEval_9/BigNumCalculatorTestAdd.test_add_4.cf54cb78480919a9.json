@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method adds two big numbers given and returned as decimal strings, which is what the test checks: ordinary decimal addition of two inputs with different lengths.",
+  "missing": "none"
+}

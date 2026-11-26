@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the list of generated primes, and a programmer would naturally return an empty list when the sieve bound is 1 because no primes are generated, which matches the test.",
+  "missing": "none"
+}

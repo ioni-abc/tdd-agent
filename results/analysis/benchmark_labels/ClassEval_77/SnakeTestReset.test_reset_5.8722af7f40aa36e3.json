@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says reset sets length to 1, the head to the screen centre (SCREEN_WIDTH/2, SCREEN_HEIGHT/2), and score to 0, which is exactly what this test checks after a move.",
+  "missing": "none"
+}

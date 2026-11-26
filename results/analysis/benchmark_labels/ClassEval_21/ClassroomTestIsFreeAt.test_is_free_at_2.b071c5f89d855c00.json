@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it returns False when the check time conflicts with a course time, and its example shows a time inside a course's span (9:00 within 8:00-9:40) returning False, so a programmer would return False for 09:30 inside 09:00-10:00.",
+  "missing": "none"
+}

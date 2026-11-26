@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (page size 1 from the constructor, page 1 returns `[1]`) shows that pages are fixed-size slices of the data, so a programmer would compute page 3 of size 3 as `[7, 8, 9]`.",
+  "missing": "none"
+}

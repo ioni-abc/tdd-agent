@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers the True return for a new employee, but the test also checks the internal `employees` dict, including its keys and the record layout, and a correct implementation could store the data differently and fail.",
+  "missing": "The docstring should state how a new employee's data is stored: the `employees` mapping's key for each record, and the exact structure and field names of each stored record."
+}

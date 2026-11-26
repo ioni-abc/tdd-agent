@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says `__len__` returns the length of the stored data, and the test inserts three distinct keys and expects 3, which is what a programmer following the docstring would return.",
+  "missing": "none"
+}

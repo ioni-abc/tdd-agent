@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example for `ChandrasekharSieve(20)` gives `[2, 3, 5, 7, 11, 13, 17, 19]`, which is exactly what the test asserts, so a programmer following it would pass.",
+  "missing": "none"
+}

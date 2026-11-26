@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer reading the docstring and its example (page 1 of a list with page size 1 returns the first element) would naturally return the first page-sized slice, which is what this test checks with page size 3.",
+  "missing": "none"
+}

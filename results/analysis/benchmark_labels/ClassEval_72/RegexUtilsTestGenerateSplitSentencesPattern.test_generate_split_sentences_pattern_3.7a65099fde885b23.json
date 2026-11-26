@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example output is the exact pattern `[.!?][\\s]{1,2}(?=[A-Z])`, so a programmer following it would require an uppercase letter after the punctuation and whitespace, and the test's input with no following capital correctly fails to match.",
+  "missing": "none"
+}

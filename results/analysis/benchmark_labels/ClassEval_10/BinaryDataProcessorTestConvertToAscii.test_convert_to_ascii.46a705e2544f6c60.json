@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example is the same 40-bit string that the test uses, and it expects the decoded text 'hello', which a programmer would produce by reading 8-bit groups as ASCII characters.",
+  "missing": "none"
+}

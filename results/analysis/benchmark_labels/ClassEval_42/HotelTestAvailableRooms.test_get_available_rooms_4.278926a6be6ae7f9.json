@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the remaining count for the requested room type, so a programmer tracking per-type availability would return 2 for doubles after singles are booked.",
+  "missing": "none"
+}

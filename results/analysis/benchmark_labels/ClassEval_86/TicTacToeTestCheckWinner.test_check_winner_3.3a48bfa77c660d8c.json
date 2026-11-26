@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method checks rows, columns and diagonals for a winning mark, and this test expects 'X' from a win along the main diagonal, which a programmer would detect.",
+  "missing": "none"
+}

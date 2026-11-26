@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test is named and filed as a search test, and its main assertions check what `search_tickets_by_customer` returns (including an id at index 0), which `insert_ticket`'s docstring does not describe.",
+  "missing": "none"
+}

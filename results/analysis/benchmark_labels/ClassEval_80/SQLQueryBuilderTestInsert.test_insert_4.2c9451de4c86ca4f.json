@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example and its description of the `data` dict (keys become column names, values are quoted) fully determine the single-key output `INSERT INTO users (name) VALUES ('Tom')`, so a programmer following it would produce this result.",
+  "missing": "none"
+}

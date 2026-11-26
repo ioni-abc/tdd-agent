@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"verify if the phone number is valid\" with one passing example, so a programmer could reasonably accept a 9-digit number with dashes, while the test expects it to be rejected.",
+  "missing": "The docstring should state the exact accepted phone number format, including the required number of digits and the allowed separators, and that any input deviating from it (such as too few digits) returns False."
+}

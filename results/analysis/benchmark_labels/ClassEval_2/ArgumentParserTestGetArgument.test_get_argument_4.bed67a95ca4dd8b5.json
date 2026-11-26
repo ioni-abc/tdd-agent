@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the stored value for a given argument name, which is exactly what the test checks when it looks up a key whose value is True.",
+  "missing": "none"
+}

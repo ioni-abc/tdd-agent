@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the course is added to the list only if it wasn't already there, so a programmer would skip the duplicate and the test's assertIn on the course would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says write_csv writes the data into a CSV file and returns 1 on success, which is what the test checks: the return value is 1 and the file reads back with the same rows.",
+  "missing": "none"
+}

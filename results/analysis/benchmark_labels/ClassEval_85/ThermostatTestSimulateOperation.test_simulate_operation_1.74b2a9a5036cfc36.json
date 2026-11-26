@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says simulation runs auto_set_mode and then changes the temperature one step at a time by operating mode until the target is reached, returning the step count, so a programmer would get 5 steps from 20 to 25 in heat mode, with the mode staying 'heat' and the final temperature at 25.",
+  "missing": "none"
+}

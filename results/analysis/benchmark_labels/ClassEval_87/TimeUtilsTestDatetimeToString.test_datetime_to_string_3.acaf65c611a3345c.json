@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert a datetime to a string, and its example output \"2023-06-14 19:30:03\" shows the YYYY-MM-DD HH:MM:SS format the test checks, so a programmer would produce the same result.",
+  "missing": "none"
+}

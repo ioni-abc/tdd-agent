@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines count(n, m) as the number of combinations of m elements chosen from n, and its example (4, 2 giving 6) fits that definition, so a programmer implementing it would return 20 for (6, 3).",
+  "missing": "none"
+}

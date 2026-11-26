@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says restock_item replenishes an existing product's inventory and returns True when the product is present, which is exactly what this test checks: an existing item with quantity 0 is restocked by 10 and returns True.",
+  "missing": "none"
+}

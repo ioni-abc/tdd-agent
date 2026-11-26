@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that shift is an int and does not say whether negative shifts are allowed or how letters wrap around the alphabet, so a correct implementation could still fail this test.",
+  "missing": "The docstring should state that negative shift values move letters backward, that letters wrap cyclically within their alphabet case, and that non-letter characters are left unchanged."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what the statement should look like when `where` is omitted, so a programmer could reasonably add a WHERE clause or raise an error instead of returning the bare DELETE statement the test expects.",
+  "missing": "The docstring should state that when `where` is omitted or empty, the statement has no WHERE clause and applies to every row in the table."
+}

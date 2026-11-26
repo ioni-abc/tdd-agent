@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example parses \"2001-7-18 1:1:1\" into 2001-07-18 01:01:01, which is the same non-zero-padded month and hour convention this test checks with \"2001-7-15 1:1:1\".",
+  "missing": "none"
+}

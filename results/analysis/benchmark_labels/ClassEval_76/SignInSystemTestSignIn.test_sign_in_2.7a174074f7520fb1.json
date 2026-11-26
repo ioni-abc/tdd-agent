@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says sign_in returns False when the user does not exist, and a fresh SignInSystem with no registered \"user1\" hits exactly that case, so a programmer following it would return False and pass.",
+  "missing": "none"
+}

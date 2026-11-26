@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add appends the segment to the segments list, and its example yields `['foo', 'bar']`, which is exactly what the test checks for plain segments.",
+  "missing": "none"
+}

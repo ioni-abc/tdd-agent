@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says check_won returns True only when the player map contains just mines and otherwise returns False, so the test's case of unrevealed non-mine cells remaining should yield False as a programmer would implement it.",
+  "missing": "none"
+}

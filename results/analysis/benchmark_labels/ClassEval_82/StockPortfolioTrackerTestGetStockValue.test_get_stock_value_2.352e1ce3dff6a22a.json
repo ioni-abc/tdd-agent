@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the stock's value as price times quantity (shown by the 150.0 \u00d7 10 = 1500.0 example), so a programmer would compute 150.0 \u00d7 0 = 0.0 and pass.",
+  "missing": "none"
+}

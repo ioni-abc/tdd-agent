@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the function as the n-order Taylor expansion of cos(x/180\u00b7\u03c0), so for x=90 a programmer would compute a value that converges to cos(\u03c0/2)=0, which matches the assertion within assertAlmostEqual's tolerance.",
+  "missing": "none"
+}

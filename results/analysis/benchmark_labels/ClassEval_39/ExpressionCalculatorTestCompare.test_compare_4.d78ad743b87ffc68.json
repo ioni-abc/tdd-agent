@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the result is True when the current operator has higher or equal precedence, so `\"*\"` over `\"+\"` should be True, but the test expects False, matching the reference's check that the stack-top operator must bind at least as tightly.",
+  "missing": "The docstring should state that the result is True only when the operator on top of the stack has precedence at least as high as the current operator, so a higher-precedence current operator yields False."
+}

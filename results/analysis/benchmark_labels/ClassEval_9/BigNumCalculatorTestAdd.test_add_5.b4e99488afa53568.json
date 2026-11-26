@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method adds two big numbers given as strings and returns the sum as a string, so a programmer would implement arbitrary-length decimal addition with carry, which is what the test checks.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes a BFS that returns the path to the goal, and its example confirms that \"right\" means the blank tile moves right, so a BFS implementation would return the shortest path ['right', 'right'] that this test expects.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never mentions the `with_end_tag` attribute that the test asserts is False, so a correct implementation that handles the trailing-slash flag differently could fail this check.",
+  "missing": "The docstring should state what `with_end_tag` means and when it is set (for example, whether a trailing slash in the path sets it to True and whether a path without one leaves it False)."
+}

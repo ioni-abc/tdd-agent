@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method adds a course score for an existing student in `self.students`, and its example shows the score landing under that student's `courses` dict, which is exactly what the test checks.",
+  "missing": "none"
+}

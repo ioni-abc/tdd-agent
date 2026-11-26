@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines a conflict as a mode that disagrees with the temperature relationship and says the mode is then adjusted, so a programmer would set cool when the current temperature exceeds the target and return False, which matches the test.",
+  "missing": "none"
+}

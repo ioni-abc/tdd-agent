@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says True means the current operator has higher or equal precedence, but the test expects compare(\"+\", \"*\") to be True, which is only consistent with the reference code's check that the stack-top operator's priority is at least the current one's.",
+  "missing": "The docstring should say the result is True when the operator at the top of the stack has precedence greater than or equal to the current operator's, which is the check the implementation performs."
+}

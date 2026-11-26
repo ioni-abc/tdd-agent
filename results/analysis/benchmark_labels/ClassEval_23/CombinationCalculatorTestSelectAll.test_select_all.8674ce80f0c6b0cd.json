@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says select_all returns all non-empty combinations of the data list, so for a single-element list a programmer would correctly return [['A']], which is what the test expects.",
+  "missing": "none"
+}

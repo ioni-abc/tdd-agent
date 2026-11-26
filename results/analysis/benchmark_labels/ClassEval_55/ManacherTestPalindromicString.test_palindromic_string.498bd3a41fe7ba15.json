@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the longest palindromic substring and gives the same input with the expected output 'ababa', so a programmer implementing it would return 'ababa' and pass the test.",
+  "missing": "none"
+}

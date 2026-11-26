@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same format the test checks (comma-separated column names, every value wrapped in single quotes including the integer, and the `INSERT INTO table (...) VALUES (...)` layout), so a programmer following it would produce the expected string for three columns.",
+  "missing": "none"
+}

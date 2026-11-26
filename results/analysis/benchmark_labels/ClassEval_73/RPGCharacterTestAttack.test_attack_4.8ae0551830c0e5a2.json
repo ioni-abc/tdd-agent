@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the damage must offset the defense value, and its example (10 attack vs 2 defense takes 100 HP to 92) confirms damage is attack minus defense, so a programmer would implement this test's two repeated attacks as 15 damage each, leaving 70 HP.",
+  "missing": "none"
+}

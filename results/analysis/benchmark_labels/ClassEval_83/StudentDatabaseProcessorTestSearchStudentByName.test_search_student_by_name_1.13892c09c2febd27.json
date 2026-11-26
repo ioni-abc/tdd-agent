@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test is named and built around `search_student_by_name`, so it checks search behaviour, and `insert_student` only serves as setup for it.",
+  "missing": "none"
+}

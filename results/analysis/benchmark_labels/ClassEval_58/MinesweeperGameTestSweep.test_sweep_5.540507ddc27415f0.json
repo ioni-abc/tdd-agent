@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers the returned player map, but the test also checks `score`, and the docstring never says that a successful sweep increments the score.",
+  "missing": "Each sweep of a safe (non-mine) cell should increase the game's score by one, and the docstring should say so since callers can observe it."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to extract \"all email addresses\" but does not define what counts as one, so a programmer could reasonably accept or reject the malformed tokens \"abcdefgiscom\" (no @) and \"ygusyfysy@.com\" (empty domain label) that this test expects to be skipped.",
+  "missing": "The docstring should state the validity rule for an email address, such as requiring a non-empty local part, an @ sign, and a non-empty domain made of labels separated by dots, with anything not meeting that rule excluded from the result."
+}

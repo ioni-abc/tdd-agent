@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says set_mode accepts 'heat' or 'cool' and stores the mode so that reading it back returns that value, which is what the test checks, even though its first line wrongly says \"Get\".",
+  "missing": "none"
+}

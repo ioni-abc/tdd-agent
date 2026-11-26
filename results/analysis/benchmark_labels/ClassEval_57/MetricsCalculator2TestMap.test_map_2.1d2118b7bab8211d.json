@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's examples (e.g. `([1, 0, 1, 0], 4)` giving 0.41666) show that AP sums the precision at each correct position and divides by the total ground-truth count, which gives 0.0625 for `([0, 0, 0, 1], 4)`.",
+  "missing": "none"
+}

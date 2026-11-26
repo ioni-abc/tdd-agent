@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says setNum returns the block size and the remainder of the division, and its example (4 items, 2 blocks giving (2, 0)) shows the quotient and remainder of the length by the count, so a programmer following it would return (5 // 4, 5 % 4) = (1, 1) and pass this test.",
+  "missing": "none"
+}

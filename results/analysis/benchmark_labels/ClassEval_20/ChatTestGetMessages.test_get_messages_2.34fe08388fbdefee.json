@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer following the docstring would return the user's stored message list, which is empty here, so the test's expected `[]` matches the described behaviour.",
+  "missing": "none"
+}

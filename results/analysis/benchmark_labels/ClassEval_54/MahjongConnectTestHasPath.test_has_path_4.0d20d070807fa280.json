@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"check if there is a path between two icons\" and never mentions that a path must run through cells holding the same icon, so a programmer could reasonably return True for connected cells of different icons, while the test expects False.",
+  "missing": "The docstring should state that a path exists only when every cell along it, including both endpoints, holds the same icon, and that paths move only to orthogonally adjacent cells of that same icon."
+}

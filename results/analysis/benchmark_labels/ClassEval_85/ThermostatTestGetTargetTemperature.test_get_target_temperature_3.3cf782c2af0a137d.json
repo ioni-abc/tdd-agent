@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The `:return` line says the method returns `self.current_temperature`, which would give 20 for this test, while the test and reference code expect the target temperature, 25.",
+  "missing": "The return description should name the attribute that holds the target temperature, not the current temperature, and the example output should match that attribute."
+}

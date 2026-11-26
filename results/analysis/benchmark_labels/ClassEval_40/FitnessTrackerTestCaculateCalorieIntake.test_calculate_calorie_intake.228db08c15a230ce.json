@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the normal-condition multiplier (1.4) for a female user, but the docstring never defines how a user is classified as too fat, too thin, or normal, so a programmer cannot know which multiplier applies.",
+  "missing": "The docstring should state the exact criteria (for example, BMI thresholds, and whether they differ by sex) that decide whether a user is classed as too fat, too thin, or normal."
+}

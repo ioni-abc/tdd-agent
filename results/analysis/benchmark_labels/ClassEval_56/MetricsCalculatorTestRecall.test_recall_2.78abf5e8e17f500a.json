@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example (recall = true positives over all actual positives, with label 1 as the positive class) gives the same 0.5 expected by this test, so a programmer following it would pass.",
+  "missing": "none"
+}

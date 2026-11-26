@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns a regex pattern that matches email addresses, and the test checks that the returned pattern matches a valid email address.",
+  "missing": "none"
+}

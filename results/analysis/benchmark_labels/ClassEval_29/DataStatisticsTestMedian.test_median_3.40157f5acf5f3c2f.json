@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the median of a group of data, and a programmer applying the standard definition would average the two middle values for an even-length list, which is what the test expects (4.5 rounds to the same value as 4.50).",
+  "missing": "none"
+}

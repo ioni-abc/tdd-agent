@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (attack 10 against defense 2 leaves 92 hp) pins down the subtract-defense-from-attack rule that this test exercises with positive damage in both directions.",
+  "missing": "none"
+}

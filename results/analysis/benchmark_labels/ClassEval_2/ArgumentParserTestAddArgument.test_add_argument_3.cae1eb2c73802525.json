@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states that `required` defaults to False (so the required set stays empty) and that `arg_type` defaults to str, which is exactly what the test checks when it calls `add_argument` with only a name.",
+  "missing": "none"
+}

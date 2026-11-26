@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks whether a path exists between two icons, and on a board where every cell holds the same icon any reasonable connectivity rule (adjacent matching cells, or up to two turns) gives True for the corner-to-corner pair.",
+  "missing": "none"
+}

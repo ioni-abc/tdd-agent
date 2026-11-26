@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Wrong method under test: the test exercises insert_student (inserting a row and reading it back), but it is filed under create_student_table, whose docstring only describes creating the table.",
+  "missing": "none"
+}

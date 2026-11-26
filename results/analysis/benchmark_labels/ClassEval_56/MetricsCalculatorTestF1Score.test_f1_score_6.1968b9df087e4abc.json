@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring defines F1 as the harmonic mean of precision and recall but does not say what to return when both are undefined or zero, as with all-negative labels, so a correct implementation could return NaN or 1.0 and fail the test's expected 0.0.",
+  "missing": "The docstring should state the return value when precision and recall have zero denominators (no predicted positives or no true positives), for example that F1 is 0.0 whenever precision plus recall is zero."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"damage needs to offset the defense value\" and its worked example (attack 10 against defense 2 gives 8 damage) imply subtracting defense from attack power, which yields the 5 damage this test expects.",
+  "missing": "none"
+}

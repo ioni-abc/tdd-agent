@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects `'first_Name'` and `'first_name'` to address the same stored entry, which requires the key to be normalised by the class's camel-case conversion, but the docstring only says it sets \"the value corresponding to the key\" and never mentions this conversion.",
+  "missing": "The docstring should state that every key is converted to its camel-case form before storage, so any two keys that normalise to the same camel-case name refer to the same entry, and a later assignment overwrites the earlier one."
+}

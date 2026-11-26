@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test calls `game.answer('1+')` and checks its result, but it is filed under `get_my_cards`, whose docstring only describes generating four random cards and says nothing about answering or validating expressions.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True when the operating mode does not conflict with the current/target temperature relationship, and this test (current 25 below target 30 in heat mode) is a no-conflict case that returns True.",
+  "missing": "none"
+}

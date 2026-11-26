@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to split text on the regex pattern and return the substrings, with an example showing empty leading and trailing pieces, so a programmer using standard regex splitting would produce this test's output, since the \"789a\" sequence fails the pattern's word-boundary and four-digit requirements.",
+  "missing": "none"
+}

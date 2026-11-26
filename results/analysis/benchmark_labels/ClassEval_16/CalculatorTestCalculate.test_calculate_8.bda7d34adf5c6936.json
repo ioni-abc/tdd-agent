@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the method returns the value on success and None otherwise, so a programmer would likely treat the stray '?' as an invalid expression and return None, while the test and reference expect the character to be silently skipped and the result 3.",
+  "missing": "The docstring should state how characters that are not digits, decimal points, operators, or parentheses are handled, such as whether they are ignored or cause the method to return None."
+}

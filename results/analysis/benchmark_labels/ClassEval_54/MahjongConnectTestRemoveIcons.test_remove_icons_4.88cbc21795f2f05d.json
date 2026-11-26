@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to remove the icons at the two given (x, y) positions, and its example shows that x indexes the row, so a programmer setting those two cells to blank would produce the test's expected board.",
+  "missing": "none"
+}

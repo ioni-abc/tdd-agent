@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers the True/False return for new versus duplicate IDs, but the test also asserts the internal `employees` dict layout (attribute name and per-employee keys), which the docstring never mentions.",
+  "missing": "The docstring should state where the employee records are stored (the `employees` attribute, keyed by employee_id) and the exact structure of each stored record (a dict with name, position, department and salary keys)."
+}

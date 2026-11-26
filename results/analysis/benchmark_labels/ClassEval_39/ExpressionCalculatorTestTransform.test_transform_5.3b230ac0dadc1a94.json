@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says to remove spaces from the expression, so a programmer would keep the minus signs and return \"-2+(-3)*4\", while the test expects unary minuses rewritten as \"~\".",
+  "missing": "The docstring should state that a minus sign acting as a unary negation (at the start of the expression, or after an operator, an opening parenthesis, or the letter E/e) is replaced by \"~\", while binary minus signs are kept, and that whitespace is removed."
+}

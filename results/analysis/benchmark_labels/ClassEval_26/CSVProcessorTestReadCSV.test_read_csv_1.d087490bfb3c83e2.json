@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the first row is returned as the title and the remaining rows as data, which is exactly what the test checks for a simple header-plus-one-row file.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says `auto_set_mode` picks the operating mode but never says which mode results when the current and target temperatures are equal, and the test expects the mode to become 'cool' in that case.",
+  "missing": "The docstring should state how the mode is chosen when the current temperature equals the target, including which mode is selected and whether any temperature change occurs."
+}

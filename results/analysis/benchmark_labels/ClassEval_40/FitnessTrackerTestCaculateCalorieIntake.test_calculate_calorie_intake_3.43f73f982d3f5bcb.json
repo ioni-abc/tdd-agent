@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the factor depends on whether the user is too fat, too thin, or normal, but never defines how that condition is judged from height and weight, so a programmer cannot know this user (1.72 m, 53 kg) is classed as too thin and must use the 1.6 factor.",
+  "missing": "The docstring should state the rule for classifying the user as too fat, too thin, or normal from height and weight (for example, the BMI cutoffs), so the implementer can determine which activity multiplier applies."
+}

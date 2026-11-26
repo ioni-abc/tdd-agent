@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method removes punctuation and gives an example where the trailing period is dropped, which is exactly what the test checks.",
+  "missing": "none"
+}

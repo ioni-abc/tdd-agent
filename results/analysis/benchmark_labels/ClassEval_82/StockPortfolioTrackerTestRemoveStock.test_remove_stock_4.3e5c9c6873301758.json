@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows the successful `True` return and never says what happens when the stock is absent from the portfolio, so the test's expected `False` and unchanged portfolio are not specified.",
+  "missing": "The docstring should state the return value and the effect on the portfolio when the requested stock is not held, including the case where the held quantity is insufficient to remove."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add takes two numeric strings and returns their sum as a string, which is exactly what this test checks, including the case where the first number has one more digit than the second.",
+  "missing": "none"
+}

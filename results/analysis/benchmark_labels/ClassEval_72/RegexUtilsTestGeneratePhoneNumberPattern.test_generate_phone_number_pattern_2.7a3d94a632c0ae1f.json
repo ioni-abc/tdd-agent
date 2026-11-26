@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the pattern to reject an undelimited 10-digit string, which requires the hyphen-separated XXX-XXX-XXXX format, but the docstring only says the pattern matches \"phone numbers\" without naming that format.",
+  "missing": "The docstring should state the exact accepted phone number format, including whether separators such as hyphens are required between digit groups, so that undelimited digit strings are rejected."
+}

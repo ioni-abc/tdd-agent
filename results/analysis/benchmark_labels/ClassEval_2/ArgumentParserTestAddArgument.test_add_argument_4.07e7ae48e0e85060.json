@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states that `required` defaults to False (so the required set stays empty) and that `arg_type` defaults to str, so a programmer following it would store the type objects `str`, `int`, and `bool` as the test expects.",
+  "missing": "none"
+}

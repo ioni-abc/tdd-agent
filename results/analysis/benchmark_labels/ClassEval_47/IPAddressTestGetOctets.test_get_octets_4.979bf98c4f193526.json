@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says an invalid IP address yields an empty list, and an out-of-range octet like 300 makes an IPv4 address invalid, so a programmer following it would return [] for this input.",
+  "missing": "none"
+}

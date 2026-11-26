@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example deletes `'first_name'` and then shows that `'first_name' in camelize_map` is False, which is exactly what the test checks, so a programmer following it would pass.",
+  "missing": "none"
+}

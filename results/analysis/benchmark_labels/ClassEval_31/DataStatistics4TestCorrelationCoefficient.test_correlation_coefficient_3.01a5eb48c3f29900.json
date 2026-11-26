@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example gives the same floating-point result (0.9999999999999998) for another perfectly correlated pair, so a programmer using the standard Pearson formula would produce the value this test expects.",
+  "missing": "none"
+}

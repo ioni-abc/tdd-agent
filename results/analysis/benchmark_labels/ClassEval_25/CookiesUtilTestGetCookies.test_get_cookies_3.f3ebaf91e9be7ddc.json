@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's example shows the response's 'cookies' entry being used, but it never says what happens to other keys, so a programmer could reasonably merge all cookie-like entries and fail this test.",
+  "missing": "The docstring should say that only the response's 'cookies' entry is read and any other keys in the response dict are ignored."
+}

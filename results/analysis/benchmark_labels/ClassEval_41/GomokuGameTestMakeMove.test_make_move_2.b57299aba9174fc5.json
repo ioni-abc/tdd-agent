@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says which player moves first, so a correct implementation that starts with 'O' would fail the test's expectation that the first move places 'X' on the board.",
+  "missing": "The docstring should state the symbol of the player who moves first (and that it is the starting value of the current player), so a programmer knows the first placed symbol."
+}

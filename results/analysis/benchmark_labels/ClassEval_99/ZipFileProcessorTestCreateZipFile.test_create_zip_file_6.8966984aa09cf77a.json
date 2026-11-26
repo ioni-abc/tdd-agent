@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False when the compression operation is not successful, and writing to an empty output path is a failure a programmer would naturally handle that way, so a correct implementation would pass.",
+  "missing": "none"
+}

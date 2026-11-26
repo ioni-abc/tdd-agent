@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects `write_text` to replace the file's existing contents, so reading back returns only the new text, but the docstring only says the content is \"written to a Word document\" and does not say whether that overwrites or appends to existing text.",
+  "missing": "The docstring should state that each call replaces the whole document with a new document containing only the given content, discarding any previously existing paragraphs in the file."
+}

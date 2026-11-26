@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says select(m) returns arrangements of m items from the data, so a programmer would naturally produce each single item as its own one-element list, which is what the test expects.",
+  "missing": "none"
+}

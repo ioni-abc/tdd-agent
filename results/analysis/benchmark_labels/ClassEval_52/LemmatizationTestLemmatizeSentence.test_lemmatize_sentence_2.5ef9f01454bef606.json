@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says punctuation is removed but not whether removal joins the surrounding characters or leaves a gap, so a correct implementation that replaces the apostrophe with a space would produce different tokens than the test expects.",
+  "missing": "The docstring should say that punctuation characters are deleted without inserting a space, so that a word with an internal apostrophe or other punctuation stays as one token with the mark removed."
+}

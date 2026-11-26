@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says read_xml reads the XML file and returns its root Element, which is exactly what this test checks on a valid file, so a programmer following it would pass.",
+  "missing": "none"
+}

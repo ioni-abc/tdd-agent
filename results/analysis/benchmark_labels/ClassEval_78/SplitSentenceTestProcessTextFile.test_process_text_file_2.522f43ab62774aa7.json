@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects 5 because \"Mr.\" does not end a sentence, but the docstring never says how abbreviations or periods inside a sentence are handled, so a natural sentence split at every period would give 4 instead.",
+  "missing": "The docstring should state that a period is a sentence terminator only when it does not belong to an abbreviation or title (such as a name prefix followed by a capitalised word), so that such periods do not split the sentence."
+}

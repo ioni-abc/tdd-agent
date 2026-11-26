@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example for an even-length list (`[1, 2, 3, 4]` giving `2.5`) shows the average of the two middle values, which is the rule the test uses to expect `4.5` for `[1..8]`.",
+  "missing": "none"
+}

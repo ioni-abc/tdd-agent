@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies that gaining experience equal to the threshold (100 times the current level) triggers a level-up with overflow carried forward, so a programmer following it would produce level 2 and exp 0 from a level-1 character with 0 exp gaining 100.",
+  "missing": "none"
+}

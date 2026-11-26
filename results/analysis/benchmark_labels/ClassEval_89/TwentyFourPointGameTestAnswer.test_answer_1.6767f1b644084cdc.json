@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test is filed under get_my_cards but calls game.answer('pass') and checks the length of its result, so it does not exercise the method the docstring describes.",
+  "missing": "none"
+}

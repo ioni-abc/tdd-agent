@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says restock applies only to a product already in the machine and returns False otherwise, so a programmer would return False for an unknown item and leave the inventory untouched, which is what the test checks.",
+  "missing": "none"
+}

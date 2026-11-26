@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that `view_items` returns a dict mapping each item name to its price and quantity, which is exactly what this test checks after a single `add_item`.",
+  "missing": "none"
+}

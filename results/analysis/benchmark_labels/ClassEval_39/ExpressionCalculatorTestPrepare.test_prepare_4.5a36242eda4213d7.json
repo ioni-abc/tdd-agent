@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's example gives the same infix-to-postfix behaviour as the test (`2+3*4` \u2192 `['2','3','4','*','+']`), but it writes `postfix_stack` as a Python list while the test compares against a `deque`, so a list-based implementation would fail.",
+  "missing": "The docstring should state the container type that `postfix_stack` must be (for example, a `deque` rather than a list) and that the stored tokens are strings."
+}

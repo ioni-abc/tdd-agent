@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives no value for precision when the model predicts no positive labels, so the zero-denominator case is left open and a programmer could reasonably raise an error or return NaN instead of 0.0.",
+  "missing": "The docstring should say what precision returns when there are no predicted positives (true positives plus false positives equal zero), e.g. whether it returns 0.0 or raises an error."
+}

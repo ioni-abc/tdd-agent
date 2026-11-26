@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to filter out non-alphabetic characters from the file content and write the result back, and the example shows the filtered string returned, so a programmer following it would produce 'HelloWorld' and pass the assertions.",
+  "missing": "none"
+}

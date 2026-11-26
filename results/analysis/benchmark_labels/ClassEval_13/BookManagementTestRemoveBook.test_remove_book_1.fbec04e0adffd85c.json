@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that books are removed from inventory, so a programmer could leave a title in the inventory with a count of 0, whereas the test expects the title to be deleted once its count reaches zero.",
+  "missing": "The docstring should state that when a removal brings a title's count to zero, the title is deleted from the inventory entirely rather than kept with a zero count."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that registering an already-registered student returns 0, which is exactly what the test checks when the same student dict is registered twice.",
+  "missing": "none"
+}

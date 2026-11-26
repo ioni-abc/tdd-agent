@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (count_all(4) returns 15) fixes the formula as 2^n - 1, which gives 0 for n = 0, so a programmer following it would pass this test.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the zero-padded \"YYYY-MM-DD HH:MM:SS\" output for a single-digit month, day, hour, minute and second, so a programmer following it would produce the test's expected string.",
+  "missing": "none"
+}

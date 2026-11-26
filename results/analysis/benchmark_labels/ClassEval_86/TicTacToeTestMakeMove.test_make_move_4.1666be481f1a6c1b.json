@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each move places the current mark, switches the mark, and returns True on success, so a programmer would make four successful moves on empty cells and end with 'X' as the current player, which is what the test checks.",
+  "missing": "none"
+}

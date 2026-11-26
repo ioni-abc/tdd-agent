@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to return items that \"contain\" the keyword, which a programmer could read as exact equality, so an implementation matching only the item 1 would fail the test's expectation that 10 also matches.",
+  "missing": "The docstring should state that matching is a substring test on each item's string form (so a number matches when its digits contain the keyword), and that total_pages is the ceiling of matching results divided by the page size."
+}

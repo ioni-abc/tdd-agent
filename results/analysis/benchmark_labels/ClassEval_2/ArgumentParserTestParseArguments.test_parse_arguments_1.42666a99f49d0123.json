@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects `age` to be stored as the integer `25` because `add_argument` was given `arg_type=int`, but the docstring only says results are stored \"in specific type\" without saying where that type comes from, so a correct implementation could store the string `'25'` instead.",
+  "missing": "The docstring should state that each parsed value is converted to the type registered for that argument through `add_argument` (its `arg_type`), and that arguments without a registered type keep their value as a string."
+}

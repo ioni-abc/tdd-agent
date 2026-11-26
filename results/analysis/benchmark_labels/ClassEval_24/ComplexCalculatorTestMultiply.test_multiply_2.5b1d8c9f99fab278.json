@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines multiply as the product of two complex numbers, which a programmer would implement as standard complex multiplication, and the test's negative-operand case yields the expected -5+10j under that rule.",
+  "missing": "none"
+}

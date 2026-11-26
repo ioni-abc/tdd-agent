@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says an empty vending machine makes display_items return False, which is exactly what the test checks on a fresh VendingMachine.",
+  "missing": "none"
+}

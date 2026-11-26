@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the value stored under the key, and a programmer following that would return the stored 30 for the key 'age', which is what the test checks.",
+  "missing": "none"
+}

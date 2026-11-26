@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a new student is added to the list and 1 is returned when the student is not already registered, which is exactly what this test checks with a fresh student in an empty system.",
+  "missing": "none"
+}

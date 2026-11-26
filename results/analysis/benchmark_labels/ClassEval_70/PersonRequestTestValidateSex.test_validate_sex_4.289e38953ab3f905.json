@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says valid sexes (Man, Woman, UGM) are returned unchanged, so a programmer following it would return \"Woman\" for this input and pass.",
+  "missing": "none"
+}

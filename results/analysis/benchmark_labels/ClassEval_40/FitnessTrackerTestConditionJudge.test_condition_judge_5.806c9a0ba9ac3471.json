@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says \"based on the BMI standard\" without giving the BMI cutoffs, so a programmer cannot know that a BMI of about 25.35 for a male counts as too fat rather than normal.",
+  "missing": "The docstring should state the exact BMI thresholds for each sex (the lower and upper bounds that separate too thin, normal and too fat) so that a borderline value can be classified."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method registers a class for the student and returns the list of that student's registered class names, and its example shows the list growing with each registration, so a programmer would append each class and return the full list, which is what the test checks.",
+  "missing": "none"
+}

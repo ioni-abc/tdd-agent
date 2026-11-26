@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what to return when no hostname can be found, so a programmer would not know to return None for an address like the one tested, and an implementation that raises an error would fail.",
+  "missing": "The docstring should state the return value when the address has no reverse-DNS hostname (for example, that it returns None) and whether any exception is raised in that case."
+}

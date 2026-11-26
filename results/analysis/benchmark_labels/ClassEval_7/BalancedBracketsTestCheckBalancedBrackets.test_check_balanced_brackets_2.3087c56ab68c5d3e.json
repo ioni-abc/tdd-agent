@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True when the expression has balanced brackets, and a programmer implementing a standard stack check would return True for \"a(b){c}\", which is balanced.",
+  "missing": "none"
+}

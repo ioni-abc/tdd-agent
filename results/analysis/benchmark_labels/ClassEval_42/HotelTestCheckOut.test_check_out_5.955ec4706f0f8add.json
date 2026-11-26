@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says check_out adds the returned room count to the existing available_rooms entry for that type, which is what the test's 2 + 2 = 4 expects, and it implies nothing else should change, so booked_rooms staying the same follows naturally.",
+  "missing": "none"
+}

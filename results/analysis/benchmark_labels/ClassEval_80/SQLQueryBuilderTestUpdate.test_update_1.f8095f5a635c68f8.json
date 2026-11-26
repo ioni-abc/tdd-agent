@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the same output format (values wrapped in single quotes, including integers, joined into a `SET ... WHERE name='...'` clause), so a programmer following it would produce the test's expected string.",
+  "missing": "none"
+}

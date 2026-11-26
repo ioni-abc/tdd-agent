@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False when the product is out of stock, which is exactly the case this test checks (quantity 0 with enough balance), so a programmer following it would return False.",
+  "missing": "none"
+}

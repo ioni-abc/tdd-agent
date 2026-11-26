@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the names of all students in the given major as a list, which is what the test checks when two students share that major, and a natural filter over the stored students keeps their storage order, matching the expected [\"John\", \"Bob\"].",
+  "missing": "none"
+}

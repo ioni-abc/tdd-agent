@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_max returns the maximum value in the data, and the test checks that the maximum of [-1, 4, 3, 2] is 4, which a programmer would produce.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows a list of columns comma-joined after SELECT and a dict condition rendered as `key='value'` after WHERE, which is exactly what this test checks with one column list and one condition.",
+  "missing": "none"
+}

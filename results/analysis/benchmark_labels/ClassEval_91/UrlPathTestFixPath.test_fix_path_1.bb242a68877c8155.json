@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the function removes leading and trailing slashes, and the test passes '/foo/bar/' and expects 'foo/bar', which a programmer following the docstring would produce.",
+  "missing": "none"
+}

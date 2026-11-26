@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says an order is created and stored with product_id, quantity and status 'Shipped', and returns False only when stock is inadequate, so a programmer would create the order when the requested quantity equals the stock, which is what the test checks.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says x is an angle in degrees and gives tan(45)=1.0, so a programmer would compute tan(30 degrees), which matches the expected 0.5773502692 within assertAlmostEqual's default 7-place tolerance.",
+  "missing": "none"
+}

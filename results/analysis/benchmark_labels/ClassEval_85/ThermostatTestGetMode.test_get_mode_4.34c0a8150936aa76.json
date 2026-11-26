@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_mode returns the current work mode as a string limited to 'heat' or 'cool', so a programmer would return the stored mode, which is what this test checks after constructing the thermostat with 'cool'.",
+  "missing": "none"
+}

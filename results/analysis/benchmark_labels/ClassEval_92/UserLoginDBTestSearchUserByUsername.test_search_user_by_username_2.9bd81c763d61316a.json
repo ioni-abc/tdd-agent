@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the method returns a list of tuples, but the test and reference code expect a single row tuple, since `user[0]` is the username string.",
+  "missing": "The docstring should state that the method returns only the first matching row as a single tuple (or None if no row matches), not a list of all matching rows."
+}

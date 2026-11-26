@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows `mode` returning a list of all most-frequent values, so a programmer following it would return `[2]` for a single mode and pass, even though the `:return` line says float.",
+  "missing": "none"
+}

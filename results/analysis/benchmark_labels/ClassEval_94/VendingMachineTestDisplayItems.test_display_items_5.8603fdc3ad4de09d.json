@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says how multiple products are joined into the returned string, so a correct implementation could choose a different separator and fail this test, which expects one item per line joined by newlines.",
+  "missing": "The docstring should state that when there are several products, each product's line is separated from the next by a newline character, in the order they appear in the inventory."
+}

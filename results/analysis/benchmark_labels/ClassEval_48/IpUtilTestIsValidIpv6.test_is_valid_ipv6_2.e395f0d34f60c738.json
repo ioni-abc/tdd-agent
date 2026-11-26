@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own second example shows that the malformed address '2001:0db8:85a3:::8a2e:0370:7334' returns False, which is the exact behaviour the test asserts.",
+  "missing": "none"
+}

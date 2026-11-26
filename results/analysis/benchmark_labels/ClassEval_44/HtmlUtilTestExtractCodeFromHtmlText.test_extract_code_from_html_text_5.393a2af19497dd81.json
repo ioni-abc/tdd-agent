@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the list of code found in the HTML, so a programmer would naturally return an empty list when the input contains no code, which is what this empty-input test expects.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says is_free_at returns True when the check time does not fall within any course's time range, and 11:00 is outside the 09:00\u201310:00 course, so a programmer following it would return True and pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert a key string into camel case with an example ('first_name' to 'firstName'), so a programmer would produce 'cccDdd' from 'ccc_ddd' by capitalising the segment after each underscore.",
+  "missing": "none"
+}

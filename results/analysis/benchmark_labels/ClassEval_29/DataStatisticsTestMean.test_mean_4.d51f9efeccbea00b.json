@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the mean is accurate to two decimal places, so a programmer would compute 33/7 \u2248 4.714 and round it to 4.71, which is what the test expects.",
+  "missing": "none"
+}

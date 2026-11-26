@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the account balance, and the test sets the balance to 1500 and checks that view_balance returns 1500, which a programmer would implement by returning self.balance.",
+  "missing": "none"
+}

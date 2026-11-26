@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a non-empty, non-11-digit input becomes None, so a programmer following it would return None for the short non-numeric string this test passes in.",
+  "missing": "none"
+}

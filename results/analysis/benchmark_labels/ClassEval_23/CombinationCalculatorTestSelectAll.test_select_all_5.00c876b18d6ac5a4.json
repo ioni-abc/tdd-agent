@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says select_all returns all combinations of the data elements, and the 4-element example shows non-empty subsets of every size, so a one-element list should yield just that element as a single combination, which is what the test expects.",
+  "missing": "none"
+}

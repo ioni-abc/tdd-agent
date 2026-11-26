@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert a key string to camel case with an example (`first_name` to `firstName`), so a programmer would split on underscores, capitalise the following parts and keep the first part as is, which gives `aaaBbb` for `aaa_bbb`.",
+  "missing": "none"
+}

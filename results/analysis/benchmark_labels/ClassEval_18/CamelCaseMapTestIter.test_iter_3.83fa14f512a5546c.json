@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says that keys are transformed when stored, so a programmer following it would iterate over the keys as given and fail the test, which expects the converted camelCase keys.",
+  "missing": "The docstring should state that keys are converted to camelCase when they are assigned, so that iteration yields the converted keys rather than the originals."
+}

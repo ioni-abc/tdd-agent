@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects skewness of constant data (zero standard deviation, which makes the formula divide by zero) to return 0, and the docstring says nothing about this edge case, so a standard implementation could fail.",
+  "missing": "The docstring should say what to return when all values are equal (zero spread), since the skewness formula is otherwise undefined, for example that it returns 0 in that case."
+}

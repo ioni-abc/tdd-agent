@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's example fixes the convention only loosely, and the test's exact-equality check on a floating-point result depends on the specific computation order, which the docstring does not specify.",
+  "missing": "The docstring should state the exact formula used (for example, excess kurtosis with population moments, divided by n, minus 3) and the order of operations, so that an implementation following it reproduces the same floating-point value."
+}

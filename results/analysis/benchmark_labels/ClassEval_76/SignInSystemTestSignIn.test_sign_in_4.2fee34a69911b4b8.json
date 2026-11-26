@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says sign_in returns True when the user exists in self.users and is signed in, which is exactly what this test checks after adding \"bbb\" and signing it in.",
+  "missing": "none"
+}

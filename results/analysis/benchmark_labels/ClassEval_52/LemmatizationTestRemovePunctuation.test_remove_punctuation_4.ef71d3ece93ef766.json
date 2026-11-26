@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to remove any punctuation from the text, and a programmer would delete the ellipsis dots and leave the other characters, including the trailing space, unchanged, which matches the expected output.",
+  "missing": "none"
+}

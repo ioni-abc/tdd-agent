@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring's first line and example describe cosine similarity, but the return description says \"cosine distance\", which conflicts with the test's expected values (e.g. 3/(2\u00b7\u221a3) \u2248 0.866), which are similarities.",
+  "missing": "The docstring should state that each output is the cosine similarity (dot product divided by the product of the two vector norms, ranging from -1 to 1), not a distance such as 1 minus similarity."
+}

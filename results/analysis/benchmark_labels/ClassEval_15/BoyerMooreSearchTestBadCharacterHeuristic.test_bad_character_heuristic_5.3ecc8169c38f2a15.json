@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns all positions where the pattern occurs in the text, and the test's expected [0] is the only occurrence of \"ABAC\" in \"ABACABA\", so a programmer following the docstring would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says sign_in returns True when the user exists and is signed in, which is exactly what this test checks after add_user(\"aaa\") and sign_in(\"aaa\").",
+  "missing": "none"
+}

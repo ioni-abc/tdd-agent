@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest example gives the same inputs and the exact expected string \"2001-07-18 01:01:01\", so a programmer following it would produce the test's output, including zero-padding.",
+  "missing": "none"
+}

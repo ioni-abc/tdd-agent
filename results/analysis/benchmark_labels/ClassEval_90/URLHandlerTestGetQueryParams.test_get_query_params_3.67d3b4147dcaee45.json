@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes the success case and says nothing about what to return when the URL has no query string, so a programmer could reasonably return an empty dict instead of None, which this test expects.",
+  "missing": "The docstring should state the return value when the URL has no \"?\" query part (for example, whether it returns None or an empty dict)."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows `mode` returning a list of all values tied for the highest count, so a programmer following it would return `[4]` for this input with a single most frequent value.",
+  "missing": "none"
+}

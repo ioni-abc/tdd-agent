@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects checkout to return the discounted total (50) and also to reduce the menu stock counts and clear the selected dishes, but the docstring mentions none of the side effects, so a correct implementation that leaves the order in place would fail the final assertions.",
+  "missing": "The docstring should state that after a successful checkout, the ordered quantity of each dish is subtracted from its menu count and the selected dishes list is emptied."
+}

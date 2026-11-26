@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring describes generic linear interpolation, but the test passes unsorted x values and expects the bracketing segment to be picked by scanning consecutive pairs in list order, which a standard implementation would not necessarily do.",
+  "missing": "The docstring should say whether x must be sorted ascending, and if not, which segment is used when a point falls within several consecutive pairs of x values (for example, the first consecutive pair in list order)."
+}

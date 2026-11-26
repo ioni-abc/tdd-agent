@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the expression is reformatted and shows whitespace removal, so a programmer would not know that a leading negation marker before a parenthesized group must become a minus sign with a \"0\" prepended.",
+  "missing": "The docstring should specify how unary negation markers are rewritten, including whether a negation at the start of the expression or after an operator is converted, and what prefix is added when the negated operand is a parenthesized group."
+}

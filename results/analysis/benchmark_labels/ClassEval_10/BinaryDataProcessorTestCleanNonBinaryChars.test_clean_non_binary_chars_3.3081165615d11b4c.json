@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test does not call the method under test: it checks `binary_string` straight after construction, so it depends on the constructor cleaning the input, which this method's docstring never describes.",
+  "missing": "The docstring of the constructor (or a note here) should state whether the input is already filtered to only 0/1 characters on construction, since that is the only way the expected value appears without calling this method."
+}

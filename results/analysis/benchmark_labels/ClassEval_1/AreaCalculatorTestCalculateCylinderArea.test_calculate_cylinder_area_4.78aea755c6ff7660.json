@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (radius 2, height 3 giving 62.83, which is 20\u03c0) fixes the total-surface-area formula 2\u03c0r(r+h), so a programmer following it gets 22.5\u03c0 \u2248 70.686 for radius 2.5 and height 2, which is within the 0.01 delta of 70.68.",
+  "missing": "none"
+}

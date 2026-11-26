@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example uses the same five moves and shows `check_winner()` returning `'X'`, so a programmer following it would get the expected result.",
+  "missing": "none"
+}

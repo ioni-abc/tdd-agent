@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows a sample standard deviation (n-1 divisor), and any correct implementation of that rule returns 0.0 for a list of identical values, so the test passes for a programmer following the docstring.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines divide as the quotient of two complex numbers, so a programmer would compute standard complex division, which gives -1+0j for this test's inputs.",
+  "missing": "none"
+}

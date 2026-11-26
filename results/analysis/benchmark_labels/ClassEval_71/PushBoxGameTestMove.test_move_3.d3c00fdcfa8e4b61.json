@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test checks the `is_game_over` attribute and the `player_row`/`player_col` fields, but the docstring only says move returns a win boolean and never mentions these attributes, so an implementation following the docstring could fail.",
+  "missing": "The docstring should state which instance attributes a move updates (the player's row and column, and any game-over flag) and when each is set, so an implementation can match the expected state, not only the return value."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer following the docstring would implement subtraction of the second operand from the first and return a `decimal.Decimal`, which equals `Decimal(1.0)` for these inputs, so the test passes.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says an invalid IP address yields an empty list, and this input has only three numeric parts with an empty first part, so a programmer following the docstring would return `[]`.",
+  "missing": "none"
+}

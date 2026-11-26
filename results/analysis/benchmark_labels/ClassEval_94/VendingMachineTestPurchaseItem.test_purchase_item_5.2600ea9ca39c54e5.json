@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a successful purchase returns the balance after the purchase, and the test's return value of 0.0 follows from that, while the inventory-quantity check is the natural reading of \"purchases a product\".",
+  "missing": "none"
+}

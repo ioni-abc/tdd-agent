@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Wrong method under test: the test calls `evaluate_expression`, but it is filed under `answer`, whose docstring describes checking a card expression against 24, not a separate evaluator.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the amount moves from the current account to the other account, so a programmer would subtract 200 from the 500 balance and add it to the 1000 balance, matching the test's 300 and 1200.",
+  "missing": "none"
+}

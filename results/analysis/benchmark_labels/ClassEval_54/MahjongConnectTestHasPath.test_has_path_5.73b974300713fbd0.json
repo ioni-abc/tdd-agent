@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test passes a position outside the board as the first icon and expects False, but the docstring says nothing about out-of-bounds positions, so a correct implementation could raise an IndexError instead.",
+  "missing": "The docstring should say what happens when either position lies outside the board (for example, that such a position has no path and the method returns False)."
+}

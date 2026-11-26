@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says write_csv returns 0 whenever the write does not succeed, and opening a file with an empty name fails, so a programmer following it would return 0 as the test expects.",
+  "missing": "none"
+}

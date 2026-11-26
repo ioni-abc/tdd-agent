@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines words as space-separated tokens and gives the example `count_words(\"abc def\")` returning 2, which is exactly what this test checks.",
+  "missing": "none"
+}

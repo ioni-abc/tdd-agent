@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's described behaviour (remove punctuation, POS-tag, lemmatize verbs to base form) and its example \"am\" \u2192 \"be\" lead a programmer to produce \"was\" \u2192 \"be\", \"running\" \u2192 \"run\", \"eating\" \u2192 \"eat\", and keep the other words, matching the test.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_max returns the maximum value in the data, and its example shows 4 for [1, 2, 3, 4], so a programmer returning the largest element would pass `assertEqual(res, 4)`.",
+  "missing": "none"
+}

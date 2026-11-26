@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to generate primes up to the limit, and its example (limit 20 giving primes through 19) shows the expected inclusive ordered list, so a programmer following it would return [2, 3, 5, 7] for limit 10.",
+  "missing": "none"
+}

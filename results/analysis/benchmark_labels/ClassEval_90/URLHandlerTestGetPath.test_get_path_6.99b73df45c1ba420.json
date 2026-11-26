@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"If successful, return the address,\" so a programmer would not know that a URL without a scheme separator should yield None, and a reasonable implementation could raise an error or return an empty string instead.",
+  "missing": "The docstring should say that the method returns None when the URL has no scheme separator or no path component after the host."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example stores 'John' under 'first_name' and retrieves it with `__getitem__('first_name')`, which is exactly what this test checks, so a programmer following it would pass.",
+  "missing": "none"
+}

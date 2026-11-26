@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the quantity of the given title, so a programmer would return the stored count of \"book1\", which is 2 after adding it with quantity 2.",
+  "missing": "none"
+}

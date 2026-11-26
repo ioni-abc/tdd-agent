@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what happens to an interpolation point whose x-coordinate lies outside the grid, and the test expects such a point to be silently dropped from the output, so a programmer could reasonably return NaN or raise an error instead.",
+  "missing": "The docstring should state that any interpolation point falling outside the range covered by the x and y grid values is omitted from the returned list, so the output may be shorter than the input."
+}

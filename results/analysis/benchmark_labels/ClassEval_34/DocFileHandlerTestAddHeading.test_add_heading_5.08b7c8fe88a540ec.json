@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method adds a heading with a default level of 1, so a programmer would call Word's heading function with that level, which produces a paragraph in a \"Heading\" style that the test checks for.",
+  "missing": "none"
+}

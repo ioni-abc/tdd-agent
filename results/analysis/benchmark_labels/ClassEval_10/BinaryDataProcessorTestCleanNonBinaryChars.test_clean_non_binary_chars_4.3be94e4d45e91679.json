@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test never calls clean_non_binary_chars; it only constructs BinaryDataProcessor(\"sdsdf\") and checks that binary_string is empty, so it exercises constructor behaviour the method's docstring does not describe.",
+  "missing": "none"
+}

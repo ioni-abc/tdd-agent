@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what happens when the player pushes a box into a wall; the test expects the push to be blocked and the player to stay put, which a programmer would not infer from the docstring.",
+  "missing": "The docstring should state that a player moving into a box only pushes it if the cell beyond the box is free (not a wall), and otherwise the player and the box both stay where they are."
+}

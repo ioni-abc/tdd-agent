@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring lists the operator set explicitly and says it returns True for operator characters, so a programmer implementing membership in that set would return True for \"+\", which is exactly what the test checks.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test asserts that a successful sweep increments `self.score` to 1, but the docstring only describes the return value and never mentions the score, so a correct implementation that doesn't track score could fail.",
+  "missing": "The docstring should state that every successful sweep of a safe cell increments the game's `score` attribute by one, and that sweeping a mine does not change it."
+}

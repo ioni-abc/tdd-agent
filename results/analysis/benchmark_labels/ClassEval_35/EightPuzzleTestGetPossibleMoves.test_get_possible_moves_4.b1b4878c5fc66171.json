@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says moves are found from the current state and the example shows edge-dependent output (blank in the bottom middle yields up, left, right), so a programmer would produce up, down, left for a blank in the middle-right cell, which the test accepts.",
+  "missing": "none"
+}

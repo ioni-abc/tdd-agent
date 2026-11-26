@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return movies \"within the specified time range\", which a programmer would read as movies whose start and end both fall inside the window, and this test checks exactly that case with both movies fully inside 16:00\u201323:00.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a dish is added only if its count is valid against self.menu and that the menu count changes only on success, so a programmer would return False and leave the menu and selected list untouched when the requested count exceeds the available count.",
+  "missing": "none"
+}

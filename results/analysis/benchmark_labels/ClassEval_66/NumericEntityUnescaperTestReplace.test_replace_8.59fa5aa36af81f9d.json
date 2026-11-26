@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes replacing valid numeric references, so it never says what happens to a malformed one like \"&#???;\", and a programmer could plausibly drop it, raise an error, or truncate the output.",
+  "missing": "Any text that does not form a complete valid numeric reference (for example, a missing terminating semicolon or non-numeric content after \"&#\") must be copied through to the output unchanged, and processing must continue after it."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_argument returns the stored value for the given key, which is exactly what the test checks when it retrieves the boolean value True for \"verbose\".",
+  "missing": "none"
+}

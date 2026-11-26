@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it multiplies two big numbers given as strings and returns the product as a string, which is exactly what this test checks with ordinary large-number multiplication.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to multiply count, price and sales for each ordered dish and total them, which gives 10\u00d74\u00d70.9 + 20\u00d74\u00d70.8 = 100, matching the test's expected value.",
+  "missing": "none"
+}

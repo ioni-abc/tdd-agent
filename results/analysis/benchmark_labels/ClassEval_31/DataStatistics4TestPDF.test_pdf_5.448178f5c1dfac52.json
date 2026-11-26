@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the output as the normal-distribution PDF of each input value with the given mean and standard deviation, which is exactly what this test checks with mu=2 and sigma=2.",
+  "missing": "none"
+}

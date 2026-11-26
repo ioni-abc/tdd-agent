@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes a standard Vigenere encryption with the key set in the constructor, and the test's input is all lowercase letters, so a programmer implementing that cipher would produce the expected output.",
+  "missing": "none"
+}

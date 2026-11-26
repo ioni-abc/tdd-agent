@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says True means the current operator has higher or equal precedence, so compare(\"+\", \"%\") should be False since \"%\" binds tighter than \"+\", but the test and reference code expect True because they check whether the stack operator's precedence is at least the current one.",
+  "missing": "The docstring should state that the result is True when the top-of-stack operator's precedence is greater than or equal to the current operator's, and that \"%\" has the same precedence as \"/\"."
+}

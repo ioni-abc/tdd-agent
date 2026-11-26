@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects non-letter characters to pass through unchanged without consuming a key letter, and the docstring says nothing about how punctuation, digits, or spaces are handled, so a plausible implementation (e.g., advancing the key on every character) would fail.",
+  "missing": "The docstring should say that non-alphabetic characters are copied to the output unchanged and do not advance the position in the key, and that the case of each letter is preserved."
+}

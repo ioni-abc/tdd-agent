@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says heal adds 10 hp and that max hp is 100, so a programmer would cap the result at 100, which gives the expected 100 for an already-full character.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the movie is added to self.movies with the name, price, start and end times parsed to datetimes, and an n-by-n seat array, and its example output matches what the test checks.",
+  "missing": "none"
+}

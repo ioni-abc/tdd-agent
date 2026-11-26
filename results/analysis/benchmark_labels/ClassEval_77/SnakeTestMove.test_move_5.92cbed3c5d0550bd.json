@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the head to shift by the direction scaled by block size, with no food eaten and the length and score unchanged, but the docstring never says the head moves by that step or that the length stays fixed, and its \"its own length plus one\" phrase is too garbled to clearly state either.",
+  "missing": "The docstring should state that the head moves one block size times the direction vector (wrapping around the screen edges), that the snake's length only grows when it eats food, and that the score is unchanged when no food is eaten."
+}

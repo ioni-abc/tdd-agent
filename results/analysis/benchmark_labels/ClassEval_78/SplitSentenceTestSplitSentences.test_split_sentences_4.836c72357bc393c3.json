@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says sentences end with \".\" or \"?\" followed by a space, and the test's first two sentences fit that rule, while the final sentence's trailing period is simply the end of the string, which a programmer splitting on those terminators would keep as the last element.",
+  "missing": "none"
+}

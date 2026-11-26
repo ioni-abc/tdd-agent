@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's four-element example shows that `select_all` returns every non-empty combination, grouped by size and in input order, which is exactly what the two-element test expects.",
+  "missing": "none"
+}

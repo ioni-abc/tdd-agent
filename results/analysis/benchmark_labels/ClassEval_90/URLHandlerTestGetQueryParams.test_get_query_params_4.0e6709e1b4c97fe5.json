@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example parses the query string `wd=aaa&rsv_spt=1` into a dict of key/value strings, which is the same behaviour this test checks with `bbb` in place of `aaa`.",
+  "missing": "none"
+}

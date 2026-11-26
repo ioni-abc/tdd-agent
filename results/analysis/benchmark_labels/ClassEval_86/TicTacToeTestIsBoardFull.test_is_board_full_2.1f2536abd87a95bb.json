@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method checks whether the board is completely filled and returns a bool, so a programmer would return True once every cell is occupied, which is what this test expects after nine moves.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to generate all primes up to the limit, so a programmer would naturally return an empty list when the limit is 1, which is what the test expects.",
+  "missing": "none"
+}

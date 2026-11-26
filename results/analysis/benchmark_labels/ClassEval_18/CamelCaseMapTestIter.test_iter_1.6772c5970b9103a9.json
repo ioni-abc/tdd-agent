@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the method returns an iterator over the object's own data and shows an opaque iterator repr, so it never says the yielded keys are transformed, while the test expects keys in a converted form.",
+  "missing": "The docstring should state that keys are stored and yielded in the transformed (converted) form applied when they were assigned, not in the original spelling the caller used."
+}

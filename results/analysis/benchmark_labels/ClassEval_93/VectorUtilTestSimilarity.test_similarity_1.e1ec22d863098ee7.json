@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the method as cosine similarity and its example gives 0.7071067811865475 for [1,1] and [1,0], which is exactly what the test checks.",
+  "missing": "none"
+}

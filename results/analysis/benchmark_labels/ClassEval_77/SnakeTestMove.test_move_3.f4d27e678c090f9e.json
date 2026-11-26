@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the head to land at (51, 50) after moving in direction (1, 0), but the docstring never says how a direction tuple maps to coordinate changes, so a programmer following it could reasonably produce a different position.",
+  "missing": "The docstring should state the exact coordinate change for a given direction tuple (the step size per unit of direction, and whether the y-axis increases or decreases), including how the head position is computed from the current head and the direction."
+}

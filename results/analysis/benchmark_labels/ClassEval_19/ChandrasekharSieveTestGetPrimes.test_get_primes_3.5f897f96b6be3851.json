@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (a sieve of size 20 returns the primes up to 19) shows that get_primes returns the primes below the bound, which yields the expected [2, 3, 5, 7, 11, 13] for a bound of 15, and 15 is not prime so inclusive and exclusive bounds agree here.",
+  "missing": "none"
+}

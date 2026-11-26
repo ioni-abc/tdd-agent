@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The return value of 1 matches the docstring's \"exceeds but quantity not zero\" rule, but the test also asserts the exact nested structure of `booked_rooms` (room type mapping to guest name to count), which the docstring never describes.",
+  "missing": "The docstring should specify the structure of `booked_rooms` (e.g., keyed first by room type, then by guest name, with the booked count as value) and state that a failed or partial booking leaves `booked_rooms` unchanged."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says send_message returns False when the sender or receiver is not in the Chat, and this test sends from and to an unregistered user and expects False, which a programmer following the docstring would produce.",
+  "missing": "none"
+}

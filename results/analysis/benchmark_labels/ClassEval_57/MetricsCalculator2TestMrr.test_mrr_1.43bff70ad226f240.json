@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example outputs \"1.0, [1.0]\" for a single `([1, 0, 1, 0], 4)` tuple, and a programmer applying \"mean of reciprocal rank\" (first correct answer at rank 1 gives 1.0) with the second return as a per-input list would produce exactly the tested result.",
+  "missing": "none"
+}

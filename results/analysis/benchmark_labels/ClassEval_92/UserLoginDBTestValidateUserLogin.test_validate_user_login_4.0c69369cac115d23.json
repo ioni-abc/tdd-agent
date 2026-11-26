@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True when the user exists in the database and the password matches, which is exactly what this test checks with a freshly inserted user and correct password.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's second example gives the exact output this test checks, a mean of 0.3333333333333333 and per-input list [0.41666666666666663, 0.25] for the list-of-tuples input.",
+  "missing": "none"
+}

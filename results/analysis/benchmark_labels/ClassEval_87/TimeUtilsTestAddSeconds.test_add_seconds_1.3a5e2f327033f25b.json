@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the result to be computed from the instance's stored `datetime` attribute, but the docstring only says \"the current time\", which a programmer could read as the wall-clock time at call time.",
+  "missing": "The docstring should say that the base time is the instance's stored datetime value (set when the object was created), not the clock at the moment of the call, and that the result is that stored time shifted by the given seconds."
+}

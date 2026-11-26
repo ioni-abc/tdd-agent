@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer following the docstring would return the inventory dictionary of titles to quantities, and a freshly constructed manager with no books naturally has an empty one, so the test's expected `{}` is implied.",
+  "missing": "none"
+}

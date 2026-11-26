@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes returning the root element for a valid file, so a programmer would likely let ET.parse raise an error for an empty filename, while the test expects None.",
+  "missing": "The docstring should state what the method returns when the file cannot be opened or parsed, such as None instead of raising an exception."
+}

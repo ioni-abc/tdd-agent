@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True only for a valid IPv6 address and False otherwise, so a programmer checking hex-digit validity would return False for the non-hex groups in this test.",
+  "missing": "none"
+}

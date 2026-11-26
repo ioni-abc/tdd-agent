@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says read_json returns -1 when an error occurs during the reading process, and a file with invalid JSON content triggers a parse error during reading, so a programmer following the docstring would return -1 and pass.",
+  "missing": "none"
+}

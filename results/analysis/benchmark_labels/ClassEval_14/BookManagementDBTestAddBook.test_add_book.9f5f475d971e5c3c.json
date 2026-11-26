@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_book stores the given title and author with availability set to 1, which is exactly what the test checks, and the row-id lookup is ordinary SQLite auto-increment behaviour a programmer would expect.",
+  "missing": "none"
+}

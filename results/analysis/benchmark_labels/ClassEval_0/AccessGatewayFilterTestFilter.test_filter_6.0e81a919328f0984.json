@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"certain rules and conditions,\" so a programmer would not know that a request with a token whose embedded date is long past is rejected even when the user level is high enough.",
+  "missing": "The docstring should state the exact admission rules: which paths bypass authentication, what token must be presented and where (such as the Authorization header), how token validity or expiry is checked, and the minimum user level required."
+}

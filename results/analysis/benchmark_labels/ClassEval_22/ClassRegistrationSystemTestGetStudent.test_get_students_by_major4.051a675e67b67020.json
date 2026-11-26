@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return all students in the major as a list of names, and a programmer filtering the registered students in order would produce exactly the order the test expects.",
+  "missing": "none"
+}

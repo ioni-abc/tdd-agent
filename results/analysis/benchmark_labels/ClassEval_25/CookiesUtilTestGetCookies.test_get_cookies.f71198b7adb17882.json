@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example passes a response with a 'cookies' dict and expects `cookies_util.cookies` to equal that dict, which is exactly what the test checks.",
+  "missing": "none"
+}

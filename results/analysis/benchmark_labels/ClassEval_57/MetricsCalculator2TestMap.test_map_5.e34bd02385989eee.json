@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's examples for a list of (ranking, ground-truth count) tuples show the AP computation (precision at each correct position divided by the ground-truth count) and the mean across the list, which is exactly what this test checks.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example ([1, 2, 3, 4] giving 1.25) shows population variance rounded to two decimals, which is what this test checks on different data.",
+  "missing": "none"
+}

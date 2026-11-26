@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says read_file returns the content of the file, the same as read(), which a programmer would implement as opening the file and returning its full text, so the test's str type check and exact-content match follow from it.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says tan takes an angle in degrees and gives the example tan(45) returning 1.0, which is exactly what the test asserts.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says mean returns the average of the list as a float and gives `[1, 2, 3]` \u2192 `2.0`, so a programmer computing sum divided by length would pass this test.",
+  "missing": "none"
+}

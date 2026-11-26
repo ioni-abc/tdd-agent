@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says an existing employee's information is updated and the method returns True, which is exactly what this test checks across its repeated updates and final stored record.",
+  "missing": "none"
+}

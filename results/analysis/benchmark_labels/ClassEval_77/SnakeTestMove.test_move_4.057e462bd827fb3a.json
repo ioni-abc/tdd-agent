@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects a zero-direction move to leave the head at its starting position with length 1 and score 0, but the docstring never says how a zero or null direction is handled or where the head starts.",
+  "missing": "The docstring should say that the new head is the current head plus the direction scaled by block size, with wrap-around at screen edges, and state what happens when the direction is (0, 0) (the head stays put and the length and score are unchanged)."
+}

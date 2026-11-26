@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example calls interpolate_2d with the same grid, points, and expected output [3.0, 7.0] that this test checks, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

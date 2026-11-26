@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test-method mismatch: the test exercises `answer('1+1+1+1')` and expects False, but the docstring documents only `get_my_cards`, which returns four random cards and never checks an expression.",
+  "missing": "none"
+}

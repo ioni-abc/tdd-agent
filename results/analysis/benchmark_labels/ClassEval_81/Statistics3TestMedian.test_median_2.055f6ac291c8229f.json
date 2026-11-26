@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines median as the middle value of the list, so a programmer would return the middle element for an odd-length list, which is what the test checks.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns None when the name is not a student (the \"or None otherwise\" branch), so a programmer following it would return None for the unknown student 'Bob' and pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (2 of 4 matching gives 0.5) defines accuracy as the fraction of positions where predictions match the true labels, so a programmer would compute 3/4 = 0.75 for this test.",
+  "missing": "none"
+}

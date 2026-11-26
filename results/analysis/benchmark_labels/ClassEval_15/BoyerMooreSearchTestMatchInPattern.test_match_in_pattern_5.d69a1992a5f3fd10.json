@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes returning the index of the rightmost occurrence, so a programmer could reasonably raise an error or return None when the character is absent, while the test expects -1.",
+  "missing": "The docstring should state the return value when the character does not appear in the pattern (for example, the sentinel value -1)."
+}

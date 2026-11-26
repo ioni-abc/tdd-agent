@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the returned mode is only 'heat' or 'cool', but the test builds a Thermostat with mode 'test' and expects 'test' back, which is outside that set.",
+  "missing": "none"
+}

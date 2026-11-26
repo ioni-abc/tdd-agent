@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_employee returns the stored employee information when the id exists, and the test looks up an existing id twice and expects that same record each time, which a programmer following the docstring would pass.",
+  "missing": "none"
+}

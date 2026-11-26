@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each call increases length by 1 and score by 100, which is exactly what four calls from length 1 and score 0 should produce (length 5, score 400).",
+  "missing": "none"
+}

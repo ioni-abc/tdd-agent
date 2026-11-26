@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns -1 when an error occurs during writing, and opening a read-only file for writing is such an error, so a programmer following it would return -1 here.",
+  "missing": "none"
+}

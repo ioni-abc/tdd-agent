@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's even-length example (median of [1, 2, 3, 4] is 2.5) establishes the standard rule of averaging the two middle values, which is exactly what the test checks with [1, 2, 3, 4, 5, 6] expecting 3.5.",
+  "missing": "none"
+}

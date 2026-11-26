@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "\"Within the specified time range\" tells a programmer to include only movies that fit entirely inside the window, which excludes Spiderman (ends after 20:00) and keeps Batman (starts after 17:00 and ends before 20:00), matching the expected result.",
+  "missing": "none"
+}

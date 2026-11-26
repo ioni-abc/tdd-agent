@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says check_out adds the room number to available_rooms and creates a new room type entry when the type is new, which is what the test's available_rooms assertion checks, and it names no other state to change, so an implementation following it would leave booked_rooms alone and pass.",
+  "missing": "none"
+}

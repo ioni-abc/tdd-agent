@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects 'O' even though, under the moves as played, X also reaches a line of five or more, and the docstring does not say which player wins or whether later moves are rejected once a win occurs, so a correct implementation could return 'X'.",
+  "missing": "The docstring should state what happens when both players have five or more in a row, for example whether the first winner found in scan order is returned, and whether any move after a win is rejected."
+}

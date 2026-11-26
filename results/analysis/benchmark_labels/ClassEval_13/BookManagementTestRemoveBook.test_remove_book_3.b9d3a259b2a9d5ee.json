@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says to raise on \"invalid input\" without saying that a title absent from the inventory counts as invalid, so a correct implementation could silently do nothing and fail this test.",
+  "missing": "The docstring should say that removing a title that is not in the inventory (and removing more copies than are held) must raise an exception."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says how the table is laid out, so a correct implementation could store rows differently and fail the check that the inserted age appears at index 2 of each fetched row.",
+  "missing": "The docstring should state the stored column layout, including any automatically generated id column and the order in which each dictionary's fields become columns in the table."
+}

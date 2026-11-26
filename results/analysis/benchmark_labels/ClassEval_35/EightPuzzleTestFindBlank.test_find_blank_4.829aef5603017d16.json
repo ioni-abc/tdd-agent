@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to return the coordinates of the 0 block, but it never says what to return when no 0 is present, and this test expects `None` for a state with no 0.",
+  "missing": "The docstring should state the return value when the state contains no 0 element (for example, that it returns `None`)."
+}

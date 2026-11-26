@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each call adds 1 to the length and 100 to the score, so a programmer following it would get length 4 and score 300 after three calls from length 1 and score 0.",
+  "missing": "none"
+}

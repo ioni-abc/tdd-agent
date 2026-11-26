@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that the stock is added to the portfolio, so a programmer would reasonably append a new entry, while the test expects the existing holding's quantity to be increased to 20 and the cash balance to drop by the purchase cost.",
+  "missing": "The docstring should say what happens when the portfolio already holds a stock with the same name: whether the new quantity is merged into that existing entry (and how its price is kept) or a separate entry is appended, and that the cash balance is reduced by price times quantity on a successful purchase."
+}

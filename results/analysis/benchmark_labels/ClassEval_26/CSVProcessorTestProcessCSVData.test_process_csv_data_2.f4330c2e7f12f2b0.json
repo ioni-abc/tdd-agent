@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to keep only the N-th column, uppercase it, and write the title plus the new data to a file with a `_process` suffix, and the docstring example shows the full uppercase result, so a programmer following it would produce the `['YOU']` row this test expects.",
+  "missing": "none"
+}

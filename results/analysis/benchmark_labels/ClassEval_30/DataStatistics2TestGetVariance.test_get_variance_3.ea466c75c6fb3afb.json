@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says variance is rounded to two decimals and its example on [1, 2, 3, 4] gives 1.25, which is the population variance, so a programmer following it would return 1.25 for [1, 4, 3, 2] as well.",
+  "missing": "none"
+}

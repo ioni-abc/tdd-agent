@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the method returns a list of z-scores, but a programmer following it would divide by zero for a constant list, whereas the test expects None.",
+  "missing": "The docstring should say what to return when the data has zero standard deviation (for example, when all values are equal), such as None instead of dividing by zero."
+}

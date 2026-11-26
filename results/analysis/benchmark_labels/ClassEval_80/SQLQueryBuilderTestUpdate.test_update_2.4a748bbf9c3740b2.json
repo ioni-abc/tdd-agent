@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the same format the test checks: a single data pair rendered as `key='value'` after SET and a single where pair after WHERE, so a programmer following it would produce the expected string.",
+  "missing": "none"
+}

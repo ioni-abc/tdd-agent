@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example uses the same input (sentences ending in \".\" and \"?\") and expects 4, so a programmer following it would return the word count of the longest sentence and pass this test.",
+  "missing": "none"
+}

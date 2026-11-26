@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test exercises `merge_pdfs` and checks its return message and the created file, but it is filed under `extract_text_from_pdfs`, whose docstring describes returning a list of extracted page texts.",
+  "missing": "none"
+}

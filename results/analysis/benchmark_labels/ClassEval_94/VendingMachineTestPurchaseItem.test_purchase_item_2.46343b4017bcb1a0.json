@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False when the purchase cannot be made, and its example shows `purchase_item('Pizza')` returning False for an item not in the inventory, so a programmer following it would return False here and leave the inventory untouched.",
+  "missing": "none"
+}

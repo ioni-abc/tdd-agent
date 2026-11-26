@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "A programmer reading \"add one or several books to inventory sorted by book title\" would not know that the inventory must be a dict mapping each title to its count, so a correct implementation using another structure (such as a list of titles) would fail this test.",
+  "missing": "The docstring should state the type and layout of `self.inventory`, including that each key is a book title and its value is the number of copies, so that adding a quantity increases that count."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False when the user is not in the Chat, and the test removes a user who was never added, expecting False, with `users` still empty.",
+  "missing": "none"
+}

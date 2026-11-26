@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The summary and the example output both describe cosine similarity, which is what the reference code computes and what this test checks, so a programmer following the docstring would get the expected values.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example gives 60 for the same two timestamps one hour apart, so a programmer following it would return 60 and pass this test.",
+  "missing": "none"
+}

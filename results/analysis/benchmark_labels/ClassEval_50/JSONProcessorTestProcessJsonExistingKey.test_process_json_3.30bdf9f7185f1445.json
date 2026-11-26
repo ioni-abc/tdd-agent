@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers only a missing file and a missing key as returning 0, so a programmer could reasonably expect an empty or unparseable file to raise an error or return something else, while the test expects 0.",
+  "missing": "The docstring should say that if the file exists but its contents cannot be parsed as JSON (including an empty file), the method returns 0."
+}

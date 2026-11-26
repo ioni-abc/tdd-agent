@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True when the new course does not conflict with existing courses, and this test uses non-overlapping times (10:30\u201311:30 after 09:00\u201310:00) and expects True, so a correct implementation passes.",
+  "missing": "none"
+}

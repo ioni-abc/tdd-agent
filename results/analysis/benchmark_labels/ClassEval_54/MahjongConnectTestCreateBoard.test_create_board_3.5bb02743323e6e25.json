@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test checks that the instance keeps its size and icon attributes and stores the generated board on the instance, but the docstring only says the method returns a 2D list and never mentions storing state.",
+  "missing": "The docstring should state that the constructor's size and icon inputs are saved as instance attributes, and that the generated board is also saved on the instance, with every cell chosen from the given icons."
+}

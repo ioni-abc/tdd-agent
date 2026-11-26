@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the inventory maps titles to quantities but does not say whether a title whose copies are all removed stays in the dictionary with zero or is deleted, and the test expects it to be deleted.",
+  "missing": "The docstring should state that when removing copies brings a title's quantity to zero, that title is removed from the inventory entirely rather than kept with a count of 0."
+}

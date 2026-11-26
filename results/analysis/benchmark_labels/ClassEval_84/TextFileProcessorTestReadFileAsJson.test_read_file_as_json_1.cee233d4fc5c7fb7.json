@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns a dict when the file holds a JSON object, which is exactly what this test checks by reading a JSON object file and expecting a dict with the same name and age values.",
+  "missing": "none"
+}

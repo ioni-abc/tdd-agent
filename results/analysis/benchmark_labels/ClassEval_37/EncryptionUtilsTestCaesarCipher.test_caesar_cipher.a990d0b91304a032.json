@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example, `caesar_cipher(\"abc\", 1)` returning `'bcd'`, is exactly the case this test checks, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

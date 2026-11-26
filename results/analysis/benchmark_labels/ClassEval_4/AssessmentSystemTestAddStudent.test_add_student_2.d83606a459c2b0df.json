@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to add each student into `self.students` keyed by name, with name, grade, major, and an empty `courses` dict, which is exactly what the test checks for two students.",
+  "missing": "none"
+}

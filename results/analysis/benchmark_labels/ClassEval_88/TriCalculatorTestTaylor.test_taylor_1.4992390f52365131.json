@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the function as the n-order Taylor expansion of cos(x/180\u00b7\u03c0), and its example (taylor(60, 50) \u2248 0.5) matches the test's expected value, so a correct implementation would pass.",
+  "missing": "none"
+}

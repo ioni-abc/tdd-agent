@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that removing the icons at the two given (x, y) positions replaces those cells with a blank, which is exactly what this test checks for a different pair of positions.",
+  "missing": "none"
+}

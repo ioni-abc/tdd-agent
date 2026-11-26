@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer following the docstring's precision definition and its example (positive class 1, precision as true positives over predicted positives) would compute 2/(2+0) = 1.0 for this input, matching the test.",
+  "missing": "none"
+}

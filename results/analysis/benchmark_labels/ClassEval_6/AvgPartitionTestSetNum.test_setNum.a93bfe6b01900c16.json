@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example builds `AvgPartition([1, 2, 3, 4], 2)` and says `setNum()` returns `(2, 0)`, which is exactly what the test checks, and a programmer computing list length divided by the block count with the remainder would produce that.",
+  "missing": "none"
+}

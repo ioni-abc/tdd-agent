@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that calling select without m selects all items, so a programmer would produce full-length arrangements of [1, 2], which are [[1, 2], [2, 1]] as the test expects.",
+  "missing": "none"
+}

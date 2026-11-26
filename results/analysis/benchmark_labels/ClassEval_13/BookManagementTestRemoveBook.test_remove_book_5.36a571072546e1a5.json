@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"Raise false while get invalid input\" without saying that asking to remove more copies than are in stock is invalid, so a correct implementation might not raise and fail this test.",
+  "missing": "The docstring should state that removing a quantity greater than the copies currently held for a title (including a title not in inventory) must raise an exception, and that removing exactly the held count removes the title entirely."
+}

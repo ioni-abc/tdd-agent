@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring states the filtering and overwrite behaviour and the return value, but the test also requires the method to obtain content via `self.read_file` and persist it via `self.write_file`, each called exactly once, and a correct implementation that reads or writes the file directly would fail.",
+  "missing": "The docstring should say that the method must read the content by calling the object's own read method and save the result by calling the object's own write method, each exactly once, rather than accessing the file directly."
+}

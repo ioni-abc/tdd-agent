@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines count(n, m) as the number of permutations of m items chosen from n, which gives 120 for n=6, m=3, matching the test's expected value.",
+  "missing": "none"
+}

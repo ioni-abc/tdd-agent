@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines count(n, m) as the number of permutations of m items chosen from n, so a programmer would compute 4!/(4-3)! = 24, which matches the test's expected value.",
+  "missing": "none"
+}

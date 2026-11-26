@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test does not call `clean_non_binary_chars` at all; it only constructs `BinaryDataProcessor` and checks that `binary_string` is already cleaned, so it exercises the constructor rather than the method it is filed under.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example adds one stock to an empty tracker and shows `tracker.portfolio` as a list containing that same dictionary, which is exactly what the test checks.",
+  "missing": "none"
+}

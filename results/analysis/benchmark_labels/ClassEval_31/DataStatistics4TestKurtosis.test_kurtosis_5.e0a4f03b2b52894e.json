@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example for [1, 20, 100] returns about -1.5 using the same population excess-kurtosis formula as the reference, so a programmer following it would compute the same quantity this test checks.",
+  "missing": "none"
+}

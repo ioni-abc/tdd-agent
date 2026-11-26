@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the output to equal the formatted value of the instance's stored `datetime` attribute, but the docstring only says \"current time\", so a programmer would likely read the clock at call time and could fail the test.",
+  "missing": "The docstring should say which time source is used: the method must format the instance attribute that holds the time (set when the object is created) rather than reading the system clock on each call."
+}

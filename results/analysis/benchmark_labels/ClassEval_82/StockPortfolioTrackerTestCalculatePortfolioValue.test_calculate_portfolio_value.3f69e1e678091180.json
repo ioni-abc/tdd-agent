@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest uses the same setup (10000.0 starting cash, one AAPL holding of 10 at 150.0) and the same expected value 11500.0, so a programmer following it would pass this test.",
+  "missing": "none"
+}

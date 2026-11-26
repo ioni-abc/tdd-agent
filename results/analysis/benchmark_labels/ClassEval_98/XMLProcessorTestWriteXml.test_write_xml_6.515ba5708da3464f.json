@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False otherwise, so a programmer would return False when the write fails, which covers writing to an empty file name.",
+  "missing": "none"
+}

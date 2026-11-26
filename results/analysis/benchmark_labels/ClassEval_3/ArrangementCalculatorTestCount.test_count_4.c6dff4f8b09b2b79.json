@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the count as choosing m items from n as permutations, and its example count(5, 3) = 60 shows the n!/(n-m)! rule that gives 210 for count(7, 3).",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's signature and example show a list of columns rendered as a comma-separated `SELECT ... FROM table` statement, so a programmer following it would produce \"SELECT name FROM users\" for a single-column list with no condition.",
+  "missing": "none"
+}

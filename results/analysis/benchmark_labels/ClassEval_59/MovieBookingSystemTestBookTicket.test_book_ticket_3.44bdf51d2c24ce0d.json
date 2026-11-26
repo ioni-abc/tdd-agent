@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example shows `book_ticket('batman', ...)` returning \"Movie not found.\", and it says seats change only on successful booking, so a programmer following it would pass both assertions.",
+  "missing": "none"
+}

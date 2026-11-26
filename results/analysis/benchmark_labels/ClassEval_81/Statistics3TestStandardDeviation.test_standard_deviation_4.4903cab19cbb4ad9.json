@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines standard deviation of a list, and the example fixes the sample (n-1) convention, so any correct implementation returns 0.0 for a list of identical values.",
+  "missing": "none"
+}

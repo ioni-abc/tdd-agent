@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to remove the stock from the portfolio and its example shows `True` being returned with the matching entry removed, which is what the test checks for AAPL while leaving MSFT in place.",
+  "missing": "none"
+}

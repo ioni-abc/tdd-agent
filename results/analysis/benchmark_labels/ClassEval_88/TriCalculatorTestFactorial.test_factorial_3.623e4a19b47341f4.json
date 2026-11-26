@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines factorial of a and gives the example factorial(5) = 120, so a programmer would implement the standard product and get 6 for input 3.",
+  "missing": "none"
+}

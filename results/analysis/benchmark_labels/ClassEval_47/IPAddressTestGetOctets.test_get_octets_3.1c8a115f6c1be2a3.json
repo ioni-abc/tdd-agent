@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says an invalid IP address yields an empty list, and this test checks an invalid address, so a programmer following it would return an empty list.",
+  "missing": "none"
+}

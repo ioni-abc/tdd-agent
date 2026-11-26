@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says adding a new user returns True, and its stray `self.users = {'John': []}` line shows the expected storage of an empty list per user, so a programmer following it would pass both assertions.",
+  "missing": "none"
+}

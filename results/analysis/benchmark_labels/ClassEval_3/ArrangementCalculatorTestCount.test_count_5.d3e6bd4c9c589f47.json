@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that when n equals m the function returns factorial(n), and the test calls count(4, 4) and expects 24, which is 4!.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that adding an existing product increases its quantity rather than replacing the entry, which is exactly what the test checks by adding the same product twice and expecting a summed quantity.",
+  "missing": "none"
+}

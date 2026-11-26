@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says damage offsets defense, and its example (attack 10 against defense 2 leaving 92 HP) implies damage = attack power minus defense, which gives the test's expected 85 HP (20 - 5 = 15 damage).",
+  "missing": "none"
+}

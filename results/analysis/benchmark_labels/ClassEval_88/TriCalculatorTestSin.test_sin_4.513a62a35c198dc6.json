@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the input is an angle in degrees and that the result is its sine, so a programmer would compute sin(90\u00b0) and get 1.0, which matches the test.",
+  "missing": "none"
+}

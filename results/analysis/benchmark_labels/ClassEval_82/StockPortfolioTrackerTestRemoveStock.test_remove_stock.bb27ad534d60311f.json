@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest shows that removing a holding with the full matching quantity returns True and leaves the portfolio empty, which is exactly what the test checks.",
+  "missing": "none"
+}

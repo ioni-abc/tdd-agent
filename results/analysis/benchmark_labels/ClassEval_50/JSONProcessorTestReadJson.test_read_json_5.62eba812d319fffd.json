@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says read_json returns 0 when the file does not exist, which is exactly what the test checks with a nonexistent path.",
+  "missing": "none"
+}

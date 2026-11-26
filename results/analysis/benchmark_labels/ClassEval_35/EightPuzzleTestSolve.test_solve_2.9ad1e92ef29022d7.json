@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to use BFS from the initial state until the goal is reached, which yields the unique shortest two-move solution that this test expects, and the example shows the \"blank moves in this direction\" naming convention.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say that letters wrap around the alphabet or that shifts larger than 26 are reduced modulo 26, which is what this test's expected output depends on.",
+  "missing": "The docstring should state that letters wrap around within their alphabet (so z shifted forward goes back to a) and that any shift amount is reduced modulo 26, with case preserved and non-letters left unchanged."
+}

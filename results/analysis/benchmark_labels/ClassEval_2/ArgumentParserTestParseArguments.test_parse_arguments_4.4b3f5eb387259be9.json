@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns (True, None) when parsing succeeds and only reports failure for missing required arguments, so a programmer following it would return (True, None) when the only required argument, name, is supplied.",
+  "missing": "none"
+}

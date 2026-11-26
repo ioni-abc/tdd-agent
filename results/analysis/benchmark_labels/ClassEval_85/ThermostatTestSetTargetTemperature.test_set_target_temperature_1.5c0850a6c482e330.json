@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test is filed under set_target_temperature but verifies the result through get_target_temperature, a different method, while the docstring only documents reading the target_temperature attribute.",
+  "missing": "The docstring should name every accessor the class provides for reading back the value that a setter stores, so a reader knows which method to check the result with."
+}

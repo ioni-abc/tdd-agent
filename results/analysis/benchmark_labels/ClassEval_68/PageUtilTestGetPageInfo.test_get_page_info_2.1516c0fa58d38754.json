@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same dict keys and semantics (per-page slice, has_previous/has_next, total_pages, total_items), so a programmer following it would reasonably produce the expected dict for page 1.",
+  "missing": "none"
+}

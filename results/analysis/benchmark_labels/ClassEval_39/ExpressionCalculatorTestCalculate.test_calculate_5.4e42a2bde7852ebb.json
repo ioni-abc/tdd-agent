@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the input is a postfix expression, but the test passes an infix expression with parentheses and the reference code converts infix to postfix before evaluating, so the expected 20.0 follows from infix evaluation.",
+  "missing": "The docstring should say whether the input is infix or postfix, and if infix, that it supports parentheses and standard operator precedence, since its own example (`2 + 3 * 4` giving 14.0) only fits infix evaluation."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test requires the instance attributes `BOARD_SIZE` and `ICONS` to hold the constructor arguments under those exact names, which the docstring never mentions, so a correct implementation using other names would fail.",
+  "missing": "The docstring should name the attributes that store the board size and icon list (e.g. `self.BOARD_SIZE` and `self.ICONS`) and state that every cell is drawn from those icons."
+}

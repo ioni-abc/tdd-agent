@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test never calls generate_mine_sweeper_map; it reads a `minesweeper_map` attribute that the constructor populates, so it checks something the method's docstring does not describe.",
+  "missing": "The docstring should state whether the constructor stores the generated board in an attribute, and under what name, if callers are expected to read it instead of calling the method."
+}

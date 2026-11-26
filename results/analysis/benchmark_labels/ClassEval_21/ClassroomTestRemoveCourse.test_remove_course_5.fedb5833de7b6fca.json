@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the course is removed from `self.courses` if it was in it, which is exactly what this test checks: add the course, remove it, and confirm it is gone.",
+  "missing": "none"
+}

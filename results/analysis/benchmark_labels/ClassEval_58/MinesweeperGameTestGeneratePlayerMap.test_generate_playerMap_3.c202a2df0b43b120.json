@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the player map is n*n with '-' for unknown cells, so a 4x4 map of '-' for n=4 follows directly from it.",
+  "missing": "none"
+}

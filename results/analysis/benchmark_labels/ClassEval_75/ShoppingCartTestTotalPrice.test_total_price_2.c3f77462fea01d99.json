@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects 8.0 after removing 3 of an item that has quantity 1, but the total_price docstring only defines the total as quantity times price summed over items and says nothing about how remove_item handles a removal larger than the stock present.",
+  "missing": "The docstring should state what happens when a removal quantity exceeds the quantity held for an item, for example whether the item is deleted, clamped to zero, or allowed to go negative, and what the resulting totals are."
+}

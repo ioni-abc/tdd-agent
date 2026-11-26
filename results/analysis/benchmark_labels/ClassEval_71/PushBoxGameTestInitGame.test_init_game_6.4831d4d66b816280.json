@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest uses the same map and shows `game.boxes` equal to `[(2, 2)]`, so a programmer scanning the map for box positions would produce the value the test expects.",
+  "missing": "none"
+}

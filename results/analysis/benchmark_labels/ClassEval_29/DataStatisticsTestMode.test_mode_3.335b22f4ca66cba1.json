@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows that tied modes are returned together as a list (`[2, 3]`), so a programmer following it would return all values tied for the highest count and pass this test.",
+  "missing": "none"
+}

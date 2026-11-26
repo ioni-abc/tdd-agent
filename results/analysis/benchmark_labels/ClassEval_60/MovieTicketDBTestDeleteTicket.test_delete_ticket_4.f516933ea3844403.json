@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test is named `test_delete_ticket_4` and its core check is that `delete_ticket` removes a row, yet it is filed under `search_tickets_by_customer`, whose docstring says nothing about deletion.",
+  "missing": "none"
+}

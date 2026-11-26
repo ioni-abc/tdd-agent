@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the number of minutes between two times as an int, and its example (one hour apart gives 60) pins down the convention, so a programmer would compute 4 hours as 240 minutes and pass.",
+  "missing": "none"
+}

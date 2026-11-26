@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the same behaviour the test checks: a list of columns is joined with \", \" and a dict condition becomes `key='value'` after WHERE, so a programmer following it would produce the expected string.",
+  "missing": "none"
+}

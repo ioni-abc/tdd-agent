@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows `add_item(\"apple\", 1, 5)` and the resulting `{\"apple\": {\"price\": 1, \"quantity\": ...}}` structure, so a programmer would return the items dict in that format and pass this test.",
+  "missing": "none"
+}

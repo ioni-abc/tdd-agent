@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the value is price times quantity (the example shows 150.0 \u00d7 10 = 1500.0), so the test's 150.0 \u00d7 2 = 300.0 is what a programmer following it would compute.",
+  "missing": "none"
+}

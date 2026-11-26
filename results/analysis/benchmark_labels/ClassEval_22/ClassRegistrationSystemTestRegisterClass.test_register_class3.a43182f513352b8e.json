@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the list of classes the student has registered, and the example shows repeated calls for one student accumulating, so a per-student list that ignores other students' registrations would pass this test.",
+  "missing": "none"
+}

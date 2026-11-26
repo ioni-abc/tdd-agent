@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says auto_set_mode picks the operating mode and that the temperature is adjusted until the target is reached, but it never says which mode is chosen when the current and target temperatures are equal, so a correct implementation could leave the mode as-is or pick a different one and fail the test's `'cool'` and zero-time expectations.",
+  "missing": "The docstring should state what mode auto_set_mode assigns when the current temperature equals the target (and how an unrecognised input mode is handled), and that the simulation returns 0 with no temperature change in that case."
+}

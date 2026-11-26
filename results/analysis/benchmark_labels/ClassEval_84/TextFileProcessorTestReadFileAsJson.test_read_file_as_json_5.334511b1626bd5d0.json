@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the return value is a dict for JSON objects or a str/int/float matching the file content, so a JSON string file such as `\"bbb\"` should be returned as a Python str, which is what the test expects.",
+  "missing": "none"
+}

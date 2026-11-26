@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says __setitem__ sets the value for the key, and the test only sets a key and reads it back under the same key, which a programmer following the docstring would pass.",
+  "missing": "none"
+}

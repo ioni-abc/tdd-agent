@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test's case (current temperature below target with mode 'cool') is the same situation as the docstring example, which shows it returns False and switches the mode to 'heat', so a programmer following the docstring would pass.",
+  "missing": "none"
+}

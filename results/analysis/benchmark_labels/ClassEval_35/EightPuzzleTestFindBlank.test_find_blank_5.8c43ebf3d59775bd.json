@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the method returns the coordinates of the 0 element but never says what to return when the grid contains no 0, which is the case this test checks (it expects None).",
+  "missing": "The docstring should state what the method returns when no element equals 0 in the grid (for example, None), rather than only describing the case where a 0 exists."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says sentences end with . or ? followed by a space, so splitting \"aaa aaaa. bb bbbb bbb?\" into ['aaa aaaa.', 'bb bbbb bbb?'] follows directly from the documented rule.",
+  "missing": "none"
+}

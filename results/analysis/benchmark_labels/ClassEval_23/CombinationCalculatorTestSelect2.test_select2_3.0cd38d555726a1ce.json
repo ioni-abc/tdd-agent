@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method generates combinations \"with a specified number of elements\" and passes the element list in as `resultList`, so a programmer would naturally size combinations by `len(resultList)` and produce single-element combinations here, which matches the test.",
+  "missing": "none"
+}

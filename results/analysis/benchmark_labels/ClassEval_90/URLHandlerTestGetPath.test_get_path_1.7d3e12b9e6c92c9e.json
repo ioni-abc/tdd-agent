@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example uses the same URL and expects \"/s?wd=aaa&rsv_spt=1#page\", so a programmer following it would return the path with its query and fragment and pass this test.",
+  "missing": "none"
+}

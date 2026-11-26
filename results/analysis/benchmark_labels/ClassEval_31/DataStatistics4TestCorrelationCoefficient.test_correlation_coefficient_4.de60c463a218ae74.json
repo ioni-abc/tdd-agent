@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for the correlation coefficient of two lists, which a programmer would implement as the standard Pearson coefficient, and that is exactly what this test checks for the given inputs.",
+  "missing": "none"
+}

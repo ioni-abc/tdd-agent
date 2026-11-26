@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says to split on sentence punctuation, so a programmer would likely split at the period in \"Aaa.Bbbb\", but the test expects no split there, which only happens if a boundary requires whitespace after the punctuation.",
+  "missing": "The docstring should say that a sentence-ending mark (. ? !) only ends a sentence when it is followed by whitespace or the end of the text, so a mark directly followed by a letter does not split."
+}

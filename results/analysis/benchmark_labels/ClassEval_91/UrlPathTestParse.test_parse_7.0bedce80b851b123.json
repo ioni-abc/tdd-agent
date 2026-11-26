@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never mentions the `with_end_tag` attribute, so a programmer following it would not know to set it for a trailing slash, and the test's expectation of `with_end_tag == True` would be missed.",
+  "missing": "The docstring should state that a path ending in a slash sets `with_end_tag` to True, and that leading and trailing slashes are stripped so a path made only of slashes yields an empty segment list."
+}

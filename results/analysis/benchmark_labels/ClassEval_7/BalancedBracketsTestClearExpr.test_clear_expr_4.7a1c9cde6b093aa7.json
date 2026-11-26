@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says all non-bracket characters are cleared, so a programmer would keep every bracket character (including `[` and `{`) and remove the letters, which gives the expected `\"[(){}\"`.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says reset sets length to 1, the head to (SCREEN_WIDTH/2, SCREEN_HEIGHT/2), and score to 0, which with a 100x100 screen gives the (50, 50) head position and the length and score values the test checks.",
+  "missing": "none"
+}

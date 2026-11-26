@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says adding a new user returns True and adding an existing user returns False, which is the behaviour this test checks for a new name, and \"add a new user to the Chat\" implies the user is stored.",
+  "missing": "none"
+}

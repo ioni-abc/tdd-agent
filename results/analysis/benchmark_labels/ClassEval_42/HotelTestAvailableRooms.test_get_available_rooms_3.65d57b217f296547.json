@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it returns the remaining number of rooms of a type, so a programmer would expect booking rooms to reduce that count, which is what this test checks (3 singles booked leaves 0).",
+  "missing": "none"
+}

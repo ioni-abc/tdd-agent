@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Wrong method under test: the test is filed under calculate_sphere_area but calls calculate_circle_area, so it does not check the method it claims to cover.",
+  "missing": "none"
+}

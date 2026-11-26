@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the food must avoid the snake, but the test also requires the coordinates to fall within a bounded range, so a correct implementation that picks positions outside the screen could fail.",
+  "missing": "The docstring should state that the new food position must lie inside the screen area and be aligned to the block grid (multiples of the block size), with no coordinate outside the playfield."
+}

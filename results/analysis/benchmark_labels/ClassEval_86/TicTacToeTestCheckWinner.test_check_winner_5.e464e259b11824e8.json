@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns None when there is no winner yet, and this test's board has no completed row, column, or diagonal, so a programmer following the docstring would return None and pass.",
+  "missing": "none"
+}

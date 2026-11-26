@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns whether the board is completely filled, so a programmer would return False when empty cells remain, which is what this test checks (5 of 9 cells filled, expects False).",
+  "missing": "none"
+}

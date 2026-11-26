@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines recall as the standard ratio of true positives to actual positives, and the test's case (all actual positives are predicted positive) gives 1.0 under that definition, matching the reference code.",
+  "missing": "none"
+}

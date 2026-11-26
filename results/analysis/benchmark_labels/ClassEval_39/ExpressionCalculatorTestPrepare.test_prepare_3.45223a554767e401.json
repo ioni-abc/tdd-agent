@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example \"2+3*4\" yielding `['2', '3', '4', '*', '+']` shows the standard infix-to-postfix behaviour with multiplication binding tighter than an additive operator, so a programmer would produce `['2', '3', '4', '*', '-']` for \"2-3*4\".",
+  "missing": "none"
+}

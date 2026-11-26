@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "A programmer following the docstring would compute the Pearson correlation and, for constant input lists (zero variance), would likely raise a division error or return nan, but the test expects None, which the docstring never mentions.",
+  "missing": "When either input has zero variance (all values equal), the function must return None instead of dividing by zero."
+}

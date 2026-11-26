@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the table is populated with the given list of lists, so a programmer would naturally make one row per inner list and one column per cell, which is what the test checks.",
+  "missing": "none"
+}

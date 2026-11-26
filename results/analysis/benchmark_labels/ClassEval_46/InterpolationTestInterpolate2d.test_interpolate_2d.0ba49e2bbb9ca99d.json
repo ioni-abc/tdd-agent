@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest uses the same inputs and expected output `[3.0, 7.0]` as the test, so a programmer following it would reproduce this bilinear interpolation result.",
+  "missing": "none"
+}

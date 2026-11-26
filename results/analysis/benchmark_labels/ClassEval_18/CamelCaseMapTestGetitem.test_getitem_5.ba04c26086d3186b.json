@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the method returns the value for a key, so a programmer would look up the exact key, while the test expects a lookup under a differently formatted key to find the value stored under another format.",
+  "missing": "The docstring should state that keys are normalized (converted to the class's canonical key format) both when storing and when looking up, so that any key spelled in a different convention that normalizes to the same form returns the stored value."
+}

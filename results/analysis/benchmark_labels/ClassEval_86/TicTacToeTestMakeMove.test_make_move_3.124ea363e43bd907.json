@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method places the current player's mark, switches players, and returns whether the move succeeded, so a programmer following it would return True for each move on an empty cell and end with the other player as current.",
+  "missing": "none"
+}

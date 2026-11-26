@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows adding a stock to an empty portfolio, so a programmer could reasonably append a duplicate entry, while the test expects the quantity to be merged into the existing AAPL entry.",
+  "missing": "When a stock with the same name is already in the portfolio, the method should add the new quantity to the existing entry's quantity instead of appending a second entry."
+}

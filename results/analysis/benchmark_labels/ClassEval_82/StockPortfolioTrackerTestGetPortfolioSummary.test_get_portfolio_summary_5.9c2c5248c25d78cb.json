@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the total as cash plus holdings value (10000 + 1500 = 11500), so a zero-priced holding should yield a value of 0.0 and a total equal to the starting cash, which is what the test expects.",
+  "missing": "none"
+}

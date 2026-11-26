@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method adds a new movie into self.movies, so a programmer would append each call's movie to the list, which gives the expected count of 2 and the Batman-then-Superman order.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test relies on `add_book` defaulting the quantity to 1 when none is given, which the `view_inventory` docstring never mentions; its example always passes an explicit quantity.",
+  "missing": "The docstring should state that adding a book without a quantity records it with a quantity of 1, and that an explicit quantity overrides this default."
+}

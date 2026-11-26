@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring doesn't say what happens to an incomplete reference like \"&#X\" with no digits and no terminating semicolon, so a programmer would likely leave it unchanged and fail the expected empty string.",
+  "missing": "The docstring should specify how malformed or unterminated references (a \"&#\" or \"&#x\" prefix without valid digits or a closing semicolon) are handled, including whether they are kept verbatim or dropped."
+}

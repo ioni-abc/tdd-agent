@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the default quantity is 1, so a programmer following it would store quantity 1 when the caller omits it, which is what the test checks.",
+  "missing": "none"
+}

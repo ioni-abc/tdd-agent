@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what an item with a ground-truth total of zero should score, so a programmer computing reciprocal rank from the results would return 1.0 for the first item here, while the test expects 0.0.",
+  "missing": "When an input's ground-truth total is zero, its reciprocal rank is 0.0 regardless of its 0/1 results, and that 0.0 still counts toward the mean and appears in the per-item list."
+}

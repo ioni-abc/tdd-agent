@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the area as a circle's area from its radius, and a programmer implementing that formula would return 0 for radius 0, which is what the test expects.",
+  "missing": "none"
+}

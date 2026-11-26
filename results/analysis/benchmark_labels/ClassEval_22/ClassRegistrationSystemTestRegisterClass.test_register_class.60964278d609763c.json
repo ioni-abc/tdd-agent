@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the list of classes the student has registered, and its example shows a first registration growing that list, so a programmer following it would return [\"CS101\"] for a new student's first class.",
+  "missing": "none"
+}

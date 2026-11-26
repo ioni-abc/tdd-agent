@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add returns the decimal sum of two big numbers passed and returned as strings, so a programmer would implement arbitrary-length string addition, which is what this test checks with operands of different lengths.",
+  "missing": "none"
+}

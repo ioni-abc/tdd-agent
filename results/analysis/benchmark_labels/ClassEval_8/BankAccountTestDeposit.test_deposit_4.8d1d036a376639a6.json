@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says only negative amounts are rejected and that the current balance is returned, so a programmer would add 0 to a fresh account and return its balance of 0, which is what the test checks.",
+  "missing": "none"
+}

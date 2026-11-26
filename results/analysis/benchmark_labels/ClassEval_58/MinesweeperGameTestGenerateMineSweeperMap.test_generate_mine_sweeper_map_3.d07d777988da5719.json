@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the board is n*n and contains k mines, so a programmer following it would produce a 3x3 board with no 'X' cells when k is 0, which is what the test checks.",
+  "missing": "none"
+}

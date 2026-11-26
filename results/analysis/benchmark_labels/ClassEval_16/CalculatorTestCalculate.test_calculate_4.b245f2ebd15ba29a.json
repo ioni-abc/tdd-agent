@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"calculate the value of a given expression,\" so a programmer could not know that `^` means exponentiation or that it binds tighter than `*` and `+`, and a standard left-to-right or XOR reading would give a different result than 37.",
+  "missing": "The docstring should list the supported operators, say what each means (including whether `^` is exponentiation), and give their precedence and associativity, so that mixed-operator expressions evaluate in a defined order."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says to subtract quantity from an item, so it never says what happens when the item is not in the cart, and the test expects the cart to stay unchanged.",
+  "missing": "The docstring should state what happens when the named item is not currently in the cart, such as whether it is ignored silently, raises an error, or adds an entry."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "A programmer reading the docstring would convert decimal references like `&#65;`, but nothing says that `&#X65;` is a hexadecimal reference decoding to `e`, so a decimal-only implementation would fail this test.",
+  "missing": "The docstring should state that references with an `x` or `X` after `&#` are hexadecimal, so their digits are read in base 16, while other references are decimal."
+}

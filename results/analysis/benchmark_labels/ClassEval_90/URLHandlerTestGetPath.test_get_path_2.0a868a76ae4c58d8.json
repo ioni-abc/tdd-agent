@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the expected output for a URL with a query string as everything after the host, which is what this test checks, so a programmer following it would return the same path with query.",
+  "missing": "none"
+}

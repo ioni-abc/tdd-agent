@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False whenever the brackets are not balanced, and a mismatched closing bracket like the test's \"]\" against an open \"(\" makes the brackets unbalanced, so a standard stack-based check returns False as the test expects.",
+  "missing": "none"
+}

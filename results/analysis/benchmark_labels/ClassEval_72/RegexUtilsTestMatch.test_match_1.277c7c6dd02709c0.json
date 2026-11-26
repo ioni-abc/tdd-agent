@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says match returns True when the text matches the regular expression, and the test's phone-number string matches its pattern, so a programmer following the docstring would return True.",
+  "missing": "none"
+}

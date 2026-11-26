@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example output gives the exact pattern `\\b\\d{3}-\\d{3}-\\d{4}\\b`, which matches the 3-3-4 dashed format in the test input, so a programmer following it would pass.",
+  "missing": "none"
+}

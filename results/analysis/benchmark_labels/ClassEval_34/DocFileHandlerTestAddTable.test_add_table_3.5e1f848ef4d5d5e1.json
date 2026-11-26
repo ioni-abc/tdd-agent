@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_table adds a table populated with the given list of lists, so a programmer following it would create a table with those rows and cells in the document, which is what the test checks with string values.",
+  "missing": "none"
+}

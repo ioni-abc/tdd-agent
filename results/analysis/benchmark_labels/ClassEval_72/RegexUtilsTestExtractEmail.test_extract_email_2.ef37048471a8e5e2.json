@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says \"all email addresses\" without defining what counts as one, so a programmer could not know that an address with an empty domain label (like the one in the input) must be excluded.",
+  "missing": "The docstring should define the valid email format, stating that each address needs a non-empty local part and a non-empty domain name before the top-level suffix, and that malformed strings lacking these parts are not returned."
+}

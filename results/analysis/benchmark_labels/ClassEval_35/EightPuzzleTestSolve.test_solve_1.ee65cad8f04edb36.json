@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example runs solve() on the same initial board and gives ['right'], which is exactly the value this test asserts.",
+  "missing": "none"
+}

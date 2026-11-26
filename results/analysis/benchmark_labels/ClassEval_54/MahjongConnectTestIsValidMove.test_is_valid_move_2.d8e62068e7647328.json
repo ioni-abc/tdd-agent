@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring requires that the two positions have the same icon, and the test's two positions hold different icons ('a' and 'b'), so a programmer following the docstring would return False as the test expects.",
+  "missing": "none"
+}

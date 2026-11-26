@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says rows whose name matches the given value are deleted from the named table, which is exactly what the test checks: deleting 'bbb' leaves only 'Alice'.",
+  "missing": "none"
+}

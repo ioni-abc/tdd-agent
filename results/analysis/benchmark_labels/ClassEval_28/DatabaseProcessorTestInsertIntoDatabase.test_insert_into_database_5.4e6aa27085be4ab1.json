@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the stored row's age at index 2, which assumes an implicit id column ahead of name and age from create_table, and the docstring says nothing about the table layout or row ordering.",
+  "missing": "The docstring should state the stored row layout, including any automatically generated id column and its position, and that rows are returned in insertion order when read back."
+}

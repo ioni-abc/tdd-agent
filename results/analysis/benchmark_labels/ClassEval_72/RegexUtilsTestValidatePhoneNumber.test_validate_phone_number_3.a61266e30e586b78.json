@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer reading \"Verify if the phone number is valid\" with the digits-and-dashes example would reject \"a23-456-7890\" because it contains a letter, so the expected False follows from the docstring.",
+  "missing": "none"
+}

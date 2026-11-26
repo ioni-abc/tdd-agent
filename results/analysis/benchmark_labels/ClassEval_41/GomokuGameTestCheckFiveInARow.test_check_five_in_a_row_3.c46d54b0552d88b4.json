@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the check as counting consecutive same-player symbols from the given cell in the given direction and returning True only if there are five, so a programmer would return False when only four in a row exist before an empty cell.",
+  "missing": "none"
+}

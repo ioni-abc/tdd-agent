@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects a similarity of 0.0 when one input is the zero vector, but the docstring only describes cosine similarity, which a programmer would compute as a division by zero (NaN or an error) for that case.",
+  "missing": "The docstring should specify what is returned when either input vector has zero norm, such as 0.0 instead of dividing by zero."
+}

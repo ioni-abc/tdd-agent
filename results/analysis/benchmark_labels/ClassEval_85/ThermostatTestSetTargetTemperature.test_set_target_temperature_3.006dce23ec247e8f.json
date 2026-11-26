@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that after setting the target temperature, reading it back returns the same value, which is exactly what the test checks (via the getter).",
+  "missing": "none"
+}

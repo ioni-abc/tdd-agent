@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says factorial of a, and a programmer implementing standard factorial would compute 2! = 2, which is exactly what the test expects.",
+  "missing": "none"
+}

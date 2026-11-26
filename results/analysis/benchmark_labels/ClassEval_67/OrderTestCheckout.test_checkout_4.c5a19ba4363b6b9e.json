@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers only the returned total, but the test also expects checkout to decrement each ordered dish's menu count and empty `selected_dishes`, and a programmer following the docstring would not do either.",
+  "missing": "The docstring should state that checkout subtracts each selected dish's quantity from its count in the menu and clears the selected dishes list after a successful checkout."
+}

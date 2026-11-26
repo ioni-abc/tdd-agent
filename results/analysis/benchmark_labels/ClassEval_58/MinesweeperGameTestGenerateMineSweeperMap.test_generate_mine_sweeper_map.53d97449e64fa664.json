@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test never calls generate_mine_sweeper_map; it reads the minesweeper_map attribute that the constructor presumably sets, so it checks a different entry point than the method it is filed under.",
+  "missing": "none"
+}

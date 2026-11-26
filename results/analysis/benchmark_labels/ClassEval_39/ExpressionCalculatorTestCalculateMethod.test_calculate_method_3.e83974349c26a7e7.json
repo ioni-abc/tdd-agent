@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "A programmer reading \"perform the mathematical calculation based on the given operands and operator\" with string operands would multiply 2 and 3 for the `*` operator, giving a Decimal equal to 6, which is what the test asserts.",
+  "missing": "none"
+}

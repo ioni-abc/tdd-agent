@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says healing restores 10 hp capped at a max of 100, so a programmer would implement hp += 10 and the test's 10 \u2192 20 expectation follows directly.",
+  "missing": "none"
+}

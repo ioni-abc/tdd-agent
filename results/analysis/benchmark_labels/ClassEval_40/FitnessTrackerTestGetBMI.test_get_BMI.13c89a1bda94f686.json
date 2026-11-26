@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines BMI as weight divided by the square of height and gives the example 1.8 m, 70 kg yielding 21.604938271604937, which is exactly what the test checks.",
+  "missing": "none"
+}

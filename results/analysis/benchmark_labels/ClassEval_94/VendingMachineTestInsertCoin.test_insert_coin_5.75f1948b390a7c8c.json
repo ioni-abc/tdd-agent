@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says insert_coin adds the amount to the machine and returns the resulting balance, so a programmer would add each insertion to the existing balance and the test's cumulative 6.25 follows.",
+  "missing": "none"
+}

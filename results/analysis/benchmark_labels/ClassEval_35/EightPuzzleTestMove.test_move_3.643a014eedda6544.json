@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that 'left' moves the blank block one cell left, swapping it with the tile on its left, which is exactly what this test expects from a blank in the centre.",
+  "missing": "none"
+}

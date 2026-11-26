@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that the XML element data is \"modified\", so a programmer following it could not know the test expects the text of each `item` element to be uppercased.",
+  "missing": "The docstring should name the exact transformation applied to the element text (for example, which tag names are affected and how their text changes) so that any implementation following it produces the same output."
+}

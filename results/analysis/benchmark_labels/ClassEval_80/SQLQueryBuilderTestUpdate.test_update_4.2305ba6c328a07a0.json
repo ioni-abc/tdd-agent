@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows numeric values such as 15 rendered as quoted strings in the SET clause and a single WHERE condition rendered as `name='Test'`, so a programmer following it would produce `price='1.0'` and `WHERE name='aaa'` for this float and single-condition input.",
+  "missing": "none"
+}

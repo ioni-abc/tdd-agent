@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test calls `get_my_cards()`, a different method from the `_generate_cards` it is filed under, and the docstring only describes generating random numbers from 1 to 9 without mentioning how many.",
+  "missing": "The docstring should state how many numbers the method generates and where they are stored, so that a generator producing any other count would be clearly wrong."
+}

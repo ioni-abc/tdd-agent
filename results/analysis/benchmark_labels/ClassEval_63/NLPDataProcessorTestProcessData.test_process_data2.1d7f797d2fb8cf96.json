@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to keep only English letters and spaces, lowercase, then split, so a programmer would drop digits and \"@\" (joining \"Special\" and \"Characters\" into one word) and get an empty list for \"12345\", which matches the test.",
+  "missing": "none"
+}

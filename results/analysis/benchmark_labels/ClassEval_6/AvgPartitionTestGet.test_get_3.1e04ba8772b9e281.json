@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring mentions a remainder but never says which blocks receive the extra elements, so a programmer could reasonably give the leftovers to the last block and return [1, 2] instead of the expected [1, 2, 3].",
+  "missing": "When the list length is not evenly divisible by the number of partitions, the docstring should state that the first blocks (those with index below the remainder) each receive one extra element, and the rest get the base size."
+}

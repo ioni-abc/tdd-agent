@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring's example shows `self.score = 10` after the move, while the test expects `snake.score` to remain 0 because the head does not reach the food.",
+  "missing": "The docstring should state that the score changes only when the head lands on the food, stay unchanged otherwise, and that the example values must match the stated snake length and positions."
+}

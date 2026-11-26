@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the part of the URL after '#', which is exactly what the test checks when the URL ends in \"#ccc\" and expects \"ccc\".",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True only for a valid IPv6 address and False otherwise, so a programmer would return False for an address containing non-hexadecimal characters like 'l'.",
+  "missing": "none"
+}

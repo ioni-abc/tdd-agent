@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for cosine similarity between one vector and each row of a matrix, and its example values match the standard formula, which is what the test checks on binary vectors.",
+  "missing": "none"
+}

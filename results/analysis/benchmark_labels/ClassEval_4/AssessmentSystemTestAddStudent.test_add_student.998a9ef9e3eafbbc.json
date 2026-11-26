@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_student inserts a student into self.students and gives the example record with name, grade, major and an empty courses dict, which is exactly what the test checks for \"Alice\".",
+  "missing": "none"
+}

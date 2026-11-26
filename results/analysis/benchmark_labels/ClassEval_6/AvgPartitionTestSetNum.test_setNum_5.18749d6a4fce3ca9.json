@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the result as the block size and the remainder of dividing the list length by the block count, so a programmer would compute (1, 0) for five items split into blocks of five, matching the test.",
+  "missing": "none"
+}

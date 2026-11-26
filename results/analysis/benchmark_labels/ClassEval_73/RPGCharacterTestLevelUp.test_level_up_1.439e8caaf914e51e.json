@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states that leveling up increases level by one, resets experience to zero, adds 20 to hp, and adds 5 to attack power and defense, which is exactly what the test checks.",
+  "missing": "none"
+}

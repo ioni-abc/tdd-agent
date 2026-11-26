@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns a list of tuples for rows whose name matches, which is what the test checks: one matching row with the name in the second column.",
+  "missing": "none"
+}

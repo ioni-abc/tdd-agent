@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what happens for an empty path or mentions the `with_end_tag` flag, so a correct implementation could reasonably differ on the flag's value here.",
+  "missing": "The docstring should state what an empty path produces (no segments) and when the trailing-end-tag flag is set or left unset, including that it stays unset when there is no trailing slash."
+}

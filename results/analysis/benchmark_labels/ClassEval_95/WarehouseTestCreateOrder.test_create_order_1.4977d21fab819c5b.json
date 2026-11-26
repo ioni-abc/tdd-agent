@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says create_order stores an order with product_id, quantity and a default status of 'Shipped' in self.orders when stock is sufficient, which is what this test checks.",
+  "missing": "none"
+}

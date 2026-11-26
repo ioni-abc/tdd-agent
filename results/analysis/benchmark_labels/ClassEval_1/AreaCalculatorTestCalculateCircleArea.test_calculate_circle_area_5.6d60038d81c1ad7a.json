@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the circle's area computed from self.radius, so a programmer would implement pi times radius squared, which lands within the test's 0.01 tolerance of 0.031 for a radius of 0.1.",
+  "missing": "none"
+}

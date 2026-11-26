@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False whenever the new course's time conflicts with an existing course, so a programmer implementing a general overlap check would return False for this partial overlap (new end 9:30 falls inside existing 09:00-10:00).",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says check_in returns False when the room_type is not in booked_rooms, which is exactly the case this test checks with an unknown room type.",
+  "missing": "none"
+}

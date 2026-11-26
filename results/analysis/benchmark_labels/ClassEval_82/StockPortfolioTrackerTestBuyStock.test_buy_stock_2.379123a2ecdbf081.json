@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says buy_stock returns False when the cash balance is not enough, which is exactly the case this test checks (cost 1500 against 1000 cash), so a programmer following it would return False and leave the portfolio and cash unchanged.",
+  "missing": "none"
+}

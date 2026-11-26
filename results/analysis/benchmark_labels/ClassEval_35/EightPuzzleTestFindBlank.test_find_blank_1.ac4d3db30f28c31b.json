@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the (row, column) coordinate of the 0 element and gives an example whose answer is (2, 1), which matches what the test checks.",
+  "missing": "none"
+}

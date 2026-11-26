@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method subtracts two big numeric strings and returns the difference, so a programmer would produce the ordinary positive difference of 923456789 minus 187654321, which matches the expected \"735802468\".",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's signature defaults `columns` to `'*'` and its example shows the plain `SELECT ... FROM table` output form, so a programmer would produce `SELECT * FROM users` for this call.",
+  "missing": "none"
+}
