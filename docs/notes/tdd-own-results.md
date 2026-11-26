@@ -5,7 +5,7 @@ Run folder: `results/experiments/tdd-own_2026-11-19T14-38-57` (model `claude-hai
 ## How the agent works
 - Step 1: for each method, the agent gets the method's docstring (`method_description`) and the prompt "Write tests", and writes 5 tests per method (`tests_per_method: 5`, up to `test_attempts: 2` tries to get tests that load).
 - Step 2: for each method, the agent gets the same docstring, the prompt "Write code" and its own tests, and runs the red/green loop (up to `max_fix_attempts: 3` fixes).
-- The agent never sees `task["test"]` (the BM's tests). The skeleton is left out of this description on purpose; see `tdd-agent.md` for the full loop.
+- The agent never sees `task["test"]` (the BM's tests). See `tdd-agent.md` for the full loop and what each prompt contains.
 
 ## The three evaluations
 
