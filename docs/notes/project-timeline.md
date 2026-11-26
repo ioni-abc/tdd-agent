@@ -19,8 +19,8 @@ Oldest at the top. Numbers are classes passed out of 100 (tests passed out of 21
 
 ## 4. TDD with its own tests (`tdd-own`)
 - The agent writes its own tests, then code. **42** → **43** (1954/2196, 89.0%) after rejecting wrong written tests (ClassEval_22, 43, 46, 48).
-- Its own tests on its own code: 2040/2050 (99.5%); on `task["solution_code"]`: 1917/2050.
-- Produced: `results/experiments/tdd-own_2026-11-19T14-38-57`.
+- Its own tests on its own code: 2050/2050 (100.0%, corrected from 2040/2050); on `task["solution_code"]`: 1917/2050 (93.5%).
+- Produced: `results/experiments/tdd-own_2026-11-19T14-38-57`, note `tdd-own-results.md`.
 
 ## 5. Mixed (`tdd-mixed`)
 - Part given tests, part own tests: **68**. Not rerun after the fixes (on hold).

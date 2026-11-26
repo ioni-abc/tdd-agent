@@ -27,6 +27,7 @@ Notes are for me. Decisions feed the design chapter of the thesis.
 | [project-timeline.md](notes/project-timeline.md) | every step so far, oldest first, and the results each produced |
 | [results-of-insception-run-for-inconsistencies.md](notes/results-of-insception-run-for-inconsistencies.md) | the per-test docstring check: labels, results on all 100 tasks, the wrong-method defect, the readable task export |
 | [runs-on-fixed-benchmark.md](notes/runs-on-fixed-benchmark.md) | baseline (51/100) and TDD agent v1 (97/100) on the fixed benchmark, and why v1 fails three classes |
+| [tdd-own-results.md](notes/tdd-own-results.md) | the agent that writes its own tests: three evaluations (43/100, 100/100, 59/100), the 41 classes where the BM's code fails its tests |
 
 ## Decision records
 
