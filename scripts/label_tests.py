@@ -15,6 +15,7 @@ with; they are listed with label "no_method_info" and cost no LLM call.
 From the project root:
     uv run python scripts/label_tests.py --dry-run                      # row counts only, no LLM calls
     uv run python scripts/label_tests.py --tasks ClassEval_1,ClassEval_4,ClassEval_92
+    uv run python scripts/label_tests.py --sample 20 --seed 0           # 20 random tasks
     uv run python scripts/label_tests.py                                # all 100 tasks (about 2088 calls)
 Writes results/analysis/benchmark_labels.csv and caches each answer in
 results/analysis/benchmark_labels/, so a rerun makes no new calls (an unparsed answer is not cached).
@@ -25,6 +26,7 @@ import ast
 import csv
 import hashlib
 import json
+import random
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
@@ -42,6 +44,7 @@ LABELS = {
     "stated": "the docstring states the behaviour this test checks, so a programmer following it would pass",
     "unstated": "the docstring does not say what this test expects (a convention, a format, an edge case), so a correct implementation could fail",
     "contradicts": "the docstring says something different from what the test (and the reference code) expect",
+    "other_inconsistency": "the test and the docstring do not fit together, in a way that is neither unstated nor contradicts (say what the problem is, e.g. the test calls a different method than the one it is filed under)",
 }
 
 JUDGE_SYSTEM = """You check one unit test of a code-generation benchmark (ClassEval) against the docstring of the method it tests.
@@ -56,7 +59,8 @@ MISSING: <one sentence, or "none" if the label is stated>
 Rules for MISSING:
 - State the general rule the docstring should add, in words a programmer could implement.
 - Do not copy this test's inputs, names, numbers or expected values.
-- It must apply to every similar case, not only this test."""
+- It must apply to every similar case, not only this test.
+- For other_inconsistency, start REASON with a short name of the problem. MISSING is "none" unless the problem is a gap in the docstring."""
 
 NO_METHOD = "no_method_info"
 
@@ -179,6 +183,8 @@ def write_csv(labelled: list[dict], path: Path = CSV_PATH) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     parser.add_argument("--tasks", help="comma-separated task ids, e.g. ClassEval_1,ClassEval_4 (default: all)")
+    parser.add_argument("--sample", type=int, help="random sample of this many tasks (with --seed)")
+    parser.add_argument("--seed", type=int, default=0)
     parser.add_argument("--workers", type=int, default=8)
     parser.add_argument("--dry-run", action="store_true", help="count rows, make no LLM call")
     args = parser.parse_args()
@@ -187,6 +193,8 @@ def main() -> None:
     if args.tasks:
         wanted = set(args.tasks.split(","))
         tasks = [t for t in tasks if t["task_id"] in wanted]
+    if args.sample:
+        tasks = random.Random(args.seed).sample(tasks, args.sample)
     rows = build_rows(tasks)
     to_judge = sum(1 for r in rows if r["method"])
     print(f"{len(tasks)} tasks, {len(rows)} tests, {to_judge} to judge, {len(rows) - to_judge} with no method")
