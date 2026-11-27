@@ -1,16 +1,15 @@
-"""Re-score every experiment run on the tests both judges labelled `stated`.
+"""Re-score every experiment run on the tests labelled `stated`.
 
 Joins the per-test lines of each run's grades/<task>.json (the `log` field) with the labels of
-scripts/label_tests.py, by (task_id, test class, test name). A test belongs to the group
-  stated               both judges say stated (the spec-consistent subset)
-  unstated, contradicts, other_inconsistency   both judges agree on that label
-  disputed             the two judges disagree
+scripts/label_tests.py (results/analysis/benchmark_labels.csv), by (task_id, test class, test
+name). A test belongs to the group of its label:
+  stated, unstated, contradicts, other_inconsistency
   no_method_info       class-level tests, not judged
 For each run it reports the pass rate per group and two class counts:
   - classes passing all tests (as graded; matches the run's own count)
   - classes passing all their `stated` tests (classes without a stated test are left out)
 
-From the project root (after label_tests.py with both models):
+From the project root (after label_tests.py):
     uv run python scripts/rescore_stated.py
     uv run python scripts/rescore_stated.py --runs baseline_2026-11-19T14-38-59,tdd_2026-11-19T14-38-58
 Writes results/analysis/rescore_stated.csv (one row per run and group).
@@ -26,10 +25,9 @@ from pathlib import Path
 from tdd_agent import config
 
 ANALYSIS = config.RESULTS_DIR / "analysis"
-HAIKU_CSV = ANALYSIS / "benchmark_labels.csv"
-STRONG_CSV = ANALYSIS / "benchmark_labels_claude-sonnet-5-5.csv"
+LABELS_CSV = ANALYSIS / "benchmark_labels.csv"
 OUT_CSV = ANALYSIS / "rescore_stated.csv"
-GROUPS = ["stated", "unstated", "contradicts", "other_inconsistency", "disputed", "no_method_info"]
+GROUPS = ["stated", "unstated", "contradicts", "other_inconsistency", "no_method_info"]
 
 # "test_x (temp_file.TestClass.test_x) ... ok" -> test, class, rest of the line
 HEADER = re.compile(r"^(\S+) \(.*?(\w+)\.(\w+)\) \.\.\. ?(.*)$")
@@ -39,15 +37,6 @@ STATUS = ("ok", "FAIL", "ERROR")
 def read_labels(path: Path) -> dict:
     with open(path, encoding="utf-8") as f:
         return {(r["task_id"], r["test_class"], r["test"]): r["label"] for r in csv.DictReader(f)}
-
-
-def group_of(first: str, second: str) -> str:
-    """The group of a test, from the two judges' labels."""
-    if first == "no_method_info":
-        return "no_method_info"
-    if first == second:
-        return first
-    return "disputed"
 
 
 def parse_log(log: str) -> dict:
@@ -102,8 +91,7 @@ def main() -> None:
     parser.add_argument("--runs", help="comma-separated run folder names (default: every run in results/experiments)")
     args = parser.parse_args()
 
-    first, second = read_labels(HAIKU_CSV), read_labels(STRONG_CSV)
-    group = {key: group_of(first[key], second[key]) for key in first if key in second}
+    group = read_labels(LABELS_CSV)
     runs = args.runs.split(",") if args.runs else sorted(p.name for p in (config.RESULTS_DIR / "experiments").iterdir())
 
     rows = []
