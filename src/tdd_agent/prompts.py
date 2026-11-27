@@ -116,3 +116,12 @@ Tests of the method:
 ```python
 {tests}
 ```"""
+
+
+# tdd-doubt agent: added to every code-writing call once some given tests were flagged.
+DOUBT_NOTE = """
+
+Note: before coding, these given tests were flagged as contradicting the docstring of their method:
+{items}
+Where a test and the docstring disagree, follow the docstring. Do not change the code to make a
+flagged test pass; the flagged tests may fail."""

@@ -12,6 +12,7 @@ from dotenv import load_dotenv
 
 from tdd_agent.agents.baseline import BaselineAgent
 from tdd_agent.agents.tdd import TDDAgent
+from tdd_agent.agents.tdd_doubt import TDDDoubtAgent
 from tdd_agent.agents.tdd_mixed_tests import TDDMixedTestsAgent
 from tdd_agent.agents.tdd_own_tests import TDDOwnTestsAgent
 from tdd_agent.agents.interface import Agent
@@ -24,6 +25,7 @@ AGENTS = {
     "baseline": BaselineAgent,
     "tdd": TDDAgent,  # experiment 1: ClassEval's tests
     "tdd-own": TDDOwnTestsAgent,  # experiment 2: its own tests
+    "tdd-doubt": TDDDoubtAgent,  # experiment 1 plus: tests it flags as contradicting the docstring are not to be forced green
     "tdd-mixed": TDDMixedTestsAgent,  # experiment 3: some of ClassEval's, the rest its own
 }
 

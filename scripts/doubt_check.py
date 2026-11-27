@@ -15,11 +15,9 @@ Writes results/analysis/doubt_check.csv and caches each answer in results/analys
 """
 
 import argparse
-import ast
 import csv
 import hashlib
 import json
-import re
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
@@ -27,6 +25,7 @@ from dotenv import load_dotenv
 
 from tdd_agent import config
 from tdd_agent.dataset import load_tasks, tests_for_method
+from tdd_agent.doubt import FLAGS, parse_reply, test_names
 from tdd_agent.llm import LLM
 from tdd_agent.prompts import DOUBT_CHECK, DOUBT_SYSTEM
 
@@ -34,26 +33,6 @@ OUT_DIR = config.RESULTS_DIR / "analysis"
 CACHE_DIR = OUT_DIR / "doubt_check"
 CSV_PATH = OUT_DIR / "doubt_check.csv"
 LABELS_CSV = OUT_DIR / "benchmark_labels.csv"
-FLAGS = ("CONSISTENT", "SILENT", "CONTRADICTS")
-LINE = re.compile(r"^\W*(\w+)\W*:\s*(CONSISTENT|SILENT|CONTRADICTS)\b[\s\-–:]*(.*)$", re.IGNORECASE)
-
-
-def test_names(test_code: str) -> list[str]:
-    """The test methods of a method's test class, in file order."""
-    cls = ast.parse(test_code).body[0]
-    return [n.name for n in cls.body if isinstance(n, ast.FunctionDef) and n.name.startswith("test")]
-
-
-def parse_reply(reply: str) -> dict:
-    """'test_x: SILENT - reason' lines -> {test name: (flag, reason)}."""
-    found = {}
-    for line in reply.splitlines():
-        m = LINE.match(line.strip())
-        if m:
-            found.setdefault(m.group(1), (m.group(2).upper(), m.group(3).strip()))
-    return found
-
-
 def jobs(tasks: list[dict]) -> list[dict]:
     """One job per method that has tests: what the agent is shown, and the test names to expect."""
     out = []

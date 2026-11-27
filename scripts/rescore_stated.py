@@ -94,6 +94,7 @@ def score(results: dict, group: dict) -> tuple[dict, dict]:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     parser.add_argument("--runs", help="comma-separated run folder names (default: baseline, tdd, tdd-own)")
+    parser.add_argument("--tasks", help="comma-separated task ids: score only these tasks (default: all)")
     args = parser.parse_args()
 
     group = read_labels(LABELS_CSV)
@@ -101,7 +102,11 @@ def main() -> None:
 
     rows = []
     for name in runs:
-        by_group, classes = score(run_results(config.RESULTS_DIR / "experiments" / name), group)
+        results = run_results(config.RESULTS_DIR / "experiments" / name)
+        if args.tasks:
+            wanted = set(args.tasks.split(","))
+            results = {k: v for k, v in results.items() if k[0] in wanted}
+        by_group, classes = score(results, group)
         print(f"\n{name}")
         for g in GROUPS:
             passed, total = by_group[g]

@@ -41,6 +41,7 @@ class MethodStep(BaseModel):
     tests_given: int | None = None  # taken from ClassEval
     tests_written: int | None = None  # written by the agent
     tests_valid: bool | None = None  # False: the agent's tests couldn't be used, none were added
+    doubt_flagged: list[str] | None = None  # tdd-doubt: given tests the agent said contradict the docstring
 
 
 def feedback(run: RunOutput, counts: TestCounts) -> str:
