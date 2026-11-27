@@ -1,5 +1,7 @@
 # Docs
 
+**Start here if you are taking over:** [HANDOFF.md](HANDOFF.md), the whole project from the start to 27 Nov 2026.
+
 Two kinds of documents live here, both in Markdown and versioned with the code.
 
 | Folder | What goes in it | Written when |
