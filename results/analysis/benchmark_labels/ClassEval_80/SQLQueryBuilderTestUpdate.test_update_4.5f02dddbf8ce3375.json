@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the update values and the WHERE condition each wrapped in single quotes in `key='value'` form, which a programmer would apply to the float 1.0 to get `'1.0'`.",
+  "missing": "none"
+}

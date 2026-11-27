@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows one inner word list per input string with stop words removed, so a programmer following it would produce one (empty) inner list for each of these stop-word-only strings.",
+  "missing": "none"
+}

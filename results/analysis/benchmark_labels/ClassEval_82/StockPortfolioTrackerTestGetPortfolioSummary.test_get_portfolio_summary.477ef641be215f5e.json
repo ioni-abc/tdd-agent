@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example uses the same tracker setup and expected output as the test, so a correct implementation following it would pass.",
+  "missing": "none"
+}

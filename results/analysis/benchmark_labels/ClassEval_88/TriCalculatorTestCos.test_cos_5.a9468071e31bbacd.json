@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"x-degree angle\" wording and its cos(60) = 0.5 example determine that cos(45) means the cosine of 45 degrees, and the test's expected value matches that within assertAlmostEqual's default tolerance.",
+  "missing": "none"
+}

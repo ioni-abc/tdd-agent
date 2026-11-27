@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test checks the internal attribute server.receive_struct, which the docstring never mentions, so an implementation that only returns the content could pass the documented behaviour and still fail this assertion.",
+  "missing": "The docstring should state whether recv must save the received address and content into an instance attribute (and under what name and format), or whether only the return value matters."
+}

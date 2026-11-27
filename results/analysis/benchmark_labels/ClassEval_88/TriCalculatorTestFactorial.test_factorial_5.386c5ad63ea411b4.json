@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the method as the factorial, and the factorial of 1 is 1, so a correct implementation passes this test.",
+  "missing": "none"
+}

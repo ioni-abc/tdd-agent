@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method reports whether the box is full after adding an email of the given size, and a size of 20 into a 10-capacity box is clearly full under the natural reading, which the reference code also implements.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the mode parameter accepts 'heat' or 'cool' and its example shows the mode becoming the value passed in, so the test's expectation that the mode reads back as 'heat' follows from the docstring.",
+  "missing": "none"
+}

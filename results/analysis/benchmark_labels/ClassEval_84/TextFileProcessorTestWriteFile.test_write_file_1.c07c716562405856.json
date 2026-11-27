@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the content is written into the file and overwrites an existing file, which is exactly what the test checks by reading the file back and comparing.",
+  "missing": "none"
+}

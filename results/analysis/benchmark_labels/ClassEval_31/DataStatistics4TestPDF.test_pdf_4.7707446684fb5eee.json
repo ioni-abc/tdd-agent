@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the output as the normal PDF of each data point given mu and sigma, which is exactly what the test's expected values are.",
+  "missing": "none"
+}

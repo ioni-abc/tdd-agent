@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method replaces substrings matched by the regular expression and leaves the rest of the text alone, so a standard regex substitution passes this test.",
+  "missing": "none"
+}

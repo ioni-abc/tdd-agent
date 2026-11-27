@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only gives the example \"123\" and does not say how a leading zero in a three-digit input should be rendered, so a correct implementation could produce a different result than \"SIX\".",
+  "missing": "The docstring should state how leading zeros are handled, for example whether a leading zero is dropped and the remaining digits are read as a two-digit or one-digit number, or whether zeros are spelled out."
+}

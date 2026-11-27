@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring describes only the normal numeric case, so a correct implementation could raise an error or return something else for empty inputs or non-numeric x_interp elements, and the test expects `[]`.",
+  "missing": "The docstring should state what the function returns when the input lists are empty or when elements of x_interp are not numeric, including whether such points are skipped, produce an empty result, or raise an error."
+}

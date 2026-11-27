@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the return value as all positions of the pattern in the text and its own example gives [0, 3] for this exact input, so the test's expectation is stated.",
+  "missing": "none"
+}

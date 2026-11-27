@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test depends on ordinal words (\"sixty-ninth\" becoming 69) being converted, which the docstring never mentions; its only example is a cardinal (\"thirty-two\").",
+  "missing": "The docstring should state whether ordinal number words (e.g. \"first\", \"ninth\", \"sixty-ninth\") are converted to their integer value, and how they combine with cardinal words in the same phrase."
+}

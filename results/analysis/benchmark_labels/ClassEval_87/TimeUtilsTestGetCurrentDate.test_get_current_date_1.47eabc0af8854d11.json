@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states the behaviour the test checks (the current date formatted as %Y-%m-%d), so a programmer following it would produce the expected string.",
+  "missing": "none"
+}

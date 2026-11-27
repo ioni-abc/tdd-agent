@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the products in the machine, and its example shows the \"name - $price [quantity]\" format, so a zero-quantity item should still be listed in that format.",
+  "missing": "none"
+}

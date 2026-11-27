@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the player to stay put after a blocked move and checks an `is_game_over` attribute, but the docstring mentions neither the blocking behaviour nor any such attribute.",
+  "missing": "The docstring should state that a move whose target cell is a wall (or a box that cannot be pushed) leaves the player's position unchanged, and should document any game-state attributes, such as an game-over flag, that callers can inspect."
+}

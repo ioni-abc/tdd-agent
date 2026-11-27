@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says an existing employee's information is returned, and the test checks exactly that for an existing id, matching the reference code.",
+  "missing": "none"
+}

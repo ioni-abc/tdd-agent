@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the exact output format and says the function returns a str, and the test only checks that format with the values it passes in.",
+  "missing": "none"
+}

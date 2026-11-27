@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own doctest uses the same pattern (current below target, mode 'cool') and shows False returned with the mode changed to 'heat', so the test's expectations match what is documented.",
+  "missing": "none"
+}

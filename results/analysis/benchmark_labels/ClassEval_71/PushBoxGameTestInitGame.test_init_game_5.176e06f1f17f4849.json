@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest for the same map gives `game.targets == [(3, 3)]`, which matches the test's assertion.",
+  "missing": "none"
+}

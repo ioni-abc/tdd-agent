@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False when the expression does not have balanced brackets, and the test's input has an unclosed \"[\".",
+  "missing": "none"
+}

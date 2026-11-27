@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest for the identical map gives `game.player_col` as 1, matching the test's assertion and the reference code, which sets the column of the \"O\" cell.",
+  "missing": "none"
+}

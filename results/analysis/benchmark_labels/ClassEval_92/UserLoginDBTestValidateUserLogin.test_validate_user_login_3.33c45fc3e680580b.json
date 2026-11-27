@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's definition of \"can log in\" (user in the database and password correct) directly implies that an unknown username returns False.",
+  "missing": "none"
+}

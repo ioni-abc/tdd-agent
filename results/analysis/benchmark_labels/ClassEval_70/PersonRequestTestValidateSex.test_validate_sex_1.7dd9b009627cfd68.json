@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that if sex is not Man, Woman, or UGM it is set to None, which matches the test input \"Unknown\" and the assertIsNone check.",
+  "missing": "none"
+}

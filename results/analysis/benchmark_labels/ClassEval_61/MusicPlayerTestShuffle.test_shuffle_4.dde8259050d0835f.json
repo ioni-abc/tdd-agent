@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says shuffle returns True when the playlist is shuffled (non-empty), and the test sets a two-song playlist and expects True.",
+  "missing": "none"
+}

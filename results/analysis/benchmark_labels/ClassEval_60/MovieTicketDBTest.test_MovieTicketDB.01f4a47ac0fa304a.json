@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method deletes a ticket from the \"tickets\" table by its ID, which is exactly what the test relies on when it removes the ticket and then confirms it is gone.",
+  "missing": "none"
+}

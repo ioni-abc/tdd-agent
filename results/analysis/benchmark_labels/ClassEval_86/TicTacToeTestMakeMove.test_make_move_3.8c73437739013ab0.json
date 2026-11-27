@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method places the current player's mark, switches the mark, and returns whether the move succeeded, which covers this test's happy-path expectations.",
+  "missing": "none"
+}

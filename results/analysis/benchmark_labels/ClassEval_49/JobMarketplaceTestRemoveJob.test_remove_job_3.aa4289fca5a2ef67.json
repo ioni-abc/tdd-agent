@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method removes the given position's information from job_listings, which matches the test's two sequential removals ending with an empty list.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example pins down the direction convention (the blank moves in the given direction), so the test's 'up' case follows directly and the test's expected output matches that behaviour.",
+  "missing": "none"
+}

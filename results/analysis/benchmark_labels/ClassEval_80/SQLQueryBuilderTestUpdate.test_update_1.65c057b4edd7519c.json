@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example \"UPDATE table1 SET name='Test2', age='15' WHERE name='Test'\" demonstrates the same format the test checks, including quoting an integer value as '15'.",
+  "missing": "none"
+}

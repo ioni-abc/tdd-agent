@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True when the employee is already in the system, and the test's employee 1 exists and all supplied keys are valid, so the True returns match.",
+  "missing": "none"
+}

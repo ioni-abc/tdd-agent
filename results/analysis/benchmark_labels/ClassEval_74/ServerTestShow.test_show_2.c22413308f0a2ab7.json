@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states that `show(\"receive\")` returns the receive struct, which is the behaviour this test checks; the whitelist precondition belongs to `recv`, not `show`.",
+  "missing": "none"
+}

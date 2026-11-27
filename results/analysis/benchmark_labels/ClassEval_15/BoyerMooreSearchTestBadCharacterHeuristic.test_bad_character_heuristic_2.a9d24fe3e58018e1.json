@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"list of all positions of the pattern in the text\" directly implies an empty list when there are no occurrences, which is what the test expects.",
+  "missing": "none"
+}

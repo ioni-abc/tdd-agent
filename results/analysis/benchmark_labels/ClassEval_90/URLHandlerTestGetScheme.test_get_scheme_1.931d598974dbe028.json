@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the URL's scheme, and the test expects \"https\" for an https URL, which matches.",
+  "missing": "none"
+}

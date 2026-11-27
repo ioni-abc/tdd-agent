@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says heal restores 10 hp and returns the resulting current hp, which directly implies 50 becomes 60.",
+  "missing": "none"
+}

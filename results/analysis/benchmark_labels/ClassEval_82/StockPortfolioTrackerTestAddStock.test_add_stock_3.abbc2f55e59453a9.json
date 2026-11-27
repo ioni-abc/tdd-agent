@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "\"Add a stock to the portfolio\" plus the example showing the dictionary stored in `tracker.portfolio` is enough for a programmer to produce the expected two-entry list.",
+  "missing": "none"
+}

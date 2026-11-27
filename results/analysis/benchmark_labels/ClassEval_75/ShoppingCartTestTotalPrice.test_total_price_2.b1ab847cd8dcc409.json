@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test removes 3 units of an item that only has 1, and the docstring gives no rule for over-removal, so the expected 8.0 depends on behaviour the docstring never describes.",
+  "missing": "The docstring for remove-type methods should state what happens when the requested quantity exceeds the stock held, such as clamping to zero, deleting the entry, or raising an error, and what the resulting totals are."
+}

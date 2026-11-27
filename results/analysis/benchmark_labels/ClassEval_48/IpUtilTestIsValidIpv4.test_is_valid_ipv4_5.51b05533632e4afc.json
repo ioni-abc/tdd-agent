@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example `IpUtil.is_valid_ipv4('256.0.0.0')` returns False, which matches the test's assertion.",
+  "missing": "none"
+}

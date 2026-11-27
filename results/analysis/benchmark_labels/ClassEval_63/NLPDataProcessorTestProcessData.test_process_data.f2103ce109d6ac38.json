@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"keep only English letters and spaces\", lowercase, and split steps fully determine both expected outputs, so a faithful implementation passes.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states the exact formula the test checks, so an implementation following it returns the asserted value.",
+  "missing": "none"
+}

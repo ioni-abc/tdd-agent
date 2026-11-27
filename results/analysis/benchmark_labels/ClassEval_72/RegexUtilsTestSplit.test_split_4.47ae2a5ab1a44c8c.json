@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the text is split on the regex pattern and returns the substrings, and its example shows the empty-string convention at the ends, which is what this test expects.",
+  "missing": "none"
+}

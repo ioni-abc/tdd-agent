@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the function as computing the factorial, and the standard factorial of 1 is 1, which the test checks.",
+  "missing": "none"
+}

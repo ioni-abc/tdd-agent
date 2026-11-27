@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring names three condition categories (\"too fat\", \"too thin\", \"normal\") without giving the criterion for each, so a correct implementation could classify this user differently and fail the test.",
+  "missing": "The docstring should state the exact rule that assigns a user to the too-fat, too-thin, or normal category (for example a BMI range with its cutoff values), and which multiplier applies at each boundary."
+}

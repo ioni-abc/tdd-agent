@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers the value range (1 to 9) but not the count, and the test asserts `len(cards) == 4`, which a correct implementation could violate if it generated a different number of cards.",
+  "missing": "The docstring should state how many numbers are generated per call and what container holds them (for example, \"generates exactly four random integers from 1 to 9 and stores them in the card list\")."
+}

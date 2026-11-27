@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example confirms the pair-to-counter mapping that the test relies on, and the test's expected values follow from it.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says insert_coin returns the balance after the coins are inserted, which, with the balance already at 1.25, implies cumulative addition and yields 6.25.",
+  "missing": "none"
+}

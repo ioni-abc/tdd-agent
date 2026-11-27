@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says True means the current operator has higher or equal precedence, so \"+\" against \"*\" should be False, but the test asserts True, as does the reference code, which checks whether the stack-top operator's priority is at least the current one's.",
+  "missing": "The docstring should state the direction explicitly: the result is True when the stack-top (peek) operator's precedence is greater than or equal to the current operator's, so a lower-precedence current operator returns True."
+}

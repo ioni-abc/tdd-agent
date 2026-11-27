@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method updates the exchange rate for the given currency, and its example shows the stored rate being set to the new value, so the assertion that rates['CNY'] equals 1.0 follows from it.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it returns the available movies within the given time range, and both movies fall inside 10:00 to 23:00, so a faithful implementation returns both names in the test's expected order.",
+  "missing": "none"
+}

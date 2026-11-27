@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's general definition of a valid IPv4 address covers the all-zeros dotted-quad form, which the reference implementation accepts via standard parsing.",
+  "missing": "none"
+}

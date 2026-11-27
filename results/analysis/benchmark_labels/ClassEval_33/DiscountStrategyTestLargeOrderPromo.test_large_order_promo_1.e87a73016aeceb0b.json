@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule (10 or more different products gives a 7% discount on the entire order) covers this test's input and expected value of 7.0.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for all email addresses in the text, and a programmer following it would recognise \"abcdefgiscom\" as not an email and return only the two valid addresses, which matches the assertion.",
+  "missing": "none"
+}

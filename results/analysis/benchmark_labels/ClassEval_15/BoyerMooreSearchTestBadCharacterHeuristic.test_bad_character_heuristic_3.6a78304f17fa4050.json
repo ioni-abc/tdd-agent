@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say what an empty pattern should produce, while the test expects a match at every text position (0 through 6), which a correct implementation could reasonably treat differently.",
+  "missing": "The docstring should state what the method returns when the pattern is empty, for example whether every index from 0 to the text length counts as a match or the result is an empty list."
+}

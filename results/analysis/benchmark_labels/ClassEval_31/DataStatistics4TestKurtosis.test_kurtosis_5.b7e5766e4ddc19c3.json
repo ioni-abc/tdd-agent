@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"the kurtosis\" and gives one example, so it does not pin down the normalization (population vs. sample) or the excess-kurtosis offset, and the test's exact float depends on those choices and on operation order.",
+  "missing": "The docstring should state the formula used, including whether it is excess kurtosis (subtracting 3), whether variance uses the population (divide by n) or sample (divide by n-1) denominator, and what to return when the standard deviation is zero."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that adding an existing product adds to its quantity, which is exactly what the test checks (10 + 10 = 20 under one entry).",
+  "missing": "none"
+}

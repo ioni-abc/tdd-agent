@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it returns True only for characters in the listed operator set and False otherwise, so \"5\" (not in the set) yields False as the test expects.",
+  "missing": "none"
+}

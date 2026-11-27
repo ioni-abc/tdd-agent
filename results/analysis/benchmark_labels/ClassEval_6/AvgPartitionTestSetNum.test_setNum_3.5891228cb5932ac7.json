@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the block size and the division remainder as a tuple, and its example (4 items, limit 2 gives (2, 0)) fixes the meaning as floor division and modulo, which is what the test expects.",
+  "missing": "none"
+}

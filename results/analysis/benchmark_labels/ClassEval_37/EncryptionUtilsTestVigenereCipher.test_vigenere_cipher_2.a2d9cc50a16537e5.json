@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names the Vigenere cipher and its example pins the convention (key letters shift each plaintext letter), so a correct implementation yields \"rijvs\" for \"hello\".",
+  "missing": "none"
+}

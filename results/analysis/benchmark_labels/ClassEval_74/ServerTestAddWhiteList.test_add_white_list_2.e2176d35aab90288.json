@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says a duplicate address makes the method return False, which is exactly what the test asserts on the second add.",
+  "missing": "none"
+}

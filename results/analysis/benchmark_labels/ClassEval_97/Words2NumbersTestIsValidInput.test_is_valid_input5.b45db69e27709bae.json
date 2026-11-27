@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says \"valid words that can be converted into numbers\" without listing the accepted vocabulary, so whether \"and\" and \"hundred\" are accepted is not determined by the docstring.",
+  "missing": "The docstring should list which words (including connectors such as \"and\" and multipliers such as \"hundred\") are accepted as valid number words, and state whether word order or grammar is checked."
+}

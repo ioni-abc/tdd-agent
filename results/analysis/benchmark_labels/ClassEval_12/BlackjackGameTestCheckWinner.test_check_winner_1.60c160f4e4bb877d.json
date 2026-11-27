@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule for when one hand exceeds 21 directly yields the dealer win that the test asserts, and the reference code agrees.",
+  "missing": "none"
+}

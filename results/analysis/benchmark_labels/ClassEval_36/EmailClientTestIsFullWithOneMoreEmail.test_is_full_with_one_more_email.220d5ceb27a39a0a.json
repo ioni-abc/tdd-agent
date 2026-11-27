@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example (receiver with capacity 50, adding size 10, returns False) matches this test exactly, so a programmer following it would pass.",
+  "missing": "none"
+}

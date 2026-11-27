@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes a plain 8-bit-to-ASCII conversion, which fully determines the output \"hebo\" for this input, so the test follows from the docstring.",
+  "missing": "none"
+}

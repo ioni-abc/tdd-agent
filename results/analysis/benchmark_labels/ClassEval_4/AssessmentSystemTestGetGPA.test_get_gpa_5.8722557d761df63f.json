@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it returns the average grade (a float) when the student exists and has course grades, and a single course with score 90 averages to 90.0.",
+  "missing": "none"
+}

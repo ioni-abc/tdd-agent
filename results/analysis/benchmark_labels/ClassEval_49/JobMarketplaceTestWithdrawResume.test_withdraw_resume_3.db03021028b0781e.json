@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says withdraw_resume removes the resume from the resumes list, which is exactly what the two sequential removals do, leaving an empty list.",
+  "missing": "none"
+}

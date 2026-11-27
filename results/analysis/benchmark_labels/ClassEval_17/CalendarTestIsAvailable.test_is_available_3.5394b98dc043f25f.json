@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the return as whether the calendar is available for the slot, and a slot that falls inside an existing event is not available, so a programmer following it would return False.",
+  "missing": "none"
+}

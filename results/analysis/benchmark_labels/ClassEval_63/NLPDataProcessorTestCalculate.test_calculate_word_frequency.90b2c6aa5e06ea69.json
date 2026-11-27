@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states the top-5 limit and descending sort, and the expected output contains exactly those five highest-frequency words with no tie cutoff ambiguity.",
+  "missing": "none"
+}

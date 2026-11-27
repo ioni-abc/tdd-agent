@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes the annulus area from inner and outer radii and its example matches \u03c0(outer\u00b2 \u2212 inner\u00b2), so a programmer following it would return about 25.133, which is within the test's 0.01 tolerance of 25.13.",
+  "missing": "none"
+}

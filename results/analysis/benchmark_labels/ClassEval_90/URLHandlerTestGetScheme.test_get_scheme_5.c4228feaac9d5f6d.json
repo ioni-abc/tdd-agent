@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_scheme returns the scheme of the URL, and the test's expected \"bbb\" is exactly the scheme prefix, so a faithful implementation passes.",
+  "missing": "none"
+}

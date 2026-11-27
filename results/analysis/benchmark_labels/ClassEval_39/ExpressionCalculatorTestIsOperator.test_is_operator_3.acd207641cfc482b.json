@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly lists '*' among the operators and says it returns True for operator characters, so the test's assertTrue matches.",
+  "missing": "none"
+}

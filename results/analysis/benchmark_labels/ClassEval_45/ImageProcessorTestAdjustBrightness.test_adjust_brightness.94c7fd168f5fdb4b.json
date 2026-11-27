@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's endpoints (0.0 gives black, 1.0 gives the original) fully pin down the scaling that the test compares against PIL's `ImageEnhance.Brightness`.",
+  "missing": "none"
+}

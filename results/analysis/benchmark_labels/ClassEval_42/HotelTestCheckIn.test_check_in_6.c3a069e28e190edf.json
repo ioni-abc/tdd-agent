@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly lists a room_type absent from booked_rooms as a case that returns False, which matches the test's assertFalse on an unknown type.",
+  "missing": "none"
+}

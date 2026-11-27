@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the result is True when the current operator has higher or equal precedence, and \"*\" and \"/\" share the same precedence in ordinary arithmetic, so a faithful implementation returns True.",
+  "missing": "none"
+}

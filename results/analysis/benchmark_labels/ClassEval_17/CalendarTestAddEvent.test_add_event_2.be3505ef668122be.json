@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's basic contract, that add_event appends the given event to the calendar's events list, covers what the test checks, including the case of two identical events.",
+  "missing": "none"
+}

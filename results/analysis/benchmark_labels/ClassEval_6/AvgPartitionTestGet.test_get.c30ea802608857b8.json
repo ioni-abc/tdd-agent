@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own doctest shows `AvgPartition([1, 2, 3, 4], 2).get(0)` returning `[1, 2]`, which is exactly what the test asserts.",
+  "missing": "none"
+}

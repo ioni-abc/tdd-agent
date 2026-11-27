@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring states the True return value, but the test also inspects the internal `employees` mapping and its dict field names, which the docstring never describes.",
+  "missing": "The docstring should state where and how each added employee is stored, such as the attribute name, the key used to index records, and the field names of each stored record."
+}

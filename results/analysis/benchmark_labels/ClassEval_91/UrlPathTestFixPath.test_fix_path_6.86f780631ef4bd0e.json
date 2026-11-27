@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule (remove leading and trailing slashes) applied to the empty input directly yields '', which is what the test asserts.",
+  "missing": "none"
+}

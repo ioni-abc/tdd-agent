@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says deposit increases the balance and returns the current balance, which is exactly what the test checks, and the starting balance of an account is implied by the constructor.",
+  "missing": "none"
+}

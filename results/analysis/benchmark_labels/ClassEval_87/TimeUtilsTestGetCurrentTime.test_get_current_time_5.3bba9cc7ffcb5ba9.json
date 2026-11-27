@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies both the content (current time) and the exact format ('%H:%M:%S') that the test compares against.",
+  "missing": "none"
+}

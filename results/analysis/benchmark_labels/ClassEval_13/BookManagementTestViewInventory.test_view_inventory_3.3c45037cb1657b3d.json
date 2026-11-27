@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test relies on add_book's default quantity when the argument is omitted, and neither docstring example shows or describes that default.",
+  "missing": "The docstring should state the default value of any optional quantity parameter and what happens when it is omitted."
+}

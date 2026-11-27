@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns a list of student names in the given major, which is exactly what the test checks for both majors.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The return value and the availability decrement are specified, but the test also asserts a nested `{room_type: {name: count}}` structure for `booked_rooms` that the docstring never describes.",
+  "missing": "The docstring should state how booked_rooms is structured after a successful booking, including how it is keyed by room type and guest name and what value it stores for each guest."
+}

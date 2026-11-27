@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"otherwise\" branch covers the case where the dealer's hand exceeds 21 and the player's does not, and it returns the lower-valued hand as the winner, which matches the expected 'Player wins'.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True when the product is already in the machine, and replenishing by 0 adds nothing, so both the return value and the unchanged inventory follow from it.",
+  "missing": "none"
+}

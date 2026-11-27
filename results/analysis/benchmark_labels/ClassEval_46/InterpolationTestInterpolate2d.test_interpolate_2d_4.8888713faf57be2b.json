@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the out-of-range interpolation point (4,4) to be silently dropped, so the output is [9.0], and the docstring never says how points outside the grid are handled.",
+  "missing": "The docstring should state what happens when an interpolation point lies outside the range of the input coordinates, such as whether it is omitted from the result, returned as a placeholder, or extrapolated."
+}

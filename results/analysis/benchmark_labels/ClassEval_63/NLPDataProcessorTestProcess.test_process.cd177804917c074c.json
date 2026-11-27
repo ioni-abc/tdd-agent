@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring specifies top 5 but gives no tie-breaking rule, and the test's expected five words are one arbitrary choice among six tied words (the reference code also returns all words without truncating).",
+  "missing": "When more words tie in frequency than the requested top-N limit, the docstring should state the tie-break rule (for example, alphabetical order or first occurrence) that determines which words are kept."
+}

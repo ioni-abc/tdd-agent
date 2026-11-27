@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the return is a dict for JSON objects and \"str/int/float.. according to the file content\" otherwise, which covers a JSON string returning a str.",
+  "missing": "none"
+}

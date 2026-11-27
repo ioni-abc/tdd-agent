@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's only example (which gives 0.5 under either a positive-class-1 or a macro-averaged reading) does not pin down which convention is used, so a correct implementation could return a different value here.",
+  "missing": "The docstring should state which label is treated as the positive class (or whether the result is binary or macro-averaged across labels), and what value is returned when there are no predicted positives."
+}

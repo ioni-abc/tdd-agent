@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows the normal case and says nothing about the zero-standard-deviation edge case that the test checks, which expects None.",
+  "missing": "The docstring should state what the function returns when the data has zero standard deviation (for example, when all elements are equal), such as returning None instead of dividing by zero."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the return structure (item name mapping to price and quantity) and the example matches the test's expected output for a single added item.",
+  "missing": "none"
+}

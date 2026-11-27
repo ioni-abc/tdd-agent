@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's only non-success outcome is returning None, and an empty string yields no value, so a programmer following it would return None and pass.",
+  "missing": "none"
+}

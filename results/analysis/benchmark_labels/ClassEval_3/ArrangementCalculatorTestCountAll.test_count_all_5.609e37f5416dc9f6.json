@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the count as arrangements of at least 1 and at most n items from n items, and its example for n=4 matches that sum, so a correct implementation gives 325 here.",
+  "missing": "none"
+}

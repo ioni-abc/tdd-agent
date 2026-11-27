@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the icons at the two given (x, y) positions are removed, and the example output matches that row-first indexing, so the test's expected board follows directly from it.",
+  "missing": "none"
+}

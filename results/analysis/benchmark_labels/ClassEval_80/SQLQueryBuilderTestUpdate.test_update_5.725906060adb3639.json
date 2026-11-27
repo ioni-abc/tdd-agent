@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example quotes a non-string value (15 becomes '15') and gives the SET ... WHERE layout, so a programmer following it would produce the expected quoted output for this single-condition case.",
+  "missing": "none"
+}

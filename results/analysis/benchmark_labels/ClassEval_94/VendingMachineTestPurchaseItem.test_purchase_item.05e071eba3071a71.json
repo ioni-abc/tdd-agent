@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The second assertion requires the stock quantity for 'Coke' to drop from 10 to 9, and the docstring never says a successful purchase reduces inventory, so a correct implementation that leaves stock unchanged would fail.",
+  "missing": "The docstring should state that a successful purchase decrements that product's stock quantity by one (and that the balance is reduced by the product's price), so a programmer knows the inventory is modified as a side effect."
+}

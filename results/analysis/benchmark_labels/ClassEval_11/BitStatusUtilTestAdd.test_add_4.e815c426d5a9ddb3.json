@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's semantics (combine the added status into the current status and return the result) and its example produce 2 for inputs 0 and 2, so a faithful implementation passes this test.",
+  "missing": "none"
+}

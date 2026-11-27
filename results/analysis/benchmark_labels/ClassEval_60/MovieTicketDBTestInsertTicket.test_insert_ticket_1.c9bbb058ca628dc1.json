@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test exercises insert_ticket and search_tickets_by_customer rather than create_table, so it does not test the method it is filed under.",
+  "missing": "none"
+}

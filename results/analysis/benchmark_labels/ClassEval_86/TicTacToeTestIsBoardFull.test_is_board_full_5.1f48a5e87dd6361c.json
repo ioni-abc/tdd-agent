@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the check as whether the board is completely filled and returns a bool, so a board with an empty cell should yield False, which is what the test asserts.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say whether writing overwrites or appends to existing document text, and it says nothing about empty content, so a correct implementation that appends would fail this test.",
+  "missing": "The docstring should state that each call replaces the entire document's previous contents with the given content, including when that content is an empty string, and how read-back then behaves."
+}

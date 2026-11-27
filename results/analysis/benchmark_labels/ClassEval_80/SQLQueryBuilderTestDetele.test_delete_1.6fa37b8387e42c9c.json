@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same format (DELETE FROM table WHERE key='value' with AND between conditions), so the test's expected output follows directly from it.",
+  "missing": "none"
+}

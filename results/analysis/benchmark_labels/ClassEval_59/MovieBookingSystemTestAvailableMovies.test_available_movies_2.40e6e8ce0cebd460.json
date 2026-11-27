@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it returns movies \"within the specified time range,\" and neither movie fits inside 23:00\u201323:59, so an implementation following it returns an empty list, matching the assertion.",
+  "missing": "none"
+}

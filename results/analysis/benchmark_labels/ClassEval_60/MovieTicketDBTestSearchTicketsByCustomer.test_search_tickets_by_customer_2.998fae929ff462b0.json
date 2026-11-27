@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test's assertions depend on the row layout returned by search_tickets_by_customer (an id column at index 0, then movie, theater, seat, and customer at indices 1 to 4), which neither docstring specifies.",
+  "missing": "The docstring of each method that returns ticket rows should state the column order of each returned row, including whether a generated id comes first, and how multiple matching rows are ordered."
+}

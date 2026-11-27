@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says `required` defaults to False, `arg_type` defaults to str, and each argument's type is stored in `types`, so the test's expectations follow directly from it.",
+  "missing": "none"
+}

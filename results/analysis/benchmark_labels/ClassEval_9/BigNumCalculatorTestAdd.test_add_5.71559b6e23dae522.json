@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add sums two string-encoded big numbers and returns the sum as a string, which is exactly what the test checks, and its example confirms the expected format.",
+  "missing": "none"
+}

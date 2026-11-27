@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's only example uses a different matrix (first row [0,0,0,0,14]) and returns 0.20993, while this test uses a modified first row and expects 0.21077, so nothing in the docstring pins this value.",
+  "missing": "The docstring should state the exact formula used and how it handles rows whose counts do not sum to the given number of raters, and it should give an example output for the input actually being tested."
+}

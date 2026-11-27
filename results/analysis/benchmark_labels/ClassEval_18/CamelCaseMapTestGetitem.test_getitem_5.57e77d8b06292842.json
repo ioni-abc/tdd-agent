@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says that keys are normalised to camelCase, so the test's expectation that 'firstName' finds the value stored under 'first_name' is not specified.",
+  "missing": "The docstring should state how keys are normalised on both store and lookup, for example that a key is converted to the map's canonical form (such as snake_case to camelCase) before the value is found, so that differently formatted keys can reach the same entry."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly ranks `/` above `+`, so returning different values for them follows directly from the stated behaviour.",
+  "missing": "none"
+}

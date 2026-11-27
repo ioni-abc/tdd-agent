@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows 'left' moving the blank from the bottom-middle to the bottom-left, which fixes the convention that the direction is the blank's movement, so a programmer following it gets the test's expected board.",
+  "missing": "none"
+}

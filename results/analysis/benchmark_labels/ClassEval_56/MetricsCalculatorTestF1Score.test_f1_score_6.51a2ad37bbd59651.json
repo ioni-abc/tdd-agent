@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "With no true positives and no predicted positives, precision and recall are both 0/0, and the docstring gives no convention for that, so a faithful implementation could return NaN or raise instead of 0.0.",
+  "missing": "The docstring should state the result when precision and recall are undefined or sum to zero, for example that f1 is 0.0 whenever there are no true positives, so that zero-division cases have a defined return value."
+}

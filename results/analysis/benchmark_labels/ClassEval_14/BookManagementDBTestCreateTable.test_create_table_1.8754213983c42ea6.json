@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states that the books table is created if missing, which is exactly the condition the test checks by querying sqlite_master for a 'books' table.",
+  "missing": "none"
+}

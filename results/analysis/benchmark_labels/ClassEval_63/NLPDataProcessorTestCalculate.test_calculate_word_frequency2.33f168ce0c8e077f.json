@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method sorts word frequencies in descending order and returns the top 5, which covers this test's expected output, and the counts leave no tie-breaking ambiguity at the cutoff.",
+  "missing": "none"
+}

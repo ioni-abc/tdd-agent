@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's comparison rule directly yields 'Dealer wins' for a player total of 10 against a dealer total of 21, which is what the assertion and the reference code both expect.",
+  "missing": "none"
+}

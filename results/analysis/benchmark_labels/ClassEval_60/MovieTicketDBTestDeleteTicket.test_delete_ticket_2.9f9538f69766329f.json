@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the rows whose customer matches, so the count of 1 before deletion and 0 after deletion both follow from it.",
+  "missing": "none"
+}

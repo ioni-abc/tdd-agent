@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the exact output format with %s placeholders for chord and tune and says it returns a str, so the expected assertion follows directly from it.",
+  "missing": "none"
+}

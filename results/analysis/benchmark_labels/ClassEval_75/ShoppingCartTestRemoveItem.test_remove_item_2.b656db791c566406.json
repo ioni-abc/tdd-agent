@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's subtraction behaviour, together with the visible `quantity=1` default in the signature, fully determines the expected result of 4.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's return rule (input with references replaced) applied to an empty input naturally gives an empty output, which matches the assertion.",
+  "missing": "none"
+}

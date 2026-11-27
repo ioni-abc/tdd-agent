@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example for the list input explicitly gives 0.75 and [1.0, 0.5], exactly what the test asserts, even though its prose wrongly says \"recall\".",
+  "missing": "none"
+}

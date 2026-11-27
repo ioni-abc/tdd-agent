@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says make_move places the current player's mark, switches the mark, and returns True on success, which covers the test's assertions about the return value and the player switch.",
+  "missing": "none"
+}

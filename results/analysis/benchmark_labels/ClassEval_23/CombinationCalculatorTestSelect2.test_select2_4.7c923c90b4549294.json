@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring describes building combinations of a given size but never covers the zero-length edge case, which the test checks and the reference code handles by appending one empty combination.",
+  "missing": "The docstring should state that each completed combination is appended to `result` as a copy, and that a request for zero elements produces exactly one empty combination in `result`."
+}

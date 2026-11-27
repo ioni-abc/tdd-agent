@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's description \"Calculate the maximum value in the data\" directly specifies the behaviour the test checks, and the test expects 4, the maximum of the list.",
+  "missing": "none"
+}

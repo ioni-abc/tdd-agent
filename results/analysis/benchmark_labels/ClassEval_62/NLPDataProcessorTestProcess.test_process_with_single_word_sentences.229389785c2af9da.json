@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows per-string word lists with stop words removed, and the test's input contains no stop words except that 'aa' is not one of the listed words, so a faithful implementation passes.",
+  "missing": "none"
+}

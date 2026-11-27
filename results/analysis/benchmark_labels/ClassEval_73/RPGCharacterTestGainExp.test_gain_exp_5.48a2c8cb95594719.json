@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule (level up at 100 \u00d7 current level, carry the overflow forward) gives level 3 and exp 100 for 400 exp from level 1, matching the test and the reference code.",
+  "missing": "none"
+}

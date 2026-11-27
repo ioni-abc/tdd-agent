@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example uses the same structure (a plain `<pre>` and a `<pre><code>` block) and shows the same kind of output, so a programmer following it would produce the test's expected list.",
+  "missing": "none"
+}

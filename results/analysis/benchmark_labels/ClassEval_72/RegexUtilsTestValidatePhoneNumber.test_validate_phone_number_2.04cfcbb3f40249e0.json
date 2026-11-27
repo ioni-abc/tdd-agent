@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never defines the accepted phone number format, so the expected False for \"1234567890\" cannot be derived from it.",
+  "missing": "The docstring should specify the exact accepted phone number format, including whether separators such as dashes are required, which digit groupings are allowed, and that inputs not matching that format return False."
+}

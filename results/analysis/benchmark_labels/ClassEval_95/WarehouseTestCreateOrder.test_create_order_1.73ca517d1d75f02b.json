@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the order holds product_id and quantity, defaults status to 'Shipped', is stored in self.orders, and returns False only when stock is insufficient, which matches the test's expected dictionary.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test checks bdp.binary_string straight after construction without calling clean_non_binary_chars, so it depends on constructor behaviour that the method's docstring does not mention.",
+  "missing": "The docstring should state whether the class constructor also filters the input string at initialization, so that the stored value is already cleaned before any explicit cleaning call."
+}

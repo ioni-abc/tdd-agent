@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test calls `process_data`, a different method from `process`, so the test and the docstring it is filed under do not describe the same behaviour.",
+  "missing": "none"
+}

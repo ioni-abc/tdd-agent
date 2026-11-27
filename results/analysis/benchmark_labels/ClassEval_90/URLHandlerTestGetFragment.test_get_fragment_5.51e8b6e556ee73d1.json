@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring clearly specifies returning the text after '#', which matches the test input and expected \"ccc\".",
+  "missing": "none"
+}

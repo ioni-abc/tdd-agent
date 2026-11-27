@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says whether repeated majors should be collapsed into one entry or what order the list should follow, yet the test expects each major once in first-appearance order.",
+  "missing": "When a method returns a collection of distinct values drawn from records, the docstring should state whether each value appears once, and in what order the values should be listed."
+}

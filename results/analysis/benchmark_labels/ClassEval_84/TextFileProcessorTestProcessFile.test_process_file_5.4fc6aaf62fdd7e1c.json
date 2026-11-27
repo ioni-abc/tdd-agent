@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's filtering rule and its example (returning the filtered string) cover the test's expected result, and the write-back matches \"overwrite the same file\".",
+  "missing": "none"
+}

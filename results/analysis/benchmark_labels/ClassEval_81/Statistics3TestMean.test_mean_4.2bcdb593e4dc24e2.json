@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines mean as the average of the list returned as a float, so the mean of four 1s is 1.0 and the test's assertion follows directly.",
+  "missing": "none"
+}

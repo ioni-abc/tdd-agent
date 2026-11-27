@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's definition (quantity multiplied by price, summed over all items) directly yields the test's expected 5.0.",
+  "missing": "none"
+}

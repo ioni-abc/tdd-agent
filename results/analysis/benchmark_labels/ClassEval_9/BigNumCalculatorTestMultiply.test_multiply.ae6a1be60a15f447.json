@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example uses the same two inputs and the same expected product string, so a correct implementation following it would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives no rule for how the fractional part of a float is worded, so the expected \"AND CENTS\" phrasing and the digit-by-digit wording of the decimal are not derivable from it.",
+  "missing": "The docstring should specify how non-integer numbers are rendered, including the wording used for the integer part, the connector word, the label used for the fractional part (such as cents or digits), and how the fractional digits are spoken."
+}

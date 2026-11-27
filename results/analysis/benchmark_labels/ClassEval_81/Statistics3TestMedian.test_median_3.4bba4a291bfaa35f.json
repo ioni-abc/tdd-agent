@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the median as the middle value of the list and gives the even-length example median([1, 2, 3, 4]) = 2.5, which fixes the behaviour this test checks.",
+  "missing": "none"
+}

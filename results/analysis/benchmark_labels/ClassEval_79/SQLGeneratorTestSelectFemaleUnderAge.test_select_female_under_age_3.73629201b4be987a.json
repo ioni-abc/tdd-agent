@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example with age 30 fully specifies the format and the substitution of the age value, so the test's expected output for age 20 follows directly from it.",
+  "missing": "none"
+}

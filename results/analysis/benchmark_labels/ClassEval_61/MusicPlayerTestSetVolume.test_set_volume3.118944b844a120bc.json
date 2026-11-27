@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the method returns True when the volume is set, but the test asserts that set_volume(0) returns None, which matches the reference code's implicit return on success.",
+  "missing": "none"
+}

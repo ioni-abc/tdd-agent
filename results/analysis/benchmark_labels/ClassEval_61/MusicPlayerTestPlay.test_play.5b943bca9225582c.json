@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says play returns the current song, and its example gives the same inputs and the same expected 'song1' that the test asserts.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test calls game.answer('pass') while the docstring under review describes get_my_cards, so the test and docstring target different methods.",
+  "missing": "none"
+}

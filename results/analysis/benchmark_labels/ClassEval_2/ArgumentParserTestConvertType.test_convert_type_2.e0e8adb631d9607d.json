@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says the input value is returned when conversion does not succeed, which is exactly what the test checks.",
+  "missing": "none"
+}

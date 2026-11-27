@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's general statement of hex-to-decimal conversion covers this input, and the expected value 170615 matches the standard conversion of 0x29a77.",
+  "missing": "none"
+}

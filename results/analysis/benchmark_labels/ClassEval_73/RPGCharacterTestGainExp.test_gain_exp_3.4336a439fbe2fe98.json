@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's overflow rule, applied to a character starting at level 1 with 0 exp, produces exactly the level 2 and exp 100 the test asserts, matching the reference code.",
+  "missing": "none"
+}

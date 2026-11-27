@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring fixes the board size as n*n and the mine count as k, so the test's length and mine-count assertions follow directly from it.",
+  "missing": "none"
+}

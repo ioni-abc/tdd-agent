@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example uses the identical event and time slot and shows False, and the docstring says it returns False when the slot is not available, so a faithful implementation passes.",
+  "missing": "none"
+}

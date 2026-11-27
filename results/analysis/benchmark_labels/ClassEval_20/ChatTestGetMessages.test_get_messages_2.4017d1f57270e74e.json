@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns a list of the user's messages, so a user with no messages yields an empty list, which the test expects.",
+  "missing": "none"
+}

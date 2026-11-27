@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example uses the same URL and gives the same expected dict, so a programmer following it would pass this test.",
+  "missing": "none"
+}

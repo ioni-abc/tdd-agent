@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring's example says a hyphenated number phrase returns False, while the test and reference code expect a hyphenated phrase (with ordinal words and \"and\") to return True.",
+  "missing": "The docstring should state whether hyphens separate words or make a token invalid, and whether ordinal forms and connecting words like \"and\" count as valid words."
+}

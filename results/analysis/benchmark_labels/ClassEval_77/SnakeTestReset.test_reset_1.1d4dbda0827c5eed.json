@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly gives the reset values for length, head position (half the screen dimensions), and score, which match the test's assertions and the reference code.",
+  "missing": "none"
+}

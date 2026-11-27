@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says update adds to all four confusion-matrix counts, and its example pins down which label pairs go to which counter, so the test's expected (1, 2, 1, 0) follows from it.",
+  "missing": "none"
+}

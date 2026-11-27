@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule (keep only English letters and spaces, lowercase, then split) directly yields every expected output in the test, including the empty list for a digits-only string and the joined word for the one with an embedded symbol.",
+  "missing": "none"
+}

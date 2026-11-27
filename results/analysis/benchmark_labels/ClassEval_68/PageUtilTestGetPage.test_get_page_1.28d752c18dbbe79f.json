@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (page size 1 over [1, 2, 3, 4] returns [1] for page 1) establishes that the second constructor argument is items per page and that get_page returns that page's slice, which is exactly what this test checks.",
+  "missing": "none"
+}

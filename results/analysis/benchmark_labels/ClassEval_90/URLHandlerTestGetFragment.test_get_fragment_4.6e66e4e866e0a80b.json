@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the fragment after '#' in the URL, which is exactly what the test checks with the input ending in \"#bbb\".",
+  "missing": "none"
+}

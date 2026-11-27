@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test also asserts `with_end_tag` is True, which the docstring never mentions, so a correct implementation could leave it unset and still satisfy the documented behaviour.",
+  "missing": "The docstring should state that any side effect on object attributes, such as whether a trailing delimiter sets a flag, is recorded and what value it takes under each input condition."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's formula, confirmed by its example, gives log(3/1.2) \u2248 0.9163 for key1 and log(3/1.5) \u2248 0.6931 for key2, which matches the test's assertions.",
+  "missing": "none"
+}

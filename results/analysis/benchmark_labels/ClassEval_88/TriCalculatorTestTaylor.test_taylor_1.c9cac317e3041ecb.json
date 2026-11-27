@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example for the same input gives 0.5000000000000001, which matches the test's expected 0.5 within assertAlmostEqual's tolerance.",
+  "missing": "none"
+}

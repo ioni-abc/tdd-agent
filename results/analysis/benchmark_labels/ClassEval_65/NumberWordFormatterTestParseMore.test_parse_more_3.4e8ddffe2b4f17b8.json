@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example fixes index 1 as \"THOUSAND\" and lists million and billion next in sequence, so the test's expectation of \"MILLION\" for index 2 follows directly.",
+  "missing": "none"
+}

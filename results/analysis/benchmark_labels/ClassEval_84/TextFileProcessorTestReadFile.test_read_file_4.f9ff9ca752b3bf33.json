@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the content of the file, the same as read(), and read() returns the file's text as a string, which matches both assertions.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's formula, log((total_num+1)/(count+1)) per key, produces exactly the two asserted values, and its example confirms the same computation.",
+  "missing": "none"
+}

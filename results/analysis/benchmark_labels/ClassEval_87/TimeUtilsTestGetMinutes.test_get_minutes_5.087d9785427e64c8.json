@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the result as the minute difference between the two times, and the test's expected 300 follows directly from that definition and the example.",
+  "missing": "none"
+}

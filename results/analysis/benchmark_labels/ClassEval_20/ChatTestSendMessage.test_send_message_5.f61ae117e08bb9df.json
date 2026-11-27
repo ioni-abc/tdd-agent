@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule that an unknown sender or receiver returns False directly covers the test's return-value assertion, and the unchanged-users check follows from the message not being sent.",
+  "missing": "none"
+}

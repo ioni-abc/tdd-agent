@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test checks that removing a book absent from inventory raises an exception, and the docstring's \"Raise ... while get invalid input\" covers this case, with any Exception subclass satisfying the assertion.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method adds the given seconds to the current time and returns it in '%H:%M:%S' format, which is exactly what the test checks against the object's own datetime.",
+  "missing": "none"
+}

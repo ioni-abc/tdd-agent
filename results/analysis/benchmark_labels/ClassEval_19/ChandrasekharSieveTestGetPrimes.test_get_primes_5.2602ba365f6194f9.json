@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the list of generated primes, and the example shows the constructor argument acts as the upper bound, so with no primes below 1 the natural result is an empty list.",
+  "missing": "none"
+}

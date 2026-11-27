@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rounding rule and its worked example (population variance of [1,2,3,4] = 1.25) fully determine the expected result for this input, which is also 1.25.",
+  "missing": "none"
+}

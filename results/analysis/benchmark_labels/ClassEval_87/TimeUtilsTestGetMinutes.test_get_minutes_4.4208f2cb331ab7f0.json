@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the output as the minutes elapsed between the two times, and the test's four-hour gap gives exactly 240, matching the docstring's own 1:00-to-2:00 example scaled up.",
+  "missing": "none"
+}

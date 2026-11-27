@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"otherwise it is set to 'cool'\" clause covers current temperature above target, which is exactly this test's case, and the test asserts 'cool'.",
+  "missing": "none"
+}

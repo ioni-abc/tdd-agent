@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's general statement that the method returns the product of two complex numbers covers this test, and the expected value -5-10j is the correct product.",
+  "missing": "none"
+}

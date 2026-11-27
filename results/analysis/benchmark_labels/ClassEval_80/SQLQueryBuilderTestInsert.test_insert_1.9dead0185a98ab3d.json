@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example `{'name': 'Test', 'age': 14}` produces `VALUES ('Test', '14')`, which shows the same pattern of comma-joined keys and single-quoted values, including integers, that this test checks.",
+  "missing": "none"
+}

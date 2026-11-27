@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows exactly the stored structure (name, grade, major, empty courses dict keyed by name), and the test checks that same structure for multiple students.",
+  "missing": "none"
+}

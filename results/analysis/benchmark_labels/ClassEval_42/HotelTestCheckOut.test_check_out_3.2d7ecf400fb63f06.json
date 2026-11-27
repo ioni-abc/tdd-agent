@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly describes adding a new room type to available_rooms with the given count, which matches the first assertion, and it mentions only available_rooms, so leaving booked_rooms untouched follows from it.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add appends the given segment to the list of segments, which is exactly what the test checks for a plain segment with no special characters.",
+  "missing": "none"
+}

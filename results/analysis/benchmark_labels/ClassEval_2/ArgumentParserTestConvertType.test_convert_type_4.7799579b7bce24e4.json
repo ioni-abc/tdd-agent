@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the input is converted using the type registered in self.types and the converted value is returned, and applying bool to \"True\" gives True, which matches the assertion.",
+  "missing": "none"
+}

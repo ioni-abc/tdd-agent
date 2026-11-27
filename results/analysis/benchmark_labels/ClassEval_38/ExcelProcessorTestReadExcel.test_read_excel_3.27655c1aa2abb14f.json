@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say that each row should be a tuple of cell values, which is what the test expects, so a correct implementation returning lists or a flat list could fail.",
+  "missing": "The docstring should state the exact shape of the return value: a list with one element per row of the worksheet, each element being a tuple of that row's cell values in column order, and what is returned when the file cannot be read."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects [\"John\", \"Bob\"] in insertion order, which is not alphabetical, and the docstring's only example has a single student, so a sorted or otherwise reordered implementation would be consistent with the docstring yet fail.",
+  "missing": "When several students match, the docstring should state the order of the returned names (for example, the order they were registered) and what is returned when no student matches (an empty list)."
+}

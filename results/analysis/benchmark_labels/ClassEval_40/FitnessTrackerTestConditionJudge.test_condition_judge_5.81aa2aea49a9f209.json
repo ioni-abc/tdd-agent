@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test's expected value of 1 depends on the male upper BMI threshold, which the docstring never specifies, so a correct implementation using a different standard could return 0.",
+  "missing": "The docstring should give the numeric BMI thresholds for each sex (the lower and upper bounds for \"normal\") and the BMI formula (weight divided by height squared), so the classification can be computed from the docstring alone."
+}

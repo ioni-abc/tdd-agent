@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's only example has one item, so the newline separator between two items, and the inclusion of an item with quantity 0, are not specified and a correct implementation could differ.",
+  "missing": "The docstring should state how multiple entries are joined into the returned string (for example, the separator character) and whether items with zero quantity are included in the output."
+}

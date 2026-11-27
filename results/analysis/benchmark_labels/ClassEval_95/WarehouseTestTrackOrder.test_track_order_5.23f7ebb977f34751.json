@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example creates an order and then expects track_order to return 'Shipped', which is the same behaviour this test checks.",
+  "missing": "none"
+}

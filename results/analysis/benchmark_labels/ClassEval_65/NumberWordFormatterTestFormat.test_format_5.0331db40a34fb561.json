@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's example pattern (uppercase words plus \"ONLY\") suggests the format, but it does not say that zero should become \"ZERO ONLY\", so a correct implementation could still fail this edge case.",
+  "missing": "The docstring should state how zero and other edge values (such as negatives or fractional parts) are written in words, including the exact word for zero and whether the \"ONLY\" suffix still applies."
+}

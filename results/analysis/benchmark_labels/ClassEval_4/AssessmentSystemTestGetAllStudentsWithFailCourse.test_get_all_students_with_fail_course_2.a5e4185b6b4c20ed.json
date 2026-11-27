@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test's inputs all have scores of 60 or more, and the docstring's rule (\"any score below 60\") directly implies the empty list the test asserts.",
+  "missing": "none"
+}

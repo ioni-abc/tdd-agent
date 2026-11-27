@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the stock's value as a float, and the docstring example shows price times quantity, so the test's 150.0 * 2 = 300.0 is implied.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"Create a new table in the database if it doesn't exist\" directly covers the test's check that the table name appears in sqlite_master after the call.",
+  "missing": "none"
+}

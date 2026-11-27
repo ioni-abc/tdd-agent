@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method adds a heading to the Word document and that the level defaults to 1, which is exactly what the test checks by reading the saved file back.",
+  "missing": "none"
+}

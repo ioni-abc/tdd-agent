@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's described pipeline (remove punctuation, tokenize, tag each word) produces the expected tags for this input, and a programmer following it would get the same result.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies that subtract returns the difference of the two complex numbers, which fully determines the expected value 2-2j for this input.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the data is \"modified\" and never states that `item` elements' text is converted to uppercase, which the test checks.",
+  "missing": "The docstring should state which elements are changed and exactly how (for example, that the text of every element with a given tag is converted to uppercase before the file is written)."
+}

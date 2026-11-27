@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes a standard Caesar shift by an integer amount, which a programmer would implement as moving each letter backward for a negative shift, and the test's letters do not wrap past A or Z.",
+  "missing": "none"
+}

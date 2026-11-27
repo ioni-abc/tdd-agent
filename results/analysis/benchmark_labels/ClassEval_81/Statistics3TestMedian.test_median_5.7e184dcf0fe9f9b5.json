@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example for an even-length list (2.5 for [1,2,3,4]) establishes that the median averages the two middle values, so the expected 4.5 for an even-length list follows directly.",
+  "missing": "none"
+}

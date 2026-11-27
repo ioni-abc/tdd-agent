@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test asserts that `inventory` equals the dict `{\"book1\": 2}`, but the docstring never says the inventory is a dict keyed by title with integer counts as values.",
+  "missing": "The docstring should state the data structure of the inventory, for example that it is a dict mapping each book title to its integer quantity, and that adding a title already present increases its count."
+}

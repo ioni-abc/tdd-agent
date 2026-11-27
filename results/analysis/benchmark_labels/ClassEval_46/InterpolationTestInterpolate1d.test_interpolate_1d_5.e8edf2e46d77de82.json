@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies linear interpolation returning a list of y-values, which uniquely determines 2.2 and 3.4 for these inputs even though x is unsorted.",
+  "missing": "none"
+}

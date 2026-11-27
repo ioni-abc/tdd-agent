@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's fallback rule (\"otherwise -1\") covers the case where no mismatch exists, which an empty pattern trivially satisfies, so the expected -1 follows directly from it.",
+  "missing": "none"
+}

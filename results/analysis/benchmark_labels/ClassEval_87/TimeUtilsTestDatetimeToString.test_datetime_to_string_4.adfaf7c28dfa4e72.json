@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example output shows the exact layout (date, space, 24-hour time with seconds) that the test's strftime(\"%Y-%m-%d %H:%M:%S\") comparison checks.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says non-dict JSON content is returned as str, int, or float according to the file content, so a correct implementation returns int 12345 for this file.",
+  "missing": "none"
+}

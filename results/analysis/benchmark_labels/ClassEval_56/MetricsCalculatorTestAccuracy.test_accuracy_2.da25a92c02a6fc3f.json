@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects 1/3, which only comes out if the non-binary label is excluded from the denominator, and the docstring's only example uses binary labels, so it does not say what to do with other values.",
+  "missing": "The docstring should state how labels outside the binary positive/negative set are treated, including whether such entries are skipped or counted, and how that affects the denominator."
+}

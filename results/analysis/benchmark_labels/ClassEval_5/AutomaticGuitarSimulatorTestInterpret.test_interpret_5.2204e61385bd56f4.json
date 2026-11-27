@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's return description and its example show exactly this letters-then-digits split per space-separated segment, which is what the test checks.",
+  "missing": "none"
+}

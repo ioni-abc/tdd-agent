@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives the value range for the cards but not the count of 4 the test asserts, so a correct implementation that generates a different number of cards would not violate the docstring.",
+  "missing": "The docstring should state how many random values are generated and where they are stored or returned, for example \"generates four random integers from 1 to 9 and appends them to the instance's card list.\""
+}

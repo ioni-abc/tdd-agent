@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the call adds a new supported currency with its exchange rate, and its example shows the rate being stored in `self.rates`, so the test's check on `rates['aaa']` follows from it.",
+  "missing": "none"
+}

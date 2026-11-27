@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example uses the same inputs and shows the exact expected string, including quoted values, the WHERE clause and the trailing semicolon, so a programmer following it would pass.",
+  "missing": "none"
+}

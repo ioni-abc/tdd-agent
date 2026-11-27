@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule (sum of quantity \u00d7 price across items) directly yields the asserted 3.0 for this input, and the reference code matches.",
+  "missing": "none"
+}

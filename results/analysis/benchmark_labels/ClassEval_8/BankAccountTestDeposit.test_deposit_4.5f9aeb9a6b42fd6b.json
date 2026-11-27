@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says only negative amounts raise an error and that the current balance is returned, so a zero deposit on a new account should return 0 as the test expects.",
+  "missing": "none"
+}

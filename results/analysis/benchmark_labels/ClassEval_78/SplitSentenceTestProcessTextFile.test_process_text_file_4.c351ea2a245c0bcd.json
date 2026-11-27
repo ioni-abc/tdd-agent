@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the return value as the word count of the longest sentence, and its example shows `.` and `?` as sentence delimiters, so a correct implementation yields 4 here.",
+  "missing": "none"
+}

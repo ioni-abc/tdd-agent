@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test's expected output depends on which tied word makes the top 5 (this and is, not a), and the docstring never says how ties are resolved.",
+  "missing": "When several words have the same frequency and only some fit in the top N, the docstring should state the tie-breaking rule, such as first-occurrence order in the input or alphabetical order."
+}

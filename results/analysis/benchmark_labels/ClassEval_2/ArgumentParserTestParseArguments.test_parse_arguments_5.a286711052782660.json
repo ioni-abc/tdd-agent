@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says missing required arguments cause a False return but never says how an argument becomes required or what the default is, so the test's expectation that \"age\" is not missing cannot be derived from it.",
+  "missing": "The docstring should state the default requiredness of an argument added without an explicit required flag, and whether an argument with a type but no required flag is treated as optional or required."
+}

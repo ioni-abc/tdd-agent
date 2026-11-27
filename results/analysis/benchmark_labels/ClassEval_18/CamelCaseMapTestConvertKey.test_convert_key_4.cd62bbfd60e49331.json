@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's general rule (convert the key to camel case, with 'first_name' becoming 'firstName') covers the test's input and expected output.",
+  "missing": "none"
+}

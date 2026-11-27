@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly states that the method creates a new table if it doesn't already exist, which is exactly what the test checks by querying sqlite_master for the table name.",
+  "missing": "none"
+}

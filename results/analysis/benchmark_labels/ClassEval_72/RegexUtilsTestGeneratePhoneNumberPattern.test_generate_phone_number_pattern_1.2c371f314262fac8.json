@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example output is the same dashed `\\d{3}-\\d{3}-\\d{4}` pattern the reference returns, so a programmer following it would produce a pattern that matches '123-456-7890'.",
+  "missing": "none"
+}

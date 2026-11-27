@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring example returns `['-']` as the remaining operator stack, but the test and reference code expect `['+']` because the used operator is popped.",
+  "missing": "The docstring should state that the operator used is removed from the top of the operator stack, so the remaining operators are the ones below it, and its example should show that result."
+}

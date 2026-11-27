@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test writes one paragraph and expects its exact text back, which is the obvious reading of \"returns the content of the Word document as a string\", and a programmer following the docstring would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"extract all email addresses\" without defining what a valid email looks like, so the test's expectation that the malformed \"@.com\" token is dropped is not specified.",
+  "missing": "The docstring should define the accepted email format, such as the required characters before the @, and a domain that has at least one label and a letter-only top-level suffix, and state that candidates not matching this format are excluded."
+}

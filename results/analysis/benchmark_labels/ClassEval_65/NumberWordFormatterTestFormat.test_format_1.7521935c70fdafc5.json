@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest example gives the exact expected string for the same input 123456, so the test's assertion matches the documented behaviour.",
+  "missing": "none"
+}

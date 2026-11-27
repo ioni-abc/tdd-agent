@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the return as the blank's (i, j) coordinates in a 3x3 grid of the 0 element, which directly yields (1, 1) for this input and matches the assertion.",
+  "missing": "none"
+}

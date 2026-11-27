@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's description of summing arrangements over 1 to n items, together with the example count_all(4)=64, pins down the value 15 for n=3.",
+  "missing": "none"
+}

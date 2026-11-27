@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test exercises the answer method, but it is being checked against the get_my_cards docstring, which does not describe answer at all.",
+  "missing": "none"
+}

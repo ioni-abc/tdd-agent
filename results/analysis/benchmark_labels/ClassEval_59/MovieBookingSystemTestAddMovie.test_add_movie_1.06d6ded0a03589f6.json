@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example output shows exactly these stored values (name, price, datetime start/end on 1900-01-01, and a 3x3 zeros seats array), so the test's assertions follow from it.",
+  "missing": "none"
+}

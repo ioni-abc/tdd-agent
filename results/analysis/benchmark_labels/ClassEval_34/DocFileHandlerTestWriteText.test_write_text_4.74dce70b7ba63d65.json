@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the document to contain only the new content after the write, but the docstring never says whether existing paragraphs are overwritten or kept, so an appending implementation would fail the test.",
+  "missing": "The docstring should state whether writing replaces any existing content in the target file or appends to it, and what the file contains afterward."
+}

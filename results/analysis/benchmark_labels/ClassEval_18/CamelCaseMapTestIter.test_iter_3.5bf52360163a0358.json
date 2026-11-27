@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects keys like 'first_Name' to be stored and yielded as 'firstName', a camelCase conversion that the __iter__ docstring never mentions, so a correct iterator over the stored data could fail it.",
+  "missing": "The docstring should state that keys are converted to camelCase when they are stored, so that iterating yields the converted keys in insertion order, and that values are not affected."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the remaining number of the requested room type, so a programmer following it would return 2 for double rooms and pass the test.",
+  "missing": "none"
+}

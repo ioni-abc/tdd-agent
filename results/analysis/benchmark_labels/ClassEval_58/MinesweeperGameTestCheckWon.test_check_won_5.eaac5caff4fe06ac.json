@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule that the player has won only if the remaining cells in the player map are all mines gives False here, which matches the assertion and the reference code.",
+  "missing": "none"
+}

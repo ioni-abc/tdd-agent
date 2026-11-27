@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the balance is decreased and the current balance returned, and it only raises for amounts greater than the balance, so an exact full withdrawal returns 0 as the test expects.",
+  "missing": "none"
+}

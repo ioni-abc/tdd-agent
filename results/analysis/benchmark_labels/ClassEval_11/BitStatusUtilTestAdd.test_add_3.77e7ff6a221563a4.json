@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Both readings of \"add\" the docstring allows (bitwise OR or arithmetic sum) return 0 for 0 and 0, so a programmer following it would pass this test.",
+  "missing": "none"
+}

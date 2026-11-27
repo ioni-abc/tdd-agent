@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule \"True if the current status contains the specified status, otherwise False\" directly covers this input, and the expected False matches it.",
+  "missing": "none"
+}

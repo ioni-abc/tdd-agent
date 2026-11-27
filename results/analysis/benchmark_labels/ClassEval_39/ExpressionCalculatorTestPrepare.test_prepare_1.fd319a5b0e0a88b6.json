@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's example shows postfix_stack as a list, but the test asserts equality with a deque, and deque and list never compare equal, so an implementation that follows the docstring literally would fail.",
+  "missing": "The docstring should state the container type of the result (for example, that postfix_stack is a deque, not a list) whenever a method's output or attribute is described with a sample value."
+}

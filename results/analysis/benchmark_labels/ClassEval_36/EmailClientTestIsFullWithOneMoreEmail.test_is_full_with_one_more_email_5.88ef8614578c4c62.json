@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test adds an email that fills the box to exactly its capacity and expects False, but the docstring's \"full\" could reasonably mean \"at or above capacity,\" which would give True.",
+  "missing": "The docstring should say whether a mailbox whose total occupied size equals its capacity after the addition counts as full, or only when it exceeds capacity."
+}

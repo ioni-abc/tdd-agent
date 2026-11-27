@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test calls game.answer(...) but is filed under get_my_cards, and the docstring only describes returning four random cards between 1 and 9.",
+  "missing": "none"
+}

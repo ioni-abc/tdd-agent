@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies the output format and that it is the current time, so a faithful implementation would match the test's expected string (up to timing within the same second).",
+  "missing": "none"
+}

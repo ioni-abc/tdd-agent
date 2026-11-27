@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest shows that a successful removal returns True and deletes the entry from the portfolio, which is the behaviour this test checks.",
+  "missing": "none"
+}

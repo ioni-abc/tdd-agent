@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives no return value or side effect for the case where the stock is not held, so a correct implementation could return None or raise instead of False.",
+  "missing": "The docstring should say what the method returns and whether it changes the portfolio when no holding matches the given name or the requested quantity exceeds the quantity held (e.g., return False and leave the portfolio unchanged)."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns items containing the keyword and a dict with total results and matching items, which yields the expected keyword, count, and matching list for this input.",
+  "missing": "none"
+}

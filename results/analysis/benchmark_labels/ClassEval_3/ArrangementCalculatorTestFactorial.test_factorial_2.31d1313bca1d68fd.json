@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says factorial returns the factorial of the given integer, and the test checks factorial(5) equals 120, which a standard factorial implementation satisfies.",
+  "missing": "none"
+}

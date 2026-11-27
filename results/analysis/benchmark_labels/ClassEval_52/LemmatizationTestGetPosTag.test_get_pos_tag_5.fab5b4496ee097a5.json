@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes exactly what the test checks (punctuation removed, words tokenized, one POS tag per word returned), and its example uses the same Penn Treebank-style tags the test expects.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring names three condition categories and their multipliers but gives no rule for assigning a user to one, so a correct implementation could pick the wrong multiplier and fail the test.",
+  "missing": "The docstring should state the exact rule for classifying a user's condition (for example, the BMI thresholds that map to too fat, normal, or too thin) so that the multiplier applied can be determined from the inputs."
+}

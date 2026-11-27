@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the file's text to equal only the new content after writing, which requires overwrite behaviour, and the docstring never says whether existing content is replaced or kept.",
+  "missing": "The docstring should state whether writing replaces all existing text in the document or adds to it, and what the document contains afterwards (for example, only the new content as a single paragraph with the given font size and alignment)."
+}

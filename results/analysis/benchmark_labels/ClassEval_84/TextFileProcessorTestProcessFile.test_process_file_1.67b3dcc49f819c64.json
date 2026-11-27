@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says process_file filters out non-alphabetic characters and writes the result back, and its example returns the filtered string, so the test's expected return value and write behaviour follow from it.",
+  "missing": "none"
+}

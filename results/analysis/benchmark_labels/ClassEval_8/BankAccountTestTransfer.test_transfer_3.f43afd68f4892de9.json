@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never mentions validation, negative amounts, or a ValueError, so a correct implementation could let the negative transfer through and fail the test's expected exception.",
+  "missing": "The docstring should say what happens when the amount is invalid (for example negative or greater than the available balance): which exception is raised, its exact message, and that neither balance changes."
+}

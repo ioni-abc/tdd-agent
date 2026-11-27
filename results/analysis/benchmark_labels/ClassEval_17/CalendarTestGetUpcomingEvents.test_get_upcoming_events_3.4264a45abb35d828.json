@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring refers to a \"given date\" via a `date` parameter that the signature does not have, so it never specifies that the cutoff is the current time, which the test relies on to expect an empty list.",
+  "missing": "The docstring should say which point in time \"upcoming\" is measured from (for example, the current system time when no date is supplied) and that events starting before that point are excluded, with the parameter list matching the actual signature."
+}

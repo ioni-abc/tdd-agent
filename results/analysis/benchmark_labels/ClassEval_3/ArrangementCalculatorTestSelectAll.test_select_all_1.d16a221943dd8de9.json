@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example output for ArrangementCalculator([1, 2, 3]) matches the test's inputs and expected list exactly, including order.",
+  "missing": "none"
+}

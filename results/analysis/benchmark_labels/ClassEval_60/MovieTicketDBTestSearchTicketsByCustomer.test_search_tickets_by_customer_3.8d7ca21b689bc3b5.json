@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test's assertions depend on search_tickets_by_customer returning rows with an id column at index 0 followed by movie, theater, seat, and customer, and neither docstring describes that layout.",
+  "missing": "The docstring should state the table's column order, including any auto-generated id column, and the format of rows returned by the search methods, so that an implementation following it returns fields at the same indices."
+}

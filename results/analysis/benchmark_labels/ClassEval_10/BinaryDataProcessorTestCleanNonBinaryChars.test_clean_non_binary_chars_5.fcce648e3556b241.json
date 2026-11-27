@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test does not call clean_non_binary_chars; it only builds BinaryDataProcessor(\"0\") and checks the stored binary_string, so it is filed under the wrong method.",
+  "missing": "none"
+}

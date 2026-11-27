@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method writes the data to the given Excel file and returns 1 on success, which covers the test's success check, file-existence check, and round-trip content check.",
+  "missing": "none"
+}

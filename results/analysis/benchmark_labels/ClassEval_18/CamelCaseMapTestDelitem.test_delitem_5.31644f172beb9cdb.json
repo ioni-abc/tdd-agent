@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says deleting removes the key's value, and its example shows `'first_name' in camelize_map` is False after deletion, which matches the test's assertion.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes POS-based lemmatization with punctuation removal, and its example (\"am\" to \"be\", \"running\" to \"run\") shows the same mechanism this test relies on.",
+  "missing": "none"
+}

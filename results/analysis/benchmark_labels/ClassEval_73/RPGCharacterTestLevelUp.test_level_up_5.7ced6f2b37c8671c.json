@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rules (zero experience, +20 hp, +5 attack, +5 defense, level increments) produce exactly the asserted values of level 5, exp 0, hp 120, attack 25, and defense 15.",
+  "missing": "none"
+}

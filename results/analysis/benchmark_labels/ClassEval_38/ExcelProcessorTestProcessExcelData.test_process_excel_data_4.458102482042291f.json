@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the specified column is changed, but the test and reference code keep the original column and append an uppercased copy as a fourth column.",
+  "missing": "The docstring should say that the converted values are written to a new column appended after the last existing column, with the original column left unchanged, and that numeric-looking values are copied as-is rather than uppercased."
+}

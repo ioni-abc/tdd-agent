@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says generate_primes returns all primes up to the specified limit (its example with limit 20 shows the inclusive range), so the expected [2, 3, 5, 7] for limit 10 follows directly.",
+  "missing": "none"
+}

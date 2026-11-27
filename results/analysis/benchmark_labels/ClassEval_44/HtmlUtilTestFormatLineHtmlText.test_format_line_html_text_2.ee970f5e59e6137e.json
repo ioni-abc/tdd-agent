@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives the general shape of the output, but the test's exact expected string includes leading and trailing newlines and line layout that the docstring does not define, so a correct implementation could fail on whitespace.",
+  "missing": "The docstring should state the exact whitespace rules for the returned text, including whether leading and trailing newlines from the source HTML are kept, how line breaks between block elements are produced, and whether paragraphs get a trailing period added."
+}

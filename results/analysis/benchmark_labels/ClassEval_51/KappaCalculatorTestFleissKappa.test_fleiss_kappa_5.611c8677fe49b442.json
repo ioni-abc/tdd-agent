@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test's first row sums to 15 while n is 14, and the reference normalizes by the grand total of the matrix rather than N*n, a convention the docstring never mentions, so a standard Fleiss implementation could return a different value.",
+  "missing": "The docstring should state the input requirement that each row's category counts must sum to the number of raters n, and specify what the function does (raise an error, normalize, or compute as written) when a row violates this or the total differs from N*n."
+}

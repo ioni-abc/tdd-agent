@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test passes an invalid operator, and the docstring lists no supported operators and says nothing about an error or fallback for unknown ones, so the expected handling is not specified.",
+  "missing": "The docstring should list the accepted operator symbols and state what the method does when given any other operator, such as raising an error and what kind."
+}

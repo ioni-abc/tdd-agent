@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring declares the return as a float, but the test expects the list `[4]`, which the reference code also returns.",
+  "missing": "The docstring should state that the function always returns a list of all values that occur most often, even when there is only one such value, and should fix the `:return:` type to match."
+}

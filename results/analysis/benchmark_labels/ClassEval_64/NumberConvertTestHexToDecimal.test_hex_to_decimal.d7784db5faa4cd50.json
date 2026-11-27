@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example, hex_to_decimal('a5b7') returning 42423, is exactly the behaviour the test checks.",
+  "missing": "none"
+}

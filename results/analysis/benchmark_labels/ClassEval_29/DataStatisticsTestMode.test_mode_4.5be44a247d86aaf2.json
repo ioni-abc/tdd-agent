@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring contradicts itself on the return shape (`float` in the `:return:` line versus a list in the example), so it does not settle whether a single unique mode comes back as `4` or `[4]`.",
+  "missing": "The docstring should state the return shape in every case, including when only one value has the highest count: whether it always returns a list of all values tied for the highest frequency, or a single scalar when there is one such value."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example uses the same ciphertext and rail count and gives the same expected plaintext as the test.",
+  "missing": "none"
+}

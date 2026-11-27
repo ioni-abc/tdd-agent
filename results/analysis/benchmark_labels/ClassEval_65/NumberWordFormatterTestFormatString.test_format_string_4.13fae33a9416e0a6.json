@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says nothing about the decimal part, so the test's expected \"AND CENTS ... ONLY\" phrasing cannot be derived from it.",
+  "missing": "The docstring should state how a fractional part after a decimal point is converted, including any connecting phrase, how the digits are read, and any trailing word that follows the whole result."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes int or float inputs and says nothing about a `None` argument, so the expected empty string is a convention a correct implementation could miss.",
+  "missing": "The docstring should state what the function returns when the input is `None` or otherwise not a number, for example an empty string or an error."
+}

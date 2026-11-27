@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives only the formula-level definition and a non-zero example, and never states the zero-norm edge case that this test checks.",
+  "missing": "The docstring should state what is returned when either input vector has zero norm, for example whether the result is 0.0, NaN, or an error."
+}

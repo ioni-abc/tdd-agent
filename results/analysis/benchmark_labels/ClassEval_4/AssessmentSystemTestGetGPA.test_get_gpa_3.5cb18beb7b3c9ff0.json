@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the average only when the student is in the system and has course grades, and to return None otherwise, which covers a student with an empty courses dict.",
+  "missing": "none"
+}

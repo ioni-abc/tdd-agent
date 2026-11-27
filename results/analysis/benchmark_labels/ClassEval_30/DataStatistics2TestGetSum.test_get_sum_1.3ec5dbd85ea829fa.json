@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the sum of the data and gives the matching example, and the test's assertEqual(res, 10) checks that same value.",
+  "missing": "none"
+}

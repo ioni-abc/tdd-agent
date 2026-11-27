@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects exactly 4 cards, a count the docstring never mentions, so an implementation that generates a different number of values could pass the docstring and still fail the test.",
+  "missing": "The docstring should state how many numbers are generated and where they are stored (for example, that it produces exactly four values appended to the game's card list)."
+}

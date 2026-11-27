@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's four-element example shows the same ordering (all size-1 combinations, then size-2, size-3, size-4, each in input order), so the test's three-element output follows directly from it.",
+  "missing": "none"
+}

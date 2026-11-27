@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that the filter returns True when the request is allowed, without saying which paths or methods count as allowed, so the test's expected True for '/api/data' cannot be derived from it.",
+  "missing": "The docstring should list the rules that decide whether a request is allowed, such as which path prefixes are exempt from authentication and what credential or user level is required for other paths."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test is a plain case of the documented behaviour (elapsed minutes between two timestamps, returned as an int), and a correct implementation returns 180 for a three-hour gap.",
+  "missing": "none"
+}

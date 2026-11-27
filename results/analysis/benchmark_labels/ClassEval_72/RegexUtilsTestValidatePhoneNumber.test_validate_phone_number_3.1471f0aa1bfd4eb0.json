@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True only when the phone number is valid, and a letter in a phone number is a clear case of invalidity, so a faithful implementation returns False here.",
+  "missing": "none"
+}

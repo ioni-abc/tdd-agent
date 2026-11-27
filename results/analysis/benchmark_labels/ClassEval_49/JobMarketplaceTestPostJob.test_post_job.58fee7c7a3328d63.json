@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest shows job_listings becoming a list with one dict having the same keys and values as the test's expected output, so a faithful implementation passes.",
+  "missing": "none"
+}

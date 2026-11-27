@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says the default quantity is 1 and that price and quantity are stored with the item, which covers exactly what this test asserts.",
+  "missing": "none"
+}

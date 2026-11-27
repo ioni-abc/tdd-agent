@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the winning player's symbol when five in a row exists in any direction, and its example reproduces this test's moves and expected 'X'.",
+  "missing": "none"
+}

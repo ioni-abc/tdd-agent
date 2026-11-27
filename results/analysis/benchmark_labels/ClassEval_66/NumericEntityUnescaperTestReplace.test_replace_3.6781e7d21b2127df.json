@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's core rule (numeric character references replaced by their Unicode characters) directly covers this input, and the example \"&#65;&#66;&#67;\" to 'ABC' shows the same decimal mapping.",
+  "missing": "none"
+}

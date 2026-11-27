@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the mode becomes 'heat' only when current is strictly lower than target and 'cool' otherwise, which covers the equal case the test checks.",
+  "missing": "none"
+}

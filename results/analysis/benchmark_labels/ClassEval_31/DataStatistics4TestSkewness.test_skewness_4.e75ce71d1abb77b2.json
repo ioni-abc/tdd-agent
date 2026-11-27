@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the bias-adjusted sample skewness (population standard deviation with an n/((n-1)(n-2)) factor), which the docstring never describes; its one example does not pin down the formula.",
+  "missing": "The docstring should state the exact skewness formula used, including the denominator (population or sample standard deviation) and any small-sample correction factor applied to the third central moment."
+}

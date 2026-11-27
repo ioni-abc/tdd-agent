@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"rightmost occurrence ... in the pattern\" rule directly yields 5, matching the assertion and the reference code's backward scan.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "'0' is a hexadecimal digit, and the docstring's stated contract (True for hex digits) directly covers this input, so the test's assertion True matches.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example gives the same input condition and the exact expected output string, including the trailing semicolon and the table name.",
+  "missing": "none"
+}

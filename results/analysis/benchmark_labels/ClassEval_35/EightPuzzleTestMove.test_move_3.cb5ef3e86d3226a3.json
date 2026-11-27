@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example shows the blank (0) moving left by swapping with its left neighbour, which is the same behaviour this test checks, so the expected output follows from the docstring.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test checks the exact column names and order ['id', 'title', 'author', 'available'], which the docstring never specifies, so a correct table creation with different columns would fail.",
+  "missing": "The docstring should list the columns the created table must have, including their names, order, and types (for example, each column's name and SQL type in sequence)."
+}

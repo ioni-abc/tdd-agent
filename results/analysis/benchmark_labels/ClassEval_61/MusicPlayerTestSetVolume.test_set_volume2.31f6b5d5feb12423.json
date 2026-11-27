@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the method returns True when the volume is set, but the test expects None on success, matching the reference code, which returns nothing on success.",
+  "missing": "The docstring should state the return value for every valid input, including the success case (for example, returning nothing, or None, when a valid value is stored) and not only the failure case."
+}

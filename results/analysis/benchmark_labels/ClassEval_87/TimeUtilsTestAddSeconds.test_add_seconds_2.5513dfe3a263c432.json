@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states both the addition of seconds to the current time and the '%H:%M:%S' output format, which is exactly what the test's expected value computes from the same instance's time.",
+  "missing": "none"
+}

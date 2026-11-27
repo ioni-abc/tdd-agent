@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says that an existing product_id returns its corresponding quantity, which is exactly what the test checks (quantity 5 for product 1).",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Wrong-method test: the assertions exercise insert_student (insert then SELECT by name), which create_student_table's docstring does not describe, and create_student_table is only used in setUp.",
+  "missing": "none"
+}

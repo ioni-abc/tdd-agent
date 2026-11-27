@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's general rule (return all positions where the pattern occurs) directly yields [0] for this input, so a correct implementation passes.",
+  "missing": "none"
+}

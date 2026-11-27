@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects a second AAPL addition to merge into the existing entry with quantity 20, but the docstring never mentions merging, so an implementation that simply appends would follow the docstring and still fail.",
+  "missing": "When a stock with the same name already exists in the portfolio, the new stock's quantity should be added to the existing entry's quantity instead of appending a duplicate entry, and the function should return nothing."
+}

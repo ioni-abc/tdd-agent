@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring describes only the normal case with code blocks and does not state the result when the input is empty or contains no code.",
+  "missing": "The docstring should state that when the html text contains no code blocks, including an empty string, the method returns an empty list."
+}

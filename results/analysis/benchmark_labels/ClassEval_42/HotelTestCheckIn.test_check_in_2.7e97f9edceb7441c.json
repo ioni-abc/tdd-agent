@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's :return False: clause covers requesting more rooms than were booked, and the removal rule only applies to successful check-ins, so the unchanged booked_rooms follows.",
+  "missing": "none"
+}

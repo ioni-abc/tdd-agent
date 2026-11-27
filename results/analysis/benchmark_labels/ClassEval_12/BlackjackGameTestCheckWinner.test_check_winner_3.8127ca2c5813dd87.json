@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's bust rule says the lower hand value wins when either hand is over 21, and the dealer's total is lower, which matches the asserted 'Dealer wins'.",
+  "missing": "none"
+}

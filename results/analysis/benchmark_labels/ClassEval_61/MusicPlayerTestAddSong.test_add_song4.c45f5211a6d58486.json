@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the song is added to the playlist, and its example shows a single song appended to an empty list, so a programmer would naturally append each song to the end and produce the expected order.",
+  "missing": "none"
+}

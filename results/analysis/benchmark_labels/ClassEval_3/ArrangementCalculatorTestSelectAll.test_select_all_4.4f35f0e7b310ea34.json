@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says arrangements of at least 1 item up to the number of internal items, and its example shows the ordering by length, so the expected output follows directly.",
+  "missing": "none"
+}

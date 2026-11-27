@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test exercises filter, is_start_with, and get_jwt_user, but it is filed under set_current_user_info_and_log, which it never calls.",
+  "missing": "none"
+}

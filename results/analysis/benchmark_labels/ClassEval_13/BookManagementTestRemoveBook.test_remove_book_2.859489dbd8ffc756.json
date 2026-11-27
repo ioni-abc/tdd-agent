@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method removes one or several books from the inventory, which directly implies the count for the named title drops by the given quantity and other titles are unchanged.",
+  "missing": "none"
+}

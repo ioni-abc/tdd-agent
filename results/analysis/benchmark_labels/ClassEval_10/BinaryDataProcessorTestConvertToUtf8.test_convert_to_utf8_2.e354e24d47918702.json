@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert the binary string to a UTF-8 string, which a programmer would implement as 8-bit groups decoded as UTF-8, producing \"helli\" for this input, matching the assertion and reference code.",
+  "missing": "none"
+}

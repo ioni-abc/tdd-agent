@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says -1 is returned when an error occurs while reading, and a JSON parse failure on an existing file is such an error, so the test's expected -1 follows from the docstring.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers tuple and list-of-tuple inputs and their return values but never mentions empty input, so the expected (0.0, [0.0]) is not derivable from it.",
+  "missing": "The docstring should state what the function returns when given an empty container of inputs, including the value of the aggregate score and the per-item list, and what it returns when a tuple's total count is zero."
+}

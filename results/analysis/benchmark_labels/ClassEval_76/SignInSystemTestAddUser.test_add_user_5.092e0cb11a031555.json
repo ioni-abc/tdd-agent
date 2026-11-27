@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says add_user returns True when the user is added successfully, and \"ccc\" is a new user in a fresh system, so the assertTrue matches the documented behaviour.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the uppercased values to be appended as a new column with a new header, numeric values to pass through unchanged, and a specific output file name, none of which the docstring specifies.",
+  "missing": "The docstring should state whether the transformed values overwrite the target column or are written to a new appended column (and its header), how non-text values such as numbers are handled, and the naming pattern of the saved output file."
+}

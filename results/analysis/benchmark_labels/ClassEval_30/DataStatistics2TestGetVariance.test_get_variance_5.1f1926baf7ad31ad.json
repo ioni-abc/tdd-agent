@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example ([1, 2, 3, 4] gives 1.25) fixes the divide-by-n convention, and the test's inputs give the same kind of result, 1.25, under that rule.",
+  "missing": "none"
+}

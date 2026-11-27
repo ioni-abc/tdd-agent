@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the score is added \"for student in self.students\" but never states the outcome when the student is absent, so the test's expectation that Alice's record is untouched is not specified.",
+  "missing": "When the named student is not in the system, the method should leave all existing records unchanged and neither raise an error nor create a new entry."
+}

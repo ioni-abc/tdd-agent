@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the currency and its exchange rate are added, and its doctest shows the stored value as `self.rates['KRW'] = 1308.84`, so the test's check of `rates['ccc'] == 3.0` follows from the docstring.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same round trip (set a key, then get it back and receive the value), which is exactly what this test checks.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the return value as a success flag, so a failed extraction from an invalid input should yield False, which is what the test asserts.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example gives the same computation (dot product over the product of norms) and its numbers match what the test expects, even though the return description wrongly says \"cosine distance\".",
+  "missing": "none"
+}

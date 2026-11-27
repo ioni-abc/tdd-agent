@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The first assertion is covered by the docstring's \"False if the volume was invalid\", but the docstring never gives the player's default volume, so the check that volume remains 50 cannot be derived from it.",
+  "missing": "The docstring should state the initial value of the volume attribute when a player is created, and that an invalid value leaves the current volume unchanged."
+}

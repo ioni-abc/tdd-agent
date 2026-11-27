@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same spaces-removed output pattern that this test checks, so a implementation following it would pass.",
+  "missing": "none"
+}

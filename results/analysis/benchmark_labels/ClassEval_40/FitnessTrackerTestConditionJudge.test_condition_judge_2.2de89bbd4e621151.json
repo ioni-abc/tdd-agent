@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"based on the BMI standard\" without giving the female range, so the expected result of 1 depends on a threshold the reader cannot see.",
+  "missing": "The docstring should list the exact BMI cutoffs for each sex (the lower and upper bounds for normal weight), so that a implementer can tell whether a given BMI is above the upper bound, below the lower bound, or in range."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the mode to become 'cool' when current and target temperatures are equal, and the docstring never gives the mode-selection rule for that tie, so a correct implementation could choose 'heat' and fail.",
+  "missing": "The docstring should state how the operating mode is chosen when the current temperature equals the target temperature (for example, which mode is selected in the equal case), and what the mode and temperature are afterward."
+}

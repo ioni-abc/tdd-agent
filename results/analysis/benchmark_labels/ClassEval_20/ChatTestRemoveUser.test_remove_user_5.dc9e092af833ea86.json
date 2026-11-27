@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False when the user is not in the Chat, which is the behaviour this test checks, and the test's extra check that the user list is unchanged follows from \"remove a user\" with a user that doesn't exist.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"keep only English letters and spaces, convert to lower case, then split into words\" fully determines every expected output in the test, including the empty list for digit-only input and the joining of words separated by a removed symbol.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the value stored under the given key from the arguments dictionary, so returning True for \"verbose\" is what a faithful implementation produces.",
+  "missing": "none"
+}

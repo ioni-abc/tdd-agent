@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test targets a different method: test_insert_student_5 exercises insert_student, while the docstring and method under check are create_student_table.",
+  "missing": "none"
+}

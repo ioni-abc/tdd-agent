@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule (pop the top operator, apply it to the top two operands, push the result back) fully determines the expected stacks for this input, and the docstring example confirms the operand order.",
+  "missing": "none"
+}

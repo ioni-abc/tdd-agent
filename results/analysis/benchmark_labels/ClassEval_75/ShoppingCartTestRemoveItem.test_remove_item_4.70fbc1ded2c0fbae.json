@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the given quantity is subtracted from the item's stored quantity, which yields 5 - 2 = 3 as the test expects.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method computes cosine similarity, and cosine similarity of a vector with itself is 1.0, so a correct implementation passes this test.",
+  "missing": "none"
+}

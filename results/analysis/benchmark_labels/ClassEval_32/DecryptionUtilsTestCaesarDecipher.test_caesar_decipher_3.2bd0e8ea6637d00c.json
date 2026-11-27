@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the method as Caesar deciphering by the given shift, and a shift of 0 applied to 'bcd' naturally yields 'bcd', which the test expects.",
+  "missing": "none"
+}

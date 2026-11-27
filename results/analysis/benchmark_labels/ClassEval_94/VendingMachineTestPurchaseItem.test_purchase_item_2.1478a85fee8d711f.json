@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False whenever the purchase is not successful, which covers an unknown item name, and the test checks only that return value plus that the inventory is unchanged.",
+  "missing": "none"
+}

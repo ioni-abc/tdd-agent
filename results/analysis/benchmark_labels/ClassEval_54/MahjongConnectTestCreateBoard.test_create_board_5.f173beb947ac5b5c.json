@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not specify the stored attribute types or values (the test expects BOARD_SIZE to equal the list [5, 5] and ICONS to equal the list ['a', 'b', 'c']), so a correct implementation storing a tuple or copy could fail.",
+  "missing": "The docstring should state how the constructor stores its size and icon arguments, including their container type and whether they are kept as given, so that a reader knows what attribute values to expect after construction."
+}

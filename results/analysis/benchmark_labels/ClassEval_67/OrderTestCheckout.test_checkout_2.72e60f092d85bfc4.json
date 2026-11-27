@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says checkout returns False when selected_dishes is empty, which is exactly the case this test sets up, and assertFalse accepts that value.",
+  "missing": "none"
+}

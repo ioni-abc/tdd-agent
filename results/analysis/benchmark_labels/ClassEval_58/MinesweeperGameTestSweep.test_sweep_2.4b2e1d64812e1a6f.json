@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers the False return for a non-winning sweep, but it never says the score is left at 0 after hitting a mine, which the test also asserts.",
+  "missing": "The docstring should state how the score changes on each sweep, such as whether it increases only for safe cells and stays unchanged when a mine is hit."
+}

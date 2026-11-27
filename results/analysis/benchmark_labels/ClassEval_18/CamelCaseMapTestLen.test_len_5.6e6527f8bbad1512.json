@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines `__len__` as the length of the stored data, so an empty map following that rule must return 0, which is what the test asserts.",
+  "missing": "none"
+}

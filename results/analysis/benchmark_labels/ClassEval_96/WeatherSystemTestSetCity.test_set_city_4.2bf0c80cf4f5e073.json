@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says set_city sets the system's city, and its example shows the city attribute being updated to the new value, so the test's inequality check follows directly.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"available movies within the specified time range\" describes the containment check the reference uses, and that check yields exactly ['Batman'] for this window.",
+  "missing": "none"
+}

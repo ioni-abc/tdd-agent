@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test passes a state with no 0 element and expects None, which the docstring's \"return i, j\" promise does not cover.",
+  "missing": "The docstring should say what to return when no element equals 0, for example None or raising an error."
+}

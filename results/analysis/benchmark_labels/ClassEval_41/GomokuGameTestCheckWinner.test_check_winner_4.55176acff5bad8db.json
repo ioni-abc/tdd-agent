@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "Both X and O have five in a row on the board, and the docstring says nothing about which winner is reported in that case, so the expected 'O' depends on an unstated scan-order convention.",
+  "missing": "When more than one player has a five-in-a-row at the time of the check, the docstring should state which symbol to return (for example, the first one found in row-major board order, or the player who completed their line first)."
+}

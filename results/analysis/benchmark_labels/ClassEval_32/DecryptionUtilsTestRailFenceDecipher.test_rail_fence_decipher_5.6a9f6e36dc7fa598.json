@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names the standard Rail Fence cipher and says `rails` is the number of rails, which fixes the zigzag pattern and thus the expected 'Hoe,rll dWl!o' for 7 rails.",
+  "missing": "none"
+}

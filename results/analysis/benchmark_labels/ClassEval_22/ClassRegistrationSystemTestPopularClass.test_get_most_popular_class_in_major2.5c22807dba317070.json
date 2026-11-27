@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"highest enrollment in the major\" describes exactly the counting the test checks, and neither expected class is tied, so a faithful implementation passes.",
+  "missing": "none"
+}

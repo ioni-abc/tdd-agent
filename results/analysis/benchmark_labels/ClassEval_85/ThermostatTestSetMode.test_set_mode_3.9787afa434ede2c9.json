@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's parameter note lists 'heat' as a valid mode and its example shows that setting a mode makes `thermostat.mode` return that value, so the test's expectation follows from it, even though the summary line wrongly says \"Get\".",
+  "missing": "none"
+}

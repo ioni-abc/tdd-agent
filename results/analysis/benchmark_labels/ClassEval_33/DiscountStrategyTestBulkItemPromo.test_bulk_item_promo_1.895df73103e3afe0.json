@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule (quantity of 20 or more gets a 10% discount on each item) and its doctest (20 \u00d7 23.5 \u00d7 0.1 = 47.0) both match the test's expected 20.0 for the 20-unit line, with the 5-unit line excluded.",
+  "missing": "none"
+}

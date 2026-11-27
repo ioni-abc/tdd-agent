@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the result as the standard deviation of the list, and the example [1, 2, 3] giving 1.0 pins it to the sample form, under which a constant list has zero spread.",
+  "missing": "none"
+}

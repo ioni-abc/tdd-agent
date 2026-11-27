@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the output is the input with only the numeric references replaced, so the trailing \";\" should survive, but the test expects it to be dropped (as the reference's loop bound does).",
+  "missing": "Any characters that are not part of a complete numeric character reference must be copied to the output unchanged, including trailing characters at the end of the string."
+}

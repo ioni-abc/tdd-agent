@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest uses the same key and shows the decryption mapping, and applying that mapping to 'bcdaa' gives 'ryfqw', which is what the test asserts.",
+  "missing": "none"
+}

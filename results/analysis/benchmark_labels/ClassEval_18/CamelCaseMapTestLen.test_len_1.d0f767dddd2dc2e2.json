@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states that the length equals the number of data entries, which directly implies the test's expected value of 1 after inserting one key.",
+  "missing": "none"
+}

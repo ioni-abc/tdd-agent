@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly ranks '*' and '/' above '+' and '-', so any implementation that follows it returns different values for '*' and '-' and passes the test.",
+  "missing": "none"
+}

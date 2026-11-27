@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states that 10 or more distinct products earn a 7% discount on the entire order, which matches the expected 700.0 for this cart.",
+  "missing": "none"
+}

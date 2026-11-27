@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test asserts the return value is None, but the docstring never says what the method returns, and it also doesn't say what happens when the requested size can't be freed.",
+  "missing": "The docstring should state the return value (e.g., that the method returns nothing) and that if the inbox empties before enough space is freed, all emails are removed and the method stops."
+}

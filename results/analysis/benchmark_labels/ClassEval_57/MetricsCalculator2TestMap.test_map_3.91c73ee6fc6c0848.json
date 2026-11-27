@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's second example shows the same list input and the same mean and per-input outputs the test asserts, so a programmer following it would pass.",
+  "missing": "none"
+}

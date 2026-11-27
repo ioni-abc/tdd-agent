@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the uppercase-words-plus-\"ONLY\" convention, and the test's input and expected output follow that convention directly.",
+  "missing": "none"
+}

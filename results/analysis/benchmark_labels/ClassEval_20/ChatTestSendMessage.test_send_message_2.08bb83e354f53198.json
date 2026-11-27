@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The return value is stated, but the second assertion that the user lists remain unchanged on failure is not covered by the docstring.",
+  "missing": "When the operation returns False because a party is not registered, the docstring should also state that no state is modified, so nothing is recorded or appended."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's only error rule is \"Raise false while get invalid input,\" which does not specify that a quantity larger than the available stock is invalid, so a correct implementation that clamps or ignores the excess would fail this test.",
+  "missing": "The docstring should state that removing a quantity greater than the number of copies currently in stock (or removing a title not in inventory) raises an error, and what it does otherwise."
+}

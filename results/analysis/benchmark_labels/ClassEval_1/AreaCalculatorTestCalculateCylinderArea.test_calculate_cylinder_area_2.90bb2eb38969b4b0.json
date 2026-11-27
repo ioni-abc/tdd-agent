@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's worked example pins down the formula, and the test's height-0 case (\u22488\u03c0 \u2248 25.1327, within delta 0.01 of 25.13) follows from it directly.",
+  "missing": "none"
+}

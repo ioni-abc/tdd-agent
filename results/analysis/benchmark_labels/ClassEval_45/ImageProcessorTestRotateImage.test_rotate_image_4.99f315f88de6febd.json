@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's main description (\"rotate image if image has opened\", degrees as a float) covers what this test checks: a loaded image is rotated by the given angle and the processor's image is updated.",
+  "missing": "none"
+}

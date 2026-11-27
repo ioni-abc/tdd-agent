@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say how a token mixing letters and digits (like \"bbb1\") is treated, so the expected count of 3 depends on an unstated convention.",
+  "missing": "The docstring should state whether a token that mixes letters and digits is a word, and if so, whether digits are stripped from it before counting, or whether the whole token is discarded."
+}

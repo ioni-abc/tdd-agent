@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's description of removing stop words from each string and returning the remaining words matches exactly what the test checks, and the reference code produces the expected output.",
+  "missing": "none"
+}

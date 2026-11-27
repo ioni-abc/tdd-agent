@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states the method returns the current mode restricted to 'heat' or 'cool', which covers the test's expected 'cool' output.",
+  "missing": "none"
+}

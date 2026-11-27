@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says sex is validated as Man, Woman, or UGM and returned, and \"Woman\" is valid, so the test's expected \"Woman\" matches the docstring.",
+  "missing": "none"
+}

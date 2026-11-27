@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines subtract as returning the difference of the two complex numbers, which gives 2+2j for these inputs, matching the assertion.",
+  "missing": "none"
+}

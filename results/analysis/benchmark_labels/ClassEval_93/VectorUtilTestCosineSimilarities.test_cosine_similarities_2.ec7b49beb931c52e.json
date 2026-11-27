@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's worked example computes the same quantity (cosine similarity, about 0.97 and 0.96 for its inputs) that the test checks, even though the return description wrongly calls it \"cosine distance.\"",
+  "missing": "none"
+}

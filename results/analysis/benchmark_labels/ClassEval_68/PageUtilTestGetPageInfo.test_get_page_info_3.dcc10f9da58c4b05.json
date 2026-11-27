@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example gives the key set and the standard pagination convention (per_page equals the page size, data is the consecutive slice for that page, has_previous and has_next follow from position), which a programmer would apply to produce the expected dict.",
+  "missing": "none"
+}

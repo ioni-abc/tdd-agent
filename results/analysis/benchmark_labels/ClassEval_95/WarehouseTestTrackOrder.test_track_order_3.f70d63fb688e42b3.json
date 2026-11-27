@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same flow (add product, create order, track order) returning 'Shipped', and the test only changes the quantity, which the example does not depend on.",
+  "missing": "none"
+}

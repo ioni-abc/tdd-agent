@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's only example hints at one-hour slots starting at midnight, but it never states the slot duration, the start and end boundaries of the day, or whether a slot overlapping an event is excluded, so the expected count of 23 is not determined.",
+  "missing": "The docstring should state the slot length and how the day is partitioned (for example, consecutive fixed-length slots starting at midnight and ending before the next day), and that any slot overlapping an existing event is excluded from the result."
+}

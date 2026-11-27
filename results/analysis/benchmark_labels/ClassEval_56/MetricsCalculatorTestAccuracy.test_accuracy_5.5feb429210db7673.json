@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example matches the standard accuracy definition (correct predictions over total), so a programmer following it would compute 0.25 for this input.",
+  "missing": "none"
+}

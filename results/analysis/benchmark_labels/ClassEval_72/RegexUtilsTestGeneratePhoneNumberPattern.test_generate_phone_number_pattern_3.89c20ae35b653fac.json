@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest shows the exact pattern, which requires a four-digit final group, so the test's non-match expectation follows from it.",
+  "missing": "none"
+}

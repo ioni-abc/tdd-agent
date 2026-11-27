@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example matches the test's inputs and expected dictionary exactly, though the reference code (which yields 0.45/0.55 for this string) disagrees with both.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"heal ... with 10 hp and the max hp is 100\" plus \"return the current health points after healing\" fully specifies the 90 to 100 outcome that the test checks.",
+  "missing": "none"
+}

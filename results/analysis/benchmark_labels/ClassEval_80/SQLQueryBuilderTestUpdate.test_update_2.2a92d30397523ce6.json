@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example demonstrates the same output shape for an integer update value and one WHERE key-value pair, so a programmer following it would produce the expected string.",
+  "missing": "none"
+}

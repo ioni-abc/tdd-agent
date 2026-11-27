@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The assertion `result[0][2] == 25` depends on an implicit id column that places age at index 2, which the docstring never mentions, so a correct insert could store the row differently and fail.",
+  "missing": "The docstring should state the layout of stored rows, including any auto-generated id column and the order of columns, and which dictionary keys map to which columns."
+}

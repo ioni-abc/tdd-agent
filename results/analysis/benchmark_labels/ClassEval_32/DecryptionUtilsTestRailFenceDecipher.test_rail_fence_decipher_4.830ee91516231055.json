@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names the Rail Fence cipher and the rail count, and the test's expected output follows the standard zigzag convention that the reference code implements.",
+  "missing": "none"
+}

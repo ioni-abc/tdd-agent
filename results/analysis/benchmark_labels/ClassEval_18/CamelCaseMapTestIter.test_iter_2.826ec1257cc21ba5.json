@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test asserts that keys are yielded in insertion order ('firstname', 'lastname', 'age'), and the docstring's example shows only a key iterator object, not the ordering guarantee.",
+  "missing": "The docstring should state the order in which the iterator yields items (for example, insertion order) and whether it yields keys, values, or pairs."
+}

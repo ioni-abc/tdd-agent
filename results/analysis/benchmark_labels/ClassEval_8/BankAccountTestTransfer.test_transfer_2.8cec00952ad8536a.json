@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects a ValueError with the message \"Insufficient balance.\" when the transfer amount exceeds the sender's balance, and the docstring never mentions errors, exceptions, or the balance check.",
+  "missing": "The docstring should state what happens when the amount is greater than the sender's current balance: the method must raise a ValueError with the exact message \"Insufficient balance.\" and leave both accounts' balances unchanged."
+}

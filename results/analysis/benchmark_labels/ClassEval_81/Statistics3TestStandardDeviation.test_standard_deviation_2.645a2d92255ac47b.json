@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the result as the standard deviation of the list, and any standard deviation of identical values is zero, so the test's expected 0.0 follows directly.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's threshold is strict (\"larger than 0\"), so a zero-hp character is not alive and the test's assertFalse matches it.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies BFS from the initial state until the goal is reached and returning the move list, and its example's 'right' move shows the naming convention, so a faithful BFS yields ['right', 'right'].",
+  "missing": "none"
+}

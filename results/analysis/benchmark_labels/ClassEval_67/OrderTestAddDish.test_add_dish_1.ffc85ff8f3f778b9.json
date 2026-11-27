@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rules (return True when the requested count is available, decrement the menu count, and record the dish in the selected list) cover every assertion in the test, and the reference code follows them.",
+  "missing": "none"
+}

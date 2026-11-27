@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the full dict format with the same keys and the slicing and previous/next semantics, so a programmer following it would derive the test's expected values.",
+  "missing": "none"
+}

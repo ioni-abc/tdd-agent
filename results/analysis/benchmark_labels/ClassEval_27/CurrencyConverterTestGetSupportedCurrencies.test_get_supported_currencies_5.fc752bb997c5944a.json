@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example calls CurrencyConverter() and shows exactly the seven currencies in the same order the test asserts, so the expected output is given explicitly.",
+  "missing": "none"
+}

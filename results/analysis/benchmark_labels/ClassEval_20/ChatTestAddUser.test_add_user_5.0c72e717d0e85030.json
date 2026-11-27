@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states that add_user returns True for a new user, and its stray example line `self.users = {'John': []}` shows the attribute name and the empty-list value per user that the final dict assertion checks.",
+  "missing": "none"
+}

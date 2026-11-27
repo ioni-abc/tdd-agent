@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example fixes the exact output format (table name, comma-separated fields, quoted values, trailing semicolon), which the six-field test follows without any new convention.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives one example with a thousands-level number and does not say how larger scale words such as million are spelled or where the \"ONLY\" suffix goes when no remainder exists.",
+  "missing": "The docstring should list the scale words used for each power of a thousand (such as thousand, million, and so on) and state that the phrase ends with \"ONLY\" with no extra words when the number has no fractional or remainder part."
+}

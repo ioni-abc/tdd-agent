@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the result as True when the current operator has higher or equal precedence, which covers the equal-precedence pair \"+\" and \"-\" in this test.",
+  "missing": "none"
+}

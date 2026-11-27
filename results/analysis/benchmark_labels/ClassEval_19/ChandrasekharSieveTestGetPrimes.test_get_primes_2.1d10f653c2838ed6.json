@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_primes returns the list of generated primes, and its example (limit 20 giving primes up to 19) shows the list covers primes below the limit, so a faithful implementation returns the test's expected list.",
+  "missing": "none"
+}

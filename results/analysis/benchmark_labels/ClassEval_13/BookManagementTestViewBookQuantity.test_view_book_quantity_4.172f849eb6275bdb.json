@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "After adding 2 copies and removing 2, the quantity is naturally 0, which matches the docstring's \"return the quantity\" and its 0-for-missing-title rule, so a faithful implementation passes.",
+  "missing": "none"
+}

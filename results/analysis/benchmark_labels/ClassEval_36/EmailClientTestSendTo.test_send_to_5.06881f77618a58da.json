@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring's example shows receiver.inbox as a dict, while the test and reference code expect a list of email dicts.",
+  "missing": "The docstring should state the type of the inbox attribute (a list of email dicts, appended one per sent email) and show a result that matches it, and it should define when the receiver's mailbox counts as full."
+}

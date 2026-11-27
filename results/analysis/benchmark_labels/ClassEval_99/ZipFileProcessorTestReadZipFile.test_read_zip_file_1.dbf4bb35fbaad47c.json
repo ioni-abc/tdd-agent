@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's success case (returning the open file object) covers what the test checks, and the implied read-only opening matches the method name \"read_zip_file\".",
+  "missing": "none"
+}

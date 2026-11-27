@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the method returns True for allowed requests, but the test depends on hidden rules: which path prefixes bypass checks, where the token is read from, and the minimum user level.",
+  "missing": "The docstring should list the conditions for allowing a request: which path prefixes are always allowed, and for other paths, where the authentication token is found in the request and what user attribute threshold must be met."
+}

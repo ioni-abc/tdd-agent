@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example uses the same response shape and shows `cookies` becoming the inner key/value dict, which matches the test's assertion and the reference code.",
+  "missing": "none"
+}

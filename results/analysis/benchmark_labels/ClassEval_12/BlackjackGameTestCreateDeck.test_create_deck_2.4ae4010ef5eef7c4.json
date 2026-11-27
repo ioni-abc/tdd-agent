@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test-target mismatch: the test never calls create_deck and only checks the `self.deck` attribute set up in the constructor, so it is not testing the method it is filed under.",
+  "missing": "none"
+}

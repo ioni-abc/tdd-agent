@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows numeric values quoted as strings (age='15') and a single WHERE condition in the same key='value' format, which covers this test's float and single-condition inputs.",
+  "missing": "none"
+}

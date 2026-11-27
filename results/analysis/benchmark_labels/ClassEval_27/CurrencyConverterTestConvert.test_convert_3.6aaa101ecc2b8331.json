@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The expected value depends on the hidden rate table in the class, which the docstring never describes; its only example (CNY to USD giving 10.0) does not determine the CNY to GBP rate.",
+  "missing": "The docstring should state the supported currencies and their conversion rates (or the base currency they are quoted against and the formula applied), so that any target-currency conversion can be computed from the documentation alone."
+}

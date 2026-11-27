@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test asserts that `image.filename` equals the input path, a PIL-specific property the docstring never mentions, so a correct implementation that opens the file differently (for example, one that copies or converts the image) could fail.",
+  "missing": "The docstring should state that the opened image object must keep its source path, so that its `filename` attribute equals the path that was passed in, and that it must not be replaced by a copy or converted version."
+}

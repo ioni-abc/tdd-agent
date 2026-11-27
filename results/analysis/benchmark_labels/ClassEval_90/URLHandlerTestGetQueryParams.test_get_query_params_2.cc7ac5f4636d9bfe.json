@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's description and example (a dict of query parameters from the URL) cover this case: a plain query string with an empty trailing fragment, where every pair maps to a string value.",
+  "missing": "none"
+}

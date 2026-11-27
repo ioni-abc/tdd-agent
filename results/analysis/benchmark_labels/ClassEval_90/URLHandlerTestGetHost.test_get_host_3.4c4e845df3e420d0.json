@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_host returns the host domain name of the URL, and the baidu example shows the host being the part between the scheme and the first slash, which matches the expected \"github.com\".",
+  "missing": "none"
+}

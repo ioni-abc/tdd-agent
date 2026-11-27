@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the method returns True when the current operator has higher or equal precedence, but the test expects False for \"/\" against \"+\", which the reference code also produces.",
+  "missing": "The docstring should state explicitly which operator's precedence is compared against which and in what direction, so that a higher-precedence current operator yields True regardless of how the operator table is indexed."
+}

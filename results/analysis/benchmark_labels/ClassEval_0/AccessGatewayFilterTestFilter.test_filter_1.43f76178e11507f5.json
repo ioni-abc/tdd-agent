@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"based on certain rules and conditions\" without naming them, so a correct implementation could reasonably return False for this request.",
+  "missing": "The docstring should list the concrete conditions for allowing a request, such as which path prefixes bypass authentication and what token or user level is required for all other paths, and what happens when no token is supplied."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never specifies the total_pages value for zero matches, so the test's expected 0 is a convention a correct implementation could reasonably violate.",
+  "missing": "The docstring should state how total_pages is computed when no items match (for example, whether it is 0 or 1) and how many items are returned as matches, including whether matching is by substring of the string form of each item."
+}

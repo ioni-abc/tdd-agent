@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same row-first mapping and the ' ' replacement, so the test's expected board follows from the docstring.",
+  "missing": "none"
+}

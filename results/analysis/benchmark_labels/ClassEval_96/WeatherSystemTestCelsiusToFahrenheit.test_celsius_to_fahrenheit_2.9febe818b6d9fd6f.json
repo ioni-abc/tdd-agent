@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes converting Celsius to Fahrenheit and gives a matching example (27 gives 80.6), so a programmer following it would produce 73.4 for 23.",
+  "missing": "none"
+}

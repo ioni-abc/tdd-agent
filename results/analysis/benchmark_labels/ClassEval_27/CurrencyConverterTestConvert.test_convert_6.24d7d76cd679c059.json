@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only covers the normal conversion and the return type, so it does not say that an unknown currency should return False, and a correct implementation could raise an error or return something else.",
+  "missing": "The docstring should state what the method returns when either currency code is not one it supports, for example returning False instead of raising an error or returning a number."
+}

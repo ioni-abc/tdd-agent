@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes the normal z-score computation and never mentions the zero-standard-deviation case, which the test expects to return None.",
+  "missing": "When the standard deviation of the input is zero (e.g. all elements are equal), the function should return None instead of dividing by zero."
+}

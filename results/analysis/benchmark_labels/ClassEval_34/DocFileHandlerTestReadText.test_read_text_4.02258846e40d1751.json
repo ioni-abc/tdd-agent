@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects a newline inside one paragraph to come back as a literal \"\\n\", which the docstring never specifies, so a correct implementation using a different text-extraction convention could fail.",
+  "missing": "The docstring should state how text is assembled from the document: the separator used between paragraphs, and how line breaks within a paragraph are returned in the string."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method removes the book identified by the given ID, which is exactly what the test checks by querying for that ID afterward and expecting no row.",
+  "missing": "none"
+}

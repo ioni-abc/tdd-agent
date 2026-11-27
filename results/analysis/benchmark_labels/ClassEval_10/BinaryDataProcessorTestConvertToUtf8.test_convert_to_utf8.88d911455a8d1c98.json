@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example uses the identical binary string and expected output \"hello\" that the test asserts, so a faithful implementation passes.",
+  "missing": "none"
+}

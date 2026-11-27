@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the temperature to end at 19.7, below the target of 20, which the docstring's \"until the target temperature is reached\" does not specify (it could be read as stopping at the target).",
+  "missing": "The docstring should state that the temperature changes in fixed 1-degree steps and keeps going until it is strictly past the target, so the final temperature can be below or above the target, and that this final value is what the object retains."
+}

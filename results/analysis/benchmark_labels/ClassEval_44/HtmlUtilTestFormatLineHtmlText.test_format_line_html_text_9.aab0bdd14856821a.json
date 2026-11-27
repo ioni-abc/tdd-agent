@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows paragraph text returned without HTML tags, and this input's text already ends with a period, so a faithful implementation returns exactly the expected string.",
+  "missing": "none"
+}

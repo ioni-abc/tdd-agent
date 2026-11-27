@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the return value is a list of y-coordinates for the interpolation points, so zero points should give `[]`, which is what the test asserts.",
+  "missing": "none"
+}

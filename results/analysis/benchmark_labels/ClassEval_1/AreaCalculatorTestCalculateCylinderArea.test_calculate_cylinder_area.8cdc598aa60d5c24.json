@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example pins down the total surface area formula, and the test's input (radius 2, height 2) yields 16\u03c0 \u2248 50.265, which is within the 0.01 delta of 50.27.",
+  "missing": "none"
+}

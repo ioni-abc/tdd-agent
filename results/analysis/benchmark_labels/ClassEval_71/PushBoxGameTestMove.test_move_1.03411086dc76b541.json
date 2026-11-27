@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example runs the identical move sequence and shows the same False, False, False, False, True return values that the test asserts.",
+  "missing": "none"
+}

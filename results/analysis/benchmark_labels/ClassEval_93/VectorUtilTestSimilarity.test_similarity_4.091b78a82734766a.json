@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's definition of cosine similarity, which the example confirms, fully determines the expected value 0.8944271909999159 that the test asserts.",
+  "missing": "none"
+}

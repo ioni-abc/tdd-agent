@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says removing an existing employee returns True, and the test also checks that the employee is deleted from the dictionary, which a programmer would infer from \"Remove an employee from the HRManagementSystem.\"",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method extracts the named file into the given path and returns True on success, which covers both assertions in the test.",
+  "missing": "none"
+}

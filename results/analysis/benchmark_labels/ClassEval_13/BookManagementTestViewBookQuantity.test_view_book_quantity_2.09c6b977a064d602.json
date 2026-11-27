@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says the method returns 0 for a title not in the inventory, and the test queries a title on an empty inventory, so the expected 0 follows directly.",
+  "missing": "none"
+}

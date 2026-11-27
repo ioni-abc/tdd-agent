@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method applies the given operator to the two operands and returns a decimal.Decimal, so subtraction yields Decimal 1, which equals Decimal(1.0).",
+  "missing": "none"
+}

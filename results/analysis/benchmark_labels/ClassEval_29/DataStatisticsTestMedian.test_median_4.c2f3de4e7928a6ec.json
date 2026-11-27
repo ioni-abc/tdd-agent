@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the median and its two-decimal precision, and the test's expected 5 equals 5.00 numerically, so a conforming implementation passes.",
+  "missing": "none"
+}

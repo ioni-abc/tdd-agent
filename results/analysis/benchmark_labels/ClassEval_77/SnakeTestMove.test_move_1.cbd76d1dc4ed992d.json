@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring's example states length 1 and score 10 after the move, but the test expects length 2 and score 100 for the same move.",
+  "missing": "The docstring should state the exact length and score change when the head lands on food, and make its example output match that rule (for example, how much the score rises per meal and whether the length grows by one)."
+}

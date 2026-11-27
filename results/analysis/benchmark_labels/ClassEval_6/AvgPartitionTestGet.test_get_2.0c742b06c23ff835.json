@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get returns the block for the given partition index, and its example (get(0) gives [1, 2]) shows the even split, so a programmer following it would produce [3, 4] for index 1.",
+  "missing": "none"
+}

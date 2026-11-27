@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example shows a nested list per input string with stop words dropped, which yields exactly the expected [[], [], [], ['This']] for these inputs.",
+  "missing": "none"
+}

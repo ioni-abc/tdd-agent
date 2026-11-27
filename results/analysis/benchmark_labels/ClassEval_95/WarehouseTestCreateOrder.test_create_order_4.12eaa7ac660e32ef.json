@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the order is stored with product_id, quantity and default status 'Shipped', and returns False only when the product is missing or stock is inadequate, which does not apply when stock exactly covers the request.",
+  "missing": "none"
+}

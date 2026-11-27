@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's requirement of four dot-separated digits directly implies the expected False for a three-part address.",
+  "missing": "none"
+}

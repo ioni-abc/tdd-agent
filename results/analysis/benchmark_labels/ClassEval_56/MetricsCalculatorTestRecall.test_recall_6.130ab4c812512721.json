@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only gives the basic formula example and never describes the zero-denominator case (no true positives and no false negatives), which this test checks.",
+  "missing": "When the count of actual positive labels is zero, the function should return a specified default value (here 0.0) instead of dividing by zero, and the docstring should state this."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "PREDICTION: The docstring only says the value is stored under the key, so it implies nothing about converting 'firstName' to 'first_name' before storing, and the test's expected result is not stated.\nLABEL: unstated\nREASON The test depends on camelCase keys being normalised to snake_case before stor",
+  "missing": "The docstring should state that keys are converted (for example, camelCase keys are turned into underscore-separated keys) before the value is stored, so that a later lookup with either form finds the same entry."
+}

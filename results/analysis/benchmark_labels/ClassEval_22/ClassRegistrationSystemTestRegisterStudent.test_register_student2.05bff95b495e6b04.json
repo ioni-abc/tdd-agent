@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly states that re-registering an already-registered student returns 0, which is exactly what the test asserts after a first registration.",
+  "missing": "none"
+}

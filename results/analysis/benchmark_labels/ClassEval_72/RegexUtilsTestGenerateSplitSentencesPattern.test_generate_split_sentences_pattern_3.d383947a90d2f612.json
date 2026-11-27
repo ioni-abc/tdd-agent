@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring pins the pattern to a specific regex, so a programmer who returns it will get False for `'? '`, since the lookahead requires a capital letter that is absent.",
+  "missing": "none"
+}

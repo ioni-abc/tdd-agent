@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says nothing about malformed or non-decimal numeric references, and the test expects the whole output to be empty, which a reasonable implementation could fail by keeping the text or decoding the later valid references.",
+  "missing": "The docstring should state how invalid numeric references are handled, including whether the text is kept literally, skipped, or stops all further processing, and whether the output is truncated."
+}

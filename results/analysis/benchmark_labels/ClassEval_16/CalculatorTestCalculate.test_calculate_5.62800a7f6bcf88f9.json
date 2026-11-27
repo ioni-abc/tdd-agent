@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"returns the value of the expression\" covers standard left-to-right addition of the numbers, giving 6, which the test asserts (6.0 equals 6 in Python).",
+  "missing": "none"
+}

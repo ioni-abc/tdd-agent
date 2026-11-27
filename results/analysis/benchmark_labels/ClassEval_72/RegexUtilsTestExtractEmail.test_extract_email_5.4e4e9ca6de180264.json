@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says \"extract all email addresses\" but never defines what counts as a valid address, so whether \"ygusyfysy@.com\" is rejected depends on a format rule the docstring does not give.",
+  "missing": "The docstring should state the accepted email format, such as the required local part, the \"@\" symbol, and a domain with at least one label before the top-level suffix, and that any token not matching this format is excluded from the result."
+}

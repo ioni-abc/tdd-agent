@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says numbers are not counted, so a programmer following it would count only \"abc\" and return 1, matching the assertion.",
+  "missing": "none"
+}

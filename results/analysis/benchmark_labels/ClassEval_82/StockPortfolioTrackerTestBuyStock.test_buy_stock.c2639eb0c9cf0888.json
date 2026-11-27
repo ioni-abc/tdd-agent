@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers the True return and the portfolio addition but never says that the cash balance is reduced by price times quantity, which the test asserts.",
+  "missing": "The docstring should state that a successful purchase deducts the total cost (price multiplied by quantity) from the cash balance, and that the balance is unchanged when the purchase fails."
+}

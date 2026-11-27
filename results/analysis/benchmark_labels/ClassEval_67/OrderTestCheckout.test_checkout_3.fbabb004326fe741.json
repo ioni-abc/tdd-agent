@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test asserts the menu stock counts drop and the selected dishes are emptied after checkout, and the docstring mentions neither effect.",
+  "missing": "The docstring should state that a successful checkout reduces each dish's menu count by the quantity ordered and clears the selected dishes list, and it should give the discount formula for the total."
+}

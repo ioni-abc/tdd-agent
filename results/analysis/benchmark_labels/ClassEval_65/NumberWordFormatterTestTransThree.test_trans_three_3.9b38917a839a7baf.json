@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows the \"123\" example and never says how a leading zero in the three-digit input is handled, so the expected \"SEVEN\" is not determined by it.",
+  "missing": "The docstring should say how a leading zero is treated, for example that a leading zero is dropped and the remaining digits are converted as a two-digit number, with no \"HUNDRED\" word."
+}

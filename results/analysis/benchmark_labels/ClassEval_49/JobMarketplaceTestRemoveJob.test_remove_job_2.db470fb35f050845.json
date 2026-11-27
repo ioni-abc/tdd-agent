@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the given job dict is removed from job_listings, so a correct implementation leaves the other listing in place as the test asserts.",
+  "missing": "none"
+}

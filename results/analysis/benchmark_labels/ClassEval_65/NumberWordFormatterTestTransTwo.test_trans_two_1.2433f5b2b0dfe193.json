@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example, trans_two(\"23\") returning \"TWENTY THREE\", matches the test's input and expected output exactly.",
+  "missing": "none"
+}

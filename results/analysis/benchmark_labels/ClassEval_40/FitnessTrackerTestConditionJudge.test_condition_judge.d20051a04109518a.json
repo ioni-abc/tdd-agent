@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"-1 if the user is too thin\" applies directly to a BMI this low, and the test expects -1.",
+  "missing": "none"
+}

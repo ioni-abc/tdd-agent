@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says punctuation is removed, the sentence is tokenized, and each word's POS tag is returned, which matches the expected eight tags for the eight words.",
+  "missing": "none"
+}

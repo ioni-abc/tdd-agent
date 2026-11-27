@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example uses the same format (list of columns joined by commas, where-value wrapped in single quotes), so a programmer following it would produce the test's expected string.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines f1_score as the harmonic mean of precision and recall, and its example (0.5 for a symmetric case) matches the standard binary definition, so a programmer following it would compute 0.4 here.",
+  "missing": "none"
+}

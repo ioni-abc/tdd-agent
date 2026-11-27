@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says any sex outside Man, Woman, or UGM is set to None, which is exactly what the test checks for the invalid value \"khsigy\".",
+  "missing": "none"
+}

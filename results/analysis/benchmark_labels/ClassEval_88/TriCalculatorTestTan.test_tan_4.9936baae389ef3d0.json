@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"x-degree angle\" makes the expected tan(60) \u2248 1.7320508 derivable, and assertAlmostEqual's default tolerance means any correct degree-based tangent passes.",
+  "missing": "none"
+}

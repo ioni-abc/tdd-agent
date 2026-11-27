@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring's example output (score = 10, positions = [(51, 51), (50, 50)]) conflicts with the test's expected score of 0 and with the reference code, which only increases score when the head reaches food.",
+  "missing": "The example must match the implemented rules: the score changes only when the head lands on the food, and the body list is trimmed to the current length, so a move that does not reach food leaves the score unchanged."
+}

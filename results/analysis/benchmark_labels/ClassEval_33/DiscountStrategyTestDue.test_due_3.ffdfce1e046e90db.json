@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's only example uses FidelityPromo, and nothing describes the BulkItemPromo discount rule (threshold and percentage) needed to get 410.0.",
+  "missing": "Each promotion strategy should document its exact rule, including which items qualify, the quantity threshold, and the discount percentage or amount, so an implementer can compute the final amount for any cart."
+}

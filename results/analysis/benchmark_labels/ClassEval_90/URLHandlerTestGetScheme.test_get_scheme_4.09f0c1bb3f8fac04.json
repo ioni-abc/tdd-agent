@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's general statement that the method returns the URL's scheme covers this case, since \"aaa\" is the scheme of that URL and a programmer would return it.",
+  "missing": "none"
+}

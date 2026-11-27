@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the result as the difference of the two complex numbers, which is exactly what the test checks, and the worked example uses the same arithmetic.",
+  "missing": "none"
+}

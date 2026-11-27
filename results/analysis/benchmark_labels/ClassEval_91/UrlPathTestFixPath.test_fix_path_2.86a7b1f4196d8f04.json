@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly states that leading and trailing slashes are removed, which yields 'aaa/bbb' for this input, matching the assertion and reference code.",
+  "missing": "none"
+}

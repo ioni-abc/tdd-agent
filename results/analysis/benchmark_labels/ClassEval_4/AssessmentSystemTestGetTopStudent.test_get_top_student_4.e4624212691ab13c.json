@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring clearly says to return the name of the student with the highest gpa (computed with get_gpa), which is exactly what the test checks, and the reference code does the same.",
+  "missing": "none"
+}

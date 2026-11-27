@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test exercises answer() and is filed under test_answer_6, but the docstring supplied is for get_my_cards, so the docstring does not cover the tested method.",
+  "missing": "The docstring of any method that checks a player's expression should state the rule it applies, for example whether the expression must use exactly the given cards and evaluate to the target value, and what boolean it returns in each case."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines each dict's Chord as the letters and Tune as the numbers, so a single-chord input yields exactly the asserted output.",
+  "missing": "none"
+}

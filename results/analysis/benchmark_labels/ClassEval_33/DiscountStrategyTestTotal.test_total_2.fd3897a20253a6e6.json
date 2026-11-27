@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the total cost of the cart items, and the test's expected 150.0 is exactly the sum of quantity times price (10\u00d710.0 + 5\u00d710.0).",
+  "missing": "none"
+}

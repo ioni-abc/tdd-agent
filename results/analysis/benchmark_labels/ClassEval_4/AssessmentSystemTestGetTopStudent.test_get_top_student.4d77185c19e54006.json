@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies returning the name of the student whose GPA is highest, and the test's scores (Alice 90 vs Bob 85 in a single course each) make Alice the expected result under that rule.",
+  "missing": "none"
+}

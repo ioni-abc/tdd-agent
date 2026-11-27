@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says legal parameters are non-negative and even and that only illegal ones raise ValueError, so a correct implementation passes this call silently, matching the test.",
+  "missing": "none"
+}

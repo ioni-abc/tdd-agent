@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the list-to-comma-separated format and the WHERE clause layout, which is enough for a programmer to produce this exact output, since the single list element already contains the comma and the condition is passed through verbatim.",
+  "missing": "none"
+}

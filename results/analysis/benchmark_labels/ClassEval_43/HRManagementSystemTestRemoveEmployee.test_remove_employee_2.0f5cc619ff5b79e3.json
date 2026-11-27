@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method removes the employee and returns True if they were present and False otherwise, which covers both calls and the emptied dictionary.",
+  "missing": "none"
+}

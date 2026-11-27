@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own doctest uses the same binary input and expects 'hello', so the test's expectation is exactly what the docstring specifies.",
+  "missing": "none"
+}

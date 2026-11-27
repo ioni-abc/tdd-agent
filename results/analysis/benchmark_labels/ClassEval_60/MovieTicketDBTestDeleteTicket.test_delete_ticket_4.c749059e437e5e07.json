@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test depends on the id being the first column of each returned row, and the docstring only says the rows come from the \"tickets\" table without giving column order or naming the id column.",
+  "missing": "The docstring should state the column order of each returned row, including which column is the unique identifier and whether it comes first, so callers can use it to refer to a row."
+}

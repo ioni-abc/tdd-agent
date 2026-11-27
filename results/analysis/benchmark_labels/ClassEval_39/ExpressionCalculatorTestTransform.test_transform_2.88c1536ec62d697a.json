@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same whitespace-stripping behaviour that this test checks, so a programmer following it would produce \"2+3/4\".",
+  "missing": "none"
+}

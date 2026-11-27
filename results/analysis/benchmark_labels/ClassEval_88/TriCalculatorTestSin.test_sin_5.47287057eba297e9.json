@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies degree input and a float return, which is exactly what the test checks, and assertAlmostEqual tolerates the tiny rounding difference.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring names three condition categories (too fat, normal, too thin) but gives no rule for assigning a user to one, and this test's expected value depends on the \"normal\" branch.",
+  "missing": "The docstring should state the exact criteria (for example, a BMI range or weight-to-height threshold) that decide whether a user counts as too fat, normal, or too thin, and what the method does with values that fall outside them."
+}

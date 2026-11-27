@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says length becomes 1, the head goes to (SCREEN_WIDTH/2, SCREEN_HEIGHT/2), and score becomes 0, which are exactly the three values the test asserts for a 100x100 screen.",
+  "missing": "none"
+}

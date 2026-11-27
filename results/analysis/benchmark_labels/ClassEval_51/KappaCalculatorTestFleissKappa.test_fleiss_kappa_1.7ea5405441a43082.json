@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example uses this exact 10\u00d75 matrix with N=10, k=5, n=14 and shows the output 0.20993070442195522, which is the test's expected value.",
+  "missing": "none"
+}

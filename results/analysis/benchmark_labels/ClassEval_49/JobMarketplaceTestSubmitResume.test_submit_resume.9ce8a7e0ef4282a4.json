@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says the resume is added to the resumes list and its doctest shows the exact dict structure produced for these same inputs, so the test's expectation is fully specified.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes adding a new product and never mentions adding to an item that is already in the inventory, which is what the test checks (quantities merged to 20, price kept).",
+  "missing": "The docstring should say what happens when an item with the same name already exists: whether its quantity is increased by the new amount, and whether its stored price is kept or replaced."
+}

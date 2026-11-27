@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test reads `self.deck`, an attribute set in the constructor, and the docstring only describes the return value of `create_deck`, so a correct implementation could still fail if the constructor does not store a full deck.",
+  "missing": "The docstring should state that the object's constructor initializes its stored deck attribute with the full set of cards, in the same format, so that code reading that attribute without calling the method gets the complete deck."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring clearly describes the insertion the test depends on, and the remaining assertions exercise search_student_by_name, whose behaviour is outside this method's docstring.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example performs the same set, delete, and membership check and shows `flag = False`, so the test's expectation matches the documented behaviour.",
+  "missing": "none"
+}

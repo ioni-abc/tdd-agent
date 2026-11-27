@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers the True/False return values and the placement of the symbol, but it does not say that the first player is 'X' or how an empty cell is represented on the board, which the final board comparison depends on.",
+  "missing": "The docstring should state the initial current player, the value used for an empty cell, and the board's structure (for example, a 2D list of single characters), so an implementation can match the expected board contents after a move."
+}

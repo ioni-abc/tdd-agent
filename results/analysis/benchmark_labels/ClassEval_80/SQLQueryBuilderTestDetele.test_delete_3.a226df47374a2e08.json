@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the exact format (key='value' joined by AND after WHERE), and the test's single-key case follows directly from it.",
+  "missing": "none"
+}

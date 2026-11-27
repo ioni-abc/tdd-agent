@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the amount moves from the current account to the other account, and its example shows the sender debited and the recipient credited by the transfer amount, which is exactly what the test checks.",
+  "missing": "none"
+}

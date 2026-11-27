@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the result is accurate to two decimal places and its example output for the same input is 1.12, matching the test's expected value.",
+  "missing": "none"
+}

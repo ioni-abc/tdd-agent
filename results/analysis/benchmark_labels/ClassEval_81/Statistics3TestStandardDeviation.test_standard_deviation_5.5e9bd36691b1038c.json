@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring doesn't say whether the denominator is n or n-1, and the reference uses the sample form (n-1), which gives 1.3038 for this input.",
+  "missing": "The docstring should state whether the result is the population standard deviation (divide by n) or the sample standard deviation (divide by n-1), and what value is returned when the list has fewer than two elements."
+}

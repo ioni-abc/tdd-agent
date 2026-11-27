@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (attack 10 vs defense 2 reduces hp from 100 to 92) fixes the subtraction rule, and the test only applies that same rule three times, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

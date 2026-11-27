@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The pattern requires four digits in the final group, and \"123-456-789a\" has only three digits there, so no match exists whether anchored at the start or searched anywhere, and the docstring's True/False contract covers this.",
+  "missing": "none"
+}

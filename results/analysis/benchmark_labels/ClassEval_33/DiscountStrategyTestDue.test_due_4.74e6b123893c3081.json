@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives no discount rule for LargeOrderPromo (its threshold and percentage), so a correct implementation could still produce a different amount than 139.5.",
+  "missing": "The docstring should state, for each promotion strategy, the eligibility condition (such as minimum item count or fidelity level) and the exact discount formula (percentage or fixed amount) applied to the cart total."
+}

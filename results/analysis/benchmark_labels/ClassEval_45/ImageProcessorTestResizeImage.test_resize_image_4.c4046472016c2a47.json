@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test asserts that the image mode stays \"RGB\" after resizing, but the docstring never says whether the color mode is preserved or changed.",
+  "missing": "The docstring should state whether resizing keeps the image's existing color mode and pixel format unchanged or may alter them."
+}

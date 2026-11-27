@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns a list of the XML elements with the given name, and its example shows the same three `item` elements (apple, banana, orange) that the test asserts.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example with a 1-D list returning 1.0 is the same behaviour the test checks with a different 1-D list, so a programmer following it would pass.",
+  "missing": "none"
+}

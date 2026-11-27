@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest example shows the exact same list for a new CurrencyConverter, so the test's expected value matches the documented behaviour.",
+  "missing": "none"
+}

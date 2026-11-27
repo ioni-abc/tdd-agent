@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the function returns False for any character that is not a hexadecimal digit, and 'X' is not one, so a programmer following it would return False and pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule that digit cards add their face value directly to the total gives 14 for this hand, matching the assertion and the reference code.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never specifies the rate of temperature change per time unit, so the expected return value of 5 for a 5-degree gap depends on an unstated convention, though the docstring example hints at a 1-degree step.",
+  "missing": "The docstring should state that each simulation step changes the current temperature by exactly one degree toward the target and that the returned time equals the number of such steps."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring promises a list of tuples of all matching rows, but the reference code returns `fetchone()`, a single row tuple, and the test indexes that tuple directly (`user[0] == 'user2'`).",
+  "missing": "The docstring should state whether the method returns one row or a list of all matching rows, and give the shape of each return value (a single tuple versus a list of tuples, or None when there is no match)."
+}

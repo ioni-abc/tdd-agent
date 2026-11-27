@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"True if balanced, False otherwise\" covers this input, which has mismatched brackets, so a correct implementation returns False as the test expects.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example \"&#65;&#66;&#67;\" maps to \"ABC\" and states that numeric references become their Unicode characters, so the test's input \"&#67;&#67;&#67;\" yielding \"CCC\" follows directly.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test wraps the call in try/except with only `pass` and has no assertion, so every outcome (exception or return value) passes and no correct implementation can fail it.",
+  "missing": "none"
+}

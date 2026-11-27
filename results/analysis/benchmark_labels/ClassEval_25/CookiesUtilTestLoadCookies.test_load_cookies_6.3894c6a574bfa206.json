@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring describes only the normal case of loading cookies from a file and does not say what happens when the file cannot be found, which is the case this test checks.",
+  "missing": "The docstring should state what the method returns when the cookies file does not exist or cannot be opened, for example an empty dict instead of an error."
+}

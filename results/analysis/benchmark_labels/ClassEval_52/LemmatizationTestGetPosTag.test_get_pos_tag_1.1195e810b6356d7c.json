@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example for \"I am running in a race.\" returns exactly the list the test asserts, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

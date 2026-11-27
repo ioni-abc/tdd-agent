@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes column selection by 0-based index, uppercasing (its example shows `hElLo` becoming `HELLO`), the `_process` output filename, and the return value of 1 on success, which together match the test's assertions.",
+  "missing": "none"
+}

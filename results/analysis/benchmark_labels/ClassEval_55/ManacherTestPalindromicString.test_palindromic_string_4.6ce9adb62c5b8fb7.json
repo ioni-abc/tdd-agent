@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's stated behaviour (return the longest palindromic substring) uniquely determines the expected 'ababa' for this input, with no tie.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's example for '10.0.0.1' shows no output, which neither states None nor contradicts it, so the expected None return is a convention the docstring does not specify.",
+  "missing": "When no hostname can be found for the given address, the method should return a specific value (such as None) and the docstring should say so, instead of only describing the successful lookup."
+}

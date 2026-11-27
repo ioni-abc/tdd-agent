@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects a fully removed title to disappear from the inventory, and the docstring never says whether zero-quantity entries are deleted or kept.",
+  "missing": "The docstring should state what happens to a title when its quantity reaches zero after removals, for example whether its key is deleted from the inventory dictionary or kept with a count of 0."
+}

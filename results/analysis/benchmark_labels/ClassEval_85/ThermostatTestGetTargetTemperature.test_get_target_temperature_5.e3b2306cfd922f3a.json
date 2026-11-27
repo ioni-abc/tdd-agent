@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring's return clause names `self.current_temperature`, while the reference code returns `self.target_temperature` and the test expects the target value.",
+  "missing": "The return note should name the attribute the method actually returns, which must match the description of what it gets (the target temperature, not the current temperature)."
+}

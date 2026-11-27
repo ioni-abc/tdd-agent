@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes returning the hostname for a valid lookup and never mentions the failure case where no hostname exists, which the test expects to return None.",
+  "missing": "The docstring should state what the function returns when the IP address has no resolvable hostname, for example that it returns None when the reverse lookup fails."
+}

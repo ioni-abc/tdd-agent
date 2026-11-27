@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly states that when the check-in quantity is less than the booked quantity, the remaining booked number becomes booked minus actual, which is exactly what the test asserts.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test's assertions depend on the search method's return layout (a row whose index 1 holds the name, implying an id column first), which the insert docstring does not describe.",
+  "missing": "Document the table's column layout and any generated fields (such as an id) so that a row returned by a query has a defined position for each field, and state that inserted records are retrievable by later lookups."
+}

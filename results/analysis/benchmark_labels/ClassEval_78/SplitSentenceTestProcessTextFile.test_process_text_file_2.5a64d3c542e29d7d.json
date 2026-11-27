@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says sentences are split by punctuation and the longest is counted, so a standard split on periods would yield 4 and fail the test's expected 5.",
+  "missing": "The docstring should state whether abbreviations (titles, initials, or any word ending in a period) are treated as sentence boundaries, and how a period followed by a space is classified in general."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns \"the size of each block and the remainder of the division\", which is exactly len // limit and len % limit, so the expected (2, 1) follows from it.",
+  "missing": "none"
+}

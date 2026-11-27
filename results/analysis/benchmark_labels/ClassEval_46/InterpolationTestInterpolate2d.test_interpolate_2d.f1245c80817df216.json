@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest uses the same x, y, z, and interpolation points as the test and shows the identical expected output [3.0, 7.0].",
+  "missing": "none"
+}

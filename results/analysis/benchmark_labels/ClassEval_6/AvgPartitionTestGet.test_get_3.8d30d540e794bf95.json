@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the size and remainder are computed and gives an even-split example, so it does not specify that the leading blocks receive the extra element, and a correct implementation could put the remainder in the last block instead.",
+  "missing": "When the items cannot be divided evenly, the docstring should state which blocks receive the extra items (for example, the first blocks each get one more item than the rest), and how many extra items each block gets."
+}

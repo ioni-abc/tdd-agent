@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the rows matching the customer name, so the one-row and zero-row counts follow directly, even though the deletion step relies on other code.",
+  "missing": "none"
+}

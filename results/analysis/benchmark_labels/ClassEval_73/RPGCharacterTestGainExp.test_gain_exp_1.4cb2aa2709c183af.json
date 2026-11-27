@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test-reference mismatch: the reference code gives level 10 and exp 100 for this setup, but the test expects level 2 and exp 0, so the test does not fit the reference code or the docstring's rule.",
+  "missing": "none"
+}

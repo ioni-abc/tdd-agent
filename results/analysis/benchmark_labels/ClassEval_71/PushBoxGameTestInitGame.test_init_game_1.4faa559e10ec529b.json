@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test checks that the `map` attribute equals the constructor's input, which the docstring of `init_game` never mentions, so a correct implementation could still fail it.",
+  "missing": "The docstring should state that the game keeps the map it was constructed with, unchanged, in its `map` attribute."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only documents the thousand/million/billion indices and the example for index 1, so the expected empty-string result for index 0 is not specified.",
+  "missing": "The docstring should state the return value for indices outside the documented magnitudes, including the index that represents no suffix (for example, whether it returns an empty string)."
+}

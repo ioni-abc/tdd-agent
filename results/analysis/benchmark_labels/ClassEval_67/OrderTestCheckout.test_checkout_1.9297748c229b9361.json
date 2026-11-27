@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The return value follows from the docstring's example, but the test also asserts that menu counts are decremented and selected_dishes is emptied, and the docstring never mentions either.",
+  "missing": "The docstring should state that checkout reduces each ordered dish's count in the menu by the quantity ordered and clears the selected dishes list after a successful checkout."
+}

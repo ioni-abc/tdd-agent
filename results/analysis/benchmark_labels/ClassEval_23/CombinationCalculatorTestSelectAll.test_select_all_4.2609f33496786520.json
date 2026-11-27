@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the output as all combinations of selected elements from the data list, and an empty list has no non-empty combinations, so a faithful implementation returns an empty list.",
+  "missing": "none"
+}

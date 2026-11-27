@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest uses the same inputs and the same expected string, including the leading minus sign for a negative result, so the test's behaviour is documented.",
+  "missing": "none"
+}

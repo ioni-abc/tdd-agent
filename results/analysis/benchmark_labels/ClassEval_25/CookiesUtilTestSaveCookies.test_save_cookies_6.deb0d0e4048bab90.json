@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False whenever saving is not successful, and opening an empty filename for writing fails, so the test's expected False follows directly.",
+  "missing": "none"
+}

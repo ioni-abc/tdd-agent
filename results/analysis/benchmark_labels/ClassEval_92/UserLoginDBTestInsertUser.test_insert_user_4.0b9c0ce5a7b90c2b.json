@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says `insert_user` inserts the given username and password into the \"users\" table, which is the behaviour the test relies on, and the lookup through `search_user_by_username` is a separate method.",
+  "missing": "none"
+}

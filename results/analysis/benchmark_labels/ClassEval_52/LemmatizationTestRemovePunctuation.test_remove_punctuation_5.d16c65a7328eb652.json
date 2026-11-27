@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's general rule \"removes punctuation ... without any punctuation\" directly implies that the question mark and the periods are stripped while the words and spaces remain, matching the test's expected output.",
+  "missing": "none"
+}

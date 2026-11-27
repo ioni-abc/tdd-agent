@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes a BFS that returns the path to the goal, and its example ['right'] fixes the goal layout and the meaning of direction names, so this two-move shortest path follows from the docstring.",
+  "missing": "none"
+}

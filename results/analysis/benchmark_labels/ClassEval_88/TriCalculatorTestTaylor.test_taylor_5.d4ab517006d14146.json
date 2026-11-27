@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method computes the n-order Taylor expansion of cos(x/180*pi), and with n=50 that series converges to the test's expected cosine value within assertAlmostEqual's tolerance.",
+  "missing": "none"
+}

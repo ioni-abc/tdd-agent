@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the position information that meets the given requirements, which matches the test's expectation that only the listing requiring \"skill1\" is returned.",
+  "missing": "none"
+}

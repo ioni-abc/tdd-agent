@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows set_city('Beijing') followed by weatherSystem.city returning 'Beijing', which is exactly what the test asserts.",
+  "missing": "none"
+}

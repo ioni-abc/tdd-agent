@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test-method mismatch: the test exercises DocFileHandler's read_text, write_text, add_heading and add_table and never calls _get_alignment_value.",
+  "missing": "none"
+}

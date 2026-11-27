@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test/method mismatch: the test calls insert_ticket and search_tickets_by_customer and never invokes create_table, so it does not check the create_table docstring at all.",
+  "missing": "none"
+}

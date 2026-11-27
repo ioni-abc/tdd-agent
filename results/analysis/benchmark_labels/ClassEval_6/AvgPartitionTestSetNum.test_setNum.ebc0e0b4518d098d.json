@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example (AvgPartition([1,2,3,4],2).setNum() gives (2, 0)) matches the test's inputs and expected tuple exactly.",
+  "missing": "none"
+}

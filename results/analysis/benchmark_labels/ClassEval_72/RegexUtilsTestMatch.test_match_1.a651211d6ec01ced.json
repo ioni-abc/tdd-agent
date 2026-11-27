@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it returns True or False depending on whether the text matches the regular expression, and the test expects True for a text that fits the pattern.",
+  "missing": "none"
+}

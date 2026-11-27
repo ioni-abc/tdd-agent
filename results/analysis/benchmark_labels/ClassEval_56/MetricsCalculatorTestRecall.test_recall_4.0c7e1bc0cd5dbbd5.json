@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example ([1,1,0,0] vs [1,0,0,1] gives 0.5) matches TP/(TP+FN) with label 1 as positive, and the test's inputs follow the same rule to give 2/3, which the reference code also returns.",
+  "missing": "none"
+}

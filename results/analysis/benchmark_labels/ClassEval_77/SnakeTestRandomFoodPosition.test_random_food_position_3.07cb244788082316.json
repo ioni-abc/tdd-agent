@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test's bounds assertions (coordinates between 0 and 100) depend on a screen-grid convention that the docstring never mentions, though the not-on-snake check is stated.",
+  "missing": "The docstring should state that the new food coordinates must lie on the play-area grid, within the screen bounds and aligned to the block size, in addition to not overlapping the snake's body."
+}

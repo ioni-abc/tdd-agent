@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns 0 when the key does not exist, and since nothing is removed or rewritten with different content, the file keeps its original data, which is what the test checks.",
+  "missing": "none"
+}

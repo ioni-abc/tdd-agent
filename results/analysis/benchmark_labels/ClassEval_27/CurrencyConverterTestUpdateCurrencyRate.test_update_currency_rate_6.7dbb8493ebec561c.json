@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says failure returns False without defining what makes an update unsuccessful, so a programmer could reasonably add a new currency instead of returning False.",
+  "missing": "The docstring should state the conditions that count as an unsuccessful update, for example whether updating a currency that is not already in the stored rates returns False or adds it."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows accuracy as matching predictions divided by total, and the test applies the same computation to a different input, so a correct implementation passes.",
+  "missing": "none"
+}

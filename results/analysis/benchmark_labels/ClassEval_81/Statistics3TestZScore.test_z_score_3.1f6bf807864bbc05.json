@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows a normal four-element example and never says what happens when the standard deviation is zero, which is the case for a one-element list where the test expects None.",
+  "missing": "The docstring should state the return value when the z-score is undefined, such as when the list has fewer than two elements or all values are equal (zero standard deviation), namely that the function returns None."
+}

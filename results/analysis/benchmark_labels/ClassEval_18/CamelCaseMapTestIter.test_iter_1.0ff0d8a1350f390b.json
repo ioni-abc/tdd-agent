@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the camelCase keys 'firstName', 'lastName', 'age' in insertion order, but the docstring never says the keys are converted or what order the iterator yields them in, so a correct iterator over the stored keys could fail.",
+  "missing": "The docstring should state what the iterator yields, including whether keys are transformed (for example, converted to a specific naming convention) when stored and whether they come out in insertion order."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers the available_rooms increment, which matches the test, but the test also asserts booked_rooms is left untouched, and the docstring is silent on that.",
+  "missing": "The docstring should state whether checking out also changes any other state, such as per-guest booking records, and if it does not, say that only the available room count is modified."
+}

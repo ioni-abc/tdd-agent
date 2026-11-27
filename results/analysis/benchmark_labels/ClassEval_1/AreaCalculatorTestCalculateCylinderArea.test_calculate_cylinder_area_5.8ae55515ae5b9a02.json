@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's worked example fixes the formula as total surface area 2\u03c0r(r+h), and the test's inputs produce the same 62.83 result under it.",
+  "missing": "none"
+}

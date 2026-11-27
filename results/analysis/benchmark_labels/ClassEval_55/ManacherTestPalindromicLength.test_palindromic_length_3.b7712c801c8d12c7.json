@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring describes the function only as recursively computing a palindrome length from center, diff and string, and never mentions the stopping condition, so the out-of-bounds 0 result is an unspecified edge case.",
+  "missing": "The docstring should state the termination rule: when the offset from the center reaches or passes either end of the string, or the characters at the two symmetric positions differ, the function returns 0, and otherwise it counts each matching step."
+}

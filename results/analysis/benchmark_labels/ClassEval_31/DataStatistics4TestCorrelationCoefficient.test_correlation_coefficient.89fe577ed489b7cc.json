@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example uses the same inputs and shows the same exact float the test asserts, so a implementation following it would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule that sentences end with \".\" or \"?\" followed by a space directly yields the three expected pieces, and the final period has no trailing space so it stays attached.",
+  "missing": "none"
+}

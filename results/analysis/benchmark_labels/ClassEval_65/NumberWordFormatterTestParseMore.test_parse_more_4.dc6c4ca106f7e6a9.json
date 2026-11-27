@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's ordered list plus the index-1 example fixes the mapping, so index 3 returning \"BILLION\" follows directly from the docstring.",
+  "missing": "none"
+}

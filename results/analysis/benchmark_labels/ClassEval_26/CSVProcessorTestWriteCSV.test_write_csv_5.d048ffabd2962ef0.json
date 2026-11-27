@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's stated success return value of 1 matches the test's first assertion, and the read-back checks follow from \"write data into a csv file\" under standard CSV semantics.",
+  "missing": "none"
+}

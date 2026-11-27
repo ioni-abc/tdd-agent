@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives no rule for the case where the last two digits are zero, so a correct implementation could reasonably return \"NINE HUNDRED AND ...\" or similar, and the test's expected \"NINE HUNDRED\" is not implied.",
+  "missing": "The docstring should state how numbers are worded when the tens and units digits are both zero, including whether the \"AND\" connector is omitted in that case, and should give an example of such an input."
+}

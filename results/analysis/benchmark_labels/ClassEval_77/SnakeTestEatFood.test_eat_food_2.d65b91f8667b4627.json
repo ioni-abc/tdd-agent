@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The prose explicitly says each call increases length by 1 and score by 100, which matches the test's expected length 3 and score 200 after two calls, though the docstring's example output (score 10) conflicts with it.",
+  "missing": "none"
+}

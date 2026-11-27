@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's return description (a list of dicts with letter Chord and numeric Tune fields) fully determines the asserted output for this single-chord input, and the test doesn't check the printing side effect.",
+  "missing": "none"
+}

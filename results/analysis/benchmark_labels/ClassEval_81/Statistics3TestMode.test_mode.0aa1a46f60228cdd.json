@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the function returns the mode as a list, and its example for [1, 2, 3, 3] shows [3], which is exactly what the test asserts.",
+  "missing": "none"
+}

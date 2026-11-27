@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example uses the identical input and shows the identical expected result of 14.0, so a programmer following it would pass.",
+  "missing": "none"
+}

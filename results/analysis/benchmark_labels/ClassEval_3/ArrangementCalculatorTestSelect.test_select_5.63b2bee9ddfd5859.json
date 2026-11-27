@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says select(m) lists arrangements of m items from the data, so for m=1 each item forms a one-element list, which matches the expected output.",
+  "missing": "none"
+}

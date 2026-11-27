@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test also asserts that checkout decrements each menu dish's count by the ordered quantity and empties selected_dishes, and the docstring never mentions either side effect.",
+  "missing": "A successful checkout must subtract each ordered dish's quantity from its remaining count in the menu and reset the selected dishes list to empty, and the docstring should say so."
+}

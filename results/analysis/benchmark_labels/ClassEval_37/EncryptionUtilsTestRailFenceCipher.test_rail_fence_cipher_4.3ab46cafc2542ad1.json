@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test's input contains spaces, punctuation and digits, and the docstring says nothing about whether these are treated as ordinary characters in the zigzag, so a correct implementation could still fail.",
+  "missing": "The docstring should say that every character, including spaces, punctuation and digits, is placed on the rails in the same zigzag order as letters, and that the output concatenates the rails from top to bottom."
+}

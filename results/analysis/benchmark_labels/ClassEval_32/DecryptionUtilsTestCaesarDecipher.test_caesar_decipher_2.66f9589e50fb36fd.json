@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that it deciphers with a Caesar cipher and takes an int shift, so whether a shift of 27 is reduced modulo 26 is not specified, and a correct implementation could fail this test.",
+  "missing": "The docstring should state that the shift is applied modulo the alphabet size, so shifts larger than 26 or negative shifts wrap around and give the same result as their equivalent shift in the 0\u201325 range."
+}

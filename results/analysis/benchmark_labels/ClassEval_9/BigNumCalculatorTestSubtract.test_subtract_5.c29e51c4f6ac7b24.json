@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says subtract returns the difference of the two numbers as a string, and the test's expected value is that correct difference for a positive result.",
+  "missing": "none"
+}

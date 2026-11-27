@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states the method returns the stored quantity for a title, which is exactly what the test checks (2 for an added book1).",
+  "missing": "none"
+}

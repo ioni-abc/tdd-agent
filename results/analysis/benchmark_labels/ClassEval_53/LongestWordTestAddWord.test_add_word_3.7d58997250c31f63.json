@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the input word is appended to self.word_list, which directly yields the asserted ordered list after three appends.",
+  "missing": "none"
+}

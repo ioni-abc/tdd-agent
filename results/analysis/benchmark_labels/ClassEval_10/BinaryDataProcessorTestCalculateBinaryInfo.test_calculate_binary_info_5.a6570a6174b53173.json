@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the percentages as decimal fractions (0.475 and 0.525 for a 40-bit string), so following it gives the fractions this test expects.",
+  "missing": "none"
+}

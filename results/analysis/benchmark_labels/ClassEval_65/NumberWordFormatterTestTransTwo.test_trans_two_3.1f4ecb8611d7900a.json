@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives only the \"23\" example and does not specify how a leading-zero two-digit input is converted, so a correct implementation could produce a different output.",
+  "missing": "The docstring should state how inputs with a leading zero (single-digit values written with two characters) are converted, including whether the zero is dropped and the result is just the digit word."
+}

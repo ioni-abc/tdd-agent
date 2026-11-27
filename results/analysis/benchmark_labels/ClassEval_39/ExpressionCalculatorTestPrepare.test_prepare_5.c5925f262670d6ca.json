@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's purpose is conversion to postfix notation, and its example shows the result in the `postfix_stack` attribute, so standard postfix rules fix the expected order for \"(2+3)*4\".",
+  "missing": "none"
+}

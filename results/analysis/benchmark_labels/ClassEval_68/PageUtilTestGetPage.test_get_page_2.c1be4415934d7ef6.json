@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_page returns the data on a specific page, and its example (page 1 of a size-1 PageUtil gives the first element) shows 1-indexed contiguous pages, so a programmer following it would reach [4, 5, 6].",
+  "missing": "none"
+}

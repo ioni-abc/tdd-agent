@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives no edge-case behaviour for empty input, so the test's expected empty-string return is not stated, even though a natural implementation would produce it.",
+  "missing": "The docstring should state what the method returns when the input is empty or None, for example whether it returns an empty string."
+}

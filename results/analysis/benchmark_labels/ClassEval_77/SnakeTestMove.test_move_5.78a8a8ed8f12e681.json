@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "PREDICTION: The docstring implies only that the snake moves in the given direction, so it does not determine the exact head coordinates (51, 50), the unchanged length, or the score of 0 for this move.\nLABEL: unstated\nREASON The docstring never gives the starting head position, the per-step block siz",
+  "missing": ""
+}

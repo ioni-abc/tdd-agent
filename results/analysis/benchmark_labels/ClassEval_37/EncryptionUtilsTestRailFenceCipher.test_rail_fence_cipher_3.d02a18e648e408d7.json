@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example fixes the zigzag convention, and the test follows that same convention with the characters kept in their original case.",
+  "missing": "none"
+}

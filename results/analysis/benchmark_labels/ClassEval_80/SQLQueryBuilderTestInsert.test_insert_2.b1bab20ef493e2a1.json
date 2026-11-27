@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example `{'name': 'Test', 'age': 14}` yields `VALUES ('Test', '14')`, which shows the same format and integer-quoting behaviour the test checks.",
+  "missing": "none"
+}

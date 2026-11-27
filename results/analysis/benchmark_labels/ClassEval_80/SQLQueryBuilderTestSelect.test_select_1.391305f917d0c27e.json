@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example uses the same column list format and single-condition WHERE clause with the value quoted, so this test's expected output follows directly from it.",
+  "missing": "none"
+}

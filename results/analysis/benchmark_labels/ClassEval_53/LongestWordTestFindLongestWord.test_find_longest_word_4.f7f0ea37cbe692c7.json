@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says words are strictly case sensitive, but the test and reference code lowercase the sentence so 'Apple' matches the stored 'apple' and returns 'apple'.",
+  "missing": "The docstring should state whether the sentence is lowercased (and the returned word is in lowercase) before matching against the word list, and whether case-insensitive matching is applied despite the case-sensitivity note."
+}

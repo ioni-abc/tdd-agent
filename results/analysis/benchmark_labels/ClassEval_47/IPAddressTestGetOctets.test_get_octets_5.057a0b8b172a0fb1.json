@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says that when the address is not valid, an empty list is returned, and this input is clearly not a valid four-part address.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"False otherwise\" clause covers this input, and the test asserts False, matching both the docstring and the reference code.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's only example (fidelity 1200, 5% off) does not say the discount threshold or what happens below it, which this test relies on to expect no discount and a due of 250.0.",
+  "missing": "The docstring should state the eligibility condition for each promotion (for example, the fidelity value needed to receive a discount) and the discount amount or percentage when the condition is not met, so a programmer can compute the result for any customer."
+}

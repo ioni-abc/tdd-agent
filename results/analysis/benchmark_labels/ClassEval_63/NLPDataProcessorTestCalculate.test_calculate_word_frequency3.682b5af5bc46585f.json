@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's description of counting words across the list of word lists and returning the top 5 by descending frequency covers exactly what this test checks, and the expected dict matches that behaviour.",
+  "missing": "none"
+}

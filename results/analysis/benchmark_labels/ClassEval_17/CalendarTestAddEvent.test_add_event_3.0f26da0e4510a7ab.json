@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the dict being added and then appearing as the sole entry in `calendar.events`, which is exactly what the test checks with a different end time.",
+  "missing": "none"
+}

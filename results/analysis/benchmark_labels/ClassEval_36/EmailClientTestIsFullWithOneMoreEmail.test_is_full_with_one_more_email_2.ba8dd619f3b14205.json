@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the result as whether the box is full after adding the email, and an incoming 10 into a 0-capacity box is clearly full under any reasonable reading.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says an empty name is set to None, which is what the test checks via the name attribute.",
+  "missing": "none"
+}

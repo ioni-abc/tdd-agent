@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test-target mismatch: the test exercises insert_student (its name and assertions are about inserted rows), while the method under check, create_student_table, is used only in setUp to create the table.",
+  "missing": "none"
+}

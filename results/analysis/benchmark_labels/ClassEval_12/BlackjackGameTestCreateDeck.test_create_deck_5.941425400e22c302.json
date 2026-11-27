@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test checks `self.deck`, which is set in the constructor, while the docstring only describes what `create_deck` returns, so a correct `create_deck` could still fail the test if the constructor does not store its result in `self.deck`.",
+  "missing": "The docstring should say whether the object's constructor calls this method and stores the resulting list in an instance attribute, and under what name, so that code reading that attribute can rely on it."
+}

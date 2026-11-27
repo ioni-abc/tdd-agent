@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (radius 2, angle pi gives 6.283) fixes the formula r\u00b2\u00b7angle/2, so a zero angle must yield 0, which is what the test expects.",
+  "missing": "none"
+}

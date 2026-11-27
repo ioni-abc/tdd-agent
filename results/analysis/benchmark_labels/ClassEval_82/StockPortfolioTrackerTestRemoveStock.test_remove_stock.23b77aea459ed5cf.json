@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest uses the same inputs and shows `True` returned and `tracker.portfolio` equal to `[]`, which is exactly what the test asserts.",
+  "missing": "none"
+}

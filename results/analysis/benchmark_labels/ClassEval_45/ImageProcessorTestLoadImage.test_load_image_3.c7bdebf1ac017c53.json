@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it uses PIL to open the image and shows self.image being set, with mode=RGB in its example, so a correct implementation would produce the mode the test checks.",
+  "missing": "none"
+}

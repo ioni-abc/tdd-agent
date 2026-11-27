@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never mentions the count of four, yet the test asserts `len(cards) == 4`, so a correct implementation that generates a different number of values would fail.",
+  "missing": "The docstring should state how many random values are generated and stored, and that the stored values are what the public accessor returns."
+}

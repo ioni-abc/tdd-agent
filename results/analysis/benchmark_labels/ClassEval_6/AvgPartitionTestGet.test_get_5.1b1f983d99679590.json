@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's only example divides evenly, so it never says whether extra elements go to the first blocks or the last, and the test's expected [1, 2] depends on that convention.",
+  "missing": "The docstring should state how the remainder is distributed when the list length is not divisible by the number of partitions, for example that the first `remainder` blocks each receive one extra element."
+}

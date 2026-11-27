@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the result to match the strftime of the object's `datetime` attribute, which the docstring never mentions, so a correct implementation that reads the clock directly could fail.",
+  "missing": "The docstring should say where the time comes from, for example that it is taken from a specific stored attribute of the object, or that it is read from the system clock at call time, so an implementer knows which source the result must match."
+}

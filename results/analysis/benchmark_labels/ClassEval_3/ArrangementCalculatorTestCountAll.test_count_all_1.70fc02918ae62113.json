@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest `count_all(4)` returns 64, which matches the test's input and expected value.",
+  "missing": "none"
+}

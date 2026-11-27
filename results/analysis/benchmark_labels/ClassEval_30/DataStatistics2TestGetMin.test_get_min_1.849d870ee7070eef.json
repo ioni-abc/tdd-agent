@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_min computes the minimum of the data and its example shows 1 for [1, 2, 3, 4], which is exactly what the test asserts; the \":return:float\" annotation conflicts slightly with the integer example, but assertEqual(1, 1.0) also passes, so a correct implementation passes.",
+  "missing": "none"
+}

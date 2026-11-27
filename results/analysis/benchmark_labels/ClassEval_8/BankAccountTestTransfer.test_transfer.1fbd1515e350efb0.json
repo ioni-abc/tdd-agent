@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the amount is moved from the current account to the other account, which implies the sender loses 300 and the receiver gains 300, matching the test's expected 500 and 1300.",
+  "missing": "none"
+}

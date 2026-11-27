@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test depends on add_book(\"book2\") with no quantity producing a count of 1, and the docstring only shows add_book with explicit quantities, so a correct implementation could default differently and fail.",
+  "missing": "The docstring of add_book (or the class) should state the default quantity used when the caller omits the quantity argument, and what happens when a title is added again."
+}

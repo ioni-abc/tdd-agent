@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says the method returns False when there is not enough of the stock, which is exactly the case this test checks, and the reference code matches.",
+  "missing": "none"
+}

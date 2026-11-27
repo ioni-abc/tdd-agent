@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says False is returned when room_number exceeds the booked quantity, and it ties removal of the booking to successful check-in, so the test's unchanged booked_rooms expectation follows.",
+  "missing": "none"
+}

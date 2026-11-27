@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns students who have any score below 60, and a student with an empty course record has no such score, so the expected [] follows directly.",
+  "missing": "none"
+}

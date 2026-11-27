@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's camel-case description and its 'first_name' to 'firstName' example cover the same underscore-to-camel-case conversion that this test checks with 'last_name'.",
+  "missing": "none"
+}

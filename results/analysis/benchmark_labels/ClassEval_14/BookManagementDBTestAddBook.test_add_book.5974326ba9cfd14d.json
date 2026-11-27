@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states that the book is added with the given title and author and availability set to 1, which covers all three assertions; the test's `id=1` lookup is only an implicit auto-increment detail.",
+  "missing": "none"
+}

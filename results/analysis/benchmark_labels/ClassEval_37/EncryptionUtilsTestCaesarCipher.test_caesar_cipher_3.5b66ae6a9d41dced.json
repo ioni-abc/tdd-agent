@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the output as the per-character shift of the plaintext, so an empty input naturally yields an empty output, which the test expects.",
+  "missing": "none"
+}

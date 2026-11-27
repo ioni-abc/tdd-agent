@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers saving to a path but does not say what format the saved file must have, which the test asserts.",
+  "missing": "The docstring should state the output file format, e.g. that the image is written in the format implied by the save path's extension (or a specified format), so an implementer knows what type the saved file must be."
+}

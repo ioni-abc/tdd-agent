@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says factorial returns the factorial of the given number, so factorial(2) = 2 follows directly and the test matches.",
+  "missing": "none"
+}

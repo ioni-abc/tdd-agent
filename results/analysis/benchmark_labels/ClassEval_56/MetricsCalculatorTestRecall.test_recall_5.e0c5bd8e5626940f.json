@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example (0.5 for a case with one true positive and one false negative) fixes the convention that recall is TP/(TP+FN) with 1 as the positive class, so a programmer following it would produce 1/3 here.",
+  "missing": "none"
+}

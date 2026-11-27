@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns -1 if an error occurs during writing, and opening a read-only file for writing is such an error, so the test's expected -1 follows from the docstring.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the result as the block size and the remainder of dividing the list into parts, and the example confirms the quotient-and-remainder reading, so a programmer following it gets (1, 1).",
+  "missing": "none"
+}

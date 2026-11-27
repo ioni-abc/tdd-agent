@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes deciphering with a Caesar cipher and never says that non-alphabetic characters are left unchanged, which the test relies on.",
+  "missing": "The docstring should state that any character that is not a letter is copied to the output unchanged, and that only letters are shifted, preserving case."
+}

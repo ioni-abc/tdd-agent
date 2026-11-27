@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's example shows postfix_stack as a Python list, but the test compares it to a deque, and the docstring never says which container type to use.",
+  "missing": "The docstring should state the exact container type of postfix_stack after prepare (for example, a deque rather than a list), since equality checks between list and deque fail even when the tokens match."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says clear_expr removes all characters that are not brackets, which directly yields \"[](){}\" for this input, matching the test and reference code.",
+  "missing": "none"
+}

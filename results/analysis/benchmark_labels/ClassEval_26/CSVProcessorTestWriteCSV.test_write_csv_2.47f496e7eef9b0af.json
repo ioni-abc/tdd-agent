@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says a successful write returns 1 and that the method writes the data into the csv file, which covers both assertions after the read-back is taken as confirming the written content.",
+  "missing": "none"
+}

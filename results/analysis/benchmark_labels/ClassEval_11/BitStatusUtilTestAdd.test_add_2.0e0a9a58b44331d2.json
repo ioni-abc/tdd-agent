@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add returns the status after adding the given status, and adding 0 to 2 naturally yields 2, which the test expects under either bitwise-OR or plain addition.",
+  "missing": "none"
+}

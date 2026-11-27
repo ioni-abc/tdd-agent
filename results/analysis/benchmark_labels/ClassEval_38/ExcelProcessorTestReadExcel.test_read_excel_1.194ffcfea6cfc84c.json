@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test requires each row to be a tuple of cell values, but the docstring's \"list of data\" does not say whether rows should be tuples, lists, or something else.",
+  "missing": "The docstring should state the exact return structure: a list whose elements are rows, each row being a tuple of raw cell values in sheet order (with the sheet and any error behaviour, such as returning None on failure, also specified)."
+}

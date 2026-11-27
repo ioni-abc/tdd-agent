@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule (quantity of 20 or more earns 10% on each such item) fully determines the expected 100.0, and the docstring example (47.0) confirms the calculation.",
+  "missing": "none"
+}

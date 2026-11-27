@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes exactly this behaviour (strip punctuation, tokenize, return one part-of-speech tag per word), and the test's expected list follows that description.",
+  "missing": "none"
+}

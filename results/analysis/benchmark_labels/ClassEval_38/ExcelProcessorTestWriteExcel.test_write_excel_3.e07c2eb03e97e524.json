@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's return contract (1 on successful write) and its statement that the data is written to the given file cover the success and existence checks, and writing rows in order gives the read-back match.",
+  "missing": "none"
+}

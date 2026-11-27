@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test sets current and target temperatures equal, and the docstring never specifies which mode is expected or conflicting at equality, so a correct implementation could reasonably return True or change the mode differently.",
+  "missing": "The docstring should state, for each case where the current temperature equals the target temperature, which operating modes count as conflicting and which mode the method should leave or set."
+}

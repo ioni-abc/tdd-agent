@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says that \"upcoming\" is measured from the current time, and it names a `date` parameter that the signature does not have, so the expected empty result depends on a reference point the docstring leaves undefined.",
+  "missing": "The docstring should state the reference point for \"upcoming\" (for example, the current moment), state how events whose start time is before that point are handled, and remove or align the documented `date` parameter with the actual signature."
+}

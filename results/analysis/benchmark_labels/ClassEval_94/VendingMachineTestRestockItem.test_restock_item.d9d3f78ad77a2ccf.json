@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states the True return for a product already in the machine, and \"replenishes the inventory\" with a quantity parameter implies the stock is increased by that amount, which is what the test checks.",
+  "missing": "none"
+}

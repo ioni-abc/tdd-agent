@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns a list of words for the strings given, so an empty input naturally yields an empty list, which is what the test asserts.",
+  "missing": "none"
+}

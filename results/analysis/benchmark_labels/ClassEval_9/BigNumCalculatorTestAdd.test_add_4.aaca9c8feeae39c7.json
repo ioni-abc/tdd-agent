@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method adds two big numbers given as strings and returns their sum as a string, which fully determines the expected output for this test.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example performs the same removal and shows the playlist becoming ['song2'], which matches the test's assertion.",
+  "missing": "none"
+}

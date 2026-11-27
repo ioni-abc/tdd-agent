@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "PREDICTION: The docstring implies a bilinear value of 4.5 for the in-grid point (1.5, 3), but says nothing about the out-of-range point (2.5, 4), so the expected output [4.5] cannot be derived from it.\nLABEL: unstated\nREASON The docstring does not say what happens when an interpolation point lies ou",
+  "missing": "The docstring should state what the function returns for any interpolation point outside the range of the input coordinates, such as omitting it, returning NaN, or extrapolating, and whether the output length matches the number of input points."
+}

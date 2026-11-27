@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names a canonical cipher whose zigzag layout and row-by-row reading produce the test's expected output, and the reference code implements exactly that.",
+  "missing": "none"
+}

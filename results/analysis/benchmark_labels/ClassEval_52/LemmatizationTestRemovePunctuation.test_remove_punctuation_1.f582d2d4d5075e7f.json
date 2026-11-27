@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's description and its doctest example both specify that punctuation is removed and the sentence returned without it, matching the test's expected output.",
+  "missing": "none"
+}

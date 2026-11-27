@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines addition of complex numbers as the sum, which directly yields (4-6j) for these inputs, matching the test and reference code.",
+  "missing": "none"
+}

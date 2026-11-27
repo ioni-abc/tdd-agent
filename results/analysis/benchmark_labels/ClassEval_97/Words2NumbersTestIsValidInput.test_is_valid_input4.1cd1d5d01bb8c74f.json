@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True only when every word is a valid number word and False otherwise, so the non-number word \"eleventy\" makes the expected result False, which matches the assertion and the reference code.",
+  "missing": "none"
+}

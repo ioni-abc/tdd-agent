@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (20, 30 giving the BETWEEN query on table1 with a trailing semicolon) fully specifies the format, so the test's expected output follows directly from it.",
+  "missing": "none"
+}

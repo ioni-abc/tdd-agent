@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"arrangements\" and its example (ordered pairs from the input, in input order) fully determine the expected six pairs and their order for this input.",
+  "missing": "none"
+}

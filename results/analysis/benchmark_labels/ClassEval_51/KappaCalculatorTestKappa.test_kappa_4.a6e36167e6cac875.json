@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Expected-value mismatch: the test's expected 0.19469 does not match the kappa the docstring defines (about 0.1818 by hand, and the reference code computes the same formula), so the test would fail against the reference.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the return value as the remaining count of the room type, so a correct implementation that reduces availability on booking returns 0 here, which matches the assertion and the reference code.",
+  "missing": "none"
+}

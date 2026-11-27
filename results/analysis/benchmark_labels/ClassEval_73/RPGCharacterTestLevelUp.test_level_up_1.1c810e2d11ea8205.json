@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes each of the checked effects (level up, exp reset to zero, +20 hp, +5 attack, +5 defense), and the test's assertions match them.",
+  "missing": "none"
+}

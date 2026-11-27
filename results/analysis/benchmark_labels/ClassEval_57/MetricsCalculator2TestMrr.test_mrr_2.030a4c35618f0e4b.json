@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines MRR as the mean reciprocal rank and its list example matches that definition, so a programmer following it would compute 0.25 and return `(0.25, [0.25])`.",
+  "missing": "none"
+}

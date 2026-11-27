@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's only example covers thousands with \"AND\" usage, and it does not state how millions are named or when \"AND\" is omitted, so a correct implementation could still produce a different string.",
+  "missing": "The docstring should list the scale words used for every magnitude (for example thousand, million, billion) and state the rule for when \"AND\" is inserted versus omitted, including what a whole number with no remainder beyond a scale word produces."
+}

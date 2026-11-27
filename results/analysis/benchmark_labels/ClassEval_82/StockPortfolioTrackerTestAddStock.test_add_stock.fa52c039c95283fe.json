@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example performs the same single addition and shows the resulting portfolio list, so a implementation following it would pass the test.",
+  "missing": "none"
+}

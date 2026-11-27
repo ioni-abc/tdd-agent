@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says that a period followed by a lowercase word does not end a sentence, so a reasonable splitter on every \". \" would fail this test.",
+  "missing": "Sentence boundaries are only recognized when the punctuation is followed by whitespace and then an uppercase letter; punctuation followed by a lowercase word does not split the text."
+}

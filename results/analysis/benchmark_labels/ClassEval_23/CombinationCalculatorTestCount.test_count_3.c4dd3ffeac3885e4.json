@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's definition of combinations directly implies that choosing all 6 of 6 elements yields exactly one combination, matching the assertion.",
+  "missing": "none"
+}

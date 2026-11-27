@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring example says the hyphenated input \"thirty-two\" returns False, while the test and reference code treat hyphenated number words as valid and expect True.",
+  "missing": "The docstring should say whether hyphens between number words are accepted, and whether the example's False result is due to a different rule, such as hyphenated compounds being rejected or the \"and\" connector being disallowed."
+}

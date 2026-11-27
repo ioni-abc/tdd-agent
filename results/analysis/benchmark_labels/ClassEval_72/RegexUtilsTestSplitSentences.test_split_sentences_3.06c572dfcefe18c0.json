@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says that a sentence boundary depends on the case of the following word, so the test's expected merge of \"Aaa. bbbb\" is not derivable from it.",
+  "missing": "The docstring should state the boundary rule: a sentence-ending punctuation mark (. ? !) only ends a sentence when the next word begins with an uppercase letter, and otherwise the text stays joined, with the punctuation removed from every sentence except the last."
+}

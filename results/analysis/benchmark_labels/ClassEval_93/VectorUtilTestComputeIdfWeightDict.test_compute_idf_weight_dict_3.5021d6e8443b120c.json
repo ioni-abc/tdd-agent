@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's formula, applied to total_num=2 and counts 0.3 and 0.5, produces exactly the two asserted values.",
+  "missing": "none"
+}

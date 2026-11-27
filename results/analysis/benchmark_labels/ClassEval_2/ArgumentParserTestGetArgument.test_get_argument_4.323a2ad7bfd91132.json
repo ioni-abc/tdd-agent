@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the value of the specified argument from the arguments dictionary, so a lookup of key \"d\" yielding True is directly implied.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example demonstrates the same unpadded-month/hour format and returns the corresponding datetime, so the test's expectation follows directly from it.",
+  "missing": "none"
+}

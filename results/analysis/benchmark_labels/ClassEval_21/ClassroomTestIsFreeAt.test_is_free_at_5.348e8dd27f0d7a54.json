@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False when the check time conflicts with a course time, and 09:40 lies strictly inside the course's span, so a faithful implementation returns False as the test expects.",
+  "missing": "none"
+}

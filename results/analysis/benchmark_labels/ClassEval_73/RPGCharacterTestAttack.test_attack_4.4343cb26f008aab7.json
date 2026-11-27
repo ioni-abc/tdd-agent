@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (attack 10 against defense 2 leaves 92 hp) shows the subtract-defense formula, and the test's inputs (20 vs 5, two hits) fall under that same rule.",
+  "missing": "none"
+}

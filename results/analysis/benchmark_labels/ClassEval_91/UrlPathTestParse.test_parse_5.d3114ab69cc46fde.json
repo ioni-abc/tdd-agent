@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never mentions `with_end_tag`, so a correct implementation that sets or leaves that flag differently for a path without a trailing slash could fail the second assertion.",
+  "missing": "The docstring should state what the object's flag (e.g. `with_end_tag`) is set to after parsing, both when the path ends with a separator and when it does not, and how leading and trailing slashes affect the segments."
+}

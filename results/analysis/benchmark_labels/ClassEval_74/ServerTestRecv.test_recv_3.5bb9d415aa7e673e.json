@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test passes a list instead of a dict and expects -1 with no state change, but the docstring says nothing about malformed input, so a correct implementation following it could return False or raise.",
+  "missing": "When the input is not a dictionary or lacks the required keys, the method should return -1 and leave the stored state unchanged, and the docstring should say so."
+}

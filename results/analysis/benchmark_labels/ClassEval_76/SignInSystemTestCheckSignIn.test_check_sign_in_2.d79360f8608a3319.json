@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it returns False when the user is not signed in, which covers this test's case of an added but not-signed-in user.",
+  "missing": "none"
+}

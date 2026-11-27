@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"up to the specified limit\" plus the example for 20 pins down the behaviour, and the test's expected list follows directly from it.",
+  "missing": "none"
+}

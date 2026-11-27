@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes the normal case (correlation of [1,2,3] and [4,5,6] is 1.0) and never says what happens when a denominator is zero, so the test's expectation of None for constant inputs is not specified.",
+  "missing": "The docstring should state what the function returns when either input has zero variance (all elements equal), such as None, since the correlation is undefined in that case."
+}

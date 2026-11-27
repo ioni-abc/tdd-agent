@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True when the compression succeeds, and this test checks exactly that case with a valid file and output path.",
+  "missing": "none"
+}

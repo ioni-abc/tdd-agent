@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects True from a win and also checks that score becomes 1, yet the docstring defines neither the win condition nor any score change.",
+  "missing": "The docstring should state the win condition (for example, every non-mine cell has been revealed) and that each successful sweep of a safe cell increments the score by one."
+}

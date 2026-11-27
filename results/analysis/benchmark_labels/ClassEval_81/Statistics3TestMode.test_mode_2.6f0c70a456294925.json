@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says \"the mode\" and gives only a single-mode example, so it does not establish that tied modes are all returned or in what order.",
+  "missing": "When several values share the highest frequency, the docstring should state that all of them are returned, and in what order they appear in the result list."
+}

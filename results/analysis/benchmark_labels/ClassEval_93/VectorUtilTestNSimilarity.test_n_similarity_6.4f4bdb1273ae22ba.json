@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never mentions empty input lists, and the test's bare try/except with no assertion would pass whatever the method does, so it checks nothing the docstring specifies.",
+  "missing": "The docstring should state what the function does when either input list is empty, for example whether it raises an exception and which type, or returns a value."
+}

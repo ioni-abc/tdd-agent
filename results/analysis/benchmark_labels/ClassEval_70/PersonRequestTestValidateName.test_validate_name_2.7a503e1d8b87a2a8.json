@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says a name exceeding 33 characters is set to None, which matches the test's assertion that the long name becomes None.",
+  "missing": "none"
+}

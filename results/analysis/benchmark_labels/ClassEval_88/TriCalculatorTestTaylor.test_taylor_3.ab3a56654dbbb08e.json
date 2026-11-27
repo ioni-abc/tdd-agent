@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the output as the n-order Taylor expansion of cos(x/180\u00b7\u03c0), and for x=90 with a high-order truncation that is the cosine value 0, which a correct implementation returns within the assertion's tolerance.",
+  "missing": "none"
+}

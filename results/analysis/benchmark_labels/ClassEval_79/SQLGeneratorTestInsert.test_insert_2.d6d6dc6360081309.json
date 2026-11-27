@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example fixes the output format, which the test's three-field case follows directly without needing any extra convention.",
+  "missing": "none"
+}

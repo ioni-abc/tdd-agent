@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies standard complex multiplication, which directly determines the test's expected value of -5-10j for these inputs.",
+  "missing": "none"
+}

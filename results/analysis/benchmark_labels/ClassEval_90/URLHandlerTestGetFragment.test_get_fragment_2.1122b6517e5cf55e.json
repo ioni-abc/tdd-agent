@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes the success case (returning the text after '#') and never says what to return when no '#' exists, which is the case this test checks, where it expects None.",
+  "missing": "The docstring should state the failure return value: when the URL contains no '#' character, the method returns None instead of a string."
+}

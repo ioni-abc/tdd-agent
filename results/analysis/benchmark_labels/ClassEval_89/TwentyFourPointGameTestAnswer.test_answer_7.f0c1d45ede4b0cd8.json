@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Wrong-method test: the test exercises game.answer() and checks its result, while the docstring under review describes get_my_cards(), which the test never calls.",
+  "missing": "none"
+}

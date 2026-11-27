@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the function returns the hex representation as a str, and its example (42423 to 'a5b7') shows lowercase digits with no prefix, so the test's expected '5317' follows from it.",
+  "missing": "none"
+}

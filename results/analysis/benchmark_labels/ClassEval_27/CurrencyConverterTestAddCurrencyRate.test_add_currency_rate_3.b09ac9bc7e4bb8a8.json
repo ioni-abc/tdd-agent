@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the currency is added as a new supported type with its exchange rate, and its doctest shows `self.rates['KRW'] = 1308.84`, so the test's check that `rates['bbb']` equals 2.0 follows from it.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "PREDICTION: The docstring does not say how a card whose rank is neither a digit, J/Q/K, nor A should be valued, so the expected 20 for the two unrecognized ranks is not implied.\nLABEL: unstated\nREASON The test passes 'B' and 'C' ranks, which the docstring never mentions, and the reference code silen",
+  "missing": "The docstring should state what value, if any, a card contributes when its rank is not a digit, J, Q, K, or A (for example, that it adds zero, is ignored, or raises an error)."
+}

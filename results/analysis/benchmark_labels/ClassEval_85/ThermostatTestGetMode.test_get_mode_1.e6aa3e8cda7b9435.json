@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies that the method returns the current working mode as a string from the set ['heat', 'cool'], which covers the test's expectation of 'heat' after construction with that mode.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects each item's text to be uppercased (aaa to AAA, and so on), but \"Modifies the data in XML elements\" does not name that transformation, so a correct implementation could modify the data differently and fail.",
+  "missing": "The docstring should state the exact modification applied to each matching element's text (for example, converting it to upper case) and which elements are affected."
+}

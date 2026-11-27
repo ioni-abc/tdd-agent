@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that a skill string in the criteria returns the listing that requires it, and this test checks that same behaviour with a second listing.",
+  "missing": "none"
+}

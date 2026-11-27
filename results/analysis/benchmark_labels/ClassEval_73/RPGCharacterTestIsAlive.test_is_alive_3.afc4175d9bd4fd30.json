@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says the method returns False when hp is not larger than 0, which covers the negative hp in this test.",
+  "missing": "none"
+}

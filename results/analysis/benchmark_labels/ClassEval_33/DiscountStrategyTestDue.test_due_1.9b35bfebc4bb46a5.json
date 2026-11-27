@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows an example with a fidelity promotion and never describes the case where the `DiscountStrategy` is built without a promotion, which is the case this test uses.",
+  "missing": "The docstring should state what the amount due is when no promotion is supplied, namely the plain sum of quantity times price over all cart items with no discount subtracted."
+}

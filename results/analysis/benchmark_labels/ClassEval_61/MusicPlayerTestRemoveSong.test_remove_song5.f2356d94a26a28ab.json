@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's core statement, that the given song is removed from the playlist, directly implies the test's expected remaining list.",
+  "missing": "none"
+}

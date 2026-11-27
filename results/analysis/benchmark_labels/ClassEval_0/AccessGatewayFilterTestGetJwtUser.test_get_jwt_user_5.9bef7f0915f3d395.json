@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says None is returned when the token is invalid, but it does not define validity, so a programmer cannot know that a token whose embedded date is too old must be rejected.",
+  "missing": "The docstring should specify the validity criteria: the expected format of the date embedded in the token, and the maximum age that date may have before the token is treated as invalid and None is returned."
+}

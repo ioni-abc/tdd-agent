@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's conversion instruction and float return type are enough for a correct implementation to return about 26.67, so the assertion that the result is not 27 passes.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the return value as the remaining count of that room type, so a programmer would infer 3 minus the 2 booked rooms, which is 1.",
+  "missing": "none"
+}

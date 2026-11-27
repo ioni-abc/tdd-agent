@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that the total is cash plus the sum of price times quantity, so a zero-priced holding adds nothing and the expected 10000.0 follows directly.",
+  "missing": "none"
+}

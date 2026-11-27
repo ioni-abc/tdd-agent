@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule that the player wins only when the remaining unrevealed cells are all mines gives False for this board, matching the test's assertion and the reference code.",
+  "missing": "none"
+}

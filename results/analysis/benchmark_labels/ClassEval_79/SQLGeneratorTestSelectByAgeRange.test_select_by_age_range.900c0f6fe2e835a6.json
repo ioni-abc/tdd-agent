@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows exactly the input (20, 30) and expected output 'SELECT * FROM table1 WHERE age BETWEEN 20 AND 30;', which the test asserts, with the table name coming from the class constructor as the docstring's example implies.",
+  "missing": "none"
+}

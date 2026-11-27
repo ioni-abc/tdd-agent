@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the method deciphers with the Vigenere cipher and does not specify that letter case is preserved or that the key advances only on alphabetic characters, which the test's expected output depends on.",
+  "missing": "The docstring should state whether letter case in the input is preserved in the output, and whether the key position advances only on alphabetic characters or on every character (including non-letters)."
+}

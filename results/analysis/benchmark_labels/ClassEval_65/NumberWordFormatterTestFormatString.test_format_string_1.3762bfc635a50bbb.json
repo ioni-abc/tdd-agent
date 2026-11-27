@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example uses the same input and gives the same uppercase words output that the test asserts.",
+  "missing": "none"
+}

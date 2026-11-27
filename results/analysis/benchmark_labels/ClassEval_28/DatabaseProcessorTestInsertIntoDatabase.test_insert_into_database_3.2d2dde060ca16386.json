@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects a stored row to have the age at index 2, which requires an auto-generated leading id column and insertion-order retrieval, and the docstring says nothing about either.",
+  "missing": "The docstring should state the table's column layout after insertion, including whether an automatically generated id column is prepended and how rows are ordered when read back."
+}

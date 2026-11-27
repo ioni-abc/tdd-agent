@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects False for USD on a fresh converter, which holds only if USD is a default supported currency, and the docstring never says what the default list contains.",
+  "missing": "The docstring should state which currency types a newly constructed converter supports by default, so a reader can tell whether adding a given currency will be rejected."
+}

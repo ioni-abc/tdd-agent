@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example uses the same calculator, arguments, and expected list of six combinations that the test asserts.",
+  "missing": "none"
+}

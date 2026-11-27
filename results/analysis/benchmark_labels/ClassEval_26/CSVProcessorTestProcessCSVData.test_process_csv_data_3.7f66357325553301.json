@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies the column selection, the capitalization, the `_process` output filename, and the return value of 1, and the test's expected title and column value (`'ME'`) follow from those rules.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"accurate to two digits after the Decimal separator\" directly specifies the rounding the test checks, and the test's expected 4.71 matches that rule.",
+  "missing": "none"
+}

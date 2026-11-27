@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest sets temperature to 27 and states the result is 80.6, which matches the test's input and expected value exactly.",
+  "missing": "none"
+}

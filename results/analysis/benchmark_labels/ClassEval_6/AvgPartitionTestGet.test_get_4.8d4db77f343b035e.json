@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only mentions computing a size and remainder and returning \"the corresponding block,\" and its one example splits evenly, so the test's expected [4, 5] depends on an unstated convention about where extra elements go.",
+  "missing": "When the list length is not evenly divisible by the number of partitions, the docstring should state which blocks receive the extra leftover elements (for example, the first `remainder` blocks each get one extra element), with a worked example of an uneven split."
+}

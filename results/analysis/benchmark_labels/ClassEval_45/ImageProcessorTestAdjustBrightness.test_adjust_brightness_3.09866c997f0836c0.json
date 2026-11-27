@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the factor's effect (0.0 gives black, 1.0 gives the original), which is the behaviour the test checks by comparing against a 0.7 brightness enhancement of the same image.",
+  "missing": "none"
+}

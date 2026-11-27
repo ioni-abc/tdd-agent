@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says __setitem__ sets the value for the key to the specified value, which is exactly what the test checks by reading the key back after the assignment.",
+  "missing": "none"
+}

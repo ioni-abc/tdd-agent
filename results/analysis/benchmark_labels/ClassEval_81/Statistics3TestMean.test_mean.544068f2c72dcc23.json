@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows mean([1, 2, 3]) returning 2.0, exactly what the test asserts.",
+  "missing": "none"
+}

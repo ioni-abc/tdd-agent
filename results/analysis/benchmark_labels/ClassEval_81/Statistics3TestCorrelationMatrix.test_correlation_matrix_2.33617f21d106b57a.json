@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the output as a correlation matrix of the given list, and the test's expected all-1.0 3x3 matrix follows directly from that definition since every column is a linear function of the first.",
+  "missing": "none"
+}

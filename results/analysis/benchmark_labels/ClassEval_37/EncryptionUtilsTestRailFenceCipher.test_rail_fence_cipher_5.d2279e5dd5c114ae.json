@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the function encrypts the given plaintext and returns the ciphertext, so an empty input naturally encrypts to an empty output, and any reasonable implementation would pass.",
+  "missing": "none"
+}

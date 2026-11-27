@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it returns a list of message dictionaries with the keys sender, receiver, message and timestamp, which matches the test's single-message expectation.",
+  "missing": "none"
+}

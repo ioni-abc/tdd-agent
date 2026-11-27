@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example with age 30 shows the exact format (SELECT * FROM table1 WHERE age < N AND gender = 'female';), so the test with age 10 follows directly from it.",
+  "missing": "none"
+}

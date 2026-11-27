@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says arguments must be non-negative and even and that violations raise ValueError, which covers the negative input in this test.",
+  "missing": "none"
+}

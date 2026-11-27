@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's general statement that a hex string is converted to its decimal int value fully determines the expected result 84627 for this input, and the reference code does the same.",
+  "missing": "none"
+}

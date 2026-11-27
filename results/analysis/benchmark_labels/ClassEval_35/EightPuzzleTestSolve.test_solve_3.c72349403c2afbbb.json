@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says BFS and a list of str, but the test's exact 15-move path depends on the order in which candidate moves are generated, which the docstring never specifies.",
+  "missing": "The docstring should state the fixed order in which possible directions are tried from each state (for example, the order of the moves returned by the move-generation step), so that when several shortest solutions exist, the returned one is determinable."
+}

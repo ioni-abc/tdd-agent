@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the given quantity is added to the product's stock, and its example with -1 shows negative values reduce the count, so the test's 10 minus 5 giving 5 is implied.",
+  "missing": "none"
+}

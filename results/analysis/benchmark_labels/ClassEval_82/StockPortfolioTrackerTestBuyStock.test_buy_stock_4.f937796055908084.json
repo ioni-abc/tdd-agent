@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says nothing about merging a repeated purchase of a stock already in the portfolio into one entry with summed quantity, and it does not mention the cash balance being reduced, both of which the test asserts.",
+  "missing": "When buying a stock whose name is already in the portfolio, the quantities should be added to the existing entry rather than creating a duplicate, and the cash balance should be reduced by price times quantity on every successful purchase."
+}

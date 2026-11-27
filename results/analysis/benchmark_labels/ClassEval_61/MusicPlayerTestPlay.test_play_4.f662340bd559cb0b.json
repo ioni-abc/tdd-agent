@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says play returns the current song, but the test and reference code return the first playlist entry (\"song1\") even though current_song is a different value.",
+  "missing": "The docstring should state that play returns the first item of the playlist whenever the playlist is non-empty and a current song is set, regardless of what the current song's value is, and should say what it returns when the playlist is empty."
+}

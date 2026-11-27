@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"heal ... with 10 hp\" and \"max hp is 100\" pin down the +10 increase and the cap, which yields the asserted value of 20.",
+  "missing": "none"
+}

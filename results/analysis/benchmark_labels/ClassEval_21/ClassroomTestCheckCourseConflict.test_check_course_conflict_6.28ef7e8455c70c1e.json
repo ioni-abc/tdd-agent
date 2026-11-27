@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return False when the new course's time conflicts with any existing course, and this partial overlap is a conflict, which matches the test's assertFalse.",
+  "missing": "none"
+}

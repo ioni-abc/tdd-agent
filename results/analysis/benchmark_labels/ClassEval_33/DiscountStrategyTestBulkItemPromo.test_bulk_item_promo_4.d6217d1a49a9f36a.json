@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's threshold rule (quantity of 20 or more earns 10%) directly implies a discount of 0.0 when no item reaches 20, which matches the test's expected value.",
+  "missing": "none"
+}

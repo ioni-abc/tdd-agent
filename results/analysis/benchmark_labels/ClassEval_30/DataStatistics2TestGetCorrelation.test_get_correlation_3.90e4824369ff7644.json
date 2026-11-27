@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example for a single-column list of four values returns 1.0, which matches the test's input shape and expected value.",
+  "missing": "none"
+}

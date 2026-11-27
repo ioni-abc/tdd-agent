@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test-filing mismatch: the test is named test_delete_ticket_1 and its main check is that delete_ticket removes the row, but it is filed under search_tickets_by_customer, whose docstring does not describe deletion.",
+  "missing": "none"
+}

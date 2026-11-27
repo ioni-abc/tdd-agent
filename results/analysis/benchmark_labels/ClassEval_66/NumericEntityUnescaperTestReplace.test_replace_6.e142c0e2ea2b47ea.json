@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only covers well-formed references like \"&#65;\" and says nothing about malformed or truncated ones, while the test expects the incomplete \"&#\" to vanish, which a correct implementation could fail by leaving it unchanged.",
+  "missing": "The docstring should state how malformed or incomplete numeric references are handled, for example whether they are dropped, copied through unchanged, or cause the rest of the string to be discarded, and what happens when the string ends partway through a reference."
+}

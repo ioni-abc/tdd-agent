@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses a token dated today, which the docstring's \"user information if the token is valid, None otherwise\" clearly treats as valid, and the test only checks for a non-None result.",
+  "missing": "none"
+}

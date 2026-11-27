@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "\"without any punctuation\" covers the commas, period, and apostrophe the test removes, so a correct implementation following the docstring would produce the expected string.",
+  "missing": "none"
+}

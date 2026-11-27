@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring documents `columns` only as a list and never states that `'*'` means all columns, so the expected output \"SELECT * FROM users\" for a string `'*'` is not specified.",
+  "missing": "The docstring should state that a columns value of `'*'` (the default, also accepted as a plain string) selects all columns and yields `*` in the SELECT clause, while a list selects the named columns."
+}

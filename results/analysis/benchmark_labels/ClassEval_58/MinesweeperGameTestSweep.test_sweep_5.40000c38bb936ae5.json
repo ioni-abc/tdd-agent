@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The returned map matches the docstring, but the test's second assertion requires `score` to increase to 1, which the docstring never mentions.",
+  "missing": "The docstring should state that each successful non-mine sweep increments the game's score counter by one, and what the score is initialized to, so an implementation can satisfy score-based checks."
+}

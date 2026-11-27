@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test's core check, that the new food position is not in the snake's positions, matches the docstring's \"don't place it on the snake,\" and the bounds checks follow from the random placement on the game screen.",
+  "missing": "none"
+}

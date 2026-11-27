@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the function as the sine of an angle in degrees and specifies a float return, and sin(0) is mathematically 0, which matches the asserted 0.0.",
+  "missing": "none"
+}

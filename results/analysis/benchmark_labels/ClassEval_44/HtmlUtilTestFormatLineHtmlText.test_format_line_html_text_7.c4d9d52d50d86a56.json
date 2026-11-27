@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes stripping HTML and replacing code blocks with -CODE-, and says nothing about list-item bullets such as the \"[-]\" prefix the test expects.",
+  "missing": "The docstring should state how list items are rendered: each list item's text is prefixed with \"[-]\", and a period is appended if the text does not already end in punctuation, while paragraphs and other text are output as plain lines."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example (4 items, m=2, returning all ordered pairs such as [2, 1] alongside [1, 2]) fixes the same ordered, no-repetition behaviour the test checks.",
+  "missing": "none"
+}

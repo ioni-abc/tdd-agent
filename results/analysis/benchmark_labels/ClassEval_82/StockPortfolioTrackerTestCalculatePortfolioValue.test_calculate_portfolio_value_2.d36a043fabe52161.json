@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example shows cash being added to a single holding's value, and \"total value of the portfolio\" naturally extends that to summing every holding, which is what this two-stock test checks.",
+  "missing": "none"
+}

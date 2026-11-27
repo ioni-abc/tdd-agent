@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says selling removes the stock from the portfolio, adds the cash to the balance, and returns True on success, which together imply every assertion in the test.",
+  "missing": "none"
+}

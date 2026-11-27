@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"cosine similarity between two sets of vectors\" and does not say the vectors are averaged before comparison, so a correct implementation could use another aggregation such as mean pairwise similarity and fail.",
+  "missing": "The docstring should state that each list is first replaced by the element-wise mean of its vectors, that each mean is normalized to unit length, and that the result is the dot product of the two normalized means."
+}

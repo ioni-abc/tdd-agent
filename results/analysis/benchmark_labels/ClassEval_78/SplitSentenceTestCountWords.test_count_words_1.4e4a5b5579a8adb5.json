@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example and rule (words separated by spaces, count them as an int) directly yield 2 for \"abc def\", matching the assertion.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The test and reference code expect the uppercase values to be appended as a new fourth column while the original Country column stays unchanged, which conflicts with the docstring's \"change the specified column.\"",
+  "missing": "The docstring should state whether the transformed values replace the target column or are written to a new column appended to the data, and how the header row and any non-text cells are handled."
+}

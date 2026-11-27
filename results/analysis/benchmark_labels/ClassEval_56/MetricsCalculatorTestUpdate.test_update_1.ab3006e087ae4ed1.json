@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example uses the same inputs and expected counts as the test's final assertion, and the standard meanings of TP, FP, FN and TN match the reference code's mapping.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the board is n*n, that k is the number of mines, and that 'X' marks a mine, so a correct implementation yields a 3-row map with exactly two 'X' cells, which is what the test checks.",
+  "missing": "none"
+}

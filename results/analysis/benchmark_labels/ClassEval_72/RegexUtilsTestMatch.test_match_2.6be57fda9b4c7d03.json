@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the return value as whether the text matches the pattern, so a non-matching text should return False, which is what the test asserts.",
+  "missing": "none"
+}

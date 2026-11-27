@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes the kurtosis formula's return type and one example, with no mention of the zero-variance case that the test checks (expecting NaN).",
+  "missing": "The docstring should state what is returned when all values are identical (zero spread), e.g. that the result is NaN because kurtosis is undefined when the standard deviation is zero."
+}

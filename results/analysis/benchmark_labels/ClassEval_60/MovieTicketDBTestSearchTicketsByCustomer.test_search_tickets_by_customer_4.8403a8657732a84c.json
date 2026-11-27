@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test relies on the table layout (an id at index 0, then movie, theater, seat, customer), which the insert docstring never describes, so a correct implementation with a different column layout could fail.",
+  "missing": "The docstring should describe the table schema, including any generated key column and the order of the stored fields, so that a row read back by index has a defined layout."
+}

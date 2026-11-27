@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule \"True if the character is a hexadecimal digit, False otherwise\" directly determines that 'Z' yields False, matching the assertion.",
+  "missing": "none"
+}

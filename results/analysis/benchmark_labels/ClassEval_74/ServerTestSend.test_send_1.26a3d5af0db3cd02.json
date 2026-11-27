@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows `self.send_struct` being set to the given addr and content, and the success case returns nothing, which matches what the test checks.",
+  "missing": "none"
+}

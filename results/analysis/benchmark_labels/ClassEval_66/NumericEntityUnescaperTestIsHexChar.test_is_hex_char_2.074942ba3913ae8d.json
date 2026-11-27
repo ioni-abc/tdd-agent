@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the method as returning True for a hexadecimal digit character, and uppercase 'F' is one, so the test's expected True follows directly from the docstring.",
+  "missing": "none"
+}

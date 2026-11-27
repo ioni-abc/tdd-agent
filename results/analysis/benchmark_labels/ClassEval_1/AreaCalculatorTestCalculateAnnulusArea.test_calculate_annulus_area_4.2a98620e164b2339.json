@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's definition of annulus area and its example (2, 3 \u2192 15.708 = 5\u03c0) give the same formula the test checks, and 8\u03c0 \u2248 25.1327 is within the test's delta of 0.01 from 25.13.",
+  "missing": "none"
+}

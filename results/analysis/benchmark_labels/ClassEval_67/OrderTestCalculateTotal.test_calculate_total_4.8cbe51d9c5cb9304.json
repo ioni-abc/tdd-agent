@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to multiply count, price and sales for each ordered dish and return the total as a float, which yields 75 here, matching the assertion (75 equals 75.0).",
+  "missing": "none"
+}

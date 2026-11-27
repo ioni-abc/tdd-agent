@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns all events on the given date, and the test's single event falls on the queried date, so a faithful implementation returns it.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the count as the sum of arrangements over every choice size from 1 to n, and its example (count_all(4) = 64 = 4+12+24+24) confirms this, so a faithful implementation returns 1 for n=1.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only gives one example (returning 2 for center 2, diff 1) and does not define the counting rule, so a correct implementation using a different length convention could fail this test's expected 4.",
+  "missing": "The docstring should state the exact rule: starting at the given diff, count consecutive positions moving outward from the center where the characters at center-diff and center+diff match, stopping when an index goes out of bounds or characters differ, and return that count."
+}

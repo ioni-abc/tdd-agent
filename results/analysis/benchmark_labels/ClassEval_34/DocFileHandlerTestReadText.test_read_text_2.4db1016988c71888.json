@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test uses a one-paragraph document, so any reasonable reading of \"returns the content as a string\" yields \"111\" and the assertion matches the docstring.",
+  "missing": "none"
+}

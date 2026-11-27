@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects adding a stock whose name is already in the portfolio to increase that entry's quantity, which the docstring never mentions; its example only shows adding into an empty portfolio.",
+  "missing": "When a stock with the same name is already in the portfolio, its quantity must be increased by the new stock's quantity instead of creating a second entry; a stock with a new name is appended as a new entry."
+}

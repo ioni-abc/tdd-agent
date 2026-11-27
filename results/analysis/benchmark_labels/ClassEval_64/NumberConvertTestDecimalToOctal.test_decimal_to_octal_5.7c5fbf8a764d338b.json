@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \":return: str, the octal representation of an integer\" fully specifies the expected output, and the test's expected value '1227256' is the correct base-8 form of 339630 (matching the reference `oct(...)[2:]`).",
+  "missing": "none"
+}

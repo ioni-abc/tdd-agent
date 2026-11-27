@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule (at least 1 item, at most the number of items, with its size-ordered example) fully determines the expected output the test asserts.",
+  "missing": "none"
+}

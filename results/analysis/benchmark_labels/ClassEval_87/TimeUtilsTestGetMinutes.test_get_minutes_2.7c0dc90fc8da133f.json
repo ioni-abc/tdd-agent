@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring clearly says the method returns the number of minutes between two times, and the test's two-hour gap should yield 120, consistent with the docstring example.",
+  "missing": "none"
+}

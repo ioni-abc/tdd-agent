@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's general definition of median covers odd-length lists, and the test's expected value 4 matches the middle element that any correct median implementation returns.",
+  "missing": "none"
+}

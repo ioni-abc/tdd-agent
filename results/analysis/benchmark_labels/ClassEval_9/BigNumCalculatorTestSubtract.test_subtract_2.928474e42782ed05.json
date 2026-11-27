@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the output as the difference of the two numbers, and its example shows the ordinary num1 minus num2 sign convention, so a positive result for a larger first operand follows directly.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The expected output keeps 'this' and 'is' and drops 'a', but 'a' ties with them at frequency 4, and the docstring says nothing about how ties are broken, so a correct implementation could return 'a' instead.",
+  "missing": "When more words tie at the cutoff frequency, the docstring should state which of the tied words are kept, for example by first occurrence in the input or alphabetically."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the method returns True when the request is allowed, without saying which paths or user levels are allowed, so the expected True here depends on rules it never states.",
+  "missing": "The docstring should list the rules that decide access: which path prefixes bypass authentication, and what token or header format and minimum user level a request must carry to be allowed."
+}

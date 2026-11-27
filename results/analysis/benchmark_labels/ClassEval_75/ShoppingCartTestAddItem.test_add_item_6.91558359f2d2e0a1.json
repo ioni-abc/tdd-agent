@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the item's information is added and never states whether re-adding an existing item overwrites it, adds to its quantity, or does something else.",
+  "missing": "The docstring should state what happens when an item already in the list is added again, for example whether its price and quantity are replaced or its quantity is accumulated."
+}

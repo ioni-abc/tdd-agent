@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the method as the correlation of two lists and gives a perfectly linear positive example returning 1.0, so a programmer implementing Pearson correlation would return 1.0 for identical lists.",
+  "missing": "none"
+}

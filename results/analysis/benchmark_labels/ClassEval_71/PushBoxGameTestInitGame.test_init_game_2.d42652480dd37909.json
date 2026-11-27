@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes setting player, target, and box positions and never mentions a game-over status flag, so the test's `is_game_over == False` check is not specified.",
+  "missing": "The docstring should state the initial value of every status flag (such as a game-over or win flag) that a newly constructed or initialized game holds, and whether that flag is set during initialization."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "\"Mean of reciprocal rank\" plus the docstring example ([0,1,0,1] giving 0.5) pins down the per-item score as 1/rank of the first correct answer, which yields exactly the test's expected mean and list.",
+  "missing": "none"
+}

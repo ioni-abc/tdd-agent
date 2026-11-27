@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies the result as the quotient of c1 and c2, which mathematically is exactly -1+0j, and the reference code produces this exactly.",
+  "missing": "none"
+}

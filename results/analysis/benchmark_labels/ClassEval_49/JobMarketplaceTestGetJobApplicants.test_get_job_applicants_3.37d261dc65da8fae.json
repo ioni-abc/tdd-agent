@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the candidates that meet the requirements, and in this test John's skills exactly match the requirements while Tom's skills share nothing with them, so any reasonable matching rule gives the expected result.",
+  "missing": "none"
+}

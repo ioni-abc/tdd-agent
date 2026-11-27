@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly states that a ValueError is raised when a parameter is not even, and the docstring example shows exactly this for [2,3,4].",
+  "missing": "none"
+}

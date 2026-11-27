@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says post_job adds the position information to job_listings, and the test's expected list is just those four appended entries in call order.",
+  "missing": "none"
+}

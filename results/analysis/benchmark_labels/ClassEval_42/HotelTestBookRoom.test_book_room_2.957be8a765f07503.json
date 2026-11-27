@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly covers the case where room_type isn't in available_room (return False) and says a failed booking happens instead of modifying the rooms, so the test's return and state checks are both implied.",
+  "missing": "none"
+}

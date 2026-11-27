@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring covers adding a table populated from the list of lists, and the test checks the table dimensions and a cell value, which a correct implementation following the docstring would produce.",
+  "missing": "none"
+}

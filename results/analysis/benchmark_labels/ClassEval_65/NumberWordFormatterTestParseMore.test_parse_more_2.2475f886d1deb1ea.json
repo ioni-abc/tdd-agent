@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest explicitly gives parse_more(1) returning \"THOUSAND\", so the test's expectation is directly documented.",
+  "missing": "none"
+}

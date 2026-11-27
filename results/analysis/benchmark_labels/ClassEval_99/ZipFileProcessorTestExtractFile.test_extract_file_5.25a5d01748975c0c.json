@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the named file is extracted into the specified path and that the return value reports success, which matches the test's True result and the file-exists check.",
+  "missing": "none"
+}

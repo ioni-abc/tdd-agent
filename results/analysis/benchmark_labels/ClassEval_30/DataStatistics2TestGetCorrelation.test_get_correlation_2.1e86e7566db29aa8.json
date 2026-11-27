@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say what the correlation is computed between, so a correct implementation that correlates different variables could return a value other than 1.0 for [1,2,203,4].",
+  "missing": "The docstring should state which quantities are correlated (for example, the columns of the stored data, and what happens when there is only one column), and what value results in that case."
+}

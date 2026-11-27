@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that if the sender or receiver is not in the Chat it returns False, which covers this case, and a message that is not sent would not change the user lists.",
+  "missing": "none"
+}

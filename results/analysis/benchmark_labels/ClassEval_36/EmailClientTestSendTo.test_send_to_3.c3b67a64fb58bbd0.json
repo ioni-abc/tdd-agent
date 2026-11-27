@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The return value of False is documented, but the test also requires the receiver's inbox to remain exactly as it was, and the docstring never says what happens to the mailbox or the sender on a failed send.",
+  "missing": "When a send is rejected because the recipient is full, the docstring should state whether the recipient's inbox is left untouched and which mailbox, if any, is modified as a side effect."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the current shopping list items as a dict, and its example shows the same nested price/quantity structure the test expects.",
+  "missing": "none"
+}

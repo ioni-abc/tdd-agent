@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's single example uses a 3x3 input, so it cannot show whether the correlation is taken between columns or rows, and it never names the coefficient, yet this test's 4-row input depends on the column interpretation.",
+  "missing": "The docstring should state that the result is a square matrix where entry (i, j) is the Pearson correlation coefficient between column i and column j of the input rows, with the output size set by the number of columns."
+}

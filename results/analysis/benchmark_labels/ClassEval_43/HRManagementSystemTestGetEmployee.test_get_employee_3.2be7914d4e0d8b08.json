@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says that if the employee is not in the system the method returns False, which matches the test's assertion for id 2.",
+  "missing": "none"
+}

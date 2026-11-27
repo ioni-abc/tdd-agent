@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says True when the current operator's precedence is higher or equal, but the test expects False for \"%\" against \"+\" and the reference code returns False.",
+  "missing": "The docstring should state the precedence ordering it uses, including how \"%\" ranks relative to \"*\" and \"/\" and whether it is treated as the same level as \"/\", so that the True/False result for each operator pair can be derived."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring's own example shows `get_upcoming_events(1)` returning two events, which conflicts with the one-event result the test expects for n=1.",
+  "missing": "The docstring should state that the result is capped at n items, that events whose start time is before the current time are excluded, and that the example output must match this rule (with the example's events also including a start_time)."
+}

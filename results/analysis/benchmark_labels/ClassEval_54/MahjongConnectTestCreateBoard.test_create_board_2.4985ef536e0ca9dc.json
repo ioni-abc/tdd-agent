@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test's core check (every cell of the board is one of the given icons) matches the docstring's description of a board built from the given size and icons, though the test also reads `mc.board`, `BOARD_SIZE` and `ICONS`, which the docstring does not name.",
+  "missing": "none"
+}

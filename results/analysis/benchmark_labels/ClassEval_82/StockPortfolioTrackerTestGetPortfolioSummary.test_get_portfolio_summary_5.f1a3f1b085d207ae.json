@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the total is cash plus holdings (10000 + 1500 = 11500), so with a zero-value holding the total is just the cash, which a programmer following it would produce.",
+  "missing": "none"
+}

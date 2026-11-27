@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes the pipeline (remove punctuation, tokenize, POS-tag, lemmatize by POS, return the list) that yields the expected tokens, including \"barked\" becoming \"bark\" and \"dog's\" becoming \"dog\".",
+  "missing": "none"
+}

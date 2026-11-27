@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the total size of the emails in the inbox, which is exactly the sum of the two email sizes (20 + 30 = 50) that the test asserts.",
+  "missing": "none"
+}

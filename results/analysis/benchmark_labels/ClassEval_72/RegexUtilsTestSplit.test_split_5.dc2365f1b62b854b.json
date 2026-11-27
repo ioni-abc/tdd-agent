@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's description of splitting text on regex matches, together with its example showing empty strings at the ends, pins down the behaviour this test checks, which is what `re.split` produces.",
+  "missing": "none"
+}

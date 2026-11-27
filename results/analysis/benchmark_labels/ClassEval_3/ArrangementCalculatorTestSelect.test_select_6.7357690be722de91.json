@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that if m is not provided, all items are selected, and the example shows ordered arrangements in the same order as the reference, so a programmer following it would produce [[1, 2], [2, 1]].",
+  "missing": "none"
+}

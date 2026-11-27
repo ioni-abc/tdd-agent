@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the set as arrangements of 1 to n items, and its worked example shows the exact ordering (by length, then permutation order), which the test's expected list follows.",
+  "missing": "none"
+}

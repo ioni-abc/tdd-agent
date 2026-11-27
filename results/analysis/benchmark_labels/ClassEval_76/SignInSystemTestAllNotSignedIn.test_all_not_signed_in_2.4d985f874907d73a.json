@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example adds \"a\" and \"b\" and expects `['a', 'b']`, which matches this test's setup and expected output.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the output as the longest palindromic substring, and for 'ababax' that is uniquely 'ababa', matching the assertion.",
+  "missing": "none"
+}

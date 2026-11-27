@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (radius 2, angle pi giving about 6.283) matches the reference formula radius\u00b2 \u00d7 angle / 2, so a zero radius gives an area of 0 as the test expects.",
+  "missing": "none"
+}

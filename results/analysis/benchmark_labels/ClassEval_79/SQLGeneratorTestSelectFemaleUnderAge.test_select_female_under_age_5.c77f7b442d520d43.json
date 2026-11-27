@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the exact format for age 30 with table1, and the test only substitutes 50, which a programmer following the pattern would produce exactly.",
+  "missing": "none"
+}

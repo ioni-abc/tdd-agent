@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"open file object\", so a correct implementation that returns a different open file type or a non-read mode would not be checked against the test's specific `filename` and `mode == 'r'` assertions.",
+  "missing": "The docstring should state the exact type returned on success (for example, a zip archive object for the given path) and the mode it is opened in (read-only), so an implementer knows which attributes the caller can rely on."
+}

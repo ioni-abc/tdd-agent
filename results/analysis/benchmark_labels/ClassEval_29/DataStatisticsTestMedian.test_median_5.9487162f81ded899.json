@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring asks for \"the median value\" accurate to two decimals, and the standard median of an even-length list is the mean of its two middle values, so a programmer following it would return 5.5.",
+  "missing": "none"
+}

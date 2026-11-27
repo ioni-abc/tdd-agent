@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says units are converted but does not specify the conversion formula, its order of operations, or any rounding, so the exact floating-point result 26.999999999999996 cannot be derived from it.",
+  "missing": "The docstring should state the exact conversion formulas used between Celsius and Fahrenheit and whether the returned temperature is rounded or returned at full floating-point precision."
+}

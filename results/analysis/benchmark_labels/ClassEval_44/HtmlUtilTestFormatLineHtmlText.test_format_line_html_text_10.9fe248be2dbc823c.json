@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives no rule for adding periods to paragraphs or for how text adjacent to a paragraph is joined, and it only describes marking code blocks, not inline `<code>` tags.",
+  "missing": "The docstring should state, for each paragraph, whether terminal punctuation is appended when absent, when a colon is used instead, which tags (such as inline `<code>`) become the code marker, and how adjacent text blocks are joined."
+}

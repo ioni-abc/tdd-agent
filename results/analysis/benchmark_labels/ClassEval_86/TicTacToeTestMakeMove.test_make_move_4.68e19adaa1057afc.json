@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says make_move places the mark, switches players, and returns whether the move succeeded, which covers each assertTrue and the final current_player check.",
+  "missing": "none"
+}

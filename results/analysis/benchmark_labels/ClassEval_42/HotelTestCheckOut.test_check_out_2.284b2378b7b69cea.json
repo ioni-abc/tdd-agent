@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says check_out adds the given number to the matching type in available_rooms, which yields {'single': 6, 'double': 2}, and it names no other state that should change, so booked_rooms staying untouched is also implied.",
+  "missing": "none"
+}

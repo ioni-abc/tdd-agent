@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects each row as a tuple (and the active sheet's rows), but the docstring's vague \"list of data\" does not specify the row container type, so a correct list-of-lists implementation would fail the equality check.",
+  "missing": "The docstring should state the exact return structure: a list with one element per row of the active worksheet, where each row is a tuple of cell values in column order, and what is returned on failure."
+}

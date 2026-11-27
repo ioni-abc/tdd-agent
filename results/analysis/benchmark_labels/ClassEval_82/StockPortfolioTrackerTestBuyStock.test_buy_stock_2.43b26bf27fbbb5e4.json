@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says the method returns False when the cash balance is not enough, which is the behaviour this test checks, and leaving the portfolio and balance unchanged follows from a failed purchase.",
+  "missing": "none"
+}

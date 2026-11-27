@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring defines availability as no conflicting event but gives no rule for boundary-touching intervals, so the test's back-to-back case (new slot starts at the moment the event ends) could be judged either way.",
+  "missing": "The docstring should say whether a time slot that only touches an existing event at its start or end instant (end equals another event's start, or start equals its end) is considered available or conflicting."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's example (2,4)\u21926 fits both bitwise OR and plain addition, so it does not tell an implementer that adding a status already present leaves the value unchanged, which the test expects (2 for add(2,2)).",
+  "missing": "The docstring should say that the statuses are bit flags combined with bitwise OR, so that adding a flag that is already set leaves the state unchanged and the result is not a numeric sum."
+}

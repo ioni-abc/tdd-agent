@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Reference-code mismatch: tracing solution_code on \"two thousand and nineteen\" gives \"2000 and 19\", so the test's expected \"2019\" fails against the reference.",
+  "missing": "The docstring should state how filler conjunction words such as \"and\" inside a number phrase are handled, either by dropping them or by splitting the output, so the expected string is unambiguous."
+}

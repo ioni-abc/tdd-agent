@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly describes returning True when the save succeeds, which is what the test asserts for a serializable cookies dict.",
+  "missing": "none"
+}

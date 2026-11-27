@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"damage needs to offset the defense value\" and its worked example (10 attack vs 2 defense gives 92 from 100) define the subtraction that produces both expected HP values here.",
+  "missing": "none"
+}

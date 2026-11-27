@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly lists \"/login\" as a checked prefix and says True is returned when the URI starts with it, matching the test's assertTrue on '/login/data'.",
+  "missing": "none"
+}

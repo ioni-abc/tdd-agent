@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example, tricalculator.tan(45) returning 1.0, matches the test's input and expected value exactly.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows infix input evaluated with normal operator precedence, which implies the test's \"2 + 3 + 4\" gives 9.0, even though the prose calls the input postfix.",
+  "missing": "none"
+}

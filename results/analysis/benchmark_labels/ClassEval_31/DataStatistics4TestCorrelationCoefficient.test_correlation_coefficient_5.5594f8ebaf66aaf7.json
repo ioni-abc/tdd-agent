@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test uses assertEqual on an exact floating-point value, while the docstring only says \"float\" and gives no precision or rounding convention, so a mathematically correct implementation that computes 0.5 would fail.",
+  "missing": "The docstring should state the required numerical precision of the returned float, for example whether results are rounded or compared with a tolerance, and whether exact float output from a specific formula is expected."
+}

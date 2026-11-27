@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says parsed values are stored \"in specific type\" via _convert_type and that (True, None) is returned when no required arguments are missing, which matches both assertions.",
+  "missing": "none"
+}

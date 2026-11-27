@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring promises an open file object on success but does not specify that the mode is 'r' or that the object is a ZipFile with the given filename, which the test asserts.",
+  "missing": "The docstring should state the mode the archive is opened in (for example, read-only) and the type of the returned object, so that an implementation opening it in another mode would be detectably wrong."
+}

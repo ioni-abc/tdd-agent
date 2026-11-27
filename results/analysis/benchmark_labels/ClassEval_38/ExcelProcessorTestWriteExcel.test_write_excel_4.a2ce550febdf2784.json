@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states that a successful write returns 1 and that the data is written to the named file, which covers the test's success check and file-existence check; the round-trip read-back depends on read_excel, not on this method's docstring.",
+  "missing": "none"
+}

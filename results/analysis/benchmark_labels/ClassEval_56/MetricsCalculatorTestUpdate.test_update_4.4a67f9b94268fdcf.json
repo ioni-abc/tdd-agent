@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same predicted/true-to-count mapping (predicted 1 with true 0 gives a false positive, and so on), and the test's expected (2, 0, 1, 1) follows directly from that convention.",
+  "missing": "none"
+}

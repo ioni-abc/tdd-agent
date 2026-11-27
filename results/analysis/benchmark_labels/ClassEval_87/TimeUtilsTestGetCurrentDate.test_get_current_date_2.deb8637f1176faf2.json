@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states the output format and that it is the current date, and the test checks exactly that by comparing against the same format applied to the instance's datetime.",
+  "missing": "none"
+}

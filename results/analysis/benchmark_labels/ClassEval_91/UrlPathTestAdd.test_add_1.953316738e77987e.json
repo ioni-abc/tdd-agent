@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows exactly this sequence of adds producing segments ['foo', 'bar'], so the test's expectation is stated.",
+  "missing": "none"
+}

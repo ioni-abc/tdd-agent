@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Wrong method under test: the test calls merge_pdfs and checks a merge confirmation message and file creation, while the docstring and method being checked are for extract_text_from_pdfs.",
+  "missing": "none"
+}

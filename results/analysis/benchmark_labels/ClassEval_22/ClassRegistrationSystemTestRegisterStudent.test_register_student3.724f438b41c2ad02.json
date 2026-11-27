@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a student is added and 1 is returned when new, and 0 is returned when the student is already registered, which matches all three assertions.",
+  "missing": "none"
+}

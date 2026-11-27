@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"or False otherwise\" clause covers an id that is absent from an empty inventory, which is exactly what the test checks.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the total is cash plus the sum of price times quantity, so an empty portfolio yields just the cash balance, which is what the test asserts.",
+  "missing": "none"
+}

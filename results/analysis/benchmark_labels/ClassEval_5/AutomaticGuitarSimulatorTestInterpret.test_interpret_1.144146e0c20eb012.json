@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says Chord holds the letters and Tune holds the numbers, and the single-segment case follows directly from that, so the test's expected output matches the docstring.",
+  "missing": "none"
+}

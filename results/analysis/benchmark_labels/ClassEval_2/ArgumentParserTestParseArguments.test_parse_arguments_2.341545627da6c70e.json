@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that flag-style options with no value are stored as `True` and that a successful parse returns `(True, None)`, which is exactly what this test checks.",
+  "missing": "none"
+}

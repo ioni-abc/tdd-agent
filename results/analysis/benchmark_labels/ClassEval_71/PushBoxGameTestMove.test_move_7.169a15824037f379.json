@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test moves the player up into a box that cannot be pushed because the cell beyond it is a wall, and it asserts the player stays at its original position, but the docstring never says a blocked push leaves the player in place.",
+  "missing": "When the player moves into a box and the cell behind the box is a wall or otherwise blocked, the move is cancelled: the box and the player both stay where they were, and the method still returns the win check result."
+}

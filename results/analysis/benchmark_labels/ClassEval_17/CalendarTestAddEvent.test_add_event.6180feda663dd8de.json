@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example adds an event to a fresh `CalendarUtil` and shows `calendar.events` returning a one-item list containing that same dict, which is exactly what the test asserts.",
+  "missing": "none"
+}

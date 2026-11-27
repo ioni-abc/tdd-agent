@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say how to handle a row whose counts do not sum to n or how the category proportions are normalised, and the reference code's pooled-total normalisation gives a value that a standard row-sum-based Fleiss implementation would not reproduce.",
+  "missing": "The docstring should state the input constraint that each row's counts must sum to the number of raters n, and specify how the category proportions are computed (for example, divided by the grand total of all entries), including what happens when rows do not satisfy the constraint."
+}

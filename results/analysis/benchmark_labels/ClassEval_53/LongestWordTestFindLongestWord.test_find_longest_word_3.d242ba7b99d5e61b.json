@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's punctuation removal and longest-word-in-word_list rule directly yield 'student' for this input, so the test's expectation is covered.",
+  "missing": "none"
+}

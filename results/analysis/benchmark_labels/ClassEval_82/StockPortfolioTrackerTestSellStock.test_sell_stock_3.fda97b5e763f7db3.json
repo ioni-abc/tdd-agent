@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says sell_stock returns False when the quantity of the stock is not enough, and holding zero shares means the quantity is not enough, which matches the test's False result.",
+  "missing": "none"
+}

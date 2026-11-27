@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says that moving into a wall is blocked, so the test's expectation that the player stays at its starting position (and that is_game_over stays False) is not specified.",
+  "missing": "The docstring should state that a move into a wall ('#') cell is refused, leaving the player where it was, and that the game's over/won state is also recorded in an is_game_over attribute that is set when the game is won."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the result as arrangements of m items chosen from n, and its example (count(5, 3) = 60) confirms the permutation formula that gives 120 here.",
+  "missing": "none"
+}

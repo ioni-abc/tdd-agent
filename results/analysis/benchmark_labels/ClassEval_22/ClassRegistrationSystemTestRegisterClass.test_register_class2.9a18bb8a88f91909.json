@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the list of classes the student has registered, and its example shows accumulation across calls, so the test's expected list follows directly.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method checks for missing required arguments and returns False with their names, which is exactly what the test checks for \"age\", while \"name\" is present and so not reported.",
+  "missing": "none"
+}

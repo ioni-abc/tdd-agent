@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies a str result giving the binary representation of an integer, and the test's expected value '1010010111010111' is exactly the standard binary form of 42455.",
+  "missing": "none"
+}

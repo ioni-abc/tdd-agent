@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the course is removed \"if the course was in it,\" which covers the case where it was never there, so a programmer following it would leave the list without that course and pass the assertion.",
+  "missing": "none"
+}

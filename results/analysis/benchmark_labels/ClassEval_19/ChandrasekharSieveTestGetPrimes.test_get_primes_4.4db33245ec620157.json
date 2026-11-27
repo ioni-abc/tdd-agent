@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the list of generated primes, and its example shows that a sieve of size 20 yields all primes up to 20, so a programmer would produce [2, 3, 5, 7] for size 10.",
+  "missing": "none"
+}

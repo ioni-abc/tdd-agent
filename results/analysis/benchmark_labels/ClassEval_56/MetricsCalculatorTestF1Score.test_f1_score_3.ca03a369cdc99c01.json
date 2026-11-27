@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines f1_score as the harmonic mean of precision and recall, and its example confirms the binary positive-class convention, so a programmer following it would compute 0.8.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example, standard_deviation([1, 2, 3]) returning 1.0, is exactly the behaviour the test checks.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's formula (quantity multiplied by price, summed, returned as a float) gives exactly the 4.0 the test asserts, and its own example confirms the argument order is (name, quantity, price).",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example shows this exact call and resulting inventory, so a implementation following it would pass the test.",
+  "missing": "none"
+}

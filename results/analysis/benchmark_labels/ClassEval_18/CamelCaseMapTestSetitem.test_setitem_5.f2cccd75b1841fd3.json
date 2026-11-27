@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says `__setitem__` sets the value for the key to the specified str value, and an empty string is a valid str, so the test's round-trip assertion follows directly from it.",
+  "missing": "none"
+}

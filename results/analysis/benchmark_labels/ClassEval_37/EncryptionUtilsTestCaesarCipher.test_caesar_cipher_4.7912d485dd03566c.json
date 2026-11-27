@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says each character is shifted by the given amount but never says letters wrap around the alphabet, so an implementation without wraparound would fail this shift-26 test.",
+  "missing": "The docstring should state that letters wrap around within their own case (so 'z' shifted by 1 becomes 'a', and a shift equal to or larger than 26 is taken modulo 26), and that non-letter characters are left unchanged."
+}

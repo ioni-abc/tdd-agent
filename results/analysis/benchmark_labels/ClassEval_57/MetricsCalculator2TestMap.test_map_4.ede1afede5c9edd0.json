@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's list-input example gives the average and the per-item precision list, and the test's input and outputs follow the same convention, so a faithful implementation would pass.",
+  "missing": "none"
+}

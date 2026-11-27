@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each Chord is the letters and each Tune is the numbers, and its example already shows a multi-letter chord (\"Em\") being split this way, so the test's expected output follows directly.",
+  "missing": "none"
+}

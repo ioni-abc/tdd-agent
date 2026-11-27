@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest with the same inputs shows `mismatch_in_text(0)` returning 2, which is exactly what the test asserts.",
+  "missing": "none"
+}

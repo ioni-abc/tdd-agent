@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method computes the circle's area from self.radius and gives the worked example radius 2 \u2192 12.566..., which fixes the formula as pi * r\u00b2.",
+  "missing": "none"
+}

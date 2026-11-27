@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines F1 as the harmonic mean of precision and recall, and its example (which matches the binary, class-1-positive convention) lets a programmer derive the expected 0.8 for this test.",
+  "missing": "none"
+}

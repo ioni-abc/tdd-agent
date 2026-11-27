@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method loads cookies from the cookies file and returns them as a dict, and its example output matches the test's asserted value.",
+  "missing": "none"
+}

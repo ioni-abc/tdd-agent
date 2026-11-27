@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the average score of the named course over students who have records for it, and the test's expected 85.0 follows directly from that rule.",
+  "missing": "none"
+}

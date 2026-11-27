@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring's \"over 1000\" excludes exactly 1000 points, but the test (and reference code's `>= 1000`) expects a 5% discount of 12.5 at exactly 1000 points.",
+  "missing": "The docstring should state whether the point threshold is inclusive, i.e. whether a customer whose points equal the threshold qualifies for the discount, and not rely on the word \"over\" alone."
+}

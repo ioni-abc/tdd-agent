@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the board is n*n, '-' marks unknown positions, and its example for n=3 gives a 3x3 all-'-' map, which matches the test's expected output for n=3 regardless of k=2.",
+  "missing": "none"
+}

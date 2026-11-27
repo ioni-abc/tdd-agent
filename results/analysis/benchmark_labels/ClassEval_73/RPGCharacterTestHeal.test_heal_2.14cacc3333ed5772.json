@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the max hp is 100 and heal adds 10, so a programmer following it would cap the 97 + 10 result at 100 and the assertion holds.",
+  "missing": "none"
+}

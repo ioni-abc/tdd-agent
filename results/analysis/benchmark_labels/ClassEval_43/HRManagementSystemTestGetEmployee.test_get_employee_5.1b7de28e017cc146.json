@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that if the employee is in the system, their information is returned, which matches both assertions for ids 1 and 2.",
+  "missing": "none"
+}

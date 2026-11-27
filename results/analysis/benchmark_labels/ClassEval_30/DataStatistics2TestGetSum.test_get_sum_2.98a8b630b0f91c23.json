@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's description \"Calculate the sum of data\" fully determines the result 210 for this input, and the example with [1,2,3,4] returning 10 confirms plain summation.",
+  "missing": "none"
+}

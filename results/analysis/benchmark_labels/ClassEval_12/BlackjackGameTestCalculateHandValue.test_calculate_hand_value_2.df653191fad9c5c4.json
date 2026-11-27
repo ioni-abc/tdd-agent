@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rules (digits at face value, J/Q/K worth 10, no Ace adjustment needed without Aces) fully determine the expected result of 25.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly requires each octet to be at most 255, so 300 in the first octet makes the address invalid, matching the test's False expectation.",
+  "missing": "none"
+}

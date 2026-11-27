@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies the Decimal return type, the operator semantics, and an example that yields 5, so the test's expected Decimal(5.0) is what a faithful implementation returns.",
+  "missing": "none"
+}

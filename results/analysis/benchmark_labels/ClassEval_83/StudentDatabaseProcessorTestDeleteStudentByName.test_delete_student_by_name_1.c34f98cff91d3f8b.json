@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test-method mismatch: the test calls delete_student_by_name and checks that no rows remain, but it is filed under search_student_by_name, whose docstring describes only a read-only lookup.",
+  "missing": "none"
+}

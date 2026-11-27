@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method converts the temperature to the units given by `tmp_units` and returns a (temperature, weather) tuple, so a programmer following it would produce (80.6, 'sunny').",
+  "missing": "none"
+}

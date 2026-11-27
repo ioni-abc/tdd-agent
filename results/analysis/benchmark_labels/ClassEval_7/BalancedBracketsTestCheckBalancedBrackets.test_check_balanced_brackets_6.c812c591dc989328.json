@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"False otherwise\" clause covers this unbalanced input, so a correct implementation following it returns False and passes.",
+  "missing": "none"
+}

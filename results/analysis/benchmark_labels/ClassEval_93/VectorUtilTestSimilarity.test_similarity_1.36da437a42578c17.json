@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest example uses the exact same inputs and expected value as the test, and the described behaviour (cosine similarity) matches the computed result.",
+  "missing": "none"
+}

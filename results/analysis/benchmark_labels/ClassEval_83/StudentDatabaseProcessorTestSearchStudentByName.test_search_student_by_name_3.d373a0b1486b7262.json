@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test's assertions depend on the return format of `search_student_by_name` (a list of rows with the name at index 1), which this docstring does not describe.",
+  "missing": "The docstring of each method that the test relies on should state its return format, including the column order of returned rows and whether it returns a list of tuples, so a correct implementation can be checked against the test's indexing."
+}

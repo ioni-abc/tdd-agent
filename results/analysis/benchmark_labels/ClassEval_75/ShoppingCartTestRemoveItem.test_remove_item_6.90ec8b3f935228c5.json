@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes subtracting quantity from an existing item and never says what happens when the named item is absent, which is the case this test checks.",
+  "missing": "When the item is not in the shopping list, the method should make no change to the list and should not raise an error."
+}

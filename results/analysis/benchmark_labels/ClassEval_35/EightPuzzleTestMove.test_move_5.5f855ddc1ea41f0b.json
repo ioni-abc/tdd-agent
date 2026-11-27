@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test passes an unsupported direction and expects the board back unchanged, but the docstring never says what happens for values outside 'up', 'down', 'left', 'right'.",
+  "missing": "The docstring should say what the method returns when the direction is not one of the allowed values, for example that it returns an unchanged copy of the input state."
+}

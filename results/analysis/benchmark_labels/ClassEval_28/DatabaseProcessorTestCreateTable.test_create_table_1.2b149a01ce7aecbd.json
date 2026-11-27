@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says it creates the named table in the database, which is exactly what the test checks via sqlite_master.",
+  "missing": "none"
+}

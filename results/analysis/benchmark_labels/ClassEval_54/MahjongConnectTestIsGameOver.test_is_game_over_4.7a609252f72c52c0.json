@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule that the game ends only when no icons are left directly implies False for a board with one remaining icon, which matches the test's assertion and the reference code.",
+  "missing": "none"
+}

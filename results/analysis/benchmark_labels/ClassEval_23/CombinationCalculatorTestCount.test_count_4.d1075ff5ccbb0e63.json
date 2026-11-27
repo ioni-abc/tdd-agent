@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the result as the number of combinations of n elements taken m at a time, and the standard definition gives exactly 1 when m is 0, which matches the assertion.",
+  "missing": "none"
+}

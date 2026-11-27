@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's first validity condition (positions within the game board range) directly covers the test's out-of-range first position, and the reference code returns False for it.",
+  "missing": "none"
+}

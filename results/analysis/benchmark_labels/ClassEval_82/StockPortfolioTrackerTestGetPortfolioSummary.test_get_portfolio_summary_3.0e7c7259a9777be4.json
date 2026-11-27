@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the total equals the starting cash plus the holdings' value, so an empty portfolio yields the cash amount and an empty list, which is what the test asserts.",
+  "missing": "none"
+}

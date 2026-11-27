@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects buying a stock already in the portfolio to merge into the existing entry (quantity 10 plus 10 gives 20) and to reduce cash, but the docstring only covers the True/False return and an empty-portfolio example.",
+  "missing": "The docstring should say how buying a stock that is already held is recorded, for example whether its quantity is added to the existing portfolio entry or a new entry is appended, and that the cash balance is reduced by price times quantity on a successful purchase."
+}

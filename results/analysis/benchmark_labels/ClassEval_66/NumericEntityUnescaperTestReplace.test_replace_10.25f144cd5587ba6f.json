@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only covers well-formed references such as \"&#65;\", so it gives no rule for a truncated reference that the test expects to be dropped, returning \"\".",
+  "missing": "When a numeric character reference is truncated (no digits or no terminating semicolon before the end of the string), the docstring should state whether the partial text is dropped or copied through unchanged."
+}

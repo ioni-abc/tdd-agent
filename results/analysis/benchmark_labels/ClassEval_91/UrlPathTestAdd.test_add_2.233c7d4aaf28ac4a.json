@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add appends the segment to the list of segments, and its example shows segments becoming ['foo', 'bar'] after two adds, which matches this test's plain alphanumeric inputs.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects `image.format` to be `None` after resizing, which the docstring never mentions, so a correct implementation that keeps the format could fail.",
+  "missing": "The docstring should state what happens to the image's format and other metadata after resizing, including whether they are kept or cleared, so that a programmer can match the expected result without guessing."
+}

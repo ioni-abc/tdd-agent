@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring includes a doctest with the same input and expected output as the test, so a programmer following it would pass.",
+  "missing": "none"
+}

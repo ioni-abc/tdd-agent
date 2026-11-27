@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True when five consecutive symbols of the same player start from the given cell in the given direction, and the test's board and call match that condition.",
+  "missing": "none"
+}

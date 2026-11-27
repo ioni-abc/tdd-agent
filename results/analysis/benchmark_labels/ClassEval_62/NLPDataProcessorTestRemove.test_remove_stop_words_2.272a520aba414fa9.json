@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule that stop words are removed from each string's words directly implies the expected empty lists for this test.",
+  "missing": "none"
+}

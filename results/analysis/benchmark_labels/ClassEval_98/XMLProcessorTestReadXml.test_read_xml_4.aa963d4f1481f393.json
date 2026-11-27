@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it returns the root element of the XML file, which is exactly what the test checks (non-None root, findall('item') returning the item elements in order with their text).",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says reset sets length to 1, head position to half the screen width and height, and score to 0, which is exactly what the test checks.",
+  "missing": "none"
+}

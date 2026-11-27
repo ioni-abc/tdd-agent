@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows every non-empty combination of the data, and with one element that rule yields exactly [['A']], which is what the test asserts.",
+  "missing": "none"
+}

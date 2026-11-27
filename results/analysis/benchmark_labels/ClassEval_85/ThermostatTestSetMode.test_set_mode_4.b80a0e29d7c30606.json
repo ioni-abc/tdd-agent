@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that setting a valid mode makes the thermostat's mode equal to that value, which is what the test checks through `get_mode()`.",
+  "missing": "none"
+}

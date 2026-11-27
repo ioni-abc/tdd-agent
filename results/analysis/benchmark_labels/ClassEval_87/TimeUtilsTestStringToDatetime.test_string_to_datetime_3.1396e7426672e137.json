@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example uses the same unpadded format as the test input and shows the same expected datetime, so a implementation following it would pass.",
+  "missing": "none"
+}

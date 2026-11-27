@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the value as a float and its example shows price multiplied by quantity, so a zero price gives 0.0 under that rule.",
+  "missing": "none"
+}

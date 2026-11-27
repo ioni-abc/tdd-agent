@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the return as True only for valid IPv6 addresses and False otherwise, and the input contains non-hex characters, so a correct implementation returns False.",
+  "missing": "none"
+}

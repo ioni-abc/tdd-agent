@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False when the user is not in the Chat, which is exactly what the first assertion checks, and the second assertion (users stays empty) follows naturally from removing nothing.",
+  "missing": "none"
+}

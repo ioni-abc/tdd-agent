@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects a period appended to a paragraph lacking punctuation and no separator between the paragraph and the following div, and the docstring says neither.",
+  "missing": "The docstring should state that each paragraph's text gets a trailing period unless it already ends in punctuation (or a colon when followed by a code block), and state how text from adjacent block elements is joined in the output."
+}

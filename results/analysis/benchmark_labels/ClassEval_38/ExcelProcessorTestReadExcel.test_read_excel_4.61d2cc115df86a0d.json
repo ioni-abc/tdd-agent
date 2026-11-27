@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say whether each row should be a tuple or a list, so an implementation returning lists of cell values would fail the test's tuple-based assertion.",
+  "missing": "The docstring should specify the exact shape of the return value: each row's type (for example, a tuple of cell values), which worksheet is read (for example, the active sheet), and what is returned when reading fails."
+}

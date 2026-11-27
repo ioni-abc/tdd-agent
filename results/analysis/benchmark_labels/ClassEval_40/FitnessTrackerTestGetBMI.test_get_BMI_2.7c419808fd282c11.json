@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the exact formula (weight divided by the square of height, as a float), which is what the test's expected value computes.",
+  "missing": "none"
+}

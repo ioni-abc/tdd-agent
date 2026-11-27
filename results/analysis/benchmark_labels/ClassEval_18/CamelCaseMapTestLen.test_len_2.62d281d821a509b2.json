@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states that the length equals the count of stored data, which matches the test's single-entry map expecting 1.",
+  "missing": "none"
+}

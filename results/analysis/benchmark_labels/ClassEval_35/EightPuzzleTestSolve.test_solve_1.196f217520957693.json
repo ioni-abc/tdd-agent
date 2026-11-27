@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest uses exactly the test's initial board and expects ['right'], so a programmer following it would produce the tested output.",
+  "missing": "none"
+}

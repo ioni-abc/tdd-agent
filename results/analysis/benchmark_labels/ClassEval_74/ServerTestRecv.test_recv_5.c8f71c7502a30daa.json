@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only covers whitelisted versus non-whitelisted addresses, and says nothing about malformed input, the return value -1, or the initial value of receive_struct that the test asserts.",
+  "missing": "The docstring should state what happens when the input is not a dict or lacks the required keys, including the specific return value for that case and whether any stored attribute stays unchanged or at its initial value."
+}

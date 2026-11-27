@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring promises a list of row tuples, but the test indexes the result as one row (user[0] == 'user3'), which the reference's fetchone() single tuple also does.",
+  "missing": "The docstring should state the exact shape of the return value: when a lookup matches at most one record, say whether it returns that single row as a tuple or a list containing it, and whether it returns None when nothing matches."
+}

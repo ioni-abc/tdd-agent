@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes shifting each character by the shift amount and gives the exact example caesar_cipher(\"abc\", 1) returning 'bcd', matching the test.",
+  "missing": "none"
+}

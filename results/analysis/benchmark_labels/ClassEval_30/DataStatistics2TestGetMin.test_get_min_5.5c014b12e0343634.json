@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"minimum value in the data\" directly specifies the expected result, which is -1111 for this input, and the test checks exactly that.",
+  "missing": "none"
+}

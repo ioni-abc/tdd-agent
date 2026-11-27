@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rounding rule and its example, which matches population standard deviation, fully determine the expected value 86.9 for this input.",
+  "missing": "none"
+}

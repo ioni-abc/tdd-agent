@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's worked example (0.5 for its inputs) fixes label 1 as the positive class and the usual precision formula, and the test's inputs follow the same convention to yield 1.0.",
+  "missing": "none"
+}

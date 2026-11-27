@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only covers the general two-digit conversion and gives no rule for the zero input, so a correct implementation could return something other than the empty string the test expects.",
+  "missing": "The docstring should state what is returned when the number is zero, including whether it is an empty string or a word such as \"ZERO\", and how leading-zero inputs like \"00\" or \"05\" are rendered."
+}

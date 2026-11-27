@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (blank on the bottom edge yields 'up', 'left', 'right') shows that moves are the on-board directions of the blank tile, which a programmer can apply to this input to get the expected result.",
+  "missing": "none"
+}

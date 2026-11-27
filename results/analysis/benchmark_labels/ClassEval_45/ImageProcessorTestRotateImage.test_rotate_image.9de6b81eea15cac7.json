@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's core behaviour (rotate the opened image by the given degrees) is exactly what the test checks, and the test image is a uniform square, so direction and canvas-size conventions don't change the result.",
+  "missing": "none"
+}

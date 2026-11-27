@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example uses the same input and gives the exact expected output \"2+3*4\" that the test asserts.",
+  "missing": "none"
+}

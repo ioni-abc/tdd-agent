@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the return value as the words from the input list with stop words removed, so an empty input yields an empty output, which is what the test asserts.",
+  "missing": "none"
+}

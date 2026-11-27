@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the exact float 0.3989422804014327 as the normal PDF value at a point equal to the mean with sigma 1, which is what this test expects for all three inputs.",
+  "missing": "none"
+}

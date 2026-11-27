@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_max calculates the maximum value in the data and its doctest shows 4 for [1, 2, 3, 4], which matches the test's assertEqual(res, 4).",
+  "missing": "none"
+}

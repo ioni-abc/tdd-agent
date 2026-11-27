@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the exact regex, and a programmer who returns that pattern would get False for this input without needing any further information.",
+  "missing": "none"
+}

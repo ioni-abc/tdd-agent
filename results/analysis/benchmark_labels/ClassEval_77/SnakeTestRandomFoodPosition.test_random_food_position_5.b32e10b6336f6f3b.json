@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"don't place it on the snake\" directly covers the main assertion, and the reference code keeps the position within the screen grid, which the bounds assertions check.",
+  "missing": "none"
+}

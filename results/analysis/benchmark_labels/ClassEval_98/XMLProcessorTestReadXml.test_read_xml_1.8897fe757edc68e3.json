@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method reads the XML file and returns the root element, which is exactly what the test checks: a non-None root whose item children have the expected texts.",
+  "missing": "none"
+}

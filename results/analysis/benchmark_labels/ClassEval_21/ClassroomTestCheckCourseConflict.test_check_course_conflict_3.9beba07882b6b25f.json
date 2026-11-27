@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says that courses sharing a boundary time conflict and the method returns False, which matches the test's assertFalse on a 10:00 start after a 10:00 end.",
+  "missing": "none"
+}

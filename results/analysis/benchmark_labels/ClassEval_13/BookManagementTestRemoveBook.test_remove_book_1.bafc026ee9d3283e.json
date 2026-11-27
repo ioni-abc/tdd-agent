@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the \"book1\" entry to be deleted entirely once its count reaches zero, but the docstring only says to remove books from inventory and does not state what happens to a title whose count drops to zero.",
+  "missing": "The docstring should say that when a title's quantity drops to zero after removal, the title is deleted from the inventory rather than kept with a count of 0, and should say what happens when the requested quantity exceeds the stock."
+}

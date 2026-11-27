@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the exact format \"SELECT * FROM table1 WHERE age BETWEEN min AND max;\" which the test's expected output follows with substituted values 30 and 40.",
+  "missing": "none"
+}

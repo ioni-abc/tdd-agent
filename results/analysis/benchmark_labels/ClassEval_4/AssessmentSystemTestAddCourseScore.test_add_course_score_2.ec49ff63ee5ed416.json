@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the score is added for the student in self.students, and its doctest shows the score stored under the student's courses dict, which is exactly what the test checks.",
+  "missing": "none"
+}

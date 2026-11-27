@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines cos as the cosine of an x-degree angle, so the mathematically correct value at 0 degrees is 1, which is what the test expects.",
+  "missing": "none"
+}

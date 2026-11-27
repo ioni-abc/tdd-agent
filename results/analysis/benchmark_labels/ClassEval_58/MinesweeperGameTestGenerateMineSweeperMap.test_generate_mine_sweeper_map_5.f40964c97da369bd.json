@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the board is n*n and that k is the number of mines marked 'X', so both the length-4 and single-'X' assertions follow from it.",
+  "missing": "none"
+}

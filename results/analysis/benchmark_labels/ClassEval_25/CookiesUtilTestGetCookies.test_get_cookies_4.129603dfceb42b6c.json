@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the same mapping (a response with a `'cookies'` key sets `cookies` to that inner dict), and the test's extra keys do not change that expected result.",
+  "missing": "none"
+}

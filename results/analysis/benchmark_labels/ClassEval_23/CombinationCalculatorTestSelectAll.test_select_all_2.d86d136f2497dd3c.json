@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's four-element example shows every non-empty combination, ordered by size and then by input order, so a programmer following it would produce the two-element result the test expects.",
+  "missing": "none"
+}

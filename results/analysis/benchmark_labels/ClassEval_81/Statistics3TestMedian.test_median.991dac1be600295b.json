@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example median([1, 2, 3, 4]) returns 2.5, exactly matching the test's input and expected value.",
+  "missing": "none"
+}

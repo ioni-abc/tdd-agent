@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows add_song(\"song1\") leading to playlist == ['song1'], exactly what the test asserts.",
+  "missing": "none"
+}

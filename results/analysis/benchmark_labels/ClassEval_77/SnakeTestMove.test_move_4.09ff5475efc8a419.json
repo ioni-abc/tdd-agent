@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the head to remain at (50, 50) with length 1 and score 0 after a zero-vector move, but the docstring never describes the initial head position, zero-movement behaviour, or when the score changes.",
+  "missing": "The docstring should state the snake's starting head position set by the constructor, what happens when the direction is (0, 0) (whether the head stays put and the length is unchanged), and that the score only increases when food is eaten."
+}

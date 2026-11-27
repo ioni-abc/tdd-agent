@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to keep the Nth column, capitalize it, save to a '_process' file, and return 1 on success, and its example (hElLo becomes HELLO) shows the values are fully uppercased, which matches the test's expected 'YOU'.",
+  "missing": "none"
+}

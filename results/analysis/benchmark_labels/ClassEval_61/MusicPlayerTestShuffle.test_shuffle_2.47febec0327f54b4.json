@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says it returns False when the playlist is empty, which is exactly what the test sets up and asserts.",
+  "missing": "none"
+}

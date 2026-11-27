@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the conversion, so any correct implementation returns roughly 22.78 for 73, and the assertNotEqual against 27 passes.",
+  "missing": "none"
+}

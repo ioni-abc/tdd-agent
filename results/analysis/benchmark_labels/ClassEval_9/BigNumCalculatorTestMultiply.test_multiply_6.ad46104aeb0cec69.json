@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that the result is \"the product of the two numbers, str\" and never says whether leading zeros in the inputs must be stripped from the output, so the expected \"1\" depends on an unstated convention.",
+  "missing": "The docstring should state whether inputs may contain leading zeros and whether the returned string must have no leading zeros (for example, that the result is the canonical decimal representation of the product, with \"0\" for zero)."
+}

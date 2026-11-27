@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the win as all boxes being on target positions and says it returns True in that case, which matches the test's assertTrue after the box reaches the target.",
+  "missing": "none"
+}

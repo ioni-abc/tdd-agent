@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows the success path (returns True and removes the entry) and never describes the failure path where the requested quantity is larger than the holding.",
+  "missing": "The docstring should state that if the stock is not in the portfolio, or the holding has fewer shares than requested, the method returns False and leaves the portfolio unchanged, and that it returns True only when the removal succeeds."
+}

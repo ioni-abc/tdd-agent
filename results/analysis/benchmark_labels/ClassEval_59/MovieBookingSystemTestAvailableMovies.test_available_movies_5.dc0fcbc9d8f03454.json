@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns movies \"within the specified time range,\" which a programmer would read as movies that start and end inside the window, matching the expected ['Spiderman'].",
+  "missing": "none"
+}

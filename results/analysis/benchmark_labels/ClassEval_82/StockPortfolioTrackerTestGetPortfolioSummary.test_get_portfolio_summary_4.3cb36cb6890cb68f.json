@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The doctest's total of 11500.0 (10000.0 cash plus 1500.0 holdings) and per-stock value of 1500.0 (150.0 times 10) fix the formulas, and with quantity 0 they give exactly the test's expected (10000.0, value 0.0).",
+  "missing": "none"
+}

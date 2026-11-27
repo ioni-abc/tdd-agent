@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says None is returned on failure but never defines what counts as failure, so a correct implementation could reject '1+2?' and return None instead of 3.",
+  "missing": "The docstring should state how characters outside digits, decimal points, the operators (+, -, *, /, ^), and parentheses are handled, for example whether they are silently skipped or cause the method to return None."
+}

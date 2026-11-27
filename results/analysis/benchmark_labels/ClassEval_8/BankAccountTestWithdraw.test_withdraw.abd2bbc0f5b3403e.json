@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says withdraw decreases the balance and returns the current balance, so a withdrawal of 200 from 1000 returning 800 follows directly.",
+  "missing": "none"
+}

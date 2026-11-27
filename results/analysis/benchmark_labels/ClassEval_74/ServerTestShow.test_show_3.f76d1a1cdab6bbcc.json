@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"otherwise, return False\" clause directly covers the test's unrecognized type string, and the test expects False.",
+  "missing": "none"
+}

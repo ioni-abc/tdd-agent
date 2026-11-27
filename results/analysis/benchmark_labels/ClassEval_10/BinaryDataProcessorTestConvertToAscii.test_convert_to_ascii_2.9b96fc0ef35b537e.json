@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "Splitting the input into bytes gives 'h', '%', 'l', 'l', 'o', which matches the asserted \"h%llo\" under the docstring's plain binary-to-ASCII conversion.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says total returns the total cost of items in the cart, and the cart's cost is quantity times price summed per item, which the test's 2050.0 matches.",
+  "missing": "none"
+}

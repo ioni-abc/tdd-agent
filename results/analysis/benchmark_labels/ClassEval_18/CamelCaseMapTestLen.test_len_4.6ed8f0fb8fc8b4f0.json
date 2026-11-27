@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies that the method returns the length of the stored data, and the test sets three distinct keys and expects 3, which a faithful implementation would return.",
+  "missing": "none"
+}

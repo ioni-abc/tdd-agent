@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \":return:\" clause says False is returned when there is no current song, and this test sets a playlist without a current song and expects False, which matches the reference code.",
+  "missing": "none"
+}

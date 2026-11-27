@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only specifies the return value when the character occurs in the pattern, and says nothing about the not-found case that this test checks.",
+  "missing": "The docstring should state the return value when the character does not occur in the pattern, for example that it returns -1 when no match exists."
+}

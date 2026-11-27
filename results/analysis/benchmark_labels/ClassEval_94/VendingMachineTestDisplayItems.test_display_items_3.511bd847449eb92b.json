@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's only multi-item evidence is a single-product example, so the newline separator the test expects between two products is not specified.",
+  "missing": "The docstring should state how multiple entries are combined into the returned string, including the separator between entries and the order they appear in."
+}

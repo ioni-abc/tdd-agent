@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's definition of arrangements (choosing m of n, order matters) yields 210 for these inputs, matching the assertion and the docstring's own count(5, 3) = 60 example.",
+  "missing": "none"
+}

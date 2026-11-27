@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says only customers over 1000 points get the 5% discount, which directly implies a customer with 0 points gets no discount, matching the expected 0.",
+  "missing": "none"
+}

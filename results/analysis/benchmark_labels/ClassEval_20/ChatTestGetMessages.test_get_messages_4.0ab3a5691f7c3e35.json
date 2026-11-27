@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example calls get_messages('Mary') on a chat where Mary has no entry and shows the result `[]`, which matches the test's expectation.",
+  "missing": "none"
+}

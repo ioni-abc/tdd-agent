@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest example with limit 20 returns exactly the list the test asserts, so the expected behavior is explicitly stated.",
+  "missing": "none"
+}

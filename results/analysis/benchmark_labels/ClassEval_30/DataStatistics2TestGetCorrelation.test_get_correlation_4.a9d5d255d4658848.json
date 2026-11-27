@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows a single-list input returning 1.0 with the return type documented as float, which matches this test's input and expected value.",
+  "missing": "none"
+}

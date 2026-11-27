@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows two given positions being replaced with a blank ' ' while other cells stay the same, which matches the test's expected board.",
+  "missing": "none"
+}

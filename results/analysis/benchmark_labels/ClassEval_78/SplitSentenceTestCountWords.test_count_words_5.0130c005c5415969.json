@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says punctuation and numbers are not counted, so the standalone \"111\" is excluded and the expected count of 2 follows.",
+  "missing": "none"
+}

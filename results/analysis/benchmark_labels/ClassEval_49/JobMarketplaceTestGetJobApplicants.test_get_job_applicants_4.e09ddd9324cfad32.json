@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns only the candidates that meet the requirements, and this test's candidates share no skills with the job's requirements, so an empty list is the implied result.",
+  "missing": "none"
+}

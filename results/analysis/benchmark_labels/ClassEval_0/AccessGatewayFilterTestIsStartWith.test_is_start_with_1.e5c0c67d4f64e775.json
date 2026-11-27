@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly names the prefixes and the True return, and the example '/api/data' \u2192 True matches the test's input and assertion.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_scheme returns the URL's scheme, and its example (\"https://...\") returns \"https\", which matches the test's input and expected value.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly gives length 1, head at (SCREEN_WIDTH/2, SCREEN_HEIGHT/2), and score 0, which matches the test's assertions for the 100x100 snake.",
+  "missing": "none"
+}

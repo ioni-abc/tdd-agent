@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies string inputs, a string return, and that the result is the sum, which is exactly what the assertion checks.",
+  "missing": "none"
+}

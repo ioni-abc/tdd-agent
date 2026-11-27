@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's contract (return list of all matching substrings for the regex) directly implies the single match is returned as a one-element list, which is what the test asserts.",
+  "missing": "none"
+}

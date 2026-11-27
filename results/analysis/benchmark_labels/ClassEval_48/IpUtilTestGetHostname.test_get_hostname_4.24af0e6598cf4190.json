@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only promises the hostname for a valid lookup and leaves the no-hostname case (the test expects None) unspecified, though the blank example for '10.0.0.1' hints at it.",
+  "missing": "When no hostname can be resolved for the given address, the method should return None rather than raising an error or returning an empty string."
+}

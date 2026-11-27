@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes a tuple or a non-empty list of tuples and says nothing about an empty list, so a correct implementation could return something else.",
+  "missing": "The docstring should state the return value when the input is an empty list, for example that it returns a score of 0.0 and a per-item list of [0.0]."
+}

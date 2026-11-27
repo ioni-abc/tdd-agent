@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows processor.image holding the opened PIL image, so a correct implementation would return an image whose size matches the file, which is what the test checks.",
+  "missing": "none"
+}

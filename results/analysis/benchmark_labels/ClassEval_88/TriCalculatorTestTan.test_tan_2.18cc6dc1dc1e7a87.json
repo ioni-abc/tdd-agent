@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives no guidance for undefined inputs, so returning False at 90 degrees is a convention a correct implementation could reasonably miss.",
+  "missing": "The docstring should state what the method returns when the tangent is undefined, such as angles where the cosine is zero (odd multiples of 90 degrees), including the exact sentinel value."
+}

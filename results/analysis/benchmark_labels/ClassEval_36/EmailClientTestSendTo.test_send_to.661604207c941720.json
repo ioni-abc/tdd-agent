@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's return contract and its doctest example of the inbox dict match the test's inputs and expected entry, so a faithful implementation would pass.",
+  "missing": "none"
+}

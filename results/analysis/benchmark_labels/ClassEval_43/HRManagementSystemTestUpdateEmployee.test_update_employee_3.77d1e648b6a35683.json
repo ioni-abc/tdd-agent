@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says the method returns False when the employee is not in the HRManagementSystem, which matches the test's first assertion, and an update to a missing employee naturally leaves existing records alone.",
+  "missing": "none"
+}

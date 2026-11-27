@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly lists \"positions are within the game board range\" as a requirement, so the out-of-range coordinate (-1,0) makes the move invalid, matching the assertion of False.",
+  "missing": "none"
+}

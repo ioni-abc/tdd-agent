@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says results above 2^63-1 must be float(\"inf\"), but the test and reference code expect False for n=65.",
+  "missing": "The docstring should state what is returned for negative inputs and for inputs whose count exceeds the 64-bit limit, and whether those two cases use the same return value."
+}

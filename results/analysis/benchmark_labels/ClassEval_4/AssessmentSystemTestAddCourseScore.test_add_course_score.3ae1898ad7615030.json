@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the score of the named course is added for the student in self.students, and its example shows the course key mapping to the score, which matches the test's check of courses[\"Math\"] == 90.",
+  "missing": "none"
+}

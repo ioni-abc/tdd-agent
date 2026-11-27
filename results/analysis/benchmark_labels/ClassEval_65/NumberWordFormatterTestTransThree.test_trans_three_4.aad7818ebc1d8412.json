@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "PREDICTION: The docstring says nothing about leading zeros, so for \"001\" it implies no particular output; a reader might expect \"ONE\", \"ZERO ZERO ONE\", or something else.\nLABEL: unstated\nREASON The docstring only gives an example for \"123\" and never says how a zero hundreds digit should be rendered,",
+  "missing": "The docstring should say how leading zeros are handled, for example that a zero hundreds digit is dropped and the remaining one- or two-digit part is converted on its own, with no \"HUNDRED\" or \"AND\"."
+}

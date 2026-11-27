@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says remove_item subtracts the specified quantity from the item, so 5 minus 1 giving 4 follows directly and matches the test's assertion.",
+  "missing": "none"
+}

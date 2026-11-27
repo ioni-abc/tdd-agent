@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's formula (weight divided by the square of height, as a float) produces the test's expected value, which matches the reference code exactly.",
+  "missing": "none"
+}

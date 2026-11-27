@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says `required` defaults to False and `arg_type` defaults to str, and that each argument's type is stored in `types`, which together give exactly the expected empty `required` set and the expected `types` mapping.",
+  "missing": "none"
+}

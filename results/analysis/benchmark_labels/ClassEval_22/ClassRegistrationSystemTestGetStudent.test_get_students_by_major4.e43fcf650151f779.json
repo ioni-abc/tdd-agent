@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it returns a list of student names for the given major, which covers both calls and the insertion-order result the assertions check.",
+  "missing": "none"
+}

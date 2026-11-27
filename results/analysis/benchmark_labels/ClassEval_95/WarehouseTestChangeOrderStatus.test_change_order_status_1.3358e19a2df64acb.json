@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the status is changed when order_id is in self.orders, and its example shows the stored dict updated to the new status, which matches the test's expected dict.",
+  "missing": "none"
+}

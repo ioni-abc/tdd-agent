@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns whether the compression succeeded and that the zip is placed at the specified output path, which covers this test's success check and file-existence check.",
+  "missing": "none"
+}

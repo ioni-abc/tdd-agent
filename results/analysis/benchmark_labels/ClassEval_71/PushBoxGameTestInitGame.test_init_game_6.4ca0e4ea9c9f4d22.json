@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest shows `game.boxes` equal to `[(2, 2)]` for the same map the test builds, and the reference code appends each box's (row, col) from the map.",
+  "missing": "none"
+}

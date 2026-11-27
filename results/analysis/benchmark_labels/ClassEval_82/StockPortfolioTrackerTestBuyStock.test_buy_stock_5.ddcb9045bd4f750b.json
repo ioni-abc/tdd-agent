@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects a second AAPL purchase to add 10 shares to the existing AAPL entry (quantity 20), but the docstring only describes appending a stock and the True/False return, so a correct implementation that appends a duplicate entry would fail.",
+  "missing": "When buying a stock whose name is already in the portfolio, the purchased quantity should be added to the existing entry's quantity rather than creating a second entry, and the docstring should say so."
+}

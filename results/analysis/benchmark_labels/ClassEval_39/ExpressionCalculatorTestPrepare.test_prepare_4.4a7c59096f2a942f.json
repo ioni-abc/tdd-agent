@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's example gives the token sequence for the analogous input but shows postfix_stack as a list, while the test expects a deque, so a list-based implementation following the docstring would fail the assertion.",
+  "missing": "The docstring should state the exact type of `postfix_stack` (for example, whether it is a deque or a list) and that it holds the postfix tokens in order as strings after `prepare` runs."
+}

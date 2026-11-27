@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule (multiply count, price and sales, then total them) yields 100, which matches the test's expected value.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example output shows the same name, price, parsed datetime times (year 1900), and n-by-n zero seats array that the test checks, so a faithful implementation would pass.",
+  "missing": "none"
+}

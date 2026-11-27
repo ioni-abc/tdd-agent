@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example uses essentially this HTML and gives the same two-item list, so a programmer following it would reproduce the test's expected output.",
+  "missing": "none"
+}

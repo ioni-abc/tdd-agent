@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the operation as shifting each letter back by the given amount, and its example shows that mechanism, so the test's uppercase input follows from the same rule.",
+  "missing": "The docstring should say explicitly that letter case is preserved (uppercase stays uppercase, lowercase stays lowercase) and that non-letter characters are passed through unchanged."
+}

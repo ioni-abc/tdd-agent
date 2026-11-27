@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the student is added to self.students, and its example shows the exact record structure (name, grade, major, courses as an empty dict) that the test checks for both students.",
+  "missing": "none"
+}

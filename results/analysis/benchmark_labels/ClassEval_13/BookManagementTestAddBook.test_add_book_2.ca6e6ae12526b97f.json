@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test-method mismatch: the test is filed under add_book but only asserts that a freshly constructed BookManagement has an empty inventory, without calling add_book.",
+  "missing": "none"
+}

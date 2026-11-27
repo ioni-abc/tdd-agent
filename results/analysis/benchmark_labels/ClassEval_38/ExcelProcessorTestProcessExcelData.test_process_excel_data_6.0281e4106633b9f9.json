@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring describes a (int, str) tuple return for a valid column but says nothing about an out-of-range column index, which is the case this test checks, and the reference returns a bare 0 there.",
+  "missing": "The docstring should state what the method returns when the column index is greater than or equal to the number of columns in the file, including whether it returns a bare failure value or the usual tuple."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule for hands over 21 (the lower value wins) directly yields the test's expected 'Player wins'.",
+  "missing": "none"
+}

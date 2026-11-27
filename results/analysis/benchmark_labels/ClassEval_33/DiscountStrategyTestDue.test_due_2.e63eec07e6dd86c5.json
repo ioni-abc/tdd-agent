@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never states the discount rule (percentage or fidelity threshold), so the 5% discount the test relies on can only be inferred from a single example.",
+  "missing": "The docstring should state the discount rule explicitly, including the percentage and the fidelity condition under which it applies, and the rounding behaviour, so that any cart total and fidelity value can be computed without inferring from one example."
+}

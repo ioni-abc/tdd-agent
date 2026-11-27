@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example reproduces this test's move sequence and states that the winning mark 'X' is returned, which matches the assertion and the reference code.",
+  "missing": "none"
+}

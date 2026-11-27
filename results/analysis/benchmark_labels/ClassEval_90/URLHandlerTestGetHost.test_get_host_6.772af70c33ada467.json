@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes the successful return of the host name and never says what to return when the URL lacks a \"://\" scheme, which is what this test checks (expects None).",
+  "missing": "The docstring should state the return value when the input string is not a valid URL with a scheme separator, for example that it returns None in that case."
+}

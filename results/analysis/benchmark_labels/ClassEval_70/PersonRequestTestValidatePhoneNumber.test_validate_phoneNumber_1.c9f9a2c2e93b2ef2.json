@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says an empty phoneNumber is set to None, matching the test's assertIsNone on an empty input.",
+  "missing": "none"
+}

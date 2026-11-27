@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns \"Booking failed.\" for any booking that is not successful, and says seats change only when a booking succeeds, so the failed second booking leaves the seat at 1.",
+  "missing": "none"
+}

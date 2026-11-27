@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example gives the same constructor input and the same expected list as the test, so a conforming implementation returns the asserted value.",
+  "missing": "none"
+}

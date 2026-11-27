@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says deposit adds the amount to the balance and returns the current balance, so the expected 3000 follows directly.",
+  "missing": "none"
+}

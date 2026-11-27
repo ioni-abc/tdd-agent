@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"add the quantity to the corresponding product\" covers this case, since adding a negative number is ordinary addition and the result is 10 + (-9) = 1.",
+  "missing": "none"
+}

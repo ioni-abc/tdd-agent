@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring specifies valid directions and the return value, but says nothing about invalid input, and the test instead checks an `is_game_over` attribute that the docstring never mentions.",
+  "missing": "The docstring should state what happens when the direction is not one of the allowed characters: whether the player stays put, whether an error is raised, and whether any game-state attribute such as an is-over flag is changed."
+}

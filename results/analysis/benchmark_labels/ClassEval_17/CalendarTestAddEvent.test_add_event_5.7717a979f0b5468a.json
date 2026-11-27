@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows add_event appending the given dict to calendar.events, and the test checks exactly that single-event list with a 20:00 end time, which follows the same behaviour.",
+  "missing": "none"
+}

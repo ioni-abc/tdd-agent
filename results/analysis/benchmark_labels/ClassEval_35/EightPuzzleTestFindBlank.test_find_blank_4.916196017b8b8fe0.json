@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only covers the case where a 0 exists and returns its coordinates, so a correct implementation could raise an error or return something else for this input and still match the docstring.",
+  "missing": "The docstring should say what to return when no cell holds 0, for example returning None or raising an error."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's template is explicit and applies to any str inputs, so empty strings simply leave both %s slots blank, which is what the assertion expects.",
+  "missing": "none"
+}

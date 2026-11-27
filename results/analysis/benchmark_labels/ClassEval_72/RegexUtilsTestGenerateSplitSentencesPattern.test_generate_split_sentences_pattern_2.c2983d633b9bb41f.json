@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the pattern matches the junction between two sentences, and its example gives the exact pattern, which matches `'! Y'`.",
+  "missing": "none"
+}

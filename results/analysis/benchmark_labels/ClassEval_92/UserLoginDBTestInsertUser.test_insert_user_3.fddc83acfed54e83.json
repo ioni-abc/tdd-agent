@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes the insertion behaviour the test relies on, and the reference code inserts (username, password) into users, matching the test's retrieval checks.",
+  "missing": "none"
+}

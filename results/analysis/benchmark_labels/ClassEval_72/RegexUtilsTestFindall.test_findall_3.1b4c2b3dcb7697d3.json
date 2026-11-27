@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"return a list of all matching substrings\" directly implies an empty list when nothing matches, which is what the test asserts.",
+  "missing": "none"
+}

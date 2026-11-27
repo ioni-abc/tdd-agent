@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the path plus query string being returned (starting with \"/\"), which matches the test's expected value exactly.",
+  "missing": "none"
+}

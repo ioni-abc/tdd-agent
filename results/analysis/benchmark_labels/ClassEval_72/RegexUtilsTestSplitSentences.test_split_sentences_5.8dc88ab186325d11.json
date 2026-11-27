@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says \"without Punctuation except the last sentence\", which could be read as also removing the comma, so the test's retained comma is a convention the docstring does not settle.",
+  "missing": "The docstring should say whether punctuation other than sentence terminators (such as commas) inside a sentence is kept or removed, and which characters count as sentence boundaries."
+}

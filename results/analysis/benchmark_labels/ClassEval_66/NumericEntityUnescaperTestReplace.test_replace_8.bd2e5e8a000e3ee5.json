@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes replacing valid numeric character references, so it does not say whether malformed `&#...;` sequences are kept verbatim, dropped, or cause an error, which is what this test checks.",
+  "missing": "The docstring should state how text that starts like a reference but is not a valid numeric reference (non-digit or non-hex content, or a missing terminating semicolon) is handled, specifying that it is left unchanged in the output."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example `remove(6,2)` returns 4, exactly matching the test's input and expected output.",
+  "missing": "none"
+}

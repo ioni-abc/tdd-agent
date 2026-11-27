@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives the level cap but not what happens to the stats when the character is already at that cap, so a correct implementation could still raise hp, attack, or defense and fail the test.",
+  "missing": "The docstring should say that when a character is already at the maximum level, leveling up changes nothing: the level, experience, health, attack power, and defense all stay as they are, and the current values are returned."
+}

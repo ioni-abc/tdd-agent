@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say that each list is averaged into a single vector before the cosine is taken, so the expected 0.9487 depends on a convention the docstring leaves out.",
+  "missing": "The docstring should state how a list of vectors is combined into one vector before comparison (for example, the element-wise mean of each list, each then normalised to unit length) and that the result is the cosine of those two combined vectors."
+}

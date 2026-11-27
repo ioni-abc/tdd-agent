@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method converts the temperature to the requested unit and returns the temperature and weather as a tuple, so a programmer following it would produce (73.4, 'cloudy') from the standard celsius-to-fahrenheit formula.",
+  "missing": "none"
+}

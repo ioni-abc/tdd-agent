@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says write_file writes content into the file and overwrites any existing content, so a plain write-then-read round trip returns the same string the test checks.",
+  "missing": "none"
+}

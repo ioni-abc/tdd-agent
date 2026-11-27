@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"cosine similarity between two sets of vectors\" and does not say the lists are averaged first, so a correct implementation could return a pairwise similarity matrix or another aggregate and fail this test's expected 0.9487.",
+  "missing": "The docstring should state that each list is collapsed to the element-wise mean of its vectors, that the cosine similarity of those two mean vectors is returned as a single value, and that an empty input list raises an error."
+}

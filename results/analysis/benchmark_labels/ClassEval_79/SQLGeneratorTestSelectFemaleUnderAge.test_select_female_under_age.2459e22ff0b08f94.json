@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example output \"SELECT * FROM table1 WHERE age < 30 AND gender = 'female';\" exactly matches the test's input (30) and expected assertion, with the table name 'table1' given by the constructor.",
+  "missing": "none"
+}

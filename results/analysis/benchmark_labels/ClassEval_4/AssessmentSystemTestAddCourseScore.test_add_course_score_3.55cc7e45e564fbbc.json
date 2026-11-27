@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test re-adds a score for \"Math\" and expects the new value (95) to replace the old one, which the docstring's \"Add score\" wording does not specify.",
+  "missing": "When a score is added for a course the student already has, the docstring should state whether the new score replaces the old one, is kept alongside it, or is rejected."
+}

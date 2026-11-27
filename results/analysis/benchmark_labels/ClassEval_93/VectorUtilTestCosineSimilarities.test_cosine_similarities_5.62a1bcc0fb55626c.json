@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The `:return:` description says \"cosine distance\" while the test (and reference code) expect cosine similarity (0.866 and 0.567), which is what the docstring's own example shows.",
+  "missing": "The docstring should say explicitly whether the output is the cosine similarity (dot product divided by the product of norms) or the cosine distance (1 minus that value), and make the `:return:` text match the example values."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says numeric character references are replaced with their Unicode characters, and its example `&#65;&#66;&#67;` gives 'ABC', which directly implies the test's output.",
+  "missing": "none"
+}

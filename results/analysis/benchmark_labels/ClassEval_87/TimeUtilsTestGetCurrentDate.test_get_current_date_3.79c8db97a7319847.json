@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies both the content (current date) and the exact \"%Y-%m-%d\" format that the test compares against, so a faithful implementation passes.",
+  "missing": "none"
+}

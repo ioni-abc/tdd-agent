@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's second example uses the same inventory and shows the exact expected output string, so a programmer following it would pass this test.",
+  "missing": "none"
+}

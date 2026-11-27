@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (radius 2, angle pi gives 6.283...) pins down the formula r\u00b2 \u00d7 angle / 2, so a programmer following it would return about 3.14159 and pass the test's tolerance check.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it returns True on successful send, and its doctest example shows the exact inbox dict structure, including the sender, receiver, size, time and 'unread' state fields the test checks.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says login succeeds only if the user is in the database and the password is correct, so a wrong password must yield False, which matches the assertFalse check.",
+  "missing": "none"
+}

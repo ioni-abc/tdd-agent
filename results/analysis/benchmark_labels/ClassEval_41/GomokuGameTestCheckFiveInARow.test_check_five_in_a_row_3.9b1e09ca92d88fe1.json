@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True only when there are five consecutive same-player symbols in the given direction and False otherwise, which covers this four-in-a-row case.",
+  "missing": "none"
+}

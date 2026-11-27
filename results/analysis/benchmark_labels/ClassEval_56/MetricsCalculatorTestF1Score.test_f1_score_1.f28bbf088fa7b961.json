@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines F1 as the harmonic mean of precision and recall and shows the exact call and the 0.5 result the test asserts, so a faithful implementation passes.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns -1 when there is no mismatch, and the test's pattern matches the text at position 0, so it expects -1.",
+  "missing": "none"
+}

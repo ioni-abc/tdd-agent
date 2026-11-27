@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \":return False: only if the order_id is not in self.orders\" directly covers the test's case of an order id that does not exist, so a correct implementation passes.",
+  "missing": "none"
+}

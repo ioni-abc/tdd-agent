@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says invalid input raises but never defines removing more copies than are in stock as invalid, so a correct implementation could return silently and fail the test.",
+  "missing": "The docstring should say that requesting to remove more copies of a title than are currently in stock (or removing a title not in inventory) is invalid input and raises an exception, and that the inventory is left unchanged in that case."
+}

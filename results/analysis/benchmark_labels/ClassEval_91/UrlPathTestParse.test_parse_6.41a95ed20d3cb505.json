@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never mentions `with_end_tag`, so a correct implementation could set it differently for an empty path and still match the docstring.",
+  "missing": "The docstring should state when the end-tag flag is set (for example, only when the path ends with a slash), what its default value is, and what the parsed state is for an empty input."
+}

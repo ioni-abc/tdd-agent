@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly describes returning the coordinates of the 0 block as two integers, and its own example matches this test's input and expected output (2, 1).",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (150.0 \u00d7 10 \u2192 1500.0) and its \"value of the stock, float\" return description imply price \u00d7 quantity, which gives 0.0 for this test.",
+  "missing": "none"
+}

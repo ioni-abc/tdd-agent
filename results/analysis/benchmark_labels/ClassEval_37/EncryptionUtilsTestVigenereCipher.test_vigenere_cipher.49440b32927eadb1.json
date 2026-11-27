@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example uses the same key and plaintext and gives the same expected ciphertext 'kfa' that the test asserts.",
+  "missing": "none"
+}

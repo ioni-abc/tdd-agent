@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a successful sale returns True, removes the stock from the portfolio, and adds the sale cash to the balance, which is what the test checks.",
+  "missing": "none"
+}

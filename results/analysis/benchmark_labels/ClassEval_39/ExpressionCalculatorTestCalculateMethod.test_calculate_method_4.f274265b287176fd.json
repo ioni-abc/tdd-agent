@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies a Decimal return of the mathematical result for the given operator, and 3 / 3 = 1 is exact, so any correct Decimal division passes the assertion.",
+  "missing": "none"
+}

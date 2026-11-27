@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring's own example says the score becomes 10, while its prose and the test both expect 100 after one eat_food call.",
+  "missing": "Doctest examples must show the same numeric effects that the prose describes, so any stated increment (such as the score gain per eat) should match the example outputs exactly."
+}

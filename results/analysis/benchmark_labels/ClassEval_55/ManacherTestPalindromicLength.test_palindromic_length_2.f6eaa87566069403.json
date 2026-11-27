@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test's inputs match the docstring example in every position that matters, and the reference recursion returns 2 for them, which the docstring example already shows.",
+  "missing": "none"
+}

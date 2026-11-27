@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's single example has one mode, and it never says how ties are handled, so the expected [3, 4] (both tied modes, in order of appearance) is not specified.",
+  "missing": "The docstring should state that when several values share the highest count, all of them are returned in a list, ordered by their first appearance in the input."
+}

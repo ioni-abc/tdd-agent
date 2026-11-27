@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test reads `bdp.binary_string` straight after the constructor, without calling `clean_non_binary_chars()`, and expects the filtered result, which the docstring never says the constructor produces.",
+  "missing": "The docstring should state whether the constructor stores the raw input or already strips non-0/1 characters, so a caller knows the value of the attribute before any cleaning method is invoked."
+}

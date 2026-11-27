@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's camel-case description and example cover this input: the first underscore-separated word stays as is and the following word is capitalized and joined.",
+  "missing": "none"
+}

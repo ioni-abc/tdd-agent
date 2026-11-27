@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's list-input description and its worked examples (e.g. the [0,1,0,1] case giving 0.25) match the reference formula, so a programmer following it would produce the test's expected mean of 0.3646 and per-input list [0.6042, 0.125].",
+  "missing": "none"
+}

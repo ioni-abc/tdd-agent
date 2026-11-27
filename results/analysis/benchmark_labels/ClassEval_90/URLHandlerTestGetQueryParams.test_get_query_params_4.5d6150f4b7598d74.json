@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example shows the same URL shape with the fragment removed and the same key-value dict output, so the test's expectation follows directly from it.",
+  "missing": "none"
+}

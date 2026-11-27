@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's requirement (return the calculated result as a float) directly yields 24.0 for this simple multiplication, and the test checks exactly that.",
+  "missing": "none"
+}

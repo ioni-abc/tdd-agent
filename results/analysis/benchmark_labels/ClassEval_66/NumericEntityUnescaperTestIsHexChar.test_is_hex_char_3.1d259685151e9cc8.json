@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns True only for hexadecimal digits and False otherwise, so 'G' (not a hex digit) should yield False, matching the assertion.",
+  "missing": "none"
+}

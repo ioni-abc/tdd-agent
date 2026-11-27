@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example pins down the convention that the blank moves in the named direction, which is exactly what the test checks with 'right'.",
+  "missing": "none"
+}

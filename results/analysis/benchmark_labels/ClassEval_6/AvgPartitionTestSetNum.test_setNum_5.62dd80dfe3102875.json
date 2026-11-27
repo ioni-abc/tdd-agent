@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the return value as the block size and the division remainder, and the example ([1,2,3,4] with 2 gives (2, 0)) confirms the quotient-and-remainder convention that this test's inputs follow.",
+  "missing": "none"
+}

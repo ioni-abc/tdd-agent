@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"get all majors in the system\" with a list return, plus its example showing duplicates collapsed to one entry, implies the test's expected [\"Computer Science\"] output.",
+  "missing": "none"
+}

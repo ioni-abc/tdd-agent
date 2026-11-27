@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"no more icons on the game board\" condition directly implies False when a single icon is still present, matching the test's assertion and the reference code.",
+  "missing": "none"
+}

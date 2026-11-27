@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method deletes \"the value corresponding to the key,\" which implies other entries are left intact, and the test checks that the remaining key still returns its value.",
+  "missing": "none"
+}

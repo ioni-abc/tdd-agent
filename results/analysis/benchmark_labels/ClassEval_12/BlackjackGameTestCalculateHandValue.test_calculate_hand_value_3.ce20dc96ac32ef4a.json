@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rules (digits add face value, Ace counts 11 unless the total exceeds 21) directly produce the expected 20 for this hand.",
+  "missing": "none"
+}

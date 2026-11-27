@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring defines the return only for a character that occurs in the pattern, and the test checks the absent-character case, which returns -1 in the reference code but is never mentioned.",
+  "missing": "When the character does not occur anywhere in the pattern, the method should return a specific sentinel value (for example -1), and the docstring should state that value."
+}

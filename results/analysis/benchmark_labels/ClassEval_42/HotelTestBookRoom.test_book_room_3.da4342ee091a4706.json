@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule that an over-request with nonzero remaining availability returns the remaining quantity matches the test's expected return value of 1, and \"fail to book otherwise\" implies no state change, matching the unchanged booked_rooms and available_rooms assertions.",
+  "missing": "none"
+}

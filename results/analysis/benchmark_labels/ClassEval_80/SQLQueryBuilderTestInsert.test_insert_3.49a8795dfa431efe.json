@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's example only shows string and int values, so it does not specify how a float like 1.0 is rendered (e.g., '1.0' versus '1').",
+  "missing": "The docstring should state that every value is converted to its string form and wrapped in single quotes, including floats, and specify how non-string values like floats are formatted in the output."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives only a non-empty example and does not state the result when there are no labels, so the test's expectation of 0.0 is not determined by it.",
+  "missing": "When the input lists are empty (no samples to compare), the function should return a specific value, such as 0.0, instead of dividing by zero."
+}

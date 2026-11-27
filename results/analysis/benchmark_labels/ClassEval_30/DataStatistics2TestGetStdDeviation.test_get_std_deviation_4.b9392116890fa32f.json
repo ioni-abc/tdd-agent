@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies two-decimal rounding and its example fixes the population (ddof=0) convention, so a programmer following it would compute 1.12 for this input.",
+  "missing": "none"
+}

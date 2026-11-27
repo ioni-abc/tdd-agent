@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the function removes the given position dict from job_listings and returns None, which is exactly what the test checks, and the duplicate dicts are equal so removing either copy gives the same result.",
+  "missing": "none"
+}

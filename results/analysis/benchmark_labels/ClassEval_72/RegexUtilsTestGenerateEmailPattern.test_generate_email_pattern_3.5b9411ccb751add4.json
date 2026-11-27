@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say the pattern must reject malformed addresses, so the test's expectation of False for \"@.com\" is not specified.",
+  "missing": "The docstring should state which malformed addresses are rejected, such as those with an empty local part, an empty domain label before the dot, or a missing top-level domain, and that the pattern must fail to match them."
+}

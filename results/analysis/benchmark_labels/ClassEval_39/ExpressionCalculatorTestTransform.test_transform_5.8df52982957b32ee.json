@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's only example shows space removal, while the test depends on an unmentioned convention that a leading or post-operator minus is rewritten as \"~\".",
+  "missing": "The docstring should state how unary minus signs are represented in the output, including which positions they are rewritten in and what symbol replaces them, and that the result keeps all other characters in order with whitespace removed."
+}

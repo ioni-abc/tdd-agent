@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's prose says each call increases length by 1 and score by 100, which yields exactly the test's expected length 6 and score 500, and the reference code does the same.",
+  "missing": "none"
+}

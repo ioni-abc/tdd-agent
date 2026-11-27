@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the value stored under the given key from the arguments dictionary, so the test's lookup of \"option\" returning \"value\" follows directly.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines add as summing two complex numbers, which fully determines the expected result (-4+6j) for these inputs.",
+  "missing": "none"
+}

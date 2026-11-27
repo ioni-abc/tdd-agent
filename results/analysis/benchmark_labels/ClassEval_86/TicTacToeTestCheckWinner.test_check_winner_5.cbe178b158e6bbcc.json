@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly covers the no-winner case by returning None, which is exactly what the test asserts for this board.",
+  "missing": "none"
+}

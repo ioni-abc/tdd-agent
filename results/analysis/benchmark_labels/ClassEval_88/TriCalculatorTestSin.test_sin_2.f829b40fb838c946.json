@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says x is a degree angle and returns a float, which fully determines the expected sin(60\u00b0) \u2248 0.8660254038 checked by assertAlmostEqual.",
+  "missing": "none"
+}

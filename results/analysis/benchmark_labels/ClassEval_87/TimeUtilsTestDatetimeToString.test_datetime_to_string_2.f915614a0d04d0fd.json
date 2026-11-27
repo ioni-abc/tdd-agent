@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it converts a datetime to a string and its example shows the \"2023-06-14 19:30:03\" layout, which is the same format the test computes with strftime.",
+  "missing": "none"
+}

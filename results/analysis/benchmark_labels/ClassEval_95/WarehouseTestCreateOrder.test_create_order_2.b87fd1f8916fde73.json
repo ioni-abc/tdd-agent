@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says the method returns False when the requested quantity is not adequate, which is exactly the case where stock (10) is below the order (15).",
+  "missing": "none"
+}

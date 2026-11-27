@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says matched substrings are replaced by the replacement text, so a standard regex substitution (which the reference code uses) would leave the non-matching \"123456-7890\" intact and pass.",
+  "missing": "none"
+}

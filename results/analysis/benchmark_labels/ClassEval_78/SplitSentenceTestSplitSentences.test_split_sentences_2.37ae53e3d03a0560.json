@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says \"Mr.\" ends with a period but is not a sentence end, so the expected split that keeps \"Mr. Smith?\" intact follows directly from it.",
+  "missing": "none"
+}

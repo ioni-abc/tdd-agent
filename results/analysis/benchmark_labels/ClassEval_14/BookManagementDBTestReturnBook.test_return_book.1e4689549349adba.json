@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"marks a book as returned... based on the given book ID\" covers the test's behaviour of setting the book with id 1 back to available, and the test checks exactly that.",
+  "missing": "none"
+}

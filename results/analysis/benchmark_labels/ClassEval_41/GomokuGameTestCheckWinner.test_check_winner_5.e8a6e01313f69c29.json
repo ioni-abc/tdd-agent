@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test board has an O line of exactly five and an X line of six, and the docstring never says which winner to report when both exist or whether a line longer than five counts.",
+  "missing": "When more than one player has a qualifying line on the board, the docstring must state which symbol to return (for example, the first one found in a specified scan order), and whether lines longer than five count as a win."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the course is removed from self.courses if it was in it, which is exactly what the test checks after adding and then removing the same course dict.",
+  "missing": "none"
+}

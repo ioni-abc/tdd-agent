@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's general contract (number words in, integer string out) covers this input, and the reference code passes it by treating \"and\" as a zero-valued filler word inside the number.",
+  "missing": "none"
+}

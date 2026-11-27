@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The description names the target temperature and the test's expected 25 matches it, though the `:return` tag names `current_temperature` and the constructor argument order is never documented.",
+  "missing": "none"
+}

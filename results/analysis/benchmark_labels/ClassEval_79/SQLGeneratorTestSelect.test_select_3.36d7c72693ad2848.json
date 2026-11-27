@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the field list joined with \", \" and the condition added after WHERE with a trailing semicolon, which produces the test's expected string even though the field element itself contains a comma.",
+  "missing": "none"
+}

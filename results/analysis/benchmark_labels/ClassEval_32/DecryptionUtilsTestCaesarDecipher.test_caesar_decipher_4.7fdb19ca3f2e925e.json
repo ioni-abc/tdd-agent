@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring describes a Caesar decipher with an int shift but never says letters wrap around the alphabet or how large shifts behave, so a correct-looking implementation without modular wrap could fail this test.",
+  "missing": "The docstring should state that the shift wraps around the alphabet modulo 26, that letter case is preserved, and that non-letter characters pass through unchanged, so any shift value (including values of 26 or more, or negative) maps letters within their alphabet."
+}

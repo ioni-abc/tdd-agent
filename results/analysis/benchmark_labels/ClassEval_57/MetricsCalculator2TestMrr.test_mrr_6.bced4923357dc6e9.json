@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test wraps `mrr(1)` in a bare try/except and makes no assertion, so any implementation, including one that raises or returns, passes it.",
+  "missing": "none"
+}

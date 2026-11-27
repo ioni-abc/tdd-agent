@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not describe how list items (ul/li) are rendered or how empty items and whitespace-only output are handled, so the expected empty string is not specified.",
+  "missing": "The docstring should state how list items are rendered, including whether empty list items are dropped and whether the final output is trimmed so that content with no visible text returns an empty string."
+}

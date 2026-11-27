@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the function returns the hex representation of an integer and gives the exact example 42423 \u2192 'a5b7', which is the test's input and expected value.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies converting a hex string to its decimal integer, which is exactly what the test checks, and 0x53a77 equals 342647.",
+  "missing": "none"
+}

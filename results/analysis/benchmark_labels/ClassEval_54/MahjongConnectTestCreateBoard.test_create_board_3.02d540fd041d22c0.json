@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the board is created \"with the given board size and icons\" and returns a 2-D list, which covers the test's only behavioural check that every cell is one of the icons.",
+  "missing": "none"
+}

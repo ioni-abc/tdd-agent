@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same SELECT/FROM/WHERE layout with a trailing semicolon, so the test's expected string follows directly from it.",
+  "missing": "none"
+}

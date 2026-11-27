@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \":return: True if there are five consecutive symbols... and False otherwise\" covers this case, since the run from (0, 0) in direction (1, 0) breaks immediately at an empty cell.",
+  "missing": "none"
+}

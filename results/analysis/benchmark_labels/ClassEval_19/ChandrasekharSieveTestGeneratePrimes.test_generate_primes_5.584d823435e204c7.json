@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the output as all primes up to the limit, and no prime is at or below 1, so the empty list follows directly.",
+  "missing": "none"
+}

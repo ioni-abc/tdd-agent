@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test's slot begins exactly at the existing event's end time, and the docstring gives no rule for back-to-back slots, so a correct implementation could reasonably return False.",
+  "missing": "The docstring should state whether a time slot that only touches an existing event at its boundary (one ending when the other starts) counts as overlapping, and so makes the calendar unavailable."
+}

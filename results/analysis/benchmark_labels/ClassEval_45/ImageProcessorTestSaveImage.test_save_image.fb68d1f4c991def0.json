@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the image is saved to the given path if one has been opened, which is exactly what the test checks by reopening the saved file.",
+  "missing": "none"
+}

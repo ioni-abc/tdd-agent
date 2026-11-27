@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"maximum value in the data\" directly determines the expected result of 3 for these inputs, including negative values.",
+  "missing": "none"
+}

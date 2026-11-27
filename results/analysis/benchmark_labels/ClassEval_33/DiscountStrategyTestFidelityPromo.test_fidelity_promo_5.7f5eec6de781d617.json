@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's 5%-over-1000-points rule gives exactly the test's expected 12.5 for an order totaling 250, so a faithful implementation passes.",
+  "missing": "none"
+}

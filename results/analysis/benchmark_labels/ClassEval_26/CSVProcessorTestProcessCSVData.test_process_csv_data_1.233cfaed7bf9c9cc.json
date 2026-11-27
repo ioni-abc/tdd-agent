@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own doctest shows `process_csv_data(0, 'read_test.csv')` returning 1 and producing `'HELLO'` from `'hElLo'`, so the test's expectations follow the docstring.",
+  "missing": "none"
+}

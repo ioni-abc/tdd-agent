@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring lists \"the two positions have the same icon\" as a condition for a valid move, and the test's two positions hold different icons, so a implementation following the docstring returns False.",
+  "missing": "none"
+}

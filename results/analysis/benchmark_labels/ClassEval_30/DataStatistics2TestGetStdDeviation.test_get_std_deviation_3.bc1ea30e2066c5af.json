@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rounding rule and its example (1.12 for the same kind of 4-element data) match the test's expected 1.12, so a programmer following it would pass.",
+  "missing": "none"
+}

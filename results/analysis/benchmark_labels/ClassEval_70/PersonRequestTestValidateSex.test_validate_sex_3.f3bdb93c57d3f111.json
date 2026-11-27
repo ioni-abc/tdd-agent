@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says valid values (Man, Woman, UGM) are returned unchanged, so a correct implementation returns \"Man\" and the test's assertion holds.",
+  "missing": "none"
+}

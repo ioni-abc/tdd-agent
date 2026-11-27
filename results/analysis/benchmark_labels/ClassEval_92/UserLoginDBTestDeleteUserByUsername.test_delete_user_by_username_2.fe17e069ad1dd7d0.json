@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states that the named user is removed from the table, which is the behaviour the test relies on, and the test's final check depends on the separate search method's return value rather than on anything this method must do.",
+  "missing": "none"
+}

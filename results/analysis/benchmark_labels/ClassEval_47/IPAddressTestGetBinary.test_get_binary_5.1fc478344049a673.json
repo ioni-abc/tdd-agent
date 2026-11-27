@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule \"otherwise, return ''\" directly covers this invalid input, so a correct implementation following it returns the expected empty string.",
+  "missing": "none"
+}

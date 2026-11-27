@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's only example includes a WHERE clause, and it never says the clause is omitted when `where` is absent or how a float such as 1.0 is formatted, so a correct implementation could still differ from the expected `price='1.0'`.",
+  "missing": "The docstring should state that the WHERE clause is omitted entirely when no condition dict is given, and that every value is converted to its plain string form (for example, a float keeps its decimal point) and wrapped in single quotes."
+}

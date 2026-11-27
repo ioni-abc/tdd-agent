@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the table is added to the document populated with the given data, which is exactly what the test checks (row and column counts and cell text), and the test uses string values that need no conversion.",
+  "missing": "none"
+}

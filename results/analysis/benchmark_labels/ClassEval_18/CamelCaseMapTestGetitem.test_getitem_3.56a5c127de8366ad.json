@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the value corresponding to the key, and the test stores a value under a key and reads it back, which a programmer following the docstring would satisfy.",
+  "missing": "none"
+}

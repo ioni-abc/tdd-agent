@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say how shifts outside 0\u201325, or negative shifts, are handled, so a correct implementation could return a shifted or out-of-range string instead of 'bcd'.",
+  "missing": "The docstring should state how the shift is applied when it is negative or larger than the alphabet size, for example that it wraps modulo 26 so a shift of 0 or a multiple of 26 returns the text unchanged."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example, sin(30) returning 0.5, matches the test's input and expected value, so a degree-based sine implementation would pass.",
+  "missing": "none"
+}

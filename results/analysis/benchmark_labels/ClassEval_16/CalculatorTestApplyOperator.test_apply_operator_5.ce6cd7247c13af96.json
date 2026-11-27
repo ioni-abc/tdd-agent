@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the top operator is applied to the top two operands with the result stored back on the stack, and its example shows the operator being consumed, so the test's expected stacks follow directly.",
+  "missing": "none"
+}

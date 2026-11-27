@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test's expected output 'hloel' matches the standard zigzag Rail Fence with 2 rails, which the docstring names and its example ('abc', 2 giving 'acb') confirms.",
+  "missing": "none"
+}

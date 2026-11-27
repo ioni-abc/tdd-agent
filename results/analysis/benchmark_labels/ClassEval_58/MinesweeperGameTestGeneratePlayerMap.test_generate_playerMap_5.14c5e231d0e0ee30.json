@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the board is n*n and '-' represents unknown positions, which gives exactly the 2x2 grid of '-' the test expects.",
+  "missing": "none"
+}

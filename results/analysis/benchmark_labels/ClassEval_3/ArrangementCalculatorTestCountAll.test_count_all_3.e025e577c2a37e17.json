@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the count as arrangements of 1 to n items from n, and its example count_all(4)=64 matches that sum, so the expected 4 for n=2 follows directly.",
+  "missing": "none"
+}

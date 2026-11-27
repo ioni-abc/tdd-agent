@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring describes where as an optional dict for the query condition but never states that omitting it yields a bare \"DELETE FROM table\" with no WHERE clause, so the expected output is not pinned down.",
+  "missing": "The docstring should state that when the condition parameter is omitted or empty, the statement contains no WHERE clause and is just the DELETE FROM part with the table name."
+}

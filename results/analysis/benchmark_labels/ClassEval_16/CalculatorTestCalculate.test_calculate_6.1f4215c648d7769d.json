@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"returns the value of the expression\" covers this test, since evaluating `(1+2)+3` gives 6 and the reference returns 6.0, which equals 6.",
+  "missing": "none"
+}

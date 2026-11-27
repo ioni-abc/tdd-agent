@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the board size is n*n and that '-' represents unknown positions, which together determine the expected 4x4 all-'-' output the test checks.",
+  "missing": "none"
+}

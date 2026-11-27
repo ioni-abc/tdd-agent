@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's return contract (0 means failed writing) covers this case, since a save to an empty file name is a failed write.",
+  "missing": "none"
+}

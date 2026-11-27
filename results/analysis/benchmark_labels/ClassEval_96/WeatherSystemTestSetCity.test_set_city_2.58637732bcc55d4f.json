@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says set_city sets the city, and its example shows city becoming the passed value, so the test's check that city equals 'Shanghai' follows directly.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says process_file filters non-alphabetic characters from the read content and overwrites the file, which matches the test's return value and write_file call.",
+  "missing": "none"
+}

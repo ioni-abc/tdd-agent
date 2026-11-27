@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the function returns the decimal representation of a hex string, and the test's expected value 21207 is exactly that standard conversion of '52d7'.",
+  "missing": "none"
+}

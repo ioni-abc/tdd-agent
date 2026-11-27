@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says \"A factor of 1.0 gives the original image,\" which is exactly what the test checks by comparing the result against an unmodified enhancement of the same image.",
+  "missing": "none"
+}

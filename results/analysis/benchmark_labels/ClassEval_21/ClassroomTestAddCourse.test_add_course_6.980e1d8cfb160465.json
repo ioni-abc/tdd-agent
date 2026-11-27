@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the course is added only if it wasn't already in the list, which covers adding the same course twice and then checking it is present.",
+  "missing": "none"
+}

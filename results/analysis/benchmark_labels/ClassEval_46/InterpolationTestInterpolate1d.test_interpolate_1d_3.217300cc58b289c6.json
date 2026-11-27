@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"linear interpolation\" with a list of outputs fixes the answer for this input, since only one segment of the unsorted x contains each query point, and the reference code computes exactly that.",
+  "missing": "none"
+}

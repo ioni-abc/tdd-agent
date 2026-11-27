@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says the default quantity is 1, so the test's expected stored record {\"price\": 1, \"quantity\": 1} follows directly from the docstring.",
+  "missing": "none"
+}

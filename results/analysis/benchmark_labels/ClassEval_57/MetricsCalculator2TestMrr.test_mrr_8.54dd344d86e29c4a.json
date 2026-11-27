@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring describes the normal case (a positive ground-truth total) but never says what an entry with a total of 0 should return, so the test's expected 0.0 values cannot be derived from it.",
+  "missing": "The docstring should state that when an entry's ground-truth total is 0, that entry's score is 0.0, and specify how the returned mean and per-entry list reflect those zero scores."
+}

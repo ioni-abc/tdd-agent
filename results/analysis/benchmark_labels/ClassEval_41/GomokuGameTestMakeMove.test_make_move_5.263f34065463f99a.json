@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a valid move places the current player's symbol, switches players, and returns True, and its example shows that a second move on an occupied cell returns False, which together cover every assertion in the test.",
+  "missing": "none"
+}

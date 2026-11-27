@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects 78.72 for USD to CAD, which depends on a rate table the docstring never describes; its only example (CNY to USD giving 10.0) does not pin down the USD-to-CAD rate.",
+  "missing": "The docstring should state the exchange rate table, or the rule used to derive rates (for example, that each currency is quoted relative to a base currency and where those rates are stored), so that any currency pair's conversion result can be computed."
+}

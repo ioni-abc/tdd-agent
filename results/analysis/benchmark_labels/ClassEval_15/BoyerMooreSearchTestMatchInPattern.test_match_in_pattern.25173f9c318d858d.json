@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example uses the same constructor call and character and shows the expected result 0, matching the test's assertion and the reference code.",
+  "missing": "none"
+}

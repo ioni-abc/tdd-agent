@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (add product 1 with name and quantity 3 yields {1: {'name': 'product1', 'quantity': 3}}) exactly describes the test's behaviour of adding a new product to an empty inventory.",
+  "missing": "none"
+}

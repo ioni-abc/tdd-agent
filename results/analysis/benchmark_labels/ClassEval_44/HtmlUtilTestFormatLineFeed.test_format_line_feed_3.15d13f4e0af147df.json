@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule of replacing consecutive line breaks with a single line break directly produces the expected output, including the trailing break.",
+  "missing": "none"
+}

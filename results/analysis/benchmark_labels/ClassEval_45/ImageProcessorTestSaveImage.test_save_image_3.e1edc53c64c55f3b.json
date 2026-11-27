@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test loads an image, saves it to a path, and reopens the file, which is the documented save-to-path behaviour, and the RGB mode is simply the loaded image's mode carried through unchanged.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say how non-alphabetic characters such as digits are handled, so a correct implementation could shift or reject them and fail this test.",
+  "missing": "The docstring should state that characters that are not letters are copied to the output unchanged, and that shift values outside the alphabet size wrap around."
+}

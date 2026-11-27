@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only restricts `mode` to 'heat' or 'cool' and shows a valid example, so the test's expectation that an invalid mode returns False is not specified.",
+  "missing": "When the input is not one of the allowed values, the method should leave the current mode unchanged and return False; on success it should set the mode and return nothing."
+}

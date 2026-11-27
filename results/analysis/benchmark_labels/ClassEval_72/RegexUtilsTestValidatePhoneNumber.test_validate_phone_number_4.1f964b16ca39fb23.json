@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives only one valid example and never says what format or digit count counts as valid, so a correct implementation could accept the 9-digit number and fail the test.",
+  "missing": "The docstring should list the accepted phone number format, including the number of digits, the allowed separators, and whether values with too few or too many digits are rejected."
+}

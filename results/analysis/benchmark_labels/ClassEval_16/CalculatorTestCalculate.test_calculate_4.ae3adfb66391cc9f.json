@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"the value of the expression\" and never says that `^` is exponentiation or that the usual precedence applies, so the expected 37 depends on conventions it omits.",
+  "missing": "The docstring should state which operators are supported, what `^` means (exponentiation or bitwise XOR), and the precedence and associativity rules, including whether multiplication and exponentiation bind tighter than addition."
+}

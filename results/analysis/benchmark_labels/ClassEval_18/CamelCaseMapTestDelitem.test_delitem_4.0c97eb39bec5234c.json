@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test deletes using 'firstName' and expects 'first_name' to be removed, which depends on key conversion that the docstring never mentions.",
+  "missing": "The docstring should state that keys are normalized (for example, camelCase keys are converted to snake_case) before lookup, so that deleting by any equivalent form removes the stored entry."
+}

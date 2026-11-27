@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not clarify whether a board with no unrevealed cells counts as \"just mines,\" so a correct implementation reading it strictly could return False where the test expects True.",
+  "missing": "The docstring should state explicitly whether a board with no remaining hidden cells (all non-mine cells revealed, no hidden cells left) counts as a win, and how cells that are already revealed are treated relative to hidden cells."
+}

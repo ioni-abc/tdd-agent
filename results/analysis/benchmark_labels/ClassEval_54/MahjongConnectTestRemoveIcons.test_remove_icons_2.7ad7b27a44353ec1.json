@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest shows the two specified cells being replaced with ' ', and the test checks exactly that, with the same row-first indexing the example implies.",
+  "missing": "none"
+}

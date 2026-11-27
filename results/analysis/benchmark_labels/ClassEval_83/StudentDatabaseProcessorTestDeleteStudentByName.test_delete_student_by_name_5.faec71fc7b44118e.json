@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Wrong method under test: the test is filed under search_student_by_name but exercises delete_student_by_name and asserts on the table contents after deletion.",
+  "missing": "none"
+}

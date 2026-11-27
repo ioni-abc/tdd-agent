@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the exact pattern string the reference returns, so any implementation following it produces the same match outcome for 'a23-456-7890'.",
+  "missing": "none"
+}

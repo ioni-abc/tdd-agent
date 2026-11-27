@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same zero-padded format with the same field order, so the test's expected output follows directly from the description.",
+  "missing": "none"
+}

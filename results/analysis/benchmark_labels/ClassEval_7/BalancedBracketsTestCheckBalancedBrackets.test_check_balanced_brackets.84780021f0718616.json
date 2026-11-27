@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring returns True for balanced brackets and its example \"a(b)c\" returns True, matching the test's expected True.",
+  "missing": "none"
+}

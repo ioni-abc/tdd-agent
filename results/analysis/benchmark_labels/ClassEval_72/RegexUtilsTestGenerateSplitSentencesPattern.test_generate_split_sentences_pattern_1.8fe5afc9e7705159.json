@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest pins the exact pattern, and that pattern matches the test input, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

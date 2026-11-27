@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says \"based on the BMI standard\" without giving the normal range, and its own example (BMI about 21.6, male, returns -1) cannot be reconciled with this test's expected 0 under any single lower bound.",
+  "missing": "The docstring should state the exact BMI cutoffs for each sex (the lower and upper bounds that separate thin, normal and fat), and its example should match those cutoffs."
+}

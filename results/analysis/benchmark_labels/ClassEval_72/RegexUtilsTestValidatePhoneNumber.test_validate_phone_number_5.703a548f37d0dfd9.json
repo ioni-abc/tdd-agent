@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects False for a dash-separated number with non-standard group lengths, but the docstring gives no accepted format, so a correct implementation could accept it.",
+  "missing": "The docstring should state the exact accepted phone number format, including allowed separators, digit counts per group, and total length, and say that anything not matching it returns False."
+}

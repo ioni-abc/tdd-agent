@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says only qualifying candidates are returned, and the test's resumes share no skills with the job's requirements, so any reasonable matching rule yields an empty list.",
+  "missing": "none"
+}

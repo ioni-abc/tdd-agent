@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say what happens when add_item is called for a product already in inventory, but the test expects the quantities to accumulate (10 + 10 = 20) rather than being replaced or rejected.",
+  "missing": "The docstring should state what happens when the product name already exists in inventory, for example whether its quantity is increased by the new amount and whether its price is kept or overwritten."
+}

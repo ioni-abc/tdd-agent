@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns \"the quantity of this book title\" and 0 only when the title is absent, so a correct implementation returns the stored count, which the test expects to be 1.",
+  "missing": "none"
+}

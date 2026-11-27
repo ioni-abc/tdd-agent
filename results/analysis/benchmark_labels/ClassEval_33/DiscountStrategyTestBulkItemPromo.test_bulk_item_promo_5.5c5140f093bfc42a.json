@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule (10% off each item whose quantity reaches 20) and its worked example (20 \u00d7 23.5 \u00d7 0.1 = 47.0) yield exactly the test's expected 30.0, with the under-threshold item excluded.",
+  "missing": "none"
+}

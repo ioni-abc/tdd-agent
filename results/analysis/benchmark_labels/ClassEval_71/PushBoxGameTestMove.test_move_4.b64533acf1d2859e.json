@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring describes the return value of `move` and the direction semantics, but never mentions the `is_game_over` attribute or the `player_row`/`player_col` attributes that the assertions read.",
+  "missing": "The docstring should name every public attribute a method changes, such as the player's position and any game-over flag, and state what value each takes after the move."
+}

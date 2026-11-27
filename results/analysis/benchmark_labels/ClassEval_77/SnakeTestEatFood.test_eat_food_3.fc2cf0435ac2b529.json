@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The prose description directly specifies the +1 length and +100 score per call that the test checks, and the reference code matches it.",
+  "missing": "none"
+}

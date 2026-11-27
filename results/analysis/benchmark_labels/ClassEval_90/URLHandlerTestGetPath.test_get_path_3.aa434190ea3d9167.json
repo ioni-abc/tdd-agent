@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (host stripped, leading \"/\" kept, rest of URL returned) directly determines the expected value this test checks.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes exactly the insertion the test relies on, and the lookup check depends on search_user_by_username, which is a separate method outside this docstring.",
+  "missing": "none"
+}

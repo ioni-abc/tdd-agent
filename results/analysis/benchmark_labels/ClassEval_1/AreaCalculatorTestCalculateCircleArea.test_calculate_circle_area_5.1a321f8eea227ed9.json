@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the area is computed from self.radius and returns a float, and its example (radius 2 giving 12.566) confirms pi * r^2, so a correct implementation passes this test.",
+  "missing": "none"
+}

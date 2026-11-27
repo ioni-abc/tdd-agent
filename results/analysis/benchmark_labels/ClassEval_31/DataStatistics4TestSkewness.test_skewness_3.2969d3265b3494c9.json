@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The expected 0 follows directly from the standard skewness definition, and every common skewness formula, including the docstring's bias-corrected one, gives exactly 0 for symmetric data.",
+  "missing": "none"
+}

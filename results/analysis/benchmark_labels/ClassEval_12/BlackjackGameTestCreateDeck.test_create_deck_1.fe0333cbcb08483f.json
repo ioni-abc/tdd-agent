@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says the deck contains 52 cards, which matches the test's length assertion, though the test reads the deck from the constructor's attribute rather than calling create_deck directly.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says the in-memory `cookies` attribute is used, so the test's expected value depends on file contents the test never creates, and a correct file-reading implementation would return something else.",
+  "missing": "The docstring should state where the returned data comes from when the file is absent or when an in-memory cookies attribute is set, and what the method returns in each case (for example, an empty dict when the file does not exist)."
+}

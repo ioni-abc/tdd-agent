@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example demonstrates the same convention the test relies on: when the second operand is larger, the result is returned as a string with a leading minus sign.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule that the first row is the title and the rest is data directly determines both asserted values, and the test matches it.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example with size 30 leaves only the newest email, which fixes the rule that oldest emails are deleted until the freed space reaches the requested size, so this test's empty result follows from it.",
+  "missing": "none"
+}

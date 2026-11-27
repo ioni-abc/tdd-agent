@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only specifies the True/False return, while the test also checks that the message is recorded in both users' lists with a particular dictionary structure and timestamp.",
+  "missing": "The docstring should state that a successful send appends a record to the history of both the sender and the receiver, and specify that each record's fields (sender, receiver, message, and a timestamp in a given format)."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies the output format and the example demonstrates zero-padded fields, which fully determines the expected result for this input.",
+  "missing": "none"
+}

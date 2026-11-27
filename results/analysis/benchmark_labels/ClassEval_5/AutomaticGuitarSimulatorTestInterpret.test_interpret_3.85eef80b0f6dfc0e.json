@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each dict holds letters as Chord and numbers as Tune, and its example already shows \"Em\" paired with \"43231323\", so the test's expected output follows directly.",
+  "missing": "none"
+}

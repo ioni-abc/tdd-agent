@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's example shows the expected lines but says nothing about the leading or trailing newline characters that the test's exact string comparison requires.",
+  "missing": "The docstring should state the exact whitespace of the returned string, including whether it starts or ends with a newline, how blank lines are handled, and whether the output is trimmed, and how paragraphs without terminal punctuation are punctuated before a code block."
+}

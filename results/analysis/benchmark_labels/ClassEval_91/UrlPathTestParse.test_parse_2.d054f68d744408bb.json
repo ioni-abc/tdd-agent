@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test's with_end_tag == False check relies on a trailing-slash convention that the docstring never mentions, though the segments assertion is reasonably implied by the example.",
+  "missing": "The docstring should explain that the object's with_end_tag flag is set to True when the path ends with a '/' and remains False otherwise, and what that flag means."
+}

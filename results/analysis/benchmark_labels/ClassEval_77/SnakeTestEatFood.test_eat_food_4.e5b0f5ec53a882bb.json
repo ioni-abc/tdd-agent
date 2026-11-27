@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The prose says eat_food increases length by 1 and score by 100, which is exactly what the test checks across four calls, though the doctest's \"score = 10\" is inconsistent with that prose.",
+  "missing": "none"
+}

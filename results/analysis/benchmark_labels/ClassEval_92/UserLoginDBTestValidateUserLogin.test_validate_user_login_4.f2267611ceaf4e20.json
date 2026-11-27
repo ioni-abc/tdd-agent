@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's stated behaviour (user exists and password matches gives True) directly covers this test's scenario, and the test asserts True for exactly that case.",
+  "missing": "none"
+}

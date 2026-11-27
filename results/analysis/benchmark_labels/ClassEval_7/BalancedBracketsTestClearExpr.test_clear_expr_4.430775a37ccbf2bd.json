@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to clear every character that is not a bracket, and the test's expected \"[(){}\" follows directly from that rule, including the unmatched \"[\".",
+  "missing": "none"
+}

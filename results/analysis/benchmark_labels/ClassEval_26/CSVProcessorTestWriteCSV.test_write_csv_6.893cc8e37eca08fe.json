@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns 0 whenever the write does not succeed, and an empty file name cannot be opened, so the test's expected 0 follows from that rule.",
+  "missing": "none"
+}

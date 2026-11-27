@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example calls remove_icons((0, 0), (1, 0)) on the same 4x4 board and shows exactly the expected output with ' ' in those two cells, so the test's assertion matches the documented behaviour.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's description of the return value as one word list per input string directly implies that an empty input yields an empty output, which matches the test's expected `[]`.",
+  "missing": "none"
+}

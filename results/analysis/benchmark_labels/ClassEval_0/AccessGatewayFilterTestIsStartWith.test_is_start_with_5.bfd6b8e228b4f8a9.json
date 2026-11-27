@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names the only two prefixes checked and says the method returns False for any other URI, so the test's False expectation follows directly.",
+  "missing": "none"
+}

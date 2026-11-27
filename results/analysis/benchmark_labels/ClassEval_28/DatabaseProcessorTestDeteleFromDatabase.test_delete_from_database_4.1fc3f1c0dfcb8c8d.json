@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it deletes rows with a matching name from the named table, which is exactly what the test checks: the 'John' row is removed and the 'aaa' row stays.",
+  "missing": "none"
+}

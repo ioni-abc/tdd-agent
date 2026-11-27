@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's general rule (binary to ASCII string) fully determines the expected output \"hmbo\" for these 8-bit groups, and the reference code does exactly that.",
+  "missing": "none"
+}

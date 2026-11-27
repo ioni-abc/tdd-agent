@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says write_file writes the given content into the file at self.file_path, which is exactly what the test checks by reading the file back and comparing.",
+  "missing": "none"
+}

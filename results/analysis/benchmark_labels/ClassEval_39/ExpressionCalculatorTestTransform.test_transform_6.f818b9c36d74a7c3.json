@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that the infix expression is transformed and shows whitespace removal, but says nothing about how `~` markers are rewritten or when a `0` is prefixed, which the test asserts.",
+  "missing": "The docstring should explain how the special marker characters are rewritten, including when a unary operator at the start of the expression or after an operator becomes a subtraction and when a leading `0` is inserted to make it valid."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example and description (add item with price and quantity into the items dict) directly match the test's expected dictionary {\"apple\": {\"price\": 1, \"quantity\": 5}}.",
+  "missing": "none"
+}

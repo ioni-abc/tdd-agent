@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the output to match the formatted `self.datetime` attribute captured at construction, a detail the docstring does not mention, so an implementation that reads the clock at call time could fail.",
+  "missing": "The docstring should state where the time comes from, for example whether it is read at call time or taken from a value stored when the object was created, and which attribute holds it."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"all available time slots on a given date\" and never says the slots are one hour long, span the day from midnight, or that only events overlapping the day block them, so the expected count of 24 is not derivable from it.",
+  "missing": "The docstring should state the slot duration and the time range it covers (e.g. consecutive 60-minute slots from midnight through the last hour of the day), and how an event blocks a slot (only when its start and end times overlap the slot)."
+}

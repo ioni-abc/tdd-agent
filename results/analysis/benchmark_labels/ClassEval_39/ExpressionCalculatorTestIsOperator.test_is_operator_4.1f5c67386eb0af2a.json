@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring lists \"/\" explicitly among the operator characters and says True is returned for operators, so the test's expectation of True is covered.",
+  "missing": "none"
+}

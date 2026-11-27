@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "PREDICTION: The docstring only covers adding to an existing product, so for an unknown product_id on an empty inventory it implies nothing about the result.\nLABEL: unstated\nREASON The docstring never says what happens when product_id is not in the inventory, so the test's expectation that the invent",
+  "missing": "When product_id is not in the inventory, the method should leave the inventory unchanged, without raising an error or adding a new entry."
+}

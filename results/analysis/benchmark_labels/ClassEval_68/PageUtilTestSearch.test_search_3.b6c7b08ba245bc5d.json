@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives the dict keys and says matching is by keyword, but it never defines how `total_pages` relates to `page_size`, which the test's expected `total_pages` of 1 depends on.",
+  "missing": "The docstring should state how the page count is derived, for example that total pages equals the number of matching results divided by the page size, rounded up, with a minimum of one page for a single match."
+}

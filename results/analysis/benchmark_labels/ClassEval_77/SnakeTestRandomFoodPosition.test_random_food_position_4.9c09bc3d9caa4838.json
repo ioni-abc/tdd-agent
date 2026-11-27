@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The main assertion, that the food is not on the snake's positions, is exactly the behaviour the docstring describes, and the range checks are loose enough that any on-screen position passes.",
+  "missing": "none"
+}

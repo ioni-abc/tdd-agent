@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the song is removed from the playlist, and the doctest's two-song example shows the same removal, so the test's expected list follows directly.",
+  "missing": "none"
+}

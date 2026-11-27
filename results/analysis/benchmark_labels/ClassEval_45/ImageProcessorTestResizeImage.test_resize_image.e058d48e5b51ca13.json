@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says resize_image resizes an opened image to the given width and height, and its example confirms the resulting width and height, which is exactly what the test asserts via image.size.",
+  "missing": "none"
+}

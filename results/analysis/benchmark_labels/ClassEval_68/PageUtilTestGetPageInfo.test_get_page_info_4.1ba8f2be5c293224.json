@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's key names and its worked example (per_page, total_pages, has_previous/has_next, data) together with the standard meaning of pagination give enough to produce the test's expected dict.",
+  "missing": "none"
+}

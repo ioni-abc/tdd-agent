@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's general matching contract covers this case: the text lacks the required 4-digit last group, so a faithful implementation returns False.",
+  "missing": "none"
+}

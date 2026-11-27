@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives the general idea (text without code, `-CODE-` markers) but not the exact line-feed and whitespace formatting the test asserts, such as the leading newline.",
+  "missing": "The docstring should specify the exact output format: how newlines and leading or trailing whitespace are produced, whether a block of text is kept as-is or trimmed, and when punctuation is added to a text block that lacks it."
+}

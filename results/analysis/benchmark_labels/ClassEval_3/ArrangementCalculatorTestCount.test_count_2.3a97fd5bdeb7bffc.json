@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the count as the permutation P(n, m), so a programmer following it would compute 24 for n=4, m=3, matching the assertion.",
+  "missing": "none"
+}

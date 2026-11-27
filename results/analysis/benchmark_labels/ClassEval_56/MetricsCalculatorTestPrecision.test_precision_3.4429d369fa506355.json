@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names the metric and its example confirms the standard definition, so a programmer computing TP/(TP+FP) with label 1 as positive would get 0.666..., matching the test.",
+  "missing": "none"
+}

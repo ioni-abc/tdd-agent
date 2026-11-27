@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly defines the True/False behaviour for prefixes other than \"/api\" and \"/login\", which covers '/admin/settings' returning False.",
+  "missing": "none"
+}

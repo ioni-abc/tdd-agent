@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Setup mismatch: the test starts at level 10 and expects level 3 afterward, which the docstring's level-up rule cannot produce because levels only go up.",
+  "missing": "none"
+}

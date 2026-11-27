@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The return value 1 is specified by the \"exceeds but not zero\" rule, but the test also asserts booked_rooms equals a nested dict keyed by room type and then guest name, which the docstring never describes.",
+  "missing": "The docstring should state the exact structure of booked_rooms after a booking, for example that it maps each room type to a dict from guest name to the number of rooms that guest booked, and that a failed booking leaves it unchanged."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "\"Value of the expression\" implies conventional math evaluation, so multiplication binds before addition and the result is 7, which the test expects (7.0 equals 7 under assertEqual).",
+  "missing": "none"
+}

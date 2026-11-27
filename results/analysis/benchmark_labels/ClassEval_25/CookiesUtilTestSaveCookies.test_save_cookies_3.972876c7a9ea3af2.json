@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test sets a multi-entry cookies dict and asserts True, which matches the docstring's success return value for a normal save.",
+  "missing": "none"
+}

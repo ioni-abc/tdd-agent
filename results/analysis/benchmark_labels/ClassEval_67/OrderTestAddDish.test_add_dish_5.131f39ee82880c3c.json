@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rules (add when the count is valid, return True on success, decrement the menu count on success) cover every assertion in the test, including the stored dish dict matching the input.",
+  "missing": "none"
+}

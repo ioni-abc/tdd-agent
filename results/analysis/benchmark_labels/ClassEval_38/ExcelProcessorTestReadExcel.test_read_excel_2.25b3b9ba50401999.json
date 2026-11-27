@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects each row as a tuple of cell values, but the docstring does not specify the row type, so a list-of-lists implementation would also match the docstring and fail the test.",
+  "missing": "The docstring should state the exact container type for each row (for example, a tuple of cell values in column order) and which sheet is read, so that implementers return the same structure the caller expects."
+}

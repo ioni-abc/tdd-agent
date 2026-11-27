@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test requires '+' and '-' to return equal values, but the docstring never says they share a priority, so an implementation giving them different values would still satisfy it.",
+  "missing": "The docstring should state explicitly whether operators within the same precedence tier return the same value, and what values each tier gets."
+}

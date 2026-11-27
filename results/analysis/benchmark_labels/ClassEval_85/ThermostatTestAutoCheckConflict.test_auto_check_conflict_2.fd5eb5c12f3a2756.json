@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a mismatched mode is adjusted automatically and returns False in that case, and its doctest shows the heat/cool mapping in the reverse direction, so a programmer can infer that current above target yields 'cool'.",
+  "missing": "none"
+}

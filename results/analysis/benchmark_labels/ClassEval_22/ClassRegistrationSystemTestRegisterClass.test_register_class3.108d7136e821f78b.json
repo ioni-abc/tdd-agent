@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's return description and its example (repeated registrations for one student accumulate in a list) directly imply the test's expected per-student list.",
+  "missing": "none"
+}

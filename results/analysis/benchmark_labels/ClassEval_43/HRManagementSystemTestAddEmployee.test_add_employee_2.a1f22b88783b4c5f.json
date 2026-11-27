@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test's third assertion checks the internal `employees` dict keyed by id with specific field names, which the docstring never describes.",
+  "missing": "The docstring should state how the employee data is kept internally, including the container's name and structure, the key used for each record, and the field names used for each attribute."
+}

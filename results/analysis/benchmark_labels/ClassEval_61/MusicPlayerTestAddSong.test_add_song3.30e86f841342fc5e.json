@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_song adds a song to the playlist, and the doctest shows the song appearing in the playlist list, which implies sequential appending that a programmer would follow to produce the expected ordered list.",
+  "missing": "none"
+}

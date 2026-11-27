@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test asserts that `selected_dishes` is empty after checkout and that menu counts were reduced, and the docstring says neither, so a correct implementation that leaves the selection in place would fail.",
+  "missing": "After a successful checkout, the order's selected dishes must be cleared, and the docstring should also explain how the total is computed per dish (price, quantity, and sales factor) and how adding dishes affects the menu's remaining counts."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_employee returns False only if the employee is already present and otherwise returns True, so two distinct ids both return True.",
+  "missing": "none"
+}

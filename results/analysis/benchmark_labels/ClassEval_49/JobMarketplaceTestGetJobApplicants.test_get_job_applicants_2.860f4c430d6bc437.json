@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the function returns only the candidates that meet the requirements, and the test's two resumes differ so clearly that any reasonable matching rule gives Tom only.",
+  "missing": "none"
+}

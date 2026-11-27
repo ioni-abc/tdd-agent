@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says any argument that is not even (or is negative) makes the method raise ValueError, which matches the test's assertRaises(ValueError) on a list containing odd values.",
+  "missing": "none"
+}

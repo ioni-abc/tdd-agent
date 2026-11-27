@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the current player's symbol is placed and that the turn alternates between 'X' and 'O', but it does not say the game starts with 'X' or that \"valid\" means an empty cell, so the test's expected board depends on an unstated convention.",
+  "missing": "The docstring should state the initial current player's symbol and define a valid move as one whose target cell is currently empty, so a correct implementation can predict which symbol is placed on the first move."
+}

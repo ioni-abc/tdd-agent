@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes returning a (temperature, weather) tuple for the city and never mentions the case where the city is absent, which is where the test expects `False`.",
+  "missing": "The docstring should state what the method returns when the configured city is not a key in the weather dictionary, including the exact value returned."
+}

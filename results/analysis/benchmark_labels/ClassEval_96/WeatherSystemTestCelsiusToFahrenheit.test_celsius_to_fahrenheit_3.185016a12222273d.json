@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring fully specifies the Celsius-to-Fahrenheit conversion, so a correct implementation returns 73.4 and passes the assertNotEqual check against 80.6.",
+  "missing": "none"
+}

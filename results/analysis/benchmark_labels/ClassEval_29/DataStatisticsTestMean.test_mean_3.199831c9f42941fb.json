@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "\"Accurate to two digits after the Decimal separator\" points to standard rounding of the true mean (25/6 \u2248 4.1667) to 4.17, which is what the test asserts.",
+  "missing": "none"
+}

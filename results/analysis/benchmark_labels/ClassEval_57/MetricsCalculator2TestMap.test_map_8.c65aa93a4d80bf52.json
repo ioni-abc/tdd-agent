@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring defines the total ground-truth count but gives no convention for a zero total, so the test's expected 0.0 per-entry and mean values cannot be derived from it.",
+  "missing": "The docstring should state what each entry's AP (and the overall mean) is when that entry's total ground-truth count is zero, for example whether it is 0.0 and whether the mean is taken over those zeros."
+}

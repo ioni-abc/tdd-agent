@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The `:return` clause says `self.current_temperature` while the test and reference code return `self.target_temperature`, which the docstring's own description (\"Get the target temperature\") suggests.",
+  "missing": "The docstring should state explicitly that the method returns the value stored as the target temperature (set at construction), and the `:return` line should name that same attribute instead of the current temperature."
+}

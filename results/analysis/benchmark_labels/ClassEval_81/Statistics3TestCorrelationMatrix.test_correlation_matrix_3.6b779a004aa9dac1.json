@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes the normal case (a 3x3 example with all 1.0 values) and says nothing about degenerate inputs such as a single observation, where the test expects None in every entry.",
+  "missing": "The docstring should state what each correlation entry is when it cannot be computed, such as when there are fewer than two rows or a column has zero variance, including the exact placeholder value (e.g., None) to return."
+}

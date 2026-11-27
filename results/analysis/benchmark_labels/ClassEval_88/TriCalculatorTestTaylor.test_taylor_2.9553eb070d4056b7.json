@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the result as the n-order Taylor approximation of cos(x degrees), and with n=50 that series has converged to cos(30\u00b0), so a correct implementation matches the asserted value to within assertAlmostEqual's tolerance.",
+  "missing": "none"
+}

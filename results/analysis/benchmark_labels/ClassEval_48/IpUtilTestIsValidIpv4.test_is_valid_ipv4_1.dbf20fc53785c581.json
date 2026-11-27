@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's first example explicitly shows '192.168.0.123' returning True, which matches the test's assertion.",
+  "missing": "none"
+}

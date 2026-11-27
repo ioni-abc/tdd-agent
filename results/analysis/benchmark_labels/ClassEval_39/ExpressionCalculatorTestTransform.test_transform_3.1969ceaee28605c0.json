@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example \"2 + 3 * 4\" becomes \"2+3*4\", which implies that whitespace is dropped and binary operators are kept, and the test applies the same rule to a minus sign.",
+  "missing": "none"
+}

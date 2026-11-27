@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the return type is float, yet its example returns a list for a tie, and it gives no rule for the single-mode case that this test checks.",
+  "missing": "The docstring should state the return format when the data has one most-frequent value versus several tied values, for example whether a single mode is returned as a bare element or as a list containing that element."
+}

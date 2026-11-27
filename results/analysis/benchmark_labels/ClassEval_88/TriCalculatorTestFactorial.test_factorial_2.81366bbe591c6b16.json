@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines factorial(a) as the factorial of a and gives factorial(5)=120, which directly implies factorial(4)=24 as the test expects.",
+  "missing": "none"
+}

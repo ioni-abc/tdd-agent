@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the method returns False when there is no current song, but the test expects None for an empty playlist, which the reference code also returns.",
+  "missing": "The docstring should state the exact value returned in every no-result case, distinguishing None from False, including when the playlist itself is empty."
+}

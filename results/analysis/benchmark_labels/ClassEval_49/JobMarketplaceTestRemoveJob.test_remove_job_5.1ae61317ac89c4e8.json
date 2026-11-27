@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the position information is removed from job_listings, and the test expects exactly that removal with the remaining entries kept in order, which a straightforward implementation produces.",
+  "missing": "none"
+}

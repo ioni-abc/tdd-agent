@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says numbers are not counted as words, so the standalone \"1\" is excluded and the expected count of 2 follows directly.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's definition implies the mathematically exact value 0 for a 90-degree input, which is what the test asserts.",
+  "missing": "none"
+}

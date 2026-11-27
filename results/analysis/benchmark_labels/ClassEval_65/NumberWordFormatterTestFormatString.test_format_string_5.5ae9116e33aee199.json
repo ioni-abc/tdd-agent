@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives an example with the \"ONLY\" suffix and uppercase words but never says what a zero input should produce, so the test's exact expected string is not specified.",
+  "missing": "The docstring should state the exact output for zero and for other edge values, including the uppercase convention and the trailing \"ONLY\" suffix that every result gets, so an implementer can match the expected wording."
+}

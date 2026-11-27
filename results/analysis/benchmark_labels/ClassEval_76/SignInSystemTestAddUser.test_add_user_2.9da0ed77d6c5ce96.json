@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says add_user returns False when the user already exists, and the test adds the same username twice and asserts False on the second call.",
+  "missing": "none"
+}

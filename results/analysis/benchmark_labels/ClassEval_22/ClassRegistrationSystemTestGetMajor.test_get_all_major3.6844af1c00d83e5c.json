@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects each major listed once in first-appearance order, but the docstring says only \"a list of majors\" and its example has a single student, so a correct implementation could return duplicates or a different order and fail.",
+  "missing": "The docstring should say each distinct major appears once in the returned list, ordered by first appearance across the students list, and that repeated majors are omitted."
+}

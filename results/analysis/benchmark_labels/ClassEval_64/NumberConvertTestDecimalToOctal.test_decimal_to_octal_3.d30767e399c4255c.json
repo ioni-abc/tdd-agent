@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies a str return of the octal representation of an integer, and its example (42423 \u2192 '122667') shows no prefix, which matches the test's expected '245653' for 84907.",
+  "missing": "none"
+}

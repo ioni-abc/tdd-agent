@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the order holds product_id and quantity, that status defaults to 'Shipped', and that the order goes into self.orders, and its example shows the same output.",
+  "missing": "none"
+}

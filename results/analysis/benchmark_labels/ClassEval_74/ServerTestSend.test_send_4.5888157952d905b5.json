@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says an error message string is returned, so the test's exact string \"info structure is not correct\" is not specified and a correct implementation could use different wording.",
+  "missing": "The docstring should state the exact error string returned when the input is not a dict or lacks the required keys, so that any implementation can match the expected text."
+}

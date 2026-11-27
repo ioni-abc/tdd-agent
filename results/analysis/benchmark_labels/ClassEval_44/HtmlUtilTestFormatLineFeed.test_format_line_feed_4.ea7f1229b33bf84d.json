@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says consecutive line breaks are replaced with a single line break, which is exactly what the test asserts for the trailing run of newlines.",
+  "missing": "none"
+}

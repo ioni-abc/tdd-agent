@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The `with_end_tag` assertion checks an attribute the docstring never mentions, so a correct implementation that ignores or sets it differently could fail.",
+  "missing": "The docstring should state what each attribute set by parse holds, including that a flag such as `with_end_tag` is True only when the path ends with a slash and False otherwise."
+}

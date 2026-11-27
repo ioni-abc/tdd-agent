@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method removes the specified status from the current status and returns the result, so a correct implementation gives 2 for these inputs, matching the assertion.",
+  "missing": "none"
+}

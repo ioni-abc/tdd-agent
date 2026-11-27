@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"highest enrollment in the major\" and string return type match the test's inputs and expected value, with no tie to resolve.",
+  "missing": "none"
+}

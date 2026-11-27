@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives only the normal correlation formula and the float return type, so the expected return of 0 for a zero-denominator case is not specified.",
+  "missing": "The docstring should say what the function returns when either input has zero variance (all values equal), such as returning 0 or NaN, since the correlation is otherwise undefined."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The assertion `result[0][2] == 15` depends on an id column ordering that comes from the table schema created by `create_table`, which the insert docstring never describes.",
+  "missing": "The docstring should state the column layout of the target table, including whether an auto-generated id column exists and where each dictionary key is stored, so that a row can be read back by position."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's endpoints (0.0 gives black, 1.0 gives the original) define the factor as a multiplicative brightness scale, which a programmer following it would implement as PIL's Brightness enhancer, matching the test's expected output.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's stated behaviour (return the hostname associated with the IP address) is exactly what the test checks, so a docstring-following implementation would pass.",
+  "missing": "none"
+}

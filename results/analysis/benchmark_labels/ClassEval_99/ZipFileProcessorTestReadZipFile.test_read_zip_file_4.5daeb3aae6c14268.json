@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test asserts that the returned object's mode is 'r', and the docstring only says \"open file object\" without specifying the mode.",
+  "missing": "The docstring should say which mode the returned file object is opened in (for example read-only) and that its filename is the path passed to the constructor."
+}

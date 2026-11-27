@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives only a simple example (\"thirty-two\"), and nothing about how \"and\" within a spoken number is treated, so a correct implementation could plausibly output something else such as \"100 and 1\".",
+  "missing": "The docstring should state how connector words such as \"and\" inside a multi-part number are handled, for example whether they are ignored so that the whole phrase yields one combined integer string, or kept as literal text."
+}

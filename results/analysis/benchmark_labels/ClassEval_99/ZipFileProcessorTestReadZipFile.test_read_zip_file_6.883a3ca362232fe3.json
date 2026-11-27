@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns None whenever the file cannot be opened successfully, which covers an empty filename, so a correct implementation passes this test.",
+  "missing": "none"
+}

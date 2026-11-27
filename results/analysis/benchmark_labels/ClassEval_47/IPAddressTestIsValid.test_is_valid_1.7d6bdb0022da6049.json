@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule (four decimal digits separated by '.', each between 0 and 255) directly yields True for \"10.10.10.10\", matching the assertion.",
+  "missing": "none"
+}

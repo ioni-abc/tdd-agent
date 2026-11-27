@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"hex representation of an integer\" plus its lowercase, unprefixed example fully determines the expected output '14bab' for 84907.",
+  "missing": "none"
+}

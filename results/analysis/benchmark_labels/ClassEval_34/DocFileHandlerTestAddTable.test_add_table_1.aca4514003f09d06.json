@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the table is built from the specified data, and a single row of two values maps directly to one row and two columns, which is what the test checks.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's overflow-and-level-up rule, applied from the level 1 starting state the constructor sets, gives exactly level 5 and exp 100 for this test.",
+  "missing": "none"
+}

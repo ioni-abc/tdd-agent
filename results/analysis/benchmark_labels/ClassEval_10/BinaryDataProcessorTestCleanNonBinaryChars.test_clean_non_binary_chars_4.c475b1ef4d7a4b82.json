@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test-does-not-exercise-method: the test never calls `clean_non_binary_chars` and instead checks the value left by the constructor, so it is filed under the method but tests different behaviour.",
+  "missing": "none"
+}

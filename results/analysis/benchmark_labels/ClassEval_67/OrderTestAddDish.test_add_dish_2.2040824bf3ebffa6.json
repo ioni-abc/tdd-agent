@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the dish is added only if its count is valid, returns False otherwise, and updates the menu only on success, which covers every assertion in the test.",
+  "missing": "none"
+}

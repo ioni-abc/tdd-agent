@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test checks a nonexistent user \"user1\" on a fresh system and expects False, which the docstring explicitly states for users who do not exist.",
+  "missing": "none"
+}

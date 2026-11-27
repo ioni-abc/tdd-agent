@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the proportions of 0s and 1s as fractions of the total length, with the length reported under 'Bit length', which is exactly what this test asserts.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The first relevant hit is at rank 1, so the reciprocal rank is 1.0, and the docstring's example \"1.0, [1.0]\" for the same first item matches the test's expected values.",
+  "missing": "none"
+}

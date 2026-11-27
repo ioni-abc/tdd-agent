@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says the resume is removed from the resumes list, and the doctest shows the list becoming empty, so the test's assertion of an empty list follows directly.",
+  "missing": "none"
+}

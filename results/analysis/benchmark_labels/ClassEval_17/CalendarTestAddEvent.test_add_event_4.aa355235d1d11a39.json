@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that after `add_event` with a dict, `calendar.events` holds that same dict, and the test only varies the end time within that same behaviour.",
+  "missing": "none"
+}

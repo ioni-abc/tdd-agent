@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test sets `self.cookies` and expects that value to be returned, but the docstring says the data comes from `cookies_file`, so the test's setup does not feed the method's source.",
+  "missing": "The docstring should say which source the method reads (the file at the configured path, or an in-memory attribute), and what happens to in-memory data when the method is called, so that tests setting either one can be matched to the right behaviour."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (cosine of [1,2,3] with [4,5,6] shown as 0.9746) and its title both describe cosine similarity, which matches the test's expected values, although the `:return:` line wrongly calls the output \"cosine distance\".",
+  "missing": "The `:return:` description should say the values are cosine similarity (not distance), and it should match the title and example, so that a programmer reading only the return line does not produce 1 minus the similarity."
+}

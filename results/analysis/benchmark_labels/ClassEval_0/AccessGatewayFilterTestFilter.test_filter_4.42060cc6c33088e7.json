@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says the method filters \"based on certain rules and conditions\" and shows one example ('/login' with POST returning True), so a correct implementation could reasonably reject '/login/data' and fail this test.",
+  "missing": "The docstring should list the allowed path rules, such as which path prefixes or exact paths bypass the token check, and whether a path that extends an allowed prefix is also allowed."
+}

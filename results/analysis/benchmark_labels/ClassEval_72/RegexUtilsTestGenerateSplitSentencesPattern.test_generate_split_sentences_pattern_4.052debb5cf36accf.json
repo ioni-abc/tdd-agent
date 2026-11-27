@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example pattern requires whitespace after the punctuation, so a programmer following it would produce a pattern that fails to match `'?Y'`, and the test's expected `False` follows from that.",
+  "missing": "none"
+}

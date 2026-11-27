@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (-1.5000000000000007 for a similar small list) fixes the convention as population excess kurtosis, and the test's -1.4999999999999996 is that same formula's result up to float rounding.",
+  "missing": "none"
+}

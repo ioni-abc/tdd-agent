@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the list of class names the student has registered, so a first registration should yield a one-element list containing that class.",
+  "missing": "none"
+}

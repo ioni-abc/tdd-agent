@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The test asserts the result is None, but the docstring says the method returns a bool, False when the request is not allowed, and the reference code's fall-through path returns None instead of False.",
+  "missing": "The docstring should state that every rejected request returns False, including when the access check fails or no explicit return is reached, so that an implementation cannot return None for a denied request."
+}

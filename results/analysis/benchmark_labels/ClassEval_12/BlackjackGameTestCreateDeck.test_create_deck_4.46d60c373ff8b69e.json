@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"52 random order poker with the Jokers removed\" and its 'AS'-style format describe a full standard deck, which must contain every rank 10, J, Q, K in each suit that the test checks.",
+  "missing": "none"
+}

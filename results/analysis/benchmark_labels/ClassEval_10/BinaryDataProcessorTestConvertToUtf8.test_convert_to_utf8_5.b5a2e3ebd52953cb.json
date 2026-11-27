@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's general rule (binary string to UTF-8 text, grouped in bytes) fully determines the expected output \"kdllo\" for this input, and the reference code does exactly that.",
+  "missing": "none"
+}

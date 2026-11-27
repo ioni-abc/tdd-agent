@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says each post adds the position information to job_listings, which means every call appends one entry, and the test expects exactly that.",
+  "missing": "none"
+}

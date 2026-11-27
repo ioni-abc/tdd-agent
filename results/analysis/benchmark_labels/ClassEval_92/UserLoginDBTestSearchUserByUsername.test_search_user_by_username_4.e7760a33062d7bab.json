@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the method returns a list of tuples (with `len(result) = 1`), but the test and reference code expect a single row tuple whose first element is the username string.",
+  "missing": "The docstring should state whether a lookup returns a single row tuple (or None when absent) or a list of row tuples, and it should match the actual return shape for the lookup."
+}

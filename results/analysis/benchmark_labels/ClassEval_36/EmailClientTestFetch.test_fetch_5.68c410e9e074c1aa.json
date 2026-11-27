@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"first unread email ... marks it as read\" covers exactly the scenario where an earlier email is already read and the later unread one must be returned and changed to read.",
+  "missing": "none"
+}

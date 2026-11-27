@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's conflict rule directly covers a partial overlap, and the test expects False, which matches that rule.",
+  "missing": "none"
+}

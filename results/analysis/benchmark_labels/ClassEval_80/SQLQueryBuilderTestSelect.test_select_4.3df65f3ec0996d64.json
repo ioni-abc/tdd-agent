@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the same pattern (a list of columns, a single where key, the value quoted as a string), so a programmer following it would produce this exact output.",
+  "missing": "none"
+}

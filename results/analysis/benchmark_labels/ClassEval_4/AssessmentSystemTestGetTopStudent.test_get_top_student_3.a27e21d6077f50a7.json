@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring promises a student name but never covers the empty-roster case, which the test checks by expecting `None`.",
+  "missing": "When no student qualifies (for example, the student roster is empty), the docstring should state the value returned in that case, such as `None`."
+}

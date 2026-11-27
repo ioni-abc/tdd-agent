@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"product of the two complex numbers\" fully determines the standard complex multiplication that the test checks, so a correct implementation passes.",
+  "missing": "none"
+}

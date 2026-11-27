@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method prepares an infix expression for postfix conversion and gives a worked example with `*` that yields the standard postfix order, which the test's `/` case follows under the same convention.",
+  "missing": "none"
+}

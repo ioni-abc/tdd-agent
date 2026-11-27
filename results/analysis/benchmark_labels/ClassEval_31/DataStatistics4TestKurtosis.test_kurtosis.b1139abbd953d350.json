@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example [1, 20, 100] \u2192 -1.5 matches excess population kurtosis, so a programmer following it would compute the same formula the test expects, up to floating-point rounding.",
+  "missing": "none"
+}

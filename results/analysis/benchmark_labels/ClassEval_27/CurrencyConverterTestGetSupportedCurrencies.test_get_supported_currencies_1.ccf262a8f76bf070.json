@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest example gives the same seven currencies in the same order that the test asserts, so a faithful implementation would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it generates combinations \"with a specified number of elements,\" and the resultList parameter is the combination being built, so a programmer following it would produce the expected 3-element output.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return 0 if the file does not exist, which is the behaviour this test checks for the nonexistent \"test.json\" path.",
+  "missing": "none"
+}

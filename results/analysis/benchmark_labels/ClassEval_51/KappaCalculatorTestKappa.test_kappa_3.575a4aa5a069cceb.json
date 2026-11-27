@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names the standard Cohen's kappa, and the test's expected value follows from that definition, so a correct implementation would pass; the docstring's own example (0.25) does not match the reference code, but it does not concern this test's input.",
+  "missing": "none"
+}

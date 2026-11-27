@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's only example is an exact match of an event's time range, so it does not specify whether a slot that only partly overlaps an event is unavailable.",
+  "missing": "The docstring should state that a time slot is unavailable whenever it overlaps any existing event at all, including partial overlaps and slots that fall inside an event, and that slots touching only at an endpoint are available."
+}

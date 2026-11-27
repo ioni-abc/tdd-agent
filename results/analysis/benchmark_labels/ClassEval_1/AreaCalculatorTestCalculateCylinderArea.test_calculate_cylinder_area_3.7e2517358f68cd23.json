@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the area in terms of self.radius and height, and its example fixes the formula as 2\u03c0r(r+h), which gives 0 whenever the radius is 0.",
+  "missing": "none"
+}

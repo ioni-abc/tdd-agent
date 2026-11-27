@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The test expects get_mode to return the non-standard value 'test', which the docstring's \"only ['heat', 'cool']\" rules out, and the reference code returns whatever mode was stored.",
+  "missing": "The docstring should state what the getter returns when the mode was initialised with a value other than 'heat' or 'cool', such as returning it unchanged or rejecting it at construction."
+}

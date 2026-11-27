@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says factorial returns an int and gives the example factorial(4) returning 24, exactly what the test checks.",
+  "missing": "none"
+}

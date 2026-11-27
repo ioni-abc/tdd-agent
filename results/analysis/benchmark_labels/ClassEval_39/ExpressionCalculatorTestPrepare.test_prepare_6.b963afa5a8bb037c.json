@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows a non-empty example and never covers empty input, so a correct implementation could leave the stack in a different state than the test's expected empty deque.",
+  "missing": "The docstring should state what `postfix_stack` contains after preparing an empty string (empty, with the container type it uses), and what the container type is in general, since the example shows a list while the test compares against a deque."
+}

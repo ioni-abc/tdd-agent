@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the exact output pattern (keys comma-joined, each value in single quotes, wrapped in INSERT INTO table (...) VALUES (...)), which the single-key test follows directly.",
+  "missing": "none"
+}

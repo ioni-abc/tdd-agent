@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the first player to be 'X', yet the docstring only describes switching between 'X' and 'O' and never states the starting player, so a correct implementation that starts with 'O' would fail.",
+  "missing": "The docstring should state which player makes the first move on a new game and what the board's cell values look like before any move (e.g. the starting player is 'X' and empty cells are ' ')."
+}

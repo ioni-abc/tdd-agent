@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the order is stored in `self.orders` with the given product and quantity, status defaults to 'Shipped', and it only returns False when stock is inadequate, which is not the case here.",
+  "missing": "none"
+}

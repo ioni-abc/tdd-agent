@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never names the rules, so a correct implementation could return True for a non-exempt path with a malformed or expired token and an authorized-looking user, while the test expects False.",
+  "missing": "The docstring should list the concrete rules: which path prefixes skip checks, and that any other request must carry a valid, unexpired token whose user meets a minimum access level, otherwise it is denied."
+}

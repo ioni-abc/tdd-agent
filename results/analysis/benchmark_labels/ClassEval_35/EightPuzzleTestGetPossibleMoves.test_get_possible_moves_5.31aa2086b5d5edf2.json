@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (blank at the bottom-middle giving 'up', 'left', 'right') shows that moves are limited by the blank's position on the 3x3 grid, which is the rule this test checks.",
+  "missing": "none"
+}

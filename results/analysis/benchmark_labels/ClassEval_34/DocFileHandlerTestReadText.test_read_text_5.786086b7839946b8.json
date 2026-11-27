@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test expects \"\", which is the natural reading of the docstring for a document containing only an empty paragraph, so a faithful implementation would pass.",
+  "missing": "none"
+}

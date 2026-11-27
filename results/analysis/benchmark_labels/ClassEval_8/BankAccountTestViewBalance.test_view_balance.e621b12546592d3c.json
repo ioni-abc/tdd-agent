@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects a brand-new account to report a balance of 0, but the docstring never says what the starting balance is, so a correct implementation could start with a different value and fail.",
+  "missing": "The docstring should state the initial value of any state that the constructor sets, such as the starting balance for a newly created account, so a reader knows what a fresh object returns."
+}

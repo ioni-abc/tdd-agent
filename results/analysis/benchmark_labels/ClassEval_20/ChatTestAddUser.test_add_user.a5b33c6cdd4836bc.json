@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The return value is stated, but the test also requires `chat.users` to equal `{'John': []}`, and the docstring only mentions that structure in a malformed doctest line rather than as a stated rule.",
+  "missing": "The docstring should state how the user store changes on success, for example that the user is recorded as a key in the users mapping with an empty list as its value, so an implementation that stores users differently can be checked against it."
+}

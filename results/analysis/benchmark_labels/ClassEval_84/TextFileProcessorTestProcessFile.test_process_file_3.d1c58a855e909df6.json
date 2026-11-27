@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says process_file keeps only alphabetic characters and overwrites the file with that result, so the empty-string return and the write-back of '' both follow directly.",
+  "missing": "none"
+}

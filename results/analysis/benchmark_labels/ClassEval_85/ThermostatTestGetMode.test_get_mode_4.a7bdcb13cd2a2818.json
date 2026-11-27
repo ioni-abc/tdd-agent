@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies the return is the current working mode, restricted to 'heat' or 'cool', which matches the test's expectation of 'cool' after constructing the thermostat with that mode.",
+  "missing": "none"
+}

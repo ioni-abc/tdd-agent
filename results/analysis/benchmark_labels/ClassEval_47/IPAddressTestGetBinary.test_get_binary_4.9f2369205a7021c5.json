@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that an invalid IP address yields '', and the test's input (first octet 300, outside 0\u2013255) is invalid under the standard meaning of IPv4 validity.",
+  "missing": "none"
+}

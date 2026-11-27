@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not specify how empty or malformed query segments (a bare \"&\" with no key=value pair) are handled, so the expected {} depends on a convention it never states.",
+  "missing": "The docstring should state how query-string segments without a \"key=value\" form (empty segments, bare keys, repeated separators) are treated, for example whether they are skipped and whether the result is an empty dict when no valid pairs remain."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says \"upcoming\" and \"from a given date,\" but the signature has no date argument and it never says the reference point is the current time or that past-start events are excluded, so the expected `[]` is not clearly determined.",
+  "missing": "The docstring should state the reference point for \"upcoming\" (for example, the current time) and that events whose start time is before that point are excluded, so fewer than n results may be returned."
+}

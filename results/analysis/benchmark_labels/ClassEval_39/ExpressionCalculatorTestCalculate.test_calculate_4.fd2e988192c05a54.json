@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Input-format mismatch: the docstring says \"postfix\" while its example and the test use infix notation with operator precedence.",
+  "missing": "The docstring should state the accepted input notation (infix or postfix), whether operator precedence and parentheses apply, and the numeric result type for every case, not only the example."
+}

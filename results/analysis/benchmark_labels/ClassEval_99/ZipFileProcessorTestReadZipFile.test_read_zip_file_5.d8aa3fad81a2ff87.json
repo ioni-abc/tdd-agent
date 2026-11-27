@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring promises an open file object on success, and the test's filename and read-mode checks follow from returning an open zip for the given path.",
+  "missing": "none"
+}

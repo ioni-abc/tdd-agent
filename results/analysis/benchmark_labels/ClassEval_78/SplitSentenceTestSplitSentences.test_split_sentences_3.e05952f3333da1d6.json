@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule (split after \".\" or \"?\" when followed by a space) yields exactly the expected two sentences, since the dots inside \"A.B.C.\" have no following space and the \"?\" does end the first sentence.",
+  "missing": "none"
+}

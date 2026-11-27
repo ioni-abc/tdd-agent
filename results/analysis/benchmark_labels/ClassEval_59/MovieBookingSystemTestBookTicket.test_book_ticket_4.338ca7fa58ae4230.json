@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives the success message but never says that a booked seat's value becomes 1, which the test asserts.",
+  "missing": "The docstring should state the value a seat takes once booked (for example, that a booked seat is set to 1 while a free seat is 0), and that a booking is successful only if every requested seat was free."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example uses the same pattern and the same kind of text, and shows the same leading and trailing empty strings, so a re.split-style implementation matches the test's expectation.",
+  "missing": "none"
+}

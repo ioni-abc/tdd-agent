@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it generates combinations with a specified number of elements, and its example shows the size comes from the length of the pre-sized resultList, so the singleton case follows from the same rule.",
+  "missing": "none"
+}

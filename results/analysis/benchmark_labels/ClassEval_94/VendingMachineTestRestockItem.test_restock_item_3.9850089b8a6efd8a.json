@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method replenishes a product already in the machine and returns True in that case, which covers this test's existing-item restock from zero.",
+  "missing": "none"
+}

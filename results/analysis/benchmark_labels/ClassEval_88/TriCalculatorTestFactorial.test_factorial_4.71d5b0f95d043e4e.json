@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's general definition of factorial already fixes the expected value 2 for input 2, so a correct implementation passes.",
+  "missing": "none"
+}

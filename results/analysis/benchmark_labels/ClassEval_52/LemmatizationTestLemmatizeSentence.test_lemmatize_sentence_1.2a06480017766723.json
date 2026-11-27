@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example matches the test input and expected list exactly, so a implementation following the docstring would pass.",
+  "missing": "none"
+}

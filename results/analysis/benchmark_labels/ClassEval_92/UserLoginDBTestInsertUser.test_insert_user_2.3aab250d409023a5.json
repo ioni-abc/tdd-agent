@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says insert_user adds a new user with the given username and password to the users table, which is what the test checks through the search call.",
+  "missing": "none"
+}

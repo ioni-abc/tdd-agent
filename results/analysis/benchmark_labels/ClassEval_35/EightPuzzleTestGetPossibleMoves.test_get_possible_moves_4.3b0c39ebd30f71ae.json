@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return all possible moving directions for the current state from the four directions, and the test's expected set follows from the blank's position on the board, which a correct implementation would respect.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies linear interpolation returning a list of y-values at x_interp, and its own example matches this test's inputs and expected output.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines factorial as the factorial of the given number and the example factorial(4) gives 24, so factorial(3) = 6 follows directly.",
+  "missing": "none"
+}

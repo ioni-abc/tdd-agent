@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's worked example shows the total including the starting cash balance, which matches the test's expected 13000 and the per-stock values of 1500 each.",
+  "missing": "none"
+}

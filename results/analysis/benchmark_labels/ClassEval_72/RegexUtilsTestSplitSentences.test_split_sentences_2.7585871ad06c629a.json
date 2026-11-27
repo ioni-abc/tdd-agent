@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's only example has spaces after each punctuation mark, so it does not settle whether \"Aaa.Bbbb\" should split, and the test expects it not to.",
+  "missing": "The docstring should state whether a sentence-ending mark (. ? !) counts as a boundary when it is not followed by whitespace, and if whitespace is required, say so explicitly."
+}

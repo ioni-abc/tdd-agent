@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers the returned map, but the test also asserts that `score` increases by 1, which the docstring never mentions.",
+  "missing": "The docstring should state that each successful sweep of a safe cell increments the game's score counter by one, and that the revealed cell takes the value from the hidden map."
+}

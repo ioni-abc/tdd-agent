@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it returns a list of found elements with the given name, and the test's single-item XML with 'item' yields a list of length 1 whose first element text is 'apple', consistent with the docstring's example output.",
+  "missing": "none"
+}

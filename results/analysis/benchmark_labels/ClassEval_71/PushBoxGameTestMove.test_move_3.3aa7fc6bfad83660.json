@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the player moves and that move returns a win flag, but it does not name the player's position attributes or an `is_game_over` attribute, so the test's attribute checks are not specified.",
+  "missing": "The docstring should name the public state the method updates, such as the player's row and column attributes and any game-over flag, and state what each should hold after a move, including whether the flag reflects the same win check as the return value."
+}

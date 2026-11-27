@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly covers the case where n equals m, returning factorial(n), which gives 24 as the test expects.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method subtracts two big numbers and returns their difference as a string, which is exactly what the test checks for a case where the first number is larger.",
+  "missing": "none"
+}

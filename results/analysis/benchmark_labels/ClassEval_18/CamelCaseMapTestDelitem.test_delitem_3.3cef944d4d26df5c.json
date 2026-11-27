@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test relies on the map normalizing keys (case/underscore conversion) so that a differently cased key deletes the same entry, which the docstring never mentions.",
+  "missing": "The docstring should state that keys are normalized by the map's key-conversion rule before lookup, so any spelling that converts to the same normalized key refers to the same entry for deletion and membership checks."
+}

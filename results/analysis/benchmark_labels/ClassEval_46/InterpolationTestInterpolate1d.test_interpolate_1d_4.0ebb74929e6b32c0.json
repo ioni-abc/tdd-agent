@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes linear interpolation and never says whether x must be sorted or how consecutive list entries are paired, yet the test relies on the reference's list-order segment search with unsorted x.",
+  "missing": "The docstring should state whether x must be sorted in ascending order, and if not, that segments are formed from consecutive list entries in their given order, with the first segment containing the query point used."
+}

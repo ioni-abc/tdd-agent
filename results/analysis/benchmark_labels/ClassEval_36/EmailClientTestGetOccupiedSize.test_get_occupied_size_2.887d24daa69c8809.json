@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the return value as the total size of the emails in the box, and the total over an empty box is 0, which is what the test asserts.",
+  "missing": "none"
+}

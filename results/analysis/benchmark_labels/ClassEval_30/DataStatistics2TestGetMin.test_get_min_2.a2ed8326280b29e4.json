@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"minimum value in the data\" directly implies the expected result 1 for this input, and the int/float return note does not conflict since 1 == 1.0 in assertEqual.",
+  "missing": "none"
+}

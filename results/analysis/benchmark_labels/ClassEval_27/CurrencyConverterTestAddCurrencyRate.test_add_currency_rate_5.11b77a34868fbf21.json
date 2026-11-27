@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says adding a new currency type stores it with the given rate and returns None on success, which is exactly what the test checks.",
+  "missing": "none"
+}

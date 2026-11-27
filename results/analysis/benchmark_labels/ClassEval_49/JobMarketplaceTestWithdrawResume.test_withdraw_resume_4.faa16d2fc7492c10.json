@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the function removes the resume information from the resumes list, which covers both calls in this test, and the second call removes the entry that is first after the first removal.",
+  "missing": "none"
+}

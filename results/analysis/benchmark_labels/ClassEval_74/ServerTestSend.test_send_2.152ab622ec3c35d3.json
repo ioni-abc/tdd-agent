@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"a string indicating an error message,\" while the test asserts the exact string \"info structure is not correct,\" so a correct implementation with different wording would fail.",
+  "missing": "When a method returns an error message string, the docstring should state the exact text to return for each failure case, such as which required keys are absent or which type check failed."
+}

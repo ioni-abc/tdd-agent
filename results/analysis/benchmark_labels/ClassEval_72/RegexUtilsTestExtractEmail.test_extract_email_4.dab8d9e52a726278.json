@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "\"Extract all email addresses from the text\" directly implies that strings lacking the @ structure are not returned, which matches the test's expected single-element list.",
+  "missing": "none"
+}

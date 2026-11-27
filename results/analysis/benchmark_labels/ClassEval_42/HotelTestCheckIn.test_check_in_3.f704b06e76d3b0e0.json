@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The test expects a falsy result for a guest who has no booking under 'double', but the docstring's \"only if\" restricts False to two other cases, so the test's expectation goes against the stated return rule.",
+  "missing": "The docstring should say what the method returns when the named guest has no booking under the requested room type, including whether that counts as False and whether booked data is left unchanged."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (attack 10 vs defense 2 giving HP 92) shows damage is attack minus defense, and this test's positive-difference case follows that same rule.",
+  "missing": "none"
+}

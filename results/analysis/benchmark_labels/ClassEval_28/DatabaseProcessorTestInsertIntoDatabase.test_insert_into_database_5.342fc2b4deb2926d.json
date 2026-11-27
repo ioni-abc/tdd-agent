@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The assertion `result[0][2] == 18` assumes an extra leading column (such as an id) and insertion-order retrieval, and the docstring specifies neither.",
+  "missing": "The docstring should state how dictionary keys map to table columns, including any auto-generated leading column such as an id, and that rows are stored in the same order as the list."
+}

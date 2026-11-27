@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring doesn't say which vocabulary counts as convertible, so whether ordinal words and \"and\" are accepted is not determined, and its own example (\"thirty-two\" returns False) conflicts with the reference's hyphen handling.",
+  "missing": "The docstring should list which word forms are accepted (cardinal, ordinal, and connector words like \"and\") and state how hyphenated words are treated, with an example that matches that behaviour."
+}

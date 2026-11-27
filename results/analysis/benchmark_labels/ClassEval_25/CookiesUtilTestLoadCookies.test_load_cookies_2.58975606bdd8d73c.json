@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example gives exactly the dict the test expects from the same 'cookies.json' file, so a programmer following it would pass, even though the test's setup of the `cookies` attribute is not what the method reads.",
+  "missing": "none"
+}

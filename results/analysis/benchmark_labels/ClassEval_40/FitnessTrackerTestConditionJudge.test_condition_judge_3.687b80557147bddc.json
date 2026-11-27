@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's return contract (\"-1 if the user is too thin\") covers this input, and the BMI of about 17.9 falls below the normal range under standard cutoffs, so the test's -1 follows from the docstring.",
+  "missing": "none"
+}

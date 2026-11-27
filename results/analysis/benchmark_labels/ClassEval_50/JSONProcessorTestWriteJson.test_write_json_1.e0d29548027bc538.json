@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns 1 when writing succeeds and saves the data to the given path, which covers this test's return check and file-content check.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say whether each set is first averaged into a single vector before taking cosine similarity, which the test's expected value requires.",
+  "missing": "When each input is a list of vectors, the docstring should say how the list is reduced to a single similarity, such as averaging each list into one vector and then taking the cosine of those two averages, and not pairwise or other combinations."
+}

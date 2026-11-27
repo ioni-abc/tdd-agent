@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the annulus area from the two radii, so following it yields pi for these inputs, which passes the delta-0.01 check against 3.14.",
+  "missing": "none"
+}

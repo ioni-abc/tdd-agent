@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example ('first_name' to 'firstName') states the same snake_case-to-camelCase conversion that the test checks with 'last_name' to 'lastName'.",
+  "missing": "none"
+}

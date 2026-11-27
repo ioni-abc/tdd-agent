@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says parse_arguments returns (True, None) when parsing succeeds, and the test's only required argument, name, is supplied while the optional age is absent.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never mentions alphabet wrap-around or how a shift larger than 26 is handled, and the test depends on both, so an implementation that does not wrap would fail it.",
+  "missing": "The docstring should state that letters wrap around within their alphabet (z followed by a shift of 1 gives a, and shifts larger than the alphabet size reduce modulo 26), and that non-letter characters are left unchanged."
+}

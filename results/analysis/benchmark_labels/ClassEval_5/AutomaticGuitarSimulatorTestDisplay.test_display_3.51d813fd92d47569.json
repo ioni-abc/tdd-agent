@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the exact format string and says the method returns a str, so a correct implementation produces the asserted output for these inputs.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows a tie (2 and 3 both appear twice) returning both values as a list, which is the same behaviour the test checks for three tied values.",
+  "missing": "none"
+}

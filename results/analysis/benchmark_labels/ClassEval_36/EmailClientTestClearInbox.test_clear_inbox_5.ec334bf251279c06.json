@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example frees exactly the requested size (10 + 20 = 30) and stops, which implies the same stop-at-equality behaviour this test checks for size 10.",
+  "missing": "none"
+}

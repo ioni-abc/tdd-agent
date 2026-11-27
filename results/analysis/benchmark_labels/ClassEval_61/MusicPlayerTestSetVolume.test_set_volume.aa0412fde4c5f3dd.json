@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the method returns True when the volume is set, but the test asserts that a valid call returns None, matching the reference code, which has no return on success.",
+  "missing": "The docstring should state the return value for a successful call (for example, that it returns nothing and only updates the stored value), and that the return of False applies only to rejected values, so the description matches the implementation."
+}

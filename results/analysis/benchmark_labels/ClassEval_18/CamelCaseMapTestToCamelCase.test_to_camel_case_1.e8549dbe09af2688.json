@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same underscore-to-capitalized-word transformation that the test checks, so a programmer following it would produce 'aaaBbb'.",
+  "missing": "none"
+}

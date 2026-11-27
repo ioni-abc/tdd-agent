@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the n-order Taylor expansion of cos(x/180*pi), and at x=0 every term beyond the constant 1 vanishes, so the expected 1.0 follows directly.",
+  "missing": "none"
+}

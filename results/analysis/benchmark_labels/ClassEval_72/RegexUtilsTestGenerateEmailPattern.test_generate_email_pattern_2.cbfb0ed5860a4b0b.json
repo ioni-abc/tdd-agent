@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the pattern matches email addresses, and the test input lacks the \"@\" and domain structure an email requires, so a correct email regex would reject it.",
+  "missing": "none"
+}

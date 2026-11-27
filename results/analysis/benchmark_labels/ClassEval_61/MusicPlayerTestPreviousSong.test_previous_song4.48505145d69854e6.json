@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test sets a playlist but no current song, so there is no previous song, and the docstring's False case covers this directly.",
+  "missing": "none"
+}

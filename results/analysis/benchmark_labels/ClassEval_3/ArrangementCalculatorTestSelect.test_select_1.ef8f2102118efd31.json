@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example for `select(2)` on the same list gives exactly the 12 ordered pairs the test expects, in the same order.",
+  "missing": "none"
+}

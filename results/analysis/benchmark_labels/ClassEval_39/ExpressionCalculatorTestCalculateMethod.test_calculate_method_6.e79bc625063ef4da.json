@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never lists the supported operators or defines \"%\", so a correct implementation could return something other than the remainder 0 that the test expects.",
+  "missing": "The docstring should list every accepted operator and state what each computes, including that \"%\" returns the remainder of the first operand divided by the second, and what happens for an unsupported operator."
+}

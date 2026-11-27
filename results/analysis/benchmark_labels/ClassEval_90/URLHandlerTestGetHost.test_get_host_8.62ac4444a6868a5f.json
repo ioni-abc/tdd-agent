@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example and definition (\"the host domain name of the URL\") directly cover extracting \"bbb.com\" from a URL with a trailing slash, so a correct implementation would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test's assertions depend on an auto-generated id column at index 0 and on the column order returned by a different method, neither of which the insert_ticket docstring describes.",
+  "missing": "The docstring should describe the table schema, including any auto-generated id column and the order of stored columns, and what the related search or query methods return for inserted rows."
+}

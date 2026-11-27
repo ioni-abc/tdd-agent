@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies a Decimal return type and a mathematical calculation based on the operator, which a correct division of 6 by 2 satisfies, and the reference code returns Decimal('3'), which equals Decimal(3.0).",
+  "missing": "none"
+}

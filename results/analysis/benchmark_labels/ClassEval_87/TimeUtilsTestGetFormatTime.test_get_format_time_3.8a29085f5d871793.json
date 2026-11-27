@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example fixes the output format and padding, and the test's inputs follow the same pattern with a different day, so a programmer following it would pass.",
+  "missing": "none"
+}

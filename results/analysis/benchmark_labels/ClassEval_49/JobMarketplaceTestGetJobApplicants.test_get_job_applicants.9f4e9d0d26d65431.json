@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest shows the identical setup and the identical expected output, so a programmer following it would return the matching resume in a list and pass.",
+  "missing": "none"
+}

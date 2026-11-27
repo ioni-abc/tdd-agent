@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the name is returned as validated unless it is empty or longer than 33 characters, and \"ccc\" is neither, so the test's expectation of 'ccc' follows directly.",
+  "missing": "none"
+}

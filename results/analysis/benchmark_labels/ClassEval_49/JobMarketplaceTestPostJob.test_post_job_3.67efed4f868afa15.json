@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says post_job adds the position information to job_listings, and its example shows the exact dict structure, so calling it twice yields the two dicts appended in order.",
+  "missing": "none"
+}

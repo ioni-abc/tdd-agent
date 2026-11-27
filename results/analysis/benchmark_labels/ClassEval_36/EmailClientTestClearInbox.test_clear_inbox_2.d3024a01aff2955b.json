@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "PREDICTION: The docstring implies that clear_inbox deletes oldest emails until there is room for the given size, but it says nothing about an email client with an empty address, so the test's inputs leave the expected outcome unspecified.\nLABEL: unstated\nREASON The test expects no emails to be remov",
+  "missing": "The docstring should say that if the email client has no address (an empty address string), the method returns without changing the inbox."
+}

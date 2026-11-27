@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers the positions of targets, boxes and player but never mentions the `target_count` attribute that the test checks.",
+  "missing": "The docstring should say that any attribute counting the targets is also set during initialization, equal to the number of target cells found in the map."
+}

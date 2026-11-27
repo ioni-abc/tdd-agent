@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method places the mark, switches it, and returns whether the move succeeded, so a correct implementation passes this test.",
+  "missing": "none"
+}

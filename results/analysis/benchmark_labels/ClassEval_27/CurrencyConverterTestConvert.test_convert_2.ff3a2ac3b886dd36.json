@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines convert as turning an amount in one currency into the target currency, so converting to the same currency naturally returns the same amount, which the test checks.",
+  "missing": "none"
+}

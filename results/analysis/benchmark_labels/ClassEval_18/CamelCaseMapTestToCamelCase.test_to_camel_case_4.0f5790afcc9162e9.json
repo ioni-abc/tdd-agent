@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's description and example show that each underscore-separated segment after the first is capitalized and joined, which is exactly what this test checks.",
+  "missing": "none"
+}

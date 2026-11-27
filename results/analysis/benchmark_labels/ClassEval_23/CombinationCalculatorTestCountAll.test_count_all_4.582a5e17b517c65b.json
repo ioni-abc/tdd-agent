@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say whether the empty selection counts, so the expected value 0 for n=0 is a convention a correct implementation could miss (it might return 1 for 2^0).",
+  "missing": "The docstring should state the formula or convention for the count, including whether the empty combination is counted and what value is returned when there are zero elements."
+}

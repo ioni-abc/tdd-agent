@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \":return: ... False if there was no next song\" directly covers the test's case of being on the final song, so the expected False is specified.",
+  "missing": "none"
+}

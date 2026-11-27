@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says \"contain the given keyword\" without saying how non-string items (integers here) are compared with a string keyword, so the test's expectation that 10 matches \"1\" is not determined by the docstring.",
+  "missing": "When items are not strings, the docstring should state whether the keyword is matched against the item's string form (substring match) or by equality, and how total_pages is computed from the number of matches and the page size."
+}

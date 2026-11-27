@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same pattern (title and paragraph text kept, each code block shown as \"-CODE-\"), so a faithful implementation would produce the asserted output.",
+  "missing": "none"
+}

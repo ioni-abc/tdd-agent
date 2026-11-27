@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly gives the example IPAddress(\"10.10.10.10\").get_octets() returning [\"10\", \"10\", \"10\", \"10\"], which matches the test's assertion and the reference code.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"binary representation of an integer\" as a str, plus its example, specifies standard unpadded base-2 output, which matches the test's expected value for 84907.",
+  "missing": "none"
+}

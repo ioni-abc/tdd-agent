@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring covers the available_rooms update but never says check_out leaves booked_rooms alone, which the test's second assertion checks.",
+  "missing": "The docstring should state that checking out only changes the available-room counts and leaves any booked-room records and other hotel state unchanged."
+}

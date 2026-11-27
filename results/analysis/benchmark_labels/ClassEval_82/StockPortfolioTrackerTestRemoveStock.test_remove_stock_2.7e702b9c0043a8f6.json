@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that removing an exact-quantity match returns True and drops the entry, and the test checks exactly that behaviour with another entry remaining, so a programmer following the docstring would pass.",
+  "missing": "none"
+}

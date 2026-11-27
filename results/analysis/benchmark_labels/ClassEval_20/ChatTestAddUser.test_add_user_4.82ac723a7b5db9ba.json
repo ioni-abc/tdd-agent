@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says adding a user not already in the Chat returns True, which matches the test's return assertion, and \"add a new user\" covers the stored-state assertion.",
+  "missing": "none"
+}

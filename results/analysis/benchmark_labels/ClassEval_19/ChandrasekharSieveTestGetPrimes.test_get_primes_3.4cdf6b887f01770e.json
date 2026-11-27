@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows that the constructor argument is the upper bound and that get_primes returns all primes up to it, so the expected list follows directly.",
+  "missing": "none"
+}

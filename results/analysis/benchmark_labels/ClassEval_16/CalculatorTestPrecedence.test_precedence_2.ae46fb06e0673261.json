@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's phrasing \"the priority of '/' and '*'\" treats them as a single tier, so a programmer following it would give them equal priority and pass the equality check.",
+  "missing": "none"
+}

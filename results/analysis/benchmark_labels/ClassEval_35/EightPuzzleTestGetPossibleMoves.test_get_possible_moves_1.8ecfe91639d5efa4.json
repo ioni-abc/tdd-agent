@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method finds all possible moving directions from the four listed, and a centre blank can move in all four, so a correct implementation would pass this test.",
+  "missing": "none"
+}

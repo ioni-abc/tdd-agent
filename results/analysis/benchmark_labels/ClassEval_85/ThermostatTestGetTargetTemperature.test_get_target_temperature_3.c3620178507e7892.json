@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The `:return` annotation names `self.current_temperature`, which would yield 20 here, while the test and reference code expect the target value 25.",
+  "missing": "The return description should name the attribute actually returned, and the constructor's parameters should be documented so a reader can tell which argument is the target temperature and which is the current one."
+}

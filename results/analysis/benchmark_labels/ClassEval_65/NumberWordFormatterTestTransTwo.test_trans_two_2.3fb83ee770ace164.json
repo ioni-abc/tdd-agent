@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the method as converting any two-digit number to words, and its example fixes the uppercase, space-separated output format, so \"TEN\" follows directly.",
+  "missing": "none"
+}

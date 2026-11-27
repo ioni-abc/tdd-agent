@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring defines cosine similarity for vectors in general and gives only a non-zero example, so it does not state the zero-norm edge case this test checks, where the reference returns 0.0.",
+  "missing": "The docstring should state the result when either input has zero norm (for example, that the similarity is 0.0 because the vector is first normalized to the zero vector), so implementers do not have to guess or divide by zero."
+}

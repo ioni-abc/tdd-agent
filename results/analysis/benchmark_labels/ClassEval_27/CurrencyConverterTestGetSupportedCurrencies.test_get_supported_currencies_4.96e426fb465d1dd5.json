@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest shows the exact list and order the test asserts for a freshly constructed CurrencyConverter, so a faithful implementation would pass.",
+  "missing": "none"
+}

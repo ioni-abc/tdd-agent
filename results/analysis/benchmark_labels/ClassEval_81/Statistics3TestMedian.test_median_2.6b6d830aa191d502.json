@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the result as the median, which for an odd-length list is the middle element, and the test's expected value 3 matches that under assertEqual even if the return is an int rather than a float.",
+  "missing": "none"
+}

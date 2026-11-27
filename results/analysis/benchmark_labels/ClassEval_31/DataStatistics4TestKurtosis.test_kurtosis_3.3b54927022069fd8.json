@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives only one example, and the test's exact floating-point result depends on a formula and operation order the docstring never specifies.",
+  "missing": "The docstring should state the exact formula, including whether the result is excess kurtosis (minus 3) and whether it uses the population or sample variance, so that a correct implementation reproduces the same floating-point value for any input list."
+}

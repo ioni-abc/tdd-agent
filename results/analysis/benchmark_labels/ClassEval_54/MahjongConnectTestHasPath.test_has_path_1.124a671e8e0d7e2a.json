@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's return rule (True when a path exists between the two icons) covers this test, and any reasonable reading of \"path\" gives True for two adjacent matching icons.",
+  "missing": "none"
+}

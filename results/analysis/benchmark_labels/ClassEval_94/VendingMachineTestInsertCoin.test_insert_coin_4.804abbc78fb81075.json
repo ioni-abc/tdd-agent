@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the balance after the coins are inserted, which, read with \"inserts coins\", means the amount accumulates onto the current balance, so a faithful implementation returns 5.0.",
+  "missing": "none"
+}

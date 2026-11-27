@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the keys `first_Name` and `last_Name` to come back as `firstName` and `lastName`, a conversion the docstring never mentions, so a correct iterator over stored keys could still fail.",
+  "missing": "The docstring should state that keys are converted to camel case when they are assigned, so that iterating yields the converted keys (for example, underscore-separated words become a lowercase first word followed by capitalized words, with the original key text otherwise preserved)."
+}

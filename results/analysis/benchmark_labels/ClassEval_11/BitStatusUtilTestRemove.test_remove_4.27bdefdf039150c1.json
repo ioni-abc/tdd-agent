@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring describes removing a specified status from the current status but doesn't say what happens when the current status doesn't contain that bit, so an implementation that blindly flips bits would return 14 and fail the test.",
+  "missing": "The docstring should state that if the current status does not include the specified status, the function returns the current status unchanged, and that only bits actually set in the current status are cleared."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example confirms the standard recall convention (label 1 positive, TP/(TP+FN)), and this test's input has no zero-denominator edge case, so a docstring-following implementation returns 1.0.",
+  "missing": "none"
+}

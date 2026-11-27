@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the method as checking whether the board is completely filled, and its example shows False for a board that is not full, so a correct implementation returns False for a new empty board.",
+  "missing": "none"
+}

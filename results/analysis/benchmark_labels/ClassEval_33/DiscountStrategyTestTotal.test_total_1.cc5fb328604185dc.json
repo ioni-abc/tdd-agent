@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says \"Calculate the total cost of items in the cart\" and returns a float, so a programmer summing quantity times price for each item would produce 250.0 and pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test calls `evaluate_expression` while the docstring shown is for `answer`, so the test does not exercise the method whose docstring the agent sees.",
+  "missing": "none"
+}

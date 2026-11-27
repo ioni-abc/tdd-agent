@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that calling set_mode('cool') makes thermostat.mode equal 'cool', which is the behaviour the test checks, even though the test reads it through get_mode instead.",
+  "missing": "none"
+}

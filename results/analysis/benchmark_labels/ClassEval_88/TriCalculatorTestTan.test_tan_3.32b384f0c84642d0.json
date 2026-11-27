@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"x-degree angle\" wording and its tan(45) = 1.0 example fix the unit as degrees, so a correct implementation returns the expected value for 30 degrees.",
+  "missing": "none"
+}

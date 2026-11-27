@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest uses the same input string and gives the same datetime the test asserts, so a programmer following it would pass.",
+  "missing": "none"
+}

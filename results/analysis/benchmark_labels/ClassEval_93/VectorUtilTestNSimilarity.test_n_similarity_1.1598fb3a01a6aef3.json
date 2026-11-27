@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say how a set of vectors is reduced to a single similarity (for example, averaging each list first, or averaging pairwise cosines), and that choice determines the expected 1.0 here.",
+  "missing": "The docstring should state how each vector list is combined before comparison (e.g., whether each list is averaged into one vector before cosine similarity), and how zero-magnitude vectors or their means are handled."
+}

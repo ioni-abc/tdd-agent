@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states the insertion behaviour the test depends on, and the test's remaining checks (result count and row layout) belong to search_student_by_name, not to insert_student.",
+  "missing": "none"
+}

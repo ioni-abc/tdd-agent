@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"remove punctuations\" and gives no rule for punctuation inside a word, so a correct implementation could split, keep, or drop the apostrophe differently from the expected \"Cantancos\".",
+  "missing": "The docstring should state whether punctuation inside a word (such as an apostrophe) is deleted with the word joined back together, split into separate tokens, or kept, and which lemma form is produced for auxiliary or perfect-tense verbs."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the course is added to `self.courses` when it isn't already there, which is exactly what the test checks for a new course.",
+  "missing": "none"
+}

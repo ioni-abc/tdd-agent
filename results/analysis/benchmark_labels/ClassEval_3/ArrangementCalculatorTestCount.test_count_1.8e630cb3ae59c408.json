@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the result as choosing m items from n as arrangements and gives the exact example ArrangementCalculator.count(5, 3) returning 60, matching the test's assertion.",
+  "missing": "none"
+}

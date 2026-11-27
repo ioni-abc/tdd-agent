@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly covers column wins and says the winner's mark is returned, so a correct implementation following it returns 'X' for this board.",
+  "missing": "none"
+}

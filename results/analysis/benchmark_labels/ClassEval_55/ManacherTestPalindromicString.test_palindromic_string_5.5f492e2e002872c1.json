@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not specify which palindrome to return when several have the same maximal length, but the test expects the first one, 'aba'.",
+  "missing": "When multiple palindromic substrings share the maximum length, the docstring should state which one to return (for example, the one whose start index is earliest in the input)."
+}

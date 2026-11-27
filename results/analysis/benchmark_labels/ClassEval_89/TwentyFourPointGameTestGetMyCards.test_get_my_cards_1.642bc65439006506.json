@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test calls `get_my_cards()` while the docstring and reference code are for `_generate_cards`, so the test is not exercising the documented method.",
+  "missing": "none"
+}

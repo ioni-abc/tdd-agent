@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example fixes the convention (sample standard deviation, n-1 divisor), and the test's expected values follow that same convention, so a programmer following the example would pass.",
+  "missing": "none"
+}

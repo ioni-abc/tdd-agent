@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add appends the given segment to the segments list, which is exactly what the test checks for a plain segment on an empty path.",
+  "missing": "none"
+}

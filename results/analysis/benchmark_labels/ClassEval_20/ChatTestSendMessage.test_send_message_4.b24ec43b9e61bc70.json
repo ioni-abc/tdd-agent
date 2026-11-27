@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says that if the sender or receiver is not in the Chat the method returns False, which matches the first assertion, and an implementation that sends nothing on that path leaves the users dict unchanged, as the second assertion checks.",
+  "missing": "none"
+}

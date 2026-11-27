@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to keep only English letters and spaces, then lowercase and split on whitespace, which directly yields [] for the digit-only string and a single joined word for the symbol case.",
+  "missing": "none"
+}

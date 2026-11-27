@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the temperature is converted to the requested units but does not give the conversion formula or precision, so the exact float 23.000000000000004 depends on an unstated implementation detail.",
+  "missing": "The docstring should state the exact conversion formula and rounding behaviour for temperature conversion, so that a returned float can be matched exactly."
+}

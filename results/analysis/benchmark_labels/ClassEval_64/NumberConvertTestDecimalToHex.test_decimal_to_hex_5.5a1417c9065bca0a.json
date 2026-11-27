@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows lowercase hex digits with no prefix ('a5b7' for 42423), which matches the test's expected '52eb7' for 339639, and the value checks out (0x52eb7 = 339639).",
+  "missing": "none"
+}

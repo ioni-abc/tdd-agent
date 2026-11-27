@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method compresses the listed files into the output zip and returns True or False for success, which matches the test's expectation of True and the zip existing.",
+  "missing": "none"
+}

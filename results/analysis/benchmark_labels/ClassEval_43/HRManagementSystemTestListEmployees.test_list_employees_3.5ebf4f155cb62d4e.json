@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example demonstrates the same behaviour (adding 'employee_ID' to each employee's record and returning a dict keyed by ID) that the test checks for two employees.",
+  "missing": "none"
+}

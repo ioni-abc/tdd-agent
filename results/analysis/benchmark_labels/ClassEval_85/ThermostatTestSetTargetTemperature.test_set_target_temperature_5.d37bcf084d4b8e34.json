@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows that after setting a value, the stored target_temperature equals that value, which is what the test checks through the getter.",
+  "missing": "none"
+}

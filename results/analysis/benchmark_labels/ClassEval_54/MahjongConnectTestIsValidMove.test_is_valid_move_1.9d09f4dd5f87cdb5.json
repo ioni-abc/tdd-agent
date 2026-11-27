@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring lists the four validity conditions (in range, not identical, same icon, valid path), and this test's inputs satisfy all of them, so the expected True follows directly.",
+  "missing": "none"
+}

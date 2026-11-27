@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the return value as the events on the given date, so when no event falls on January 2 the natural result is an empty list, which is what the test asserts.",
+  "missing": "none"
+}

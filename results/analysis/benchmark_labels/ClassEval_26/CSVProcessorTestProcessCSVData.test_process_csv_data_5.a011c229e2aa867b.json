@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies keeping the Nth column, uppercasing it (its example shows 'hElLo' becoming 'HELLO'), writing the `_process` file, and returning 1 on success, which covers what this test checks.",
+  "missing": "none"
+}

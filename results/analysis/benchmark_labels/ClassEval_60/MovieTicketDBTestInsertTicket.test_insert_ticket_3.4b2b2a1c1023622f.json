@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Test-method mismatch: the test exercises insert_ticket and search_tickets_by_customer, but it is filed under create_table, whose docstring covers only table creation.",
+  "missing": "none"
+}

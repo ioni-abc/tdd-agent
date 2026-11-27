@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the input word is appended to self.word_list, which is exactly what the test checks after one call on an empty list.",
+  "missing": "none"
+}

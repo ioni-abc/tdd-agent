@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what makes a user \"too fat\", \"too thin\", or \"normal\", so a correct implementation could choose a different classification for this user and return 610.05 or another value instead of 697.2.",
+  "missing": "The docstring should state the exact criteria for each condition category, such as the BMI thresholds (value ranges and the formula used) that decide whether a user is too thin, normal, or too fat."
+}

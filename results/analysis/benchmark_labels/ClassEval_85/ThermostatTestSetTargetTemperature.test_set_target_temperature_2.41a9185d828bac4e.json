@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states that calling the setter stores the given value as the target temperature, and the test only checks that the stored value reads back as 10.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says required arguments go into the required set, that `required` defaults to False, that `arg_type` defaults to str, and that name-to-type pairs are stored in `types`, which together fix every assertion in the test.",
+  "missing": "none"
+}

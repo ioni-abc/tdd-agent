@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says that keys are converted or normalized before lookup, so a correct plain dictionary-style implementation would return nothing or raise for 'first_Name'.",
+  "missing": "The docstring should state the key-normalization rule: each key is converted (for example to camel case) before lookup, so differently written variants of the same key map to the same stored value."
+}

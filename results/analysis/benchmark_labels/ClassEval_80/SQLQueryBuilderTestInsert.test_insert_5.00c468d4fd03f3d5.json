@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same pattern (multiple keys joined by commas, values quoted as strings, an integer quoted), so this test's expected output follows directly from it.",
+  "missing": "none"
+}

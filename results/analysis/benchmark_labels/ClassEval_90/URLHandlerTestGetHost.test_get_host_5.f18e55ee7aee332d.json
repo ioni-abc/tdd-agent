@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the host domain name of the URL, which for this input is \"bbb.com\", matching the assertion and the reference code.",
+  "missing": "none"
+}

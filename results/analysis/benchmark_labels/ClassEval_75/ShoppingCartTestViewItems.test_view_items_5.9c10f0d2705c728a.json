@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same structure, a dict keyed by item name whose values hold \"price\" and \"quantity\", and its add_item call order (name, price, quantity) matches the test's inputs.",
+  "missing": "none"
+}

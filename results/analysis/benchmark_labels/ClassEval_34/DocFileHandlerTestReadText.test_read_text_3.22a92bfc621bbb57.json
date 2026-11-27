@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the document's content as a string, and the test's single-paragraph document has exactly that content, so a faithful implementation returns \"aaa\".",
+  "missing": "none"
+}

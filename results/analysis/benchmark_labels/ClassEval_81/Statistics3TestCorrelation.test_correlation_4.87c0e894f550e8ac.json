@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only gives a correlation example and never says what happens when one list is constant (zero denominator), yet the test expects None.",
+  "missing": "The docstring should state what the function returns when the correlation is undefined, such as when either input has zero variance (all values equal), for example returning None."
+}

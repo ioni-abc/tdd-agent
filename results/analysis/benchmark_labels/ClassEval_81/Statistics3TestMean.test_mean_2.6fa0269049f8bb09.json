@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes the mean of a list and says nothing about what happens when the list is empty, yet the test expects None.",
+  "missing": "The docstring should state what the function returns when the input list has no elements (for example, that it returns None instead of raising a division-by-zero error)."
+}

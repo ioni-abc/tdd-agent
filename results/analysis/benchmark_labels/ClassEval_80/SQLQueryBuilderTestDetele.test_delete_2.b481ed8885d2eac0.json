@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the output format for a table name and a dict of conditions, with each value wrapped in single quotes, and this test follows that same format with one condition.",
+  "missing": "none"
+}

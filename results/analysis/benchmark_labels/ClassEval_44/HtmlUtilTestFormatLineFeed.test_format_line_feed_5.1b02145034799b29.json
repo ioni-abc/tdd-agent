@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule (collapse runs of line breaks into one) leaves an input with no line breaks unchanged, so the empty-string case follows directly.",
+  "missing": "none"
+}

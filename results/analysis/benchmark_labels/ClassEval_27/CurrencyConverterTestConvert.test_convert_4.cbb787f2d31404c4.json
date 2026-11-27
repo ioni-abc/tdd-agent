@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects 46.08, which depends on a USD-to-GBP rate of 0.72 stored in the class's hidden rates table, and the docstring never mentions that table or any rate values.",
+  "missing": "The docstring should state the exchange rates the converter uses (for example, each currency's rate relative to a common base, or the pairwise rates), or the conversion formula with its rate source, so that any implementation can reproduce the result for any supported currency pair."
+}

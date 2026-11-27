@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's :return clause says the result is a str, int, or float when the file is not a JSON object, which covers this test's JSON string content and its expected str type and value.",
+  "missing": "none"
+}

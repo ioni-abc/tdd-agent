@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring describes only stripping HTML and marking code with -CODE-, and says nothing about how list items are formatted, which the test checks.",
+  "missing": "The docstring should state that each list item is rendered with a \"[-]\" prefix and that a period is appended when its text does not already end in punctuation, and that paragraphs get similar punctuation handling."
+}

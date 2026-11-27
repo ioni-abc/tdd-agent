@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the result as the resource address after the host, and its example shows the full remainder of the URL being returned, which matches the test's expected \"/bbb/human-eval\".",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows exactly this structure (name, grade, major, and courses as an empty dict) keyed by student name, so the test's expectations follow directly from it.",
+  "missing": "none"
+}

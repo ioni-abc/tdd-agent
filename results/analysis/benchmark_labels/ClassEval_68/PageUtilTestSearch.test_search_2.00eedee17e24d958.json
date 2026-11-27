@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it returns a dict of search information (total results, matching items) and its example shows the same keys, so a programmer following it would produce the test's expected dict.",
+  "missing": "none"
+}

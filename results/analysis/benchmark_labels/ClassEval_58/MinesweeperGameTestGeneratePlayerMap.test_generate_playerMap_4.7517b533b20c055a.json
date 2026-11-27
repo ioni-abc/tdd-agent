@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the board is n*n with '-' marking unknown positions, so for n=1 the expected output [['-']] follows directly, and the test's k value is irrelevant to this output.",
+  "missing": "none"
+}

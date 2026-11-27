@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says it computes skewness and gives an example with non-constant data, so the expected result of 0 for zero-spread input is not specified.",
+  "missing": "The docstring should state what is returned when all values in the input are identical (zero standard deviation), for example that it returns 0 instead of dividing by zero."
+}

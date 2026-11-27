@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives only the \"abc\" to \"kfa\" example and does not say whether non-letters are copied through, whether they consume key letters, or whether uppercase is preserved, all of which the test's expected output depends on.",
+  "missing": "The docstring should state that characters that are not letters are copied to the output unchanged without advancing the key position, and that uppercase letters stay uppercase after encryption."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says submit_resume adds the resume information to the resumes list, and the example shows the dict structure, so a faithful implementation appends all three entries in order, including the duplicate.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says a new product is added to the dict with its name and quantity, and its example shows the same nested structure the test asserts.",
+  "missing": "none"
+}

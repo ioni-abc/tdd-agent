@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes deciphering text with the Vigenere cipher and never says how non-letter characters are handled, so the test's expectation of '123' is not specified.",
+  "missing": "The docstring should say that characters which are not letters are copied to the output unchanged and do not advance the key position, and that letter case is preserved."
+}

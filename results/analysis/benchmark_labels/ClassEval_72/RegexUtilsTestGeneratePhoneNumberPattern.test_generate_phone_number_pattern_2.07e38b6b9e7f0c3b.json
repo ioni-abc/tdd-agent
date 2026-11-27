@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not specify the phone number format, so a correct pattern that accepts unseparated digits would fail this test's expectation of no match.",
+  "missing": "The docstring should state the exact accepted phone number format, including required separators, digit group sizes, and whether unformatted digit strings are rejected."
+}

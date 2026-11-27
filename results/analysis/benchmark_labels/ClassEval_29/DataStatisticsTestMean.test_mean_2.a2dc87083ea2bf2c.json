@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the result is the average accurate to two decimal places, which directly determines the expected value 3.50 (equal to 3.5) for this input.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test depends on remove_book dropping a title once its count reaches zero and on add_book defaulting to one copy, and neither behaviour is stated in this method's docstring.",
+  "missing": "The docstring should say what happens to a title when its quantity is reduced to zero (whether the key is removed or kept at 0), and what default quantity applies when an add operation omits the quantity argument."
+}

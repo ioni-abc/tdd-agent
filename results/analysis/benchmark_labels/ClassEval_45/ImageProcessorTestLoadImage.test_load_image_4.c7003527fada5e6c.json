@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method uses PIL to open the image and its example shows the result stored as processor.image, which is exactly what the test checks: opening a PNG file yields an image whose format is \"PNG\".",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same name, price, parsed times (1900-01-01 date), and a 3x3 seats array for n=3, so every assertion in the test is covered.",
+  "missing": "none"
+}

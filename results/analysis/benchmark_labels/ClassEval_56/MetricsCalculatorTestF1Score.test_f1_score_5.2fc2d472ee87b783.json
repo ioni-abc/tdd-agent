@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines F1 as the harmonic mean of precision and recall, which is the standard calculation that yields 0.4 for these inputs, so a programmer following it would pass.",
+  "missing": "none"
+}

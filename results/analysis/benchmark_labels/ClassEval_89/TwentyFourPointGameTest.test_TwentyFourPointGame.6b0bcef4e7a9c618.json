@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule (True when the expression evaluates to 24) directly covers the tested input and expected True result, and the reference code matches it.",
+  "missing": "none"
+}

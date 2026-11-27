@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"Remove an event from the calendar\" with the event passed as a dict directly describes the behaviour the test checks, which the reference code implements.",
+  "missing": "none"
+}

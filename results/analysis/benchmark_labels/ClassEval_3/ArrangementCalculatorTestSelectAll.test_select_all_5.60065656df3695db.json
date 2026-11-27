@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule (at least 1 item, at most the count of internal data) directly yields [[1]] for a single-element input, matching the test's expected value.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says the validated 11-digit number is returned, which matches the test's expected value of \"12345678901\".",
+  "missing": "none"
+}

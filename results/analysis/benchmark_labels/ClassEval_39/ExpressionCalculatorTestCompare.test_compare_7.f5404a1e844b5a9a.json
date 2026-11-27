@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects True because the reference code silently maps \"%\" to \"/\" and then ranks \"/\" above \"+\", a convention the docstring never mentions.",
+  "missing": "The docstring should state how each operator, including any alias or unlisted symbol such as \"%\", is ranked relative to the others, and whether it is treated as an equivalent of another operator."
+}

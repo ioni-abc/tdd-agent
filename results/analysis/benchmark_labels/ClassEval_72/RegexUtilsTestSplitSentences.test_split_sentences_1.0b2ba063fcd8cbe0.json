@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example uses the same input and expected output as the test, and the described rule (punctuation removed except on the last sentence) produces that result.",
+  "missing": "none"
+}

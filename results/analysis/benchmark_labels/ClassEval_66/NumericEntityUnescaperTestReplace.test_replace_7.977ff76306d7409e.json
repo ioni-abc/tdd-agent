@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the uppercase-X form \"&#X65;\" to decode as hexadecimal 0x65 ('e'), and the docstring only shows decimal references and never mentions the hex form or its base.",
+  "missing": "The docstring should say that a numeric reference whose number starts with 'x' or 'X' is hexadecimal (base 16) and is decoded as such, while references without that prefix are decimal (base 10)."
+}

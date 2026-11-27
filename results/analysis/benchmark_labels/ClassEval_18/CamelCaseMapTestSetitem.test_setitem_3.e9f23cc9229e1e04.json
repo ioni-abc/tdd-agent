@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never mentions that keys are converted to camel case, so the test's expectation that 'first_Name' overwrites 'first_name' is not derivable from it.",
+  "missing": "The docstring should say that every key is normalized (for example, converted from underscore style to camel case) before it is stored or looked up, so that differently written forms of the same key refer to the same entry."
+}

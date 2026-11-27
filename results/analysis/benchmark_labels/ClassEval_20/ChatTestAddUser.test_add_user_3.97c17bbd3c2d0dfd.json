@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_user returns True when the user is not already in the Chat, and \"add a new user\" implies the user is recorded, which matches the test's True return and the updated users dict.",
+  "missing": "none"
+}

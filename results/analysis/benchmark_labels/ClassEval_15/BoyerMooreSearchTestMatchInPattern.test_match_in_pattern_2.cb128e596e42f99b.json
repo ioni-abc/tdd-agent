@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule (rightmost occurrence index in the pattern) directly gives the test's expected value of 3, and the docstring example confirms the second constructor argument is the pattern.",
+  "missing": "none"
+}

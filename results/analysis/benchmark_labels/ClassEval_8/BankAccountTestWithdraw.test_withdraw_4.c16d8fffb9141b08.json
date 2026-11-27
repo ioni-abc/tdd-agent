@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says the method decreases the balance and returns the current account balance, which matches the test's expected return of 500 for a valid withdrawal.",
+  "missing": "none"
+}

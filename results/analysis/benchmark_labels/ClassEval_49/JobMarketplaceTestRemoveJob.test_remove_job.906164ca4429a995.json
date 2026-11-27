@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says `remove_job` removes the position information from `job_listings`, and its doctest shows the same single-listing removal leaving `[]`, which is exactly what the test asserts.",
+  "missing": "none"
+}

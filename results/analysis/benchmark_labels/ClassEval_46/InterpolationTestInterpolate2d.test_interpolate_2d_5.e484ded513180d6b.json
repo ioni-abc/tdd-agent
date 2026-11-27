@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest uses identical x, y, z, x_interp and y_interp inputs and shows the same [3.0, 7.0] result that the test asserts.",
+  "missing": "none"
+}

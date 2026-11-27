@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the octal representation as a str, and its example ('122667' for 42423) shows the bare digits without a prefix, so a correct implementation returns '51427' for 21271.",
+  "missing": "none"
+}

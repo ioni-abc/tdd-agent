@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the data is modified but never says the text of the item elements is uppercased, so the test's 'APPLE' expectation is not specified.",
+  "missing": "The docstring should state the exact change applied to each targeted element's text (for example, converting it to a specific case or format) and what the written file must contain afterward, so an implementation can match the expected output."
+}

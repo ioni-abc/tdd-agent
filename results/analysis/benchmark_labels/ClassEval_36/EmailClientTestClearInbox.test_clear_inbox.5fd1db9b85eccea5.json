@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example uses the same inbox [10, 20, 15] and clear_inbox(30) and shows the result [{'size': 15}], which matches the test's assertion.",
+  "missing": "none"
+}

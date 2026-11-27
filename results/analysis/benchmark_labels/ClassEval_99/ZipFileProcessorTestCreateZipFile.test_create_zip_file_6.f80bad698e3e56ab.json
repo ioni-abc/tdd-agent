@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the return value reports whether compression succeeded, and writing to an empty output path cannot succeed, so the expected False follows directly from the documented contract.",
+  "missing": "none"
+}

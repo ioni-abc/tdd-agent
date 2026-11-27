@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example, where 0.475 and 0.525 sum to 1 for a 40-bit string, shows the percentages are fractions in the same format the test expects, so a faithful implementation would pass.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"value of a given expression\" plus its example show ordinary arithmetic evaluation, which gives 11 here, and the test's assertEqual(res, 11) matches it since 11.0 == 11.",
+  "missing": "none"
+}

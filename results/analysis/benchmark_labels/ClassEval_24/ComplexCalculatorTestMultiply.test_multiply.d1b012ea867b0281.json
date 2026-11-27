@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines multiplication of complex numbers and gives the exact example 1+2j times 3+4j returning -5+10j, which is what the test asserts.",
+  "missing": "none"
+}

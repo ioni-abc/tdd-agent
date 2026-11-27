@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines count as the number of combinations of n elements choosing m, and its example count(4, 2) returns 6, matching the test.",
+  "missing": "none"
+}

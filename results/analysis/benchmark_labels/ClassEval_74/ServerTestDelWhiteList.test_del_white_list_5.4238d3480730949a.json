@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says the method returns False when the address does not exist, which matches the test's expected False for an absent address.",
+  "missing": "none"
+}

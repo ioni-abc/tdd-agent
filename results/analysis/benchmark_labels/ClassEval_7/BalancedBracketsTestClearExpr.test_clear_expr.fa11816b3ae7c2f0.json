@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says clear_expr removes all non-bracket characters and gives the example \"a(b)c\" becoming '()', which matches the test's input and expected value.",
+  "missing": "none"
+}

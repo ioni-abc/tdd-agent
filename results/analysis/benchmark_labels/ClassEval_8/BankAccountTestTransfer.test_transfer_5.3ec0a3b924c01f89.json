@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's transfer semantics (the amount leaves the source and is credited to the destination) cover this test's 500/1000 balances and transfer of 200 exactly.",
+  "missing": "none"
+}

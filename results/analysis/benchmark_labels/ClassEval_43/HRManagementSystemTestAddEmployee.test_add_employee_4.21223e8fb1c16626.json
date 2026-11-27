@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The final assertion checks the internal `employees` attribute against a specific mapping of id to a dict with name, position, department and salary keys, and the docstring never mentions that storage.",
+  "missing": "The docstring should say where added records are stored, including the attribute name, the key type, and the structure and key names of each stored record, so that an implementation storing them differently is not penalised."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test checks that the heading paragraph's style name starts with \"Heading\", which is a python-docx convention the docstring never mentions, so a correct implementation using another styling approach could fail.",
+  "missing": "The docstring should state which paragraph style the heading must get, such as the built-in \"Heading N\" style where N is the level, and that the text is stored as a paragraph in the saved file."
+}

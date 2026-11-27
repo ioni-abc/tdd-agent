@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the result as the position of the first mismatch between pattern and text at currentPos, and that gives 5 whether the scan runs left-to-right or right-to-left.",
+  "missing": "none"
+}

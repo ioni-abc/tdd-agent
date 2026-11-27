@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example uses the same table name, field-list, quoted-value and semicolon format as the test's expected string, so a implementation following it would pass.",
+  "missing": "none"
+}

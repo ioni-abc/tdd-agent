@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says `__len__` returns the length of the stored data, so a map holding one entry should report 1, which is what the test asserts.",
+  "missing": "none"
+}

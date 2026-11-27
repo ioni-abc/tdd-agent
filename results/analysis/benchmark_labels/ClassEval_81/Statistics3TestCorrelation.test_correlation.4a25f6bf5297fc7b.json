@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example uses exactly the test's inputs and shows the expected result 1.0, and the reference computes exactly 1.0 for them.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test's inputs and expected output are identical to the docstring's doctest example, so a programmer following the docstring would return 2.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's example shows the expected lines, but the test's exact string also includes a leading newline and a trailing newline, which the docstring never mentions, so a correct implementation could still fail on whitespace.",
+  "missing": "The docstring should state how whitespace and line breaks at the start and end of the output are handled, including whether the result begins or ends with a newline and how indentation in the input HTML is treated."
+}

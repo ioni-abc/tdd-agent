@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring describes the recursive expansion only in general terms and never states the stopping condition for out-of-range positions or mismatched characters, which is what makes the expected 0 here.",
+  "missing": "The docstring should state that the recursion stops and returns 0 when the expansion positions fall outside the string (before index 0 or at/after the string length) or when the characters at the two positions differ, and that the count is the number of successful expansion steps."
+}

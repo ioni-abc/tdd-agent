@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "Wrong method under test: the test exercises insert_ticket and search_tickets_by_customer, not create_table, so the filed method is never called.",
+  "missing": "none"
+}

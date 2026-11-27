@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the result as the total cost of items in the cart, so an empty cart naturally gives 0, which is what the test asserts.",
+  "missing": "none"
+}

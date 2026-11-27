@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest example uses the same inputs and shows exactly the expected list of floats the test asserts.",
+  "missing": "none"
+}

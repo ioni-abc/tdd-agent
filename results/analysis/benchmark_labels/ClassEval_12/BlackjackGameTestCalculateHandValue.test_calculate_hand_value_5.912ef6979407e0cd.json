@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule to reduce Aces from 11 to 1 until the total is at most 21 or all Aces are counted as 1 yields exactly the test's expected 23.",
+  "missing": "none"
+}

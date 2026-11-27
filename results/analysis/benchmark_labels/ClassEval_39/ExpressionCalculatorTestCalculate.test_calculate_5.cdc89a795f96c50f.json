@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring calls the input a postfix expression, yet its example is infix with standard precedence, so it never says whether parentheses or infix notation are accepted and what the result is for them.",
+  "missing": "The docstring should state the exact expression notation accepted (infix with parentheses and operator precedence, or strictly postfix) and what result is returned for inputs containing parentheses."
+}

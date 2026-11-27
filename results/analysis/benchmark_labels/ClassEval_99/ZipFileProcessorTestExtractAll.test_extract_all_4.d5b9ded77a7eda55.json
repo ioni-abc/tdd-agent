@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method extracts the zip into the given path and returns True when extraction succeeds, which covers both assertions in this test.",
+  "missing": "none"
+}

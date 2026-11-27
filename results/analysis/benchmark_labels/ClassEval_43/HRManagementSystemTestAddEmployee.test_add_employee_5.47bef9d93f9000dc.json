@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The True/False return checks are stated, but the final assertion inspects hr_system.employees, a internal dict layout (keys 'name', 'position', 'department', 'salary' under each id) that the docstring never mentions.",
+  "missing": "The docstring should say where and how each added employee is stored, such as the attribute name, that it is keyed by employee id, and which fields each record holds."
+}

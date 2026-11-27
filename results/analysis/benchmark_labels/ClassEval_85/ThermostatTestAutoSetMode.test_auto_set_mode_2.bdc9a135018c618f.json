@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's else-branch covers the case where current temperature is not lower than target, which is exactly this test's inputs, so the expected 'cool' follows directly.",
+  "missing": "none"
+}

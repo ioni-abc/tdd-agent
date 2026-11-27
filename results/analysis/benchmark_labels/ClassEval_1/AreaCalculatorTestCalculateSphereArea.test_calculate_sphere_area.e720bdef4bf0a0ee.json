@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the area as a function of the radius and gives the exact value for radius 2, which is within the test's tolerance of 50.27.",
+  "missing": "none"
+}

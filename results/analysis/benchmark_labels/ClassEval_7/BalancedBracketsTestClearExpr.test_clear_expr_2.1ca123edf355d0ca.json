@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method removes every character that is not a bracket, so keeping only the parentheses and braces gives \"(){}\", which is what the test asserts.",
+  "missing": "none"
+}

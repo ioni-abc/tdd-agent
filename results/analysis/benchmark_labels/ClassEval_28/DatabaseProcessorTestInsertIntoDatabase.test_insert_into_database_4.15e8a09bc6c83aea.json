@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The assertion `result[0][2] == 17` depends on an auto-generated id column at index 0 and on John's row being first, and the docstring specifies neither the table schema nor the row order.",
+  "missing": "The docstring should state the stored row layout and ordering: whether the table has extra generated columns such as an id, which column index holds each field, and whether rows are kept in insertion order."
+}

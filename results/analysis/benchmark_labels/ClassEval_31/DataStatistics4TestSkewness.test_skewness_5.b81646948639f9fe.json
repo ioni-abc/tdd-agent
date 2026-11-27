@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The example output for [1, 2, 5] matches the reference formula (population variance, n/((n-1)(n-2)) factor), so a correct implementation of that formula returns exactly 0.0 for this symmetric input.",
+  "missing": "none"
+}

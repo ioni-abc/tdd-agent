@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies a str binary representation of an integer, and the example's unprefixed output shows the expected format, so a correct implementation would produce the test's expected string, which I verified is the binary form of 169815.",
+  "missing": "none"
+}

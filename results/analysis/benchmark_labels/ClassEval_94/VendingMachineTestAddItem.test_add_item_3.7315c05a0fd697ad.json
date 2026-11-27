@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says add_item adds a product to the inventory, and the test adds two distinct new products and checks that both appear with their price and quantity.",
+  "missing": "none"
+}

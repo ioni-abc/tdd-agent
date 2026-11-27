@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only covers the count for valid n and the overflow case, so the expected False for a negative n is not specified.",
+  "missing": "The docstring should state what the function returns when n is negative (for example, False or an error), since the reference returns False for any n below zero."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test depends on the tie case (equal temperatures selects 'cool') and on the invalid mode 'test' being overridden, and the docstring specifies neither.",
+  "missing": "The docstring should say how the operating mode is chosen when the current temperature equals the target (which mode is picked and whether any earlier mode value is ignored), and that the simulation returns 0 when no adjustment is needed."
+}

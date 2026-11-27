@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states that add returns the sum of the two complex numbers, which gives 0+0j for these inputs, matching the assertion.",
+  "missing": "none"
+}

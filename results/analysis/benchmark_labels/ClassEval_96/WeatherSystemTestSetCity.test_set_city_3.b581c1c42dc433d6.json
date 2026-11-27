@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says set_city sets the system's city to the given value, and the test only checks that the city after setting 'Shanghai' is not 'Beijing', which any correct implementation satisfies.",
+  "missing": "none"
+}

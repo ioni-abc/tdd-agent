@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"remove the specified status from the current status\" and does not specify the result when that status is not currently set, which is the case this test checks.",
+  "missing": "When the status to remove is not currently set in the current status, the method should return the current status unchanged, not toggle or add the bit."
+}

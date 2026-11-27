@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not say whether ordinal number words like \"fifteenth\" count as valid, so a correct implementation that only accepts cardinal words could return False and fail this test.",
+  "missing": "The docstring should state whether ordinal forms (e.g., \"-th\" words) are accepted as valid input alongside cardinal words, and how they are treated when combined with other number words."
+}

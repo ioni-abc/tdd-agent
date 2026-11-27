@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test asserts that `format` is `None` after resizing, which the docstring never mentions; the reference code produces this only because PIL's `resize` returns a new image without format metadata.",
+  "missing": "The docstring should say whether the resized image keeps the original file metadata (such as format) or is a new in-memory image without it, so an implementation that preserves or drops that metadata can be judged against the spec."
+}

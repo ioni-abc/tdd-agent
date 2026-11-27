@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the exact format (values wrapped in single quotes, keys joined with WHERE and AND), so the single-condition case is determined by it.",
+  "missing": "none"
+}

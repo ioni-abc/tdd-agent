@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test depends on insertion ordering (books[0] is \"Book 1\") and on the fourth field being 1 for newly added books, and the docstring specifies neither.",
+  "missing": "The docstring should state the order in which books are returned (for example, insertion order) and what each field of the returned tuples means, including default values such as the status or availability column for newly added records."
+}

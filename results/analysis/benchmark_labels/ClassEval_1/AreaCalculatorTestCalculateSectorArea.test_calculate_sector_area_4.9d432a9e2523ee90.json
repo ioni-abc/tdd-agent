@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example fixes the formula r\u00b2\u00b7\u03b8/2 (2\u00b2 \u00d7 \u03c0 / 2 = 2\u03c0), and the test's expected 12.56 with delta 0.01 accepts 4\u03c0 \u2248 12.566.",
+  "missing": "none"
+}

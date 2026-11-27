@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the specified column is changed to uppercase, but the test and reference code keep the original column and append a new processed column after the existing ones.",
+  "missing": "The docstring should state that the processed values are written to a new column appended after the existing columns, leaving the original columns unchanged, and that non-numeric values are uppercased while numeric values are copied as-is."
+}

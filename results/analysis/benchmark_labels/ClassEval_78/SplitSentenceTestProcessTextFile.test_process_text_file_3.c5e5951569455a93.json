@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring gives no rule for abbreviation periods or for what counts as a word, and the test's expected 5 depends on those choices.",
+  "missing": "The docstring should state how sentence boundaries are detected (for example, whether a period after an abbreviation or a title ends a sentence) and whether tokens made only of digits count as words."
+}

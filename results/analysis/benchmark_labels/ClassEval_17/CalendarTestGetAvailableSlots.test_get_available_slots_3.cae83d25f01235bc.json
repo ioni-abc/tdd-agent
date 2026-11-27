@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring's example shows one hourly slot (23:00 to midnight) but never states that slots are hourly, span the whole day, or that an event on another date does not block the requested day, so a correct implementation could return a different count.",
+  "missing": "The docstring should state the slot length and the day range covered (for example, consecutive fixed-length slots from midnight through the end of the requested day), and that only events overlapping that calendar day reduce the available slots."
+}

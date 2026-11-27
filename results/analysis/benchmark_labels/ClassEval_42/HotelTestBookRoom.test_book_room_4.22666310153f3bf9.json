@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The return value is specified, but the test also asserts the exact nested structure of `booked_rooms` (room type to guest name to count) and the resulting `available_rooms`, and the docstring never describes that layout.",
+  "missing": "The docstring should state the internal format of the booking records: how `booked_rooms` is keyed (by room type, then by guest name, with the number booked as the value), and what `available_rooms` holds after a successful booking, including that the count reaches zero when fully booked."
+}

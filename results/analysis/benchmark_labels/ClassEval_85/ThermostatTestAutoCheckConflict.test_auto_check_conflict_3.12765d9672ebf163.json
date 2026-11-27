@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it returns True when the mode does not conflict with the temperature relationship, and heat mode with current below target is non-conflicting, so the test's expected True matches.",
+  "missing": "none"
+}

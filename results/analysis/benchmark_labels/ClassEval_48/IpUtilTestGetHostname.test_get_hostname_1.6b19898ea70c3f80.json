@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring's own example gives `'www.baidu.com'` for this exact input, while the test asserts `None`.",
+  "missing": "Not applicable, since the label is contradicts; the docstring's example already states the opposite of what the test expects. Its example would need to match the actual lookup behaviour, including what is returned when no hostname is found."
+}

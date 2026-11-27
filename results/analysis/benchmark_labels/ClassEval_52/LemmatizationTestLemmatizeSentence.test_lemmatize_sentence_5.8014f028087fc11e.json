@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example (\"am\" becoming \"be\", \"running\" becoming \"run\") describes the same verb-lemmatization behaviour this test checks, so a faithful implementation should produce the expected list.",
+  "missing": "none"
+}

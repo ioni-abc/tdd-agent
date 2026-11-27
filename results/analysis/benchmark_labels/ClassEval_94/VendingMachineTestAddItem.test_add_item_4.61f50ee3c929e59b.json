@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says what happens when the item already exists, and the test expects the quantity to accumulate to 20 instead of being overwritten.",
+  "missing": "The docstring should state that adding an item whose name is already in inventory increases that item's stored quantity by the given amount, and say whether its price is updated or kept."
+}

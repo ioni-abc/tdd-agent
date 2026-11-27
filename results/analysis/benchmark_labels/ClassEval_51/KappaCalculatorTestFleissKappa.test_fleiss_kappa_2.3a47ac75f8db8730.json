@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test's first row sums to 15 while n is 14, so the result depends on whether the denominator is the total of all matrix entries (as in the reference) or N*n, and the docstring does not say which.",
+  "missing": "The docstring should state the proportion denominator explicitly, for example whether category proportions are computed as column sums divided by the total of all entries or by N times n, and what happens when a row's sum differs from n."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names the Rail Fence cipher and the rail count as the only parameter, which pins down the standard zigzag decryption that the test's 5-rail expected output follows.",
+  "missing": "none"
+}

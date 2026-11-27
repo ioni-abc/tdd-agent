@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only covers the basic conversion of a two-digit number and never says how a zero-padded input is handled, so a correct implementation could reasonably return a different string.",
+  "missing": "The docstring should say how inputs with a leading zero are rendered, for example whether the leading zero is dropped and the value is read as its single-digit name, or whether it is treated differently."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_path returns the resource address (the third part of the URL), and its example shows the path starting at the first slash after the host, which is what this test checks.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the result as the host domain name of the URL, and for this URL that name is \"bbb.com\", which is what the test expects.",
+  "missing": "none"
+}

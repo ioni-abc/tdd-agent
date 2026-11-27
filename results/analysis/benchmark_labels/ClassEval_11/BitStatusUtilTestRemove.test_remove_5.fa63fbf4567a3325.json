@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's description of removing a specified status from the current status directly implies the result 0 for identical inputs, which is what the test asserts.",
+  "missing": "none"
+}

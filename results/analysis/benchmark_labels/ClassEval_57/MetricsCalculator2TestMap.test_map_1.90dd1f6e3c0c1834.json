@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's first example call uses this exact tuple and shows the same return value the test asserts, so a programmer following it would get the expected result.",
+  "missing": "none"
+}

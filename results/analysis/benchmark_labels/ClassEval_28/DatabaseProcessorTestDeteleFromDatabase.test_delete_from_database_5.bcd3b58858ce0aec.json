@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method deletes rows with a matching name from the named table, which is exactly what the test checks by counting the remaining rows and confirming the surviving row is 'Alice'.",
+  "missing": "none"
+}

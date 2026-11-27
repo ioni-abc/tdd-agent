@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same `WHERE key='value'` quoting pattern and comma-joined column list, and the test's single-condition, float-valued case follows directly from that format using normal string conversion.",
+  "missing": "none"
+}

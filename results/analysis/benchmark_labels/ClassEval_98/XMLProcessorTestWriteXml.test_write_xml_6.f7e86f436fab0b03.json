@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False whenever the write does not succeed, and writing to an empty file name fails, so the test's assertFalse matches the documented behaviour.",
+  "missing": "none"
+}

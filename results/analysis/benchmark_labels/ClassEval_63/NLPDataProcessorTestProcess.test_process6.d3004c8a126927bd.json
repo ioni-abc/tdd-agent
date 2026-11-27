@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test calls `process_data` while being filed under `process`, so the docstring of `process` does not govern what the test asserts.",
+  "missing": "none"
+}

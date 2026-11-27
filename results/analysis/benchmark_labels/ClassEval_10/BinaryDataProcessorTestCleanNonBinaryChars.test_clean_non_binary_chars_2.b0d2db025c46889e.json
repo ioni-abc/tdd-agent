@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The test never calls clean_non_binary_chars and only checks binary_string right after construction, so it exercises constructor behaviour that the method's docstring does not describe.",
+  "missing": "The docstring should state whether the constructor already applies this cleaning, and if so, that behaviour should be documented on the constructor rather than inferred from a method that the test never calls."
+}

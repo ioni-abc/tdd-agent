@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example gives the same input and the same expected output \"32\" that the test asserts, and it specifies the return type as a string.",
+  "missing": "none"
+}

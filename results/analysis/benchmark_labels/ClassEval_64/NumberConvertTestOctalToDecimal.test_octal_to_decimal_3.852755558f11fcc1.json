@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's contract (octal string in, decimal int out) directly determines the expected value 84907, and the reference uses `int(octal_num, 8)`, which matches.",
+  "missing": "none"
+}

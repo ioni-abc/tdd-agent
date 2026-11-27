@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's BFS checks for the goal on the popped initial state and returns the accumulated path, which is empty, so a faithful implementation returns [].",
+  "missing": "none"
+}

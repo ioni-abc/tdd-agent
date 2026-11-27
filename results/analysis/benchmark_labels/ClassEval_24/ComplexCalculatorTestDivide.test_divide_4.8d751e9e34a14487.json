@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines divide as the quotient of two complex numbers, and its example (1+2j)/(3+4j) = 0.44+0.08j follows the same standard formula the test checks.",
+  "missing": "none"
+}

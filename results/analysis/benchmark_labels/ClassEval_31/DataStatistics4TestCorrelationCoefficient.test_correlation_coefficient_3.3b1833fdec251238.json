@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example gives the same floating-point result for an input with identical structure, so an implementation matching that example also returns 0.9999999999999998 for this test.",
+  "missing": "none"
+}

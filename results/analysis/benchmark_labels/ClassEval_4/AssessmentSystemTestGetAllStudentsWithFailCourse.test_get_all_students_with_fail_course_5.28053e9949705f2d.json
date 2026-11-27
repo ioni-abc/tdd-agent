@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"any score below 60\" rule covers this input, and a straightforward implementation returns ['Alice', 'Bob'] in dictionary order.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies every changed field (exp reset to zero, +20 hp, +5 attack, +5 defense, and a level increase), and the test's assertions match those rules applied to its starting values.",
+  "missing": "none"
+}

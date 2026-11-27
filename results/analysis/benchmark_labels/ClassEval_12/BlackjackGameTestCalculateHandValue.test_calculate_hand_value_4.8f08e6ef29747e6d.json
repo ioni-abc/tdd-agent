@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's Ace-demotion rule, applied to this hand, gives exactly the asserted 25, and the reference code matches.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the method as splitting text by the regex and returning the resulting substrings, and with no match that yields the full text as one element, matching the test.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says events are filtered by the current time, and it documents a `date` parameter the signature does not have, so the expected empty result cannot be derived from it.",
+  "missing": "The docstring should state that \"upcoming\" means events whose start time is at or after the current moment, and that the method returns only those, with the reference date being now rather than an unspecified date argument."
+}

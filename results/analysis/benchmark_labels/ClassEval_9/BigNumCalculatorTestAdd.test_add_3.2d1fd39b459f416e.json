@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies string inputs, a string sum output, and an example of correct big-number addition, which covers this test's case of unequal-length operands with a carry out.",
+  "missing": "none"
+}

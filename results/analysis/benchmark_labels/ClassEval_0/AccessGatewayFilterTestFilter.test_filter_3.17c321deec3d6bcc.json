@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only that it returns True when the request is allowed, without saying which paths or methods count as allowed, so the test's expected True for '/login/data' cannot be derived from it.",
+  "missing": "The docstring should list the rules that decide whether a request is allowed, including which path prefixes are exempt from authentication and what authentication or user-level requirement applies to all other requests."
+}

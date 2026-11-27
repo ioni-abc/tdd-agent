@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the address is removed from the whitelist, and its example shows the resulting list as `[]`, which matches the test's check on `server.white_list`.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example with 30 fully specifies the format and logic, so the test with 40 follows directly from it.",
+  "missing": "none"
+}

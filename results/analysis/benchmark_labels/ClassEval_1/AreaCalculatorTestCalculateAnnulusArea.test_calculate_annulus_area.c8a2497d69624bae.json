@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes the annulus area from its inner and outer radii, and its example (2, 3 gives 15.708 = 5\u03c0) confirms the standard formula that the test relies on.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule (10 or more distinct products gives 7% off the entire order) produces the test's expected 70.0, and the test's call path through `promotion` only wraps this same discount.",
+  "missing": "none"
+}

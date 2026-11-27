@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring states the not-on-snake requirement but not that the food stays within 0 to 100 on each axis, which the test also asserts.",
+  "missing": "The docstring should state that the new position is chosen on the playing grid, with each coordinate between 0 and the screen size minus one block, in multiples of the block size."
+}

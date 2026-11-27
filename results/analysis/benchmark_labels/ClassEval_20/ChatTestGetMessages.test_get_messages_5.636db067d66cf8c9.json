@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's second doctest shows that a user with no messages in the chat yields `[]`, which is exactly what this test checks for an unknown user 'Amy'.",
+  "missing": "none"
+}

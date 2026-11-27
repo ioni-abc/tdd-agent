@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names the metric as recall and its example uses the same binary-label setting, so a programmer applying the standard definition gets 0.5 for this input.",
+  "missing": "none"
+}

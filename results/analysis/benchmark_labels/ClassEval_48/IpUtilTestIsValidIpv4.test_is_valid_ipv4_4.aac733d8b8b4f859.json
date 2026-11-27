@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it returns True only for a valid IPv4 address and False otherwise, and 'abc.168.0.123' is clearly not valid, so the expected False follows directly.",
+  "missing": "none"
+}

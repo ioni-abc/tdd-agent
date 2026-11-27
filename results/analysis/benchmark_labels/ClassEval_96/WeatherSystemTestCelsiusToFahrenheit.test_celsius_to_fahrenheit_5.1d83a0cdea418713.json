@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example shows 27 Celsius converting to 80.6 Fahrenheit, so a correct implementation returns a value that is not 23 and the test passes.",
+  "missing": "none"
+}

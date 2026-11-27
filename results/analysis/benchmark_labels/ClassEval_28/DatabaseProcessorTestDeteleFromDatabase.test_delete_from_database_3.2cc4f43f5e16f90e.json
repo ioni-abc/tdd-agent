@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method deletes rows in the named table whose name matches, which is exactly what the two calls do, leaving the table empty.",
+  "missing": "none"
+}

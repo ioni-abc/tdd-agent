@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring example shows the quoting, comma separation, table name, WHERE clause and trailing semicolon, and the test only extends that same pattern to five fields.",
+  "missing": "none"
+}

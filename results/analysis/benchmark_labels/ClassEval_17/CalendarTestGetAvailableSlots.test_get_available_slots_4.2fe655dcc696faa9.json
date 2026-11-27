@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects 24 hourly slots for a day whose only event falls on another date, but the docstring never specifies the slot length, the slot boundaries, or how events on other dates are treated.",
+  "missing": "The docstring should state that the day is split into fixed-length slots (for example, one hour each, starting at midnight) and that each slot is returned only if no event overlaps it, so a day with no overlapping events returns the full count of slots."
+}

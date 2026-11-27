@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the name is removed when the check-in quantity equals the booked quantity, and its example shows an empty dict left under the room type, which matches the test's expected state.",
+  "missing": "none"
+}

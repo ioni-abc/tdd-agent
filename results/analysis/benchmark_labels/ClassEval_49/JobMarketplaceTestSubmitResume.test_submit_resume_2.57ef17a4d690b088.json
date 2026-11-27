@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says submit_resume adds the resume information to the resumes list, and its example shows the dict structure with the same keys, so the two-resume append in order is implied.",
+  "missing": "none"
+}

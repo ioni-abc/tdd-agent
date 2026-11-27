@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects False because the target icon differs from the start icon and the path must stay on matching icons, but the docstring never states this rule and its example calls is_valid_move, not has_path.",
+  "missing": "The docstring should state that a path may only step between orthogonally adjacent cells that hold the same icon as the starting cell, and that the function returns False when the target cell holds a different icon."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest shows a fresh VendingMachine returning 1.25 after inserting 1.25, which matches the test's assertion exactly.",
+  "missing": "none"
+}

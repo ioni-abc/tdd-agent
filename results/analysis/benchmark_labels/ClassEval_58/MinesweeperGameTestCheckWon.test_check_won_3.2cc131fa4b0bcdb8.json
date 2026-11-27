@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the player wins only if the remaining cells in the player map are all mines, and this test has unrevealed non-mine cells, so it expects False, which a correct implementation following the docstring returns.",
+  "missing": "none"
+}

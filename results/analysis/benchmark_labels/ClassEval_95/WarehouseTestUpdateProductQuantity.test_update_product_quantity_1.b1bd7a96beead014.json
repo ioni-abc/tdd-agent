@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the given quantity is added to the matching product's quantity, which covers the test's positive increment from 10 to 15 with the name unchanged.",
+  "missing": "none"
+}

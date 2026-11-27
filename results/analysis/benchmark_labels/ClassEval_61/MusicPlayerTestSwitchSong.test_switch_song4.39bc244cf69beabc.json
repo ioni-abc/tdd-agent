@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test leaves current_song unset, so there is no next song to move to, and the docstring's False case covers this.",
+  "missing": "none"
+}

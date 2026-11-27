@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring specifies that the method returns the sum of the data, which is exactly what the test checks, and assertEqual(13.0, 13) also passes, so the int/float wording does not matter.",
+  "missing": "none"
+}

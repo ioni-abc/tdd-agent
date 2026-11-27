@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines count as the number of combinations of n elements taken m at a time, so 6 choose 3 = 20 follows directly.",
+  "missing": "none"
+}

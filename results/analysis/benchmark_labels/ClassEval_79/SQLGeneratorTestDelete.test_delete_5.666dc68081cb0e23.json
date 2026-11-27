@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example and description establish the format (DELETE FROM table name, WHERE condition, trailing semicolon), which fully determines the expected output for this longer condition.",
+  "missing": "none"
+}

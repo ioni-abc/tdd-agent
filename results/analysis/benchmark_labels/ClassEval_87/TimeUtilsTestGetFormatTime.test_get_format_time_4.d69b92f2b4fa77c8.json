@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the zero-padded \"YYYY-MM-DD HH:MM:SS\" format, which fully determines the expected output for this different date and the same time fields.",
+  "missing": "none"
+}

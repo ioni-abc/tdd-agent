@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's summary and example both describe cosine similarity, and the test's expected values (3/(2\u00b7\u221a3) \u2248 0.866 and 4/(2\u00b7\u221a8) \u2248 0.707) are exactly that quantity, so a faithful implementation passes.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's stated behaviour (binary string in, decimal int out) covers this test, and the expected value 10615 is the correct conversion of that input.",
+  "missing": "none"
+}

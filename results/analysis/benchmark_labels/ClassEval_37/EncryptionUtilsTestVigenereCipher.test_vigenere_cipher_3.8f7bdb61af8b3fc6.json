@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test depends on preserving uppercase and lowercase letters and on advancing the key only for alphabetic characters, and the docstring specifies neither.",
+  "missing": "The docstring should state whether letter case is preserved in the output and whether the key advances only on alphabetic characters, with non-letters passed through unchanged."
+}

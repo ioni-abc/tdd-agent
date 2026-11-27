@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring names the standard Cohen's kappa calculation, and hand-computing it on this matrix gives (6/13 - 56/169)/(1 - 56/169) \u2248 0.19469, which is the test's expected value.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the function returns True when the address is a valid IPv6 address, and this test passes a valid full IPv6 address and expects True.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the list-of-columns join and the quoted WHERE value format, which matches the test's expected string exactly.",
+  "missing": "none"
+}

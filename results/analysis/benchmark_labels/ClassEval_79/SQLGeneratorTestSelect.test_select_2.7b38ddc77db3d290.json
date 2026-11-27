@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the same pattern (comma-space-joined fields, FROM the table, WHERE the condition, trailing semicolon) that the test checks, differing only in the field and condition names.",
+  "missing": "none"
+}

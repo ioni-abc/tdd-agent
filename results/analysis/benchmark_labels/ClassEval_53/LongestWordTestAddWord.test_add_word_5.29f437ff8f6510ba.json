@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the input word is appended to self.word_list, which directly implies duplicates are kept and order is preserved, matching the assertion.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says only \"convert successfully\" and never defines what that means for a bool target, so a programmer could reasonably parse \"False\" as False and fail the test's expected True.",
+  "missing": "The docstring should state that the value is passed directly to the registered type callable, so any non-empty string converts to True for bool, and should specify what counts as a successful conversion for types like bool."
+}

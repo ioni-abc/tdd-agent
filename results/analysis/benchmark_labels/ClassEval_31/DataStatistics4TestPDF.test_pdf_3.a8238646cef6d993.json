@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's definition and its example (mu=1, sigma=1 giving 0.3989... for the point at the mean) fully determine the values the test expects, so a faithful implementation would pass.",
+  "missing": "none"
+}

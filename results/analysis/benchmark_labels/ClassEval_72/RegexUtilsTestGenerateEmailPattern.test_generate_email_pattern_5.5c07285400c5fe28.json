@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring gives the exact regex and says it matches email addresses, so a programmer using it would produce a pattern that rejects this malformed address and passes the test.",
+  "missing": "none"
+}

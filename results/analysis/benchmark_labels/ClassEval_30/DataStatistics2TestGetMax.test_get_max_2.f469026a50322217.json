@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's description \"Calculate the maximum value in the data\" directly implies the test's expected result of 203 for this input.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's plain statement \"Calculate the minimum value in the data\" fully determines the expected result -111 for this input, including negative values.",
+  "missing": "none"
+}

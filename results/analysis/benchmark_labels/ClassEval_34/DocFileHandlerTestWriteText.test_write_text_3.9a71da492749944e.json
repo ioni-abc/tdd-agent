@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects read_text to return only the new content, which requires the write to replace the existing document text, but the docstring never says whether the write overwrites or appends.",
+  "missing": "The docstring should state whether writing replaces any text already in the document or adds to it, and, if it replaces, that the document afterwards contains only the new content."
+}

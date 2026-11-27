@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the names of movies available within the time range, and both movies fall inside this range, so a correct implementation returns both.",
+  "missing": "none"
+}

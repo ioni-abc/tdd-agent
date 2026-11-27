@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest fixes the same formula and float behaviour, so the test's expected 23.000000000000004 follows from it.",
+  "missing": "none"
+}

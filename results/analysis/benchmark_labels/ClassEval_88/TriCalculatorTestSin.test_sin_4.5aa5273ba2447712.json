@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's degree convention and its sin(30) = 0.5 example fully determine that sin(90) returns 1.0, which the test asserts.",
+  "missing": "none"
+}

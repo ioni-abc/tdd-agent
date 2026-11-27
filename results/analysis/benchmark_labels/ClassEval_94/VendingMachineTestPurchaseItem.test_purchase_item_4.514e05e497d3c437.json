@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says an out-of-stock purchase returns False, which is the behaviour the assertion checks, and the reference code matches it.",
+  "missing": "none"
+}

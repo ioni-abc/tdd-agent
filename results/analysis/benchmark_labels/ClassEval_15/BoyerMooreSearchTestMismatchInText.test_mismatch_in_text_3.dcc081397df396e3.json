@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring does not specify the direction of the scan, and its example (which gives 2 under either direction) cannot distinguish a left-to-right scan from the right-to-left scan the reference uses, which yields 2 here while a left-to-right scan would yield 1.",
+  "missing": "The docstring should state the order in which pattern characters are compared (for example, that comparison runs from the last pattern character back to the first) and that the returned index is the first mismatch found in that order, offset by the current position."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's format example (comma-joined column list, FROM table, WHERE only for the condition) covers this no-condition, single-column case, so a programmer following it would produce the expected string.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows select(2) on four items returning all ordered pairs (both [1, 2] and [2, 1]), which directly implies the expected two-item output for [1, 2].",
+  "missing": "none"
+}

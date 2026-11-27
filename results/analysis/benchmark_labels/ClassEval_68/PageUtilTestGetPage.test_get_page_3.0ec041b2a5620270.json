@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows 1-based page numbering and per-page slicing, which is enough to derive the expected [7, 8, 9] for this normal in-range case.",
+  "missing": "none"
+}

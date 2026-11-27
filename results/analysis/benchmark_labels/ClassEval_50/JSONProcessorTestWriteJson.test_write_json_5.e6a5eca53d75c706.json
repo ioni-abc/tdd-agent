@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns -1 if an error occurs during the writing process, and opening an empty path and writing a list are both failures that fall under that clause.",
+  "missing": "none"
+}

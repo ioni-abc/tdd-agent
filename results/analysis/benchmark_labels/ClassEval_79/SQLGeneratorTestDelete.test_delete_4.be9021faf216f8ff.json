@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the exact format (DELETE FROM table name, WHERE clause with the condition text, trailing semicolon), which the test's expected string follows for a longer multi-clause condition.",
+  "missing": "none"
+}

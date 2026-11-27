@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes the success case (\"If successful, return the address of the resource\") and never says what the method returns on failure, which is what this test checks (None).",
+  "missing": "The docstring should state the failure return value: when the URL has no scheme separator or no path component, the method returns None."
+}

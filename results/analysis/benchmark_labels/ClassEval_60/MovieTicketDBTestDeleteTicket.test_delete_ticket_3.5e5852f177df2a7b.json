@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the table rows matching the customer name, so the length checks before and after deletion follow from it, while the delete call is outside this method's contract.",
+  "missing": "none"
+}

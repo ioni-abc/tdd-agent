@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_host returns the host domain name of the URL, and its baidu example shows the same pattern, so a programmer following it would return \"www.bing.com\".",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only shows a simple '/foo/bar/' example and never explains how repeated or leading/trailing slashes are normalized or when `with_end_tag` becomes True, so a correct implementation could plausibly return different segments or flag values.",
+  "missing": "The docstring should state how the path is normalized before splitting (whether leading, trailing and repeated slashes are removed or kept as empty segments), and that `with_end_tag` is set whenever the input ends with a slash, including for degenerate inputs consisting only of slashes."
+}

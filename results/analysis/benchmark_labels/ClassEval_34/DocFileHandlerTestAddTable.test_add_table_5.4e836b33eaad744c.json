@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the table is added \"with the specified data\" and \"to populate the table,\" which covers the row count, column count, and cell contents the test checks.",
+  "missing": "none"
+}

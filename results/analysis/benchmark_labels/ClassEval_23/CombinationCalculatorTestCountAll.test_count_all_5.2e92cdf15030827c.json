@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring's overflow rule only returns inf when the count exceeds 2^63 - 1, but the test and reference code return inf for n=63, whose count is exactly 2^63 - 1.",
+  "missing": "The docstring should state whether the overflow threshold is inclusive or exclusive, and that a count equal to the maximum representable value is returned as a normal integer rather than infinity."
+}

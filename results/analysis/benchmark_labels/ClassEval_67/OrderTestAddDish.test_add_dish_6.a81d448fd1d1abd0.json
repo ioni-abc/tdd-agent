@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring defines a valid dish dict and the True/False return rule, but it never says whether a dish with missing keys, or one absent from the menu, counts as successfully added.",
+  "missing": "The docstring should state what happens when the dish dict lacks the \"dish\" or \"count\" keys, or when no menu entry matches the dish name, including whether it returns True or False in each case."
+}

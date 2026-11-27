@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it returns True if all users are signed in, which matches the test's single signed-in user scenario and its assertTrue.",
+  "missing": "none"
+}

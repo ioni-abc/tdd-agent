@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the dish is added to the selected list when the count is valid, the menu count is changed on success, and True is returned, which covers what the test checks.",
+  "missing": "none"
+}

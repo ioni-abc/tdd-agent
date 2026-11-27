@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The return message matches the docstring, but the assertion that the stored seat value becomes 1 relies on an internal encoding the docstring never describes.",
+  "missing": "The docstring should state how a seat's booked status is stored in the movie's seat grid (for example, which value marks a seat as taken and which marks it as free), and what layout the seat grid uses."
+}

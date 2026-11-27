@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example output for the same inputs (2, {'key1':0.1, 'key2':0.5}) matches the test's expected values exactly, so a programmer following it would pass.",
+  "missing": "none"
+}

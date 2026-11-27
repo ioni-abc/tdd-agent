@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes the returned value as the running balance after each insertion, so a programmer following it would accumulate the two 1.25 inserts to 2.50.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example shows the percentages as fractions summing to 1 and the length as an integer, which matches the test's expected values for the 28-bit input.",
+  "missing": "none"
+}

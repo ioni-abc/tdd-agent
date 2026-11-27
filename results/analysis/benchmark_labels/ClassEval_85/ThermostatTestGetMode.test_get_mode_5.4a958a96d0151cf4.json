@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring states get_mode returns the current working mode as a string from ['heat', 'cool'], and the test constructs the thermostat in 'heat' mode and expects 'heat' back.",
+  "missing": "none"
+}

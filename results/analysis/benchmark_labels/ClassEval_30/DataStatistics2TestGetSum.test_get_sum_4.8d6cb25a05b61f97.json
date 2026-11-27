@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's description \"Calculate the sum of data\" fully determines the expected value 340, and assertEqual treats 340 and 340.0 as equal, so the docstring's \":return:float\" versus \"10\" example mismatch does not affect this test.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "other_inconsistency",
+  "reason": "The reference code returns the full frequency dict with no top-5 truncation or sorting, so it would return six tied words while the test expects five.",
+  "missing": "The docstring should say how words with equal frequency are ordered and whether the result is cut to a fixed number of entries, so an implementer knows which tied entries to keep."
+}

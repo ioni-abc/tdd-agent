@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method converts the binary string to a UTF-8 string, which a programmer would implement as splitting into bytes and decoding, yielding \"kello\" for this input, matching the test and the reference code.",
+  "missing": "none"
+}

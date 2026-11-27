@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"first unread email\" plus \"marks it as read\" fully determines that the first inbox entry is returned with its state changed to read, which matches the assertion.",
+  "missing": "none"
+}

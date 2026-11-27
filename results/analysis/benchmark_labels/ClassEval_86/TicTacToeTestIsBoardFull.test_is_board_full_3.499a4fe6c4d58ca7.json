@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method reports whether the board is completely filled, so a partially filled board should yield False, which is what the test asserts.",
+  "missing": "none"
+}

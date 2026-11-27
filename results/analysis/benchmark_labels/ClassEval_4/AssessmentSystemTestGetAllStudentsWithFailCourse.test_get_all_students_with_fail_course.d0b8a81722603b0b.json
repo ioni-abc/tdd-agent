@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"any score below 60\" rule yields ['Bob'] for these students, matching the test's assertion and the reference code's `score < 60` check.",
+  "missing": "none"
+}

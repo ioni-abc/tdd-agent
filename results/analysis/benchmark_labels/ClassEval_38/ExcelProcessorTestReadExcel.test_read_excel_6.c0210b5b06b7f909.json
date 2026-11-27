@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only says it returns \"list of data\" and says nothing about the error path, so a correct implementation that raises an exception on an empty filename would fail the assertion that it returns None.",
+  "missing": "When the file cannot be opened or read (for example, an empty or invalid file name), the function should return None instead of raising an error."
+}

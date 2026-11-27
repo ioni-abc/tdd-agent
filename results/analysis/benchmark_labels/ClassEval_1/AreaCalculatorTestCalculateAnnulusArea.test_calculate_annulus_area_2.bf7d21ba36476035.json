@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's definition of annulus area, applied to equal radii, gives zero, which matches the test's expected value and the reference formula pi*(outer^2 - inner^2).",
+  "missing": "none"
+}

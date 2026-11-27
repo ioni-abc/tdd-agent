@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False exactly when order_id is not in self.orders, which covers this empty-warehouse case.",
+  "missing": "none"
+}

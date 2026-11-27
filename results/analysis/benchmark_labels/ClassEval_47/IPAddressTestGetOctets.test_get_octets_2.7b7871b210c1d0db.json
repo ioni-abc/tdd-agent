@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says an empty list is returned when the IP address is invalid, which matches the test's input and expected `[]`.",
+  "missing": "none"
+}

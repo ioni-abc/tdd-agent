@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example uses the same inputs and shows the output \"2001-07-18 01:01:01\", which is exactly what the test asserts.",
+  "missing": "none"
+}

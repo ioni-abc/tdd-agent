@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says the method removes leading and trailing slashes, and the example '/foo/bar/' -> 'foo/bar' matches the test's input and expected output.",
+  "missing": "none"
+}

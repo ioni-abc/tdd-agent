@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (150.0 \u00d7 10 = 1500.0) and its \":return: float\" make the multiplication rule clear, so zero quantity follows directly and a correct implementation returns 0.0.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says a negative amount raises ValueError(\"Invalid amount\"), which matches the test's exception type and message check.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's example (attack 10 against defense 2 reduces hp from 100 to 92) shows damage as attack minus defense, which gives the test's expected 85 for this input.",
+  "missing": "none"
+}

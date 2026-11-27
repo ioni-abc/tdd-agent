@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's general rule (True if valid, False otherwise) directly covers this input, since 'llll' is not a valid IPv6 group, so a correct implementation returns False.",
+  "missing": "none"
+}

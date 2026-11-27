@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test passes an out-of-bounds first position and expects False, but the docstring never says how positions outside the board are handled, so an implementation that raises an error or does something else would also look valid.",
+  "missing": "The docstring should state what the method returns (or whether it raises) when either given position is outside the board's bounds or does not hold an icon."
+}

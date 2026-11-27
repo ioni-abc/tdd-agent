@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the return value as the number of words in the longest sentence, and the test's input and expected value of 3 follow directly from that definition.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes removing a song that is present, so a correct implementation that raises an error for a missing song would fail this test, which expects the playlist to remain unchanged.",
+  "missing": "The docstring should state what happens when the given song is not in the playlist, for example that the method does nothing, leaves the playlist unchanged, and raises no error."
+}

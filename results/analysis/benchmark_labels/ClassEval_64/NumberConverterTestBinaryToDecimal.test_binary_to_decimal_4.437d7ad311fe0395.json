@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method converts a binary string to its decimal int representation, which is exactly what this test checks, and I verified the expected value 169819 matches that conversion.",
+  "missing": "none"
+}

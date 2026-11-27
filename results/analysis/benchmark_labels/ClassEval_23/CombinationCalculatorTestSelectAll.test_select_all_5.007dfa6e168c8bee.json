@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says select_all generates all possible combinations of selecting elements from the data list, and with one element the only combination is ['B'], which the test expects.",
+  "missing": "none"
+}

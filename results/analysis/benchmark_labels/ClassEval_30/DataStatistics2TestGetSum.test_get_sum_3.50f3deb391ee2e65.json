@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"Calculate the sum of data\" plus its example (sum of [1,2,3,4] is 10) fully determines that the sum of [1,2,33,4] is 40, and the test asserts exactly that.",
+  "missing": "none"
+}

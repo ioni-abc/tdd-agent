@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only covers string keys, so the test's non-string input and its expectation of getting that input back unchanged are not specified.",
+  "missing": "The docstring should say what happens when the input is not a string, such as whether it is returned unchanged or an error is raised."
+}

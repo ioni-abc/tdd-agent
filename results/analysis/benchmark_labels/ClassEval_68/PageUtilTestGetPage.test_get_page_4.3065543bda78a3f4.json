@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says get_page returns the data on the requested page, and the example shows page size of 1 mapping to one item, so a programmer slicing by page size would return [10] for page 4.",
+  "missing": "none"
+}

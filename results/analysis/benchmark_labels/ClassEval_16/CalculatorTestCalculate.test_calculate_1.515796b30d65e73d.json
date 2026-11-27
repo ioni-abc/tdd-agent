@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's general statement that the method returns the expression's value covers '1+2' evaluating to 3, and assertEqual(3.0, 3) passes in Python.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test's second assertion checks that `score` becomes 1 after a successful sweep, and the docstring never mentions a score or any state change beyond the return value.",
+  "missing": "The docstring should state that each successful sweep of a safe cell increments the game's score by one, and that the score is not changed when a mine is hit."
+}

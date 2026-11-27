@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says recv returns False for a non-whitelisted address, but the test also requires the internal `receive_struct` attribute to remain `{}`, which the docstring never mentions.",
+  "missing": "The docstring should say what internal state the object holds after a rejected message, including its initial value and whether it is left unchanged, so a correct implementation can match it."
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the key is converted to camel case and gives a snake_case-to-camelCase example, which is the same convention the test's 'aaa_bbb' to 'aaaBbb' case uses.",
+  "missing": "none"
+}

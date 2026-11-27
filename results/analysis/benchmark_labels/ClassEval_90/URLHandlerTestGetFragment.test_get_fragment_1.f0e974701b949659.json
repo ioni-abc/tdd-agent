@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says the method returns the text after '#', which matches the test's expected \"page\" for this URL.",
+  "missing": "none"
+}

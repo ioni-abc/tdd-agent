@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test's text contains no hyphenated digit groups, so nothing matches the pattern, and the docstring's \"replace the substring matched\" implies the text comes back untouched.",
+  "missing": "none"
+}

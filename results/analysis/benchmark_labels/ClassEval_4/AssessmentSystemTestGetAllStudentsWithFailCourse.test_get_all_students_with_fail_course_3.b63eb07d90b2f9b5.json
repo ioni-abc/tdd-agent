@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the return value as the list of students with any score below 60, so an empty student set yields an empty list, which is what the test asserts.",
+  "missing": "none"
+}

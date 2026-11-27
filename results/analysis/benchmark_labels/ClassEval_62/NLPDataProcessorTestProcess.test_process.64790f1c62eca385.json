@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example shows the same behaviour (splitting on whitespace, keeping 'is' and 'test.', dropping 'a'), so a programmer following it would pass this test.",
+  "missing": "none"
+}

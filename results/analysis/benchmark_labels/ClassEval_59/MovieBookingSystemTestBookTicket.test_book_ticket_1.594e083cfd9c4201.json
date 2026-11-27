@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test checks that each booked seat is stored as the integer 1, a value convention the docstring never specifies, so an implementation that marks seats differently would pass the documented behaviour yet fail the test.",
+  "missing": "The docstring should state the exact value used to mark a seat as booked in the seats grid (and the value for a free seat), so that an implementer knows what to write into self.movies when a booking succeeds."
+}

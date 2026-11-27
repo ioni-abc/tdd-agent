@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \":return: ... otherwise, returns False\" covers the case where the balance is below the price, so the assertion that the return value is False is directly specified.",
+  "missing": "none"
+}

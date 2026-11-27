@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says quantity defaults to 1 and books are added to inventory, so a programmer following it would produce {\"book1\": 1}.",
+  "missing": "none"
+}

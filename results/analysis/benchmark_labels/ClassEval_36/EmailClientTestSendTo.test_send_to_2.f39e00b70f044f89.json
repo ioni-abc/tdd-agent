@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never explains that the second EmailClient argument is a capacity or how a size compares against it, so the expected False for a zero-capacity receiver is not derivable from the text.",
+  "missing": "The docstring should state what the capacity constructor argument means and the exact condition under which a mailbox counts as full, such as when the existing total size plus the incoming email's size exceeds capacity, including the case where capacity is zero."
+}

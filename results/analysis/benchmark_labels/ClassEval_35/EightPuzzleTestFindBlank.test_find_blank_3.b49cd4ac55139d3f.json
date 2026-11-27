@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring promises two integer coordinates for the blank but never covers a state with no 0, which is the case this test checks (expects None).",
+  "missing": "The docstring should state what the method returns when no element equals 0 (for example None, or an error), since a correct implementation could otherwise return anything or raise."
+}

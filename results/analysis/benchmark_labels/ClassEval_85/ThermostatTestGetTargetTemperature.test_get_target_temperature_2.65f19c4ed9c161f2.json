@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The `:return` clause names `self.current_temperature` and the example shows 37.5, while the test and reference code expect the stored `target_temperature` (25).",
+  "missing": "The docstring should say the method returns the target temperature value stored on the instance (the one set at construction), not the current temperature, and its return and example lines should name and show that same value."
+}

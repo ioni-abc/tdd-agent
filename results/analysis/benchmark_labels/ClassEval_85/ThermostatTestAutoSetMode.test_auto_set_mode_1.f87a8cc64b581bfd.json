@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule (current below target gives 'heat') directly yields the asserted 'heat' result, and the test's constructor order matches the docstring example.",
+  "missing": "none"
+}

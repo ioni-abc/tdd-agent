@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's \"all positions of the pattern in the text\" fully determines the expected output [0, 4] for this input, and the docstring example matches the same convention.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule \"return the name of the student whose gpa is highest\" directly yields \"Bob\" here, and the students without courses (Alice) do not compete for the top spot.",
+  "missing": "none"
+}

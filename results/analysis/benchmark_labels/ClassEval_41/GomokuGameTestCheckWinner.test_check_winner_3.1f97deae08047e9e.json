@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to return the symbol of a player with five in a row in any direction, which is exactly what O has here, and X's broken line of stones does not count.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says findall returns a list of all matching substrings for a regular expression pattern, which is exactly what this test checks, and the docstring's own example uses the same pattern.",
+  "missing": "none"
+}

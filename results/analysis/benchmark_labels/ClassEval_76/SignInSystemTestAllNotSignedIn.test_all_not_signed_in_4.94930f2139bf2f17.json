@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the usernames that are not signed in, which directly gives ['aaa'] for this setup.",
+  "missing": "none"
+}

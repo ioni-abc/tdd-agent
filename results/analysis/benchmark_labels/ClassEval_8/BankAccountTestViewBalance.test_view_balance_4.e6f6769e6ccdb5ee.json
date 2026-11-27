@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring \"Return the account balance\" directly implies the method returns the stored balance value, which the test checks (1500).",
+  "missing": "none"
+}

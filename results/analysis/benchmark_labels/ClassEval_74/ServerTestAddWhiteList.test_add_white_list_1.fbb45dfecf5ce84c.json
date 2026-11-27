@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the address is added to the whitelist, and its example shows the result as [88], which matches the test's check of the whitelist contents.",
+  "missing": "none"
+}

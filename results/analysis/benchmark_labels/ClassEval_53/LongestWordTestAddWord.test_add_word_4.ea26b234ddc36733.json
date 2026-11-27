@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the input word is appended to self.word_list, which directly implies the ordered list of all four appended words, duplicates included.",
+  "missing": "none"
+}

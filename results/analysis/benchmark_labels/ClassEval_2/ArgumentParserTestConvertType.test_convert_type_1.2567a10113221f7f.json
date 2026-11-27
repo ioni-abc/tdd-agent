@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it converts the value using the type registered in self.types for the argument and the example shows '21' becoming 21, so the test's expectation of 25 for '25' is covered.",
+  "missing": "none"
+}

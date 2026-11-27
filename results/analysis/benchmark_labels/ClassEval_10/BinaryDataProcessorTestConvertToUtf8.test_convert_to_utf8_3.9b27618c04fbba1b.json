@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The test's expected value follows directly from the docstring's description of converting the binary string to a UTF-8 string, since the first byte 01100000 is the backtick and the rest spell \"ello\".",
+  "missing": "none"
+}

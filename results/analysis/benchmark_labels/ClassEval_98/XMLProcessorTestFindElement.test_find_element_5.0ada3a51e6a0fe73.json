@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns a list of the elements with the given name, which is exactly what the test checks: three item elements whose text is 'aaa', 'bbb', 'ccc'.",
+  "missing": "none"
+}

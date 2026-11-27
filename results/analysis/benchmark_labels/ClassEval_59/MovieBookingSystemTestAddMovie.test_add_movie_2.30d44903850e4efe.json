@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "\"Add a new movie into self.movies\" implies each call appends one entry, so the length and name-order assertions follow from the docstring.",
+  "missing": "none"
+}

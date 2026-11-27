@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test expects the file's prior content (\"Initial content\") to be gone after write_text, so the read-back equals only the new text, but the docstring never says whether writing overwrites or appends.",
+  "missing": "The docstring should state whether writing replaces any existing content in the document file or adds to it, and what a subsequent read of the file returns after a write."
+}

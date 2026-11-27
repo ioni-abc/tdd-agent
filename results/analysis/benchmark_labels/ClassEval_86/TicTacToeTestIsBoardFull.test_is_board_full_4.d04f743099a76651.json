@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns a bool indicating whether the board is full, so a correct implementation returns True for a filled board, which is what the test asserts.",
+  "missing": "none"
+}

@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's own example shows that the population standard deviation rounded to two decimals is expected, and this test's data yields 1.12 under that same rule.",
+  "missing": "none"
+}

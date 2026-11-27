@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The segments assertion matches the docstring example, but the `with_end_tag` assertion checks an attribute the docstring never mentions, so a faithful implementation could fail it.",
+  "missing": "The docstring should say that a path ending in a trailing slash sets the object's `with_end_tag` attribute to True (and what it is otherwise), since that is an observable side effect tests check."
+}

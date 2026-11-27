@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says the stock is removed from the portfolio, but the test expects a partial sale to leave a holding of quantity 1 behind.",
+  "missing": "The docstring should state whether selling fewer shares than are held reduces the holding's quantity (leaving the remainder in the portfolio) or removes the whole entry, and how the sold quantity is taken from the stock dictionary."
+}

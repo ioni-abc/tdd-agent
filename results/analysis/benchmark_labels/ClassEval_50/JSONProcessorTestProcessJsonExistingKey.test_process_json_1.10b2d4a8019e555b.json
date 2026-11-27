@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method removes the specified key and rewrites the modified data to the file, which is exactly what the test checks by reading the file back and comparing it.",
+  "missing": "none"
+}

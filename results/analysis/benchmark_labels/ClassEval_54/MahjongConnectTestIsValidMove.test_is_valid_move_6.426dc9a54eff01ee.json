@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never defines what counts as a \"valid path\" (which cells can be traversed, whether passing over other icons is allowed), and the test's expected False depends on that rule.",
+  "missing": "The docstring should specify which cells a connecting path may pass through (for example, only cells holding the same icon or empty cells, and whether turns are limited), so that implementers can decide when two same-icon positions are blocked from each other."
+}

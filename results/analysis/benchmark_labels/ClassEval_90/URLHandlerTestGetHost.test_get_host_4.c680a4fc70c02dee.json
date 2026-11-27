@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the host domain name of the URL, and the test's expected \"aaa.com\" is that host, so a programmer following it would pass.",
+  "missing": "none"
+}

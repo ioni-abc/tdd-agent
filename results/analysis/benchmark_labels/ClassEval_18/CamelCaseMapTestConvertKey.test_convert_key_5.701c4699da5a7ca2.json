@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says to convert the key to camel case and gives an underscore-to-camelCase example, which directly determines the expected output of this test.",
+  "missing": "none"
+}

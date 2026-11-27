@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says fields are joined into the SELECT list, the condition defaults to None, and the example shows the \"FROM table ... ;\" format, so a programmer would produce \"SELECT field1 FROM table1;\".",
+  "missing": "none"
+}

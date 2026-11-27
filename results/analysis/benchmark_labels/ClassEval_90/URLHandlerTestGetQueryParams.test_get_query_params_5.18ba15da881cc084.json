@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns the URL's request parameters as a dict, and its example shows the same structure with string values, so the test's expected output follows directly.",
+  "missing": "none"
+}

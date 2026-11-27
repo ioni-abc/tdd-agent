@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the total as the cost of the cart's items and its worked example confirms the quantity \u00d7 price summation, which yields the test's expected 70.0.",
+  "missing": "none"
+}

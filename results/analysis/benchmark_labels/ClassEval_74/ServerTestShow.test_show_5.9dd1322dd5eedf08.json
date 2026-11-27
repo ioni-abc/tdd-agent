@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says show(\"send\") returns the send struct, and the test's assertion matches that struct from the earlier send call, regardless of the whitelist setup.",
+  "missing": "none"
+}

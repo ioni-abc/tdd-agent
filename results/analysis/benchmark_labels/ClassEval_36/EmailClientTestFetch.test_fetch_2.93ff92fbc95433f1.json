@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring only describes returning the first unread email and says nothing about the empty-inbox or no-unread case that this test checks.",
+  "missing": "The docstring should state what the method returns when there are no unread emails (for example, whether it returns None or raises an error) and whether it changes any state in that case."
+}

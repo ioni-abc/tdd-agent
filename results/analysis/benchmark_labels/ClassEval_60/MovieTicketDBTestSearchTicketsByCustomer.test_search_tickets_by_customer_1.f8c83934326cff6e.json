@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The test's assertions depend on the table having an id column at index 0 and on search_tickets_by_customer returning columns in a specific order, and the docstring says neither.",
+  "missing": "The docstring should state the table's column layout (including any auto-generated id column and its position) and the format of rows returned by the related search methods, so an implementation that follows the documented schema can be checked against index-based assertions."
+}

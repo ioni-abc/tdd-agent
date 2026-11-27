@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the method returns False when the user does not exist, and a new system with no registered users makes \"user1\" a nonexistent user, so the test's expected False follows from the documented rule.",
+  "missing": "none"
+}

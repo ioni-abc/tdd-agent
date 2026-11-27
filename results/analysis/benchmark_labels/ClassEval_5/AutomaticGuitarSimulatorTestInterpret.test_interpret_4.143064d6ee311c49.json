@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the Chord field holds the letters and Tune holds the numbers, so a single-chord input yields one dict matching the test's expected output.",
+  "missing": "none"
+}

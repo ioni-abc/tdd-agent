@@ -1,0 +1,5 @@
+{
+  "label": "contradicts",
+  "reason": "The docstring says all stop words are removed, but the test expects \"is\" (listed as a stop word) to remain in the output, matching the reference code's bug of removing from the list while iterating over it.",
+  "missing": "Every word that appears in the stop word list must be removed from each string, including consecutive stop words, and the result for each string is the list of remaining words in their original order."
+}

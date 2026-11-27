@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule (sentences end with . or ? followed by a space) directly produces the two expected pieces for this input.",
+  "missing": "none"
+}

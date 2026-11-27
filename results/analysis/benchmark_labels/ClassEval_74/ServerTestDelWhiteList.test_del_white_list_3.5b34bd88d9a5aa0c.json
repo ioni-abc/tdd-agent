@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring explicitly says the method returns False when the address does not exist, which is exactly what the test checks with a fresh server and an address not in the list.",
+  "missing": "none"
+}

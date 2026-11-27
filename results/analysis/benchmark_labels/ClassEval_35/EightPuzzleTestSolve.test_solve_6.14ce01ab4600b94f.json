@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the loop runs until open_list is empty, but it only promises a list of str as the return value and never says what is returned when no solution exists, which the test expects to be None.",
+  "missing": "The docstring should state the return value when no sequence of moves reaches the goal state (for example, whether it returns None or an empty list), including for boards that cannot be solved."
+}

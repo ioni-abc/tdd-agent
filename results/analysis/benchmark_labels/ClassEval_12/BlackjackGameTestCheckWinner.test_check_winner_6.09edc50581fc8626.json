@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's rule gives 'Player wins' here, and the result holds whether the ace counts as 1 or 11 (player 11 or 21, dealer 10), so no unstated convention affects the outcome.",
+  "missing": "none"
+}

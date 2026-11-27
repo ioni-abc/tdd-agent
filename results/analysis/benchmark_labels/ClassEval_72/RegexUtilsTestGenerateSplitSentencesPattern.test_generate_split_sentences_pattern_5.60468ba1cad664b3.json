@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring never says the boundary must include 1 to 2 whitespace characters or what `ru.match` returns, so the test's expected False is not specified.",
+  "missing": "The docstring should state in prose that the pattern requires one or two whitespace characters between the sentence-ending punctuation and the following uppercase letter, and that a text lacking that whitespace yields no match, with the matching helper returning a boolean."
+}

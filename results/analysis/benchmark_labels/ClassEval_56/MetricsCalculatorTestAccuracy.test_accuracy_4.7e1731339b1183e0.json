@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the metric as accuracy and its example confirms the correct-over-total computation, so a programmer following it would return 0.75 for this test.",
+  "missing": "none"
+}

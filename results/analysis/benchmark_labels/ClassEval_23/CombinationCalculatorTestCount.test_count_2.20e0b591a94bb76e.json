@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines count(n, m) as the number of combinations of n elements taken m at a time, so C(5,3)=10 follows directly from it.",
+  "missing": "none"
+}

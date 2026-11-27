@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the table is populated with the given list-of-lists data and describes the boolean success return, which covers the row/column counts and cell values the test asserts.",
+  "missing": "none"
+}

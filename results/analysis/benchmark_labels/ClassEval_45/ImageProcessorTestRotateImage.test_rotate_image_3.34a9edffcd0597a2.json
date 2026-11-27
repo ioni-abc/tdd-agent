@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring describes exactly the checked behaviour (rotate the opened image by the given degrees), so a programmer following it would produce the same pixels as PIL's rotate(270).",
+  "missing": "none"
+}

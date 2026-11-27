@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines add as summing two complex numbers and gives a worked example with the same arithmetic, so the test's expected sum follows directly.",
+  "missing": "none"
+}

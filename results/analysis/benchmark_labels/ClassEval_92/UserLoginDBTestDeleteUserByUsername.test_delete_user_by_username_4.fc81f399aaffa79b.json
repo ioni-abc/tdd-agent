@@ -1,0 +1,5 @@
+{
+  "label": "unstated",
+  "reason": "The docstring says the user is deleted by username but does not state what a later search for that username returns, so the expected None result is not stated.",
+  "missing": "The docstring should state that after a deletion, lookups for the removed record (for example by the same key through the companion search method) return no result, and what value is returned when no match exists."
+}

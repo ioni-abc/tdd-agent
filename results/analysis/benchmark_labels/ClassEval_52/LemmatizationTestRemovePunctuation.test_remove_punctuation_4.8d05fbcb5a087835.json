@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says the result is the sentence \"without any punctuation,\" so removing the ellipsis dots while leaving the space intact follows directly from it.",
+  "missing": "none"
+}

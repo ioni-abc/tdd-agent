@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring's doctest gives the same calendar, date, and expected output as the test, so a programmer following it would produce the asserted result.",
+  "missing": "none"
+}

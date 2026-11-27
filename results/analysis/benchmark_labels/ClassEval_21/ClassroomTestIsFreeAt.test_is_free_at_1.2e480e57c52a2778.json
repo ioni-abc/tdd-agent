@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring says it returns True when the check time does not conflict with any course time, and 11:00 is clearly outside the 09:00\u201310:00 course, so the test's expected True follows directly.",
+  "missing": "none"
+}

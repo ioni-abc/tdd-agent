@@ -1,0 +1,5 @@
+{
+  "label": "stated",
+  "reason": "The docstring defines the moves as the directions the blank can slide within the 3x3 grid, and its example gives the same answer as this test's input, so a correct implementation passes.",
+  "missing": "none"
+}
