@@ -27,6 +27,11 @@ from tdd_agent import config
 ANALYSIS = config.RESULTS_DIR / "analysis"
 LABELS_CSV = ANALYSIS / "benchmark_labels.csv"
 OUT_CSV = ANALYSIS / "rescore_stated.csv"
+RUNS = [
+    "baseline_2026-11-19T14-38-59",
+    "tdd_2026-11-19T14-38-58",
+    "tdd-own_2026-11-19T14-38-57",
+]
 GROUPS = ["stated", "unstated", "contradicts", "other_inconsistency", "no_method_info"]
 
 # "test_x (temp_file.TestClass.test_x) ... ok" -> test, class, rest of the line
@@ -88,11 +93,11 @@ def score(results: dict, group: dict) -> tuple[dict, dict]:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__.split("\n")[0])
-    parser.add_argument("--runs", help="comma-separated run folder names (default: every run in results/experiments)")
+    parser.add_argument("--runs", help="comma-separated run folder names (default: baseline, tdd, tdd-own)")
     args = parser.parse_args()
 
     group = read_labels(LABELS_CSV)
-    runs = args.runs.split(",") if args.runs else sorted(p.name for p in (config.RESULTS_DIR / "experiments").iterdir())
+    runs = args.runs.split(",") if args.runs else RUNS
 
     rows = []
     for name in runs:
