@@ -1,0 +1,16 @@
+run,group,passed,total
+baseline_2026-11-19T14-38-59,stated,929,957
+baseline_2026-11-19T14-38-59,unstated,193,265
+baseline_2026-11-19T14-38-59,contradicts,10,29
+baseline_2026-11-19T14-38-59,other_inconsistency,33,35
+baseline_2026-11-19T14-38-59,classes_hidden_stated,87,97
+tdd_2026-11-19T14-38-58,stated,949,957
+tdd_2026-11-19T14-38-58,unstated,261,265
+tdd_2026-11-19T14-38-58,contradicts,29,29
+tdd_2026-11-19T14-38-58,other_inconsistency,35,35
+tdd_2026-11-19T14-38-58,classes_hidden_stated,96,97
+tdd-own_2026-11-19T14-38-57,stated,928,957
+tdd-own_2026-11-19T14-38-57,unstated,180,265
+tdd-own_2026-11-19T14-38-57,contradicts,8,29
+tdd-own_2026-11-19T14-38-57,other_inconsistency,33,35
+tdd-own_2026-11-19T14-38-57,classes_hidden_stated,85,97

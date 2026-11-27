@@ -3,6 +3,7 @@
 From the project root:
     uv run python scripts/generate.py baseline                          # all 100 tasks
     uv run python scripts/generate.py baseline ClassEval_0 ClassEval_1  # only these
+    uv run python scripts/generate.py tdd-heldout                       # after scripts/make_split.py
 """
 
 import argparse
@@ -12,6 +13,7 @@ from dotenv import load_dotenv
 
 from tdd_agent.agents.baseline import BaselineAgent
 from tdd_agent.agents.tdd import TDDAgent
+from tdd_agent.agents.tdd_held_out import TDDHeldOutAgent
 from tdd_agent.agents.tdd_mixed_tests import TDDMixedTestsAgent
 from tdd_agent.agents.tdd_own_tests import TDDOwnTestsAgent
 from tdd_agent.agents.interface import Agent
@@ -25,6 +27,7 @@ AGENTS = {
     "tdd": TDDAgent,  # experiment 1: ClassEval's tests
     "tdd-own": TDDOwnTestsAgent,  # experiment 2: its own tests
     "tdd-mixed": TDDMixedTestsAgent,  # experiment 3: some of ClassEval's, the rest its own
+    "tdd-heldout": TDDHeldOutAgent,  # held-out: only the shown tests (data/held_out_split.json)
 }
 
 

@@ -56,6 +56,37 @@ def split_method_tests(test_code: str, ratio: float) -> tuple[str, int, int]:
     return header + "\n" + "\n\n".join(members), keep, len(tests)
 
 
+def select_tests(test_code: str, names: set[str]) -> str:
+    """Keep only the test methods whose names are in `names` (held-out experiment).
+
+    setUp, tearDown and other helpers stay. ClassEval's test_code is one test class.
+    Returns "" when no test is kept.
+    """
+    if not test_code.strip() or not names:
+        return ""
+    lines = test_code.splitlines()
+    cls = ast.parse(test_code).body[0]
+
+    def start(node) -> int:
+        return min([node.lineno] + [d.lineno for d in getattr(node, "decorator_list", [])])
+
+    def is_test(n) -> bool:
+        return isinstance(n, ast.FunctionDef) and n.name.startswith("test")
+
+    kept = [n for n in cls.body if not is_test(n) or n.name in names]
+    header = "\n".join(lines[start(cls) - 1 : start(cls.body[0]) - 1])
+    members = ["\n".join(lines[start(n) - 1 : n.end_lineno]) for n in kept]
+    return header + "\n" + "\n\n".join(members)
+
+
+def method_test_names(test_code: str) -> list[str]:
+    """The names of the test methods in one method's test class, in file order."""
+    if not test_code.strip():
+        return []
+    cls = ast.parse(test_code).body[0]
+    return [n.name for n in cls.body if isinstance(n, ast.FunctionDef) and n.name.startswith("test")]
+
+
 def methods_in_order(task: dict) -> list[dict]:
     """The task's methods, each one after the methods it calls (its method_dependencies).
 

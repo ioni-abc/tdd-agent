@@ -8,3 +8,4 @@ RESULTS_DIR = PROJECT_ROOT / "results"
 TIMEOUT_SECONDS = 5  # per test run, as in the ClassEval paper and the prototype
 MODEL = "claude-haiku-5-5"
 MAX_TOKENS = 8000
+HELD_OUT_SPLIT_PATH = PROJECT_ROOT / "data" / "held_out_split.json"  # written by scripts/make_split.py
