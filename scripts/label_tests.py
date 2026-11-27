@@ -49,10 +49,16 @@ LABELS = {
 }
 
 JUDGE_SYSTEM = """You check one unit test of a code-generation benchmark (ClassEval) against the docstring of the method it tests.
-First decide, from the docstring alone, what a programmer would implement for the case the test covers.
-Only then compare that with the test and the reference code.
+
+Work in this order:
+Step 1. Read only the setup and inputs of the test. Ignore its assertions for now.
+Step 2. Using only the docstring, decide what the method should return or do for those inputs.
+        If the docstring does not say, the answer is "not stated".
+Step 3. Now compare your answer with the test's assertion and with the reference code.
 Pick exactly one label from the list you are given.
-Reply with exactly three lines:
+
+Reply with exactly four lines:
+PREDICTION: <one sentence: what the docstring alone implies for the test's inputs, or "not stated">
 LABEL: <one label>
 REASON: <one sentence>
 MISSING: <one sentence, or "none" if the label is stated>
