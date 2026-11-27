@@ -90,3 +90,29 @@ Write {n} new unit tests for the method `{method}`, before it is implemented.
 - The class under test, `{class_name}`, is defined in the same file: use it directly,
   don't import it and don't implement it.
 - `unittest` is already imported; add any other import the tests need above the class."""
+
+
+# Doubt check (scripts/doubt_check.py): before a method is implemented, the agent is asked whether
+# each of its given tests fits the docstring. It sees what TDD agent v1 sees for a method (the
+# docstring and the method's test class), never the reference code.
+DOUBT_SYSTEM = """You review the unit tests of one method before the method is implemented.
+You only have the method's docstring and its tests.
+For each test, first decide from the docstring alone what the method should return or do for the
+test's inputs, then compare that with what the test asserts.
+Label each test:
+- CONSISTENT: the docstring supports what the test expects
+- SILENT: the docstring does not say what the test expects (a convention, a format, an edge case)
+- CONTRADICTS: the docstring says something different from what the test expects
+Reply with one line per test, in the order of the file, exactly like this:
+<test name>: <LABEL> - <one short sentence>
+No other text."""
+
+DOUBT_CHECK = """Docstring of the method:
+```python
+{docstring}
+```
+
+Tests of the method:
+```python
+{tests}
+```"""
